@@ -1,6 +1,7 @@
 """
 Aegis Equity Terminal - Streamlit Web Application
 Astigmatism-Friendly & High-Legibility Dark Theme.
+Includes Enter Key search submission & Live Trending Equities from ApeWisdom/StockTwits.
 """
 import streamlit as st
 import plotly.graph_objects as go
@@ -12,11 +13,17 @@ from stock_bot.sentiment_analysis import analyze_sentiment
 from stock_bot.qualitative_analysis import analyze_qualitative_factors
 from stock_bot.scoring_engine import compute_overall_signal
 from stock_bot.config import format_currency
+from stock_bot.trending import get_trending_tickers
 
 def clean_html(html_str: str) -> str:
     """Strips leading whitespace from lines to prevent Markdown from converting HTML into code blocks."""
     lines = [line.strip() for line in html_str.strip().splitlines()]
     return "".join(lines)
+
+@st.cache_data(ttl=1800)
+def fetch_cached_trending():
+    """Caches trending tickers for 30 minutes."""
+    return get_trending_tickers(limit=6)
 
 # ─── Astigmatism-Friendly & High Legibility CSS ───
 M3_DARK_CSS = """
@@ -70,14 +77,14 @@ div[data-baseweb="input"] input {
     padding: 12px 16px !important;
 }
 
-/* Reduced Brightness Button (Non-Glare Matte Violet) */
-.stButton > button, div.stButton > button[kind="primary"] {
+/* Reduced Brightness Buttons (Matte Violet) */
+.stButton > button, div.stButton > button[kind="primary"], form button {
     background-color: var(--btn-bg) !important;
     color: var(--btn-text) !important;
     font-family: 'Google Sans', sans-serif !important;
     font-weight: 700 !important;
-    font-size: 1.3rem !important;
-    padding: 16px 32px !important;
+    font-size: 1.25rem !important;
+    padding: 14px 28px !important;
     border-radius: 14px !important;
     border: 1px solid #6B46C1 !important;
     box-shadow: none !important;
@@ -85,10 +92,21 @@ div[data-baseweb="input"] input {
     cursor: pointer !important;
 }
 
-.stButton > button:hover, div.stButton > button[kind="primary"]:hover {
+.stButton > button:hover, div.stButton > button[kind="primary"]:hover, form button:hover {
     background-color: var(--btn-hover) !important;
     color: #FFFFFF !important;
     border-color: #8B5CF6 !important;
+}
+
+/* Trending Quick Chips */
+.trending-chip-btn {
+    background: #1E1E2E !important;
+    border: 1px solid #383854 !important;
+    color: #CBA6F7 !important;
+    font-size: 1.05rem !important;
+    font-weight: 600 !important;
+    border-radius: 10px !important;
+    padding: 8px 14px !important;
 }
 
 /* Cards */
@@ -531,6 +549,12 @@ st.set_page_config(
 
 st.markdown(M3_DARK_CSS, unsafe_allow_html=True)
 
+# Session state initialization for quick selection
+if "active_ticker" not in st.session_state:
+    st.session_state["active_ticker"] = ""
+
+selected_by_quick_chip = None
+
 # ── Sidebar Setup ──
 with st.sidebar:
     st.markdown(clean_html("""
@@ -544,15 +568,31 @@ with st.sidebar:
 
     st.markdown("---")
 
-    st.markdown("<h3 style='font-size: 1.4rem; color: #E2E8F0;'>Stock Search</h3>", unsafe_allow_html=True)
+    # ── Enter-Key Search Form ──
+    st.markdown("<h3 style='font-size: 1.35rem; color: #E2E8F0; margin-bottom: 8px;'>Stock Search</h3>", unsafe_allow_html=True)
 
-    ticker_input = st.text_input(
-        "Enter Ticker Symbol",
-        placeholder="e.g. AAPL, NVDA, CBA.AX",
-        help="Supports US (AAPL, TSLA) and International equities (CBA.AX, SHEL.L, SAP.DE)"
-    )
+    with st.form("search_form", clear_on_submit=False):
+        ticker_input = st.text_input(
+            "Ticker Symbol (Press Enter)",
+            value=st.session_state.get("active_ticker", ""),
+            placeholder="e.g. NVDA, GME, CBA.AX",
+            help="Type any symbol and press Enter on your keyboard to run live analysis"
+        )
+        submit_btn = st.form_submit_button("🔍  Run Analysis", type="primary", use_container_width=True)
 
-    submit_btn = st.button("🔍  Run Analysis", type="primary", use_container_width=True)
+    # ── Live Trending Quick Access Buttons ──
+    st.markdown("---")
+    st.markdown("<h4 style='font-size: 1.2rem; color: #CBA6F7; margin-bottom: 12px; display: flex; align-items: center; gap: 8px;'><span class='material-symbols-outlined'>local_fire_department</span> Trending Stocks Today</h4>", unsafe_allow_html=True)
+
+    trending_list = fetch_cached_trending()
+    
+    # 2 columns of quick access buttons
+    t_cols = st.columns(2)
+    for idx, t_sym in enumerate(trending_list):
+        col_target = t_cols[idx % 2]
+        with col_target:
+            if st.button(f"🔥 {t_sym}", key=f"btn_trend_{t_sym}", use_container_width=True):
+                selected_by_quick_chip = t_sym
 
     st.markdown("---")
     st.markdown(clean_html("""
@@ -568,12 +608,17 @@ with st.sidebar:
     """), unsafe_allow_html=True)
 
     st.markdown("---")
-    st.caption("Aegis Equity Engine v2.0")
+    st.caption("Aegis Equity Engine v2.0 &bull; ApeWisdom / StockTwits")
 
-# ── Main Content Area ──
-target_ticker = ticker_input.strip().upper() if ticker_input else None
+# ── Main Content Execution ──
+target_ticker = None
 
-if submit_btn and target_ticker:
+if selected_by_quick_chip:
+    target_ticker = selected_by_quick_chip
+elif submit_btn and ticker_input.strip():
+    target_ticker = ticker_input.strip().upper()
+
+if target_ticker:
     try:
         data, tech, sent, qual, sig = run_analysis(target_ticker)
         render_report(data, tech, sent, qual, sig)
@@ -582,14 +627,14 @@ if submit_btn and target_ticker:
 else:
     # Welcome Landing Page
     landing_html = """
-    <div style="text-align: center; padding: 90px 20px;">
+    <div style="text-align: center; padding: 80px 20px;">
         <div style="display: inline-block; background: #242438; border: 1px solid #383854; border-radius: 40px; padding: 32px; margin-bottom: 32px;">
             <span class="material-symbols-outlined" style="font-size: 5rem; color: #CBA6F7;">shield_with_house</span>
         </div>
         <h1 style="font-family: 'Google Sans', sans-serif; color: #E2E8F0; font-weight: 700; font-size: 3.6rem; margin-bottom: 20px;">Aegis Equity Terminal</h1>
-        <p style="color: #A6ADC8; font-size: 1.45rem; max-width: 780px; margin: 0 auto 40px auto; line-height: 1.7;">Enter any equity ticker symbol in the sidebar to execute a complete 6-pillar quantitative report covering financial health, valuation multiples, technical momentum, news sentiment, analyst targets, and macroeconomic positioning.</p>
+        <p style="color: #A6ADC8; font-size: 1.45rem; max-width: 780px; margin: 0 auto 40px auto; line-height: 1.7;">Enter any equity ticker in the search bar and press <strong>Enter</strong>, or select a live trending stock from the sidebar quick access buttons.</p>
         <div style="display: flex; justify-content: center; gap: 18px; flex-wrap: wrap;">
-            <span class="m3-chip m3-chip-buy" style="font-size: 1.15rem;">🇺🇸 US Equities (AAPL, NVDA, TSLA)</span>
+            <span class="m3-chip m3-chip-buy" style="font-size: 1.15rem;">🇺🇸 US Equities (NVDA, GME, TSLA)</span>
             <span class="m3-chip m3-chip-buy" style="font-size: 1.15rem;">🇦🇺 ASX Equities (CBA.AX, BHP.AX)</span>
             <span class="m3-chip m3-chip-buy" style="font-size: 1.15rem;">🇬🇧 LSE Equities (SHEL.L, AZN.L)</span>
             <span class="m3-chip m3-chip-buy" style="font-size: 1.15rem;">🇪🇺 EU Equities (SAP.DE)</span>

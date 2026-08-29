@@ -1,0 +1,35 @@
+name: Update Trending Equities Cache
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+
+jobs:
+  update-trending:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4
+
+      - name: Fetch Live Trending Equities
+        run: |
+          python stock_bot/trending.py
+
+      - name: Commit and Push Updated Cache
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add stock_bot/trending_cache.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: auto-update trending equities cache" && git push)
