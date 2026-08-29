@@ -3,6 +3,31 @@ Configuration settings, scoring weights, and market metadata for Stock Analysis 
 """
 
 # Scoring Weights for the Multi-Factor Signal Model (Total: 1.0)
+#
+# QUANTITATIVE METHODOLOGY NOTE:
+# These weights are derived from a heuristic multi-factor fundamental tilting framework
+# (anchored in classic Quality & Value factor investing principles, e.g., MSCI / Fama-French):
+#
+# 1. Fundamental & Valuation Core (45% total):
+#    - Fundamentals (25%): Capital efficiency (ROE), profit margins, revenue growth, cash flow & balance sheet solvency.
+#    - Valuation (20%): Trailing/Forward P/E, PEG ratio, Price-to-Sales (margin of safety).
+#    * Reason: Anchors the composite model against speculative hype by prioritizing intrinsic economic health.
+#
+# 2. Market Timing & Sentiment Layer (45% total):
+#    - Technicals (15%): Trend momentum (RSI, 50/200 SMA, MACD).
+#    - Sentiment (15%): News sentiment, NLP polarity, and social volume velocity.
+#    - Analyst Consensus (15%): Wall Street price targets, recommendation revisions, and upside potential.
+#    * Reason: Prevents buying sound companies prematurely during downward momentum or downgrade cycles.
+#
+# 3. Macro & Moat Context (10% total):
+#    - Macro/Industry (10%): Central bank interest rate sensitivity, economic moat, and pricing power.
+#    * Reason: High-level regime filter.
+#
+# NOTE ON BACKTESTING & OUT-OF-SAMPLE (OOS) HIT RATE:
+# These are expert-defined heuristic weights to avoid lookahead/overfitting bias from machine-learning
+# hyperparameter optimization (which often fails across regime shifts, e.g., 2022 rate hike shifts).
+# An empirical out-of-sample (OOS) backtest suite (e.g., historical Walk-Forward Optimization against CRSP/Compustat)
+# is not included in this live execution engine.
 WEIGHTS = {
     "fundamentals": 0.25,
     "valuation": 0.20,
@@ -48,17 +73,17 @@ def get_exchange_info(symbol: str) -> dict:
         suffix = symbol.split(".")[-1].upper()
         if suffix in EXCHANGE_MAP:
             return EXCHANGE_MAP[suffix]
-    
+        
     # Default to US market if no known suffix
     return {
         "country": "United States",
-        "exchange": "US (NYSE/NASDAQ)",
-        "central_bank": "Federal Reserve (Fed)",
+        "exchange": "NYSE/NASDAQ",
+        "central_bank": "Federal Reserve (FED)",
         "currency_symbol": "$"
     }
 
 def format_currency(val: float, currency_code: str = "USD") -> str:
-    """Format large currency values nicely (K, M, B, T)."""
+    """Format large currency values nicely (K, M, B, T) with locale-appropriate currency prefix."""
     if val is None:
         return "N/A"
     
@@ -69,7 +94,7 @@ def format_currency(val: float, currency_code: str = "USD") -> str:
         prefix = "€"
     elif currency_code == "GBP" or currency_code == "GBp":
         prefix = "£"
-        if currency_code == "GBp": # Pence
+        if currency_code == "GBp":  # Pence
             val = val / 100.0
     elif currency_code == "CAD":
         prefix = "C$"
@@ -77,6 +102,10 @@ def format_currency(val: float, currency_code: str = "USD") -> str:
         prefix = "¥"
     elif currency_code == "INR":
         prefix = "₹"
+    elif currency_code == "HKD":
+        prefix = "HK$"
+    elif currency_code == "CNY":
+        prefix = "¥"
 
     sign = "-" if val < 0 else ""
     abs_val = abs(val)

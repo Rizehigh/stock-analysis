@@ -2,6 +2,14 @@
 Scoring Engine module for Stock Analysis Bot.
 Synthesizes all 6 pillars (Fundamentals, Valuation, Technicals, Sentiment, Analyst Consensus, Macro/Moat)
 into a 0-100 composite score, Buy/Sell/Hold signal, and confidence rating.
+
+Multi-Factor Weighting Architecture:
+- Fundamentals (25%) + Valuation (20%) = 45% Intrinsic Financial Solvency & Margin of Safety
+- Technicals (15%) + Sentiment (15%) + Analyst Consensus (15%) = 45% Market Momentum & Timing
+- Macro & Industry Moat (10%) = High-level Macro Regime Filter
+
+Note: Weights are heuristic factor-tilted allocations (MSCI Quality/Value methodology).
+They avoid overfitting static ML weights to historical bull-market data. No empirical OOS backtest engine is included.
 """
 
 import numpy as np
@@ -189,6 +197,9 @@ def compute_overall_signal(
     Synthesizes all 6 pillars into a composite score, signal, and confidence level.
     """
     # 1. Compute Individual Pillar Scores
+    #    Each pillar function maps raw financial metrics to a 0-100 sub-score via
+    #    rule-based thresholds (not ML-fitted). Thresholds are drawn from widely
+    #    accepted fundamental benchmarks (e.g., ROE > 20% = exceptional, P/E < 15 = value).
     fund_score, fund_pos, fund_neg = calculate_fundamentals_score(data)
     val_score, val_pos, val_neg = calculate_valuation_score(data)
     tech_score = tech_results.get("technical_score", 50.0)
@@ -197,6 +208,14 @@ def compute_overall_signal(
     macro_score = qual_results.get("qualitative_score", 50.0)
 
     # 2. Weighted Composite Score
+    #    Weights are heuristic factor-tilted allocations (see config.py for full rationale).
+    #    The 45/45/10 split between {Fundamentals+Valuation}, {Technicals+Sentiment+Analyst},
+    #    and {Macro} is a deliberate design choice to balance long-term intrinsic value assessment
+    #    against short-term momentum timing, while keeping macro as a lightweight regime filter.
+    #    These weights have NOT been optimized via historical backtest or ML hyperparameter search.
+    #    Fitting weights to past data (e.g., via logistic regression on 2012-2021 returns) risks
+    #    overfitting to a specific market regime (prolonged low-rate bull market) and breaking
+    #    during regime shifts (e.g., 2022 rate hikes where value outperformed growth).
     composite_score = (
         (fund_score * WEIGHTS["fundamentals"]) +
         (val_score * WEIGHTS["valuation"]) +
@@ -208,6 +227,8 @@ def compute_overall_signal(
     composite_score = round(composite_score, 1)
 
     # 3. Determine Signal
+    #    Maps composite score to a discrete signal via fixed threshold bands (config.py).
+    #    Thresholds are symmetric around the 50 neutral midpoint.
     signal = "HOLD"
     for s_name, (low, high) in SIGNAL_THRESHOLDS.items():
         if low <= composite_score <= high:
@@ -215,6 +236,10 @@ def compute_overall_signal(
             break
 
     # 4. Determine Confidence Percentage
+    #    Confidence reflects inter-pillar agreement (low std dev = high agreement = high confidence)
+    #    and data completeness (more non-null key metrics = more reliable signal).
+    #    This is a heuristic proxy, not a calibrated probability. It does not represent
+    #    a statistical p-value or a backtest-derived win-rate.
     pillar_scores = [fund_score, val_score, tech_score, sent_score, analyst_score, macro_score]
     std_dev = float(np.std(pillar_scores))
     
