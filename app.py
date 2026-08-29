@@ -16,8 +16,7 @@ from stock_bot.config import format_currency
 
 def clean_html(html_str: str) -> str:
     """Strips leading whitespace from lines to prevent Markdown from converting HTML into code blocks."""
-    lines = [line.strip() for line in html_str.strip().split('
-')]
+    lines = [line.strip() for line in html_str.strip().splitlines()]
     return "".join(lines)
 
 # ─── Material Design 3 Dark: Custom CSS Injection ───
