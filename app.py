@@ -1,8 +1,3 @@
-"""
-Aegis Equity Terminal - Streamlit Web Application
-Astigmatism-Friendly & High-Legibility Dark Theme.
-Includes 1-5 Stock Multi-Equity Comparator & Header Quick "+ Add to Compare" Button.
-"""
 import sys
 import os
 
@@ -378,13 +373,19 @@ def render_report(data, tech, sent, qual, sig):
     hdr_col1, hdr_col2 = st.columns([3.5, 1])
     with hdr_col2:
         if st.button("➕  Compare Stock", key=f"add_to_comp_{symbol}", use_container_width=True):
-            if "compare_list" not in st.session_state:
-                st.session_state["compare_list"] = []
-            if symbol not in st.session_state["compare_list"]:
-                if len(st.session_state["compare_list"]) >= 5:
-                    st.session_state["compare_list"].pop(0)
-                st.session_state["compare_list"].append(symbol)
+            # Pre-fill comparison list with symbol + AMD/NVDA if needed
+            comp_str = st.session_state.get("compare_query", "")
+            tokens = [t.strip().upper() for t in comp_str.split(",") if t.strip()]
+            if symbol not in tokens:
+                tokens.append(symbol)
+            if len(tokens) == 1:
+                # Add default peer if only one
+                peer = "AMD" if symbol != "AMD" else "NVDA"
+                tokens.append(peer)
+            
+            st.session_state["compare_query"] = ", ".join(tokens)
             st.session_state["mode_radio"] = "Compare Equities"
+            st.session_state["active_compare_run"] = ", ".join(tokens)
             st.rerun()
 
     header_html = f"""
@@ -515,13 +516,13 @@ def render_report(data, tech, sent, qual, sig):
 
 
 def render_multi_comparison(tickers: list):
-    """Renders multi-equity comparison for up to 5 stocks."""
+    """Renders multi-equity comparison for up to 5 stocks (No Leaderboard)."""
     tickers = list(dict.fromkeys([t.upper().strip() for t in tickers if t.strip()]))[:5]
     if not tickers:
         st.warning("Please enter at least 1 ticker to compare.")
         return
 
-    st.markdown(clean_html(f'<div class="m3-section-title"><span class="material-symbols-outlined">compare_arrows</span> Multi-Equity Leaderboard: {" vs ".join(tickers)}</div>'), unsafe_allow_html=True)
+    st.markdown(clean_html(f'<div class="m3-section-title"><span class="material-symbols-outlined">compare_arrows</span> Multi-Stock Comparison: {" vs ".join(tickers)}</div>'), unsafe_allow_html=True)
     
     data_map = {}
     sig_map = {}
@@ -532,34 +533,15 @@ def render_multi_comparison(tickers: list):
             data_map[t] = data
             sig_map[t] = sig
 
-    # 1. Leaderboard Ranking Cards
-    ranked = sorted(tickers, key=lambda sym: sig_map[sym]["composite_score"], reverse=True)
-    
-    leader_html = f'<div class="m3-card" style="border-color: #CBA6F7;"><h3 style="color: #CBA6F7; margin: 0 0 16px 0; font-size: 1.6rem;">🏆 Quant Leaderboard</h3><div style="display: flex; gap: 20px; flex-wrap: wrap;">'
-    for idx, sym in enumerate(ranked):
-        score = sig_map[sym]["composite_score"]
-        sig_badge = sig_map[sym]["signal"]
-        color = PALETTE[tickers.index(sym) % len(PALETTE)]
-        rank_badge = "🥇 1st" if idx == 0 else ("🥈 2nd" if idx == 1 else ("🥉 3rd" if idx == 2 else f"#{idx+1}"))
-        leader_html += f"""
-        <div style="background: #1E1E2E; border: 1px solid #383854; border-radius: 16px; padding: 20px; flex: 1; min-width: 180px;">
-            <p style="margin: 0; font-size: 1.1rem; color: {color}; font-weight: 700;">{rank_badge} &bull; {sym}</p>
-            <p style="margin: 8px 0; font-size: 1.8rem; font-weight: 700; color: #FFFFFF;">{score}/100</p>
-            <p style="margin: 0; font-size: 1rem; color: #A6ADC8;">{sig_badge}</p>
-        </div>
-        """
-    leader_html += '</div></div>'
-    st.markdown(clean_html(leader_html), unsafe_allow_html=True)
-
-    # 2. Multi-Bar 6-Pillar Chart
-    st.markdown(clean_html('<div class="m3-section-title"><span class="material-symbols-outlined">bar_chart</span> 6-Pillar Score Comparison</div>'), unsafe_allow_html=True)
+    # 1. Multi-Bar 6-Pillar Chart
+    st.markdown(clean_html('<div class="m3-section-title"><span class="material-symbols-outlined">bar_chart</span> 6-Pillar Score Breakdown</div>'), unsafe_allow_html=True)
     st.plotly_chart(build_multi_pillar_chart(sig_map), use_container_width=True, key=f"multi-comp-chart-{''.join(tickers)}")
 
-    # 3. Detailed Matrix Table
+    # 2. Detailed Matrix Table
     st.markdown(clean_html('<div class="m3-section-title"><span class="material-symbols-outlined">table_view</span> Financial & Valuation Metrics Matrix</div>'), unsafe_allow_html=True)
     st.markdown(clean_html(render_multi_comparison_table(data_map, sig_map)), unsafe_allow_html=True)
 
-    # 4. Catalysts & Risks Grid
+    # 3. Catalysts & Risks Grid
     st.markdown(clean_html('<div class="m3-section-title"><span class="material-symbols-outlined">shield</span> Top Catalysts & Risks</div>'), unsafe_allow_html=True)
     
     grid_cols = st.columns(min(len(tickers), 3))
@@ -588,11 +570,11 @@ st.set_page_config(
 
 st.markdown(M3_DARK_CSS, unsafe_allow_html=True)
 
-if "compare_list" not in st.session_state:
-    st.session_state["compare_list"] = ["NVDA", "AMD"]
-
 if "mode_radio" not in st.session_state:
     st.session_state["mode_radio"] = "Single Stock Analysis"
+
+if "compare_query" not in st.session_state:
+    st.session_state["compare_query"] = "NVDA, AMD"
 
 selected_by_quick_chip = None
 
@@ -619,12 +601,12 @@ with st.sidebar:
     if mode == "Single Stock Analysis":
         st.markdown("<h3 style='font-size: 1.35rem; color: #E2E8F0; margin-bottom: 8px;'>Stock Search</h3>", unsafe_allow_html=True)
         with st.form("single_search_form", clear_on_submit=False):
-            ticker_input = st.text_input(
+            single_input = st.text_input(
                 "Ticker Symbol (Press Enter)",
                 placeholder="e.g. NVDA, GME, CBA.AX",
                 help="Type any symbol and press Enter to run live analysis"
             )
-            submit_btn = st.form_submit_button("🔍  Run Analysis", type="primary", use_container_width=True)
+            single_submit_btn = st.form_submit_button("🔍  Run Analysis", type="primary", use_container_width=True)
 
         st.markdown("---")
         st.markdown("<h4 style='font-size: 1.2rem; color: #CBA6F7; margin-bottom: 12px; display: flex; align-items: center; gap: 8px;'><span class='material-symbols-outlined'>local_fire_department</span> Trending Stocks Today</h4>", unsafe_allow_html=True)
@@ -636,31 +618,16 @@ with st.sidebar:
                     selected_by_quick_chip = t_sym
 
     else:
-        st.markdown("<h3 style='font-size: 1.35rem; color: #E2E8F0; margin-bottom: 8px;'>Compare (Up to 5 Stocks)</h3>", unsafe_allow_html=True)
-        
-        # Display selected chips in compare_list
-        st.write("Selected Tickers:")
-        chip_cols = st.columns(len(st.session_state["compare_list"]) if st.session_state["compare_list"] else 1)
-        for idx, sym in enumerate(list(st.session_state["compare_list"])):
-            with chip_cols[idx]:
-                if st.button(f"❌ {sym}", key=f"rem_{sym}", help=f"Remove {sym} from comparison"):
-                    st.session_state["compare_list"].remove(sym)
-                    st.rerun()
+        st.markdown("<h3 style='font-size: 1.35rem; color: #E2E8F0; margin-bottom: 8px;'>Compare Equities</h3>", unsafe_allow_html=True)
+        with st.form("compare_search_form", clear_on_submit=False):
+            comp_input = st.text_input(
+                "Stock Tickers (Press Enter)",
+                value=st.session_state.get("compare_query", "NVDA, AMD"),
+                placeholder="e.g. NVDA, AMD, MSFT (up to 5)",
+                help="Type up to 5 comma-separated stock tickers and press Enter"
+            )
+            comp_submit_btn = st.form_submit_button("⚔️  Run Comparison", type="primary", use_container_width=True)
 
-        comp_text = st.text_input(
-            "Add Ticker (e.g. MSFT, AAPL)",
-            placeholder="Type ticker & press Enter",
-            key="add_comp_input"
-        )
-        if comp_text.strip():
-            new_sym = comp_text.strip().upper()
-            if new_sym not in st.session_state["compare_list"]:
-                if len(st.session_state["compare_list"]) >= 5:
-                    st.session_state["compare_list"].pop(0)
-                st.session_state["compare_list"].append(new_sym)
-                st.rerun()
-
-        comp_submit_btn = st.button("⚔️  Compare Equities", type="primary", use_container_width=True)
 
     st.markdown("---")
     st.markdown(clean_html("""
@@ -676,7 +643,7 @@ with st.sidebar:
     """), unsafe_allow_html=True)
 
     st.markdown("---")
-    st.caption("Aegis Equity Engine v2.0 &bull; Multi-Stock Comparator")
+    st.caption("Aegis Equity Engine v2.0 &bull; Stock Comparator")
 
 
 # ── Main Content Execution ──
@@ -684,8 +651,8 @@ if mode == "Single Stock Analysis":
     target_ticker = None
     if selected_by_quick_chip:
         target_ticker = selected_by_quick_chip
-    elif 'submit_btn' in locals() and submit_btn and ticker_input.strip():
-        target_ticker = ticker_input.strip().upper()
+    elif 'single_submit_btn' in locals() and single_submit_btn and single_input.strip():
+        target_ticker = single_input.strip().upper()
 
     if target_ticker:
         try:
@@ -712,12 +679,23 @@ if mode == "Single Stock Analysis":
         st.markdown(clean_html(landing_html), unsafe_allow_html=True)
 
 else:
-    # Compare Mode
-    if st.session_state["compare_list"]:
+    # Compare Mode Execution
+    run_tickers = []
+    
+    if st.session_state.get("active_compare_run"):
+        run_tickers = [t.strip().upper() for t in st.session_state["active_compare_run"].split(",") if t.strip()]
+        st.session_state["active_compare_run"] = None
+    elif 'comp_submit_btn' in locals() and comp_submit_btn and comp_input.strip():
+        run_tickers = [t.strip().upper() for t in comp_input.strip().split(",") if t.strip()]
+        st.session_state["compare_query"] = comp_input.strip()
+    elif st.session_state.get("compare_query"):
+        run_tickers = [t.strip().upper() for t in st.session_state["compare_query"].split(",") if t.strip()]
+
+    if run_tickers:
         try:
-            render_multi_comparison(st.session_state["compare_list"])
+            render_multi_comparison(run_tickers)
         except Exception as e:
-            st.error(f"Error executing comparison for {st.session_state['compare_list']}: {e}")
+            st.error(f"Error executing comparison for {run_tickers}: {e}")
     else:
         landing_comp_html = """
         <div style="text-align: center; padding: 80px 20px;">
@@ -725,7 +703,7 @@ else:
                 <span class="material-symbols-outlined" style="font-size: 5rem; color: #86EFAC;">compare_arrows</span>
             </div>
             <h1 style="font-family: 'Google Sans', sans-serif; color: #E2E8F0; font-weight: 700; font-size: 3.6rem; margin-bottom: 20px;">Multi-Equity Stock Comparison</h1>
-            <p style="color: #A6ADC8; font-size: 1.45rem; max-width: 780px; margin: 0 auto 40px auto; line-height: 1.7;">Add up to 5 ticker symbols in the sidebar (e.g. <strong>NVDA, AMD, MSFT, AAPL, TSLA</strong>) to compare their composite leaderboard ranks, 6-pillar radar, valuation multiples, and bull/bear catalysts side-by-side.</p>
+            <p style="color: #A6ADC8; font-size: 1.45rem; max-width: 780px; margin: 0 auto 40px auto; line-height: 1.7;">Type up to 5 stock tickers separated by commas (e.g. <strong>NVDA, AMD, MSFT, AAPL, TSLA</strong>) and press Enter to compare side-by-side.</p>
         </div>
         """
         st.markdown(clean_html(landing_comp_html), unsafe_allow_html=True)
