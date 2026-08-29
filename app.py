@@ -363,30 +363,35 @@ def run_analysis(ticker: str):
     return data, tech, sent, qual, sig
 
 def render_report(data, tech, sent, qual, sig):
-    """Renders complete Material Design 3 Dark report with header '+ Add to Compare' button."""
+    """Renders complete Material Design 3 Dark report with header inline compare search form."""
     curr = data.get("currency", "USD")
     symbol = data["symbol"]
     price_str = format_currency(data.get("current_price"), curr)
     mcap_str = format_currency(data.get("market_cap"), curr)
 
-    # ── Top Bar Header + '+ Add to Compare' Button ──
-    hdr_col1, hdr_col2 = st.columns([3.5, 1])
+    # ── Top Bar Header + Dynamic Compare Search Bar ──
+    hdr_col1, hdr_col2 = st.columns([2.8, 1.4])
     with hdr_col2:
-        if st.button("➕  Compare Stock", key=f"add_to_comp_{symbol}", use_container_width=True):
-            # Pre-fill comparison list with symbol + AMD/NVDA if needed
-            comp_str = st.session_state.get("compare_query", "")
-            tokens = [t.strip().upper() for t in comp_str.split(",") if t.strip()]
-            if symbol not in tokens:
-                tokens.append(symbol)
-            if len(tokens) == 1:
-                # Add default peer if only one
-                peer = "AMD" if symbol != "AMD" else "NVDA"
-                tokens.append(peer)
-            
-            st.session_state["compare_query"] = ", ".join(tokens)
-            st.session_state["mode_radio"] = "Compare Equities"
-            st.session_state["active_compare_run"] = ", ".join(tokens)
-            st.rerun()
+        is_comparing = st.session_state.get(f"show_inline_comp_{symbol}", False)
+        if is_comparing:
+            with st.form(f"inline_compare_form_{symbol}", clear_on_submit=False):
+                compare_target = st.text_input(
+                    f"Compare {symbol} with:",
+                    placeholder="e.g. AMD, MSFT (Press Enter)",
+                    key=f"compare_input_{symbol}"
+                )
+                comp_submitted = st.form_submit_button("⚔️  Run Comparison", type="primary", use_container_width=True)
+                if comp_submitted and compare_target.strip():
+                    new_targets = [t.strip().upper() for t in compare_target.strip().split(",") if t.strip()]
+                    full_list = [symbol] + [t for t in new_targets if t != symbol]
+                    st.session_state["compare_query"] = ", ".join(full_list)
+                    st.session_state["mode_radio"] = "Compare Equities"
+                    st.session_state["active_compare_run"] = ", ".join(full_list)
+                    st.rerun()
+        else:
+            if st.button("➕  Compare Stock", key=f"btn_show_inline_{symbol}", use_container_width=True):
+                st.session_state[f"show_inline_comp_{symbol}"] = True
+                st.rerun()
 
     header_html = f"""
     <div class="m3-header">
@@ -516,7 +521,7 @@ def render_report(data, tech, sent, qual, sig):
 
 
 def render_multi_comparison(tickers: list):
-    """Renders multi-equity comparison for up to 5 stocks (No Leaderboard)."""
+    """Renders multi-equity comparison for up to 5 stocks with Final Verdict cards."""
     tickers = list(dict.fromkeys([t.upper().strip() for t in tickers if t.strip()]))[:5]
     if not tickers:
         st.warning("Please enter at least 1 ticker to compare.")
@@ -533,15 +538,54 @@ def render_multi_comparison(tickers: list):
             data_map[t] = data
             sig_map[t] = sig
 
-    # 1. Multi-Bar 6-Pillar Chart
+    # 1. Final Verdict & Signal Summary Cards (One card per stock)
+    st.markdown(clean_html('<div class="m3-section-title"><span class="material-symbols-outlined">gavel</span> Final Verdict & Signal Summary</div>'), unsafe_allow_html=True)
+    
+    verdict_cols = st.columns(min(len(tickers), 3))
+    for idx, sym in enumerate(tickers):
+        with verdict_cols[idx % min(len(tickers), 3)]:
+            color = PALETTE[idx % len(PALETTE)]
+            c_name = data_map[sym].get("company_name", sym)
+            curr = data_map[sym].get("currency", "USD")
+            price_s = format_currency(data_map[sym].get("current_price"), curr)
+            mcap_s = format_currency(data_map[sym].get("market_cap"), curr)
+            score = sig_map[sym]["composite_score"]
+            conf = sig_map[sym]["confidence_pct"]
+            sig_badge = get_signal_badge(sig_map[sym]["signal"])
+
+            v_html = f"""
+            <div class="m3-card" style="border-color: {color}; margin-bottom: 20px;">
+                <div style="display: flex; justify-content: space-between; align-items: center;">
+                    <h3 style="color: {color}; font-size: 1.7rem; margin: 0;">{sym}</h3>
+                    {sig_badge}
+                </div>
+                <p style="color: #E2E8F0; font-size: 1.1rem; font-weight: 600; margin: 6px 0 12px 0;">{c_name[:24]}</p>
+                <hr style="border: 0; border-top: 1px solid var(--card-border); margin: 12px 0;">
+                <div style="display: flex; justify-content: space-between; align-items: center;">
+                    <span style="color: #A6ADC8; font-size: 1.1rem;">Composite Score:</span>
+                    <span style="font-size: 1.6rem; font-weight: 700; color: #CBA6F7;">{score} / 100</span>
+                </div>
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 6px;">
+                    <span style="color: #A6ADC8; font-size: 1.1rem;">Signal Confidence:</span>
+                    <span style="font-size: 1.2rem; font-weight: 600; color: #E2E8F0;">{conf}%</span>
+                </div>
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 6px;">
+                    <span style="color: #A6ADC8; font-size: 1.05rem;">Price: {price_s}</span>
+                    <span style="color: #A6ADC8; font-size: 1.05rem;">MCap: {mcap_s}</span>
+                </div>
+            </div>
+            """
+            st.markdown(clean_html(v_html), unsafe_allow_html=True)
+
+    # 2. Multi-Bar 6-Pillar Chart
     st.markdown(clean_html('<div class="m3-section-title"><span class="material-symbols-outlined">bar_chart</span> 6-Pillar Score Breakdown</div>'), unsafe_allow_html=True)
     st.plotly_chart(build_multi_pillar_chart(sig_map), use_container_width=True, key=f"multi-comp-chart-{''.join(tickers)}")
 
-    # 2. Detailed Matrix Table
+    # 3. Detailed Matrix Table
     st.markdown(clean_html('<div class="m3-section-title"><span class="material-symbols-outlined">table_view</span> Financial & Valuation Metrics Matrix</div>'), unsafe_allow_html=True)
     st.markdown(clean_html(render_multi_comparison_table(data_map, sig_map)), unsafe_allow_html=True)
 
-    # 3. Catalysts & Risks Grid
+    # 4. Catalysts & Risks Grid
     st.markdown(clean_html('<div class="m3-section-title"><span class="material-symbols-outlined">shield</span> Top Catalysts & Risks</div>'), unsafe_allow_html=True)
     
     grid_cols = st.columns(min(len(tickers), 3))
@@ -627,7 +671,6 @@ with st.sidebar:
                 help="Type up to 5 comma-separated stock tickers and press Enter"
             )
             comp_submit_btn = st.form_submit_button("⚔️  Run Comparison", type="primary", use_container_width=True)
-
 
     st.markdown("---")
     st.markdown(clean_html("""
