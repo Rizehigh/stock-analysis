@@ -1,6 +1,6 @@
 """
 Aegis Equity Terminal - Streamlit Web Application
-Material Design 3 Dark themed multi-factor stock analysis workstation.
+Astigmatism-Friendly & High-Legibility Dark Theme.
 """
 import streamlit as st
 import plotly.graph_objects as go
@@ -18,217 +18,231 @@ def clean_html(html_str: str) -> str:
     lines = [line.strip() for line in html_str.strip().splitlines()]
     return "".join(lines)
 
-# ─── Material Design 3 Dark Palette & Custom CSS ───
+# ─── Astigmatism-Friendly & High Legibility CSS ───
 M3_DARK_CSS = """
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&family=Roboto:wght@300;400;500;700&family=JetBrains+Mono:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:wght@500;700&family=Inter:wght@400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/icon?family=Material+Symbols+Outlined');
 
 :root {
-    --md-bg: #0F0E17;
-    --md-surface: #1A1827;
-    --md-surface-high: #252238;
-    --md-surface-highest: #322E4A;
-    --md-border: #3A3554;
-    --md-text-primary: #F4F3F9;
-    --md-text-secondary: #B8B3CE;
-    --md-text-muted: #8C86A8;
-    --md-primary: #D0BCFF;
-    --md-on-primary: #1D0047;
-    --md-primary-container: #4F378B;
-    --md-on-primary-container: #EADDFF;
-    --md-accent: #A855F7;
-    --md-font-brand: 'Google Sans', sans-serif;
-    --md-font-plain: 'Roboto', sans-serif;
+    --bg-main: #181825;
+    --card-bg: #242438;
+    --card-border: #383854;
+    --text-primary: #E2E8F0;
+    --text-secondary: #A6ADC8;
+    --text-muted: #888EA8;
+    --accent-purple: #CBA6F7;
+    --btn-bg: #4A3780;
+    --btn-hover: #5B449C;
+    --btn-text: #F5F3FF;
 }
 
-/* Global App Styling */
+/* App Background & Typography */
 .stApp {
-    background-color: var(--md-bg) !important;
-    color: var(--md-text-primary) !important;
-    font-family: var(--md-font-plain) !important;
-    font-size: 1.05rem !important;
+    background-color: var(--bg-main) !important;
+    color: var(--text-primary) !important;
+    font-family: 'Inter', system-ui, sans-serif !important;
+    font-size: 1.25rem !important;
+    line-height: 1.75 !important;
 }
 
 [data-testid="stSidebar"] {
-    background-color: var(--md-surface) !important;
-    border-right: 1px solid var(--md-border) !important;
+    background-color: var(--card-bg) !important;
+    border-right: 1px solid var(--card-border) !important;
 }
 
-/* High Contrast Primary Button */
+/* Sidebar Labels & Inputs */
+[data-testid="stSidebar"] label {
+    font-size: 1.2rem !important;
+    font-weight: 600 !important;
+    color: var(--text-primary) !important;
+}
+
+div[data-baseweb="input"] {
+    background-color: #1E1E2E !important;
+    border: 1px solid var(--card-border) !important;
+    border-radius: 12px !important;
+}
+
+div[data-baseweb="input"] input {
+    color: var(--text-primary) !important;
+    font-size: 1.2rem !important;
+    padding: 12px 16px !important;
+}
+
+/* Reduced Brightness Button (Non-Glare Matte Violet) */
 .stButton > button, div.stButton > button[kind="primary"] {
-    background-color: var(--md-primary) !important;
-    color: var(--md-on-primary) !important;
-    font-family: var(--md-font-brand) !important;
+    background-color: var(--btn-bg) !important;
+    color: var(--btn-text) !important;
+    font-family: 'Google Sans', sans-serif !important;
     font-weight: 700 !important;
-    font-size: 1.1rem !important;
-    padding: 14px 28px !important;
+    font-size: 1.3rem !important;
+    padding: 16px 32px !important;
     border-radius: 14px !important;
-    border: none !important;
-    box-shadow: 0 4px 14px rgba(208, 188, 255, 0.25) !important;
-    transition: all 0.2s ease !important;
+    border: 1px solid #6B46C1 !important;
+    box-shadow: none !important;
+    transition: background-color 0.2s ease !important;
+    cursor: pointer !important;
 }
 
 .stButton > button:hover, div.stButton > button[kind="primary"]:hover {
-    background-color: #EADDFF !important;
-    color: #1D0047 !important;
-    transform: translateY(-1px) !important;
-    box-shadow: 0 6px 20px rgba(208, 188, 255, 0.4) !important;
+    background-color: var(--btn-hover) !important;
+    color: #FFFFFF !important;
+    border-color: #8B5CF6 !important;
 }
 
 /* Cards */
 .m3-card {
-    background: var(--md-surface);
+    background: var(--card-bg);
     border-radius: 20px;
-    padding: 28px;
-    margin-bottom: 24px;
-    border: 1px solid var(--md-border);
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.35);
+    padding: 32px;
+    margin-bottom: 28px;
+    border: 1px solid var(--card-border);
 }
 
 .m3-header {
-    background: linear-gradient(135deg, #2D1B4E 0%, #1A1827 100%);
+    background: linear-gradient(135deg, #2D2545 0%, #1E1A2F 100%);
     color: #FFFFFF;
-    border-radius: 28px;
-    padding: 36px;
-    margin-bottom: 28px;
-    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
-    border: 1px solid #6750A4;
+    border-radius: 24px;
+    padding: 40px;
+    margin-bottom: 32px;
+    border: 1px solid #5B449C;
 }
 
 .m3-header h1 {
-    font-family: var(--md-font-brand) !important;
+    font-family: 'Google Sans', sans-serif !important;
     font-weight: 700;
-    font-size: 3rem !important;
+    font-size: 3.5rem !important;
     letter-spacing: -0.5px;
     margin: 0;
-    color: #F4F3F9;
+    color: #FFFFFF;
 }
 
-/* Signal Badges & Chips */
+/* Non-Glare Signal Badges */
 .m3-signal-badge {
-    font-size: 2rem !important;
+    font-size: 2.2rem !important;
     font-weight: 700;
-    padding: 14px 32px;
+    padding: 16px 36px;
     border-radius: 20px;
     display: inline-block;
-    letter-spacing: 1.5px;
+    letter-spacing: 1px;
 }
 
-.m3-signal-buy { background: #143A27; color: #4ADE80; border: 2px solid #22C55E; }
-.m3-signal-sell { background: #3E1619; color: #F87171; border: 2px solid #EF4444; }
-.m3-signal-hold { background: #3B270A; color: #FBBF24; border: 2px solid #F59E0B; }
+.m3-signal-buy { background: #1B432C; color: #86EFAC; border: 2px solid #22C55E; }
+.m3-signal-sell { background: #4C1D24; color: #FCA5A5; border: 2px solid #EF4444; }
+.m3-signal-hold { background: #4D3817; color: #FDE047; border: 2px solid #EAB308; }
 
 .m3-chip {
     display: inline-flex;
     align-items: center;
-    gap: 8px;
-    padding: 8px 18px;
-    border-radius: 12px;
-    font-size: 1rem !important;
+    gap: 10px;
+    padding: 10px 22px;
+    border-radius: 14px;
+    font-size: 1.15rem !important;
     font-weight: 600;
 }
 
-.m3-chip-buy { background: #143A27; color: #4ADE80; border: 1px solid #22C55E; }
-.m3-chip-sell { background: #3E1619; color: #F87171; border: 1px solid #EF4444; }
-.m3-chip-hold { background: #3B270A; color: #FBBF24; border: 1px solid #F59E0B; }
+.m3-chip-buy { background: #1B432C; color: #86EFAC; border: 1px solid #22C55E; }
+.m3-chip-sell { background: #4C1D24; color: #FCA5A5; border: 1px solid #EF4444; }
+.m3-chip-hold { background: #4D3817; color: #FDE047; border: 1px solid #EAB308; }
 
-/* Pillar Bars */
+/* Pillar Progress Bars */
 .m3-pillar-container {
-    margin-bottom: 18px;
+    margin-bottom: 22px;
 }
 
 .m3-pillar-label {
-    font-size: 1.08rem !important;
-    font-weight: 500;
-    color: var(--md-text-primary);
+    font-size: 1.2rem !important;
+    font-weight: 600;
+    color: var(--text-primary);
     display: flex;
     justify-content: space-between;
-    margin-bottom: 8px;
+    margin-bottom: 10px;
 }
 
 .m3-pillar-bar-bg {
-    background: var(--md-surface-high);
-    height: 14px;
-    border-radius: 7px;
+    background: #1E1E2E;
+    height: 16px;
+    border-radius: 8px;
     overflow: hidden;
-    margin-bottom: 18px;
-    border: 1px solid var(--md-border);
+    margin-bottom: 20px;
+    border: 1px solid var(--card-border);
 }
 
 .m3-pillar-bar-fill {
-    background: linear-gradient(90deg, #A855F7 0%, #D0BCFF 100%);
+    background: linear-gradient(90deg, #9F7AEA 0%, #CBA6F7 100%);
     height: 100%;
-    border-radius: 7px;
+    border-radius: 8px;
 }
 
-/* Bull & Bear items */
+/* Bull & Bear Callouts */
 .m3-bull-item {
-    padding: 14px 20px;
-    background: #142E1F;
-    border-radius: 14px;
-    margin-bottom: 12px;
-    font-size: 1.05rem !important;
-    color: #DCFCE7;
-    border-left: 5px solid #22C55E;
-    line-height: 1.5;
+    padding: 18px 24px;
+    background: #1B3325;
+    border-radius: 16px;
+    margin-bottom: 14px;
+    font-size: 1.2rem !important;
+    color: #C6F6D5;
+    border-left: 6px solid #22C55E;
+    line-height: 1.7;
 }
 
 .m3-bear-item {
-    padding: 14px 20px;
-    background: #331518;
-    border-radius: 14px;
-    margin-bottom: 12px;
-    font-size: 1.05rem !important;
-    color: #FEE2E2;
-    border-left: 5px solid #EF4444;
-    line-height: 1.5;
+    padding: 18px 24px;
+    background: #3E1F24;
+    border-radius: 16px;
+    margin-bottom: 14px;
+    font-size: 1.2rem !important;
+    color: #FED7D7;
+    border-left: 6px solid #EF4444;
+    line-height: 1.7;
 }
 
 .m3-headline-item {
-    padding: 14px 20px;
-    background: var(--md-surface-high);
-    border-radius: 14px;
-    margin-bottom: 12px;
-    font-size: 1.05rem !important;
-    color: var(--md-text-primary);
-    border-left: 5px solid var(--md-primary);
-    line-height: 1.5;
+    padding: 18px 24px;
+    background: #1E1E2E;
+    border-radius: 16px;
+    margin-bottom: 14px;
+    font-size: 1.2rem !important;
+    color: var(--text-primary);
+    border-left: 6px solid var(--accent-purple);
+    line-height: 1.7;
 }
 
-/* Table styling */
+/* Table Styling - Large & High Contrast */
 .m3-table-container {
     overflow-x: auto;
-    margin-bottom: 24px;
+    margin-bottom: 32px;
 }
 
 .m3-table {
     width: 100%;
     border-collapse: separate;
     border-spacing: 0;
-    border-radius: 18px;
+    border-radius: 20px;
     overflow: hidden;
-    border: 1px solid var(--md-border);
-    background: var(--md-surface);
+    border: 1px solid var(--card-border);
+    background: var(--card-bg);
 }
 
 .m3-table th {
-    background: var(--md-primary-container);
-    color: var(--md-on-primary-container);
+    background: #2D2D45;
+    color: var(--accent-purple);
     font-weight: 700;
-    font-size: 1.02rem !important;
+    font-size: 1.15rem !important;
     text-transform: uppercase;
     letter-spacing: 1px;
-    padding: 18px 22px;
+    padding: 20px 24px;
     text-align: left;
-    border-bottom: 2px solid var(--md-border);
+    border-bottom: 2px solid var(--card-border);
 }
 
 .m3-table td {
-    padding: 18px 22px;
-    border-bottom: 1px solid var(--md-border);
-    font-size: 1.1rem !important;
-    color: var(--md-text-primary);
+    padding: 20px 24px;
+    border-bottom: 1px solid var(--card-border);
+    font-size: 1.25rem !important;
+    color: var(--text-primary);
+    font-weight: 500;
 }
 
 .m3-table tr:last-child td {
@@ -236,26 +250,25 @@ M3_DARK_CSS = """
 }
 
 .m3-section-title {
-    font-family: var(--md-font-brand) !important;
+    font-family: 'Google Sans', sans-serif !important;
     font-weight: 700;
-    font-size: 1.6rem !important;
-    color: var(--md-primary);
-    margin: 28px 0 18px 0;
+    font-size: 1.9rem !important;
+    color: var(--accent-purple);
+    margin: 32px 0 20px 0;
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 14px;
 }
 
 .m3-footer {
     text-align: center;
-    font-size: 0.95rem !important;
-    color: var(--md-text-muted);
-    margin-top: 60px;
-    padding: 28px;
-    border-top: 1px solid var(--md-border);
+    font-size: 1.05rem !important;
+    color: var(--text-secondary);
+    margin-top: 64px;
+    padding: 32px;
+    border-top: 1px solid var(--card-border);
 }
 
-/* Hide default Streamlit clutter */
 #MainMenu {visibility: hidden;}
 header {visibility: hidden;}
 footer {visibility: hidden;}
@@ -295,43 +308,43 @@ def build_pillar_bar(name: str, score: float, weight: str) -> str:
     """
 
 def build_gauge_chart(score: float, title: str = "Composite Score"):
-    """Creates a Plotly gauge chart with clean M3 dark colors."""
+    """Creates a Plotly gauge chart with astigmatism-friendly soft colors."""
     if score >= 70:
-        bar_color = "#4ADE80"
+        bar_color = "#86EFAC"
     elif score >= 40:
-        bar_color = "#FBBF24"
+        bar_color = "#FDE047"
     else:
-        bar_color = "#F87171"
+        bar_color = "#FCA5A5"
 
     fig = go.Figure(go.Indicator(
         mode="gauge+number",
         value=score,
-        title={"text": title, "font": {"size": 22, "family": "Google Sans, sans-serif", "color": "#B8B3CE"}},
-        number={"font": {"size": 52, "family": "Google Sans, sans-serif", "color": "#F4F3F9"}, "suffix": "/100"},
+        title={"text": title, "font": {"size": 24, "family": "Inter, sans-serif", "color": "#A6ADC8"}},
+        number={"font": {"size": 56, "family": "Google Sans, sans-serif", "color": "#E2E8F0"}, "suffix": "/100"},
         gauge={
-            "axis": {"range": [0, 100], "tickwidth": 2, "tickcolor": "#8C86A8", "dtick": 20, "tickfont": {"color": "#B8B3CE", "size": 14}},
+            "axis": {"range": [0, 100], "tickwidth": 2, "tickcolor": "#888EA8", "dtick": 20, "tickfont": {"color": "#A6ADC8", "size": 16}},
             "bar": {"color": bar_color, "thickness": 0.35},
-            "bgcolor": "#252238",
+            "bgcolor": "#1E1E2E",
             "borderwidth": 0,
             "steps": [
-                {"range": [0, 30], "color": "#3E1619"},
-                {"range": [30, 55], "color": "#3B270A"},
-                {"range": [55, 75], "color": "#252238"},
-                {"range": [75, 100], "color": "#143A27"},
+                {"range": [0, 30], "color": "#4C1D24"},
+                {"range": [30, 55], "color": "#4D3817"},
+                {"range": [55, 75], "color": "#2D2D45"},
+                {"range": [75, 100], "color": "#1B432C"},
             ],
             "threshold": {
-                "line": {"color": "#D0BCFF", "width": 4},
+                "line": {"color": "#CBA6F7", "width": 4},
                 "thickness": 0.8,
                 "value": score,
             },
         },
     ))
     fig.update_layout(
-        height=270,
+        height=290,
         margin=dict(l=20, r=20, t=50, b=10),
         paper_bgcolor="rgba(0,0,0,0)",
         plot_bgcolor="rgba(0,0,0,0)",
-        font={"family": "Google Sans, Roboto, sans-serif"},
+        font={"family": "Inter, sans-serif"},
     )
     return fig
 
@@ -362,22 +375,22 @@ def render_report(data, tech, sent, qual, sig):
     # ── Header Card ──
     header_html = f"""
     <div class="m3-header">
-        <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 20px;">
+        <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 24px;">
             <div>
                 <h1>{symbol}</h1>
-                <p style="margin: 8px 0 0 0; color: #EADDFF; font-size: 1.45rem; font-weight: 500;">{data.get('company_name', symbol)}</p>
-                <p style="margin: 6px 0 0 0; color: #B8B3CE; font-size: 1.1rem;">{data['exchange_info']['exchange']} ({data['exchange_info']['country']}) &bull; {data.get('sector', 'N/A')} &bull; {data.get('industry', 'N/A')}</p>
+                <p style="margin: 10px 0 0 0; color: #E2E8F0; font-size: 1.6rem; font-weight: 600;">{data.get('company_name', symbol)}</p>
+                <p style="margin: 8px 0 0 0; color: #A6ADC8; font-size: 1.2rem;">{data['exchange_info']['exchange']} ({data['exchange_info']['country']}) &bull; {data.get('sector', 'N/A')} &bull; {data.get('industry', 'N/A')}</p>
             </div>
             <div style="text-align: right;">
                 {get_signal_badge(sig['signal'])}
-                <p style="margin: 12px 0 0 0; color: #EADDFF; font-size: 1.15rem;">Confidence: <strong>{sig['confidence_pct']}%</strong></p>
+                <p style="margin: 14px 0 0 0; color: #E2E8F0; font-size: 1.25rem;">Confidence: <strong>{sig['confidence_pct']}%</strong></p>
             </div>
         </div>
-        <hr style="border: 0; border-top: 1px solid rgba(255,255,255,0.18); margin: 26px 0 20px 0;">
-        <div style="display: flex; gap: 48px; flex-wrap: wrap;">
-            <div><span style="color: #B8B3CE; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px;">Current Price</span><br><span style="font-size: 1.7rem; font-weight: 700; color: #FFFFFF;">{price_str}</span></div>
-            <div><span style="color: #B8B3CE; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px;">Market Cap</span><br><span style="font-size: 1.7rem; font-weight: 700; color: #FFFFFF;">{mcap_str}</span></div>
-            <div><span style="color: #B8B3CE; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px;">Composite Score</span><br><span style="font-size: 1.7rem; font-weight: 700; color: #D0BCFF;">{sig['composite_score']} / 100</span></div>
+        <hr style="border: 0; border-top: 1px solid rgba(255,255,255,0.18); margin: 28px 0 24px 0;">
+        <div style="display: flex; gap: 56px; flex-wrap: wrap;">
+            <div><span style="color: #A6ADC8; font-size: 1.05rem; text-transform: uppercase; letter-spacing: 1px;">Current Price</span><br><span style="font-size: 2rem; font-weight: 700; color: #FFFFFF;">{price_str}</span></div>
+            <div><span style="color: #A6ADC8; font-size: 1.05rem; text-transform: uppercase; letter-spacing: 1px;">Market Cap</span><br><span style="font-size: 2rem; font-weight: 700; color: #FFFFFF;">{mcap_str}</span></div>
+            <div><span style="color: #A6ADC8; font-size: 1.05rem; text-transform: uppercase; letter-spacing: 1px;">Composite Score</span><br><span style="font-size: 2rem; font-weight: 700; color: #CBA6F7;">{sig['composite_score']} / 100</span></div>
         </div>
     </div>
     """
@@ -408,13 +421,13 @@ def render_report(data, tech, sent, qual, sig):
     # ── Bull / Bear Cases ──
     col_bull, col_bear = st.columns(2)
     with col_bull:
-        bull_html = '<div class="m3-card"><div class="m3-section-title" style="color: #4ADE80;"><span class="material-symbols-outlined">trending_up</span> Bull Catalysts</div>'
+        bull_html = '<div class="m3-card"><div class="m3-section-title" style="color: #86EFAC;"><span class="material-symbols-outlined">trending_up</span> Bull Catalysts</div>'
         for p in sig.get("key_positives", []):
             bull_html += f'<div class="m3-bull-item">✅ {p}</div>'
         bull_html += '</div>'
         st.markdown(clean_html(bull_html), unsafe_allow_html=True)
     with col_bear:
-        bear_html = '<div class="m3-card"><div class="m3-section-title" style="color: #F87171;"><span class="material-symbols-outlined">trending_down</span> Bear Risks</div>'
+        bear_html = '<div class="m3-card"><div class="m3-section-title" style="color: #FCA5A5;"><span class="material-symbols-outlined">trending_down</span> Bear Risks</div>'
         for r in sig.get("key_risks", []):
             bear_html += f'<div class="m3-bear-item">⚠️ {r}</div>'
         bear_html += '</div>'
@@ -452,7 +465,7 @@ def render_report(data, tech, sent, qual, sig):
             f"<strong>52-Week Range Pos:</strong> {tech['fifty_two_week_pos_pct']:.1f}%",
         ]
         for item in tech_items:
-            tech_html += f'<p style="margin: 12px 0; font-size: 1.08rem;">{item}</p>'
+            tech_html += f'<p style="margin: 14px 0; font-size: 1.2rem;">{item}</p>'
         if tech.get("signals"):
             for s in tech["signals"][:3]:
                 tech_html += f'<div class="m3-headline-item">{s}</div>'
@@ -468,17 +481,17 @@ def render_report(data, tech, sent, qual, sig):
         rec_b = data.get("rec_breakdown", {})
 
         analyst_html = f'<div class="m3-card"><div class="m3-section-title"><span class="material-symbols-outlined">groups</span> Analyst Consensus</div>'
-        analyst_html += f'<p style="margin: 12px 0; font-size: 1.08rem;"><strong>Target Price:</strong> {target_mean} ({target_low} &ndash; {target_high})</p>'
-        analyst_html += f'<p style="margin: 12px 0; font-size: 1.08rem;"><strong>Implied Upside:</strong> {upside}</p>'
-        analyst_html += f'<p style="margin: 12px 0; font-size: 1.08rem;"><strong>Wall St Rating:</strong> {get_chip(rec_key)}</p>'
-        analyst_html += f'<p style="margin: 14px 0 0 0; font-size: 1.05rem; color: #B8B3CE;">Buy: {rec_b.get("buy", 0) + rec_b.get("strongBuy", 0)} &bull; Hold: {rec_b.get("hold", 0)} &bull; Sell: {rec_b.get("sell", 0) + rec_b.get("underperform", 0)}</p>'
+        analyst_html += f'<p style="margin: 14px 0; font-size: 1.2rem;"><strong>Target Price:</strong> {target_mean} ({target_low} &ndash; {target_high})</p>'
+        analyst_html += f'<p style="margin: 14px 0; font-size: 1.2rem;"><strong>Implied Upside:</strong> {upside}</p>'
+        analyst_html += f'<p style="margin: 14px 0; font-size: 1.2rem;"><strong>Wall St Rating:</strong> {get_chip(rec_key)}</p>'
+        analyst_html += f'<p style="margin: 16px 0 0 0; font-size: 1.15rem; color: #A6ADC8;">Buy: {rec_b.get("buy", 0) + rec_b.get("strongBuy", 0)} &bull; Hold: {rec_b.get("hold", 0)} &bull; Sell: {rec_b.get("sell", 0) + rec_b.get("underperform", 0)}</p>'
         analyst_html += '</div>'
         st.markdown(clean_html(analyst_html), unsafe_allow_html=True)
 
     # ── Sentiment Analysis ──
     st.markdown(clean_html('<div class="m3-section-title"><span class="material-symbols-outlined">newspaper</span> News & Social Sentiment</div>'), unsafe_allow_html=True)
     sent_html = f'<div class="m3-card">'
-    sent_html += f'<p style="font-size: 1.1rem; margin-bottom: 18px;"><strong>Sentiment Rating:</strong> {get_chip(sent["label"])} &nbsp; <strong>Score:</strong> {sent["sentiment_score"]:.1f}/100 &nbsp; <strong>Polarity Index:</strong> {sent["combined_polarity"]}</p>'
+    sent_html += f'<p style="font-size: 1.25rem; margin-bottom: 20px;"><strong>Sentiment Rating:</strong> {get_chip(sent["label"])} &nbsp; <strong>Score:</strong> {sent["sentiment_score"]:.1f}/100 &nbsp; <strong>Polarity Index:</strong> {sent["combined_polarity"]}</p>'
     if sent.get("positive_highlights"):
         for h in sent["positive_highlights"][:3]:
             sent_html += f'<div class="m3-bull-item">📰 {h}</div>'
@@ -491,7 +504,7 @@ def render_report(data, tech, sent, qual, sig):
     # ── Qualitative / Macro / Moat ──
     st.markdown(clean_html('<div class="m3-section-title"><span class="material-symbols-outlined">shield</span> Qualitative, Macro & Competitive Moat</div>'), unsafe_allow_html=True)
     qual_html = '<div class="m3-card">'
-    qual_html += f'<p style="font-size: 1.1rem; margin-bottom: 18px;"><strong>Economic Moat:</strong> {get_chip(qual["moat"]["moat_tier"])} &nbsp; <strong>Valuation Pricing:</strong> {get_chip(qual["priced_in"]["valuation_tier"])}</p>'
+    qual_html += f'<p style="font-size: 1.25rem; margin-bottom: 20px;"><strong>Economic Moat:</strong> {get_chip(qual["moat"]["moat_tier"])} &nbsp; <strong>Valuation Pricing:</strong> {get_chip(qual["priced_in"]["valuation_tier"])}</p>'
     for pt in qual.get("priced_in", {}).get("priced_in_points", []):
         qual_html += f'<div class="m3-headline-item">🔹 {pt}</div>'
     for m in qual.get("macro_policy", {}).get("macro_factors", []):
@@ -521,17 +534,17 @@ st.markdown(M3_DARK_CSS, unsafe_allow_html=True)
 # ── Sidebar Setup ──
 with st.sidebar:
     st.markdown(clean_html("""
-    <div style="padding: 16px 0 8px 0;">
-        <h2 style="font-family: 'Google Sans', sans-serif; color: #D0BCFF; font-size: 1.9rem; font-weight: 700; margin: 0; display: flex; align-items: center; gap: 12px;">
-            <span class="material-symbols-outlined" style="font-size: 2.4rem;">shield</span> Aegis Equity
+    <div style="padding: 20px 0 12px 0;">
+        <h2 style="font-family: 'Google Sans', sans-serif; color: #CBA6F7; font-size: 2.1rem; font-weight: 700; margin: 0; display: flex; align-items: center; gap: 12px;">
+            <span class="material-symbols-outlined" style="font-size: 2.6rem;">shield</span> Aegis Equity
         </h2>
-        <p style="color: #B8B3CE; font-size: 0.95rem; margin: 6px 0 0 0;">Multi-Factor Stock Intelligence</p>
+        <p style="color: #A6ADC8; font-size: 1.05rem; margin: 8px 0 0 0;">Multi-Factor Stock Intelligence</p>
     </div>
     """), unsafe_allow_html=True)
 
     st.markdown("---")
 
-    st.markdown("### Stock Search")
+    st.markdown("<h3 style='font-size: 1.4rem; color: #E2E8F0;'>Stock Search</h3>", unsafe_allow_html=True)
 
     ticker_input = st.text_input(
         "Enter Ticker Symbol",
@@ -543,8 +556,8 @@ with st.sidebar:
 
     st.markdown("---")
     st.markdown(clean_html("""
-    <div style="font-size: 0.9rem; color: #B8B3CE; line-height: 1.7;">
-        <strong>6 Analytical Pillars:</strong><br>
+    <div style="font-size: 1.05rem; color: #A6ADC8; line-height: 1.8;">
+        <strong style="color: #E2E8F0;">6 Analytical Pillars:</strong><br>
         1. Financial Fundamentals (25%)<br>
         2. Valuation Multiples (20%)<br>
         3. Technical Momentum (15%)<br>
@@ -569,17 +582,17 @@ if submit_btn and target_ticker:
 else:
     # Welcome Landing Page
     landing_html = """
-    <div style="text-align: center; padding: 80px 20px;">
-        <div style="display: inline-block; background: #322E4A; border: 1px solid #4F378B; border-radius: 36px; padding: 28px; margin-bottom: 28px; box-shadow: 0 8px 24px rgba(0,0,0,0.4);">
-            <span class="material-symbols-outlined" style="font-size: 4.5rem; color: #D0BCFF;">shield_with_house</span>
+    <div style="text-align: center; padding: 90px 20px;">
+        <div style="display: inline-block; background: #242438; border: 1px solid #383854; border-radius: 40px; padding: 32px; margin-bottom: 32px;">
+            <span class="material-symbols-outlined" style="font-size: 5rem; color: #CBA6F7;">shield_with_house</span>
         </div>
-        <h1 style="font-family: 'Google Sans', sans-serif; color: #F4F3F9; font-weight: 700; font-size: 3.2rem; margin-bottom: 18px;">Aegis Equity Terminal</h1>
-        <p style="color: #B8B3CE; font-size: 1.3rem; max-width: 720px; margin: 0 auto 36px auto; line-height: 1.6;">Enter any equity ticker symbol in the sidebar to execute a complete 6-pillar quantitative report covering financial health, valuation multiples, technical momentum, news sentiment, analyst targets, and macroeconomic positioning.</p>
-        <div style="display: flex; justify-content: center; gap: 16px; flex-wrap: wrap;">
-            <span class="m3-chip m3-chip-buy" style="font-size: 1.05rem;">🇺🇸 US Equities (AAPL, NVDA, TSLA)</span>
-            <span class="m3-chip m3-chip-buy" style="font-size: 1.05rem;">🇦🇺 ASX Equities (CBA.AX, BHP.AX)</span>
-            <span class="m3-chip m3-chip-buy" style="font-size: 1.05rem;">🇬🇧 LSE Equities (SHEL.L, AZN.L)</span>
-            <span class="m3-chip m3-chip-buy" style="font-size: 1.05rem;">🇪🇺 EU Equities (SAP.DE)</span>
+        <h1 style="font-family: 'Google Sans', sans-serif; color: #E2E8F0; font-weight: 700; font-size: 3.6rem; margin-bottom: 20px;">Aegis Equity Terminal</h1>
+        <p style="color: #A6ADC8; font-size: 1.45rem; max-width: 780px; margin: 0 auto 40px auto; line-height: 1.7;">Enter any equity ticker symbol in the sidebar to execute a complete 6-pillar quantitative report covering financial health, valuation multiples, technical momentum, news sentiment, analyst targets, and macroeconomic positioning.</p>
+        <div style="display: flex; justify-content: center; gap: 18px; flex-wrap: wrap;">
+            <span class="m3-chip m3-chip-buy" style="font-size: 1.15rem;">🇺🇸 US Equities (AAPL, NVDA, TSLA)</span>
+            <span class="m3-chip m3-chip-buy" style="font-size: 1.15rem;">🇦🇺 ASX Equities (CBA.AX, BHP.AX)</span>
+            <span class="m3-chip m3-chip-buy" style="font-size: 1.15rem;">🇬🇧 LSE Equities (SHEL.L, AZN.L)</span>
+            <span class="m3-chip m3-chip-buy" style="font-size: 1.15rem;">🇪🇺 EU Equities (SAP.DE)</span>
         </div>
     </div>
     """
