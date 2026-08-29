@@ -1,11 +1,13 @@
 """
 Aegis Equity Terminal - Streamlit Web Application
 Astigmatism-Friendly & High-Legibility Dark Theme.
-Includes Enter Key search submission & Live Trending Equities from ApeWisdom/StockTwits.
+Includes Pre-analyzed Instant Trending Reports, Enter-key Search, and Stock Comparison Engine.
 """
 import streamlit as st
 import plotly.graph_objects as go
 import time
+import json
+import os
 from datetime import datetime
 from stock_bot.data_fetcher import fetch_stock_data
 from stock_bot.technical_analysis import analyze_technicals
@@ -14,6 +16,9 @@ from stock_bot.qualitative_analysis import analyze_qualitative_factors
 from stock_bot.scoring_engine import compute_overall_signal
 from stock_bot.config import format_currency
 from stock_bot.trending import get_trending_tickers
+from stock_bot.comparator import build_comparison_pillar_chart, render_comparison_table
+
+PRECOMPUTED_FILE = os.path.join(os.path.dirname(__file__), "stock_bot", "precomputed_trending.json")
 
 def clean_html(html_str: str) -> str:
     """Strips leading whitespace from lines to prevent Markdown from converting HTML into code blocks."""
@@ -24,6 +29,17 @@ def clean_html(html_str: str) -> str:
 def fetch_cached_trending():
     """Caches trending tickers for 30 minutes."""
     return get_trending_tickers(limit=6)
+
+@st.cache_data(ttl=3600)
+def load_precomputed_reports():
+    """Loads pre-analyzed trending stock reports if available."""
+    if os.path.exists(PRECOMPUTED_FILE):
+        try:
+            with open(PRECOMPUTED_FILE, "r") as f:
+                return json.load(f)
+        except Exception:
+            pass
+    return {}
 
 # ─── Astigmatism-Friendly & High Legibility CSS ───
 M3_DARK_CSS = """
@@ -44,7 +60,6 @@ M3_DARK_CSS = """
     --btn-text: #F5F3FF;
 }
 
-/* App Background & Typography */
 .stApp {
     background-color: var(--bg-main) !important;
     color: var(--text-primary) !important;
@@ -58,7 +73,6 @@ M3_DARK_CSS = """
     border-right: 1px solid var(--card-border) !important;
 }
 
-/* Sidebar Labels & Inputs */
 [data-testid="stSidebar"] label {
     font-size: 1.2rem !important;
     font-weight: 600 !important;
@@ -77,7 +91,6 @@ div[data-baseweb="input"] input {
     padding: 12px 16px !important;
 }
 
-/* Reduced Brightness Buttons (Matte Violet) */
 .stButton > button, div.stButton > button[kind="primary"], form button {
     background-color: var(--btn-bg) !important;
     color: var(--btn-text) !important;
@@ -98,18 +111,6 @@ div[data-baseweb="input"] input {
     border-color: #8B5CF6 !important;
 }
 
-/* Trending Quick Chips */
-.trending-chip-btn {
-    background: #1E1E2E !important;
-    border: 1px solid #383854 !important;
-    color: #CBA6F7 !important;
-    font-size: 1.05rem !important;
-    font-weight: 600 !important;
-    border-radius: 10px !important;
-    padding: 8px 14px !important;
-}
-
-/* Cards */
 .m3-card {
     background: var(--card-bg);
     border-radius: 20px;
@@ -136,7 +137,6 @@ div[data-baseweb="input"] input {
     color: #FFFFFF;
 }
 
-/* Non-Glare Signal Badges */
 .m3-signal-badge {
     font-size: 2.2rem !important;
     font-weight: 700;
@@ -164,11 +164,7 @@ div[data-baseweb="input"] input {
 .m3-chip-sell { background: #4C1D24; color: #FCA5A5; border: 1px solid #EF4444; }
 .m3-chip-hold { background: #4D3817; color: #FDE047; border: 1px solid #EAB308; }
 
-/* Pillar Progress Bars */
-.m3-pillar-container {
-    margin-bottom: 22px;
-}
-
+.m3-pillar-container { margin-bottom: 22px; }
 .m3-pillar-label {
     font-size: 1.2rem !important;
     font-weight: 600;
@@ -193,7 +189,6 @@ div[data-baseweb="input"] input {
     border-radius: 8px;
 }
 
-/* Bull & Bear Callouts */
 .m3-bull-item {
     padding: 18px 24px;
     background: #1B3325;
@@ -227,12 +222,7 @@ div[data-baseweb="input"] input {
     line-height: 1.7;
 }
 
-/* Table Styling - Large & High Contrast */
-.m3-table-container {
-    overflow-x: auto;
-    margin-bottom: 32px;
-}
-
+.m3-table-container { overflow-x: auto; margin-bottom: 32px; }
 .m3-table {
     width: 100%;
     border-collapse: separate;
@@ -263,9 +253,7 @@ div[data-baseweb="input"] input {
     font-weight: 500;
 }
 
-.m3-table tr:last-child td {
-    border-bottom: none;
-}
+.m3-table tr:last-child td { border-bottom: none; }
 
 .m3-section-title {
     font-family: 'Google Sans', sans-serif !important;
@@ -294,26 +282,18 @@ footer {visibility: hidden;}
 """
 
 def fmt_val(val, fmt_str=".1f", suffix="", prefix="", fallback="N/A"):
-    """Safe format helper for nullable numeric values."""
-    if val is None:
-        return fallback
-    try:
-        return f"{prefix}{val:{fmt_str}}{suffix}"
-    except (ValueError, TypeError):
-        return fallback
+    if val is None: return fallback
+    try: return f"{prefix}{val:{fmt_str}}{suffix}"
+    except (ValueError, TypeError): return fallback
 
 def get_signal_badge(signal):
-    if "BUY" in signal:
-        return f'<span class="m3-signal-badge m3-signal-buy">{signal}</span>'
-    elif "SELL" in signal:
-        return f'<span class="m3-signal-badge m3-signal-sell">{signal}</span>'
+    if "BUY" in signal: return f'<span class="m3-signal-badge m3-signal-buy">{signal}</span>'
+    elif "SELL" in signal: return f'<span class="m3-signal-badge m3-signal-sell">{signal}</span>'
     return f'<span class="m3-signal-badge m3-signal-hold">{signal}</span>'
 
 def get_chip(signal):
-    if "BUY" in signal:
-        return f'<span class="m3-chip m3-chip-buy">{signal}</span>'
-    elif "SELL" in signal:
-        return f'<span class="m3-chip m3-chip-sell">{signal}</span>'
+    if "BUY" in signal: return f'<span class="m3-chip m3-chip-buy">{signal}</span>'
+    elif "SELL" in signal: return f'<span class="m3-chip m3-chip-sell">{signal}</span>'
     return f'<span class="m3-chip m3-chip-hold">{signal}</span>'
 
 def build_pillar_bar(name: str, score: float, weight: str) -> str:
@@ -326,13 +306,9 @@ def build_pillar_bar(name: str, score: float, weight: str) -> str:
     """
 
 def build_gauge_chart(score: float, title: str = "Composite Score"):
-    """Creates a Plotly gauge chart with astigmatism-friendly soft colors."""
-    if score >= 70:
-        bar_color = "#86EFAC"
-    elif score >= 40:
-        bar_color = "#FDE047"
-    else:
-        bar_color = "#FCA5A5"
+    if score >= 70: bar_color = "#86EFAC"
+    elif score >= 40: bar_color = "#FDE047"
+    else: bar_color = "#FCA5A5"
 
     fig = go.Figure(go.Indicator(
         mode="gauge+number",
@@ -350,11 +326,7 @@ def build_gauge_chart(score: float, title: str = "Composite Score"):
                 {"range": [55, 75], "color": "#2D2D45"},
                 {"range": [75, 100], "color": "#1B432C"},
             ],
-            "threshold": {
-                "line": {"color": "#CBA6F7", "width": 4},
-                "thickness": 0.8,
-                "value": score,
-            },
+            "threshold": {"line": {"color": "#CBA6F7", "width": 4}, "thickness": 0.8, "value": score},
         },
     ))
     fig.update_layout(
@@ -367,7 +339,15 @@ def build_gauge_chart(score: float, title: str = "Composite Score"):
     return fig
 
 def run_analysis(ticker: str):
-    """Executes full 6-pillar analysis pipeline."""
+    """Executes full 6-pillar analysis pipeline with instant precomputed cache lookup."""
+    ticker = ticker.upper().strip()
+    precomputed = load_precomputed_reports()
+    
+    # Instant load if precomputed
+    if ticker in precomputed:
+        p = precomputed[ticker]
+        return p["data"], p["tech"], p["sent"], p["qual"], p["sig"]
+
     prog = st.progress(0, text=f"Fetching financial data for {ticker}...")
     data = fetch_stock_data(ticker)
     prog.progress(20, text="Calculating RSI, MACD & Moving Averages...")
@@ -379,7 +359,7 @@ def run_analysis(ticker: str):
     prog.progress(85, text="Computing 6-Pillar Composite Score...")
     sig = compute_overall_signal(data, tech, sent, qual)
     prog.progress(100, text="Analysis Complete!")
-    time.sleep(0.3)
+    time.sleep(0.2)
     prog.empty()
     return data, tech, sent, qual, sig
 
@@ -390,7 +370,6 @@ def render_report(data, tech, sent, qual, sig):
     price_str = format_currency(data.get("current_price"), curr)
     mcap_str = format_currency(data.get("market_cap"), curr)
 
-    # ── Header Card ──
     header_html = f"""
     <div class="m3-header">
         <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 24px;">
@@ -414,9 +393,7 @@ def render_report(data, tech, sent, qual, sig):
     """
     st.markdown(clean_html(header_html), unsafe_allow_html=True)
 
-    # ── Score Gauge + Pillar Bars ──
     col_gauge, col_pillars = st.columns([1, 1.4])
-
     with col_gauge:
         st.plotly_chart(build_gauge_chart(sig["composite_score"]), use_container_width=True, key=f"gauge-{symbol}")
 
@@ -436,22 +413,18 @@ def render_report(data, tech, sent, qual, sig):
         pillar_html += '</div>'
         st.markdown(clean_html(pillar_html), unsafe_allow_html=True)
 
-    # ── Bull / Bear Cases ──
     col_bull, col_bear = st.columns(2)
     with col_bull:
         bull_html = '<div class="m3-card"><div class="m3-section-title" style="color: #86EFAC;"><span class="material-symbols-outlined">trending_up</span> Bull Catalysts</div>'
-        for p in sig.get("key_positives", []):
-            bull_html += f'<div class="m3-bull-item">✅ {p}</div>'
+        for p in sig.get("key_positives", []): bull_html += f'<div class="m3-bull-item">✅ {p}</div>'
         bull_html += '</div>'
         st.markdown(clean_html(bull_html), unsafe_allow_html=True)
     with col_bear:
         bear_html = '<div class="m3-card"><div class="m3-section-title" style="color: #FCA5A5;"><span class="material-symbols-outlined">trending_down</span> Bear Risks</div>'
-        for r in sig.get("key_risks", []):
-            bear_html += f'<div class="m3-bear-item">⚠️ {r}</div>'
+        for r in sig.get("key_risks", []): bear_html += f'<div class="m3-bear-item">⚠️ {r}</div>'
         bear_html += '</div>'
         st.markdown(clean_html(bear_html), unsafe_allow_html=True)
 
-    # ── Financial Metrics Table ──
     st.markdown(clean_html('<div class="m3-section-title"><span class="material-symbols-outlined">account_balance</span> Financial Fundamentals & Valuation</div>'), unsafe_allow_html=True)
 
     tbl = '<div class="m3-table-container"><table class="m3-table"><thead><tr><th>Metric</th><th>Value</th><th>Metric</th><th>Value</th></tr></thead><tbody>'
@@ -469,9 +442,7 @@ def render_report(data, tech, sent, qual, sig):
     tbl += '</tbody></table></div>'
     st.markdown(clean_html(tbl), unsafe_allow_html=True)
 
-    # ── Technical Analysis + Analyst Consensus ──
     col_tech, col_analyst = st.columns(2)
-
     with col_tech:
         tech_html = '<div class="m3-card"><div class="m3-section-title"><span class="material-symbols-outlined">candlestick_chart</span> Technical Indicators</div>'
         tech_items = [
@@ -482,11 +453,9 @@ def render_report(data, tech, sent, qual, sig):
             f"<strong>MACD:</strong> {tech['macd_data']['crossover']}",
             f"<strong>52-Week Range Pos:</strong> {tech['fifty_two_week_pos_pct']:.1f}%",
         ]
-        for item in tech_items:
-            tech_html += f'<p style="margin: 14px 0; font-size: 1.2rem;">{item}</p>'
+        for item in tech_items: tech_html += f'<p style="margin: 14px 0; font-size: 1.2rem;">{item}</p>'
         if tech.get("signals"):
-            for s in tech["signals"][:3]:
-                tech_html += f'<div class="m3-headline-item">{s}</div>'
+            for s in tech["signals"][:3]: tech_html += f'<div class="m3-headline-item">{s}</div>'
         tech_html += '</div>'
         st.markdown(clean_html(tech_html), unsafe_allow_html=True)
 
@@ -506,34 +475,98 @@ def render_report(data, tech, sent, qual, sig):
         analyst_html += '</div>'
         st.markdown(clean_html(analyst_html), unsafe_allow_html=True)
 
-    # ── Sentiment Analysis ──
     st.markdown(clean_html('<div class="m3-section-title"><span class="material-symbols-outlined">newspaper</span> News & Social Sentiment</div>'), unsafe_allow_html=True)
     sent_html = f'<div class="m3-card">'
     sent_html += f'<p style="font-size: 1.25rem; margin-bottom: 20px;"><strong>Sentiment Rating:</strong> {get_chip(sent["label"])} &nbsp; <strong>Score:</strong> {sent["sentiment_score"]:.1f}/100 &nbsp; <strong>Polarity Index:</strong> {sent["combined_polarity"]}</p>'
     if sent.get("positive_highlights"):
-        for h in sent["positive_highlights"][:3]:
-            sent_html += f'<div class="m3-bull-item">📰 {h}</div>'
+        for h in sent["positive_highlights"][:3]: sent_html += f'<div class="m3-bull-item">📰 {h}</div>'
     if sent.get("negative_highlights"):
-        for h in sent["negative_highlights"][:3]:
-            sent_html += f'<div class="m3-bear-item">📰 {h}</div>'
+        for h in sent["negative_highlights"][:3]: sent_html += f'<div class="m3-bear-item">📰 {h}</div>'
     sent_html += '</div>'
     st.markdown(clean_html(sent_html), unsafe_allow_html=True)
 
-    # ── Qualitative / Macro / Moat ──
     st.markdown(clean_html('<div class="m3-section-title"><span class="material-symbols-outlined">shield</span> Qualitative, Macro & Competitive Moat</div>'), unsafe_allow_html=True)
     qual_html = '<div class="m3-card">'
     qual_html += f'<p style="font-size: 1.25rem; margin-bottom: 20px;"><strong>Economic Moat:</strong> {get_chip(qual["moat"]["moat_tier"])} &nbsp; <strong>Valuation Pricing:</strong> {get_chip(qual["priced_in"]["valuation_tier"])}</p>'
-    for pt in qual.get("priced_in", {}).get("priced_in_points", []):
-        qual_html += f'<div class="m3-headline-item">🔹 {pt}</div>'
-    for m in qual.get("macro_policy", {}).get("macro_factors", []):
-        qual_html += f'<div class="m3-headline-item">🌍 {m}</div>'
-    for r in qual.get("macro_policy", {}).get("policy_risks", []):
-        qual_html += f'<div class="m3-bear-item">⚖️ {r}</div>'
+    for pt in qual.get("priced_in", {}).get("priced_in_points", []): qual_html += f'<div class="m3-headline-item">🔹 {pt}</div>'
+    for m in qual.get("macro_policy", {}).get("macro_factors", []): qual_html += f'<div class="m3-headline-item">🌍 {m}</div>'
+    for r in qual.get("macro_policy", {}).get("policy_risks", []): qual_html += f'<div class="m3-bear-item">⚖️ {r}</div>'
     qual_html += '</div>'
     st.markdown(clean_html(qual_html), unsafe_allow_html=True)
 
-    # ── Footer ──
     st.markdown(clean_html(f'<div class="m3-footer">Aegis Equity Terminal &bull; Analysis generated on {datetime.now().strftime("%Y-%m-%d %H:%M:%S")}<br>For educational purposes only. Not financial advice.</div>'), unsafe_allow_html=True)
+
+
+def render_comparison(ticker_a: str, ticker_b: str):
+    """Renders side-by-side comparison between two stocks."""
+    st.markdown(clean_html(f'<div class="m3-section-title"><span class="material-symbols-outlined">compare_arrows</span> Head-to-Head Comparison: {ticker_a} vs {ticker_b}</div>'), unsafe_allow_html=True)
+    
+    with st.spinner(f"Analyzing {ticker_a} and {ticker_b}..."):
+        data_a, tech_a, sent_a, qual_a, sig_a = run_analysis(ticker_a)
+        data_b, tech_b, sent_b, qual_b, sig_b = run_analysis(ticker_b)
+
+    # 1. High Level Winner Summary Card
+    score_a = sig_a["composite_score"]
+    score_b = sig_b["composite_score"]
+    
+    if score_a > score_b:
+        winner_text = f"🏆 <strong>{ticker_a}</strong> leads with a Composite Score of <strong>{score_a:.1f}/100</strong> (+{score_a - score_b:.1f} pts over {ticker_b})"
+    elif score_b > score_a:
+        winner_text = f"🏆 <strong>{ticker_b}</strong> leads with a Composite Score of <strong>{score_b:.1f}/100</strong> (+{score_b - score_a:.1f} pts over {ticker_a})"
+    else:
+        winner_text = f"⚖️ <strong>{ticker_a}</strong> and <strong>{ticker_b}</strong> are tied at Composite Score <strong>{score_a:.1f}/100</strong>"
+
+    st.markdown(clean_html(f'<div class="m3-card" style="text-align: center; border-color: #CBA6F7;"><p style="font-size: 1.4rem; margin: 0; color: #E2E8F0;">{winner_text}</p></div>'), unsafe_allow_html=True)
+
+    # 2. Side-by-side Score Cards
+    col_card_a, col_card_b = st.columns(2)
+    with col_card_a:
+        st.markdown(clean_html(f"""
+        <div class="m3-card">
+            <h2 style="color: #CBA6F7; margin: 0; font-size: 2.2rem;">{ticker_a} &bull; {data_a.get('company_name', ticker_a)}</h2>
+            <div style="margin: 16px 0;">{get_signal_badge(sig_a['signal'])}</div>
+            <p style="font-size: 1.4rem; font-weight: 700; color: #E2E8F0; margin: 8px 0;">Score: {score_a}/100</p>
+            <p style="font-size: 1.15rem; color: #A6ADC8; margin: 0;">Market Cap: {format_currency(data_a.get('market_cap'), data_a.get('currency', 'USD'))}</p>
+        </div>
+        """), unsafe_allow_html=True)
+
+    with col_card_b:
+        st.markdown(clean_html(f"""
+        <div class="m3-card">
+            <h2 style="color: #86EFAC; margin: 0; font-size: 2.2rem;">{ticker_b} &bull; {data_b.get('company_name', ticker_b)}</h2>
+            <div style="margin: 16px 0;">{get_signal_badge(sig_b['signal'])}</div>
+            <p style="font-size: 1.4rem; font-weight: 700; color: #E2E8F0; margin: 8px 0;">Score: {score_b}/100</p>
+            <p style="font-size: 1.15rem; color: #A6ADC8; margin: 0;">Market Cap: {format_currency(data_b.get('market_cap'), data_b.get('currency', 'USD'))}</p>
+        </div>
+        """), unsafe_allow_html=True)
+
+    # 3. Pillar Score Breakdown Chart
+    st.markdown(clean_html('<div class="m3-section-title"><span class="material-symbols-outlined">bar_chart</span> 6-Pillar Score Breakdown</div>'), unsafe_allow_html=True)
+    st.plotly_chart(build_comparison_pillar_chart(sig_a, sig_b, ticker_a, ticker_b), use_container_width=True, key=f"comp-{ticker_a}-{ticker_b}")
+
+    # 4. Detailed Metrics Comparison Table
+    st.markdown(clean_html('<div class="m3-section-title"><span class="material-symbols-outlined">table_view</span> Financial & Valuation Metrics</div>'), unsafe_allow_html=True)
+    st.markdown(clean_html(render_comparison_table(data_a, sig_a, data_b, sig_b)), unsafe_allow_html=True)
+
+    # 5. Bull Catalysts & Bear Risks Comparison
+    col_comp_bull, col_comp_bear = st.columns(2)
+    with col_comp_bull:
+        comp_bull = f'<div class="m3-card"><div class="m3-section-title" style="color: #86EFAC;">Top Catalysts</div>'
+        comp_bull += f'<p style="color: #CBA6F7; font-weight: 700; margin-bottom: 8px;">{ticker_a}:</p>'
+        for p in sig_a.get("key_positives", [])[:2]: comp_bull += f'<div class="m3-bull-item">✅ {p}</div>'
+        comp_bull += f'<p style="color: #86EFAC; font-weight: 700; margin: 16px 0 8px 0;">{ticker_b}:</p>'
+        for p in sig_b.get("key_positives", [])[:2]: comp_bull += f'<div class="m3-bull-item">✅ {p}</div>'
+        comp_bull += '</div>'
+        st.markdown(clean_html(comp_bull), unsafe_allow_html=True)
+
+    with col_comp_bear:
+        comp_bear = f'<div class="m3-card"><div class="m3-section-title" style="color: #FCA5A5;">Key Risks</div>'
+        comp_bear += f'<p style="color: #CBA6F7; font-weight: 700; margin-bottom: 8px;">{ticker_a}:</p>'
+        for r in sig_a.get("key_risks", [])[:2]: comp_bear += f'<div class="m3-bear-item">⚠️ {r}</div>'
+        comp_bear += f'<p style="color: #86EFAC; font-weight: 700; margin: 16px 0 8px 0;">{ticker_b}:</p>'
+        for r in sig_b.get("key_risks", [])[:2]: comp_bear += f'<div class="m3-bear-item">⚠️ {r}</div>'
+        comp_bear += '</div>'
+        st.markdown(clean_html(comp_bear), unsafe_allow_html=True)
 
 
 # ═══════════════════════════════════════════
@@ -549,50 +582,53 @@ st.set_page_config(
 
 st.markdown(M3_DARK_CSS, unsafe_allow_html=True)
 
-# Session state initialization for quick selection
-if "active_ticker" not in st.session_state:
-    st.session_state["active_ticker"] = ""
-
 selected_by_quick_chip = None
 
-# ── Sidebar Setup ──
 with st.sidebar:
     st.markdown(clean_html("""
-    <div style="padding: 20px 0 12px 0;">
+    <div style="padding: 16px 0 8px 0;">
         <h2 style="font-family: 'Google Sans', sans-serif; color: #CBA6F7; font-size: 2.1rem; font-weight: 700; margin: 0; display: flex; align-items: center; gap: 12px;">
             <span class="material-symbols-outlined" style="font-size: 2.6rem;">shield</span> Aegis Equity
         </h2>
-        <p style="color: #A6ADC8; font-size: 1.05rem; margin: 8px 0 0 0;">Multi-Factor Stock Intelligence</p>
+        <p style="color: #A6ADC8; font-size: 1.05rem; margin: 6px 0 0 0;">Multi-Factor Stock Intelligence</p>
     </div>
     """), unsafe_allow_html=True)
 
     st.markdown("---")
 
-    # ── Enter-Key Search Form ──
-    st.markdown("<h3 style='font-size: 1.35rem; color: #E2E8F0; margin-bottom: 8px;'>Stock Search</h3>", unsafe_allow_html=True)
+    mode = st.radio(
+        "Analysis Mode",
+        options=["Single Stock Analysis", "Compare 2 Stocks"],
+        index=0
+    )
 
-    with st.form("search_form", clear_on_submit=False):
-        ticker_input = st.text_input(
-            "Ticker Symbol (Press Enter)",
-            value=st.session_state.get("active_ticker", ""),
-            placeholder="e.g. NVDA, GME, CBA.AX",
-            help="Type any symbol and press Enter on your keyboard to run live analysis"
-        )
-        submit_btn = st.form_submit_button("🔍  Run Analysis", type="primary", use_container_width=True)
-
-    # ── Live Trending Quick Access Buttons ──
     st.markdown("---")
-    st.markdown("<h4 style='font-size: 1.2rem; color: #CBA6F7; margin-bottom: 12px; display: flex; align-items: center; gap: 8px;'><span class='material-symbols-outlined'>local_fire_department</span> Trending Stocks Today</h4>", unsafe_allow_html=True)
 
-    trending_list = fetch_cached_trending()
-    
-    # 2 columns of quick access buttons
-    t_cols = st.columns(2)
-    for idx, t_sym in enumerate(trending_list):
-        col_target = t_cols[idx % 2]
-        with col_target:
-            if st.button(f"🔥 {t_sym}", key=f"btn_trend_{t_sym}", use_container_width=True):
-                selected_by_quick_chip = t_sym
+    if mode == "Single Stock Analysis":
+        st.markdown("<h3 style='font-size: 1.35rem; color: #E2E8F0; margin-bottom: 8px;'>Stock Search</h3>", unsafe_allow_html=True)
+        with st.form("single_search_form", clear_on_submit=False):
+            ticker_input = st.text_input(
+                "Ticker Symbol (Press Enter)",
+                placeholder="e.g. NVDA, GME, CBA.AX",
+                help="Type any symbol and press Enter to run live analysis"
+            )
+            submit_btn = st.form_submit_button("🔍  Run Analysis", type="primary", use_container_width=True)
+
+        st.markdown("---")
+        st.markdown("<h4 style='font-size: 1.2rem; color: #CBA6F7; margin-bottom: 12px; display: flex; align-items: center; gap: 8px;'><span class='material-symbols-outlined'>local_fire_department</span> Instant Trending Stocks</h4>", unsafe_allow_html=True)
+        trending_list = fetch_cached_trending()
+        t_cols = st.columns(2)
+        for idx, t_sym in enumerate(trending_list):
+            with t_cols[idx % 2]:
+                if st.button(f"⚡ {t_sym}", key=f"btn_trend_{t_sym}", use_container_width=True):
+                    selected_by_quick_chip = t_sym
+
+    else:
+        st.markdown("<h3 style='font-size: 1.35rem; color: #E2E8F0; margin-bottom: 8px;'>Compare Equities</h3>", unsafe_allow_html=True)
+        with st.form("compare_search_form", clear_on_submit=False):
+            comp_t1 = st.text_input("First Ticker (e.g. NVDA)", placeholder="NVDA")
+            comp_t2 = st.text_input("Second Ticker (e.g. AMD)", placeholder="AMD")
+            comp_submit_btn = st.form_submit_button("⚔️  Compare Equities", type="primary", use_container_width=True)
 
     st.markdown("---")
     st.markdown(clean_html("""
@@ -608,37 +644,57 @@ with st.sidebar:
     """), unsafe_allow_html=True)
 
     st.markdown("---")
-    st.caption("Aegis Equity Engine v2.0 &bull; ApeWisdom / StockTwits")
+    st.caption("Aegis Equity Engine v2.0 &bull; Precomputed Instant Cache")
+
 
 # ── Main Content Execution ──
-target_ticker = None
+if mode == "Single Stock Analysis":
+    target_ticker = None
+    if selected_by_quick_chip:
+        target_ticker = selected_by_quick_chip
+    elif 'submit_btn' in locals() and submit_btn and ticker_input.strip():
+        target_ticker = ticker_input.strip().upper()
 
-if selected_by_quick_chip:
-    target_ticker = selected_by_quick_chip
-elif submit_btn and ticker_input.strip():
-    target_ticker = ticker_input.strip().upper()
+    if target_ticker:
+        try:
+            data, tech, sent, qual, sig = run_analysis(target_ticker)
+            render_report(data, tech, sent, qual, sig)
+        except Exception as e:
+            st.error(f"Error executing analysis for '{target_ticker}': {e}")
+    else:
+        landing_html = """
+        <div style="text-align: center; padding: 80px 20px;">
+            <div style="display: inline-block; background: #242438; border: 1px solid #383854; border-radius: 40px; padding: 32px; margin-bottom: 32px;">
+                <span class="material-symbols-outlined" style="font-size: 5rem; color: #CBA6F7;">shield_with_house</span>
+            </div>
+            <h1 style="font-family: 'Google Sans', sans-serif; color: #E2E8F0; font-weight: 700; font-size: 3.6rem; margin-bottom: 20px;">Aegis Equity Terminal</h1>
+            <p style="color: #A6ADC8; font-size: 1.45rem; max-width: 780px; margin: 0 auto 40px auto; line-height: 1.7;">Enter any stock ticker to view a 6-pillar deep dive report, click <strong>Instant Trending Stocks</strong> for instant loading, or switch to <strong>Compare 2 Stocks</strong> in the sidebar.</p>
+            <div style="display: flex; justify-content: center; gap: 18px; flex-wrap: wrap;">
+                <span class="m3-chip m3-chip-buy" style="font-size: 1.15rem;">⚡ Instant Trending Pre-Cached Reports</span>
+                <span class="m3-chip m3-chip-buy" style="font-size: 1.15rem;">⚔️ Head-to-Head Stock Comparison</span>
+                <span class="m3-chip m3-chip-buy" style="font-size: 1.15rem;">⌨️ Press Enter to Search</span>
+            </div>
+        </div>
+        """
+        st.markdown(clean_html(landing_html), unsafe_allow_html=True)
 
-if target_ticker:
-    try:
-        data, tech, sent, qual, sig = run_analysis(target_ticker)
-        render_report(data, tech, sent, qual, sig)
-    except Exception as e:
-        st.error(f"Error executing analysis for '{target_ticker}': {e}")
 else:
-    # Welcome Landing Page
-    landing_html = """
-    <div style="text-align: center; padding: 80px 20px;">
-        <div style="display: inline-block; background: #242438; border: 1px solid #383854; border-radius: 40px; padding: 32px; margin-bottom: 32px;">
-            <span class="material-symbols-outlined" style="font-size: 5rem; color: #CBA6F7;">shield_with_house</span>
+    # Compare Mode
+    if 'comp_submit_btn' in locals() and comp_submit_btn and comp_t1.strip() and comp_t2.strip():
+        t1 = comp_t1.strip().upper()
+        t2 = comp_t2.strip().upper()
+        try:
+            render_comparison(t1, t2)
+        except Exception as e:
+            st.error(f"Error comparing '{t1}' vs '{t2}': {e}")
+    else:
+        landing_comp_html = """
+        <div style="text-align: center; padding: 80px 20px;">
+            <div style="display: inline-block; background: #242438; border: 1px solid #383854; border-radius: 40px; padding: 32px; margin-bottom: 32px;">
+                <span class="material-symbols-outlined" style="font-size: 5rem; color: #86EFAC;">compare_arrows</span>
+            </div>
+            <h1 style="font-family: 'Google Sans', sans-serif; color: #E2E8F0; font-weight: 700; font-size: 3.6rem; margin-bottom: 20px;">Head-to-Head Stock Comparison</h1>
+            <p style="color: #A6ADC8; font-size: 1.45rem; max-width: 780px; margin: 0 auto 40px auto; line-height: 1.7;">Enter two ticker symbols in the sidebar (e.g. <strong>NVDA vs AMD</strong> or <strong>AAPL vs MSFT</strong>) to compare their composite scores, 6-pillar radar, valuation multiples, and bull/bear catalysts side-by-side.</p>
         </div>
-        <h1 style="font-family: 'Google Sans', sans-serif; color: #E2E8F0; font-weight: 700; font-size: 3.6rem; margin-bottom: 20px;">Aegis Equity Terminal</h1>
-        <p style="color: #A6ADC8; font-size: 1.45rem; max-width: 780px; margin: 0 auto 40px auto; line-height: 1.7;">Enter any equity ticker in the search bar and press <strong>Enter</strong>, or select a live trending stock from the sidebar quick access buttons.</p>
-        <div style="display: flex; justify-content: center; gap: 18px; flex-wrap: wrap;">
-            <span class="m3-chip m3-chip-buy" style="font-size: 1.15rem;">🇺🇸 US Equities (NVDA, GME, TSLA)</span>
-            <span class="m3-chip m3-chip-buy" style="font-size: 1.15rem;">🇦🇺 ASX Equities (CBA.AX, BHP.AX)</span>
-            <span class="m3-chip m3-chip-buy" style="font-size: 1.15rem;">🇬🇧 LSE Equities (SHEL.L, AZN.L)</span>
-            <span class="m3-chip m3-chip-buy" style="font-size: 1.15rem;">🇪🇺 EU Equities (SAP.DE)</span>
-        </div>
-    </div>
-    """
-    st.markdown(clean_html(landing_html), unsafe_allow_html=True)
+        """
+        st.markdown(clean_html(landing_comp_html), unsafe_allow_html=True)
