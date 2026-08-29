@@ -386,8 +386,8 @@ def render_report(data, tech, sent, qual, sig):
                     full_list = [symbol] + [t for t in new_targets if t != symbol]
                     
                     st.session_state["active_view"] = "Compare Equities"
-                    st.session_state["compare_tickers_list"] = full_list
-                    st.session_state["compare_query_text"] = ", ".join(full_list)
+                    st.session_state["compare_tickers_list"] = full_list[:5]
+                    st.session_state["compare_query_text"] = ", ".join(full_list[:5])
                     st.rerun()
         else:
             if st.button("➕  Compare Stock", key=f"btn_show_inline_{symbol}", use_container_width=True):
@@ -522,13 +522,39 @@ def render_report(data, tech, sent, qual, sig):
 
 
 def render_multi_comparison(tickers: list):
-    """Renders multi-equity comparison for up to 5 stocks with Final Verdict cards."""
+    """Renders multi-equity comparison for up to 5 stocks with Final Verdict cards and top-right '+ Add Stock to Compare' button."""
     tickers = list(dict.fromkeys([t.upper().strip() for t in tickers if t.strip()]))[:5]
     if not tickers:
         st.warning("Please enter at least 1 ticker to compare.")
         return
 
-    st.markdown(clean_html(f'<div class="m3-section-title"><span class="material-symbols-outlined">compare_arrows</span> Multi-Stock Comparison: {" vs ".join(tickers)}</div>'), unsafe_allow_html=True)
+    # Top Header Row with "+ Add Stock to Compare" button (Disappears when 5 stocks reach capacity)
+    comp_title_col, comp_btn_col = st.columns([2.6, 1.4])
+    with comp_title_col:
+        st.markdown(clean_html(f'<div class="m3-section-title"><span class="material-symbols-outlined">compare_arrows</span> Multi-Stock Comparison ({len(tickers)}/5): {" vs ".join(tickers)}</div>'), unsafe_allow_html=True)
+
+    with comp_btn_col:
+        if len(tickers) < 5:
+            is_adding = st.session_state.get("show_inline_multi_comp", False)
+            if is_adding:
+                with st.form("inline_add_multi_comp_form", clear_on_submit=False):
+                    add_target = st.text_input(
+                        "Add stock to compare:",
+                        placeholder="e.g. MSFT, TSLA (Press Enter)",
+                        key="input_add_multi_comp"
+                    )
+                    sub_add = st.form_submit_button("⚔️  Add & Compare", type="primary", use_container_width=True)
+                    if sub_add and add_target.strip():
+                        new_t_list = [t.strip().upper() for t in add_target.strip().split(",") if t.strip()]
+                        updated_list = list(dict.fromkeys(tickers + new_t_list))[:5]
+                        st.session_state["compare_tickers_list"] = updated_list
+                        st.session_state["compare_query_text"] = ", ".join(updated_list)
+                        st.session_state["show_inline_multi_comp"] = False
+                        st.rerun()
+            else:
+                if st.button("➕  Add Stock to Compare", key="btn_show_multi_add", use_container_width=True):
+                    st.session_state["show_inline_multi_comp"] = True
+                    st.rerun()
     
     data_map = {}
     sig_map = {}
