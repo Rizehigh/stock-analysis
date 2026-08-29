@@ -1,14 +1,14 @@
 """
-Stock Comparator Engine - Multi-Equity Comparison (up to 5 stocks)
-Compares 1 to 5 equities side-by-side across Composite Scores, 6-Pillar breakdowns, Valuation Multiples, and Bull/Bear catalysts.
+Stock Comparator Engine - Multi-Equity Comparison (up to 6 stocks)
+Compares 1 to 6 equities side-by-side across Composite Scores, 6-Pillar breakdowns, Valuation Multiples, and Bull/Bear catalysts.
 """
 import plotly.graph_objects as go
 from stock_bot.config import format_currency
 
-PALETTE = ["#CBA6F7", "#86EFAC", "#FDE047", "#93C5FD", "#F9A8D4"]
+PALETTE = ["#CBA6F7", "#86EFAC", "#FDE047", "#93C5FD", "#F9A8D4", "#F97316"]
 
 def build_multi_pillar_chart(sig_map: dict):
-    """Creates a grouped bar chart comparing 6 pillar scores for up to 5 stocks."""
+    """Creates a grouped bar chart comparing 6 pillar scores for up to 6 stocks."""
     categories = [
         "Fundamentals", "Valuation", "Technicals", 
         "Sentiment", "Analyst", "Macro & Moat"
@@ -29,65 +29,67 @@ def build_multi_pillar_chart(sig_map: dict):
         
     fig.update_layout(
         barmode="group",
-        height=380,
+        height=450,
         margin=dict(l=20, r=20, t=30, b=30),
         paper_bgcolor="rgba(0,0,0,0)",
-        plot_bgcolor="rgba(0,0,0,0)",
-        legend=dict(font=dict(color="#E2E8F0", size=14), orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1),
-        xaxis=dict(tickfont=dict(color="#E2E8F0", size=13), gridcolor="#383854"),
-        yaxis=dict(range=[0, 100], tickfont=dict(color="#E2E8F0", size=13), gridcolor="#383854", title="Pillar Score (0-100)"),
-        font=dict(family="Inter, sans-serif")
+        plot_bgcolor="#1E1E2E",
+        font={"family": "Inter, sans-serif", "color": "#E2E8F0", "size": 14},
+        legend=dict(
+            orientation="h",
+            yanchor="bottom",
+            y=1.02,
+            xanchor="right",
+            x=1,
+            font=dict(size=14, color="#E2E8F0")
+        ),
+        xaxis=dict(
+            gridcolor="#383854",
+            tickfont=dict(size=13, color="#A6ADC8")
+        ),
+        yaxis=dict(
+            range=[0, 100],
+            gridcolor="#383854",
+            title="Score (0 - 100)",
+            tickfont=dict(size=13, color="#A6ADC8")
+        )
     )
     return fig
 
-def render_multi_comparison_table(data_map: dict, sig_map: dict):
-    """Generates an HTML comparison table for up to 5 stocks."""
-    symbols = list(data_map.keys())
+def render_multi_comparison_table(data_map: dict, sig_map: dict) -> str:
+    """Renders dynamic HTML table comparing metrics side-by-side for up to 6 stocks."""
+    tickers = list(data_map.keys())
     
-    def fmt(val, fmt_str=".1f", suffix="", prefix=""):
-        if val is None: return "N/A"
-        try: return f"{prefix}{val:{fmt_str}}{suffix}"
-        except: return "N/A"
-        
+    html = '<div class="m3-table-container"><table class="m3-table"><thead><tr><th>Metric</th>'
+    for idx, sym in enumerate(tickers):
+        color = PALETTE[idx % len(PALETTE)]
+        html += f'<th style="color: {color}; text-align: center;">{sym}</th>'
+    html += '</tr></thead><tbody>'
+    
     metrics = [
-        ("Composite Score", lambda s, d: f"<strong>{s['composite_score']}</strong> / 100"),
-        ("Signal & Conf.", lambda s, d: f"{s['signal']} ({s['confidence_pct']}%)"),
-        ("Current Price", lambda s, d: format_currency(d.get("current_price"), d.get("currency", "USD"))),
-        ("Market Cap", lambda s, d: format_currency(d.get("market_cap"), d.get("currency", "USD"))),
-        ("P/E Ratio (TTM)", lambda s, d: fmt(d.get("pe_ratio"))),
-        ("Forward P/E", lambda s, d: fmt(d.get("forward_pe"))),
-        ("PEG Ratio", lambda s, d: fmt(d.get("peg_ratio"), ".2f")),
-        ("Price to Sales", lambda s, d: fmt(d.get("price_to_sales"), ".2f")),
-        ("Profit Margin", lambda s, d: fmt(d.get("profit_margins") * 100 if d.get("profit_margins") else None, ".1f", "%")),
-        ("Return on Equity", lambda s, d: fmt(d.get("return_on_equity") * 100 if d.get("return_on_equity") else None, ".1f", "%")),
-        ("Revenue Growth", lambda s, d: fmt(d.get("revenue_growth") * 100 if d.get("revenue_growth") else None, ".1f", "%")),
-        ("Dividend Yield", lambda s, d: fmt(d.get("dividend_yield_pct"), ".2f", "%")),
-        ("Debt to Equity", lambda s, d: fmt(d.get("debt_to_equity"))),
-        ("Wall St Rating", lambda s, d: str(d.get("recommendation_key", "N/A")).upper()),
-        ("Implied Upside", lambda s, d: fmt(d.get("implied_upside_pct"), "+.1f", "%")),
+        ("Company Name", lambda sym: data_map[sym].get("company_name", sym)[:20]),
+        ("Sector", lambda sym: data_map[sym].get("sector", "N/A")),
+        ("Current Price", lambda sym: format_currency(data_map[sym].get("current_price"), data_map[sym].get("currency", "USD"))),
+        ("Market Cap", lambda sym: format_currency(data_map[sym].get("market_cap"), data_map[sym].get("currency", "USD"))),
+        ("P/E Ratio (TTM)", lambda sym: f"{data_map[sym].get('pe_ratio'):.1f}" if data_map[sym].get('pe_ratio') else "N/A"),
+        ("Forward P/E", lambda sym: f"{data_map[sym].get('forward_pe'):.1f}" if data_map[sym].get('forward_pe') else "N/A"),
+        ("PEG Ratio", lambda sym: f"{data_map[sym].get('peg_ratio'):.2f}" if data_map[sym].get('peg_ratio') else "N/A"),
+        ("P/S Ratio", lambda sym: f"{data_map[sym].get('price_to_sales'):.2f}" if data_map[sym].get('price_to_sales') else "N/A"),
+        ("Profit Margin", lambda sym: f"{data_map[sym]['profit_margins']*100:.1f}%" if data_map[sym].get('profit_margins') else "N/A"),
+        ("Revenue Growth", lambda sym: f"{data_map[sym]['revenue_growth']*100:.1f}%" if data_map[sym].get('revenue_growth') else "N/A"),
+        ("Return on Equity", lambda sym: f"{data_map[sym]['return_on_equity']*100:.1f}%" if data_map[sym].get('return_on_equity') else "N/A"),
+        ("Dividend Yield", lambda sym: f"{data_map[sym]['dividend_yield_pct']:.2f}%" if data_map[sym].get('dividend_yield_pct') else "N/A"),
+        ("Wall St Consensus", lambda sym: str(data_map[sym].get('recommendation_key', 'N/A')).upper()),
+        ("Analyst Upside", lambda sym: f"{data_map[sym]['implied_upside_pct']:+.1f}%" if data_map[sym].get('implied_upside_pct') else "N/A"),
+        ("RSI (14-day)", lambda sym: f"{sig_map[sym]['pillar_scores']['technicals']:.1f}"),
+        ("Overall Composite", lambda sym: f"<strong>{sig_map[sym]['composite_score']} / 100</strong>"),
     ]
     
-    col_width = int(70 / max(1, len(symbols)))
-    
-    html = f"""
-    <div class="m3-table-container">
-        <table class="m3-table">
-            <thead>
-                <tr>
-                    <th style="width: 30%;">Metric</th>
-    """
-    for idx, sym in enumerate(symbols):
-        color = PALETTE[idx % len(PALETTE)]
-        c_name = data_map[sym].get("company_name", sym)
-        html += f'<th style="width: {col_width}%; color: {color};">{sym}<br><span style="font-size: 0.85rem; text-transform: none; color: #A6ADC8;">{c_name[:18]}</span></th>'
-    
-    html += "</tr></thead><tbody>"
-    
-    for row_label, extractor in metrics:
-        html += f"<tr><td><strong>{row_label}</strong></td>"
-        for sym in symbols:
-            html += f"<td>{extractor(sig_map[sym], data_map[sym])}</td>"
-        html += "</tr>"
+    for label, extractor in metrics:
+        html += f'<tr><td><strong>{label}</strong></td>'
+        for sym in tickers:
+            val = extractor(sym)
+            html += f'<td style="text-align: center;">{val}</td>'
+        html += '</tr>'
         
-    html += "</tbody></table></div>"
+    html += '</tbody></table></div>'
     return html

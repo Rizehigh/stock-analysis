@@ -68,6 +68,30 @@ M3_DARK_CSS = """
     line-height: 1.75 !important;
 }
 
+/* Ensure sidebar header container & collapse control remain visible and easily clickable */
+header[data-testid="stHeader"] {
+    background-color: transparent !important;
+    z-index: 99999 !important;
+}
+
+[data-testid="stSidebarCollapsedControl"] {
+    background-color: #242438 !important;
+    border: 1px solid #383854 !important;
+    border-radius: 12px !important;
+    margin: 12px !important;
+    padding: 6px !important;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.4) !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+[data-testid="stSidebarCollapsedControl"] button,
+[data-testid="stSidebarCollapsedControl"] svg {
+    color: #CBA6F7 !important;
+    fill: #CBA6F7 !important;
+}
+
 [data-testid="stSidebar"] {
     background-color: var(--card-bg) !important;
     border-right: 1px solid var(--card-border) !important;
@@ -276,7 +300,6 @@ div[data-baseweb="input"] input {
 }
 
 #MainMenu {visibility: hidden;}
-header {visibility: hidden;}
 footer {visibility: hidden;}
 </style>
 """
@@ -386,8 +409,8 @@ def render_report(data, tech, sent, qual, sig):
                     full_list = [symbol] + [t for t in new_targets if t != symbol]
                     
                     st.session_state["active_view"] = "Compare Equities"
-                    st.session_state["compare_tickers_list"] = full_list[:5]
-                    st.session_state["compare_query_text"] = ", ".join(full_list[:5])
+                    st.session_state["compare_tickers_list"] = full_list[:6]
+                    st.session_state["compare_query_text"] = ", ".join(full_list[:6])
                     st.rerun()
         else:
             if st.button("➕  Compare Stock", key=f"btn_show_inline_{symbol}", use_container_width=True):
@@ -522,19 +545,19 @@ def render_report(data, tech, sent, qual, sig):
 
 
 def render_multi_comparison(tickers: list):
-    """Renders multi-equity comparison for up to 5 stocks with Final Verdict cards and top-right '+ Add Stock to Compare' button."""
-    tickers = list(dict.fromkeys([t.upper().strip() for t in tickers if t.strip()]))[:5]
+    """Renders multi-equity comparison for up to 6 stocks with Final Verdict cards and top-right '+ Add Stock to Compare' button."""
+    tickers = list(dict.fromkeys([t.upper().strip() for t in tickers if t.strip()]))[:6]
     if not tickers:
         st.warning("Please enter at least 1 ticker to compare.")
         return
 
-    # Top Header Row with "+ Add Stock to Compare" button (Disappears when 5 stocks reach capacity)
+    # Top Header Row with "+ Add Stock to Compare" button (Disappears when 6 stocks reach capacity)
     comp_title_col, comp_btn_col = st.columns([2.6, 1.4])
     with comp_title_col:
-        st.markdown(clean_html(f'<div class="m3-section-title"><span class="material-symbols-outlined">compare_arrows</span> Multi-Stock Comparison ({len(tickers)}/5): {" vs ".join(tickers)}</div>'), unsafe_allow_html=True)
+        st.markdown(clean_html(f'<div class="m3-section-title"><span class="material-symbols-outlined">compare_arrows</span> Multi-Stock Comparison ({len(tickers)}/6): {" vs ".join(tickers)}</div>'), unsafe_allow_html=True)
 
     with comp_btn_col:
-        if len(tickers) < 5:
+        if len(tickers) < 6:
             is_adding = st.session_state.get("show_inline_multi_comp", False)
             if is_adding:
                 with st.form("inline_add_multi_comp_form", clear_on_submit=False):
@@ -546,7 +569,7 @@ def render_multi_comparison(tickers: list):
                     sub_add = st.form_submit_button("⚔️  Add & Compare", type="primary", use_container_width=True)
                     if sub_add and add_target.strip():
                         new_t_list = [t.strip().upper() for t in add_target.strip().split(",") if t.strip()]
-                        updated_list = list(dict.fromkeys(tickers + new_t_list))[:5]
+                        updated_list = list(dict.fromkeys(tickers + new_t_list))[:6]
                         st.session_state["compare_tickers_list"] = updated_list
                         st.session_state["compare_query_text"] = ", ".join(updated_list)
                         st.session_state["show_inline_multi_comp"] = False
@@ -710,13 +733,13 @@ with st.sidebar:
             comp_input = st.text_input(
                 "Stock Tickers (Press Enter)",
                 value=st.session_state.get("compare_query_text", "NVDA, AMD"),
-                placeholder="e.g. NVDA, AMD, MSFT (up to 5)",
-                help="Type up to 5 comma-separated stock tickers and press Enter"
+                placeholder="e.g. NVDA, AMD, MSFT (up to 6)",
+                help="Type up to 6 comma-separated stock tickers and press Enter"
             )
             comp_submit_btn = st.form_submit_button("⚔️  Run Comparison", type="primary", use_container_width=True)
             if comp_submit_btn and comp_input.strip():
                 parsed = [t.strip().upper() for t in comp_input.strip().split(",") if t.strip()]
-                st.session_state["compare_tickers_list"] = parsed
+                st.session_state["compare_tickers_list"] = parsed[:6]
                 st.session_state["compare_query_text"] = comp_input.strip()
                 st.rerun()
 
@@ -754,7 +777,7 @@ if st.session_state["active_view"] == "Single Stock Analysis":
                 <span class="material-symbols-outlined" style="font-size: 5rem; color: #CBA6F7;">shield_with_house</span>
             </div>
             <h1 style="font-family: 'Google Sans', sans-serif; color: #E2E8F0; font-weight: 700; font-size: 3.6rem; margin-bottom: 20px;">Aegis Equity Terminal</h1>
-            <p style="color: #A6ADC8; font-size: 1.45rem; max-width: 780px; margin: 0 auto 40px auto; line-height: 1.7;">Enter any stock ticker to view a 6-pillar deep dive report, click <strong>Trending Stocks</strong> for instant loading, or click <strong>➕ Compare Stock</strong> to compare up to 5 equities side-by-side.</p>
+            <p style="color: #A6ADC8; font-size: 1.45rem; max-width: 780px; margin: 0 auto 40px auto; line-height: 1.7;">Enter any stock ticker to view a 6-pillar deep dive report, click <strong>Trending Stocks</strong> for instant loading, or click <strong>➕ Compare Stock</strong> to compare up to 6 equities side-by-side.</p>
             <div style="display: flex; justify-content: center; gap: 16px; flex-wrap: wrap;">
                 <span class="m3-chip m3-chip-buy" style="font-size: 1.15rem;">📊 6-Pillar Composite Quant Model</span>
                 <span class="m3-chip m3-chip-buy" style="font-size: 1.15rem;">🌐 US, ASX, LSE & EU Market Data</span>
@@ -783,7 +806,7 @@ else:
                 <span class="material-symbols-outlined" style="font-size: 5rem; color: #86EFAC;">compare_arrows</span>
             </div>
             <h1 style="font-family: 'Google Sans', sans-serif; color: #E2E8F0; font-weight: 700; font-size: 3.6rem; margin-bottom: 20px;">Multi-Equity Stock Comparison</h1>
-            <p style="color: #A6ADC8; font-size: 1.45rem; max-width: 780px; margin: 0 auto 40px auto; line-height: 1.7;">Type up to 5 stock tickers separated by commas (e.g. <strong>NVDA, AMD, MSFT, AAPL, TSLA</strong>) and press Enter to compare side-by-side.</p>
+            <p style="color: #A6ADC8; font-size: 1.45rem; max-width: 780px; margin: 0 auto 40px auto; line-height: 1.7;">Type up to 6 stock tickers separated by commas (e.g. <strong>NVDA, AMD, MSFT, AAPL, TSLA, GOOGL</strong>) and press Enter to compare side-by-side.</p>
         </div>
         """
         st.markdown(clean_html(landing_comp_html), unsafe_allow_html=True)
