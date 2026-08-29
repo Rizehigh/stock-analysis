@@ -3,11 +3,16 @@ Aegis Equity Terminal - Streamlit Web Application
 Astigmatism-Friendly & High-Legibility Dark Theme.
 Includes 1-5 Stock Multi-Equity Comparator & Header Quick "+ Add to Compare" Button.
 """
+import sys
+import os
+
+# Ensure project root is in sys.path for Streamlit Cloud deployments
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+
 import streamlit as st
 import plotly.graph_objects as go
 import time
 import json
-import os
 from datetime import datetime
 from stock_bot.data_fetcher import fetch_stock_data
 from stock_bot.technical_analysis import analyze_technicals
