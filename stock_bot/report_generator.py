@@ -40,7 +40,7 @@ def print_cli_report(
     mcap_str = format_currency(data.get("market_cap"), curr)
     
     print("\n" + Colors.BOLD + Colors.CYAN + "=" * 78 + Colors.RESET)
-    print(Colors.BOLD + Colors.HEADER + f" COMPREHENSIVE STOCK ANALYSIS BOT REPORT: {data['symbol']} ({data['company_name']})" + Colors.RESET)
+    print(Colors.BOLD + Colors.HEADER + f" AEGIS EQUITY TERMINAL — MULTI-FACTOR REPORT: {data['symbol']} ({data['company_name']})" + Colors.RESET)
     print(f" Exchange: {data['exchange_info']['exchange']} ({data['exchange_info']['country']}) | Currency: {curr}")
     print(f" Current Price: {Colors.BOLD}{price_str}{Colors.RESET} | Market Cap: {mcap_str} | Sector: {data['sector']}")
     print(Colors.BOLD + Colors.CYAN + "=" * 78 + Colors.RESET + "\n")
