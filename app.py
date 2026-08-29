@@ -363,14 +363,14 @@ def run_analysis(ticker: str):
     return data, tech, sent, qual, sig
 
 def render_report(data, tech, sent, qual, sig):
-    """Renders complete Material Design 3 Dark report with header inline compare search form."""
+    """Renders complete Material Design 3 Dark report with header compare form."""
     curr = data.get("currency", "USD")
     symbol = data["symbol"]
     price_str = format_currency(data.get("current_price"), curr)
     mcap_str = format_currency(data.get("market_cap"), curr)
 
     # ── Top Bar Header + Dynamic Compare Search Bar ──
-    hdr_col1, hdr_col2 = st.columns([2.8, 1.4])
+    hdr_col1, hdr_col2 = st.columns([2.6, 1.4])
     with hdr_col2:
         is_comparing = st.session_state.get(f"show_inline_comp_{symbol}", False)
         if is_comparing:
@@ -384,9 +384,10 @@ def render_report(data, tech, sent, qual, sig):
                 if comp_submitted and compare_target.strip():
                     new_targets = [t.strip().upper() for t in compare_target.strip().split(",") if t.strip()]
                     full_list = [symbol] + [t for t in new_targets if t != symbol]
-                    st.session_state["compare_query"] = ", ".join(full_list)
-                    st.session_state["mode_radio"] = "Compare Equities"
-                    st.session_state["active_compare_run"] = ", ".join(full_list)
+                    
+                    st.session_state["active_view"] = "Compare Equities"
+                    st.session_state["compare_tickers_list"] = full_list
+                    st.session_state["compare_query_text"] = ", ".join(full_list)
                     st.rerun()
         else:
             if st.button("➕  Compare Stock", key=f"btn_show_inline_{symbol}", use_container_width=True):
@@ -614,11 +615,18 @@ st.set_page_config(
 
 st.markdown(M3_DARK_CSS, unsafe_allow_html=True)
 
-if "mode_radio" not in st.session_state:
-    st.session_state["mode_radio"] = "Single Stock Analysis"
+# ── Session State Persistence Setup ──
+if "active_view" not in st.session_state:
+    st.session_state["active_view"] = "Single Stock Analysis"
 
-if "compare_query" not in st.session_state:
-    st.session_state["compare_query"] = "NVDA, AMD"
+if "active_single_ticker" not in st.session_state:
+    st.session_state["active_single_ticker"] = None
+
+if "compare_tickers_list" not in st.session_state:
+    st.session_state["compare_tickers_list"] = []
+
+if "compare_query_text" not in st.session_state:
+    st.session_state["compare_query_text"] = "NVDA, AMD"
 
 selected_by_quick_chip = None
 
@@ -634,15 +642,20 @@ with st.sidebar:
 
     st.markdown("---")
 
-    mode = st.radio(
+    # Radio widget synchronized with st.session_state["active_view"]
+    radio_index = 0 if st.session_state["active_view"] == "Single Stock Analysis" else 1
+    chosen_mode = st.radio(
         "Analysis Mode",
         options=["Single Stock Analysis", "Compare Equities"],
-        key="mode_radio"
+        index=radio_index
     )
+    if chosen_mode != st.session_state["active_view"]:
+        st.session_state["active_view"] = chosen_mode
+        st.rerun()
 
     st.markdown("---")
 
-    if mode == "Single Stock Analysis":
+    if st.session_state["active_view"] == "Single Stock Analysis":
         st.markdown("<h3 style='font-size: 1.35rem; color: #E2E8F0; margin-bottom: 8px;'>Stock Search</h3>", unsafe_allow_html=True)
         with st.form("single_search_form", clear_on_submit=False):
             single_input = st.text_input(
@@ -651,6 +664,9 @@ with st.sidebar:
                 help="Type any symbol and press Enter to run live analysis"
             )
             single_submit_btn = st.form_submit_button("🔍  Run Analysis", type="primary", use_container_width=True)
+            if single_submit_btn and single_input.strip():
+                st.session_state["active_single_ticker"] = single_input.strip().upper()
+                st.rerun()
 
         st.markdown("---")
         st.markdown("<h4 style='font-size: 1.2rem; color: #CBA6F7; margin-bottom: 12px; display: flex; align-items: center; gap: 8px;'><span class='material-symbols-outlined'>local_fire_department</span> Trending Stocks Today</h4>", unsafe_allow_html=True)
@@ -659,18 +675,24 @@ with st.sidebar:
         for idx, t_sym in enumerate(trending_list):
             with t_cols[idx % 2]:
                 if st.button(f"🔥 {t_sym}", key=f"btn_trend_{t_sym}", use_container_width=True):
-                    selected_by_quick_chip = t_sym
+                    st.session_state["active_single_ticker"] = t_sym
+                    st.rerun()
 
     else:
         st.markdown("<h3 style='font-size: 1.35rem; color: #E2E8F0; margin-bottom: 8px;'>Compare Equities</h3>", unsafe_allow_html=True)
         with st.form("compare_search_form", clear_on_submit=False):
             comp_input = st.text_input(
                 "Stock Tickers (Press Enter)",
-                value=st.session_state.get("compare_query", "NVDA, AMD"),
+                value=st.session_state.get("compare_query_text", "NVDA, AMD"),
                 placeholder="e.g. NVDA, AMD, MSFT (up to 5)",
                 help="Type up to 5 comma-separated stock tickers and press Enter"
             )
             comp_submit_btn = st.form_submit_button("⚔️  Run Comparison", type="primary", use_container_width=True)
+            if comp_submit_btn and comp_input.strip():
+                parsed = [t.strip().upper() for t in comp_input.strip().split(",") if t.strip()]
+                st.session_state["compare_tickers_list"] = parsed
+                st.session_state["compare_query_text"] = comp_input.strip()
+                st.rerun()
 
     st.markdown("---")
     st.markdown(clean_html("""
@@ -690,12 +712,8 @@ with st.sidebar:
 
 
 # ── Main Content Execution ──
-if mode == "Single Stock Analysis":
-    target_ticker = None
-    if selected_by_quick_chip:
-        target_ticker = selected_by_quick_chip
-    elif 'single_submit_btn' in locals() and single_submit_btn and single_input.strip():
-        target_ticker = single_input.strip().upper()
+if st.session_state["active_view"] == "Single Stock Analysis":
+    target_ticker = st.session_state.get("active_single_ticker")
 
     if target_ticker:
         try:
@@ -723,16 +741,9 @@ if mode == "Single Stock Analysis":
 
 else:
     # Compare Mode Execution
-    run_tickers = []
-    
-    if st.session_state.get("active_compare_run"):
-        run_tickers = [t.strip().upper() for t in st.session_state["active_compare_run"].split(",") if t.strip()]
-        st.session_state["active_compare_run"] = None
-    elif 'comp_submit_btn' in locals() and comp_submit_btn and comp_input.strip():
-        run_tickers = [t.strip().upper() for t in comp_input.strip().split(",") if t.strip()]
-        st.session_state["compare_query"] = comp_input.strip()
-    elif st.session_state.get("compare_query"):
-        run_tickers = [t.strip().upper() for t in st.session_state["compare_query"].split(",") if t.strip()]
+    run_tickers = st.session_state.get("compare_tickers_list", [])
+    if not run_tickers and st.session_state.get("compare_query_text"):
+        run_tickers = [t.strip().upper() for t in st.session_state["compare_query_text"].split(",") if t.strip()]
 
     if run_tickers:
         try:
