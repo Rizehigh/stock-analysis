@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Analysis Report - CBA.AX</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background-color: #f8fafc; color: #1e293b; margin: 0; padding: 24px; }
+        .container { max-width: 1000px; margin: 0 auto; }
+        .card { background: #ffffff; border-radius: 12px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05); padding: 24px; margin-bottom: 24px; border: 1px solid #e2e8f0; }
+        .header-box { background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%); color: #ffffff; border-radius: 12px; padding: 28px; margin-bottom: 24px; }
+        .signal-badge { background-color: #f59e0b; color: #ffffff; font-weight: 700; font-size: 1.5rem; padding: 8px 20px; border-radius: 8px; display: inline-block; }
+        .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+        @media (max-width: 768px) { .grid-2 { grid-template-columns: 1fr; } }
+        table { width: 100%; border-collapse: collapse; margin-top: 12px; }
+        th, td { padding: 10px 14px; text-align: left; border-bottom: 1px solid #e2e8f0; }
+        th { background-color: #f1f5f9; font-weight: 600; }
+        ul { padding-left: 20px; margin: 8px 0; }
+        h2 { color: #0f172a; border-bottom: 2px solid #e2e8f0; padding-bottom: 8px; margin-top: 0; }
+        .footer { text-align: center; font-size: 0.85rem; color: #64748b; margin-top: 40px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header-box">
+            <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px;">
+                <div>
+                    <h1 style="margin: 0; font-size: 2.2rem;">CBA.AX - Commonwealth Bank of Australia</h1>
+                    <p style="margin: 8px 0 0 0; color: #94a3b8; font-size: 1rem;">Exchange: ASX (Australia) | Sector: Financial Services | Industry: Banks - Diversified</p>
+                </div>
+                <div><span class="signal-badge">HOLD</span></div>
+            </div>
+            <hr style="border: 0; border-top: 1px solid #334155; margin: 20px 0;">
+            <div style="display: flex; justify-content: space-between; flex-wrap: wrap; gap: 16px;">
+                <div><strong>Current Price:</strong> <span style="font-size: 1.2rem; color: #38bdf8;">A$157.25</span> (AUD)</div>
+                <div><strong>Market Cap:</strong> A$262.90B</div>
+                <div><strong>Composite Score:</strong> 49.2 / 100</div>
+                <div><strong>Confidence:</strong> 70.7%</div>
+            </div>
+        </div>
+        <div class="grid-2">
+            <div class="card"><h2>Analytical Pillar Scores</h2>
+        <div style="margin-bottom: 12px;">
+            <div style="display: flex; justify-content: space-between; font-weight: 600; margin-bottom: 4px;">
+                <span>Fundamentals</span>
+                <span>68.0 / 100</span>
+            </div>
+            <div style="background: #e2e8f0; border-radius: 6px; height: 10px; overflow: hidden;">
+                <div style="background: #3b82f6; width: 68.0%; height: 100%; border-radius: 6px;"></div>
+            </div>
+        </div>
+        
+        <div style="margin-bottom: 12px;">
+            <div style="display: flex; justify-content: space-between; font-weight: 600; margin-bottom: 4px;">
+                <span>Valuation</span>
+                <span>48.0 / 100</span>
+            </div>
+            <div style="background: #e2e8f0; border-radius: 6px; height: 10px; overflow: hidden;">
+                <div style="background: #3b82f6; width: 48.0%; height: 100%; border-radius: 6px;"></div>
+            </div>
+        </div>
+        
+        <div style="margin-bottom: 12px;">
+            <div style="display: flex; justify-content: space-between; font-weight: 600; margin-bottom: 4px;">
+                <span>Technicals</span>
+                <span>49.3 / 100</span>
+            </div>
+            <div style="background: #e2e8f0; border-radius: 6px; height: 10px; overflow: hidden;">
+                <div style="background: #3b82f6; width: 49.3%; height: 100%; border-radius: 6px;"></div>
+            </div>
+        </div>
+        
+        <div style="margin-bottom: 12px;">
+            <div style="display: flex; justify-content: space-between; font-weight: 600; margin-bottom: 4px;">
+                <span>Sentiment</span>
+                <span>50.7 / 100</span>
+            </div>
+            <div style="background: #e2e8f0; border-radius: 6px; height: 10px; overflow: hidden;">
+                <div style="background: #3b82f6; width: 50.7%; height: 100%; border-radius: 6px;"></div>
+            </div>
+        </div>
+        
+        <div style="margin-bottom: 12px;">
+            <div style="display: flex; justify-content: space-between; font-weight: 600; margin-bottom: 4px;">
+                <span>Analyst</span>
+                <span>5.0 / 100</span>
+            </div>
+            <div style="background: #e2e8f0; border-radius: 6px; height: 10px; overflow: hidden;">
+                <div style="background: #3b82f6; width: 5.0%; height: 100%; border-radius: 6px;"></div>
+            </div>
+        </div>
+        
+        <div style="margin-bottom: 12px;">
+            <div style="display: flex; justify-content: space-between; font-weight: 600; margin-bottom: 4px;">
+                <span>Macro_moat</span>
+                <span>68.0 / 100</span>
+            </div>
+            <div style="background: #e2e8f0; border-radius: 6px; height: 10px; overflow: hidden;">
+                <div style="background: #3b82f6; width: 68.0%; height: 100%; border-radius: 6px;"></div>
+            </div>
+        </div>
+        </div>
+            <div class="card"><h2>Catalysts & Risk Factors</h2><h3 style="color: #059669; font-size: 1.05rem;">Top Bull Catalysts</h3><ul><li style='margin-bottom: 6px;'>✅ Solid Return on Equity (13.9%)</li><li style='margin-bottom: 6px;'>✅ High profit margin (37.0%)</li><li style='margin-bottom: 6px;'>✅ 50-day SMA is above 200-day SMA (Golden Cross)</li><li style='margin-bottom: 6px;'>✅ RSI is oversold at 20.1 (Potential Rebound)</li></ul><h3 style="color: #dc2626; font-size: 1.05rem;">Key Bear Risks</h3><ul><li style='margin-bottom: 6px;'>⚠️ Negative free cash flow generation</li><li style='margin-bottom: 6px;'>⚠️ High PEG ratio (3.49x)</li><li style='margin-bottom: 6px;'>⚠️ Price exceeds average analyst target (-20.4%)</li><li style='margin-bottom: 6px;'>⚠️ Bearish analyst consensus (Sell/Underperform)</li></ul></div>
+        </div>
+        <div class="card">
+            <h2>Financial Fundamentals & Valuation Multiples</h2>
+            <table>
+                <thead><tr><th>Metric</th><th>Value</th><th>Metric</th><th>Value</th></tr></thead>
+                <tbody>
+                    <tr><td><strong>P/E Ratio (TTM)</strong></td><td>24.2</td><td><strong>Forward P/E</strong></td><td>23.2</td></tr>
+                    <tr><td><strong>PEG Ratio</strong></td><td>3.49</td><td><strong>P/S Ratio</strong></td><td>8.95</td></tr>
+                    <tr><td><strong>Profit Margin</strong></td><td>37.0%</td><td><strong>Return on Equity (ROE)</strong></td><td>13.9%</td></tr>
+                    <tr><td><strong>Revenue Growth YoY</strong></td><td>6.5%</td><td><strong>Dividend Yield</strong></td><td>3.21%</td></tr>
+                    <tr><td><strong>Debt to Equity</strong></td><td>N/A</td><td><strong>Current Ratio</strong></td><td>N/A</td></tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="grid-2">
+            <div class="card">
+                <h2>Technical Analysis & Momentum</h2>
+                <ul>
+                    <li><strong>RSI (14-day):</strong> 20.1 (OVERSOLD)</li>
+                    <li><strong>50-day SMA:</strong> 165.78763244628905</li>
+                    <li><strong>200-day SMA:</strong> 162.28576614379884</li>
+                    <li><strong>SMA Cross Status:</strong> GOLDEN_CROSS</li>
+                    <li><strong>MACD Crossover:</strong> BEARISH</li>
+                    <li><strong>52-Week Range Position:</strong> 36.7%</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h2>Wall Street Analyst Consensus</h2>
+                <ul>
+                    <li><strong>Average Target Price:</strong> A$125.21 (Range: A$90.00 - A$144.99)</li>
+                    <li><strong>Implied Target Upside:</strong> -20.4%</li>
+                    <li><strong>Consensus Recommendation:</strong> SELL</li>
+                    <li><strong>Strong Buy / Buy Count:</strong> 0</li>
+                    <li><strong>Hold / Sell Count:</strong> 11</li>
+                </ul>
+            </div>
+        </div>
+        <div class="card">
+            <h2>Reddit & News Sentiment</h2>
+            <p><strong>Sentiment Classification:</strong> NEUTRAL (Score: 50.7/100) | <strong>Polarity Index:</strong> 0.016</p>
+            <ul><li style='margin-bottom: 6px;'>📰 Is It Too Late To Consider Commonwealth Bank Of Australia (ASX:CBA) After Recent Share Price Rise? - Yahoo Finance</li><li style='margin-bottom: 6px;'>📰 Australia's CBA shares slump on tax changes, provisions; lenders fall - Reuters</li><li style='margin-bottom: 6px;'>📰 Assessing Commonwealth Bank of Australia’s Valuation After Recent Share Price Momentum - Yahoo Finance</li><li style='margin-bottom: 6px;'>📰 CBA.AX - | Stock Price & Latest News - Reuters</li><li style='margin-bottom: 6px;'>📰 CBA.AX Stock Outlook: What Investors Should Watch This Month - Vocal</li></ul>
+        </div>
+        <div class="card">
+            <h2>Qualitative, Priced-In Expectations & Macro Policy</h2>
+            <p><strong>Economic Moat:</strong> Wide Moat | <strong>Valuation Pricing Tier:</strong> Fair Value Range</p>
+            <h3 style="font-size: 1rem;">Market Pricing Expectations:</h3>
+            <ul><li style='margin-bottom: 6px;'>🔹 P/E ratio reflects balanced market expectations for mid-range growth.</li><li style='margin-bottom: 6px;'>🔹 Forward P/E is 4.0% lower than trailing P/E, pricing in robust earnings recovery/growth.</li><li style='margin-bottom: 6px;'>🔹 PEG ratio of 3.49 signals premium valuation relative to growth rate.</li></ul>
+            <h3 style="font-size: 1rem;">Macro Environment & Regulatory Policy:</h3>
+            <ul><li style='margin-bottom: 6px;'>🌍 Operating in Australia under Reserve Bank of Australia (RBA) interest rate policy environment.</li><li style='margin-bottom: 6px;'>🌍 Interest rate yield curve directly impacts net interest margin (NIM) and loan volume demand.</li><li style='margin-bottom: 6px;'>⚖️ Subject to banking regulatory capital requirements (e.g. APRA for Australia, Fed/OCC for US, Basel III).</li></ul>
+        </div>
+        <div class="footer">Report generated on 2026-08-29 17:58:39 by DeepSeek Stock Analysis Bot.</div>
+    </div>
+</body>
+</html>

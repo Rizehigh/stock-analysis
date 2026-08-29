@@ -1,0 +1,20 @@
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Cache & Build Artifacts
+__pycache__/
+*.pyc
+*.pyo
+.uv_cache/
+.pytest_cache/
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+
+# Temporary files
+*.tmp
+build_report_gen.py
