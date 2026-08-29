@@ -1,7 +1,7 @@
 """
 Aegis Equity Terminal - Streamlit Web Application
 Astigmatism-Friendly & High-Legibility Dark Theme.
-Includes Pre-analyzed Instant Trending Reports, Enter-key Search, and Stock Comparison Engine.
+Includes 1-5 Stock Multi-Equity Comparator & Header Quick "+ Add to Compare" Button.
 """
 import streamlit as st
 import plotly.graph_objects as go
@@ -16,7 +16,7 @@ from stock_bot.qualitative_analysis import analyze_qualitative_factors
 from stock_bot.scoring_engine import compute_overall_signal
 from stock_bot.config import format_currency
 from stock_bot.trending import get_trending_tickers
-from stock_bot.comparator import build_comparison_pillar_chart, render_comparison_table
+from stock_bot.comparator import build_multi_pillar_chart, render_multi_comparison_table, PALETTE
 
 PRECOMPUTED_FILE = os.path.join(os.path.dirname(__file__), "stock_bot", "precomputed_trending.json")
 
@@ -343,7 +343,6 @@ def run_analysis(ticker: str):
     ticker = ticker.upper().strip()
     precomputed = load_precomputed_reports()
     
-    # Instant load if precomputed
     if ticker in precomputed:
         p = precomputed[ticker]
         return p["data"], p["tech"], p["sent"], p["qual"], p["sig"]
@@ -364,11 +363,24 @@ def run_analysis(ticker: str):
     return data, tech, sent, qual, sig
 
 def render_report(data, tech, sent, qual, sig):
-    """Renders complete Material Design 3 Dark report."""
+    """Renders complete Material Design 3 Dark report with header '+ Add to Compare' button."""
     curr = data.get("currency", "USD")
     symbol = data["symbol"]
     price_str = format_currency(data.get("current_price"), curr)
     mcap_str = format_currency(data.get("market_cap"), curr)
+
+    # ── Top Bar Header + '+ Add to Compare' Button ──
+    hdr_col1, hdr_col2 = st.columns([3.5, 1])
+    with hdr_col2:
+        if st.button("➕  Compare Stock", key=f"add_to_comp_{symbol}", use_container_width=True):
+            if "compare_list" not in st.session_state:
+                st.session_state["compare_list"] = []
+            if symbol not in st.session_state["compare_list"]:
+                if len(st.session_state["compare_list"]) >= 5:
+                    st.session_state["compare_list"].pop(0)
+                st.session_state["compare_list"].append(symbol)
+            st.session_state["mode_radio"] = "Compare Equities"
+            st.rerun()
 
     header_html = f"""
     <div class="m3-header">
@@ -497,76 +509,65 @@ def render_report(data, tech, sent, qual, sig):
     st.markdown(clean_html(f'<div class="m3-footer">Aegis Equity Terminal &bull; Analysis generated on {datetime.now().strftime("%Y-%m-%d %H:%M:%S")}<br>For educational purposes only. Not financial advice.</div>'), unsafe_allow_html=True)
 
 
-def render_comparison(ticker_a: str, ticker_b: str):
-    """Renders side-by-side comparison between two stocks."""
-    st.markdown(clean_html(f'<div class="m3-section-title"><span class="material-symbols-outlined">compare_arrows</span> Head-to-Head Comparison: {ticker_a} vs {ticker_b}</div>'), unsafe_allow_html=True)
+def render_multi_comparison(tickers: list):
+    """Renders multi-equity comparison for up to 5 stocks."""
+    tickers = list(dict.fromkeys([t.upper().strip() for t in tickers if t.strip()]))[:5]
+    if not tickers:
+        st.warning("Please enter at least 1 ticker to compare.")
+        return
+
+    st.markdown(clean_html(f'<div class="m3-section-title"><span class="material-symbols-outlined">compare_arrows</span> Multi-Equity Leaderboard: {" vs ".join(tickers)}</div>'), unsafe_allow_html=True)
     
-    with st.spinner(f"Analyzing {ticker_a} and {ticker_b}..."):
-        data_a, tech_a, sent_a, qual_a, sig_a = run_analysis(ticker_a)
-        data_b, tech_b, sent_b, qual_b, sig_b = run_analysis(ticker_b)
+    data_map = {}
+    sig_map = {}
 
-    # 1. High Level Winner Summary Card
-    score_a = sig_a["composite_score"]
-    score_b = sig_b["composite_score"]
+    with st.spinner(f"Analyzing {len(tickers)} equities ({', '.join(tickers)})..."):
+        for t in tickers:
+            data, tech, sent, qual, sig = run_analysis(t)
+            data_map[t] = data
+            sig_map[t] = sig
+
+    # 1. Leaderboard Ranking Cards
+    ranked = sorted(tickers, key=lambda sym: sig_map[sym]["composite_score"], reverse=True)
     
-    if score_a > score_b:
-        winner_text = f"🏆 <strong>{ticker_a}</strong> leads with a Composite Score of <strong>{score_a:.1f}/100</strong> (+{score_a - score_b:.1f} pts over {ticker_b})"
-    elif score_b > score_a:
-        winner_text = f"🏆 <strong>{ticker_b}</strong> leads with a Composite Score of <strong>{score_b:.1f}/100</strong> (+{score_b - score_a:.1f} pts over {ticker_a})"
-    else:
-        winner_text = f"⚖️ <strong>{ticker_a}</strong> and <strong>{ticker_b}</strong> are tied at Composite Score <strong>{score_a:.1f}/100</strong>"
-
-    st.markdown(clean_html(f'<div class="m3-card" style="text-align: center; border-color: #CBA6F7;"><p style="font-size: 1.4rem; margin: 0; color: #E2E8F0;">{winner_text}</p></div>'), unsafe_allow_html=True)
-
-    # 2. Side-by-side Score Cards
-    col_card_a, col_card_b = st.columns(2)
-    with col_card_a:
-        st.markdown(clean_html(f"""
-        <div class="m3-card">
-            <h2 style="color: #CBA6F7; margin: 0; font-size: 2.2rem;">{ticker_a} &bull; {data_a.get('company_name', ticker_a)}</h2>
-            <div style="margin: 16px 0;">{get_signal_badge(sig_a['signal'])}</div>
-            <p style="font-size: 1.4rem; font-weight: 700; color: #E2E8F0; margin: 8px 0;">Score: {score_a}/100</p>
-            <p style="font-size: 1.15rem; color: #A6ADC8; margin: 0;">Market Cap: {format_currency(data_a.get('market_cap'), data_a.get('currency', 'USD'))}</p>
+    leader_html = f'<div class="m3-card" style="border-color: #CBA6F7;"><h3 style="color: #CBA6F7; margin: 0 0 16px 0; font-size: 1.6rem;">🏆 Quant Leaderboard</h3><div style="display: flex; gap: 20px; flex-wrap: wrap;">'
+    for idx, sym in enumerate(ranked):
+        score = sig_map[sym]["composite_score"]
+        sig_badge = sig_map[sym]["signal"]
+        color = PALETTE[tickers.index(sym) % len(PALETTE)]
+        rank_badge = "🥇 1st" if idx == 0 else ("🥈 2nd" if idx == 1 else ("🥉 3rd" if idx == 2 else f"#{idx+1}"))
+        leader_html += f"""
+        <div style="background: #1E1E2E; border: 1px solid #383854; border-radius: 16px; padding: 20px; flex: 1; min-width: 180px;">
+            <p style="margin: 0; font-size: 1.1rem; color: {color}; font-weight: 700;">{rank_badge} &bull; {sym}</p>
+            <p style="margin: 8px 0; font-size: 1.8rem; font-weight: 700; color: #FFFFFF;">{score}/100</p>
+            <p style="margin: 0; font-size: 1rem; color: #A6ADC8;">{sig_badge}</p>
         </div>
-        """), unsafe_allow_html=True)
+        """
+    leader_html += '</div></div>'
+    st.markdown(clean_html(leader_html), unsafe_allow_html=True)
 
-    with col_card_b:
-        st.markdown(clean_html(f"""
-        <div class="m3-card">
-            <h2 style="color: #86EFAC; margin: 0; font-size: 2.2rem;">{ticker_b} &bull; {data_b.get('company_name', ticker_b)}</h2>
-            <div style="margin: 16px 0;">{get_signal_badge(sig_b['signal'])}</div>
-            <p style="font-size: 1.4rem; font-weight: 700; color: #E2E8F0; margin: 8px 0;">Score: {score_b}/100</p>
-            <p style="font-size: 1.15rem; color: #A6ADC8; margin: 0;">Market Cap: {format_currency(data_b.get('market_cap'), data_b.get('currency', 'USD'))}</p>
-        </div>
-        """), unsafe_allow_html=True)
+    # 2. Multi-Bar 6-Pillar Chart
+    st.markdown(clean_html('<div class="m3-section-title"><span class="material-symbols-outlined">bar_chart</span> 6-Pillar Score Comparison</div>'), unsafe_allow_html=True)
+    st.plotly_chart(build_multi_pillar_chart(sig_map), use_container_width=True, key=f"multi-comp-chart-{''.join(tickers)}")
 
-    # 3. Pillar Score Breakdown Chart
-    st.markdown(clean_html('<div class="m3-section-title"><span class="material-symbols-outlined">bar_chart</span> 6-Pillar Score Breakdown</div>'), unsafe_allow_html=True)
-    st.plotly_chart(build_comparison_pillar_chart(sig_a, sig_b, ticker_a, ticker_b), use_container_width=True, key=f"comp-{ticker_a}-{ticker_b}")
+    # 3. Detailed Matrix Table
+    st.markdown(clean_html('<div class="m3-section-title"><span class="material-symbols-outlined">table_view</span> Financial & Valuation Metrics Matrix</div>'), unsafe_allow_html=True)
+    st.markdown(clean_html(render_multi_comparison_table(data_map, sig_map)), unsafe_allow_html=True)
 
-    # 4. Detailed Metrics Comparison Table
-    st.markdown(clean_html('<div class="m3-section-title"><span class="material-symbols-outlined">table_view</span> Financial & Valuation Metrics</div>'), unsafe_allow_html=True)
-    st.markdown(clean_html(render_comparison_table(data_a, sig_a, data_b, sig_b)), unsafe_allow_html=True)
-
-    # 5. Bull Catalysts & Bear Risks Comparison
-    col_comp_bull, col_comp_bear = st.columns(2)
-    with col_comp_bull:
-        comp_bull = f'<div class="m3-card"><div class="m3-section-title" style="color: #86EFAC;">Top Catalysts</div>'
-        comp_bull += f'<p style="color: #CBA6F7; font-weight: 700; margin-bottom: 8px;">{ticker_a}:</p>'
-        for p in sig_a.get("key_positives", [])[:2]: comp_bull += f'<div class="m3-bull-item">✅ {p}</div>'
-        comp_bull += f'<p style="color: #86EFAC; font-weight: 700; margin: 16px 0 8px 0;">{ticker_b}:</p>'
-        for p in sig_b.get("key_positives", [])[:2]: comp_bull += f'<div class="m3-bull-item">✅ {p}</div>'
-        comp_bull += '</div>'
-        st.markdown(clean_html(comp_bull), unsafe_allow_html=True)
-
-    with col_comp_bear:
-        comp_bear = f'<div class="m3-card"><div class="m3-section-title" style="color: #FCA5A5;">Key Risks</div>'
-        comp_bear += f'<p style="color: #CBA6F7; font-weight: 700; margin-bottom: 8px;">{ticker_a}:</p>'
-        for r in sig_a.get("key_risks", [])[:2]: comp_bear += f'<div class="m3-bear-item">⚠️ {r}</div>'
-        comp_bear += f'<p style="color: #86EFAC; font-weight: 700; margin: 16px 0 8px 0;">{ticker_b}:</p>'
-        for r in sig_b.get("key_risks", [])[:2]: comp_bear += f'<div class="m3-bear-item">⚠️ {r}</div>'
-        comp_bear += '</div>'
-        st.markdown(clean_html(comp_bear), unsafe_allow_html=True)
+    # 4. Catalysts & Risks Grid
+    st.markdown(clean_html('<div class="m3-section-title"><span class="material-symbols-outlined">shield</span> Top Catalysts & Risks</div>'), unsafe_allow_html=True)
+    
+    grid_cols = st.columns(min(len(tickers), 3))
+    for idx, sym in enumerate(tickers):
+        with grid_cols[idx % min(len(tickers), 3)]:
+            color = PALETTE[idx % len(PALETTE)]
+            card_html = f'<div class="m3-card"><h3 style="color: {color}; margin: 0 0 16px 0; font-size: 1.4rem;">{sym} Insights</h3>'
+            card_html += '<p style="color: #86EFAC; font-weight: 700; margin: 8px 0 4px 0;">Top Catalysts:</p>'
+            for p in sig_map[sym].get("key_positives", [])[:2]: card_html += f'<div class="m3-bull-item" style="font-size: 1.05rem !important;">✅ {p}</div>'
+            card_html += '<p style="color: #FCA5A5; font-weight: 700; margin: 16px 0 4px 0;">Key Risks:</p>'
+            for r in sig_map[sym].get("key_risks", [])[:2]: card_html += f'<div class="m3-bear-item" style="font-size: 1.05rem !important;">⚠️ {r}</div>'
+            card_html += '</div>'
+            st.markdown(clean_html(card_html), unsafe_allow_html=True)
 
 
 # ═══════════════════════════════════════════
@@ -581,6 +582,12 @@ st.set_page_config(
 )
 
 st.markdown(M3_DARK_CSS, unsafe_allow_html=True)
+
+if "compare_list" not in st.session_state:
+    st.session_state["compare_list"] = ["NVDA", "AMD"]
+
+if "mode_radio" not in st.session_state:
+    st.session_state["mode_radio"] = "Single Stock Analysis"
 
 selected_by_quick_chip = None
 
@@ -598,8 +605,8 @@ with st.sidebar:
 
     mode = st.radio(
         "Analysis Mode",
-        options=["Single Stock Analysis", "Compare 2 Stocks"],
-        index=0
+        options=["Single Stock Analysis", "Compare Equities"],
+        key="mode_radio"
     )
 
     st.markdown("---")
@@ -624,11 +631,31 @@ with st.sidebar:
                     selected_by_quick_chip = t_sym
 
     else:
-        st.markdown("<h3 style='font-size: 1.35rem; color: #E2E8F0; margin-bottom: 8px;'>Compare Equities</h3>", unsafe_allow_html=True)
-        with st.form("compare_search_form", clear_on_submit=False):
-            comp_t1 = st.text_input("First Ticker (e.g. NVDA)", placeholder="NVDA")
-            comp_t2 = st.text_input("Second Ticker (e.g. AMD)", placeholder="AMD")
-            comp_submit_btn = st.form_submit_button("⚔️  Compare Equities", type="primary", use_container_width=True)
+        st.markdown("<h3 style='font-size: 1.35rem; color: #E2E8F0; margin-bottom: 8px;'>Compare (Up to 5 Stocks)</h3>", unsafe_allow_html=True)
+        
+        # Display selected chips in compare_list
+        st.write("Selected Tickers:")
+        chip_cols = st.columns(len(st.session_state["compare_list"]) if st.session_state["compare_list"] else 1)
+        for idx, sym in enumerate(list(st.session_state["compare_list"])):
+            with chip_cols[idx]:
+                if st.button(f"❌ {sym}", key=f"rem_{sym}", help=f"Remove {sym} from comparison"):
+                    st.session_state["compare_list"].remove(sym)
+                    st.rerun()
+
+        comp_text = st.text_input(
+            "Add Ticker (e.g. MSFT, AAPL)",
+            placeholder="Type ticker & press Enter",
+            key="add_comp_input"
+        )
+        if comp_text.strip():
+            new_sym = comp_text.strip().upper()
+            if new_sym not in st.session_state["compare_list"]:
+                if len(st.session_state["compare_list"]) >= 5:
+                    st.session_state["compare_list"].pop(0)
+                st.session_state["compare_list"].append(new_sym)
+                st.rerun()
+
+        comp_submit_btn = st.button("⚔️  Compare Equities", type="primary", use_container_width=True)
 
     st.markdown("---")
     st.markdown(clean_html("""
@@ -644,7 +671,7 @@ with st.sidebar:
     """), unsafe_allow_html=True)
 
     st.markdown("---")
-    st.caption("Aegis Equity Engine v2.0 &bull; Precomputed Instant Cache")
+    st.caption("Aegis Equity Engine v2.0 &bull; Multi-Stock Comparator")
 
 
 # ── Main Content Execution ──
@@ -668,7 +695,7 @@ if mode == "Single Stock Analysis":
                 <span class="material-symbols-outlined" style="font-size: 5rem; color: #CBA6F7;">shield_with_house</span>
             </div>
             <h1 style="font-family: 'Google Sans', sans-serif; color: #E2E8F0; font-weight: 700; font-size: 3.6rem; margin-bottom: 20px;">Aegis Equity Terminal</h1>
-            <p style="color: #A6ADC8; font-size: 1.45rem; max-width: 780px; margin: 0 auto 40px auto; line-height: 1.7;">Enter any stock ticker to view a 6-pillar deep dive report, click <strong>Instant Trending Stocks</strong> for instant loading, or switch to <strong>Compare 2 Stocks</strong> in the sidebar.</p>
+            <p style="color: #A6ADC8; font-size: 1.45rem; max-width: 780px; margin: 0 auto 40px auto; line-height: 1.7;">Enter any stock ticker to view a 6-pillar deep dive report, click <strong>Trending Stocks</strong> for instant loading, or click <strong>➕ Compare Stock</strong> to compare up to 5 equities side-by-side.</p>
             <div style="display: flex; justify-content: center; gap: 16px; flex-wrap: wrap;">
                 <span class="m3-chip m3-chip-buy" style="font-size: 1.15rem;">📊 6-Pillar Composite Quant Model</span>
                 <span class="m3-chip m3-chip-buy" style="font-size: 1.15rem;">🌐 US, ASX, LSE & EU Market Data</span>
@@ -681,21 +708,19 @@ if mode == "Single Stock Analysis":
 
 else:
     # Compare Mode
-    if 'comp_submit_btn' in locals() and comp_submit_btn and comp_t1.strip() and comp_t2.strip():
-        t1 = comp_t1.strip().upper()
-        t2 = comp_t2.strip().upper()
+    if st.session_state["compare_list"]:
         try:
-            render_comparison(t1, t2)
+            render_multi_comparison(st.session_state["compare_list"])
         except Exception as e:
-            st.error(f"Error comparing '{t1}' vs '{t2}': {e}")
+            st.error(f"Error executing comparison for {st.session_state['compare_list']}: {e}")
     else:
         landing_comp_html = """
         <div style="text-align: center; padding: 80px 20px;">
             <div style="display: inline-block; background: #242438; border: 1px solid #383854; border-radius: 40px; padding: 32px; margin-bottom: 32px;">
                 <span class="material-symbols-outlined" style="font-size: 5rem; color: #86EFAC;">compare_arrows</span>
             </div>
-            <h1 style="font-family: 'Google Sans', sans-serif; color: #E2E8F0; font-weight: 700; font-size: 3.6rem; margin-bottom: 20px;">Head-to-Head Stock Comparison</h1>
-            <p style="color: #A6ADC8; font-size: 1.45rem; max-width: 780px; margin: 0 auto 40px auto; line-height: 1.7;">Enter two ticker symbols in the sidebar (e.g. <strong>NVDA vs AMD</strong> or <strong>AAPL vs MSFT</strong>) to compare their composite scores, 6-pillar radar, valuation multiples, and bull/bear catalysts side-by-side.</p>
+            <h1 style="font-family: 'Google Sans', sans-serif; color: #E2E8F0; font-weight: 700; font-size: 3.6rem; margin-bottom: 20px;">Multi-Equity Stock Comparison</h1>
+            <p style="color: #A6ADC8; font-size: 1.45rem; max-width: 780px; margin: 0 auto 40px auto; line-height: 1.7;">Add up to 5 ticker symbols in the sidebar (e.g. <strong>NVDA, AMD, MSFT, AAPL, TSLA</strong>) to compare their composite leaderboard ranks, 6-pillar radar, valuation multiples, and bull/bear catalysts side-by-side.</p>
         </div>
         """
         st.markdown(clean_html(landing_comp_html), unsafe_allow_html=True)
