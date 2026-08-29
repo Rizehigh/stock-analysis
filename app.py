@@ -615,12 +615,12 @@ with st.sidebar:
             submit_btn = st.form_submit_button("🔍  Run Analysis", type="primary", use_container_width=True)
 
         st.markdown("---")
-        st.markdown("<h4 style='font-size: 1.2rem; color: #CBA6F7; margin-bottom: 12px; display: flex; align-items: center; gap: 8px;'><span class='material-symbols-outlined'>local_fire_department</span> Instant Trending Stocks</h4>", unsafe_allow_html=True)
+        st.markdown("<h4 style='font-size: 1.2rem; color: #CBA6F7; margin-bottom: 12px; display: flex; align-items: center; gap: 8px;'><span class='material-symbols-outlined'>local_fire_department</span> Trending Stocks Today</h4>", unsafe_allow_html=True)
         trending_list = fetch_cached_trending()
         t_cols = st.columns(2)
         for idx, t_sym in enumerate(trending_list):
             with t_cols[idx % 2]:
-                if st.button(f"⚡ {t_sym}", key=f"btn_trend_{t_sym}", use_container_width=True):
+                if st.button(f"🔥 {t_sym}", key=f"btn_trend_{t_sym}", use_container_width=True):
                     selected_by_quick_chip = t_sym
 
     else:
@@ -669,10 +669,11 @@ if mode == "Single Stock Analysis":
             </div>
             <h1 style="font-family: 'Google Sans', sans-serif; color: #E2E8F0; font-weight: 700; font-size: 3.6rem; margin-bottom: 20px;">Aegis Equity Terminal</h1>
             <p style="color: #A6ADC8; font-size: 1.45rem; max-width: 780px; margin: 0 auto 40px auto; line-height: 1.7;">Enter any stock ticker to view a 6-pillar deep dive report, click <strong>Instant Trending Stocks</strong> for instant loading, or switch to <strong>Compare 2 Stocks</strong> in the sidebar.</p>
-            <div style="display: flex; justify-content: center; gap: 18px; flex-wrap: wrap;">
-                <span class="m3-chip m3-chip-buy" style="font-size: 1.15rem;">⚡ Instant Trending Pre-Cached Reports</span>
-                <span class="m3-chip m3-chip-buy" style="font-size: 1.15rem;">⚔️ Head-to-Head Stock Comparison</span>
-                <span class="m3-chip m3-chip-buy" style="font-size: 1.15rem;">⌨️ Press Enter to Search</span>
+            <div style="display: flex; justify-content: center; gap: 16px; flex-wrap: wrap;">
+                <span class="m3-chip m3-chip-buy" style="font-size: 1.15rem;">📊 6-Pillar Composite Quant Model</span>
+                <span class="m3-chip m3-chip-buy" style="font-size: 1.15rem;">🌐 US, ASX, LSE & EU Market Data</span>
+                <span class="m3-chip m3-chip-buy" style="font-size: 1.15rem;">📈 Technical Indicators (RSI, MACD, SMA)</span>
+                <span class="m3-chip m3-chip-buy" style="font-size: 1.15rem;">📰 WSB & Social Sentiment Tracker</span>
             </div>
         </div>
         """
