@@ -13,22 +13,22 @@
       "sector": "Technology",
       "industry": "Semiconductors",
       "summary": "Broadcom Inc. designs, develops, and supplies various semiconductor devices and infrastructure software solutions internationally. The company operates in two segments: Semiconductor Solutions and Infrastructure Software. The company offers networking connectivity, such as custom silicon solutions, ethernet switching & routing, ethernet NIC controllers, physical layer devices, and fiber optic components; wireless device connectivity, including RF semiconductor devices, connectivity solutions, custom touch controllers, and inductive charging ASICS; servers and storage system solutions, such as PCIE switches, SAS & raid products, fibre channel products, and HDD & SSD solutions; broadband solutions, includes set-top box, and broadband access; and industrial. The company also offers a private cloud software portfolio, including the VMware Cloud Foundation, Edge, vSphere foundation, telco cloud platform, private AI, live recovery, application networking and security, application development and data services; mainframe software, such as AIOPS & automation, database & data management, DEVX & DEVOPS, cybersecurity & compliance management, beyond code programs, foundational & open mainframe solutions; cybersecurity, such as endpoint, network, information, application security, and identity & access management; enterprise software; and fc san management. Its products are used in various applications in enterprise and data center networking, including artificial intelligence networking and connectivity, home connectivity, set-top boxes, broadband access, telecommunication equipment, wireless device and base stations, data center servers and storage systems, factory automation, power generation and alternative energy systems, and electronic displays. Broadcom Inc. was founded in 1961 and is headquartered in Palo Alto, California.",
-      "current_price": 367.24,
-      "previous_close": 369.68,
+      "current_price": 348.39,
+      "previous_close": 367.24,
       "fifty_two_week_high": 495.0,
       "fifty_two_week_low": 289.96,
-      "volume": 30822042,
-      "avg_volume": 24976037,
-      "pe_ratio": 61.30885,
-      "forward_pe": 18.91381,
+      "volume": 29763695,
+      "avg_volume": 25175379,
+      "pe_ratio": 44.55115,
+      "forward_pe": 18.03343,
       "peg_ratio": 0.42,
-      "price_to_sales": 23.152107,
-      "price_to_book": 21.417158,
+      "price_to_sales": 21.96374,
+      "price_to_book": 20.31784,
       "ev_to_ebitda": 42.592,
-      "market_cap": 1747173769216,
+      "market_cap": 1657493520384,
       "enterprise_value": 1792452722688,
-      "eps_trailing": 5.99,
-      "eps_forward": 19.4165,
+      "eps_trailing": 7.82,
+      "eps_forward": 19.31912,
       "earnings_growth": 0.854,
       "revenue_growth": 0.479,
       "total_revenue": 75464998912,
@@ -52,7 +52,7 @@
       "recommendation_key": "strong_buy",
       "recommendation_mean": 1.32653,
       "number_of_analysts": 46,
-      "implied_upside_pct": 43.22348872671821,
+      "implied_upside_pct": 50.972743190103046,
       "rec_breakdown": {
         "strongBuy": 8,
         "buy": 37,
@@ -67,47 +67,46 @@
       "_ticker_obj": "yfinance.Ticker object <AVGO>"
     },
     "tech": {
-      "latest_price": 367.24,
-      "sma_20": 384.98699951171875,
-      "sma_50": 384.58,
-      "sma_200": 368.8612811279297,
-      "rsi_14": 24.0668545120443,
+      "latest_price": 348.39,
+      "sma_20": 381.3794998168945,
+      "sma_50": 383.9070001220703,
+      "sma_200": 368.9006246948242,
+      "rsi_14": 25.647477371932695,
       "rsi_status": "OVERSOLD",
       "macd_data": {
-        "macd": -7.905215114565408,
-        "signal": -6.692644096576266,
-        "histogram": -1.2125710179891422,
+        "macd": -9.18846043345161,
+        "signal": -7.191807363619559,
+        "histogram": -1.9966530698320506,
         "crossover": "BEARISH"
       },
       "cross_status": "GOLDEN_CROSS",
-      "fifty_two_week_pos_pct": 37.97368047071545,
+      "fifty_two_week_pos_pct": 28.765803495477215,
       "high_52": 494.21781760890264,
       "low_52": 289.50178968312434,
       "returns": {
-        "1m": -12.202352234926694,
-        "3m": -12.195644966214159,
-        "6m": 10.765043234716343,
-        "1y": 22.335653976224812
+        "1m": -17.162423869321465,
+        "3m": -9.53740062702324,
+        "6m": 5.807719856036786,
+        "1y": 16.056319631874327
       },
-      "technical_score": 50.2,
+      "technical_score": 43.1,
       "signals": [
-        "Price is 4.5% below 50-day SMA (Bearish)",
+        "Price is 9.3% below 50-day SMA (Bearish)",
         "50-day SMA is above 200-day SMA (Golden Cross)",
-        "RSI is oversold at 24.1 (Potential Rebound)",
+        "RSI is oversold at 25.6 (Potential Rebound)",
         "MACD histogram indicates negative bearish momentum"
       ]
     },
     "sent": {
-      "combined_polarity": 0.017,
-      "sentiment_score": 50.7,
+      "combined_polarity": 0.0,
+      "sentiment_score": 50.0,
       "label": "NEUTRAL",
       "news_stats": {
-        "polarity": 0.02444444444444444,
-        "subjectivity": 0.10944444444444444,
-        "positive_count": 3,
-        "negative_count": 1,
-        "neutral_count": 11,
-        "total": 15
+        "polarity": 0.0,
+        "subjectivity": 0.0,
+        "positive_count": 0,
+        "negative_count": 0,
+        "neutral_count": 0
       },
       "reddit_stats": {
         "polarity": 0.0,
@@ -116,29 +115,17 @@
         "negative_count": 0,
         "neutral_count": 0
       },
-      "headline_count": 15,
-      "positive_highlights": [
-        "AVGO Stock Dips 4% After-Hours \u2014 Broadcom\u2019s Soft Q4 Outlook Overshadows Strong Q3 Chip Sales - Yahoo Finance",
-        "AI chip sales hit $16.7B as Broadcom (AVGO) projects even higher Q4 revenue - Stock Titan",
-        "Broadcom Beats Q3 Estimates as AI Revenue Jumps 221%, Shares Slide on Soft Guidance - Benzinga"
-      ],
-      "negative_highlights": [
-        "Dow, S&P 500, Nasdaq Futures Rise As Investors Look Past Iran Tensions, Focus On Earnings: AVGO, SNOW, DELL, HPE Stocks In Focus - Stocktwits"
-      ],
-      "recent_headlines": [
-        "Broadcom Inc. Announces Third Quarter Fiscal Year 2026 Financial Results and Quarterly Dividend - Yahoo Finance",
-        "Broadcom stock drops on Q4 guidance miss even as AI semiconductor revenue triples - Proactive financial news",
-        "Broadcom Q3: Market Is Punishing Accelerated Growth (NASDAQ:AVGO) - Seeking Alpha",
-        "AI chip sales hit $16.7B as Broadcom (AVGO) projects even higher Q4 revenue - Stock Titan",
-        "AVGO Stock Dips 4% After-Hours \u2014 Broadcom\u2019s Soft Q4 Outlook Overshadows Strong Q3 Chip Sales - Yahoo Finance"
-      ]
+      "headline_count": 0,
+      "positive_highlights": [],
+      "negative_highlights": [],
+      "recent_headlines": []
     },
     "qual": {
       "priced_in": {
         "valuation_tier": "High Growth Premium",
         "priced_in_points": [
           "High P/E ratio indicates market has priced in strong future earnings acceleration.",
-          "Forward P/E is 69.1% lower than trailing P/E, pricing in robust earnings recovery/growth.",
+          "Forward P/E is 59.5% lower than trailing P/E, pricing in robust earnings recovery/growth.",
           "PEG ratio of 0.42 suggests stock may be undervalued relative to expected growth."
         ]
       },
@@ -157,20 +144,20 @@
         "reasons": [
           "Strong Return on Equity (ROE: 37.3%), indicating high capital efficiency and competitive advantage.",
           "High net profit margin (38.8%), demonstrating pricing power.",
-          "Mega-cap scale ($1.75T) provides massive distribution and cost advantages."
+          "Mega-cap scale ($1.66T) provides massive distribution and cost advantages."
         ]
       },
       "qualitative_score": 80.0
     },
     "sig": {
-      "composite_score": 74.1,
+      "composite_score": 76.0,
       "signal": "BUY",
-      "confidence_pct": 69.9,
+      "confidence_pct": 69.5,
       "pillar_scores": {
         "fundamentals": 100.0,
-        "valuation": 55.0,
-        "technicals": 50.2,
-        "sentiment": 50.7,
+        "valuation": 70.0,
+        "technicals": 43.1,
+        "sentiment": 50.0,
         "analyst": 100.0,
         "macro_moat": 80.0
       },
@@ -181,8 +168,7 @@
         "Positive free cash flow generation"
       ],
       "key_risks": [
-        "High P/E ratio (61.3x)",
-        "Price is 4.5% below 50-day SMA (Bearish)"
+        "Price is 9.3% below 50-day SMA (Bearish)"
       ]
     }
   },
@@ -200,21 +186,21 @@
       "sector": "Technology",
       "industry": "Semiconductors",
       "summary": "NVIDIA Corporation operates as a data center scale AI infrastructure company in the United States, Taiwan, China, Hong Kong, Europe, and internationally. It operates through Compute & Networking, and Graphics segments. The Compute & Networking segment provides data center accelerated computing and networking platforms and artificial intelligence solutions and software, and automotive platforms and autonomous and electric vehicle solutions, including software. The Graphics segment offers GeForce GPUs for gaming and PCs; Quadro/NVIDIA RTX GPUs for enterprise workstation graphics. The company's products are used in gaming, professional visualization, data center, and automotive markets. It sells its products to original equipment manufacturers, original device manufacturers, system integrators and distributors, independent software vendors, cloud service providers, add-in board manufacturers, distributors, automotive manufacturers and tier-1 automotive suppliers, and other ecosystem participants. NVIDIA Corporation was incorporated in 1993 and is headquartered in Santa Clara, California.",
-      "current_price": 224.41,
-      "previous_close": 217.44,
+      "current_price": 227.75,
+      "previous_close": 224.41,
       "fifty_two_week_high": 236.54,
       "fifty_two_week_low": 164.07,
-      "volume": 155979384,
-      "avg_volume": 137131785,
-      "pe_ratio": 27.467564,
-      "forward_pe": 14.568058,
+      "volume": 54724089,
+      "avg_volume": 137442019,
+      "pe_ratio": 28.829113,
+      "forward_pe": 14.784881,
       "peg_ratio": 0.56,
-      "price_to_sales": 17.885693,
-      "price_to_book": 23.664454,
+      "price_to_sales": 18.151892,
+      "price_to_book": 24.016663,
       "ev_to_ebitda": 26.754,
-      "market_cap": 5418828431360,
+      "market_cap": 5499479130112,
       "enterprise_value": 5384672116736,
-      "eps_trailing": 8.17,
+      "eps_trailing": 7.9,
       "eps_forward": 15.40425,
       "earnings_growth": 1.278,
       "revenue_growth": 1.059,
@@ -230,7 +216,7 @@
       "current_ratio": 4.589,
       "quick_ratio": 2.918,
       "free_cash_flow": 41809874944,
-      "dividend_yield_pct": 46.0,
+      "dividend_yield_pct": 45.0,
       "payout_ratio": 0.0354,
       "target_low": 180.0,
       "target_mean": 325.98773,
@@ -239,7 +225,7 @@
       "recommendation_key": "strong_buy",
       "recommendation_mean": 1.28333,
       "number_of_analysts": 57,
-      "implied_upside_pct": 45.26435096475202,
+      "implied_upside_pct": 43.13401975850714,
       "rec_breakdown": {
         "strongBuy": 9,
         "buy": 48,
@@ -254,45 +240,45 @@
       "_ticker_obj": "yfinance.Ticker object <NVDA>"
     },
     "tech": {
-      "latest_price": 224.41,
-      "sma_20": 219.28900146484375,
-      "sma_50": 209.28499969482422,
-      "sma_200": 196.11282020568848,
-      "rsi_14": 49.33651446627561,
+      "latest_price": 227.75,
+      "sma_20": 219.72750091552734,
+      "sma_50": 209.86019958496092,
+      "sma_200": 196.30198135375977,
+      "rsi_14": 51.84973780192185,
       "rsi_status": "NEUTRAL",
       "macd_data": {
-        "macd": 2.6676347874492308,
-        "signal": 2.6702057104725565,
-        "histogram": -0.002570923023325733,
-        "crossover": "BEARISH"
+        "macd": 3.201336444575986,
+        "signal": 2.776431857293596,
+        "histogram": 0.42490458728239,
+        "crossover": "BULLISH_CROSS"
       },
       "cross_status": "GOLDEN_CROSS",
-      "fifty_two_week_pos_pct": 83.6291045277872,
+      "fifty_two_week_pos_pct": 88.2415452784927,
       "high_52": 236.26463268418732,
       "low_52": 163.8517783946414,
       "returns": {
-        "1m": 2.3674841485251896,
-        "3m": 2.629651624252216,
-        "6m": 22.55030576468169,
-        "1y": 31.701380125995815
+        "1m": 4.00018004799283,
+        "3m": 11.043390162091328,
+        "6m": 28.235162313985505,
+        "1y": 33.6615539579143
       },
-      "technical_score": 60.8,
+      "technical_score": 82.8,
       "signals": [
-        "Price is 7.2% above 50-day SMA (Bullish)",
+        "Price is 8.5% above 50-day SMA (Bullish)",
         "50-day SMA is above 200-day SMA (Golden Cross)",
-        "MACD histogram indicates negative bearish momentum"
+        "MACD histogram indicates positive bullish momentum"
       ]
     },
     "sent": {
-      "combined_polarity": 0.035,
-      "sentiment_score": 51.4,
+      "combined_polarity": 0.007,
+      "sentiment_score": 50.3,
       "label": "NEUTRAL",
       "news_stats": {
-        "polarity": 0.05,
-        "subjectivity": 0.07944444444444444,
+        "polarity": 0.010000000000000002,
+        "subjectivity": 0.12000000000000001,
         "positive_count": 2,
-        "negative_count": 0,
-        "neutral_count": 13,
+        "negative_count": 1,
+        "neutral_count": 12,
         "total": 15
       },
       "reddit_stats": {
@@ -304,16 +290,18 @@
       },
       "headline_count": 15,
       "positive_highlights": [
-        "14x Earnings For 70% Growth: Why Nvidia Remains My Top Pick (NASDAQ:NVDA) - Seeking Alpha",
-        "Prediction: $1,104 Invested in Nvidia Today Will Be Worth This Much by 2030 - Yahoo Finance"
+        "Prediction: $1,104 Invested in Nvidia Today Will Be Worth This Much by 2030 - Yahoo Finance",
+        "NVDA Stock Looks 'Remarkably Cheap', Says Wall Street After Beat-And-Raise Q1 \u2014 Analyst Sees Nvidia Market Cap Soaring Past $10 Trillion - Stocktwits"
       ],
-      "negative_highlights": [],
+      "negative_highlights": [
+        "Nvidia: The Market Is Crazy Not To Push The Stock Higher (NASDAQ:NVDA) - Seeking Alpha"
+      ],
       "recent_headlines": [
+        "Nvidia: Stock Price To Catch Up To Earnings Growth (NASDAQ:NVDA) - Seeking Alpha",
+        "NVIDIA Corporation $NVDA Stock Holdings Lifted by Aaron Wealth Advisors LLC - MarketBeat",
         "Prediction: $1,104 Invested in Nvidia Today Will Be Worth This Much by 2030 - Yahoo Finance",
         "NVIDIA Corporation $NVDA Stock Holdings Trimmed by Asio Capital LLC - MarketBeat",
-        "NVIDIA (NASDAQ: NVDA) director sells 1.8M shares in 3 days - Stock Titan",
-        "Nvidia: AI Boom Times Still Ahead - Seeking Alpha",
-        "Brandywine Oak Private Wealth LLC Reduces Stock Position in NVIDIA Corporation $NVDA - InsuranceNewsNet"
+        "NVDA Stock Looks 'Remarkably Cheap', Says Wall Street After Beat-And-Raise Q1 \u2014 Analyst Sees Nvidia Market Cap Soaring Past $10 Trillion - Stocktwits"
       ]
     },
     "qual": {
@@ -321,7 +309,7 @@
         "valuation_tier": "Fair Value Range",
         "priced_in_points": [
           "P/E ratio reflects balanced market expectations for mid-range growth.",
-          "Forward P/E is 47.0% lower than trailing P/E, pricing in robust earnings recovery/growth.",
+          "Forward P/E is 48.7% lower than trailing P/E, pricing in robust earnings recovery/growth.",
           "PEG ratio of 0.56 suggests stock may be undervalued relative to expected growth."
         ]
       },
@@ -340,20 +328,20 @@
         "reasons": [
           "Strong Return on Equity (ROE: 117.2%), indicating high capital efficiency and competitive advantage.",
           "High net profit margin (63.7%), demonstrating pricing power.",
-          "Mega-cap scale ($5.42T) provides massive distribution and cost advantages."
+          "Mega-cap scale ($5.50T) provides massive distribution and cost advantages."
         ]
       },
       "qualitative_score": 80.0
     },
     "sig": {
-      "composite_score": 80.8,
-      "signal": "BUY",
-      "confidence_pct": 74.2,
+      "composite_score": 84.0,
+      "signal": "STRONG BUY",
+      "confidence_pct": 76.0,
       "pillar_scores": {
         "fundamentals": 100.0,
         "valuation": 80.0,
-        "technicals": 60.8,
-        "sentiment": 51.4,
+        "technicals": 82.8,
+        "sentiment": 50.3,
         "analyst": 100.0,
         "macro_moat": 80.0
       },
@@ -382,22 +370,22 @@
       "sector": "Technology",
       "industry": "Software - Application",
       "summary": "Snowflake Inc. provides a cloud-based data platform for various organizations in the United States and internationally. The company's platform includes artificial intelligence (AI) Data Cloud, which enables customers to consolidate data into a single source of truth to drive meaningful business insights, build data applications, and share data and data products, as well as applies AI for solving business problems. It serves financial services, advertising, media and entertainment, retail and consumer goods, healthcare and life sciences, manufacturing, technology, telecom, travel and hospitality, and government and defense industries, as well as the public sector. the company has a collaboration with OpenAI, L.L.C. for the development of AI solutions for joint enterprise customers that deliver tangible return on investment. The company was formerly known as Snowflake Computing, Inc. and changed its name to Snowflake Inc. in April 2019. Snowflake Inc. was incorporated in 2012 and is based in Menlo Park, California.",
-      "current_price": 305.84,
-      "previous_close": 319.8,
-      "fifty_two_week_high": 341.95,
+      "current_price": 365.443,
+      "previous_close": 305.84,
+      "fifty_two_week_high": 384.55,
       "fifty_two_week_low": 118.3,
-      "volume": 10770913,
-      "avg_volume": 5377201,
+      "volume": 11571309,
+      "avg_volume": 5470646,
       "pe_ratio": null,
-      "forward_pe": 110.1495,
+      "forward_pe": 124.53501,
       "peg_ratio": 8.08,
-      "price_to_sales": 21.062563,
-      "price_to_book": 54.65332,
+      "price_to_sales": 25.167295,
+      "price_to_book": 65.30432,
       "ev_to_ebitda": -93.924,
-      "market_cap": 106004144128,
+      "market_cap": 126662541312,
       "enterprise_value": 105821241344,
-      "eps_trailing": -3.36,
-      "eps_forward": 2.77659,
+      "eps_trailing": -3.18,
+      "eps_forward": 2.93446,
       "earnings_growth": null,
       "revenue_growth": 0.335,
       "total_revenue": 5032822784,
@@ -421,7 +409,7 @@
       "recommendation_key": "buy",
       "recommendation_mean": 1.5098,
       "number_of_analysts": 48,
-      "implied_upside_pct": 8.443140204028268,
+      "implied_upside_pct": -9.243712425740803,
       "rec_breakdown": {
         "strongBuy": 9,
         "buy": 35,
@@ -436,46 +424,45 @@
       "_ticker_obj": "yfinance.Ticker object <SNOW>"
     },
     "tech": {
-      "latest_price": 305.84,
-      "sma_20": 325.98799896240234,
-      "sma_50": 292.50879821777346,
-      "sma_200": 218.0277996826172,
-      "rsi_14": 32.71589019680248,
-      "rsi_status": "BEARISH",
+      "latest_price": 365.443,
+      "sma_20": 328.36014862060546,
+      "sma_50": 295.29865814208983,
+      "sma_200": 218.56991470336914,
+      "rsi_14": 62.82561975375959,
+      "rsi_status": "BULLISH",
       "macd_data": {
-        "macd": 7.376651130682319,
-        "signal": 11.448090081708573,
-        "histogram": -4.071438951026254,
+        "macd": 10.363892059586817,
+        "signal": 11.231250477284222,
+        "histogram": -0.867358417697405,
         "crossover": "BEARISH"
       },
       "cross_status": "GOLDEN_CROSS",
-      "fifty_two_week_pos_pct": 83.85423173313569,
-      "high_52": 341.95001220703125,
+      "fifty_two_week_pos_pct": 92.82366614535572,
+      "high_52": 384.54998779296875,
       "low_52": 118.30000305175781,
       "returns": {
-        "1m": -3.4717827499782694,
-        "3m": 25.251867136424245,
-        "6m": 72.35277839379508,
-        "1y": 33.36240245849276
+        "1m": 14.919182389937102,
+        "3m": 53.379924630828036,
+        "6m": 102.48393653094365,
+        "1y": 59.352460246007624
       },
-      "technical_score": 51.8,
+      "technical_score": 75.0,
       "signals": [
-        "Price is 4.6% above 50-day SMA (Bullish)",
+        "Price is 23.8% above 50-day SMA (Bullish)",
         "50-day SMA is above 200-day SMA (Golden Cross)",
         "MACD histogram indicates negative bearish momentum"
       ]
     },
     "sent": {
-      "combined_polarity": 0.072,
-      "sentiment_score": 52.9,
+      "combined_polarity": 0.0,
+      "sentiment_score": 50.0,
       "label": "NEUTRAL",
       "news_stats": {
-        "polarity": 0.10314814814814816,
-        "subjectivity": 0.20851851851851855,
-        "positive_count": 5,
+        "polarity": 0.0,
+        "subjectivity": 0.0,
+        "positive_count": 0,
         "negative_count": 0,
-        "neutral_count": 10,
-        "total": 15
+        "neutral_count": 0
       },
       "reddit_stats": {
         "polarity": 0.0,
@@ -484,20 +471,10 @@
         "negative_count": 0,
         "neutral_count": 0
       },
-      "headline_count": 15,
-      "positive_highlights": [
-        "Snowflake Inc. (SNOW) Q2 Earnings and Revenues Top Estimates - Yahoo Finance",
-        "Snowflake soars as Q2 results, guidance top estimates (SNOW:NYSE) - Seeking Alpha",
-        "SNOW Stock Set To Reclaim 200-DMA For First Time In 4 Months - Analyst Says Snowflake Could Start Trading Like An \u2018AI Winner\u2019 - Stocktwits"
-      ],
+      "headline_count": 0,
+      "positive_highlights": [],
       "negative_highlights": [],
-      "recent_headlines": [
-        "Snowflake Inc. (SNOW) Q2 Earnings and Revenues Top Estimates - Yahoo Finance",
-        "Earnings Flash (SNOW) Snowflake Inc. Posts Q2 Adjusted EPS $0.62 per Share, vs. FactSet Est of $0.45 - marketscreener.com",
-        "Paragon Private Wealth Management LLC Purchases Shares of 4,464 Snowflake Inc. $SNOW - MarketBeat",
-        "Snowflake Inc Stock (SNOW) Moved Down by 4.13% on Sep 2: A Full Analysis - TradingKey",
-        "Snowflake's Q2 Acceleration Is Real But Valuation Is Unforgiving (NYSE:SNOW) - Seeking Alpha"
-      ]
+      "recent_headlines": []
     },
     "qual": {
       "priced_in": {
@@ -521,7 +498,7 @@
         "reasons": [
           "Low Return on Equity (ROE: -54.9%), indicating margin pressure or weak capital efficiency.",
           "Thin net profit margin (-23.8%), making company vulnerable to cost inflation.",
-          "Mega-cap scale ($106.00B) provides massive distribution and cost advantages."
+          "Mega-cap scale ($126.66B) provides massive distribution and cost advantages."
         ]
       },
       "qualitative_score": 41.0
@@ -529,13 +506,13 @@
     "sig": {
       "composite_score": 50.3,
       "signal": "HOLD",
-      "confidence_pct": 72.7,
+      "confidence_pct": 75.0,
       "pillar_scores": {
         "fundamentals": 50.0,
         "valuation": 26.0,
-        "technicals": 51.8,
-        "sentiment": 52.9,
-        "analyst": 85.0,
+        "technicals": 75.0,
+        "sentiment": 50.0,
+        "analyst": 65.0,
         "macro_moat": 41.0
       },
       "key_positives": [
@@ -547,8 +524,180 @@
       "key_risks": [
         "Subpar Return on Equity (-54.9%)",
         "Thin profit margin (-23.8%)",
-        "Elevated Forward P/E (110.1x)",
+        "Elevated Forward P/E (124.5x)",
         "High PEG ratio (8.08x)"
+      ]
+    }
+  },
+  "HPE": {
+    "data": {
+      "symbol": "HPE",
+      "company_name": "Hewlett Packard Enterprise Company",
+      "exchange_info": {
+        "country": "United States",
+        "exchange": "NYSE/NASDAQ",
+        "central_bank": "Federal Reserve (FED)",
+        "currency_symbol": "$"
+      },
+      "currency": "USD",
+      "sector": "Technology",
+      "industry": "Communication Equipment",
+      "summary": "Hewlett Packard Enterprise Company, together with its subsidiaries, develops intelligent solutions in the United States, the Americas, Europe, the Middle East, Africa, the Asia Pacific, Japan, and internationally. It operates in five segments: Server, Hybrid Cloud, Networking, Financial Services, and Corporate Investments and Other. The company offers general-purpose servers, workload-optimized servers, and integrated systems, including HPE ProLiant Rack and Tower servers; HPE Synergy; HPE Scale Up servers; HPE Edgeline servers; HPE Cray EX; HPE Cray XD; and HPE NonStop. It also provides cloud-native and hybrid solutions, such as HPE Alletra Storage; HPE InfoSight; HPE CloudPhysics; and HPE GreenLake. In addition, the company develops and sells networking and security products and services comprising hardware products, which include Wi-Fi and private cellular access points, MX and PTX routers, and gateways, as well as QFX, EX, and CX switches; software products, such as Mist and Aruba Central; and services comprising professional, maintenance, support services, management software, and education and training programs. Further, it offers investment solutions, including leasing, financing, IT consumption, utility programs, and asset management services, as well as supports financial solutions for on-premise flexible consumption models. The company serves commercial and large enterprise groups, as well as business and public sector enterprises. It sells its products through resellers, distribution partners, master area partners, original equipment manufacturers, independent software vendors, systems integrators, and advisory firms. The company was founded in 1939 and is headquartered in Spring, Texas.",
+      "current_price": 48.27,
+      "previous_close": 51.83,
+      "fifty_two_week_high": 64.25,
+      "fifty_two_week_low": 19.84,
+      "volume": 23423453,
+      "avg_volume": 20902676,
+      "pe_ratio": 45.11215,
+      "forward_pe": 10.576017,
+      "peg_ratio": 0.85,
+      "price_to_sales": 1.6476597,
+      "price_to_book": 2.525506,
+      "ev_to_ebitda": 14.817,
+      "market_cap": 63919304704,
+      "enterprise_value": 83435233280,
+      "eps_trailing": 1.07,
+      "eps_forward": 4.5641,
+      "earnings_growth": null,
+      "revenue_growth": 0.4,
+      "total_revenue": 38793998336,
+      "net_income": 1440000000,
+      "profit_margins": 0.040110003,
+      "operating_margins": 0.087,
+      "return_on_equity": 0.06315,
+      "return_on_assets": 0.01966,
+      "total_debt": 21304000512,
+      "total_cash": 5292000256,
+      "debt_to_equity": 84.03,
+      "current_ratio": 1.088,
+      "quick_ratio": 0.566,
+      "free_cash_flow": 3836000000,
+      "dividend_yield_pct": 1.12,
+      "payout_ratio": 0.5093,
+      "target_low": 52.0,
+      "target_mean": 67.4795,
+      "target_high": 82.0,
+      "target_median": 68.0,
+      "recommendation_key": "buy",
+      "recommendation_mean": 1.91304,
+      "number_of_analysts": 20,
+      "implied_upside_pct": 39.79593950694012,
+      "rec_breakdown": {
+        "strongBuy": 5,
+        "buy": 10,
+        "hold": 8,
+        "sell": 0,
+        "strongSell": 0
+      },
+      "next_earnings_date": "2026-09-02",
+      "earnings_high_est": 1.03,
+      "earnings_low_est": 0.88,
+      "earnings_avg_est": 0.93739,
+      "_ticker_obj": "yfinance.Ticker object <HPE>"
+    },
+    "tech": {
+      "latest_price": 48.27,
+      "sma_20": 54.17000026702881,
+      "sma_50": 49.77780029296875,
+      "sma_200": 32.94097029685974,
+      "rsi_14": 22.641521128078423,
+      "rsi_status": "OVERSOLD",
+      "macd_data": {
+        "macd": 0.14278733462671767,
+        "signal": 1.053901388155057,
+        "histogram": -0.9111140535283393,
+        "crossover": "BEARISH"
+      },
+      "cross_status": "GOLDEN_CROSS",
+      "fifty_two_week_pos_pct": 64.46395077415849,
+      "high_52": 64.06257161473991,
+      "low_52": 19.621582932025888,
+      "returns": {
+        "1m": -7.934389244634643,
+        "3m": -1.6032064421225067,
+        "6m": 130.5886775350682,
+        "1y": 115.93095160146305
+      },
+      "technical_score": 52.5,
+      "signals": [
+        "Price is 3.0% below 50-day SMA (Bearish)",
+        "50-day SMA is above 200-day SMA (Golden Cross)",
+        "RSI is oversold at 22.6 (Potential Rebound)",
+        "MACD histogram indicates negative bearish momentum"
+      ]
+    },
+    "sent": {
+      "combined_polarity": 0.0,
+      "sentiment_score": 50.0,
+      "label": "NEUTRAL",
+      "news_stats": {
+        "polarity": 0.0,
+        "subjectivity": 0.0,
+        "positive_count": 0,
+        "negative_count": 0,
+        "neutral_count": 0
+      },
+      "reddit_stats": {
+        "polarity": 0.0,
+        "subjectivity": 0.0,
+        "positive_count": 0,
+        "negative_count": 0,
+        "neutral_count": 0
+      },
+      "headline_count": 0,
+      "positive_highlights": [],
+      "negative_highlights": [],
+      "recent_headlines": []
+    },
+    "qual": {
+      "priced_in": {
+        "valuation_tier": "High Growth Premium",
+        "priced_in_points": [
+          "High P/E ratio indicates market has priced in strong future earnings acceleration.",
+          "Forward P/E is 76.6% lower than trailing P/E, pricing in robust earnings recovery/growth.",
+          "PEG ratio of 0.85 suggests stock may be undervalued relative to expected growth."
+        ]
+      },
+      "macro_policy": {
+        "macro_factors": [
+          "Operating in United States under Federal Reserve (FED) interest rate policy environment.",
+          "Consumer sentiment and discretionary spending impact demand during inflation/rate shifts."
+        ],
+        "policy_risks": [
+          "Antitrust oversight, data privacy laws, and international tariff trade policies affect cross-border supply chains."
+        ]
+      },
+      "moat": {
+        "moat_tier": "Narrow Moat",
+        "moat_score": 50.0,
+        "reasons": [
+          "Standard market positioning within industry."
+        ]
+      },
+      "qualitative_score": 50.0
+    },
+    "sig": {
+      "composite_score": 66.9,
+      "signal": "BUY",
+      "confidence_pct": 75.8,
+      "pillar_scores": {
+        "fundamentals": 72.0,
+        "valuation": 70.0,
+        "technicals": 52.5,
+        "sentiment": 50.0,
+        "analyst": 97.0,
+        "macro_moat": 50.0
+      },
+      "key_positives": [
+        "Strong YoY revenue growth (40.0%)",
+        "Positive free cash flow generation",
+        "Attractive Forward P/E (10.6x)",
+        "Favorable PEG ratio (0.85x < 1.0)"
+      ],
+      "key_risks": [
+        "High P/E ratio (45.1x)",
+        "Price is 3.0% below 50-day SMA (Bearish)"
       ]
     }
   },
@@ -566,21 +715,21 @@
       "sector": "Technology",
       "industry": "Semiconductors",
       "summary": "Micron Technology, Inc. designs, develops, manufactures, and sells memory and storage products in the United States, Taiwan, Japan, Mainland China, Hong Kong, Europe, and internationally. It operates through the Cloud Memory Business Unit; Core Data Center Business Unit; Mobile and Client Business Unit; and Automotive and Embedded Business Unit segments. The company provides memory products, including dynamic random access memory components and modules, CXL-based memory, LPDDR components and modules, graphics memory, high-bandwidth memory, and data center memory products; multichip packages (MCP) comprising embedded multimedia card-based, universal flash storage-based, and NAND-based MCPs; and technology leadership products that include 1y DRAM and G9 NAND technologies. It also offers storage products, such as data center solid-state drives (SSD), client SSD storage, and auto and industrial SSD storage; managed NAND; NAND flash; NOR flash; and memory cards. In addition, the company provides design tools, including FBGA and part decoders; DRAM power calculators; NAND power calculators; simulation models; chipset compatibility guides; serial presence-detection tools; cross-reference tools; UFSparm; SSD firmware; software and drivers; storage executive software; and obsolete part catalogs. It markets its semiconductor memory and storage products under the Micron and Crucial brands. The company serves the data center, PC, graphics, networking, automotive, industrial, and consumer embedded markets, as well as the smartphone and other mobile-device markets. It sells its products through its direct sales force, independent sales representatives, distributors, and retailers; web-based customer direct sales channel; and channel and distribution partners. Micron Technology, Inc. was founded in 1978 and is headquartered in Boise, Idaho.",
-      "current_price": 956.08,
-      "previous_close": 933.44,
+      "current_price": 950.22,
+      "previous_close": 956.08,
       "fifty_two_week_high": 1255.0,
       "fifty_two_week_low": 118.52,
-      "volume": 21231828,
-      "avg_volume": 44742325,
-      "pe_ratio": 21.096205,
-      "forward_pe": 6.167254,
+      "volume": 12322249,
+      "avg_volume": 44371471,
+      "pe_ratio": 21.467472,
+      "forward_pe": 6.1303887,
       "peg_ratio": 0.14,
-      "price_to_sales": 11.961254,
-      "price_to_book": 10.716584,
+      "price_to_sales": 11.88794,
+      "price_to_book": 10.652525,
       "ev_to_ebitda": 15.54,
-      "market_cap": 1079790206976,
+      "market_cap": 1073335697408,
       "enterprise_value": 1060144218112,
-      "eps_trailing": 45.32,
+      "eps_trailing": 44.27,
       "eps_forward": 155.02524,
       "earnings_growth": 13.685,
       "revenue_growth": 3.457,
@@ -605,7 +754,7 @@
       "recommendation_key": "strong_buy",
       "recommendation_mean": 1.35417,
       "number_of_analysts": 45,
-      "implied_upside_pct": 58.261975985273196,
+      "implied_upside_pct": 59.23797646860728,
       "rec_breakdown": {
         "strongBuy": 9,
         "buy": 35,
@@ -620,46 +769,45 @@
       "_ticker_obj": "yfinance.Ticker object <MU>"
     },
     "tech": {
-      "latest_price": 956.08,
-      "sma_20": 932.5184997558594,
-      "sma_50": 944.0023181152344,
-      "sma_200": 598.9083493041992,
-      "rsi_14": 50.90582306232594,
+      "latest_price": 950.22,
+      "sma_20": 935.9559997558594,
+      "sma_50": 942.0397424316407,
+      "sma_200": 602.4265055847168,
+      "rsi_14": 46.741841037482004,
       "rsi_status": "NEUTRAL",
       "macd_data": {
-        "macd": 8.014913330545482,
-        "signal": 6.200938603623804,
-        "histogram": 1.8139747269216784,
+        "macd": 8.217771602495986,
+        "signal": 6.6043052022995905,
+        "histogram": 1.6134664001963959,
         "crossover": "BULLISH"
       },
       "cross_status": "GOLDEN_CROSS",
-      "fifty_two_week_pos_pct": 73.74278744207514,
+      "fifty_two_week_pos_pct": 73.2277108826736,
       "high_52": 1254.8069810301963,
       "low_52": 117.11203199024,
       "returns": {
-        "1m": 7.041054802079416,
-        "3m": -3.993270881171218,
-        "6m": 140.93407964933823,
-        "1y": 706.6160289579022
+        "1m": 7.79947492051658,
+        "3m": 9.994808306455315,
+        "6m": 156.75543772877614,
+        "1y": 701.6721226637707
       },
-      "technical_score": 76.9,
+      "technical_score": 76.3,
       "signals": [
-        "Price is 1.3% above 50-day SMA (Bullish)",
+        "Price is 0.9% above 50-day SMA (Bullish)",
         "50-day SMA is above 200-day SMA (Golden Cross)",
         "MACD histogram indicates positive bullish momentum"
       ]
     },
     "sent": {
-      "combined_polarity": 0.049,
-      "sentiment_score": 51.9,
+      "combined_polarity": 0.0,
+      "sentiment_score": 50.0,
       "label": "NEUTRAL",
       "news_stats": {
-        "polarity": 0.06962962962962962,
-        "subjectivity": 0.13259259259259262,
-        "positive_count": 4,
-        "negative_count": 2,
-        "neutral_count": 9,
-        "total": 15
+        "polarity": 0.0,
+        "subjectivity": 0.0,
+        "positive_count": 0,
+        "negative_count": 0,
+        "neutral_count": 0
       },
       "reddit_stats": {
         "polarity": 0.0,
@@ -668,30 +816,17 @@
         "negative_count": 0,
         "neutral_count": 0
       },
-      "headline_count": 15,
-      "positive_highlights": [
-        "Why Micron's Strategic Customer Agreements Make Me Even More Worried (NASDAQ:MU) - Seeking Alpha",
-        "Micron Stock Flashing Intriguing 'Buy the Dip' Signal - Yahoo Finance",
-        "Micron Technology Consolidation: Soaring Memory Revenue Meets Fresh Policy Uncertainty - Sahm"
-      ],
-      "negative_highlights": [
-        "Micron Technology: The Center Of Gravity For The Memory Supercycle (NASDAQ:MU) - Seeking Alpha",
-        "Micron Technology Inc Stock (MU) Opened Down by 6.86% on Aug 24: What Investors Need To Know - TradingKey"
-      ],
-      "recent_headlines": [
-        "Micron Stock Flashing Intriguing 'Buy the Dip' Signal - Yahoo Finance",
-        "Micron: This Cycle Might Shock Everyone (NASDAQ:MU) - Seeking Alpha",
-        "MU Stock Slides As Legal Risks And Sector Sell-Off Hit Sentiment - timothysykes.com",
-        "MU Stock Slides As Patent Fight And Sector Weakness Hit Sentiment - StocksToTrade",
-        "What's Going With Micron Tech Stock Today? - Benzinga"
-      ]
+      "headline_count": 0,
+      "positive_highlights": [],
+      "negative_highlights": [],
+      "recent_headlines": []
     },
     "qual": {
       "priced_in": {
         "valuation_tier": "Fair Value Range",
         "priced_in_points": [
           "P/E ratio reflects balanced market expectations for mid-range growth.",
-          "Forward P/E is 70.8% lower than trailing P/E, pricing in robust earnings recovery/growth.",
+          "Forward P/E is 71.4% lower than trailing P/E, pricing in robust earnings recovery/growth.",
           "PEG ratio of 0.14 suggests stock may be undervalued relative to expected growth."
         ]
       },
@@ -710,20 +845,20 @@
         "reasons": [
           "Strong Return on Equity (ROE: 66.6%), indicating high capital efficiency and competitive advantage.",
           "High net profit margin (55.9%), demonstrating pricing power.",
-          "Mega-cap scale ($1.08T) provides massive distribution and cost advantages."
+          "Mega-cap scale ($1.07T) provides massive distribution and cost advantages."
         ]
       },
       "qualitative_score": 80.0
     },
     "sig": {
-      "composite_score": 84.3,
+      "composite_score": 83.9,
       "signal": "STRONG BUY",
-      "confidence_pct": 76.5,
+      "confidence_pct": 75.7,
       "pillar_scores": {
         "fundamentals": 100.0,
         "valuation": 85.0,
-        "technicals": 76.9,
-        "sentiment": 51.9,
+        "technicals": 76.3,
+        "sentiment": 50.0,
         "analyst": 100.0,
         "macro_moat": 80.0
       },
@@ -735,193 +870,6 @@
       ],
       "key_risks": [
         "Standard market risk and volatility."
-      ]
-    }
-  },
-  "HPE": {
-    "data": {
-      "symbol": "HPE",
-      "company_name": "Hewlett Packard Enterprise Company",
-      "exchange_info": {
-        "country": "United States",
-        "exchange": "NYSE/NASDAQ",
-        "central_bank": "Federal Reserve (FED)",
-        "currency_symbol": "$"
-      },
-      "currency": "USD",
-      "sector": "Technology",
-      "industry": "Communication Equipment",
-      "summary": "Hewlett Packard Enterprise Company, together with its subsidiaries, develops intelligent solutions in the United States, the Americas, Europe, the Middle East, Africa, the Asia Pacific, Japan, and internationally. It operates in five segments: Server, Hybrid Cloud, Networking, Financial Services, and Corporate Investments and Other. The company offers general-purpose servers, workload-optimized servers, and integrated systems, including HPE ProLiant Rack and Tower servers; HPE Synergy; HPE Scale Up servers; HPE Edgeline servers; HPE Cray EX; HPE Cray XD; and HPE NonStop. It also provides cloud-native and hybrid solutions, such as HPE Alletra Storage; HPE InfoSight; HPE CloudPhysics; and HPE GreenLake. In addition, the company develops and sells networking and security products and services comprising hardware products, which include Wi-Fi and private cellular access points, MX and PTX routers, and gateways, as well as QFX, EX, and CX switches; software products, such as Mist and Aruba Central; and services comprising professional, maintenance, support services, management software, and education and training programs. Further, it offers investment solutions, including leasing, financing, IT consumption, utility programs, and asset management services, as well as supports financial solutions for on-premise flexible consumption models. The company serves commercial and large enterprise groups, as well as business and public sector enterprises. It sells its products through resellers, distribution partners, master area partners, original equipment manufacturers, independent software vendors, systems integrators, and advisory firms. The company was founded in 1939 and is headquartered in Spring, Texas.",
-      "current_price": 51.83,
-      "previous_close": 50.87,
-      "fifty_two_week_high": 64.25,
-      "fifty_two_week_low": 19.84,
-      "volume": 58753944,
-      "avg_volume": 20268346,
-      "pe_ratio": 47.55046,
-      "forward_pe": 12.598353,
-      "peg_ratio": 0.85,
-      "price_to_sales": 1.7691776,
-      "price_to_book": 2.7117667,
-      "ev_to_ebitda": 14.817,
-      "market_cap": 68633468928,
-      "enterprise_value": 83435233280,
-      "eps_trailing": 1.09,
-      "eps_forward": 4.11403,
-      "earnings_growth": null,
-      "revenue_growth": 0.4,
-      "total_revenue": 38793998336,
-      "net_income": 1440000000,
-      "profit_margins": 0.040110003,
-      "operating_margins": 0.087,
-      "return_on_equity": 0.06315,
-      "return_on_assets": 0.01966,
-      "total_debt": 21304000512,
-      "total_cash": 5292000256,
-      "debt_to_equity": 84.03,
-      "current_ratio": 1.088,
-      "quick_ratio": 0.566,
-      "free_cash_flow": 3836000000,
-      "dividend_yield_pct": 1.12,
-      "payout_ratio": 0.5093,
-      "target_low": 52.0,
-      "target_mean": 67.4795,
-      "target_high": 82.0,
-      "target_median": 68.0,
-      "recommendation_key": "buy",
-      "recommendation_mean": 1.91304,
-      "number_of_analysts": 20,
-      "implied_upside_pct": 30.193903144896783,
-      "rec_breakdown": {
-        "strongBuy": 5,
-        "buy": 10,
-        "hold": 8,
-        "sell": 0,
-        "strongSell": 0
-      },
-      "next_earnings_date": "2026-09-02",
-      "earnings_high_est": 1.03,
-      "earnings_low_est": 0.88,
-      "earnings_avg_est": 0.93739,
-      "_ticker_obj": "yfinance.Ticker object <HPE>"
-    },
-    "tech": {
-      "latest_price": 51.83,
-      "sma_20": 54.378000259399414,
-      "sma_50": 49.787400283813476,
-      "sma_200": 32.812032012939454,
-      "rsi_14": 25.977163205684377,
-      "rsi_status": "OVERSOLD",
-      "macd_data": {
-        "macd": 0.5606506880326734,
-        "signal": 1.2816799015376048,
-        "histogram": -0.7210292135049314,
-        "crossover": "BEARISH"
-      },
-      "cross_status": "GOLDEN_CROSS",
-      "fifty_two_week_pos_pct": 72.47457363724685,
-      "high_52": 64.06257161473991,
-      "low_52": 19.621582932025888,
-      "returns": {
-        "1m": -2.6118023089454656,
-        "3m": -3.181893152027515,
-        "6m": 143.67406531674624,
-        "1y": 131.8562704871944
-      },
-      "technical_score": 68.2,
-      "signals": [
-        "Price is 4.1% above 50-day SMA (Bullish)",
-        "50-day SMA is above 200-day SMA (Golden Cross)",
-        "RSI is oversold at 26.0 (Potential Rebound)",
-        "MACD histogram indicates negative bearish momentum"
-      ]
-    },
-    "sent": {
-      "combined_polarity": 0.045,
-      "sentiment_score": 51.8,
-      "label": "NEUTRAL",
-      "news_stats": {
-        "polarity": 0.07296296296296297,
-        "subjectivity": 0.3048148148148148,
-        "positive_count": 5,
-        "negative_count": 2,
-        "neutral_count": 8,
-        "total": 15
-      },
-      "reddit_stats": {
-        "polarity": -0.019999999999999997,
-        "subjectivity": 0.17,
-        "positive_count": 1,
-        "negative_count": 1,
-        "neutral_count": 8,
-        "total": 10
-      },
-      "headline_count": 25,
-      "positive_highlights": [
-        "Biggest stock movers Thursday: SNOW, HPE, and more - Seeking Alpha",
-        "Hewlett Packard Enterprise is the latest tech company to leave Silicon Valley, and is moving to Houston - Reddit",
-        "Dell Falls 4% Ahead of Earnings as Its 266% Rally Raises the Bar, Super Micro and Hewlett Packard Enterprise Slip - 24/7 Wall St."
-      ],
-      "negative_highlights": [
-        "Hewlett Packard Enterprise Co (HPE) Stock Down 3.9% but Still Ov - GuruFocus",
-        "Dow, S&P 500, Nasdaq Futures Rise As Investors Look Past Iran Tensions, Focus On Earnings: AVGO, SNOW, DELL, HPE Stocks In Focus - Stocktwits",
-        "HPE Shocked I Won't Ever Work For Them - Reddit"
-      ],
-      "recent_headlines": [
-        "Why Did Hewlett Packard Enterprise (HPE) Move Today? - Yahoo Finance",
-        "Oracle plans a multi-year network rollout with HPE for its global AI data centers - Stock Titan",
-        "Hewlett Packard Enterprise Shares Rise 3.99% After Hours - Intel (NASDAQ:INTC), Hewlett Packard (NYSE:HPE - Benzinga",
-        "HPE Earnings Top Estimates Amid Oracle AI Data Center Deal - Investor's Business Daily",
-        "HPE raises forecasts on AI demand, shares fall on supply concerns - Reuters"
-      ]
-    },
-    "qual": {
-      "priced_in": {
-        "valuation_tier": "High Growth Premium",
-        "priced_in_points": [
-          "High P/E ratio indicates market has priced in strong future earnings acceleration.",
-          "Forward P/E is 73.5% lower than trailing P/E, pricing in robust earnings recovery/growth.",
-          "PEG ratio of 0.85 suggests stock may be undervalued relative to expected growth."
-        ]
-      },
-      "macro_policy": {
-        "macro_factors": [
-          "Operating in United States under Federal Reserve (FED) interest rate policy environment.",
-          "Consumer sentiment and discretionary spending impact demand during inflation/rate shifts."
-        ],
-        "policy_risks": [
-          "Antitrust oversight, data privacy laws, and international tariff trade policies affect cross-border supply chains."
-        ]
-      },
-      "moat": {
-        "moat_tier": "Narrow Moat",
-        "moat_score": 50.0,
-        "reasons": [
-          "Standard market positioning within industry."
-        ]
-      },
-      "qualitative_score": 50.0
-    },
-    "sig": {
-      "composite_score": 69.5,
-      "signal": "BUY",
-      "confidence_pct": 77.4,
-      "pillar_scores": {
-        "fundamentals": 72.0,
-        "valuation": 70.0,
-        "technicals": 68.2,
-        "sentiment": 51.8,
-        "analyst": 97.0,
-        "macro_moat": 50.0
-      },
-      "key_positives": [
-        "Strong YoY revenue growth (40.0%)",
-        "Positive free cash flow generation",
-        "Attractive Forward P/E (12.6x)",
-        "Favorable PEG ratio (0.85x < 1.0)"
-      ],
-      "key_risks": [
-        "High P/E ratio (47.6x)"
       ]
     }
   },
@@ -939,38 +887,38 @@
       "sector": "Technology",
       "industry": "Computer Hardware",
       "summary": "Dell Technologies Inc. designs, develops, manufactures, markets, sells, and supports various comprehensive and integrated solutions, products, and services in the Americas, Europe, the Middle East, Asia, and internationally. The company operates through Infrastructure Solutions Group (ISG) and Client Solutions Group (CSG) segments. The ISG segment provides modern and traditional storage solutions, including all-flash, purpose-built, hyper-converged infrastructure, software-defined storage, and general-purpose and AI-optimized servers. This segment also offers networking products and services comprising wide area network infrastructure, data center and edge networking switches, and cables and optics that help its business customers to transform and modernize their infrastructure and complementing its server and storage solutions; and software, peripherals, and services, including consulting and support, and deployment. The CSG segment provides notebooks, desktops, and workstations and branded peripherals that include displays, docking stations, keyboards, mice, webcam and audio devices, and third-party software and peripherals; and configuration, and extended warranties services. The company is involved in originating, collecting, and servicing customer financing arrangements and offers payment and consumption solutions and services, such utility, subscription, as-a-service, leases, and loans, as well as fixed-term leases and loans. It serves enterprises, governmental agencies and other public institutions, educational institutions, healthcare organizations, small and medium-sized businesses, and consumers. The company has a strategic alliance with Rafay Systems for the development of AI infrastructure solutions. The company was formerly known as Denali Holding Inc. and changed its name to Dell Technologies Inc. in March 2013. Dell Technologies Inc. was founded in 1984 and is headquartered in Round Rock, Texas.",
-      "current_price": 492.2,
-      "previous_close": 425.0,
-      "fifty_two_week_high": 514.0,
+      "current_price": 515.4,
+      "previous_close": 492.2,
+      "fifty_two_week_high": 516.54,
       "fifty_two_week_low": 110.22,
-      "volume": 36411468,
-      "avg_volume": 7163582,
-      "pe_ratio": 33.89807,
-      "forward_pe": 17.487028,
+      "volume": 9005292,
+      "avg_volume": 7518798,
+      "pe_ratio": 35.49587,
+      "forward_pe": 18.311285,
       "peg_ratio": 0.7,
-      "price_to_sales": 2.3733325,
-      "price_to_book": -227.55432,
-      "ev_to_ebitda": 21.03,
-      "market_cap": 318031298560,
-      "enterprise_value": 295788904448,
+      "price_to_sales": 2.2025688,
+      "price_to_book": -238.28017,
+      "ev_to_ebitda": 19.447,
+      "market_cap": 333021806592,
+      "enterprise_value": 340366000128,
       "eps_trailing": 14.52,
       "eps_forward": 28.14658,
-      "earnings_growth": 2.825,
-      "revenue_growth": 0.875,
-      "total_revenue": 134001999872,
-      "net_income": 8408999936,
-      "profit_margins": 0.062750004,
-      "operating_margins": 0.088570006,
+      "earnings_growth": 2.729,
+      "revenue_growth": 0.577,
+      "total_revenue": 151197007872,
+      "net_income": 11377999872,
+      "profit_margins": 0.07525,
+      "operating_margins": 0.11465,
       "return_on_equity": null,
-      "return_on_assets": 0.07004,
-      "total_debt": 31924000768,
-      "total_cash": 11580999680,
+      "return_on_assets": 0.08554,
+      "total_debt": 34466000896,
+      "total_cash": 11569000448,
       "debt_to_equity": null,
-      "current_ratio": 0.946,
-      "quick_ratio": 0.612,
-      "free_cash_flow": 5434124800,
-      "dividend_yield_pct": 55.00000000000001,
-      "payout_ratio": 0.1757,
+      "current_ratio": 0.962,
+      "quick_ratio": 0.565,
+      "free_cash_flow": 173500000,
+      "dividend_yield_pct": 51.0,
+      "payout_ratio": 0.1344,
       "target_low": 455.0,
       "target_mean": 556.125,
       "target_high": 735.0,
@@ -978,7 +926,7 @@
       "recommendation_key": "buy",
       "recommendation_mean": 1.82143,
       "number_of_analysts": 24,
-      "implied_upside_pct": 12.987606663957743,
+      "implied_upside_pct": 7.901629802095464,
       "rec_breakdown": {
         "strongBuy": 5,
         "buy": 14,
@@ -993,46 +941,45 @@
       "_ticker_obj": "yfinance.Ticker object <DELL>"
     },
     "tech": {
-      "latest_price": 492.2,
-      "sma_20": 458.65899963378905,
-      "sma_50": 435.2638189697266,
-      "sma_200": 248.89066764831543,
-      "rsi_14": 49.49662291660515,
+      "latest_price": 515.4,
+      "sma_20": 462.52649993896483,
+      "sma_50": 436.8969409179688,
+      "sma_200": 250.80292976379394,
+      "rsi_14": 54.86622482990332,
       "rsi_status": "NEUTRAL",
       "macd_data": {
-        "macd": 7.982502316459431,
-        "signal": 8.818329774426072,
-        "histogram": -0.8358274579666407,
-        "crossover": "BEARISH"
+        "macd": 11.999549089526454,
+        "signal": 9.45457363995868,
+        "histogram": 2.544975449567774,
+        "crossover": "BULLISH_CROSS"
       },
       "cross_status": "GOLDEN_CROSS",
-      "fifty_two_week_pos_pct": 94.60798116978906,
-      "high_52": 514.0,
+      "fifty_two_week_pos_pct": 99.71979781683198,
+      "high_52": 516.5399780273438,
       "low_52": 109.6987412978457,
       "returns": {
-        "1m": 6.3756185465085435,
-        "3m": 16.813965519751363,
-        "6m": 237.52302728367408,
-        "1y": 301.9288155742962
+        "1m": 17.765339240906176,
+        "3m": 30.898768660985088,
+        "6m": 253.52882896668456,
+        "1y": 320.8738814566809
       },
-      "technical_score": 70.0,
+      "technical_score": 90.0,
       "signals": [
-        "Price is 13.1% above 50-day SMA (Bullish)",
+        "Price is 18.0% above 50-day SMA (Bullish)",
         "50-day SMA is above 200-day SMA (Golden Cross)",
-        "MACD histogram indicates negative bearish momentum"
+        "MACD histogram indicates positive bullish momentum"
       ]
     },
     "sent": {
-      "combined_polarity": 0.049,
-      "sentiment_score": 51.9,
+      "combined_polarity": 0.0,
+      "sentiment_score": 50.0,
       "label": "NEUTRAL",
       "news_stats": {
-        "polarity": 0.06962962962962962,
-        "subjectivity": 0.16148148148148148,
-        "positive_count": 3,
-        "negative_count": 1,
-        "neutral_count": 11,
-        "total": 15
+        "polarity": 0.0,
+        "subjectivity": 0.0,
+        "positive_count": 0,
+        "negative_count": 0,
+        "neutral_count": 0
       },
       "reddit_stats": {
         "polarity": 0.0,
@@ -1041,22 +988,10 @@
         "negative_count": 0,
         "neutral_count": 0
       },
-      "headline_count": 15,
-      "positive_highlights": [
-        "Dell Raises Annual Revenue Outlook on Strong AI Server Sales - Bloomberg.com",
-        "Dell Technologies (DELL) Raises the Bar Again as AI Demand Fuels Another Strong Quarter - Yahoo Finance",
-        "Dell Falls 4% Ahead of Earnings as Its 266% Rally Raises the Bar, Super Micro and Hewlett Packard Enterprise Slip - 24/7 Wall St."
-      ],
-      "negative_highlights": [
-        "Why Dell Technologies (DELL) Stock Is Down Today | DELL Stock News - Quiver Quantitative"
-      ],
-      "recent_headlines": [
-        "Dell Stock Soars on Blowout Q2 Earnings and Raised Guidance - Barron's",
-        "Dell stock surges on record orders for AI servers - Yahoo Finance",
-        "Dell booked a record $60.9 billion in orders for computers that power AI. Its unfilled orders totaled a record $95 billion. - Stock Titan",
-        "Dell Stock Slips Ahead of Q2 Earnings - Benzinga",
-        "Dell's Next Earnings Report on September 1 Could Send the Stock Soaring. Here's Why. - Yahoo Finance"
-      ]
+      "headline_count": 0,
+      "positive_highlights": [],
+      "negative_highlights": [],
+      "recent_headlines": []
     },
     "qual": {
       "priced_in": {
@@ -1080,31 +1015,31 @@
         "moat_tier": "Narrow Moat",
         "moat_score": 65.0,
         "reasons": [
-          "Mega-cap scale ($318.03B) provides massive distribution and cost advantages."
+          "Mega-cap scale ($333.02B) provides massive distribution and cost advantages."
         ]
       },
       "qualitative_score": 59.0
     },
     "sig": {
-      "composite_score": 67.2,
+      "composite_score": 68.5,
       "signal": "BUY",
-      "confidence_pct": 80.9,
+      "confidence_pct": 78.6,
       "pillar_scores": {
         "fundamentals": 64.0,
         "valuation": 70.0,
-        "technicals": 70.0,
-        "sentiment": 51.9,
-        "analyst": 87.0,
+        "technicals": 90.0,
+        "sentiment": 50.0,
+        "analyst": 77.0,
         "macro_moat": 59.0
       },
       "key_positives": [
-        "Strong YoY revenue growth (87.5%)",
+        "Strong YoY revenue growth (57.7%)",
         "Positive free cash flow generation",
         "Favorable PEG ratio (0.70x < 1.0)",
-        "Moderate price target upside (+13.0%)"
+        "Bullish analyst consensus (Buy)"
       ],
       "key_risks": [
-        "Current ratio below 1.0 (0.95)"
+        "Current ratio below 1.0 (0.96)"
       ]
     }
   }
