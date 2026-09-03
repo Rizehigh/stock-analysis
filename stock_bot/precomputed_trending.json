@@ -20,15 +20,15 @@
       "volume": 30822042,
       "avg_volume": 24976037,
       "pe_ratio": 61.30885,
-      "forward_pe": 18.762774,
+      "forward_pe": 18.91381,
       "peg_ratio": 0.42,
       "price_to_sales": 23.152107,
-      "price_to_book": 19.926207,
-      "ev_to_ebitda": 42.868,
+      "price_to_book": 21.417158,
+      "ev_to_ebitda": 42.592,
       "market_cap": 1747173769216,
-      "enterprise_value": 1804061245440,
+      "enterprise_value": 1792452722688,
       "eps_trailing": 5.99,
-      "eps_forward": 19.5728,
+      "eps_forward": 19.4165,
       "earnings_growth": 0.854,
       "revenue_growth": 0.479,
       "total_revenue": 75464998912,
@@ -70,13 +70,13 @@
       "latest_price": 367.24,
       "sma_20": 384.98699951171875,
       "sma_50": 384.58,
-      "sma_200": 368.86128204345704,
+      "sma_200": 368.8612811279297,
       "rsi_14": 24.0668545120443,
       "rsi_status": "OVERSOLD",
       "macd_data": {
-        "macd": -7.905215114283408,
-        "signal": -6.692644096161546,
-        "histogram": -1.2125710181218619,
+        "macd": -7.905215114565408,
+        "signal": -6.692644096576266,
+        "histogram": -1.2125710179891422,
         "crossover": "BEARISH"
       },
       "cross_status": "GOLDEN_CROSS",
@@ -87,7 +87,7 @@
         "1m": -12.202352234926694,
         "3m": -12.195644966214159,
         "6m": 10.765043234716343,
-        "1y": 22.33566641295539
+        "1y": 22.335653976224812
       },
       "technical_score": 50.2,
       "signals": [
@@ -98,15 +98,15 @@
       ]
     },
     "sent": {
-      "combined_polarity": 0.028,
-      "sentiment_score": 51.1,
+      "combined_polarity": 0.017,
+      "sentiment_score": 50.7,
       "label": "NEUTRAL",
       "news_stats": {
-        "polarity": 0.04055555555555555,
-        "subjectivity": 0.1611111111111111,
-        "positive_count": 5,
+        "polarity": 0.02444444444444444,
+        "subjectivity": 0.10944444444444444,
+        "positive_count": 3,
         "negative_count": 1,
-        "neutral_count": 9,
+        "neutral_count": 11,
         "total": 15
       },
       "reddit_stats": {
@@ -118,19 +118,19 @@
       },
       "headline_count": 15,
       "positive_highlights": [
-        "AVGO Stock Dips 4% After-Hours \u2014 Broadcom\u2019s Soft Q4 Outlook Overshadows Strong Q3 Chip Sales - Stocktwits",
+        "AVGO Stock Dips 4% After-Hours \u2014 Broadcom\u2019s Soft Q4 Outlook Overshadows Strong Q3 Chip Sales - Yahoo Finance",
         "AI chip sales hit $16.7B as Broadcom (AVGO) projects even higher Q4 revenue - Stock Titan",
-        "Here\u2019s How Much Traders See Broadcom Stock Moving After Earnings - Investopedia"
+        "Broadcom Beats Q3 Estimates as AI Revenue Jumps 221%, Shares Slide on Soft Guidance - Benzinga"
       ],
       "negative_highlights": [
-        "Broadcom slides as weak guidance overshadows Q3 results (AVGO:NASDAQ) - Seeking Alpha"
+        "Dow, S&P 500, Nasdaq Futures Rise As Investors Look Past Iran Tensions, Focus On Earnings: AVGO, SNOW, DELL, HPE Stocks In Focus - Stocktwits"
       ],
       "recent_headlines": [
         "Broadcom Inc. Announces Third Quarter Fiscal Year 2026 Financial Results and Quarterly Dividend - Yahoo Finance",
-        "Broadcom slides as weak guidance overshadows Q3 results (AVGO:NASDAQ) - Seeking Alpha",
         "Broadcom stock drops on Q4 guidance miss even as AI semiconductor revenue triples - Proactive financial news",
-        "Here\u2019s How Much Traders See Broadcom Stock Moving After Earnings - Investopedia",
-        "AI chip sales hit $16.7B as Broadcom (AVGO) projects even higher Q4 revenue - Stock Titan"
+        "Broadcom Q3: Market Is Punishing Accelerated Growth (NASDAQ:AVGO) - Seeking Alpha",
+        "AI chip sales hit $16.7B as Broadcom (AVGO) projects even higher Q4 revenue - Stock Titan",
+        "AVGO Stock Dips 4% After-Hours \u2014 Broadcom\u2019s Soft Q4 Outlook Overshadows Strong Q3 Chip Sales - Yahoo Finance"
       ]
     },
     "qual": {
@@ -138,7 +138,7 @@
         "valuation_tier": "High Growth Premium",
         "priced_in_points": [
           "High P/E ratio indicates market has priced in strong future earnings acceleration.",
-          "Forward P/E is 69.4% lower than trailing P/E, pricing in robust earnings recovery/growth.",
+          "Forward P/E is 69.1% lower than trailing P/E, pricing in robust earnings recovery/growth.",
           "PEG ratio of 0.42 suggests stock may be undervalued relative to expected growth."
         ]
       },
@@ -163,14 +163,14 @@
       "qualitative_score": 80.0
     },
     "sig": {
-      "composite_score": 74.2,
+      "composite_score": 74.1,
       "signal": "BUY",
       "confidence_pct": 69.9,
       "pillar_scores": {
         "fundamentals": 100.0,
         "valuation": 55.0,
         "technicals": 50.2,
-        "sentiment": 51.1,
+        "sentiment": 50.7,
         "analyst": 100.0,
         "macro_moat": 80.0
       },
@@ -257,13 +257,13 @@
       "latest_price": 224.41,
       "sma_20": 219.28900146484375,
       "sma_50": 209.28499969482422,
-      "sma_200": 196.1128199005127,
+      "sma_200": 196.11282020568848,
       "rsi_14": 49.33651446627561,
       "rsi_status": "NEUTRAL",
       "macd_data": {
-        "macd": 2.667634787450737,
-        "signal": 2.670205710474769,
-        "histogram": -0.002570923024031835,
+        "macd": 2.6676347874492308,
+        "signal": 2.6702057104725565,
+        "histogram": -0.002570923023325733,
         "crossover": "BEARISH"
       },
       "cross_status": "GOLDEN_CROSS",
@@ -274,7 +274,7 @@
         "1m": 2.3674841485251896,
         "3m": 2.629651624252216,
         "6m": 22.55030576468169,
-        "1y": 31.70136833206769
+        "1y": 31.701380125995815
       },
       "technical_score": 60.8,
       "signals": [
@@ -284,15 +284,15 @@
       ]
     },
     "sent": {
-      "combined_polarity": -0.006,
-      "sentiment_score": 49.7,
+      "combined_polarity": 0.035,
+      "sentiment_score": 51.4,
       "label": "NEUTRAL",
       "news_stats": {
-        "polarity": -0.00922222222222222,
-        "subjectivity": 0.20800000000000002,
-        "positive_count": 1,
-        "negative_count": 3,
-        "neutral_count": 11,
+        "polarity": 0.05,
+        "subjectivity": 0.07944444444444444,
+        "positive_count": 2,
+        "negative_count": 0,
+        "neutral_count": 13,
         "total": 15
       },
       "reddit_stats": {
@@ -304,19 +304,16 @@
       },
       "headline_count": 15,
       "positive_highlights": [
-        "14x Earnings For 70% Growth: Why Nvidia Remains My Top Pick (NASDAQ:NVDA) - Seeking Alpha"
+        "14x Earnings For 70% Growth: Why Nvidia Remains My Top Pick (NASDAQ:NVDA) - Seeking Alpha",
+        "Prediction: $1,104 Invested in Nvidia Today Will Be Worth This Much by 2030 - Yahoo Finance"
       ],
-      "negative_highlights": [
-        "Nvidia: The Market Is Crazy Not To Push The Stock Higher (NASDAQ:NVDA) - Seeking Alpha",
-        "NVIDIA Corporation $NVDA Stock Position Decreased by Range Financial Group LLC - marketbeat.com",
-        "NVDA Stock Eyes Worst First Half Since 2022: Retail Patience Wears Thin As Board Member Trims Stake For Third Time This Year - Stocktwits"
-      ],
+      "negative_highlights": [],
       "recent_headlines": [
-        "Nvidia: The Market Is Crazy Not To Push The Stock Higher (NASDAQ:NVDA) - Seeking Alpha",
-        "Nvidia\u2019s (NVDA) Investment in OpenAI Highlights Circular Financing Concerns - Yahoo Finance",
-        "NVIDIA Corporation $NVDA Stock Position Trimmed by Dougherty & Associates LLC - marketbeat.com",
-        "Should NVIDIA Stock Be in Your Portfolio Post Solid Q2 Earnings? - The Globe and Mail",
-        "Nvidia Fiscal Q2: The AI Giant Answers To Losing Market Share (NASDAQ:NVDA) - Seeking Alpha"
+        "Prediction: $1,104 Invested in Nvidia Today Will Be Worth This Much by 2030 - Yahoo Finance",
+        "NVIDIA Corporation $NVDA Stock Holdings Trimmed by Asio Capital LLC - MarketBeat",
+        "NVIDIA (NASDAQ: NVDA) director sells 1.8M shares in 3 days - Stock Titan",
+        "Nvidia: AI Boom Times Still Ahead - Seeking Alpha",
+        "Brandywine Oak Private Wealth LLC Reduces Stock Position in NVIDIA Corporation $NVDA - InsuranceNewsNet"
       ]
     },
     "qual": {
@@ -349,14 +346,14 @@
       "qualitative_score": 80.0
     },
     "sig": {
-      "composite_score": 80.6,
+      "composite_score": 80.8,
       "signal": "BUY",
-      "confidence_pct": 73.7,
+      "confidence_pct": 74.2,
       "pillar_scores": {
         "fundamentals": 100.0,
         "valuation": 80.0,
         "technicals": 60.8,
-        "sentiment": 49.7,
+        "sentiment": 51.4,
         "analyst": 100.0,
         "macro_moat": 80.0
       },
@@ -368,6 +365,190 @@
       ],
       "key_risks": [
         "Standard market risk and volatility."
+      ]
+    }
+  },
+  "SNOW": {
+    "data": {
+      "symbol": "SNOW",
+      "company_name": "Snowflake Inc.",
+      "exchange_info": {
+        "country": "United States",
+        "exchange": "NYSE/NASDAQ",
+        "central_bank": "Federal Reserve (FED)",
+        "currency_symbol": "$"
+      },
+      "currency": "USD",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "summary": "Snowflake Inc. provides a cloud-based data platform for various organizations in the United States and internationally. The company's platform includes artificial intelligence (AI) Data Cloud, which enables customers to consolidate data into a single source of truth to drive meaningful business insights, build data applications, and share data and data products, as well as applies AI for solving business problems. It serves financial services, advertising, media and entertainment, retail and consumer goods, healthcare and life sciences, manufacturing, technology, telecom, travel and hospitality, and government and defense industries, as well as the public sector. the company has a collaboration with OpenAI, L.L.C. for the development of AI solutions for joint enterprise customers that deliver tangible return on investment. The company was formerly known as Snowflake Computing, Inc. and changed its name to Snowflake Inc. in April 2019. Snowflake Inc. was incorporated in 2012 and is based in Menlo Park, California.",
+      "current_price": 305.84,
+      "previous_close": 319.8,
+      "fifty_two_week_high": 341.95,
+      "fifty_two_week_low": 118.3,
+      "volume": 10770913,
+      "avg_volume": 5377201,
+      "pe_ratio": null,
+      "forward_pe": 110.1495,
+      "peg_ratio": 8.08,
+      "price_to_sales": 21.062563,
+      "price_to_book": 54.65332,
+      "ev_to_ebitda": -93.924,
+      "market_cap": 106004144128,
+      "enterprise_value": 105821241344,
+      "eps_trailing": -3.36,
+      "eps_forward": 2.77659,
+      "earnings_growth": null,
+      "revenue_growth": 0.335,
+      "total_revenue": 5032822784,
+      "net_income": -1197095040,
+      "profit_margins": -0.23786,
+      "operating_margins": -0.22173999,
+      "return_on_equity": -0.54869,
+      "return_on_assets": -0.0968,
+      "total_debt": 2772094976,
+      "total_cash": 2954998016,
+      "debt_to_equity": 142.912,
+      "current_ratio": 1.053,
+      "quick_ratio": 0.941,
+      "free_cash_flow": 1739497728,
+      "dividend_yield_pct": 0.0,
+      "payout_ratio": 0.0,
+      "target_low": 110.0,
+      "target_mean": 331.6625,
+      "target_high": 500.0,
+      "target_median": 327.5,
+      "recommendation_key": "buy",
+      "recommendation_mean": 1.5098,
+      "number_of_analysts": 48,
+      "implied_upside_pct": 8.443140204028268,
+      "rec_breakdown": {
+        "strongBuy": 9,
+        "buy": 35,
+        "hold": 5,
+        "sell": 1,
+        "strongSell": 1
+      },
+      "next_earnings_date": "2026-12-02",
+      "earnings_high_est": 0.65,
+      "earnings_low_est": 0.45,
+      "earnings_avg_est": 0.51592,
+      "_ticker_obj": "yfinance.Ticker object <SNOW>"
+    },
+    "tech": {
+      "latest_price": 305.84,
+      "sma_20": 325.98799896240234,
+      "sma_50": 292.50879821777346,
+      "sma_200": 218.0277996826172,
+      "rsi_14": 32.71589019680248,
+      "rsi_status": "BEARISH",
+      "macd_data": {
+        "macd": 7.376651130682319,
+        "signal": 11.448090081708573,
+        "histogram": -4.071438951026254,
+        "crossover": "BEARISH"
+      },
+      "cross_status": "GOLDEN_CROSS",
+      "fifty_two_week_pos_pct": 83.85423173313569,
+      "high_52": 341.95001220703125,
+      "low_52": 118.30000305175781,
+      "returns": {
+        "1m": -3.4717827499782694,
+        "3m": 25.251867136424245,
+        "6m": 72.35277839379508,
+        "1y": 33.36240245849276
+      },
+      "technical_score": 51.8,
+      "signals": [
+        "Price is 4.6% above 50-day SMA (Bullish)",
+        "50-day SMA is above 200-day SMA (Golden Cross)",
+        "MACD histogram indicates negative bearish momentum"
+      ]
+    },
+    "sent": {
+      "combined_polarity": 0.072,
+      "sentiment_score": 52.9,
+      "label": "NEUTRAL",
+      "news_stats": {
+        "polarity": 0.10314814814814816,
+        "subjectivity": 0.20851851851851855,
+        "positive_count": 5,
+        "negative_count": 0,
+        "neutral_count": 10,
+        "total": 15
+      },
+      "reddit_stats": {
+        "polarity": 0.0,
+        "subjectivity": 0.0,
+        "positive_count": 0,
+        "negative_count": 0,
+        "neutral_count": 0
+      },
+      "headline_count": 15,
+      "positive_highlights": [
+        "Snowflake Inc. (SNOW) Q2 Earnings and Revenues Top Estimates - Yahoo Finance",
+        "Snowflake soars as Q2 results, guidance top estimates (SNOW:NYSE) - Seeking Alpha",
+        "SNOW Stock Set To Reclaim 200-DMA For First Time In 4 Months - Analyst Says Snowflake Could Start Trading Like An \u2018AI Winner\u2019 - Stocktwits"
+      ],
+      "negative_highlights": [],
+      "recent_headlines": [
+        "Snowflake Inc. (SNOW) Q2 Earnings and Revenues Top Estimates - Yahoo Finance",
+        "Earnings Flash (SNOW) Snowflake Inc. Posts Q2 Adjusted EPS $0.62 per Share, vs. FactSet Est of $0.45 - marketscreener.com",
+        "Paragon Private Wealth Management LLC Purchases Shares of 4,464 Snowflake Inc. $SNOW - MarketBeat",
+        "Snowflake Inc Stock (SNOW) Moved Down by 4.13% on Sep 2: A Full Analysis - TradingKey",
+        "Snowflake's Q2 Acceleration Is Real But Valuation Is Unforgiving (NYSE:SNOW) - Seeking Alpha"
+      ]
+    },
+    "qual": {
+      "priced_in": {
+        "valuation_tier": "Moderate",
+        "priced_in_points": [
+          "PEG ratio of 8.08 signals premium valuation relative to growth rate."
+        ]
+      },
+      "macro_policy": {
+        "macro_factors": [
+          "Operating in United States under Federal Reserve (FED) interest rate policy environment.",
+          "Consumer sentiment and discretionary spending impact demand during inflation/rate shifts."
+        ],
+        "policy_risks": [
+          "Antitrust oversight, data privacy laws, and international tariff trade policies affect cross-border supply chains."
+        ]
+      },
+      "moat": {
+        "moat_tier": "Weak / No Moat",
+        "moat_score": 35.0,
+        "reasons": [
+          "Low Return on Equity (ROE: -54.9%), indicating margin pressure or weak capital efficiency.",
+          "Thin net profit margin (-23.8%), making company vulnerable to cost inflation.",
+          "Mega-cap scale ($106.00B) provides massive distribution and cost advantages."
+        ]
+      },
+      "qualitative_score": 41.0
+    },
+    "sig": {
+      "composite_score": 50.3,
+      "signal": "HOLD",
+      "confidence_pct": 72.7,
+      "pillar_scores": {
+        "fundamentals": 50.0,
+        "valuation": 26.0,
+        "technicals": 51.8,
+        "sentiment": 52.9,
+        "analyst": 85.0,
+        "macro_moat": 41.0
+      },
+      "key_positives": [
+        "Strong YoY revenue growth (33.5%)",
+        "Positive free cash flow generation",
+        "Strong Wall Street analyst consensus (Strong Buy)",
+        "96% of analyst ratings are Buy/Strong Buy"
+      ],
+      "key_risks": [
+        "Subpar Return on Equity (-54.9%)",
+        "Thin profit margin (-23.8%)",
+        "Elevated Forward P/E (110.1x)",
+        "High PEG ratio (8.08x)"
       ]
     }
   },
@@ -442,24 +623,24 @@
       "latest_price": 956.08,
       "sma_20": 932.5184997558594,
       "sma_50": 944.0023181152344,
-      "sma_200": 598.9083489990235,
+      "sma_200": 598.9083493041992,
       "rsi_14": 50.90582306232594,
       "rsi_status": "NEUTRAL",
       "macd_data": {
-        "macd": 8.014913330554805,
-        "signal": 6.200938603637492,
-        "histogram": 1.813974726917313,
+        "macd": 8.014913330545482,
+        "signal": 6.200938603623804,
+        "histogram": 1.8139747269216784,
         "crossover": "BULLISH"
       },
       "cross_status": "GOLDEN_CROSS",
-      "fifty_two_week_pos_pct": 73.74278726810007,
+      "fifty_two_week_pos_pct": 73.74278744207514,
       "high_52": 1254.8069810301963,
-      "low_52": 117.1120395283801,
+      "low_52": 117.11203199024,
       "returns": {
         "1m": 7.041054802079416,
         "3m": -3.993270881171218,
         "6m": 140.93407964933823,
-        "1y": 706.615977038521
+        "1y": 706.6160289579022
       },
       "technical_score": 76.9,
       "signals": [
@@ -469,15 +650,15 @@
       ]
     },
     "sent": {
-      "combined_polarity": 0.062,
-      "sentiment_score": 52.5,
+      "combined_polarity": 0.049,
+      "sentiment_score": 51.9,
       "label": "NEUTRAL",
       "news_stats": {
-        "polarity": 0.08888888888888888,
-        "subjectivity": 0.12888888888888891,
+        "polarity": 0.06962962962962962,
+        "subjectivity": 0.13259259259259262,
         "positive_count": 4,
-        "negative_count": 1,
-        "neutral_count": 10,
+        "negative_count": 2,
+        "neutral_count": 9,
         "total": 15
       },
       "reddit_stats": {
@@ -490,18 +671,19 @@
       "headline_count": 15,
       "positive_highlights": [
         "Why Micron's Strategic Customer Agreements Make Me Even More Worried (NASDAQ:MU) - Seeking Alpha",
-        "Jim Cramer has strong message for Micron stock investors - thestreet.com",
-        "Micron Stock Flashing Intriguing 'Buy the Dip' Signal - Yahoo Finance"
+        "Micron Stock Flashing Intriguing 'Buy the Dip' Signal - Yahoo Finance",
+        "Micron Technology Consolidation: Soaring Memory Revenue Meets Fresh Policy Uncertainty - Sahm"
       ],
       "negative_highlights": [
-        "Micron Technology: The Center Of Gravity For The Memory Supercycle (NASDAQ:MU) - Seeking Alpha"
+        "Micron Technology: The Center Of Gravity For The Memory Supercycle (NASDAQ:MU) - Seeking Alpha",
+        "Micron Technology Inc Stock (MU) Opened Down by 6.86% on Aug 24: What Investors Need To Know - TradingKey"
       ],
       "recent_headlines": [
-        "Micron Technology (MU) Gains Driven by Earnings Upgrades - Yahoo Finance",
-        "Micron: This Cycle Might Shock Everyone (NASDAQ:MU) - Seeking Alpha",
-        "What's Going On With Micron Technology Stock Today? - TradingView",
         "Micron Stock Flashing Intriguing 'Buy the Dip' Signal - Yahoo Finance",
-        "What Is Going On With Micron Tech Stock on Wednesday? - Benzinga"
+        "Micron: This Cycle Might Shock Everyone (NASDAQ:MU) - Seeking Alpha",
+        "MU Stock Slides As Legal Risks And Sector Sell-Off Hit Sentiment - timothysykes.com",
+        "MU Stock Slides As Patent Fight And Sector Weakness Hit Sentiment - StocksToTrade",
+        "What's Going With Micron Tech Stock Today? - Benzinga"
       ]
     },
     "qual": {
@@ -534,14 +716,14 @@
       "qualitative_score": 80.0
     },
     "sig": {
-      "composite_score": 84.4,
+      "composite_score": 84.3,
       "signal": "STRONG BUY",
-      "confidence_pct": 76.7,
+      "confidence_pct": 76.5,
       "pillar_scores": {
         "fundamentals": 100.0,
         "valuation": 85.0,
         "technicals": 76.9,
-        "sentiment": 52.5,
+        "sentiment": 51.9,
         "analyst": 100.0,
         "macro_moat": 80.0
       },
@@ -627,13 +809,13 @@
       "latest_price": 51.83,
       "sma_20": 54.378000259399414,
       "sma_50": 49.787400283813476,
-      "sma_200": 32.81203193664551,
+      "sma_200": 32.812032012939454,
       "rsi_14": 25.977163205684377,
       "rsi_status": "OVERSOLD",
       "macd_data": {
-        "macd": 0.5606506880942774,
-        "signal": 1.2816799016281946,
-        "histogram": -0.7210292135339171,
+        "macd": 0.5606506880326734,
+        "signal": 1.2816799015376048,
+        "histogram": -0.7210292135049314,
         "crossover": "BEARISH"
       },
       "cross_status": "GOLDEN_CROSS",
@@ -643,7 +825,7 @@
       "returns": {
         "1m": -2.6118023089454656,
         "3m": -3.181893152027515,
-        "6m": 143.67408716755568,
+        "6m": 143.67406531674624,
         "1y": 131.8562704871944
       },
       "technical_score": 68.2,
@@ -655,40 +837,42 @@
       ]
     },
     "sent": {
-      "combined_polarity": 0.058,
-      "sentiment_score": 52.3,
+      "combined_polarity": 0.045,
+      "sentiment_score": 51.8,
       "label": "NEUTRAL",
       "news_stats": {
-        "polarity": 0.08296296296296296,
-        "subjectivity": 0.2992592592592593,
-        "positive_count": 6,
+        "polarity": 0.07296296296296297,
+        "subjectivity": 0.3048148148148148,
+        "positive_count": 5,
         "negative_count": 2,
-        "neutral_count": 7,
+        "neutral_count": 8,
         "total": 15
       },
       "reddit_stats": {
-        "polarity": 0.0,
-        "subjectivity": 0.0,
-        "positive_count": 0,
-        "negative_count": 0,
-        "neutral_count": 0
+        "polarity": -0.019999999999999997,
+        "subjectivity": 0.17,
+        "positive_count": 1,
+        "negative_count": 1,
+        "neutral_count": 8,
+        "total": 10
       },
-      "headline_count": 15,
+      "headline_count": 25,
       "positive_highlights": [
-        "HPE Shares Slide Lower Despite Strong Q3, Raised Guidance - Hewlett Packard (NYSE:HPE) - Benzinga",
-        "Dell Surges 9% on Record $95B AI Backlog, Hewlett Packard Enterprise Climbs 4%, Super Micro Ticks Up - 24/7 Wall St.",
-        "HPE Stock Drops 3.7% After Posting Record Quarter That Sets Higher Growth Target - TechStock\u00b2"
+        "Biggest stock movers Thursday: SNOW, HPE, and more - Seeking Alpha",
+        "Hewlett Packard Enterprise is the latest tech company to leave Silicon Valley, and is moving to Houston - Reddit",
+        "Dell Falls 4% Ahead of Earnings as Its 266% Rally Raises the Bar, Super Micro and Hewlett Packard Enterprise Slip - 24/7 Wall St."
       ],
       "negative_highlights": [
-        "Hewlett Packard Enterprise (HPE) Stock Dropped, So What Is Behind The Fresh Attention? - Yahoo Finance",
-        "A 5-Day Losing Streak Has Hewlett Packard Enterprise Stock Down 12% - Trefis"
+        "Hewlett Packard Enterprise Co (HPE) Stock Down 3.9% but Still Ov - GuruFocus",
+        "Dow, S&P 500, Nasdaq Futures Rise As Investors Look Past Iran Tensions, Focus On Earnings: AVGO, SNOW, DELL, HPE Stocks In Focus - Stocktwits",
+        "HPE Shocked I Won't Ever Work For Them - Reddit"
       ],
       "recent_headlines": [
-        "HP Enterprise slides even as it boosts full-year outlook, aided by AI (HPE:NYSE) - Seeking Alpha",
-        "Hewlett Packard Enterprise (HPE) stock falls on Q3 2026 Earnings - Quiver Quantitative",
+        "Why Did Hewlett Packard Enterprise (HPE) Move Today? - Yahoo Finance",
+        "Oracle plans a multi-year network rollout with HPE for its global AI data centers - Stock Titan",
+        "Hewlett Packard Enterprise Shares Rise 3.99% After Hours - Intel (NASDAQ:INTC), Hewlett Packard (NYSE:HPE - Benzinga",
         "HPE Earnings Top Estimates Amid Oracle AI Data Center Deal - Investor's Business Daily",
-        "Hewlett Packard Enterprise: Fiscal Q3 Earnings Snapshot - kens5.com",
-        "Hewlett Packard Enterprise (NYSE:HPE) Surprises With Q2 CY2026 Sales, Provides Optimistic Revenue Guidance for Next Quarter - TradingView"
+        "HPE raises forecasts on AI demand, shares fall on supply concerns - Reuters"
       ]
     },
     "qual": {
@@ -719,14 +903,14 @@
       "qualitative_score": 50.0
     },
     "sig": {
-      "composite_score": 69.6,
+      "composite_score": 69.5,
       "signal": "BUY",
-      "confidence_pct": 77.5,
+      "confidence_pct": 77.4,
       "pillar_scores": {
         "fundamentals": 72.0,
         "valuation": 70.0,
         "technicals": 68.2,
-        "sentiment": 52.3,
+        "sentiment": 51.8,
         "analyst": 97.0,
         "macro_moat": 50.0
       },
@@ -761,16 +945,16 @@
       "fifty_two_week_low": 110.22,
       "volume": 36411468,
       "avg_volume": 7163582,
-      "pe_ratio": 39.2504,
-      "forward_pe": 17.563467,
+      "pe_ratio": 33.89807,
+      "forward_pe": 17.487028,
       "peg_ratio": 0.7,
       "price_to_sales": 2.3733325,
       "price_to_book": -227.55432,
       "ev_to_ebitda": 21.03,
       "market_cap": 318031298560,
       "enterprise_value": 295788904448,
-      "eps_trailing": 12.54,
-      "eps_forward": 28.02408,
+      "eps_trailing": 14.52,
+      "eps_forward": 28.14658,
       "earnings_growth": 2.825,
       "revenue_growth": 0.875,
       "total_revenue": 134001999872,
@@ -817,8 +1001,8 @@
       "rsi_status": "NEUTRAL",
       "macd_data": {
         "macd": 7.982502316459431,
-        "signal": 8.818329774426068,
-        "histogram": -0.8358274579666372,
+        "signal": 8.818329774426072,
+        "histogram": -0.8358274579666407,
         "crossover": "BEARISH"
       },
       "cross_status": "GOLDEN_CROSS",
@@ -839,15 +1023,15 @@
       ]
     },
     "sent": {
-      "combined_polarity": 0.014,
-      "sentiment_score": 50.6,
+      "combined_polarity": 0.049,
+      "sentiment_score": 51.9,
       "label": "NEUTRAL",
       "news_stats": {
-        "polarity": 0.020555555555555553,
-        "subjectivity": 0.16555555555555557,
-        "positive_count": 1,
+        "polarity": 0.06962962962962962,
+        "subjectivity": 0.16148148148148148,
+        "positive_count": 3,
         "negative_count": 1,
-        "neutral_count": 13,
+        "neutral_count": 11,
         "total": 15
       },
       "reddit_stats": {
@@ -859,17 +1043,19 @@
       },
       "headline_count": 15,
       "positive_highlights": [
-        "Dell Posts Strong Results and Hikes Its Outlook. The Stock Is Rallying - Yahoo Finance"
+        "Dell Raises Annual Revenue Outlook on Strong AI Server Sales - Bloomberg.com",
+        "Dell Technologies (DELL) Raises the Bar Again as AI Demand Fuels Another Strong Quarter - Yahoo Finance",
+        "Dell Falls 4% Ahead of Earnings as Its 266% Rally Raises the Bar, Super Micro and Hewlett Packard Enterprise Slip - 24/7 Wall St."
       ],
       "negative_highlights": [
-        "Dell Technologies Inc. stock Analysis: Q2 Earnings Beat vs. Sharp Pullback - The Cryptonomist"
+        "Why Dell Technologies (DELL) Stock Is Down Today | DELL Stock News - Quiver Quantitative"
       ],
       "recent_headlines": [
+        "Dell Stock Soars on Blowout Q2 Earnings and Raised Guidance - Barron's",
         "Dell stock surges on record orders for AI servers - Yahoo Finance",
         "Dell booked a record $60.9 billion in orders for computers that power AI. Its unfilled orders totaled a record $95 billion. - Stock Titan",
         "Dell Stock Slips Ahead of Q2 Earnings - Benzinga",
-        "Dell's Next Earnings Report on September 1 Could Send the Stock Soaring. Here's Why. - Yahoo Finance",
-        "Buy Dell Technologies Stock Before Q2 Earnings as AI Server Demand Soars? - Yahoo Finance"
+        "Dell's Next Earnings Report on September 1 Could Send the Stock Soaring. Here's Why. - Yahoo Finance"
       ]
     },
     "qual": {
@@ -877,7 +1063,7 @@
         "valuation_tier": "Fair Value Range",
         "priced_in_points": [
           "P/E ratio reflects balanced market expectations for mid-range growth.",
-          "Forward P/E is 55.3% lower than trailing P/E, pricing in robust earnings recovery/growth.",
+          "Forward P/E is 48.4% lower than trailing P/E, pricing in robust earnings recovery/growth.",
           "PEG ratio of 0.70 suggests stock may be undervalued relative to expected growth."
         ]
       },
@@ -900,14 +1086,14 @@
       "qualitative_score": 59.0
     },
     "sig": {
-      "composite_score": 67.0,
+      "composite_score": 67.2,
       "signal": "BUY",
-      "confidence_pct": 80.5,
+      "confidence_pct": 80.9,
       "pillar_scores": {
         "fundamentals": 64.0,
         "valuation": 70.0,
         "technicals": 70.0,
-        "sentiment": 50.6,
+        "sentiment": 51.9,
         "analyst": 87.0,
         "macro_moat": 59.0
       },
@@ -919,190 +1105,6 @@
       ],
       "key_risks": [
         "Current ratio below 1.0 (0.95)"
-      ]
-    }
-  },
-  "SNOW": {
-    "data": {
-      "symbol": "SNOW",
-      "company_name": "Snowflake Inc.",
-      "exchange_info": {
-        "country": "United States",
-        "exchange": "NYSE/NASDAQ",
-        "central_bank": "Federal Reserve (FED)",
-        "currency_symbol": "$"
-      },
-      "currency": "USD",
-      "sector": "Technology",
-      "industry": "Software - Application",
-      "summary": "Snowflake Inc. provides a cloud-based data platform for various organizations in the United States and internationally. The company's platform includes artificial intelligence (AI) Data Cloud, which enables customers to consolidate data into a single source of truth to drive meaningful business insights, build data applications, and share data and data products, as well as applies AI for solving business problems. It serves financial services, advertising, media and entertainment, retail and consumer goods, healthcare and life sciences, manufacturing, technology, telecom, travel and hospitality, and government and defense industries, as well as the public sector. the company has a collaboration with OpenAI, L.L.C. for the development of AI solutions for joint enterprise customers that deliver tangible return on investment. The company was formerly known as Snowflake Computing, Inc. and changed its name to Snowflake Inc. in April 2019. Snowflake Inc. was incorporated in 2012 and is based in Menlo Park, California.",
-      "current_price": 305.84,
-      "previous_close": 319.8,
-      "fifty_two_week_high": 341.95,
-      "fifty_two_week_low": 118.3,
-      "volume": 10770913,
-      "avg_volume": 5377201,
-      "pe_ratio": null,
-      "forward_pe": 113.08183,
-      "peg_ratio": 8.08,
-      "price_to_sales": 21.062563,
-      "price_to_book": 54.65332,
-      "ev_to_ebitda": -93.924,
-      "market_cap": 106004144128,
-      "enterprise_value": 105821241344,
-      "eps_trailing": -3.36,
-      "eps_forward": 2.70459,
-      "earnings_growth": null,
-      "revenue_growth": 0.335,
-      "total_revenue": 5032822784,
-      "net_income": -1197095040,
-      "profit_margins": -0.23786,
-      "operating_margins": -0.22173999,
-      "return_on_equity": -0.54869,
-      "return_on_assets": -0.0968,
-      "total_debt": 2772094976,
-      "total_cash": 2954998016,
-      "debt_to_equity": 142.912,
-      "current_ratio": 1.053,
-      "quick_ratio": 0.941,
-      "free_cash_flow": 1739497728,
-      "dividend_yield_pct": 0.0,
-      "payout_ratio": 0.0,
-      "target_low": 110.0,
-      "target_mean": 331.6625,
-      "target_high": 500.0,
-      "target_median": 327.5,
-      "recommendation_key": "buy",
-      "recommendation_mean": 1.5098,
-      "number_of_analysts": 48,
-      "implied_upside_pct": 8.443140204028268,
-      "rec_breakdown": {
-        "strongBuy": 9,
-        "buy": 35,
-        "hold": 5,
-        "sell": 1,
-        "strongSell": 1
-      },
-      "next_earnings_date": "2026-09-02",
-      "earnings_high_est": 0.65,
-      "earnings_low_est": 0.45,
-      "earnings_avg_est": 0.51592,
-      "_ticker_obj": "yfinance.Ticker object <SNOW>"
-    },
-    "tech": {
-      "latest_price": 305.84,
-      "sma_20": 325.98799896240234,
-      "sma_50": 292.50879821777346,
-      "sma_200": 218.0277996826172,
-      "rsi_14": 32.71589019680248,
-      "rsi_status": "BEARISH",
-      "macd_data": {
-        "macd": 7.376651130682319,
-        "signal": 11.448090081708573,
-        "histogram": -4.071438951026254,
-        "crossover": "BEARISH"
-      },
-      "cross_status": "GOLDEN_CROSS",
-      "fifty_two_week_pos_pct": 83.85423173313569,
-      "high_52": 341.95001220703125,
-      "low_52": 118.30000305175781,
-      "returns": {
-        "1m": -3.4717827499782694,
-        "3m": 25.251867136424245,
-        "6m": 72.35277839379508,
-        "1y": 33.36240245849276
-      },
-      "technical_score": 51.8,
-      "signals": [
-        "Price is 4.6% above 50-day SMA (Bullish)",
-        "50-day SMA is above 200-day SMA (Golden Cross)",
-        "MACD histogram indicates negative bearish momentum"
-      ]
-    },
-    "sent": {
-      "combined_polarity": 0.063,
-      "sentiment_score": 52.5,
-      "label": "NEUTRAL",
-      "news_stats": {
-        "polarity": 0.08981481481481482,
-        "subjectivity": 0.11685185185185185,
-        "positive_count": 4,
-        "negative_count": 0,
-        "neutral_count": 11,
-        "total": 15
-      },
-      "reddit_stats": {
-        "polarity": 0.0,
-        "subjectivity": 0.0,
-        "positive_count": 0,
-        "negative_count": 0,
-        "neutral_count": 0
-      },
-      "headline_count": 15,
-      "positive_highlights": [
-        "Snowflake Inc. (SNOW) Q2 Earnings and Revenues Top Estimates - Yahoo Finance",
-        "Snowflake soars as Q2 results, guidance top estimates (SNOW:NYSE) - Seeking Alpha",
-        "SNOW Stock Set To Reclaim 200-DMA For First Time In 4 Months - Analyst Says Snowflake Could Start Trading Like An \u2018AI Winner\u2019 - Stocktwits"
-      ],
-      "negative_highlights": [],
-      "recent_headlines": [
-        "Snowflake\u2019s stock soars as the company blows away estimates with its AI-fueled forecast - MarketWatch",
-        "Snowflake Inc. (SNOW) Q2 Earnings and Revenues Top Estimates - Yahoo Finance",
-        "Earnings Flash (SNOW) Snowflake Inc. Posts Q2 Adjusted EPS $0.62 per Share, vs. FactSet Est of $0.45 - marketscreener.com",
-        "Snowflake Inc Stock (SNOW) Moved Down by 4.13% on Sep 2: A Full Analysis - TradingKey",
-        "SNOW Stock Rallies As Analysts Hike Price Targets Ahead AI-Fueled Q2 - StocksToTrade"
-      ]
-    },
-    "qual": {
-      "priced_in": {
-        "valuation_tier": "Moderate",
-        "priced_in_points": [
-          "PEG ratio of 8.08 signals premium valuation relative to growth rate."
-        ]
-      },
-      "macro_policy": {
-        "macro_factors": [
-          "Operating in United States under Federal Reserve (FED) interest rate policy environment.",
-          "Consumer sentiment and discretionary spending impact demand during inflation/rate shifts."
-        ],
-        "policy_risks": [
-          "Antitrust oversight, data privacy laws, and international tariff trade policies affect cross-border supply chains."
-        ]
-      },
-      "moat": {
-        "moat_tier": "Weak / No Moat",
-        "moat_score": 35.0,
-        "reasons": [
-          "Low Return on Equity (ROE: -54.9%), indicating margin pressure or weak capital efficiency.",
-          "Thin net profit margin (-23.8%), making company vulnerable to cost inflation.",
-          "Mega-cap scale ($106.00B) provides massive distribution and cost advantages."
-        ]
-      },
-      "qualitative_score": 41.0
-    },
-    "sig": {
-      "composite_score": 50.2,
-      "signal": "HOLD",
-      "confidence_pct": 72.7,
-      "pillar_scores": {
-        "fundamentals": 50.0,
-        "valuation": 26.0,
-        "technicals": 51.8,
-        "sentiment": 52.5,
-        "analyst": 85.0,
-        "macro_moat": 41.0
-      },
-      "key_positives": [
-        "Strong YoY revenue growth (33.5%)",
-        "Positive free cash flow generation",
-        "Strong Wall Street analyst consensus (Strong Buy)",
-        "96% of analyst ratings are Buy/Strong Buy"
-      ],
-      "key_risks": [
-        "Subpar Return on Equity (-54.9%)",
-        "Thin profit margin (-23.8%)",
-        "Elevated Forward P/E (113.1x)",
-        "High PEG ratio (8.08x)"
       ]
     }
   }
