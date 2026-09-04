@@ -19,7 +19,7 @@
       "fifty_two_week_low": 104.44,
       "volume": 15957993,
       "avg_volume": 3476711,
-      "pe_ratio": 9.851942,
+      "pe_ratio": 9.718276,
       "forward_pe": 10.86976,
       "peg_ratio": 0.92,
       "price_to_sales": 1.2342042,
@@ -27,7 +27,7 @@
       "ev_to_ebitda": 5.631,
       "market_cap": 13827460096,
       "enterprise_value": 14448739328,
-      "eps_trailing": 12.36,
+      "eps_trailing": 12.53,
       "eps_forward": 11.20264,
       "earnings_growth": -0.35,
       "revenue_growth": 0.043,
@@ -68,18 +68,18 @@
     },
     "tech": {
       "latest_price": 121.77,
-      "sma_20": NaN,
-      "sma_50": NaN,
-      "sma_200": NaN,
-      "rsi_14": 50.7057502747639,
+      "sma_20": 120.31500015258788,
+      "sma_50": 118.63080032348633,
+      "sma_200": 153.08789955139162,
+      "rsi_14": 52.88011730346928,
       "rsi_status": "NEUTRAL",
       "macd_data": {
-        "macd": -0.22326364787475939,
-        "signal": -0.13202450140947966,
-        "histogram": -0.09123914646527972,
-        "crossover": "BEARISH"
+        "macd": -0.004711178696155116,
+        "signal": -0.0883140075737588,
+        "histogram": 0.08360282887760369,
+        "crossover": "BULLISH_CROSS"
       },
-      "cross_status": "NEUTRAL",
+      "cross_status": "DEATH_CROSS",
       "fifty_two_week_pos_pct": 14.258679048792594,
       "high_52": 225.97999572753906,
       "low_52": 104.44000244140625,
@@ -89,21 +89,23 @@
         "6m": -28.42532386695894,
         "1y": -40.914162664958035
       },
-      "technical_score": 40.0,
+      "technical_score": 54.0,
       "signals": [
-        "MACD histogram indicates negative bearish momentum"
+        "Price is 2.6% above 50-day SMA (Bullish)",
+        "50-day SMA is below 200-day SMA (Death Cross)",
+        "MACD histogram indicates positive bullish momentum"
       ]
     },
     "sent": {
-      "combined_polarity": -0.075,
-      "sentiment_score": 47.0,
+      "combined_polarity": -0.019,
+      "sentiment_score": 49.2,
       "label": "NEUTRAL",
       "news_stats": {
-        "polarity": -0.10416666666666667,
-        "subjectivity": 0.3375,
-        "positive_count": 3,
-        "negative_count": 7,
-        "neutral_count": 5,
+        "polarity": -0.023863636363636365,
+        "subjectivity": 0.3654545454545455,
+        "positive_count": 5,
+        "negative_count": 6,
+        "neutral_count": 4,
         "total": 15
       },
       "reddit_stats": {
@@ -116,21 +118,21 @@
       },
       "headline_count": 25,
       "positive_highlights": [
-        "Lululemon\u2019s Guidance Cut Raises Fresh Questions Over its Turnaround - Yahoo Finance",
+        "Lululemon\u2019s Q2 Earnings Beat on EBIT. A Guidance Cut Erased the Good News. - TIKR.com",
         "Is LULU at all compelling to anyone on here? - Reddit",
         "LULU Stock Sinks 18% Overnight: Michael Burry Says Lululemon Is A \u2018Trickster\u2019 As He Vows To Buy More Under $100 - Stocktwits"
       ],
       "negative_highlights": [
         "Earnings call transcript: Lululemon Q2 2026 profit beat fails to calm investors By Investing.com - Investing.com",
-        "Lululemon Stock Sinks 18.5% as Americas Slump Drives $650 Million Sales-Guide Cut - TechStock\u00b2",
+        "LULU stock sinks 18%: Michael Burry calls Lululemon a \u2018trickster,\u2019 eyes dip buying under $100 - Seeking Alpha",
         "LULU is down 50 % year to date. I don\u2019t believe it will ever go below $100. - Reddit"
       ],
       "recent_headlines": [
         "LULU Stock Rises Overnight: Michael Burry Says Lululemon's Shareholder Base Has 'Completely Turned Over' Ahead Of Earnings - Yahoo Finance",
-        "lululemon athletica inc. Announces Second Quarter Fiscal 2026 Results - Lululemon",
-        "Lululemon Stock Tumbles on Weak Outlook: 'Challenging Dynamics' - Lululemon Athletica (NASDAQ:LULU) - benzinga.com",
         "LULU Stock Sinks 18% Overnight: Michael Burry Says Lululemon Is A \u2018Trickster\u2019 As He Vows To Buy More Under $100 - Stocktwits",
-        "Lululemon sinks after cutting forecast as revenue declines - Yahoo Finance"
+        "lululemon athletica inc. Announces Second Quarter Fiscal 2026 Results - Lululemon",
+        "LULU stock sinks 18%: Michael Burry calls Lululemon a \u2018trickster,\u2019 eyes dip buying under $100 - Seeking Alpha",
+        "Lululemon Stock Tumbles on Weak Outlook: 'Challenging Dynamics' - Lululemon Athletica (NASDAQ:LULU) - Benzinga"
       ]
     },
     "qual": {
@@ -161,14 +163,14 @@
       "qualitative_score": 62.0
     },
     "sig": {
-      "composite_score": 70.0,
+      "composite_score": 72.4,
       "signal": "BUY",
-      "confidence_pct": 66.8,
+      "confidence_pct": 69.5,
       "pillar_scores": {
         "fundamentals": 96.0,
         "valuation": 100.0,
-        "technicals": 40.0,
-        "sentiment": 47.0,
+        "technicals": 54.0,
+        "sentiment": 49.2,
         "analyst": 45.0,
         "macro_moat": 62.0
       },
@@ -176,10 +178,11 @@
         "Exceptional Return on Equity (32.0%)",
         "Low debt-to-equity ratio (44.3)",
         "Positive free cash flow generation",
-        "Low P/E ratio (9.9x)"
+        "Low P/E ratio (9.7x)"
       ],
       "key_risks": [
-        "Majority of analyst ratings are Hold/Sell"
+        "Majority of analyst ratings are Hold/Sell",
+        "50-day SMA is below 200-day SMA (Death Cross)"
       ]
     }
   },
@@ -208,9 +211,9 @@
       "peg_ratio": 0.56,
       "price_to_sales": 18.207684,
       "price_to_book": 24.090477,
-      "ev_to_ebitda": 27.232,
+      "ev_to_ebitda": 27.238,
       "market_cap": 5516382175232,
-      "enterprise_value": 5480951316480,
+      "enterprise_value": 5482036068352,
       "eps_trailing": 7.9,
       "eps_forward": 15.4581,
       "earnings_growth": 1.278,
@@ -227,7 +230,7 @@
       "current_ratio": 4.589,
       "quick_ratio": 2.918,
       "free_cash_flow": 41809874944,
-      "dividend_yield_pct": 45.0,
+      "dividend_yield_pct": 44.0,
       "payout_ratio": 0.0354,
       "target_low": 180.0,
       "target_mean": 325.98773,
@@ -252,18 +255,18 @@
     },
     "tech": {
       "latest_price": 228.45,
-      "sma_20": NaN,
-      "sma_50": NaN,
-      "sma_200": NaN,
-      "rsi_14": 49.43971307181139,
+      "sma_20": 219.76200103759766,
+      "sma_50": 209.87399963378905,
+      "sma_200": 196.30543144226075,
+      "rsi_14": 52.317876523111046,
       "rsi_status": "NEUTRAL",
       "macd_data": {
-        "macd": 2.667634783106422,
-        "signal": 2.669691519890156,
-        "histogram": -0.002056736783734081,
-        "crossover": "BEARISH"
+        "macd": 3.256379370353443,
+        "signal": 2.7874404373395603,
+        "histogram": 0.4689389330138827,
+        "crossover": "BULLISH_CROSS"
       },
-      "cross_status": "NEUTRAL",
+      "cross_status": "GOLDEN_CROSS",
       "fifty_two_week_pos_pct": 89.20822224387128,
       "high_52": 236.26463268418732,
       "low_52": 163.85179338392152,
@@ -273,21 +276,23 @@
         "6m": 28.62930997820765,
         "1y": 33.26007857446947
       },
-      "technical_score": 40.0,
+      "technical_score": 83.3,
       "signals": [
-        "MACD histogram indicates negative bearish momentum"
+        "Price is 8.9% above 50-day SMA (Bullish)",
+        "50-day SMA is above 200-day SMA (Golden Cross)",
+        "MACD histogram indicates positive bullish momentum"
       ]
     },
     "sent": {
-      "combined_polarity": 0.017,
-      "sentiment_score": 50.7,
+      "combined_polarity": -0.002,
+      "sentiment_score": 49.9,
       "label": "NEUTRAL",
       "news_stats": {
-        "polarity": 0.02409090909090909,
-        "subjectivity": 0.12974747474747475,
+        "polarity": -0.003484848484848487,
+        "subjectivity": 0.2106060606060606,
         "positive_count": 3,
-        "negative_count": 1,
-        "neutral_count": 11,
+        "negative_count": 2,
+        "neutral_count": 10,
         "total": 15
       },
       "reddit_stats": {
@@ -299,19 +304,20 @@
       },
       "headline_count": 15,
       "positive_highlights": [
-        "NVIDIA: Why $40 Billion Per Gigawatt Supports A Significant Upside (NASDAQ:NVDA) - Seeking Alpha",
         "Prediction: $1,104 Invested in Nvidia Today Will Be Worth This Much by 2030 - Yahoo Finance",
-        "Nvidia-backed Thinking Machines in talks to raise new funding at $40B valuation: report (NVDA:NASDAQ) - Seeking Alpha"
+        "Nvidia-backed Thinking Machines in talks to raise new funding at $40B valuation: report (NVDA:NASDAQ) - Seeking Alpha",
+        "Maryland Capital Advisors Inc. Makes New Investment in NVIDIA Corporation $NVDA - MarketBeat"
       ],
       "negative_highlights": [
+        "Nvidia: The Market Is Crazy Not To Push The Stock Higher (NASDAQ:NVDA) - Seeking Alpha",
         "Nvidia's Broken AI Story: Fundamentals Run Away From Discounted Valuations (NASDAQ:NVDA) - Seeking Alpha"
       ],
       "recent_headlines": [
         "NVIDIA Announces Financial Results for Second Quarter Fiscal 2027 - NVIDIA Newsroom",
+        "Ballentine Partners LLC Buys 7,957 Shares of NVIDIA Corporation $NVDA - MarketBeat",
         "Nvidia: The Market Will Come To Its Senses Eventually (NASDAQ:NVDA) - Seeking Alpha",
         "Prediction: $1,104 Invested in Nvidia Today Will Be Worth This Much by 2030 - Yahoo Finance",
-        "NVIDIA Corporation $NVDA Stock Holdings Trimmed by Asio Capital LLC - MarketBeat",
-        "Nvidia's Broken AI Story: Fundamentals Run Away From Discounted Valuations (NASDAQ:NVDA) - Seeking Alpha"
+        "NVIDIA Corporation $NVDA Shares Acquired by Burton Enright Welch - MarketBeat"
       ]
     },
     "qual": {
@@ -344,14 +350,14 @@
       "qualitative_score": 80.0
     },
     "sig": {
-      "composite_score": 77.6,
-      "signal": "BUY",
-      "confidence_pct": 68.7,
+      "composite_score": 84.0,
+      "signal": "STRONG BUY",
+      "confidence_pct": 75.9,
       "pillar_scores": {
         "fundamentals": 100.0,
         "valuation": 80.0,
-        "technicals": 40.0,
-        "sentiment": 50.7,
+        "technicals": 83.3,
+        "sentiment": 49.9,
         "analyst": 100.0,
         "macro_moat": 80.0
       },
@@ -387,7 +393,7 @@
       "volume": 60115767,
       "avg_volume": 24296927,
       "pe_ratio": 46.932983,
-      "forward_pe": 18.473375,
+      "forward_pe": 18.47351,
       "peg_ratio": 0.42,
       "price_to_sales": 22.51663,
       "price_to_book": 20.8293,
@@ -395,7 +401,7 @@
       "market_cap": 1699217408000,
       "enterprise_value": 1792452722688,
       "eps_trailing": 7.61,
-      "eps_forward": 19.33377,
+      "eps_forward": 19.33363,
       "earnings_growth": 0.854,
       "revenue_growth": 0.479,
       "total_revenue": 75464998912,
@@ -428,25 +434,25 @@
         "strongSell": 0
       },
       "next_earnings_date": "2026-09-02",
-      "earnings_high_est": 4.12,
-      "earnings_low_est": 3.41,
-      "earnings_avg_est": 3.86965,
+      "earnings_high_est": 3.33,
+      "earnings_low_est": 3.08,
+      "earnings_avg_est": 3.238,
       "_ticker_obj": "yfinance.Ticker object <AVGO>"
     },
     "tech": {
       "latest_price": 357.16,
-      "sma_20": NaN,
-      "sma_50": NaN,
-      "sma_200": NaN,
-      "rsi_14": 32.28779809110854,
-      "rsi_status": "BEARISH",
+      "sma_20": 381.8164993286133,
+      "sma_50": 384.0817999267578,
+      "sma_200": 368.94432342529296,
+      "rsi_14": 28.355689665279968,
+      "rsi_status": "OVERSOLD",
       "macd_data": {
-        "macd": -7.90521512959134,
-        "signal": -6.935158320856859,
-        "histogram": -0.9700568087344816,
+        "macd": -8.491253249439012,
+        "signal": -7.052365944822792,
+        "histogram": -1.4388873046162196,
         "crossover": "BEARISH"
       },
-      "cross_status": "NEUTRAL",
+      "cross_status": "GOLDEN_CROSS",
       "fifty_two_week_pos_pct": 33.04978657626446,
       "high_52": 494.21781760890264,
       "low_52": 289.50178968312434,
@@ -456,18 +462,21 @@
         "6m": 8.471211067430474,
         "1y": 17.535749102143594
       },
-      "technical_score": 30.0,
+      "technical_score": 46.5,
       "signals": [
+        "Price is 7.0% below 50-day SMA (Bearish)",
+        "50-day SMA is above 200-day SMA (Golden Cross)",
+        "RSI is oversold at 28.4 (Potential Rebound)",
         "MACD histogram indicates negative bearish momentum"
       ]
     },
     "sent": {
-      "combined_polarity": 0.102,
-      "sentiment_score": 54.1,
+      "combined_polarity": 0.086,
+      "sentiment_score": 53.5,
       "label": "BULLISH",
       "news_stats": {
-        "polarity": 0.14629629629629629,
-        "subjectivity": 0.28185185185185185,
+        "polarity": 0.12333333333333332,
+        "subjectivity": 0.25277777777777777,
         "positive_count": 5,
         "negative_count": 1,
         "neutral_count": 9,
@@ -492,9 +501,9 @@
       "recent_headlines": [
         "Broadcom Inc. (AVGO) Q3 Earnings and Revenues Beat Estimates - Yahoo Finance",
         "Broadcom Inc. (AVGO) Is Considered a Good Investment by Brokers: Is That True? - Yahoo Finance",
-        "Is Broadcom (AVGO) Stock a Buy Before Its Q3 Earnings? - Yahoo Finance",
-        "Broadcom stock wavers as chipmaker's strong results 'not enough to keep investors happy' - Yahoo Finance",
-        "Broadcom\u2019s Latest Sales Outlook Is Dragging on the Stock - Investopedia"
+        "Broadcom\u2019s Latest Sales Outlook Is Dragging on the Stock - Investopedia",
+        "Broadcom: Not Out Of The Woods, Just Cheaper (Rating Upgrade) (NASDAQ:AVGO) - Seeking Alpha",
+        "Broadcom stock drops on Q4 guidance miss even as AI semiconductor revenue triples - proactiveinvestors.com"
       ]
     },
     "qual": {
@@ -527,14 +536,14 @@
       "qualitative_score": 80.0
     },
     "sig": {
-      "composite_score": 71.6,
+      "composite_score": 74.0,
       "signal": "BUY",
-      "confidence_pct": 65.1,
+      "confidence_pct": 69.6,
       "pillar_scores": {
         "fundamentals": 100.0,
         "valuation": 55.0,
-        "technicals": 30.0,
-        "sentiment": 54.1,
+        "technicals": 46.5,
+        "sentiment": 53.5,
         "analyst": 100.0,
         "macro_moat": 80.0
       },
@@ -545,7 +554,8 @@
         "Positive free cash flow generation"
       ],
       "key_risks": [
-        "High P/E ratio (46.9x)"
+        "High P/E ratio (46.9x)",
+        "Price is 7.0% below 50-day SMA (Bearish)"
       ]
     }
   },
@@ -569,7 +579,7 @@
       "fifty_two_week_low": 125.66,
       "volume": 24105584,
       "avg_volume": 44202379,
-      "pe_ratio": 21.599638,
+      "pe_ratio": 21.64355,
       "forward_pe": 6.1806707,
       "peg_ratio": 0.14,
       "price_to_sales": 11.987276,
@@ -577,7 +587,7 @@
       "ev_to_ebitda": 15.574,
       "market_cap": 1082139344896,
       "enterprise_value": 1062493356032,
-      "eps_trailing": 44.36,
+      "eps_trailing": 44.27,
       "eps_forward": 155.02524,
       "earnings_growth": 13.685,
       "revenue_growth": 3.457,
@@ -618,42 +628,44 @@
     },
     "tech": {
       "latest_price": 958.16,
-      "sma_20": NaN,
-      "sma_50": NaN,
-      "sma_200": NaN,
-      "rsi_14": 47.58943734965973,
+      "sma_20": 936.3529998779297,
+      "sma_50": 942.1985424804687,
+      "sma_200": 602.4662052154541,
+      "rsi_14": 47.924610235752056,
       "rsi_status": "NEUTRAL",
       "macd_data": {
-        "macd": 8.014913307252186,
-        "signal": 6.563733516945706,
-        "histogram": 1.4511797903064805,
+        "macd": 8.851162090801267,
+        "signal": 6.730983274750928,
+        "histogram": 2.1201788160503394,
         "crossover": "BULLISH"
       },
-      "cross_status": "NEUTRAL",
-      "fifty_two_week_pos_pct": 73.89766756109779,
+      "cross_status": "GOLDEN_CROSS",
+      "fifty_two_week_pos_pct": 73.89766739389488,
       "high_52": 1254.8069810301963,
-      "low_52": 118.33007144918999,
+      "low_52": 118.3300787290855,
       "returns": {
         "1m": 8.700242985668737,
         "3m": 10.913920488848095,
         "6m": 158.90087581213206,
-        "1y": 672.6414119924963
+        "1y": 672.641364458101
       },
-      "technical_score": 65.0,
+      "technical_score": 77.5,
       "signals": [
+        "Price is 1.7% above 50-day SMA (Bullish)",
+        "50-day SMA is above 200-day SMA (Golden Cross)",
         "MACD histogram indicates positive bullish momentum"
       ]
     },
     "sent": {
-      "combined_polarity": -0.012,
-      "sentiment_score": 49.5,
+      "combined_polarity": -0.04,
+      "sentiment_score": 48.4,
       "label": "NEUTRAL",
       "news_stats": {
-        "polarity": -0.017777777777777774,
-        "subjectivity": 0.19666666666666666,
-        "positive_count": 2,
+        "polarity": -0.057777777777777775,
+        "subjectivity": 0.13666666666666666,
+        "positive_count": 1,
         "negative_count": 3,
-        "neutral_count": 10,
+        "neutral_count": 11,
         "total": 15
       },
       "reddit_stats": {
@@ -665,7 +677,6 @@
       },
       "headline_count": 15,
       "positive_highlights": [
-        "Prediction: Micron Stock Will Go Parabolic After Sept. 30 - The Motley Fool",
         "Micron Stock Flashing Intriguing 'Buy the Dip' Signal - Yahoo Finance"
       ],
       "negative_highlights": [
@@ -675,10 +686,10 @@
       ],
       "recent_headlines": [
         "Micron Technology (MU) Gains Driven by Earnings Upgrades - Yahoo Finance",
+        "Micron Technology (MU) Faces Market Pressure Despite Growth in T - GuruFocus",
         "Micron: The Q4 Report Has Impossible Expectations (NASDAQ:MU) - Seeking Alpha",
-        "Micron Stock Soars 685% in a Year: Is the Momentum Still Sustainable? - TradingView",
-        "Prediction: Micron Stock Will Go Parabolic After Sept. 30 - The Motley Fool",
-        "What's Going On With Micron Technology Stock Today? - benzinga.com"
+        "Micron Stock Soars 685% in a Year: Is the Momentum Still Sustainable? - tradingview.com",
+        "What's Going On With Micron Technology Stock Today? - Benzinga"
       ]
     },
     "qual": {
@@ -711,14 +722,14 @@
       "qualitative_score": 80.0
     },
     "sig": {
-      "composite_score": 82.2,
+      "composite_score": 83.9,
       "signal": "STRONG BUY",
-      "confidence_pct": 74.2,
+      "confidence_pct": 75.2,
       "pillar_scores": {
         "fundamentals": 100.0,
         "valuation": 85.0,
-        "technicals": 65.0,
-        "sentiment": 49.5,
+        "technicals": 77.5,
+        "sentiment": 48.4,
         "analyst": 100.0,
         "macro_moat": 80.0
       },
@@ -753,7 +764,7 @@
       "fifty_two_week_low": 297.38,
       "volume": 62838720,
       "avg_volume": 41453453,
-      "pe_ratio": 351.74295,
+      "pe_ratio": 333.06638,
       "forward_pe": 174.35767,
       "peg_ratio": 4.26,
       "price_to_sales": 14.345549,
@@ -761,7 +772,7 @@
       "ev_to_ebitda": 135.722,
       "market_cap": 1486471430144,
       "enterprise_value": 1459688439808,
-      "eps_trailing": 1.07,
+      "eps_trailing": 1.13,
       "eps_forward": 2.15858,
       "earnings_growth": -0.03,
       "revenue_growth": 0.255,
@@ -802,18 +813,18 @@
     },
     "tech": {
       "latest_price": 376.365,
-      "sma_20": NaN,
-      "sma_50": NaN,
-      "sma_200": NaN,
-      "rsi_14": 56.697577146083695,
+      "sma_20": 347.1644989013672,
+      "sma_50": 358.3685986328125,
+      "sma_200": 399.8326498413086,
+      "rsi_14": 63.17620703098007,
       "rsi_status": "BULLISH",
       "macd_data": {
-        "macd": 2.263244142400424,
-        "signal": -0.3592797247904413,
-        "histogram": 2.6225238671908655,
+        "macd": 4.06900900833682,
+        "signal": 0.001873248396838001,
+        "histogram": 4.067135759939982,
         "crossover": "BULLISH"
       },
-      "cross_status": "NEUTRAL",
+      "cross_status": "DEATH_CROSS",
       "fifty_two_week_pos_pct": 39.208241398079394,
       "high_52": 498.8299865722656,
       "low_52": 297.3800048828125,
@@ -823,21 +834,23 @@
         "6m": -5.133216651721851,
         "1y": 11.176262475152022
       },
-      "technical_score": 70.0,
+      "technical_score": 67.5,
       "signals": [
+        "Price is 5.0% above 50-day SMA (Bullish)",
+        "50-day SMA is below 200-day SMA (Death Cross)",
         "MACD histogram indicates positive bullish momentum"
       ]
     },
     "sent": {
-      "combined_polarity": 0.061,
-      "sentiment_score": 52.4,
+      "combined_polarity": 0.04,
+      "sentiment_score": 51.6,
       "label": "NEUTRAL",
       "news_stats": {
-        "polarity": 0.08695286195286193,
-        "subjectivity": 0.13829966329966328,
-        "positive_count": 4,
-        "negative_count": 2,
-        "neutral_count": 9,
+        "polarity": 0.05771969696969696,
+        "subjectivity": 0.1767878787878788,
+        "positive_count": 5,
+        "negative_count": 0,
+        "neutral_count": 10,
         "total": 15
       },
       "reddit_stats": {
@@ -849,20 +862,17 @@
       },
       "headline_count": 15,
       "positive_highlights": [
-        "JPMorgan Echoes Why Tesla, Inc. (TSLA) is One of the Best Forever Stocks to Buy - Yahoo Finance",
         "Tesla Inc Stock (TSLA) Opened Up by 4.70% on Sep 3: A Full Analysis - TradingKey",
-        "TSLA Stock Revs Up Slowly As Elon Musk Tells A \u2018Storm Of Cybercabs\u2019 Are Coming \u2014 Analyst Says \u2018Never Short A Great Company\u2019 - Stocktwits"
+        "TSLA Stock Revs Up Slowly As Elon Musk Tells A \u2018Storm Of Cybercabs\u2019 Are Coming \u2014 Analyst Says \u2018Never Short A Great Company\u2019 - TradingView",
+        "Tesla (TSLA) Stock Hits New High Ahead of Cybercab Launch - GuruFocus"
       ],
-      "negative_highlights": [
-        "Tesla (TSLA) Stock Sinks As Market Gains: What You Should Know - Yahoo Finance",
-        "Tesla Inc Stock (TSLA) Opened Down by 3.30% on Sep 1: What Signal Does It Send? - TradingKey"
-      ],
+      "negative_highlights": [],
       "recent_headlines": [
+        "TSLA Stock Slips Overnight As Safety Regulator Scrutinizes Cybercab \u2014 Retail Fumes Over Event Blackout - Yahoo Finance",
+        "Rakuten Securities Inc. Acquires Shares of 30,282 Tesla, Inc. $TSLA - MarketBeat",
+        "TSLA Stock Slips On Bear Warning That Upcoming Cybercab Event Is No Milestone - Stocktwits",
         "Tesla Inc (TSLA) Shares Surge 5.4% -- What GF Score of 89 Tells Investors - GuruFocus",
-        "TSLA Stock Slips Overnight As Safety Regulator Scrutinizes Cybercab \u2014 Retail Fumes Over Event Blackout - Stocktwits",
-        "Tesla Inc Stock (TSLA) Opened Up by 4.70% on Sep 3: A Full Analysis - TradingKey",
-        "Tesla shares rally ahead of Cybercab event as Musk's robotaxi ambition takes the spotlight (TSLA:NASDAQ) - Seeking Alpha",
-        "Reliant Investment Partners LLC Takes Position in Tesla, Inc. $TSLA - MarketBeat"
+        "TSLA Stock Rallies Into Invite-Only Cybercab Event \u2014 Then Trades Flat After-Hours As The Wheel-Free Car Hits Austin Streets - tradingview.com"
       ]
     },
     "qual": {
@@ -870,7 +880,7 @@
         "valuation_tier": "High Growth Premium",
         "priced_in_points": [
           "High P/E ratio indicates market has priced in strong future earnings acceleration.",
-          "Forward P/E is 50.4% lower than trailing P/E, pricing in robust earnings recovery/growth.",
+          "Forward P/E is 47.7% lower than trailing P/E, pricing in robust earnings recovery/growth.",
           "PEG ratio of 4.26 signals premium valuation relative to growth rate."
         ]
       },
@@ -894,14 +904,14 @@
       "qualitative_score": 50.0
     },
     "sig": {
-      "composite_score": 55.9,
+      "composite_score": 55.4,
       "signal": "HOLD",
-      "confidence_pct": 68.8,
+      "confidence_pct": 69.1,
       "pillar_scores": {
         "fundamentals": 75.0,
         "valuation": 11.0,
-        "technicals": 70.0,
-        "sentiment": 52.4,
+        "technicals": 67.5,
+        "sentiment": 51.6,
         "analyst": 77.0,
         "macro_moat": 50.0
       },
@@ -913,7 +923,7 @@
       ],
       "key_risks": [
         "Subpar Return on Equity (4.7%)",
-        "High P/E ratio (351.7x)",
+        "High P/E ratio (333.1x)",
         "Elevated Forward P/E (174.4x)",
         "High PEG ratio (4.26x)"
       ]
@@ -940,7 +950,7 @@
       "volume": 8180901,
       "avg_volume": 2878535,
       "pe_ratio": null,
-      "forward_pe": 38.670837,
+      "forward_pe": 32.204952,
       "peg_ratio": 1.88,
       "price_to_sales": 9.059832,
       "price_to_book": 12.148958,
@@ -948,7 +958,7 @@
       "market_cap": 28751953920,
       "enterprise_value": 27081009152,
       "eps_trailing": -0.5,
-      "eps_forward": 4.59778,
+      "eps_forward": 5.52089,
       "earnings_growth": null,
       "revenue_growth": 0.254,
       "total_revenue": 3173563904,
@@ -980,7 +990,7 @@
         "sell": 0,
         "strongSell": 0
       },
-      "next_earnings_date": "2026-09-03",
+      "next_earnings_date": "2026-11-24",
       "earnings_high_est": 1.16,
       "earnings_low_est": 1.076,
       "earnings_avg_est": 1.08997,
@@ -988,18 +998,18 @@
     },
     "tech": {
       "latest_price": 177.8,
-      "sma_20": NaN,
-      "sma_50": NaN,
-      "sma_200": NaN,
-      "rsi_14": 42.72714371909779,
-      "rsi_status": "BEARISH",
+      "sma_20": 179.402498626709,
+      "sma_50": 160.0401998901367,
+      "sma_200": 173.0780249786377,
+      "rsi_14": 46.365913013815316,
+      "rsi_status": "NEUTRAL",
       "macd_data": {
-        "macd": 5.768532900579942,
-        "signal": 6.944700555596798,
-        "histogram": -1.1761676550168563,
+        "macd": 5.30305802706377,
+        "signal": 6.851605580893564,
+        "histogram": -1.5485475538297937,
         "crossover": "BEARISH"
       },
-      "cross_status": "NEUTRAL",
+      "cross_status": "DEATH_CROSS",
       "fifty_two_week_pos_pct": 28.410497503861965,
       "high_52": 336.989990234375,
       "low_52": 114.625,
@@ -1009,18 +1019,20 @@
         "6m": 8.374986374420157,
         "1y": -33.718546132339235
       },
-      "technical_score": 40.0,
+      "technical_score": 50.0,
       "signals": [
+        "Price is 11.1% above 50-day SMA (Bullish)",
+        "50-day SMA is below 200-day SMA (Death Cross)",
         "MACD histogram indicates negative bearish momentum"
       ]
     },
     "sent": {
-      "combined_polarity": 0.086,
-      "sentiment_score": 53.5,
-      "label": "BULLISH",
+      "combined_polarity": 0.064,
+      "sentiment_score": 52.6,
+      "label": "NEUTRAL",
       "news_stats": {
-        "polarity": 0.12333333333333332,
-        "subjectivity": 0.17111111111111113,
+        "polarity": 0.09121212121212122,
+        "subjectivity": 0.14181818181818182,
         "positive_count": 4,
         "negative_count": 0,
         "neutral_count": 11,
@@ -1035,17 +1047,17 @@
       },
       "headline_count": 15,
       "positive_highlights": [
-        "Zscaler (ZS) Stock May Trade Below Fair Value As Gartner Recognition Lands - Yahoo Finance",
         "Zscaler (ZS) Q4 Earnings and Revenues Top Estimates - Yahoo Finance",
-        "Zscaler (NASDAQ:ZS) Shares Surge on Q4 Earnings Beat and Strong Revenue Outlook - ChartMill"
+        "Zscaler (NASDAQ:ZS) Shares Surge on Q4 Earnings Beat and Strong Revenue Outlook - ChartMill",
+        "Zscaler (ZS) Issued New Guidance, Is The Undervaluation Case Still Compelling? - Yahoo Finance"
       ],
       "negative_highlights": [],
       "recent_headlines": [
         "Zscaler (ZS) Q4 Earnings and Revenues Top Estimates - Yahoo Finance",
         "ZS Stock Eases After-Hours \u2014 Zscaler Tops Q4 Forecasts Driven By AI-Powered Security Demand, But High-Value Customer Growth Slows - Stocktwits",
         "Zscaler (NASDAQ:ZS) Shares Surge on Q4 Earnings Beat and Strong Revenue Outlook - ChartMill",
-        "Zscaler's annual revenue grew 25% to $3.35 billion - Stock Titan",
-        "Zscaler's Q4 earnings reflect AI-driven demand as ARR climbs 25%; announces 3% workforce reduction - Seeking Alpha"
+        "ZS Stock Eases After-Hours \u2014 Zscaler Tops Q4 Forecasts Driven By AI-Powered Security Demand, But High-Value Customer Growth Slows - tradingview.com",
+        "Zscaler (ZS) Issued New Guidance, Is The Undervaluation Case Still Compelling? - Yahoo Finance"
       ]
     },
     "qual": {
@@ -1075,14 +1087,14 @@
       "qualitative_score": 32.0
     },
     "sig": {
-      "composite_score": 55.2,
+      "composite_score": 56.6,
       "signal": "HOLD",
-      "confidence_pct": 70.1,
+      "confidence_pct": 71.1,
       "pillar_scores": {
         "fundamentals": 55.0,
         "valuation": 50.0,
-        "technicals": 40.0,
-        "sentiment": 53.5,
+        "technicals": 50.0,
+        "sentiment": 52.6,
         "analyst": 95.0,
         "macro_moat": 32.0
       },
@@ -1094,7 +1106,8 @@
       ],
       "key_risks": [
         "Subpar Return on Equity (-3.7%)",
-        "Thin profit margin (-2.4%)"
+        "Thin profit margin (-2.4%)",
+        "50-day SMA is below 200-day SMA (Death Cross)"
       ]
     }
   }
