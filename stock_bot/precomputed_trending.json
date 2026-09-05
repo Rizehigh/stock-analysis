@@ -1,192 +1,4 @@
 {
-  "LULU": {
-    "data": {
-      "symbol": "LULU",
-      "company_name": "lululemon athletica inc.",
-      "exchange_info": {
-        "country": "United States",
-        "exchange": "NYSE/NASDAQ",
-        "central_bank": "Federal Reserve (FED)",
-        "currency_symbol": "$"
-      },
-      "currency": "USD",
-      "sector": "Consumer Cyclical",
-      "industry": "Apparel Retail",
-      "summary": "lululemon athletica inc., together with its subsidiaries, designs, distributes, and retails technical athletic apparel, footwear, and accessories for women and men under the lululemon brand in the United States, Canada, Mexico, China, Hong Kong, Taiwan, Macau, Greece, and internationally. It offers pants, shorts, tops, and jackets for athletic activities, such as yoga, running, training, and other activities. The company also provides fitness-inspired accessories. It sells its products through company-operated stores; seasonal stores, pop-ups, university campus retailers, and yoga and fitness studios; outlets; Like New, a re-commerce program; and its e-commerce website. The company was founded in 1998 and is based in Vancouver, Canada.",
-      "current_price": 100.61,
-      "previous_close": 121.77,
-      "fifty_two_week_high": 225.98,
-      "fifty_two_week_low": 97.99,
-      "volume": 37066972,
-      "avg_volume": 3679290,
-      "pe_ratio": 8.280659,
-      "forward_pe": 10.4961605,
-      "peg_ratio": 0.92,
-      "price_to_sales": 1.0197363,
-      "price_to_book": 2.3856497,
-      "ev_to_ebitda": 5.631,
-      "market_cap": 11424659456,
-      "enterprise_value": 14448739328,
-      "eps_trailing": 12.15,
-      "eps_forward": 9.58541,
-      "earnings_growth": -0.35,
-      "revenue_growth": 0.043,
-      "total_revenue": 11203543040,
-      "net_income": 1459659008,
-      "profit_margins": 0.13029,
-      "operating_margins": 0.11205,
-      "return_on_equity": 0.32027,
-      "return_on_assets": 0.16045,
-      "total_debt": 2136007936,
-      "total_cash": 1514728960,
-      "debt_to_equity": 44.264,
-      "current_ratio": 2.226,
-      "quick_ratio": 0.936,
-      "free_cash_flow": 1133960960,
-      "dividend_yield_pct": 0.0,
-      "payout_ratio": 0.0,
-      "target_low": 88.0,
-      "target_mean": 127.34615,
-      "target_high": 280.0,
-      "target_median": 121.0,
-      "recommendation_key": "hold",
-      "recommendation_mean": 3.14706,
-      "number_of_analysts": 26,
-      "implied_upside_pct": 26.57404830533744,
-      "rec_breakdown": {
-        "strongBuy": 0,
-        "buy": 1,
-        "hold": 29,
-        "sell": 3,
-        "strongSell": 1
-      },
-      "next_earnings_date": "2026-09-03",
-      "earnings_high_est": 1.90234,
-      "earnings_low_est": 1.66,
-      "earnings_avg_est": 1.79642,
-      "_ticker_obj": "yfinance.Ticker object <LULU>"
-    },
-    "tech": {
-      "latest_price": 100.61,
-      "sma_20": 118.91650009155273,
-      "sma_50": 118.40180038452148,
-      "sma_200": 152.7701495361328,
-      "rsi_14": 36.464480573702325,
-      "rsi_status": "BEARISH",
-      "macd_data": {
-        "macd": -1.5214036698848759,
-        "signal": -0.37493175625363767,
-        "histogram": -1.1464719136312382,
-        "crossover": "BEARISH_CROSS"
-      },
-      "cross_status": "DEATH_CROSS",
-      "fifty_two_week_pos_pct": 2.047036627830212,
-      "high_52": 225.97999572753906,
-      "low_52": 97.98999786376953,
-      "returns": {
-        "1m": -21.752995359111406,
-        "3m": -14.410891205420938,
-        "6m": -40.7339754620759,
-        "1y": -40.04171741941691
-      },
-      "technical_score": 5.0,
-      "signals": [
-        "Price is 15.0% below 50-day SMA (Bearish)",
-        "50-day SMA is below 200-day SMA (Death Cross)",
-        "MACD histogram indicates negative bearish momentum"
-      ]
-    },
-    "sent": {
-      "combined_polarity": -0.032,
-      "sentiment_score": 48.7,
-      "label": "NEUTRAL",
-      "news_stats": {
-        "polarity": -0.04278571428571429,
-        "subjectivity": 0.2892142857142857,
-        "positive_count": 4,
-        "negative_count": 5,
-        "neutral_count": 6,
-        "total": 15
-      },
-      "reddit_stats": {
-        "polarity": -0.008333333333333342,
-        "subjectivity": 0.15833333333333335,
-        "positive_count": 1,
-        "negative_count": 2,
-        "neutral_count": 7,
-        "total": 10
-      },
-      "headline_count": 25,
-      "positive_highlights": [
-        "Is LULU at all compelling to anyone on here? - Reddit",
-        "lululemon: I Was Right (NASDAQ:LULU) - Seeking Alpha",
-        "LULU Stock Sinks 18% Overnight: Michael Burry Says Lululemon Is A \u2018Trickster\u2019 As He Vows To Buy More Under $100 - Stocktwits"
-      ],
-      "negative_highlights": [
-        "LULU stock sinks 18%: Michael Burry calls Lululemon a \u2018trickster,\u2019 eyes dip buying under $100 - Seeking Alpha",
-        "LULU is down 50 % year to date. I don\u2019t believe it will ever go below $100. - Reddit",
-        "I\u2019m so confused - is lulu lemon Canadian or American?! Are we still buying it??? - Reddit"
-      ],
-      "recent_headlines": [
-        "lululemon athletica inc. Announces Second Quarter Fiscal 2026 Results - Lululemon",
-        "LULU Stock Rises Overnight: Michael Burry Says Lululemon's Shareholder Base Has 'Completely Turned Over' Ahead Of Earnings - Yahoo Finance",
-        "LULU stock sinks 18%: Michael Burry calls Lululemon a \u2018trickster,\u2019 eyes dip buying under $100 - Seeking Alpha",
-        "Lululemon Athletica Stock Hits 52-Week High - Here's Why - Lululemon Athletica (NASDAQ:LULU) - benzinga.com",
-        "Lululemon sinks after cutting forecast as revenue declines - Yahoo Finance"
-      ]
-    },
-    "qual": {
-      "priced_in": {
-        "valuation_tier": "Value / Low Expectation",
-        "priced_in_points": [
-          "Low P/E ratio suggests market is pricing in modest growth or cyclical headwinds.",
-          "Forward P/E is higher than trailing P/E, pricing in potential earnings contraction.",
-          "PEG ratio of 0.92 suggests stock may be undervalued relative to expected growth."
-        ]
-      },
-      "macro_policy": {
-        "macro_factors": [
-          "Operating in United States under Federal Reserve (FED) interest rate policy environment.",
-          "Consumer sentiment and discretionary spending impact demand during inflation/rate shifts."
-        ],
-        "policy_risks": [
-          "Antitrust oversight, data privacy laws, and international tariff trade policies affect cross-border supply chains."
-        ]
-      },
-      "moat": {
-        "moat_tier": "Narrow Moat",
-        "moat_score": 70.0,
-        "reasons": [
-          "Strong Return on Equity (ROE: 32.0%), indicating high capital efficiency and competitive advantage."
-        ]
-      },
-      "qualitative_score": 62.0
-    },
-    "sig": {
-      "composite_score": 68.0,
-      "signal": "BUY",
-      "confidence_pct": 58.0,
-      "pillar_scores": {
-        "fundamentals": 96.0,
-        "valuation": 100.0,
-        "technicals": 5.0,
-        "sentiment": 48.7,
-        "analyst": 65.0,
-        "macro_moat": 62.0
-      },
-      "key_positives": [
-        "Exceptional Return on Equity (32.0%)",
-        "Low debt-to-equity ratio (44.3)",
-        "Positive free cash flow generation",
-        "Low P/E ratio (8.3x)"
-      ],
-      "key_risks": [
-        "Majority of analyst ratings are Hold/Sell",
-        "Price is 15.0% below 50-day SMA (Bearish)",
-        "50-day SMA is below 200-day SMA (Death Cross)"
-      ]
-    }
-  },
   "MU": {
     "data": {
       "symbol": "MU",
@@ -204,17 +16,17 @@
       "current_price": 1016.59,
       "previous_close": 958.16,
       "fifty_two_week_high": 1255.0,
-      "fifty_two_week_low": 125.66,
-      "volume": 34186906,
-      "avg_volume": 43883553,
+      "fifty_two_week_low": 128.4,
+      "volume": 34925945,
+      "avg_volume": 43346337,
       "pe_ratio": 22.963408,
       "forward_pe": 6.5575776,
       "peg_ratio": 0.14,
       "price_to_sales": 12.718278,
       "price_to_book": 11.394834,
-      "ev_to_ebitda": 15.574,
+      "ev_to_ebitda": 16.541,
       "market_cap": 1148129771520,
-      "enterprise_value": 1062493356032,
+      "enterprise_value": 1128483782656,
       "eps_trailing": 44.27,
       "eps_forward": 155.02524,
       "earnings_growth": 13.685,
@@ -263,19 +75,19 @@
       "rsi_status": "NEUTRAL",
       "macd_data": {
         "macd": 14.066561695600512,
-        "signal": 8.198098924609674,
-        "histogram": 5.868462770990838,
+        "signal": 8.198098924609681,
+        "histogram": 5.868462770990831,
         "crossover": "BULLISH"
       },
       "cross_status": "GOLDEN_CROSS",
-      "fifty_two_week_pos_pct": 78.9066868869054,
+      "fifty_two_week_pos_pct": 78.90668715951293,
       "high_52": 1254.8069810301963,
-      "low_52": 125.45864322776382,
+      "low_52": 125.45862863219739,
       "returns": {
         "1m": 15.841470368804455,
         "3m": 7.107106524167661,
         "6m": 161.26925596395898,
-        "1y": 675.079286915223
+        "1y": 675.0793770861528
       },
       "technical_score": 87.5,
       "signals": [
@@ -285,15 +97,15 @@
       ]
     },
     "sent": {
-      "combined_polarity": -0.04,
-      "sentiment_score": 48.4,
+      "combined_polarity": -0.046,
+      "sentiment_score": 48.2,
       "label": "NEUTRAL",
       "news_stats": {
-        "polarity": -0.05668686868686869,
-        "subjectivity": 0.1713333333333333,
-        "positive_count": 2,
+        "polarity": -0.06577777777777778,
+        "subjectivity": 0.138,
+        "positive_count": 1,
         "negative_count": 2,
-        "neutral_count": 11,
+        "neutral_count": 12,
         "total": 15
       },
       "reddit_stats": {
@@ -305,7 +117,6 @@
       },
       "headline_count": 15,
       "positive_highlights": [
-        "Micron Technology Inc. (MU) Stock Price | Live Quotes & Charts | NASDAQ - timothysykes.com",
         "Micron Technology (NASDAQ:MU) Makes the Affordable Growth Screen with High Growth and Low Valuation - ChartMill"
       ],
       "negative_highlights": [
@@ -314,10 +125,10 @@
       ],
       "recent_headlines": [
         "Why Micron Stock Just Popped - Yahoo Finance",
+        "Micron advances 6% as part of sector upswing (MU:NASDAQ) - Seeking Alpha",
         "Micron Technology (NASDAQ:MU) Makes the Affordable Growth Screen with High Growth and Low Valuation - ChartMill",
         "MU Stock: How Micron Is Trading Today - Barron's",
-        "Micron Technology Inc Stock (MU) Moved Up by 3.90% on Sep 4: What Investors Need To Know - TradingKey",
-        "Micron Technology Inc. (MU) Stock Price | Live Quotes & Charts | NASDAQ - timothysykes.com"
+        "Is Micron Technology Inc (MU) Overvalued After 6.1% Rally? GF Va - GuruFocus"
       ]
     },
     "qual": {
@@ -352,12 +163,12 @@
     "sig": {
       "composite_score": 85.4,
       "signal": "STRONG BUY",
-      "confidence_pct": 75.2,
+      "confidence_pct": 75.1,
       "pillar_scores": {
         "fundamentals": 100.0,
         "valuation": 85.0,
         "technicals": 87.5,
-        "sentiment": 48.4,
+        "sentiment": 48.2,
         "analyst": 100.0,
         "macro_moat": 80.0
       },
@@ -389,17 +200,17 @@
       "current_price": 230.36,
       "previous_close": 228.45,
       "fifty_two_week_high": 236.54,
-      "fifty_two_week_low": 164.07,
-      "volume": 128683996,
-      "avg_volume": 136892814,
+      "fifty_two_week_low": 164.27,
+      "volume": 132204717,
+      "avg_volume": 135569020,
       "pe_ratio": 29.159492,
       "forward_pe": 14.902219,
       "peg_ratio": 0.58,
       "price_to_sales": 18.359913,
       "price_to_book": 24.291891,
-      "ev_to_ebitda": 27.238,
+      "ev_to_ebitda": 27.466,
       "market_cap": 5562502742016,
-      "enterprise_value": 5482036068352,
+      "enterprise_value": 5528066981888,
       "eps_trailing": 7.9,
       "eps_forward": 15.4581,
       "earnings_growth": 1.278,
@@ -443,13 +254,13 @@
       "latest_price": 230.36,
       "sma_20": 220.08200073242188,
       "sma_50": 210.56639953613282,
-      "sma_200": 196.52541999816896,
+      "sma_200": 196.5254197692871,
       "rsi_14": 53.67799225919933,
       "rsi_status": "NEUTRAL",
       "macd_data": {
-        "macd": 3.832901742702404,
-        "signal": 2.9965327206525236,
-        "histogram": 0.8363690220498805,
+        "macd": 3.832901742793638,
+        "signal": 2.99653272078672,
+        "histogram": 0.836369022006918,
         "crossover": "BULLISH"
       },
       "cross_status": "GOLDEN_CROSS",
@@ -470,15 +281,15 @@
       ]
     },
     "sent": {
-      "combined_polarity": 0.059,
-      "sentiment_score": 52.3,
+      "combined_polarity": 0.067,
+      "sentiment_score": 52.7,
       "label": "NEUTRAL",
       "news_stats": {
-        "polarity": 0.08363636363636363,
-        "subjectivity": 0.17212121212121215,
-        "positive_count": 4,
+        "polarity": 0.0951010101010101,
+        "subjectivity": 0.1970959595959596,
+        "positive_count": 5,
         "negative_count": 0,
-        "neutral_count": 11,
+        "neutral_count": 10,
         "total": 15
       },
       "reddit_stats": {
@@ -492,15 +303,15 @@
       "positive_highlights": [
         "Nvidia Has Just Shared Great News; Including The Deal With Hugging Face (NASDAQ:NVDA) - Seeking Alpha",
         "Prediction: $1,104 Invested in Nvidia Today Will Be Worth This Much by 2030 - Yahoo Finance",
-        "Maryland Capital Advisors Inc. Makes New Investment in NVIDIA Corporation $NVDA - MarketBeat"
+        "Jim Cramer Believes Nvidia Corp. (NASDAQ:NVDA) Buying Back Half A Trillion Worth In Stock Would Be Great - Yahoo Finance"
       ],
       "negative_highlights": [],
       "recent_headlines": [
+        "Jim Cramer Believes Nvidia Corp. (NASDAQ:NVDA) Buying Back Half A Trillion Worth In Stock Would Be Great - Yahoo Finance",
         "NVIDIA Announces Financial Results for Second Quarter Fiscal 2027 - NVIDIA Newsroom",
         "Nvidia Has Just Shared Great News; Including The Deal With Hugging Face (NASDAQ:NVDA) - Seeking Alpha",
-        "Ballentine Partners LLC Buys 7,957 Shares of NVIDIA Corporation $NVDA - MarketBeat",
-        "Prediction: $1,104 Invested in Nvidia Today Will Be Worth This Much by 2030 - Yahoo Finance",
-        "NVIDIA Corporation $NVDA Shares Acquired by Burton Enright Welch - MarketBeat"
+        "NVDA Stock Looks 'Remarkably Cheap', Says Wall Street After Beat-And-Raise Q1 \u2014 Analyst Sees Nvidia Market Cap Soaring Past $10 Trillion - Stocktwits",
+        "NVIDIA (NASDAQ: NVDA) director gifts 500,000 shares - Stock Titan"
       ]
     },
     "qual": {
@@ -535,12 +346,12 @@
     "sig": {
       "composite_score": 84.5,
       "signal": "STRONG BUY",
-      "confidence_pct": 76.8,
+      "confidence_pct": 76.9,
       "pillar_scores": {
         "fundamentals": 100.0,
         "valuation": 80.0,
         "technicals": 84.1,
-        "sentiment": 52.3,
+        "sentiment": 52.7,
         "analyst": 100.0,
         "macro_moat": 80.0
       },
@@ -552,6 +363,194 @@
       ],
       "key_risks": [
         "Standard market risk and volatility."
+      ]
+    }
+  },
+  "LULU": {
+    "data": {
+      "symbol": "LULU",
+      "company_name": "lululemon athletica inc.",
+      "exchange_info": {
+        "country": "United States",
+        "exchange": "NYSE/NASDAQ",
+        "central_bank": "Federal Reserve (FED)",
+        "currency_symbol": "$"
+      },
+      "currency": "USD",
+      "sector": "Consumer Cyclical",
+      "industry": "Apparel Retail",
+      "summary": "lululemon athletica inc., together with its subsidiaries, designs, distributes, and retails technical athletic apparel, footwear, and accessories for women and men under the lululemon brand in the United States, Canada, Mexico, China, Hong Kong, Taiwan, Macau, Greece, and internationally. It offers pants, shorts, tops, and jackets for athletic activities, such as yoga, running, training, and other activities. The company also provides fitness-inspired accessories. It sells its products through company-operated stores; seasonal stores, pop-ups, university campus retailers, and yoga and fitness studios; outlets; Like New, a re-commerce program; and its e-commerce website. The company was founded in 1998 and is based in Vancouver, Canada.",
+      "current_price": 100.61,
+      "previous_close": 121.77,
+      "fifty_two_week_high": 225.98,
+      "fifty_two_week_low": 97.99,
+      "volume": 37193682,
+      "avg_volume": 3488508,
+      "pe_ratio": 10.020916,
+      "forward_pe": 8.980919,
+      "peg_ratio": 0.93,
+      "price_to_sales": 0.9941976,
+      "price_to_book": 2.3856497,
+      "ev_to_ebitda": 5.631,
+      "market_cap": 11138535424,
+      "enterprise_value": 14448739328,
+      "eps_trailing": 10.04,
+      "eps_forward": 11.20264,
+      "earnings_growth": -0.35,
+      "revenue_growth": 0.043,
+      "total_revenue": 11203543040,
+      "net_income": 1459659008,
+      "profit_margins": 0.13029,
+      "operating_margins": 0.11205,
+      "return_on_equity": 0.32027,
+      "return_on_assets": 0.16045,
+      "total_debt": 2136007936,
+      "total_cash": 1514728960,
+      "debt_to_equity": 44.264,
+      "current_ratio": 2.226,
+      "quick_ratio": 0.936,
+      "free_cash_flow": 1133960960,
+      "dividend_yield_pct": 0.0,
+      "payout_ratio": 0.0,
+      "target_low": 44.0,
+      "target_mean": 110.75385,
+      "target_high": 280.0,
+      "target_median": 105.5,
+      "recommendation_key": "hold",
+      "recommendation_mean": 3.14706,
+      "number_of_analysts": 26,
+      "implied_upside_pct": 10.082347679157142,
+      "rec_breakdown": {
+        "strongBuy": 0,
+        "buy": 1,
+        "hold": 29,
+        "sell": 3,
+        "strongSell": 1
+      },
+      "next_earnings_date": "2026-09-03",
+      "earnings_high_est": 1.2,
+      "earnings_low_est": 0.93,
+      "earnings_avg_est": 0.98909,
+      "_ticker_obj": "yfinance.Ticker object <LULU>"
+    },
+    "tech": {
+      "latest_price": 100.61,
+      "sma_20": 118.91650009155273,
+      "sma_50": 118.40180038452148,
+      "sma_200": 152.7701495361328,
+      "rsi_14": 36.464480573702325,
+      "rsi_status": "BEARISH",
+      "macd_data": {
+        "macd": -1.5214036698848759,
+        "signal": -0.37493175625363767,
+        "histogram": -1.1464719136312382,
+        "crossover": "BEARISH_CROSS"
+      },
+      "cross_status": "DEATH_CROSS",
+      "fifty_two_week_pos_pct": 2.047036627830212,
+      "high_52": 225.97999572753906,
+      "low_52": 97.98999786376953,
+      "returns": {
+        "1m": -21.752995359111406,
+        "3m": -14.410891205420938,
+        "6m": -40.7339754620759,
+        "1y": -40.04171741941691
+      },
+      "technical_score": 5.0,
+      "signals": [
+        "Price is 15.0% below 50-day SMA (Bearish)",
+        "50-day SMA is below 200-day SMA (Death Cross)",
+        "MACD histogram indicates negative bearish momentum"
+      ]
+    },
+    "sent": {
+      "combined_polarity": -0.049,
+      "sentiment_score": 48.1,
+      "label": "NEUTRAL",
+      "news_stats": {
+        "polarity": -0.06600000000000002,
+        "subjectivity": 0.316,
+        "positive_count": 3,
+        "negative_count": 6,
+        "neutral_count": 6,
+        "total": 15
+      },
+      "reddit_stats": {
+        "polarity": -0.008333333333333342,
+        "subjectivity": 0.15833333333333333,
+        "positive_count": 1,
+        "negative_count": 2,
+        "neutral_count": 7,
+        "total": 10
+      },
+      "headline_count": 25,
+      "positive_highlights": [
+        "Why Lululemon Stock Crashed Today - The Motley Fool",
+        "Is LULU at all compelling to anyone on here? - Reddit",
+        "LULU Stock Sinks 18% Overnight: Michael Burry Says Lululemon Is A \u2018Trickster\u2019 As He Vows To Buy More Under $100 - Stocktwits"
+      ],
+      "negative_highlights": [
+        "Lululemon (LULU) Stock Sinks As Margin Pressure Resets Growth Expectations - simplywall.st",
+        "LULU stock sinks 18%: Michael Burry calls Lululemon a \u2018trickster,\u2019 eyes dip buying under $100 - Seeking Alpha",
+        "LULU is down 50 % year to date. I don\u2019t believe it will ever go below $100. - Reddit"
+      ],
+      "recent_headlines": [
+        "lululemon athletica inc. Announces Second Quarter Fiscal 2026 Results - corporate.lululemon.com",
+        "LULU Stock Sinks 18% Overnight: Michael Burry Says Lululemon Is A \u2018Trickster\u2019 As He Vows To Buy More Under $100 - Stocktwits",
+        "Lululemon made a really stupid decision this year that explains why its stock is getting crushed - Yahoo Finance",
+        "Lululemon Athletica Stock Hits 52-Week High - Here's Why - Lululemon Athletica (NASDAQ:LULU) - Benzinga",
+        "Lululemon sinks after cutting forecast as revenue declines - Yahoo Finance"
+      ]
+    },
+    "qual": {
+      "priced_in": {
+        "valuation_tier": "Value / Low Expectation",
+        "priced_in_points": [
+          "Low P/E ratio suggests market is pricing in modest growth or cyclical headwinds.",
+          "Forward P/E is 10.4% lower than trailing P/E, pricing in robust earnings recovery/growth.",
+          "PEG ratio of 0.93 suggests stock may be undervalued relative to expected growth."
+        ]
+      },
+      "macro_policy": {
+        "macro_factors": [
+          "Operating in United States under Federal Reserve (FED) interest rate policy environment.",
+          "Consumer sentiment and discretionary spending impact demand during inflation/rate shifts."
+        ],
+        "policy_risks": [
+          "Antitrust oversight, data privacy laws, and international tariff trade policies affect cross-border supply chains."
+        ]
+      },
+      "moat": {
+        "moat_tier": "Narrow Moat",
+        "moat_score": 70.0,
+        "reasons": [
+          "Strong Return on Equity (ROE: 32.0%), indicating high capital efficiency and competitive advantage."
+        ]
+      },
+      "qualitative_score": 62.0
+    },
+    "sig": {
+      "composite_score": 66.4,
+      "signal": "BUY",
+      "confidence_pct": 57.8,
+      "pillar_scores": {
+        "fundamentals": 96.0,
+        "valuation": 100.0,
+        "technicals": 5.0,
+        "sentiment": 48.1,
+        "analyst": 55.0,
+        "macro_moat": 62.0
+      },
+      "key_positives": [
+        "Exceptional Return on Equity (32.0%)",
+        "Low debt-to-equity ratio (44.3)",
+        "Positive free cash flow generation",
+        "Low P/E ratio (10.0x)"
+      ],
+      "key_risks": [
+        "Majority of analyst ratings are Hold/Sell",
+        "Price is 15.0% below 50-day SMA (Bearish)",
+        "50-day SMA is below 200-day SMA (Death Cross)"
       ]
     }
   },
@@ -572,18 +571,18 @@
       "current_price": 1740.0,
       "previous_close": 1554.99,
       "fifty_two_week_high": 2354.39,
-      "fifty_two_week_low": 63.74,
-      "volume": 15712660,
-      "avg_volume": 13974153,
-      "pe_ratio": 23.606024,
+      "fifty_two_week_low": 67.86,
+      "volume": 16217211,
+      "avg_volume": 13985453,
+      "pe_ratio": 21.096022,
       "forward_pe": 6.5729427,
       "peg_ratio": null,
       "price_to_sales": 12.582431,
       "price_to_book": 16.475557,
-      "ev_to_ebitda": 17.684,
+      "ev_to_ebitda": 19.831,
       "market_cap": 254769070080,
-      "enterprise_value": 223119081472,
-      "eps_trailing": 73.71,
+      "enterprise_value": 250208059392,
+      "eps_trailing": 82.48,
       "eps_forward": 264.72162,
       "earnings_growth": null,
       "revenue_growth": 3.716,
@@ -653,12 +652,12 @@
       ]
     },
     "sent": {
-      "combined_polarity": 0.02,
-      "sentiment_score": 50.8,
+      "combined_polarity": 0.011,
+      "sentiment_score": 50.4,
       "label": "NEUTRAL",
       "news_stats": {
-        "polarity": 0.028333333333333335,
-        "subjectivity": 0.20777777777777778,
+        "polarity": 0.015833333333333335,
+        "subjectivity": 0.1575,
         "positive_count": 2,
         "negative_count": 1,
         "neutral_count": 12,
@@ -674,16 +673,16 @@
       "headline_count": 15,
       "positive_highlights": [
         "Micron vs. Sandisk: Which AI Memory Stock Is the Better Buy? - The Motley Fool",
-        "Sandisk Corporation stock Analysis: 3 Key Trends to Watch Now - The Cryptonomist"
+        "Sandisk climbs 12% amid broad storage peer strength (SNDK:NASDAQ) - Seeking Alpha"
       ],
       "negative_highlights": [
-        "SanDisk Corporation Stock (SNDK) Moved Up by 6.67% on Sep 4: Drivers Behind the Movement - TradingKey"
+        "SanDisk Corporation Stock (SNDK) Moved Up by 6.67% on Sep 4: Drivers Behind the Movement - tradingkey.com"
       ],
       "recent_headlines": [
         "SanDisk: Don't Underestimate The Cycle (NASDAQ:SNDK) - Seeking Alpha",
         "Sandisk: Dirt Cheap For No Good Reason (Rating Upgrade) (NASDAQ:SNDK) - Seeking Alpha",
         "Why Sandisk Stock Rallied Today - Yahoo Finance",
-        "SanDisk Corporation Stock (SNDK) Moved Up by 6.67% on Sep 4: Drivers Behind the Movement - TradingKey",
+        "SanDisk Corporation Stock (SNDK) Moved Up by 6.67% on Sep 4: Drivers Behind the Movement - tradingkey.com",
         "Micron vs. Sandisk: Which AI Memory Stock Is the Better Buy? - The Motley Fool"
       ]
     },
@@ -692,7 +691,7 @@
         "valuation_tier": "Fair Value Range",
         "priced_in_points": [
           "P/E ratio reflects balanced market expectations for mid-range growth.",
-          "Forward P/E is 72.2% lower than trailing P/E, pricing in robust earnings recovery/growth."
+          "Forward P/E is 68.8% lower than trailing P/E, pricing in robust earnings recovery/growth."
         ]
       },
       "macro_policy": {
@@ -718,12 +717,12 @@
     "sig": {
       "composite_score": 83.1,
       "signal": "STRONG BUY",
-      "confidence_pct": 75.0,
+      "confidence_pct": 74.9,
       "pillar_scores": {
         "fundamentals": 100.0,
         "valuation": 70.0,
         "technicals": 90.0,
-        "sentiment": 50.8,
+        "sentiment": 50.4,
         "analyst": 100.0,
         "macro_moat": 80.0
       },
@@ -756,17 +755,17 @@
       "previous_close": 376.365,
       "fifty_two_week_high": 498.83,
       "fifty_two_week_low": 297.38,
-      "volume": 63562633,
-      "avg_volume": 41798398,
-      "pe_ratio": 324.84402,
+      "volume": 64559388,
+      "avg_volume": 41456369,
+      "pe_ratio": 343.767,
       "forward_pe": 164.03375,
-      "peg_ratio": 4.5,
+      "peg_ratio": 4.26,
       "price_to_sales": 13.496133,
       "price_to_book": 16.098204,
-      "ev_to_ebitda": 135.722,
+      "ev_to_ebitda": 127.538,
       "market_cap": 1398455795712,
-      "enterprise_value": 1459688439808,
-      "eps_trailing": 1.09,
+      "enterprise_value": 1371672805376,
+      "eps_trailing": 1.03,
       "eps_forward": 2.15858,
       "earnings_growth": -0.03,
       "revenue_growth": 0.255,
@@ -785,15 +784,15 @@
       "dividend_yield_pct": 0.0,
       "payout_ratio": 0.0,
       "target_low": 125.0,
-      "target_mean": 387.72684,
+      "target_mean": 390.09283,
       "target_high": 600.0,
-      "target_median": 406.5,
+      "target_median": 410.0,
       "recommendation_key": "buy",
       "recommendation_mean": 2.34783,
-      "number_of_analysts": 38,
-      "implied_upside_pct": 9.502609579755987,
+      "number_of_analysts": 39,
+      "implied_upside_pct": 10.170817329417083,
       "rec_breakdown": {
-        "strongBuy": 5,
+        "strongBuy": 6,
         "buy": 16,
         "hold": 19,
         "sell": 3,
@@ -836,12 +835,12 @@
       ]
     },
     "sent": {
-      "combined_polarity": 0.022,
-      "sentiment_score": 50.9,
+      "combined_polarity": 0.02,
+      "sentiment_score": 50.8,
       "label": "NEUTRAL",
       "news_stats": {
-        "polarity": 0.030774410774410767,
-        "subjectivity": 0.20579124579124577,
+        "polarity": 0.029107744107744096,
+        "subjectivity": 0.21412457912457913,
         "positive_count": 5,
         "negative_count": 1,
         "neutral_count": 9,
@@ -856,8 +855,8 @@
       },
       "headline_count": 15,
       "positive_highlights": [
-        "Tesla Inc Stock (TSLA) Opened Up by 4.70% on Sep 3: A Full Analysis - TradingKey",
-        "TSLA Stock Revs Up Slowly As Elon Musk Tells A \u2018Storm Of Cybercabs\u2019 Are Coming \u2014 Analyst Says \u2018Never Short A Great Company\u2019 - es.tradingview.com",
+        "Tesla Inc Stock (TSLA) Opened Up by 4.70% on Sep 3: A Full Analysis - tradingkey.com",
+        "TSLA Stock Revs Up Slowly As Elon Musk Tells A \u2018Storm Of Cybercabs\u2019 Are Coming \u2014 Analyst Says \u2018Never Short A Great Company\u2019 - TradingView",
         "SA Asks: How does the new Cybercab impact Tesla? (TSLA:NASDAQ) - Seeking Alpha"
       ],
       "negative_highlights": [
@@ -865,10 +864,10 @@
       ],
       "recent_headlines": [
         "TSLA Stock Slips Overnight As Safety Regulator Scrutinizes Cybercab \u2014 Retail Fumes Over Event Blackout - Yahoo Finance",
-        "TSLA false breakout: No Musk, no stream, no follow-through - Seeking Alpha",
-        "Tesla Inc Stock (TSLA) Opened Down by 5.01% on Sep 4: A Full Analysis - TradingKey",
+        "Tesla Inc Stock (TSLA) Opened Down by 5.01% on Sep 4: A Full Analysis - tradingkey.com",
+        "Tesla's Cybercab launch falls flat; NHTSA launches investigation (TSLA:NASDAQ) - Seeking Alpha",
         "Rakuten Securities Inc. Acquires Shares of 30,282 Tesla, Inc. $TSLA - MarketBeat",
-        "TSLA Stock Slips On Bear Warning That Upcoming Cybercab Event Is No Milestone - Stocktwits"
+        "TSLA Stock Slips \u2014 Investors Await Tesla\u2019s Q2 Earnings And Semi Progress - Stocktwits"
       ]
     },
     "qual": {
@@ -876,8 +875,8 @@
         "valuation_tier": "High Growth Premium",
         "priced_in_points": [
           "High P/E ratio indicates market has priced in strong future earnings acceleration.",
-          "Forward P/E is 49.5% lower than trailing P/E, pricing in robust earnings recovery/growth.",
-          "PEG ratio of 4.50 signals premium valuation relative to growth rate."
+          "Forward P/E is 52.3% lower than trailing P/E, pricing in robust earnings recovery/growth.",
+          "PEG ratio of 4.26 signals premium valuation relative to growth rate."
         ]
       },
       "macro_policy": {
@@ -900,35 +899,35 @@
       "qualitative_score": 50.0
     },
     "sig": {
-      "composite_score": 53.1,
+      "composite_score": 54.6,
       "signal": "HOLD",
-      "confidence_pct": 69.9,
+      "confidence_pct": 67.4,
       "pillar_scores": {
         "fundamentals": 75.0,
         "valuation": 11.0,
         "technicals": 53.4,
-        "sentiment": 50.9,
-        "analyst": 77.0,
+        "sentiment": 50.8,
+        "analyst": 87.0,
         "macro_moat": 50.0
       },
       "key_positives": [
         "Strong YoY revenue growth (25.5%)",
         "Low debt-to-equity ratio (18.4)",
         "Positive free cash flow generation",
-        "Bullish analyst consensus (Buy)"
+        "Moderate price target upside (+10.2%)"
       ],
       "key_risks": [
         "Subpar Return on Equity (4.7%)",
-        "High P/E ratio (324.8x)",
+        "High P/E ratio (343.8x)",
         "Elevated Forward P/E (164.0x)",
-        "High PEG ratio (4.50x)"
+        "High PEG ratio (4.26x)"
       ]
     }
   },
-  "DTE": {
+  "BE": {
     "data": {
-      "symbol": "DTE",
-      "company_name": "DTE Energy Company",
+      "symbol": "BE",
+      "company_name": "Bloom Energy Corporation",
       "exchange_info": {
         "country": "United States",
         "exchange": "NYSE/NASDAQ",
@@ -936,102 +935,102 @@
         "currency_symbol": "$"
       },
       "currency": "USD",
-      "sector": "Utilities",
-      "industry": "Utilities - Regulated Electric",
-      "summary": "DTE Energy Company engages in energy-related businesses and services. The company operates through four segments: Electric, Gas, DTE Vantage, and Energy Trading.The company's Electric segment generates, purchases, distributes, and sells electricity to approximately 2.3 million residential, commercial, and industrial customers in southeastern Michigan. It generates electricity through coal-fired plants, natural gas plant, hydroelectric pumped storage, and nuclear plants, as well as wind and solar assets. This segment owns and operates 702 distribution substations with a capacity of approximately 37,870,000 kilovolt-amperes (kVA) and approximately 4,56,900 line transformers with a capacity of approximately 33,770,000 kVA. The company's Gas segment purchases, stores, transports, distributes, and sells natural gas to approximately 1.4 million residential, commercial, and industrial customers throughout Michigan; and sells storage and transportation capacity. This segment has approximately 21,000 miles of distribution mains; 1,242,000 service pipelines; and 1,361,000 active meters, as well as owns approximately 2,000 miles of transmission pipelines. Its DTE Vantage segment offers metallurgical and petroleum coke to steel and other industries; and power generation, steam production, chilled water production, and wastewater treatment services, as well as compressed air supply to industrial customers. This segment also owns and operates 2 renewable generating plants with a capacity of 70 MWs; and 22 gas recovery sites. Its Energy Trading segment engages in power, natural gas, and environmental marketing and trading; structured transactions; and the optimization of contracted natural gas pipeline transportation and storage positions. The company was founded in 1849 and is based in Detroit, Michigan.",
-      "current_price": 136.06,
-      "previous_close": 137.07,
-      "fifty_two_week_high": 155.75,
-      "fifty_two_week_low": 126.23,
-      "volume": 769057,
-      "avg_volume": 1321120,
-      "pe_ratio": 21.52848,
-      "forward_pe": 16.264906,
-      "peg_ratio": 1.75,
-      "price_to_sales": 1.7195542,
-      "price_to_book": 2.330433,
-      "ev_to_ebitda": 15.572,
-      "market_cap": 28312461312,
-      "enterprise_value": 56325632000,
-      "eps_trailing": 6.32,
-      "eps_forward": 8.36525,
-      "earnings_growth": 0.224,
-      "revenue_growth": -0.015,
-      "total_revenue": 16465000448,
-      "net_income": 1314000000,
-      "profit_margins": 0.07999,
-      "operating_margins": 0.13623999,
-      "return_on_equity": 0.1103,
-      "return_on_assets": 0.02769,
-      "total_debt": 27840000000,
-      "total_cash": 42000000,
-      "debt_to_equity": 229.06,
-      "current_ratio": 0.802,
-      "quick_ratio": 0.395,
-      "free_cash_flow": -2596624896,
-      "dividend_yield_pct": 3.4,
-      "payout_ratio": 0.72550005,
-      "target_low": 143.0,
-      "target_mean": 156.85715,
-      "target_high": 168.0,
-      "target_median": 156.5,
+      "sector": "Industrials",
+      "industry": "Electrical Equipment & Parts",
+      "summary": "Bloom Energy Corporation designs, manufactures, sells, and installs solid oxide fuel cell systems for on-site power generation in the United States and internationally. It offers Bloom Energy Server, an energy server platform to convert fuel, such as natural gas, biogas, hydrogen, or a blend of these fuels, into electricity through a non-combustion electrochemical process. The company also provides Bloom Electrolyzer for producing hydrogen. It sells its products through direct and indirect sales channels to utilities, data centers, retail, healthcare, education, telecom, manufacturing, and other industries. The company was formerly known as Ion America Corp. and changed its name to Bloom Energy Corporation in 2006. Bloom Energy Corporation was incorporated in 2001 and is headquartered in San Jose, California.",
+      "current_price": 252.87,
+      "previous_close": 235.55,
+      "fifty_two_week_high": 351.28,
+      "fifty_two_week_low": 52.0,
+      "volume": 14783982,
+      "avg_volume": 14820824,
+      "pe_ratio": 324.19232,
+      "forward_pe": 51.394985,
+      "peg_ratio": 0.53,
+      "price_to_sales": 23.9234,
+      "price_to_book": 46.0182,
+      "ev_to_ebitda": 178.274,
+      "market_cap": 74477133824,
+      "enterprise_value": 74603970560,
+      "eps_trailing": 0.78,
+      "eps_forward": 4.92013,
+      "earnings_growth": null,
+      "revenue_growth": 1.655,
+      "total_revenue": 3113149952,
+      "net_income": 244942000,
+      "profit_margins": 0.07868,
+      "operating_margins": 0.17106001,
+      "return_on_equity": 0.22213,
+      "return_on_assets": 0.05599,
+      "total_debt": 2815023104,
+      "total_cash": 2716858880,
+      "debt_to_equity": 171.578,
+      "current_ratio": 4.087,
+      "quick_ratio": 3.213,
+      "free_cash_flow": 531637504,
+      "dividend_yield_pct": 0.0,
+      "payout_ratio": 0.0,
+      "target_low": 97.0,
+      "target_mean": 275.08463,
+      "target_high": 390.0,
+      "target_median": 288.5,
       "recommendation_key": "buy",
-      "recommendation_mean": 1.94118,
-      "number_of_analysts": 14,
-      "implied_upside_pct": 15.285278553579293,
+      "recommendation_mean": 2.24138,
+      "number_of_analysts": 26,
+      "implied_upside_pct": 8.785000197730058,
       "rec_breakdown": {
-        "strongBuy": 2,
-        "buy": 8,
-        "hold": 7,
-        "sell": 0,
-        "strongSell": 0
+        "strongBuy": 5,
+        "buy": 10,
+        "hold": 12,
+        "sell": 1,
+        "strongSell": 1
       },
-      "next_earnings_date": "2026-10-29",
-      "earnings_high_est": 2.5666,
-      "earnings_low_est": 2.26,
-      "earnings_avg_est": 2.40395,
-      "_ticker_obj": "yfinance.Ticker object <DTE>"
+      "next_earnings_date": "2026-10-27",
+      "earnings_high_est": 0.8,
+      "earnings_low_est": 0.56,
+      "earnings_avg_est": 0.6657,
+      "_ticker_obj": "yfinance.Ticker object <BE>"
     },
     "tech": {
-      "latest_price": 136.06,
-      "sma_20": 137.49300003051758,
-      "sma_50": 143.51320037841796,
-      "sma_200": 140.1594490814209,
-      "rsi_14": 30.377810875739115,
-      "rsi_status": "BEARISH",
+      "latest_price": 252.87,
+      "sma_20": 218.5400016784668,
+      "sma_50": 226.47820098876954,
+      "sma_200": 191.25355072021483,
+      "rsi_14": 59.773472897110125,
+      "rsi_status": "BULLISH",
       "macd_data": {
-        "macd": -1.8840914715214296,
-        "signal": -2.1102654367829805,
-        "histogram": 0.22617396526155087,
+        "macd": 1.386497203762957,
+        "signal": -3.017814462070264,
+        "histogram": 4.404311665833221,
         "crossover": "BULLISH"
       },
       "cross_status": "GOLDEN_CROSS",
-      "fifty_two_week_pos_pct": 37.476266136422694,
-      "high_52": 155.75,
-      "low_52": 124.25795884493672,
+      "fifty_two_week_pos_pct": 67.11774953866228,
+      "high_52": 351.2799987792969,
+      "low_52": 52.0,
       "returns": {
-        "1m": -2.7239545650912245,
-        "3m": -4.169691159733513,
-        "6m": -7.210429095257709,
-        "1y": 2.9216859028623032
+        "1m": 15.286771323938941,
+        "3m": -0.2760607737506193,
+        "6m": 67.10942886633617,
+        "1y": 343.0874388508771
       },
-      "technical_score": 57.2,
+      "technical_score": 95.0,
       "signals": [
-        "Price is 5.2% below 50-day SMA (Bearish)",
+        "Price is 11.7% above 50-day SMA (Bullish)",
         "50-day SMA is above 200-day SMA (Golden Cross)",
         "MACD histogram indicates positive bullish momentum"
       ]
     },
     "sent": {
-      "combined_polarity": 0.036,
-      "sentiment_score": 51.4,
+      "combined_polarity": 0.025,
+      "sentiment_score": 51.0,
       "label": "NEUTRAL",
       "news_stats": {
-        "polarity": 0.05166329966329966,
-        "subjectivity": 0.24379124579124578,
-        "positive_count": 5,
-        "negative_count": 1,
-        "neutral_count": 9,
+        "polarity": 0.035,
+        "subjectivity": 0.13166666666666668,
+        "positive_count": 3,
+        "negative_count": 2,
+        "neutral_count": 10,
         "total": 15
       },
       "reddit_stats": {
@@ -1043,27 +1042,29 @@
       },
       "headline_count": 15,
       "positive_highlights": [
-        "DTE Energy Vice Chairman & Group Pres. Sold Shares Worth Over $678K - TradingView",
-        "DTE Energy Co. stock holds steady as insider share sale and Michigan rate debate draw attention - AD HOC NEWS",
-        "DTE Energy tops Q2 estimates with $1.32 EPS as new investors pile in - Dealroom"
+        "Bloom Energy and 7 More Stocks That Could Join the S&P 500 This Month - Barron's",
+        "What Makes Bloom Energy (BE) a Compelling Investment Bet? - Yahoo Finance",
+        "BE Investor Alert: Bloom Energy Corporation Securities Class Action Notice - Contact Levi & Korsinsky - PR Newswire"
       ],
       "negative_highlights": [
-        "DTE Energy (DTE) Down 4.1% Since Last Earnings Report: Can It Rebound? - Yahoo Finance"
+        "Bloom Energy was just named to the S&P 500. These other stocks are joining the index as well. - MarketWatch",
+        "Bloom Energy Corp Stock (BE) Closed Up by 7.35% on Sep 4: Facts Behind the Movement - tradingkey.com"
       ],
       "recent_headlines": [
-        "DTE Energy vice chairman Trevor Lauer sells $678k in shares - Investing.com Nigeria",
-        "Are Wall Street Analysts Predicting DTE Energy Stock Will Climb or Sink? - Barchart.com",
-        "DTE Energy Vice Chairman & Group Pres. Sold Shares Worth Over $678K - TradingView",
-        "Dte Energy Co (DTE) Total Assets 2025: $54.1B, up 10.7% - Stock Titan",
-        "DTE Energy (DTE) Down 4.1% Since Last Earnings Report: Can It Rebound? - Yahoo Finance"
+        "Bloom Energy Stock Surges Thursday: What's Going On? - Yahoo Finance",
+        "Bloom Energy (NYSE:BE) Stock Price Up 7.3% - Here's Why - MarketBeat",
+        "Why Is Bloom Energy Stock Surging on Friday? - Benzinga",
+        "BE, P, ILMN Join S&P 500; LNG Misses Out \u2014 Bloom Energy Stock Gains While Cheniere Energy Slips - Yahoo Finance",
+        "Bloom Energy and 7 More Stocks That Could Join the S&P 500 This Month - Barron's"
       ]
     },
     "qual": {
       "priced_in": {
-        "valuation_tier": "Fair Value Range",
+        "valuation_tier": "High Growth Premium",
         "priced_in_points": [
-          "P/E ratio reflects balanced market expectations for mid-range growth.",
-          "Forward P/E is 24.4% lower than trailing P/E, pricing in robust earnings recovery/growth."
+          "High P/E ratio indicates market has priced in strong future earnings acceleration.",
+          "Forward P/E is 84.1% lower than trailing P/E, pricing in robust earnings recovery/growth.",
+          "PEG ratio of 0.53 suggests stock may be undervalued relative to expected growth."
         ]
       },
       "macro_policy": {
@@ -1077,36 +1078,35 @@
       },
       "moat": {
         "moat_tier": "Narrow Moat",
-        "moat_score": 50.0,
+        "moat_score": 70.0,
         "reasons": [
-          "Standard market positioning within industry."
+          "Strong Return on Equity (ROE: 22.2%), indicating high capital efficiency and competitive advantage."
         ]
       },
-      "qualitative_score": 50.0
+      "qualitative_score": 62.0
     },
     "sig": {
-      "composite_score": 49.8,
-      "signal": "HOLD",
-      "confidence_pct": 68.4,
+      "composite_score": 67.8,
+      "signal": "BUY",
+      "confidence_pct": 72.9,
       "pillar_scores": {
-        "fundamentals": 10.0,
-        "valuation": 65.0,
-        "technicals": 57.2,
-        "sentiment": 51.4,
-        "analyst": 87.0,
-        "macro_moat": 50.0
+        "fundamentals": 82.0,
+        "valuation": 38.0,
+        "technicals": 95.0,
+        "sentiment": 51.0,
+        "analyst": 77.0,
+        "macro_moat": 62.0
       },
       "key_positives": [
-        "Low P/S ratio (1.72x)",
-        "Moderate price target upside (+15.3%)",
-        "Bullish analyst consensus (Buy)",
-        "100% of analyst ratings are Buy/Strong Buy"
+        "Exceptional Return on Equity (22.2%)",
+        "Strong YoY revenue growth (165.5%)",
+        "Positive free cash flow generation",
+        "Favorable PEG ratio (0.53x < 1.0)"
       ],
       "key_risks": [
-        "Declining YoY revenue (-1.5%)",
-        "Elevated debt-to-equity ratio (229.1)",
-        "Current ratio below 1.0 (0.80)",
-        "Negative free cash flow generation"
+        "Elevated debt-to-equity ratio (171.6)",
+        "High P/E ratio (324.2x)",
+        "Elevated Forward P/E (51.4x)"
       ]
     }
   }
