@@ -20,7 +20,7 @@
       "volume": 78527486,
       "avg_volume": 31564200,
       "pe_ratio": 23.968102,
-      "forward_pe": 13.681208,
+      "forward_pe": 13.669126,
       "peg_ratio": 0.91,
       "price_to_sales": 6.42661,
       "price_to_book": 11.52454,
@@ -28,7 +28,7 @@
       "market_cap": 432877174784,
       "enterprise_value": 581579243520,
       "eps_trailing": 6.27,
-      "eps_forward": 10.98441,
+      "eps_forward": 10.99412,
       "earnings_growth": 0.219,
       "revenue_growth": 0.206,
       "total_revenue": 67356999680,
@@ -70,18 +70,18 @@
       "latest_price": 150.28,
       "sma_20": 149.37799987792968,
       "sma_50": 140.62994674682616,
-      "sma_200": 166.8175082015991,
+      "sma_200": 166.81750804901122,
       "rsi_14": 53.30901257067493,
       "rsi_status": "NEUTRAL",
       "macd_data": {
-        "macd": 3.226033109905501,
-        "signal": 2.7641369107890856,
-        "histogram": 0.4618961991164152,
+        "macd": 3.2260331099057566,
+        "signal": 2.76413691078946,
+        "histogram": 0.46189619911629665,
         "crossover": "BULLISH"
       },
       "cross_status": "DEATH_CROSS",
-      "fifty_two_week_pos_pct": 16.93432905441672,
-      "high_52": 325.78678842264526,
+      "fifty_two_week_pos_pct": 16.93433151041919,
+      "high_52": 325.7867577795181,
       "low_52": 114.5,
       "returns": {
         "1m": -3.802330799057707,
@@ -97,15 +97,15 @@
       ]
     },
     "sent": {
-      "combined_polarity": 0.013,
-      "sentiment_score": 50.5,
+      "combined_polarity": 0.017,
+      "sentiment_score": 50.7,
       "label": "NEUTRAL",
       "news_stats": {
-        "polarity": 0.018888888888888896,
-        "subjectivity": 0.15333333333333332,
-        "positive_count": 2,
+        "polarity": 0.024222222222222225,
+        "subjectivity": 0.188,
+        "positive_count": 3,
         "negative_count": 1,
-        "neutral_count": 12,
+        "neutral_count": 11,
         "total": 15
       },
       "reddit_stats": {
@@ -118,7 +118,8 @@
       "headline_count": 15,
       "positive_highlights": [
         "Oracle's stock edges up on earnings beat as cloud infrastructure revenue more than doubles - CNBC",
-        "ORCL Stock Jumps After Strong Q1 Report: Analyst Says Oracle Cloud Demand Is Growing Faster Than AWS, Azure - Yahoo Finance"
+        "ORCL Stock Jumps After Strong Q1 Report: Analyst Says Oracle Cloud Demand Is Growing Faster Than AWS, Azure - Yahoo Finance",
+        "ORCL Stock At 14-Month Low Amid High Debt, Execution Risks: Retail Calls $300B OpenAI Deal A 'Liability' - Stocktwits"
       ],
       "negative_highlights": [
         "ORCL Stock Sees Price Target Cut Ahead Of Earnings: Analyst Says Bad News Is Priced In - Stocktwits"
@@ -126,9 +127,9 @@
       "recent_headlines": [
         "ORCL Stock Soars 7% After-Hours \u2014 Oracle Cloud Surge Powers Q1 Beat As AI Demand Fuels Record Backlog - Yahoo Finance",
         "Oracle (ORCL) Stock: Analyst Expectations Ahead of Thursday\u2019s Q1 Report - Blockonomi",
-        "Oracle Corporation (ORCL) Stock Price, News, Quote & History - Yahoo Finance",
         "Oracle Announces Q1 Results Driven by Triple Digit Growth in Cloud Infrastructure Revenues - Oracle - Investor Relations",
-        "Oracle: The $28B CapEx Illusion And The Reality Of Software Cannibalization (NYSE:ORCL) - Seeking Alpha"
+        "ORCL Stock Jumps After Strong Q1 Report: Analyst Says Oracle Cloud Demand Is Growing Faster Than AWS, Azure - Yahoo Finance",
+        "ORCL Stock At 14-Month Low Amid High Debt, Execution Risks: Retail Calls $300B OpenAI Deal A 'Liability' - Stocktwits"
       ]
     },
     "qual": {
@@ -136,7 +137,7 @@
         "valuation_tier": "Fair Value Range",
         "priced_in_points": [
           "P/E ratio reflects balanced market expectations for mid-range growth.",
-          "Forward P/E is 42.9% lower than trailing P/E, pricing in robust earnings recovery/growth.",
+          "Forward P/E is 43.0% lower than trailing P/E, pricing in robust earnings recovery/growth.",
           "PEG ratio of 0.91 suggests stock may be undervalued relative to expected growth."
         ]
       },
@@ -161,14 +162,14 @@
       "qualitative_score": 80.0
     },
     "sig": {
-      "composite_score": 74.6,
+      "composite_score": 74.7,
       "signal": "BUY",
       "confidence_pct": 76.6,
       "pillar_scores": {
         "fundamentals": 72.0,
         "valuation": 85.0,
         "technicals": 60.3,
-        "sentiment": 50.5,
+        "sentiment": 50.7,
         "analyst": 100.0,
         "macro_moat": 80.0
       },
@@ -210,9 +211,9 @@
       "peg_ratio": 0.14,
       "price_to_sales": 12.20121,
       "price_to_book": 10.93157,
-      "ev_to_ebitda": 15.852,
+      "ev_to_ebitda": 15.857,
       "market_cap": 1101452017664,
-      "enterprise_value": 1081455869952,
+      "enterprise_value": 1081805963264,
       "eps_trailing": 44.18,
       "eps_forward": 156.06607,
       "earnings_growth": 13.685,
@@ -261,19 +262,19 @@
       "rsi_status": "NEUTRAL",
       "macd_data": {
         "macd": 18.439378342603504,
-        "signal": 14.558902883119213,
-        "histogram": 3.880475459484291,
+        "signal": 14.55890288311922,
+        "histogram": 3.880475459484284,
         "crossover": "BULLISH"
       },
       "cross_status": "GOLDEN_CROSS",
-      "fifty_two_week_pos_pct": 74.62913395693568,
+      "fifty_two_week_pos_pct": 74.62913429929928,
       "high_52": 1254.8069810301963,
-      "low_52": 152.96449541817447,
+      "low_52": 152.96448054951557,
       "returns": {
         "1m": 2.6773193574225473,
         "3m": -0.6316152914527029,
         "6m": 128.99577346978975,
-        "1y": 521.2716019585695
+        "1y": 521.2716623482462
       },
       "technical_score": 77.5,
       "signals": [
@@ -283,15 +284,15 @@
       ]
     },
     "sent": {
-      "combined_polarity": 0.057,
-      "sentiment_score": 52.3,
+      "combined_polarity": 0.068,
+      "sentiment_score": 52.7,
       "label": "NEUTRAL",
       "news_stats": {
-        "polarity": 0.08074074074074074,
-        "subjectivity": 0.21037037037037035,
-        "positive_count": 5,
+        "polarity": 0.09740740740740739,
+        "subjectivity": 0.2556084656084657,
+        "positive_count": 6,
         "negative_count": 2,
-        "neutral_count": 8,
+        "neutral_count": 7,
         "total": 15
       },
       "reddit_stats": {
@@ -305,18 +306,18 @@
       "positive_highlights": [
         "Micron Technology (MU) Rose on Elevated Demand for High-Bandwidth Memory - Yahoo Finance",
         "Applied Materials vs. Micron Technology: Which Technology Stock Is a Better Buy in 2026? - The Motley Fool",
-        "Micron Technology (NASDAQ:MU): Strong Growth Meets a High-Quality Technical Setup - ChartMill"
+        "Micron: 3 Simple Reasons Why I'm Still Bullish (NASDAQ:MU) - Seeking Alpha"
       ],
       "negative_highlights": [
         "Micron Technology Inc Stock (MU) Opened Down by 3.13% on Sep 10: What Signal Does It Send? - TradingKey",
         "Micron's Q4 Might Change The Game (Preview) (NASDAQ:MU) - Seeking Alpha"
       ],
       "recent_headlines": [
-        "MU Stock Slides As Legal Fight And Chip Selloff Rattle Traders - StocksToTrade",
-        "What's Going On With Micron Technology Stock Thursday? - Benzinga",
-        "Applied Materials vs. Micron Technology: Which Technology Stock Is a Better Buy in 2026? - The Motley Fool",
         "Micron Technology, Inc. (MU) Is a Trending Stock: Facts to Know Before Betting on It - Yahoo Finance",
-        "Why Micron Needs To Be In An AI Portfolio (NASDAQ:MU) - Seeking Alpha"
+        "Applied Materials vs. Micron Technology: Which Technology Stock Is a Better Buy in 2026? - The Motley Fool",
+        "Why Micron Needs To Be In An AI Portfolio (NASDAQ:MU) - Seeking Alpha",
+        "MU Stock Slides As Legal Fight And Chip Selloff Rattle Traders - StocksToTrade",
+        "MU Stock Slides As Legal Fears And Chip Sell-Off Hit Momentum - timothysykes.com"
       ]
     },
     "qual": {
@@ -351,12 +352,12 @@
     "sig": {
       "composite_score": 84.5,
       "signal": "STRONG BUY",
-      "confidence_pct": 76.6,
+      "confidence_pct": 76.8,
       "pillar_scores": {
         "fundamentals": 100.0,
         "valuation": 85.0,
         "technicals": 77.5,
-        "sentiment": 52.3,
+        "sentiment": 52.7,
         "analyst": 100.0,
         "macro_moat": 80.0
       },
@@ -391,7 +392,7 @@
       "fifty_two_week_low": 126.23,
       "volume": 1683927,
       "avg_volume": 1301514,
-      "pe_ratio": 21.011093,
+      "pe_ratio": 20.977848,
       "forward_pe": 15.8489,
       "peg_ratio": 1.75,
       "price_to_sales": 1.6755733,
@@ -399,7 +400,7 @@
       "ev_to_ebitda": 15.314,
       "market_cap": 27588315136,
       "enterprise_value": 55391318016,
-      "eps_trailing": 6.31,
+      "eps_trailing": 6.32,
       "eps_forward": 8.36525,
       "earnings_growth": 0.224,
       "revenue_growth": -0.015,
@@ -415,7 +416,7 @@
       "current_ratio": 0.802,
       "quick_ratio": 0.395,
       "free_cash_flow": -2596624896,
-      "dividend_yield_pct": 3.47,
+      "dividend_yield_pct": 3.51,
       "payout_ratio": 0.72550005,
       "target_low": 143.0,
       "target_mean": 156.85715,
@@ -442,13 +443,13 @@
       "latest_price": 132.58,
       "sma_20": 136.8745002746582,
       "sma_50": 142.09060028076172,
-      "sma_200": 140.20917678833007,
+      "sma_200": 140.20917629241944,
       "rsi_14": 39.75154690837493,
       "rsi_status": "BEARISH",
       "macd_data": {
-        "macd": -1.8988961407137595,
-        "signal": -1.9057358358673586,
-        "histogram": 0.006839695153599168,
+        "macd": -1.8988961405460714,
+        "signal": -1.9057358356207583,
+        "histogram": 0.006839695074686958,
         "crossover": "BULLISH"
       },
       "cross_status": "GOLDEN_CROSS",
@@ -459,7 +460,7 @@
         "1m": -4.981006837311098,
         "3m": -9.350791650321744,
         "6m": -9.952449574741962,
-        "1y": 0.11337674040892143
+        "1y": 0.11336520517981619
       },
       "technical_score": 55.0,
       "signals": [
@@ -469,15 +470,15 @@
       ]
     },
     "sent": {
-      "combined_polarity": 0.037,
-      "sentiment_score": 51.5,
+      "combined_polarity": 0.016,
+      "sentiment_score": 50.6,
       "label": "NEUTRAL",
       "news_stats": {
-        "polarity": 0.05231842231842231,
-        "subjectivity": 0.2666786916786917,
-        "positive_count": 4,
-        "negative_count": 1,
-        "neutral_count": 10,
+        "polarity": 0.022202020202020202,
+        "subjectivity": 0.1383030303030303,
+        "positive_count": 2,
+        "negative_count": 0,
+        "neutral_count": 13,
         "total": 15
       },
       "reddit_stats": {
@@ -489,19 +490,16 @@
       },
       "headline_count": 15,
       "positive_highlights": [
-        "EXC or DTE: Which Is the Better Value Stock Right Now? - Yahoo Finance",
         "DTE Energy Co. stock holds steady as 2026 earnings guidance is reaffirmed - ad-hoc-news.de",
-        "DTE Energy Co. stock holds steady as storm restoration efforts progress - ad-hoc-news.de"
+        "Man Group plc Purchases New Position in DTE Energy Company $DTE - MarketBeat"
       ],
-      "negative_highlights": [
-        "DTE Energy (DTE) Down 4.1% Since Last Earnings Report: Can It Rebound? - Yahoo Finance"
-      ],
+      "negative_highlights": [],
       "recent_headlines": [
         "DTE Energy Co. stock underperforms Friday when compared to competitors - MarketWatch",
-        "DTE Energy (DTB) plans 2026 operating earnings talk - stocktitan.net",
         "Are Wall Street Analysts Predicting DTE Energy Stock Will Climb or Sink? - Barchart.com",
-        "DTE Energy (DTE) Down 4.1% Since Last Earnings Report: Can It Rebound? - Yahoo Finance",
-        "DTE Energy Announces Retirement of Longtime Board Director - The Globe and Mail"
+        "Is DTE Energy Company (DTE) a High Growth Utility Stock to Buy on Data Center\u2019s Opportunities? - Yahoo Finance",
+        "DTE Energy Announces Retirement of Longtime Board Director - theglobeandmail.com",
+        "DTE Energy Co. stock holds steady as 2026 earnings guidance is reaffirmed - ad-hoc-news.de"
       ]
     },
     "qual": {
@@ -509,7 +507,7 @@
         "valuation_tier": "Fair Value Range",
         "priced_in_points": [
           "P/E ratio reflects balanced market expectations for mid-range growth.",
-          "Forward P/E is 24.6% lower than trailing P/E, pricing in robust earnings recovery/growth."
+          "Forward P/E is 24.4% lower than trailing P/E, pricing in robust earnings recovery/growth."
         ]
       },
       "macro_policy": {
@@ -531,14 +529,14 @@
       "qualitative_score": 50.0
     },
     "sig": {
-      "composite_score": 49.5,
+      "composite_score": 49.4,
       "signal": "HOLD",
       "confidence_pct": 68.4,
       "pillar_scores": {
         "fundamentals": 10.0,
         "valuation": 65.0,
         "technicals": 55.0,
-        "sentiment": 51.5,
+        "sentiment": 50.6,
         "analyst": 87.0,
         "macro_moat": 50.0
       },
@@ -576,7 +574,7 @@
       "fifty_two_week_low": 229.02,
       "volume": 50423955,
       "avg_volume": 53863248,
-      "pe_ratio": 38.104355,
+      "pe_ratio": 38.148106,
       "forward_pe": 34.703167,
       "peg_ratio": 2.48,
       "price_to_sales": 10.38768,
@@ -584,7 +582,7 @@
       "ev_to_ebitda": 29.002,
       "market_cap": 4849207869440,
       "enterprise_value": 4871152992256,
-      "eps_trailing": 8.72,
+      "eps_trailing": 8.71,
       "eps_forward": 9.57463,
       "earnings_growth": 0.287,
       "revenue_growth": 0.164,
@@ -627,24 +625,24 @@
       "latest_price": 332.27,
       "sma_20": 316.62599792480466,
       "sma_50": 317.8303741455078,
-      "sma_200": 284.5368991851807,
+      "sma_200": 284.5368969726562,
       "rsi_14": 70.61890595778934,
       "rsi_status": "OVERBOUGHT",
       "macd_data": {
-        "macd": 3.2653705894077234,
-        "signal": 1.9506482946471317,
-        "histogram": 1.3147222947605917,
+        "macd": 3.2653705985799775,
+        "signal": 1.950648308125798,
+        "histogram": 1.3147222904541795,
         "crossover": "BULLISH"
       },
       "cross_status": "GOLDEN_CROSS",
-      "fifty_two_week_pos_pct": 89.66105747724296,
+      "fifty_two_week_pos_pct": 89.6610561476868,
       "high_52": 344.2730974331505,
-      "low_52": 228.17710979485463,
+      "low_52": 228.17712472443904,
       "returns": {
         "1m": 8.84819149914624,
         "3m": 14.22956906804449,
         "6m": 33.08130460907832,
-        "1y": 42.477637858314885
+        "1y": 42.477628536031034
       },
       "technical_score": 73.8,
       "signals": [
@@ -655,39 +653,41 @@
       ]
     },
     "sent": {
-      "combined_polarity": 0.08,
-      "sentiment_score": 53.2,
-      "label": "NEUTRAL",
+      "combined_polarity": 0.101,
+      "sentiment_score": 54.0,
+      "label": "BULLISH",
       "news_stats": {
-        "polarity": 0.11409090909090908,
-        "subjectivity": 0.40252525252525245,
+        "polarity": 0.1240909090909091,
+        "subjectivity": 0.4936363636363636,
         "positive_count": 6,
-        "negative_count": 1,
-        "neutral_count": 8,
+        "negative_count": 2,
+        "neutral_count": 7,
         "total": 15
       },
       "reddit_stats": {
-        "polarity": 0.0,
-        "subjectivity": 0.0,
-        "positive_count": 0,
+        "polarity": 0.0475,
+        "subjectivity": 0.11166666666666666,
+        "positive_count": 3,
         "negative_count": 0,
-        "neutral_count": 0
+        "neutral_count": 7,
+        "total": 10
       },
-      "headline_count": 15,
+      "headline_count": 25,
       "positive_highlights": [
+        "Apple: The Products Are Great, The Price Is Not - Seeking Alpha",
         "Could Apple (AAPL) Stock Win as Intel Corporation (INTC) Fades from the Mac Ecosystem? - Yahoo Finance",
-        "Apple: All The Exciting Products And Services Pressuring Margins (NASDAQ:AAPL) - Seeking Alpha",
-        "Apple Stock Pares Day\u2019s Losses As iPhone 18 Pro, Pro Max Debut At First Launch Led By John Ternus - TradingView"
+        "Apple: All The Exciting Products And Services Pressuring Margins (NASDAQ:AAPL) - Seeking Alpha"
       ],
       "negative_highlights": [
-        "AAPL Stock Unmoved After-Hours \u2014 Apple Sues OpenAI Over Alleged 'Rotten' Campaign To Steal AI Hardware Secrets - Stocktwits"
+        "AAPL Stock Unmoved After-Hours \u2014 Apple Sues OpenAI Over Alleged 'Rotten' Campaign To Steal AI Hardware Secrets - Stocktwits",
+        "AAPL Stock Heads For Worst Single-Day Fall In Over A Year \u2014 Wall Street Warns Apple\u2019s AI Supply Chain Headwinds Are Far From Over - Stocktwits"
       ],
       "recent_headlines": [
         "Apple (AAPL) Rises Higher Than Market: Key Facts - Yahoo Finance",
-        "Apple: Why iPhone Duo Will Likely Dominate The Foldables Market (NASDAQ:AAPL) - Seeking Alpha",
-        "Apple Inc Stock (AAPL) Moved Up by 3.29% on Sep 10: Key Drivers Unveiled - TradingKey",
+        "AAPL Stock Tops Nasdaq\u2019s Modest Gains: Analyst Says Siri Finally Shows \u2018AI Chops\u2019 In iOS 27 Beta - Stocktwits",
         "Is Apple Inc (AAPL) Overvalued After 3.6% Rally? GF Value Says O - GuruFocus",
-        "AAPL Stock Gains \u2014 Apple Reportedly Eyes Foldable iPhone, Camera-Equipped AirPods Launches In 2027 - Stocktwits"
+        "Apple: Why iPhone Duo Will Likely Dominate The Foldables Market (NASDAQ:AAPL) - Seeking Alpha",
+        "Apple (NASDAQ: AAPL) legal chief sells shares under pre-set plan - Stock Titan"
       ]
     },
     "qual": {
@@ -695,7 +695,7 @@
         "valuation_tier": "Fair Value Range",
         "priced_in_points": [
           "P/E ratio reflects balanced market expectations for mid-range growth.",
-          "Forward P/E is 8.9% lower than trailing P/E, pricing in robust earnings recovery/growth."
+          "Forward P/E is 9.0% lower than trailing P/E, pricing in robust earnings recovery/growth."
         ]
       },
       "macro_policy": {
@@ -719,14 +719,14 @@
       "qualitative_score": 80.0
     },
     "sig": {
-      "composite_score": 70.6,
+      "composite_score": 70.7,
       "signal": "BUY",
-      "confidence_pct": 74.9,
+      "confidence_pct": 75.0,
       "pillar_scores": {
         "fundamentals": 100.0,
         "valuation": 50.0,
         "technicals": 73.8,
-        "sentiment": 53.2,
+        "sentiment": 54.0,
         "analyst": 57.0,
         "macro_moat": 80.0
       },
@@ -762,7 +762,7 @@
       "fifty_two_week_low": 82.28,
       "volume": 9320019,
       "avg_volume": 13945717,
-      "pe_ratio": 22.132113,
+      "pe_ratio": 22.12312,
       "forward_pe": 6.1700664,
       "peg_ratio": null,
       "price_to_sales": 11.811214,
@@ -770,7 +770,7 @@
       "ev_to_ebitda": 18.593,
       "market_cap": 239153479680,
       "enterprise_value": 234592468992,
-      "eps_trailing": 73.8,
+      "eps_trailing": 73.83,
       "eps_forward": 264.72162,
       "earnings_growth": null,
       "revenue_growth": 3.716,
@@ -840,15 +840,15 @@
       ]
     },
     "sent": {
-      "combined_polarity": 0.021,
-      "sentiment_score": 50.8,
+      "combined_polarity": 0.027,
+      "sentiment_score": 51.1,
       "label": "NEUTRAL",
       "news_stats": {
-        "polarity": 0.029999999999999995,
-        "subjectivity": 0.2888888888888889,
-        "positive_count": 4,
+        "polarity": 0.03833333333333333,
+        "subjectivity": 0.3055555555555555,
+        "positive_count": 5,
         "negative_count": 2,
-        "neutral_count": 9,
+        "neutral_count": 8,
         "total": 15
       },
       "reddit_stats": {
@@ -862,7 +862,7 @@
       "positive_highlights": [
         "Sandisk (NASDAQ:SNDK): A Value Opportunity Backed by Strong Fundamentals - ChartMill",
         "Sandisk Shares Could Double (Or More) By 2030 (NASDAQ:SNDK) - Seeking Alpha",
-        "Sandisk (SNDK) tech chief sells shares near $1,560 - stocktitan.net"
+        "Micron, Sandisk and the Next Leg Higher in Memory Stocks - tradingview.com"
       ],
       "negative_highlights": [
         "SanDisk Corporation Stock (SNDK) Moved Down by 3.92% on Sep 10: What Signal Does It Send? - TradingKey",
@@ -907,12 +907,12 @@
     "sig": {
       "composite_score": 82.6,
       "signal": "STRONG BUY",
-      "confidence_pct": 75.3,
+      "confidence_pct": 75.4,
       "pillar_scores": {
         "fundamentals": 100.0,
         "valuation": 70.0,
         "technicals": 86.4,
-        "sentiment": 50.8,
+        "sentiment": 51.1,
         "analyst": 100.0,
         "macro_moat": 80.0
       },
@@ -949,12 +949,12 @@
       "avg_volume": 132796621,
       "pe_ratio": 27.631645,
       "forward_pe": 14.022135,
-      "peg_ratio": 0.55,
+      "peg_ratio": 0.59,
       "price_to_sales": 17.39792,
       "price_to_book": 23.019087,
-      "ev_to_ebitda": 26.007,
+      "ev_to_ebitda": 26.021,
       "market_cap": 5271048421376,
-      "enterprise_value": 5234287968256,
+      "enterprise_value": 5237179940864,
       "eps_trailing": 7.9,
       "eps_forward": 15.56753,
       "earnings_growth": 1.278,
@@ -974,15 +974,15 @@
       "dividend_yield_pct": 46.0,
       "payout_ratio": 0.0354,
       "target_low": 180.0,
-      "target_mean": 327.17758,
+      "target_mean": 327.6544,
       "target_high": 515.0,
       "target_median": 315.0,
       "recommendation_key": "strong_buy",
-      "recommendation_mean": 1.29508,
-      "number_of_analysts": 58,
-      "implied_upside_pct": 49.88207430482385,
+      "recommendation_mean": 1.28333,
+      "number_of_analysts": 57,
+      "implied_upside_pct": 50.10050849786981,
       "rec_breakdown": {
-        "strongBuy": 10,
+        "strongBuy": 9,
         "buy": 48,
         "hold": 2,
         "sell": 1,
@@ -991,20 +991,20 @@
       "next_earnings_date": "2026-11-17",
       "earnings_high_est": 2.7,
       "earnings_low_est": 2.34,
-      "earnings_avg_est": 2.47269,
+      "earnings_avg_est": 2.46983,
       "_ticker_obj": "yfinance.Ticker object <NVDA>"
     },
     "tech": {
       "latest_price": 218.29,
       "sma_20": 219.94082489013672,
       "sma_50": 212.35615325927733,
-      "sma_200": 197.1051927947998,
+      "sma_200": 197.10519287109375,
       "rsi_14": 52.56797141869234,
       "rsi_status": "NEUTRAL",
       "macd_data": {
-        "macd": 2.6047847614717625,
-        "signal": 3.1118654509605337,
-        "histogram": -0.5070806894887712,
+        "macd": 2.604784759123362,
+        "signal": 3.1118654475260765,
+        "histogram": -0.5070806884027146,
         "crossover": "BEARISH"
       },
       "cross_status": "GOLDEN_CROSS",
@@ -1014,7 +1014,7 @@
       "returns": {
         "1m": -3.0029956420737247,
         "3m": 6.503363608114232,
-        "6m": 21.38083904155499,
+        "6m": 21.38082874275884,
         "1y": NaN
       },
       "technical_score": 54.2,
@@ -1025,15 +1025,15 @@
       ]
     },
     "sent": {
-      "combined_polarity": -0.018,
-      "sentiment_score": 49.3,
+      "combined_polarity": -0.027,
+      "sentiment_score": 48.9,
       "label": "NEUTRAL",
       "news_stats": {
-        "polarity": -0.026388888888888892,
-        "subjectivity": 0.15472222222222223,
-        "positive_count": 2,
+        "polarity": -0.03805555555555556,
+        "subjectivity": 0.13694444444444445,
+        "positive_count": 1,
         "negative_count": 3,
-        "neutral_count": 10,
+        "neutral_count": 11,
         "total": 15
       },
       "reddit_stats": {
@@ -1045,8 +1045,7 @@
       },
       "headline_count": 15,
       "positive_highlights": [
-        "Nvidia\u2019s (NVDA) Strong Results Reinforce Long Term Outlook - Yahoo Finance",
-        "NVIDIA Corporation $NVDA Shares Sold by First Pacific Financial - MarketBeat"
+        "Nvidia\u2019s (NVDA) Strong Results Reinforce Long Term Outlook - Yahoo Finance"
       ],
       "negative_highlights": [
         "Nvidia gap with other chip stocks could narrow amid increased cash return: Melius (NVDA:NASDAQ) - Seeking Alpha",
@@ -1056,9 +1055,9 @@
       "recent_headlines": [
         "Investors Heavily Search NVIDIA Corporation (NVDA): Here is What You Need to Know - Yahoo Finance",
         "Nvidia On The Offensive (NASDAQ:NVDA) - Seeking Alpha",
-        "NVIDIA Corporation $NVDA Stock Holdings Lifted by E Fund Management Hong Kong Co. Ltd. - MarketBeat",
-        "Executive at NVIDIA (NASDAQ: NVDA) receives 172,507-share stock award - stocktitan.net",
-        "It's About To Get Worse For Nvidia (NASDAQ:NVDA) - Seeking Alpha"
+        "NVIDIA Corporation $NVDA Shares Purchased by Synergy Asset Management LLC - MarketBeat",
+        "Executive at NVIDIA (NASDAQ: NVDA) receives 172,507-share stock award - Stock Titan",
+        "NVIDIA Corporation $NVDA Shares Bought by Allegheny Financial Group - MarketBeat"
       ]
     },
     "qual": {
@@ -1067,7 +1066,7 @@
         "priced_in_points": [
           "P/E ratio reflects balanced market expectations for mid-range growth.",
           "Forward P/E is 49.3% lower than trailing P/E, pricing in robust earnings recovery/growth.",
-          "PEG ratio of 0.55 suggests stock may be undervalued relative to expected growth."
+          "PEG ratio of 0.59 suggests stock may be undervalued relative to expected growth."
         ]
       },
       "macro_policy": {
@@ -1093,12 +1092,12 @@
     "sig": {
       "composite_score": 79.5,
       "signal": "BUY",
-      "confidence_pct": 72.2,
+      "confidence_pct": 72.1,
       "pillar_scores": {
         "fundamentals": 100.0,
         "valuation": 80.0,
         "technicals": 54.2,
-        "sentiment": 49.3,
+        "sentiment": 48.9,
         "analyst": 100.0,
         "macro_moat": 80.0
       },
