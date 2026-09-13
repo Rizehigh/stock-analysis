@@ -1,187 +1,4 @@
 {
-  "ORCL": {
-    "data": {
-      "symbol": "ORCL",
-      "company_name": "Oracle Corporation",
-      "exchange_info": {
-        "country": "United States",
-        "exchange": "NYSE/NASDAQ",
-        "central_bank": "Federal Reserve (FED)",
-        "currency_symbol": "$"
-      },
-      "currency": "USD",
-      "sector": "Technology",
-      "industry": "Software - Infrastructure",
-      "summary": "Oracle Corporation offers products and services that build, run and support enterprise information technology frameworks worldwide. Its Oracle cloud software as a service offering includes various cloud software applications, including Oracle Fusion cloud enterprise resource planning ERP, Oracle Fusion cloud enterprise performance management EPM, Oracle Fusion cloud supply chain and manufacturing management SCM, Oracle Fusion cloud human capital management HCM, and NetSuite applications suite, Oracle Health applications, as well as Oracle Fusion Sales, Service, and Marketing. The company also offers cloud-based industry solutions for various industries; Oracle cloud license and on-premise license; and Oracle license support services. In addition, it provides cloud and license business' infrastructure technologies, such as the Oracle Database and MySQL Database; Java, a software development language; and middleware, including development tools and others. The company's cloud and license business' infrastructure technologies also comprise cloud-based compute, storage, and networking capabilities; and Oracle autonomous database, as well as AI, Internet-of-Things, machine learning, digital assistant, and blockchain. Further, it provides hardware products and other hardware-related software offerings, including Oracle engineered systems, enterprise servers, storage solutions, industry-specific hardware, virtualization software, operating systems, management software, and related hardware support services, and consulting and advanced customer services. It markets and sells its cloud, license, hardware, support, and services offerings directly to businesses in various industries, government agencies, and educational institutions, as well as through indirect channels. Oracle Corporation has a strategic alliance with Metron, Inc. The company was founded in 1977 and is headquartered in Austin, Texas.",
-      "current_price": 150.28,
-      "previous_close": 152.94,
-      "fifty_two_week_high": 329.5,
-      "fifty_two_week_low": 114.5,
-      "volume": 78527486,
-      "avg_volume": 32337727,
-      "pe_ratio": 23.517998,
-      "forward_pe": 13.669126,
-      "peg_ratio": 0.91,
-      "price_to_sales": 6.030946,
-      "price_to_book": 11.52454,
-      "ev_to_ebitda": 16.503,
-      "market_cap": 432877174784,
-      "enterprise_value": 564584448000,
-      "eps_trailing": 6.39,
-      "eps_forward": 10.99412,
-      "earnings_growth": 0.545,
-      "revenue_growth": 0.296,
-      "total_revenue": 71776002048,
-      "net_income": 18736001024,
-      "profit_margins": 0.2636,
-      "operating_margins": 0.35265,
-      "return_on_equity": 0.41192,
-      "return_on_assets": 0.06335,
-      "total_debt": 155931000832,
-      "total_cash": 37077000192,
-      "debt_to_equity": 232.054,
-      "current_ratio": 1.171,
-      "quick_ratio": 1.02,
-      "free_cash_flow": -41130123264,
-      "dividend_yield_pct": 1.33,
-      "payout_ratio": 0.31350002,
-      "target_low": 110.0,
-      "target_mean": 241.41318,
-      "target_high": 400.0,
-      "target_median": 240.0,
-      "recommendation_key": "buy",
-      "recommendation_mean": 1.59091,
-      "number_of_analysts": 41,
-      "implied_upside_pct": 60.642254458344425,
-      "rec_breakdown": {
-        "strongBuy": 8,
-        "buy": 28,
-        "hold": 7,
-        "sell": 1,
-        "strongSell": 0
-      },
-      "next_earnings_date": "2026-12-10",
-      "earnings_high_est": 1.99,
-      "earnings_low_est": 1.77,
-      "earnings_avg_est": 1.87407,
-      "_ticker_obj": "yfinance.Ticker object <ORCL>"
-    },
-    "tech": {
-      "latest_price": 150.28,
-      "sma_20": 149.37799987792968,
-      "sma_50": 140.62994674682616,
-      "sma_200": 166.81750896453858,
-      "rsi_14": 53.30901257067493,
-      "rsi_status": "NEUTRAL",
-      "macd_data": {
-        "macd": 3.2260331099253676,
-        "signal": 2.7641369108182503,
-        "histogram": 0.4618961991071173,
-        "crossover": "BULLISH"
-      },
-      "cross_status": "DEATH_CROSS",
-      "fifty_two_week_pos_pct": 16.93432905441672,
-      "high_52": 325.78678842264526,
-      "low_52": 114.5,
-      "returns": {
-        "1m": -3.802330799057707,
-        "3m": -18.099810167024412,
-        "6m": -2.437296070547279,
-        "1y": -47.97971912877947
-      },
-      "technical_score": 60.3,
-      "signals": [
-        "Price is 6.9% above 50-day SMA (Bullish)",
-        "50-day SMA is below 200-day SMA (Death Cross)",
-        "MACD histogram indicates positive bullish momentum"
-      ]
-    },
-    "sent": {
-      "combined_polarity": 0.026,
-      "sentiment_score": 51.0,
-      "label": "NEUTRAL",
-      "news_stats": {
-        "polarity": 0.03666666666666667,
-        "subjectivity": 0.06666666666666667,
-        "positive_count": 1,
-        "negative_count": 0,
-        "neutral_count": 14,
-        "total": 15
-      },
-      "reddit_stats": {
-        "polarity": 0.0,
-        "subjectivity": 0.0,
-        "positive_count": 0,
-        "negative_count": 0,
-        "neutral_count": 0
-      },
-      "headline_count": 15,
-      "positive_highlights": [
-        "Oracle's stock edges up on earnings beat as cloud infrastructure revenue more than doubles - CNBC"
-      ],
-      "negative_highlights": [],
-      "recent_headlines": [
-        "Larry Ellison Cancels His Plan to Sell Oracle Stock - Oracle - Investor Relations",
-        "Oracle's stock edges up on earnings beat as cloud infrastructure revenue more than doubles - CNBC",
-        "Oracle Announces Q1 Results Driven by Triple Digit Growth in Cloud Infrastructure Revenues - Oracle - Investor Relations",
-        "ORCL Stock Bounces Back After Earnings, Barclays Says Growth Has \u2018Inflected\u2019 - Stocktwits",
-        "Wall Street Analysts Believe Oracle (ORCL) Could Rally 53.94%: Here's is How to Trade - Yahoo Finance"
-      ]
-    },
-    "qual": {
-      "priced_in": {
-        "valuation_tier": "Fair Value Range",
-        "priced_in_points": [
-          "P/E ratio reflects balanced market expectations for mid-range growth.",
-          "Forward P/E is 41.9% lower than trailing P/E, pricing in robust earnings recovery/growth.",
-          "PEG ratio of 0.91 suggests stock may be undervalued relative to expected growth."
-        ]
-      },
-      "macro_policy": {
-        "macro_factors": [
-          "Operating in United States under Federal Reserve (FED) interest rate policy environment.",
-          "Consumer sentiment and discretionary spending impact demand during inflation/rate shifts."
-        ],
-        "policy_risks": [
-          "Antitrust oversight, data privacy laws, and international tariff trade policies affect cross-border supply chains."
-        ]
-      },
-      "moat": {
-        "moat_tier": "Wide Moat",
-        "moat_score": 100.0,
-        "reasons": [
-          "Strong Return on Equity (ROE: 41.2%), indicating high capital efficiency and competitive advantage.",
-          "High net profit margin (26.4%), demonstrating pricing power.",
-          "Mega-cap scale ($432.88B) provides massive distribution and cost advantages."
-        ]
-      },
-      "qualitative_score": 80.0
-    },
-    "sig": {
-      "composite_score": 74.7,
-      "signal": "BUY",
-      "confidence_pct": 76.7,
-      "pillar_scores": {
-        "fundamentals": 72.0,
-        "valuation": 85.0,
-        "technicals": 60.3,
-        "sentiment": 51.0,
-        "analyst": 100.0,
-        "macro_moat": 80.0
-      },
-      "key_positives": [
-        "Exceptional Return on Equity (41.2%)",
-        "High profit margin (26.4%)",
-        "Strong YoY revenue growth (29.6%)",
-        "Attractive Forward P/E (13.7x)"
-      ],
-      "key_risks": [
-        "Elevated debt-to-equity ratio (232.1)",
-        "Negative free cash flow generation",
-        "50-day SMA is below 200-day SMA (Death Cross)"
-      ]
-    }
-  },
   "MU": {
     "data": {
       "symbol": "MU",
@@ -253,13 +70,13 @@
       "latest_price": 975.26,
       "sma_20": 962.8070007324219,
       "sma_50": 928.607001953125,
-      "sma_200": 621.9325054931641,
+      "sma_200": 621.9325048828125,
       "rsi_14": 51.32284673692853,
       "rsi_status": "NEUTRAL",
       "macd_data": {
-        "macd": 18.4393783426018,
-        "signal": 14.558902883116648,
-        "histogram": 3.880475459485151,
+        "macd": 18.43937834319638,
+        "signal": 14.558902883990822,
+        "histogram": 3.8804754592055595,
         "crossover": "BULLISH"
       },
       "cross_status": "GOLDEN_CROSS",
@@ -269,7 +86,7 @@
       "returns": {
         "1m": 2.6773193574225473,
         "3m": -0.6316152914527029,
-        "6m": 128.99577346978975,
+        "6m": 128.99578987888432,
         "1y": 521.2716019585695
       },
       "technical_score": 77.5,
@@ -280,15 +97,15 @@
       ]
     },
     "sent": {
-      "combined_polarity": 0.068,
-      "sentiment_score": 52.7,
+      "combined_polarity": 0.057,
+      "sentiment_score": 52.3,
       "label": "NEUTRAL",
       "news_stats": {
-        "polarity": 0.09740740740740741,
-        "subjectivity": 0.25560846560846556,
-        "positive_count": 6,
+        "polarity": 0.08074074074074075,
+        "subjectivity": 0.2103703703703704,
+        "positive_count": 5,
         "negative_count": 2,
-        "neutral_count": 7,
+        "neutral_count": 8,
         "total": 15
       },
       "reddit_stats": {
@@ -302,18 +119,18 @@
       "positive_highlights": [
         "Micron Technology (MU) Rose on Elevated Demand for High-Bandwidth Memory - Yahoo Finance",
         "Applied Materials vs. Micron Technology: Which Technology Stock Is a Better Buy in 2026? - The Motley Fool",
-        "Micron: 3 Simple Reasons Why I'm Still Bullish (NASDAQ:MU) - Seeking Alpha"
+        "Micron Technology (NASDAQ:MU): Strong Growth Meets a High-Quality Technical Setup - ChartMill"
       ],
       "negative_highlights": [
         "Micron Technology Inc Stock (MU) Opened Down by 3.13% on Sep 10: What Signal Does It Send? - TradingKey",
         "Micron's Q4 Might Change The Game (Preview) (NASDAQ:MU) - Seeking Alpha"
       ],
       "recent_headlines": [
+        "MU Stock Slides As Legal Fight And Chip Selloff Rattle Traders - StocksToTrade",
+        "What's Going On With Micron Technology Stock Thursday? - Benzinga",
         "Micron Technology Stock (MU) Opinions on AI Memory Demand and Price Volatility - Moomoo",
         "Three Seasons Wealth LLC Cuts Stock Holdings in Micron Technology, Inc. $MU - MarketBeat",
-        "Micron Technology, Inc. (MU) Is a Trending Stock: Facts to Know Before Betting on It - Yahoo Finance",
-        "MU Stock Slides As Legal Fight And Chip Selloff Rattle Traders - StocksToTrade",
-        "MU Stock Slides As Legal Fears And Chip Sell-Off Hit Momentum - timothysykes.com"
+        "Micron Technology, Inc. (MU) Is a Trending Stock: Facts to Know Before Betting on It - Yahoo Finance"
       ]
     },
     "qual": {
@@ -348,12 +165,12 @@
     "sig": {
       "composite_score": 84.5,
       "signal": "STRONG BUY",
-      "confidence_pct": 76.8,
+      "confidence_pct": 76.6,
       "pillar_scores": {
         "fundamentals": 100.0,
         "valuation": 85.0,
         "technicals": 77.5,
-        "sentiment": 52.7,
+        "sentiment": 52.3,
         "analyst": 100.0,
         "macro_moat": 80.0
       },
@@ -368,10 +185,10 @@
       ]
     }
   },
-  "DTE": {
+  "ORCL": {
     "data": {
-      "symbol": "DTE",
-      "company_name": "DTE Energy Company",
+      "symbol": "ORCL",
+      "company_name": "Oracle Corporation",
       "exchange_info": {
         "country": "United States",
         "exchange": "NYSE/NASDAQ",
@@ -379,102 +196,102 @@
         "currency_symbol": "$"
       },
       "currency": "USD",
-      "sector": "Utilities",
-      "industry": "Utilities - Regulated Electric",
-      "summary": "DTE Energy Company engages in energy-related businesses and services. The company operates through four segments: Electric, Gas, DTE Vantage, and Energy Trading.The company's Electric segment generates, purchases, distributes, and sells electricity to approximately 2.3 million residential, commercial, and industrial customers in southeastern Michigan. It generates electricity through coal-fired plants, natural gas plant, hydroelectric pumped storage, and nuclear plants, as well as wind and solar assets. This segment owns and operates 702 distribution substations with a capacity of approximately 37,870,000 kilovolt-amperes (kVA) and approximately 4,56,900 line transformers with a capacity of approximately 33,770,000 kVA. The company's Gas segment purchases, stores, transports, distributes, and sells natural gas to approximately 1.4 million residential, commercial, and industrial customers throughout Michigan; and sells storage and transportation capacity. This segment has approximately 21,000 miles of distribution mains; 1,242,000 service pipelines; and 1,361,000 active meters, as well as owns approximately 2,000 miles of transmission pipelines. Its DTE Vantage segment offers metallurgical and petroleum coke to steel and other industries; and power generation, steam production, chilled water production, and wastewater treatment services, as well as compressed air supply to industrial customers. This segment also owns and operates 2 renewable generating plants with a capacity of 70 MWs; and 22 gas recovery sites. Its Energy Trading segment engages in power, natural gas, and environmental marketing and trading; structured transactions; and the optimization of contracted natural gas pipeline transportation and storage positions. The company was founded in 1849 and is based in Detroit, Michigan.",
-      "current_price": 132.58,
-      "previous_close": 134.34,
-      "fifty_two_week_high": 155.75,
-      "fifty_two_week_low": 126.23,
-      "volume": 1683927,
-      "avg_volume": 1307682,
-      "pe_ratio": 20.977848,
-      "forward_pe": 15.8489,
-      "peg_ratio": 1.75,
-      "price_to_sales": 1.6755733,
-      "price_to_book": 2.2708278,
-      "ev_to_ebitda": 15.314,
-      "market_cap": 27588315136,
-      "enterprise_value": 55391318016,
-      "eps_trailing": 6.32,
-      "eps_forward": 8.36525,
-      "earnings_growth": 0.224,
-      "revenue_growth": -0.015,
-      "total_revenue": 16465000448,
-      "net_income": 1314000000,
-      "profit_margins": 0.07999,
-      "operating_margins": 0.13623999,
-      "return_on_equity": 0.1103,
-      "return_on_assets": 0.02769,
-      "total_debt": 27840000000,
-      "total_cash": 42000000,
-      "debt_to_equity": 229.06,
-      "current_ratio": 0.802,
-      "quick_ratio": 0.395,
-      "free_cash_flow": -2596624896,
-      "dividend_yield_pct": 3.51,
-      "payout_ratio": 0.72550005,
-      "target_low": 143.0,
-      "target_mean": 156.85715,
-      "target_high": 168.0,
-      "target_median": 156.5,
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "summary": "Oracle Corporation offers products and services that build, run and support enterprise information technology frameworks worldwide. Its Oracle cloud software as a service offering includes various cloud software applications, including Oracle Fusion cloud enterprise resource planning ERP, Oracle Fusion cloud enterprise performance management EPM, Oracle Fusion cloud supply chain and manufacturing management SCM, Oracle Fusion cloud human capital management HCM, and NetSuite applications suite, Oracle Health applications, as well as Oracle Fusion Sales, Service, and Marketing. The company also offers cloud-based industry solutions for various industries; Oracle cloud license and on-premise license; and Oracle license support services. In addition, it provides cloud and license business' infrastructure technologies, such as the Oracle Database and MySQL Database; Java, a software development language; and middleware, including development tools and others. The company's cloud and license business' infrastructure technologies also comprise cloud-based compute, storage, and networking capabilities; and Oracle autonomous database, as well as AI, Internet-of-Things, machine learning, digital assistant, and blockchain. Further, it provides hardware products and other hardware-related software offerings, including Oracle engineered systems, enterprise servers, storage solutions, industry-specific hardware, virtualization software, operating systems, management software, and related hardware support services, and consulting and advanced customer services. It markets and sells its cloud, license, hardware, support, and services offerings directly to businesses in various industries, government agencies, and educational institutions, as well as through indirect channels. Oracle Corporation has a strategic alliance with Metron, Inc. The company was founded in 1977 and is headquartered in Austin, Texas.",
+      "current_price": 150.28,
+      "previous_close": 152.94,
+      "fifty_two_week_high": 329.5,
+      "fifty_two_week_low": 114.5,
+      "volume": 78527486,
+      "avg_volume": 32337727,
+      "pe_ratio": 23.517998,
+      "forward_pe": 13.669126,
+      "peg_ratio": 0.91,
+      "price_to_sales": 6.030946,
+      "price_to_book": 11.52454,
+      "ev_to_ebitda": 16.503,
+      "market_cap": 432877174784,
+      "enterprise_value": 564584448000,
+      "eps_trailing": 6.39,
+      "eps_forward": 10.99412,
+      "earnings_growth": 0.545,
+      "revenue_growth": 0.296,
+      "total_revenue": 71776002048,
+      "net_income": 18736001024,
+      "profit_margins": 0.2636,
+      "operating_margins": 0.35265,
+      "return_on_equity": 0.41192,
+      "return_on_assets": 0.06335,
+      "total_debt": 155931000832,
+      "total_cash": 37077000192,
+      "debt_to_equity": 232.054,
+      "current_ratio": 1.171,
+      "quick_ratio": 1.02,
+      "free_cash_flow": -41130123264,
+      "dividend_yield_pct": 1.33,
+      "payout_ratio": 0.31350002,
+      "target_low": 110.0,
+      "target_mean": 241.41318,
+      "target_high": 400.0,
+      "target_median": 240.0,
       "recommendation_key": "buy",
-      "recommendation_mean": 1.94118,
-      "number_of_analysts": 14,
-      "implied_upside_pct": 18.31132146628449,
+      "recommendation_mean": 1.59091,
+      "number_of_analysts": 41,
+      "implied_upside_pct": 60.642254458344425,
       "rec_breakdown": {
-        "strongBuy": 2,
-        "buy": 8,
+        "strongBuy": 8,
+        "buy": 28,
         "hold": 7,
-        "sell": 0,
+        "sell": 1,
         "strongSell": 0
       },
-      "next_earnings_date": "2026-10-29",
-      "earnings_high_est": 2.5666,
-      "earnings_low_est": 2.26,
-      "earnings_avg_est": 2.40395,
-      "_ticker_obj": "yfinance.Ticker object <DTE>"
+      "next_earnings_date": "2026-12-10",
+      "earnings_high_est": 1.99,
+      "earnings_low_est": 1.77,
+      "earnings_avg_est": 1.87407,
+      "_ticker_obj": "yfinance.Ticker object <ORCL>"
     },
     "tech": {
-      "latest_price": 132.58,
-      "sma_20": 136.8745002746582,
-      "sma_50": 142.09060028076172,
-      "sma_200": 140.20917694091796,
-      "rsi_14": 39.75154690837493,
-      "rsi_status": "BEARISH",
+      "latest_price": 150.28,
+      "sma_20": 149.37799987792968,
+      "sma_50": 140.62994674682616,
+      "sma_200": 166.81750804901122,
+      "rsi_14": 53.30901257067493,
+      "rsi_status": "NEUTRAL",
       "macd_data": {
-        "macd": -1.8988961407147826,
-        "signal": -1.9057358358688445,
-        "histogram": 0.006839695154061909,
+        "macd": 3.2260331099057566,
+        "signal": 2.76413691078946,
+        "histogram": 0.46189619911629665,
         "crossover": "BULLISH"
       },
-      "cross_status": "GOLDEN_CROSS",
-      "fifty_two_week_pos_pct": 26.425855072672142,
-      "high_52": 155.75,
-      "low_52": 124.25795884493672,
+      "cross_status": "DEATH_CROSS",
+      "fifty_two_week_pos_pct": 16.93433151041919,
+      "high_52": 325.7867577795181,
+      "low_52": 114.5,
       "returns": {
-        "1m": -4.981006837311098,
-        "3m": -9.350791650321744,
-        "6m": -9.952449574741962,
-        "1y": 0.11337674040892143
+        "1m": -3.802330799057707,
+        "3m": -18.099810167024412,
+        "6m": -2.437296070547279,
+        "1y": -47.97972462411505
       },
-      "technical_score": 55.0,
+      "technical_score": 60.3,
       "signals": [
-        "Price is 6.7% below 50-day SMA (Bearish)",
-        "50-day SMA is above 200-day SMA (Golden Cross)",
+        "Price is 6.9% above 50-day SMA (Bullish)",
+        "50-day SMA is below 200-day SMA (Death Cross)",
         "MACD histogram indicates positive bullish momentum"
       ]
     },
     "sent": {
-      "combined_polarity": 0.06,
-      "sentiment_score": 52.4,
+      "combined_polarity": -0.007,
+      "sentiment_score": 49.7,
       "label": "NEUTRAL",
       "news_stats": {
-        "polarity": 0.08639249639249638,
-        "subjectivity": 0.20482683982683983,
-        "positive_count": 4,
-        "negative_count": 0,
-        "neutral_count": 11,
+        "polarity": -0.009999999999999986,
+        "subjectivity": 0.1111111111111111,
+        "positive_count": 1,
+        "negative_count": 1,
+        "neutral_count": 13,
         "total": 15
       },
       "reddit_stats": {
@@ -486,17 +303,17 @@
       },
       "headline_count": 15,
       "positive_highlights": [
-        "DTE Energy Company Announces Retirement of David A. Thomas from Director Role, Effective September 3, 2026 - marketscreener.com",
-        "EXC or DTE: Which Is the Better Value Stock Right Now? - Yahoo Finance",
-        "DTE Energy Co. stock holds steady as 2026 earnings guidance is reaffirmed - ad-hoc-news.de"
+        "Oracle's stock edges up on earnings beat as cloud infrastructure revenue more than doubles - CNBC"
       ],
-      "negative_highlights": [],
+      "negative_highlights": [
+        "ORCL Stock Sees Price Target Cut Ahead Of Earnings: Analyst Says Bad News Is Priced In - Stocktwits"
+      ],
       "recent_headlines": [
-        "DTE Energy Co. stock underperforms Friday when compared to competitors - MarketWatch",
-        "Are Wall Street Analysts Predicting DTE Energy Stock Will Climb or Sink? - Barchart.com",
-        "DTE Energy Co. stock holds steady as 2026 earnings guidance is reaffirmed - ad-hoc-news.de",
-        "DTE Energy Announces Retirement of Longtime Board Director - theglobeandmail.com",
-        "DTE Energy Co Pref Series E stock hits 52-week low at 19.11 USD - Investing.com India"
+        "Larry Ellison Cancels His Plan to Sell Oracle Stock - Oracle - Investor Relations",
+        "Oracle Announces Q1 Results Driven by Triple Digit Growth in Cloud Infrastructure Revenues - Oracle - Investor Relations",
+        "Oracle's stock edges up on earnings beat as cloud infrastructure revenue more than doubles - CNBC",
+        "Wall Street Analysts Believe Oracle (ORCL) Could Rally 53.94%: Here's is How to Trade - Yahoo Finance",
+        "ORCL Stock Bounces Back After Earnings, Barclays Says Growth Has \u2018Inflected\u2019 - Stocktwits"
       ]
     },
     "qual": {
@@ -504,7 +321,196 @@
         "valuation_tier": "Fair Value Range",
         "priced_in_points": [
           "P/E ratio reflects balanced market expectations for mid-range growth.",
-          "Forward P/E is 24.4% lower than trailing P/E, pricing in robust earnings recovery/growth."
+          "Forward P/E is 41.9% lower than trailing P/E, pricing in robust earnings recovery/growth.",
+          "PEG ratio of 0.91 suggests stock may be undervalued relative to expected growth."
+        ]
+      },
+      "macro_policy": {
+        "macro_factors": [
+          "Operating in United States under Federal Reserve (FED) interest rate policy environment.",
+          "Consumer sentiment and discretionary spending impact demand during inflation/rate shifts."
+        ],
+        "policy_risks": [
+          "Antitrust oversight, data privacy laws, and international tariff trade policies affect cross-border supply chains."
+        ]
+      },
+      "moat": {
+        "moat_tier": "Wide Moat",
+        "moat_score": 100.0,
+        "reasons": [
+          "Strong Return on Equity (ROE: 41.2%), indicating high capital efficiency and competitive advantage.",
+          "High net profit margin (26.4%), demonstrating pricing power.",
+          "Mega-cap scale ($432.88B) provides massive distribution and cost advantages."
+        ]
+      },
+      "qualitative_score": 80.0
+    },
+    "sig": {
+      "composite_score": 74.5,
+      "signal": "BUY",
+      "confidence_pct": 76.3,
+      "pillar_scores": {
+        "fundamentals": 72.0,
+        "valuation": 85.0,
+        "technicals": 60.3,
+        "sentiment": 49.7,
+        "analyst": 100.0,
+        "macro_moat": 80.0
+      },
+      "key_positives": [
+        "Exceptional Return on Equity (41.2%)",
+        "High profit margin (26.4%)",
+        "Strong YoY revenue growth (29.6%)",
+        "Attractive Forward P/E (13.7x)"
+      ],
+      "key_risks": [
+        "Elevated debt-to-equity ratio (232.1)",
+        "Negative free cash flow generation",
+        "50-day SMA is below 200-day SMA (Death Cross)"
+      ]
+    }
+  },
+  "NBIS": {
+    "data": {
+      "symbol": "NBIS",
+      "company_name": "Nebius Group N.V.",
+      "exchange_info": {
+        "country": "United States",
+        "exchange": "NYSE/NASDAQ",
+        "central_bank": "Federal Reserve (FED)",
+        "currency_symbol": "$"
+      },
+      "currency": "USD",
+      "sector": "Communication Services",
+      "industry": "Internet Content & Information",
+      "summary": "Nebius Group N.V., a technology company, engages in building full-stack infrastructure to service the global AI industry in the United States, the United Kingdom, and internationally. It offers Nebius builds full-stack infrastructure for AI, including large-scale GPU clusters, cloud platforms, and tools and services for developers. The company also provides TripleTen, an edtech platform for re-skilling individuals for careers in technolgy; and Avride, which develops autonomous driving technology for self-driving cars and delivery robotics. It has a strategic alliance with NVIDIA Corporation to support the expansion of the company's AI cloud infrastructure. The company was formerly known as Yandex N.V. and changed its name to Nebius Group N.V. in August 2024. Nebius Group N.V. was founded in 1989 and is based in Schiphol, the Netherlands.",
+      "current_price": 224.55,
+      "previous_close": 228.11,
+      "fifty_two_week_high": 299.86,
+      "fifty_two_week_low": 73.52,
+      "volume": 11161710,
+      "avg_volume": 20911350,
+      "pe_ratio": null,
+      "forward_pe": -71.48747,
+      "peg_ratio": 0.56,
+      "price_to_sales": 45.048405,
+      "price_to_book": 5.9527597,
+      "ev_to_ebitda": 246.911,
+      "market_cap": 61045092352,
+      "enterprise_value": 63703093248,
+      "eps_trailing": -0.07,
+      "eps_forward": -3.14111,
+      "earnings_growth": null,
+      "revenue_growth": 4.54,
+      "total_revenue": 1355100032,
+      "net_income": 42400000,
+      "profit_margins": 0.03129,
+      "operating_margins": -0.00223,
+      "return_on_equity": 0.00601,
+      "return_on_assets": -0.01918,
+      "total_debt": 10195300352,
+      "total_cash": 8042100224,
+      "debt_to_equity": 98.596,
+      "current_ratio": 4.03,
+      "quick_ratio": 3.605,
+      "free_cash_flow": -9614650368,
+      "dividend_yield_pct": 0.0,
+      "payout_ratio": 0.0,
+      "target_low": 144.0,
+      "target_mean": 290.70587,
+      "target_high": 415.0,
+      "target_median": 300.0,
+      "recommendation_key": "buy",
+      "recommendation_mean": 1.6,
+      "number_of_analysts": 17,
+      "implied_upside_pct": 29.461531952794473,
+      "rec_breakdown": {
+        "strongBuy": 1,
+        "buy": 3,
+        "hold": 1,
+        "sell": 0,
+        "strongSell": 0
+      },
+      "next_earnings_date": "2026-11-10",
+      "earnings_high_est": 0.31,
+      "earnings_low_est": -1.07,
+      "earnings_avg_est": -0.66667,
+      "_ticker_obj": "yfinance.Ticker object <NBIS>"
+    },
+    "tech": {
+      "latest_price": 224.55,
+      "sma_20": 225.82149963378907,
+      "sma_50": 211.6798001098633,
+      "sma_200": 157.70522541046142,
+      "rsi_14": 52.36722437385731,
+      "rsi_status": "NEUTRAL",
+      "macd_data": {
+        "macd": 3.0724519865500213,
+        "signal": 1.8855931720276922,
+        "histogram": 1.186858814522329,
+        "crossover": "BULLISH"
+      },
+      "cross_status": "GOLDEN_CROSS",
+      "fifty_two_week_pos_pct": 66.72705261616213,
+      "high_52": 299.8599853515625,
+      "low_52": 73.5199966430664,
+      "returns": {
+        "1m": -11.954985135184526,
+        "3m": -3.3611639653282177,
+        "6m": 98.80478624793325,
+        "1y": 148.3685332424208
+      },
+      "technical_score": 74.1,
+      "signals": [
+        "Price is 6.1% above 50-day SMA (Bullish)",
+        "50-day SMA is above 200-day SMA (Golden Cross)",
+        "MACD histogram indicates positive bullish momentum"
+      ]
+    },
+    "sent": {
+      "combined_polarity": 0.009,
+      "sentiment_score": 50.4,
+      "label": "NEUTRAL",
+      "news_stats": {
+        "polarity": -0.021975308641975316,
+        "subjectivity": 0.1804938271604938,
+        "positive_count": 2,
+        "negative_count": 4,
+        "neutral_count": 9,
+        "total": 15
+      },
+      "reddit_stats": {
+        "polarity": 0.080508658008658,
+        "subjectivity": 0.26641774891774894,
+        "positive_count": 3,
+        "negative_count": 1,
+        "neutral_count": 6,
+        "total": 10
+      },
+      "headline_count": 25,
+      "positive_highlights": [
+        "Is it still a good time to buy NBIS? - reddit.com",
+        "Nebius Stock Is Actually Cheap (NASDAQ:NBIS) - Seeking Alpha",
+        "Am I missing something, or is nebius free money right now - reddit.com"
+      ],
+      "negative_highlights": [
+        "What is everyone invested in other than NBIS? - reddit.com",
+        "Nebius Group (NASDAQ:NBIS) Stock Price Down 1.4% - Here's What Happened - MarketBeat",
+        "Nebius Group (NASDAQ:NBIS) Stock Price Down 5.1% - Here's What Happened - MarketBeat"
+      ],
+      "recent_headlines": [
+        "Nebius Stock Up 254% in a Year: Should You Buy, Hold or Sell? - Yahoo Finance",
+        "National Pension Service Purchases 296,773 Shares of Nebius Group N.V. $NBIS - MarketBeat",
+        "Nebius Stock Is Actually Cheap (NASDAQ:NBIS) - Seeking Alpha",
+        "Why Is Nebius Stock Up 245% in the Past Year? - TIKR.com",
+        "Nebius Group NBIS Stock Surges On Explosive AI Cloud Growth - StocksToTrade"
+      ]
+    },
+    "qual": {
+      "priced_in": {
+        "valuation_tier": "Moderate",
+        "priced_in_points": [
+          "PEG ratio of 0.56 suggests stock may be undervalued relative to expected growth."
         ]
       },
       "macro_policy": {
@@ -517,36 +523,34 @@
         ]
       },
       "moat": {
-        "moat_tier": "Narrow Moat",
-        "moat_score": 50.0,
+        "moat_tier": "Weak / No Moat",
+        "moat_score": 35.0,
         "reasons": [
-          "Standard market positioning within industry."
+          "Low Return on Equity (ROE: 0.6%), indicating margin pressure or weak capital efficiency."
         ]
       },
-      "qualitative_score": 50.0
+      "qualitative_score": 41.0
     },
     "sig": {
-      "composite_score": 49.7,
-      "signal": "HOLD",
-      "confidence_pct": 68.5,
+      "composite_score": 65.5,
+      "signal": "BUY",
+      "confidence_pct": 68.8,
       "pillar_scores": {
-        "fundamentals": 10.0,
-        "valuation": 65.0,
-        "technicals": 55.0,
-        "sentiment": 52.4,
-        "analyst": 87.0,
-        "macro_moat": 50.0
+        "fundamentals": 47.0,
+        "valuation": 80.0,
+        "technicals": 74.1,
+        "sentiment": 50.4,
+        "analyst": 100.0,
+        "macro_moat": 41.0
       },
       "key_positives": [
-        "Low P/S ratio (1.68x)",
-        "Moderate price target upside (+18.3%)",
-        "Bullish analyst consensus (Buy)",
-        "100% of analyst ratings are Buy/Strong Buy"
+        "Strong YoY revenue growth (454.0%)",
+        "Attractive Forward P/E (-71.5x)",
+        "Favorable PEG ratio (0.56x < 1.0)",
+        "Significant price target upside (+29.5%)"
       ],
       "key_risks": [
-        "Declining YoY revenue (-1.5%)",
-        "Elevated debt-to-equity ratio (229.1)",
-        "Current ratio below 1.0 (0.80)",
+        "Subpar Return on Equity (0.6%)",
         "Negative free cash flow generation"
       ]
     }
@@ -622,13 +626,13 @@
       "latest_price": 218.29,
       "sma_20": 219.94082489013672,
       "sma_50": 212.35615325927733,
-      "sma_200": 197.1051927947998,
+      "sma_200": 197.10519302368164,
       "rsi_14": 52.56797141869234,
       "rsi_status": "NEUTRAL",
       "macd_data": {
-        "macd": 2.604784759238015,
-        "signal": 3.111865447694647,
-        "histogram": -0.5070806884566319,
+        "macd": 2.604784759122623,
+        "signal": 3.111865447524985,
+        "histogram": -0.507080688402362,
         "crossover": "BEARISH"
       },
       "cross_status": "GOLDEN_CROSS",
@@ -679,7 +683,7 @@
       "recent_headlines": [
         "Jim Cramer Discussed The Contradictions Surrounding NVIDIA Corporation (NASDAQ:NVDA)\u2019s Shares - Yahoo Finance",
         "Nvidia On The Offensive (NASDAQ:NVDA) - Seeking Alpha",
-        "NVIDIA Corporation $NVDA Shares Bought by Allegheny Financial Group - MarketBeat",
+        "NVIDIA Corporation $NVDA Stock Holdings Lifted by E Fund Management Hong Kong Co. Ltd. - MarketBeat",
         "Investors Heavily Search NVIDIA Corporation (NVDA): Here is What You Need to Know - Yahoo Finance",
         "It's About To Get Worse For Nvidia (NASDAQ:NVDA) - Seeking Alpha"
       ]
@@ -835,42 +839,42 @@
       ]
     },
     "sent": {
-      "combined_polarity": -0.003,
-      "sentiment_score": 49.9,
+      "combined_polarity": 0.029,
+      "sentiment_score": 51.2,
       "label": "NEUTRAL",
       "news_stats": {
-        "polarity": -3.7007434154171884e-18,
-        "subjectivity": 0.33,
+        "polarity": -0.005909090909090912,
+        "subjectivity": 0.27530303030303027,
         "positive_count": 3,
         "negative_count": 3,
         "neutral_count": 9,
         "total": 15
       },
       "reddit_stats": {
-        "polarity": -0.008333333333333342,
-        "subjectivity": 0.19583333333333336,
-        "positive_count": 1,
-        "negative_count": 2,
-        "neutral_count": 7,
+        "polarity": 0.11150793650793651,
+        "subjectivity": 0.18317460317460316,
+        "positive_count": 2,
+        "negative_count": 0,
+        "neutral_count": 8,
         "total": 10
       },
       "headline_count": 25,
       "positive_highlights": [
-        "Why is Lululemon Stock Crashing, and is it a Generational Buying Opportunity? - The Motley Fool",
-        "Michael Burry Likes Lululemon Stock. But the Math Only Works If Sales Stop Shrinking. - The Motley Fool",
-        "Is LULU at all compelling to anyone on here? - Reddit"
+        "LULU might be one of the best long-term plays no one\u2019s talking about right now - reddit.com",
+        "LULU earnings - someone phone Burry and make sure he\u2019s ok? - reddit.com",
+        "Michael Burry Likes Lululemon Stock. But the Math Only Works If Sales Stop Shrinking. - The Motley Fool"
       ],
       "negative_highlights": [
-        "LULU is down 50 % year to date. I don\u2019t believe it will ever go below $100. - Reddit",
+        "How Is lululemon athletica's Stock Performance Compared to Other Retail Stocks? - Yahoo Finance",
         "Investors Heavily Search lululemon athletica inc. (LULU): Here is What You Need to Know - Yahoo Finance",
-        "I\u2019m so confused - is lulu lemon Canadian or American?! Are we still buying it??? - Reddit"
+        "Jim Cramer Notes lululemon (LULU) is \u201cExecuting Really Poorly\u201d - Yahoo Finance"
       ],
       "recent_headlines": [
         "LULU Stock Sinks 18% Overnight: Michael Burry Says Lululemon Is A \u2018Trickster\u2019 As He Vows To Buy More Under $100 - Stocktwits",
         "Jim Cramer Notes lululemon (LULU) is \u201cExecuting Really Poorly\u201d - Yahoo Finance",
-        "Wellington Management Group LLP Sells 702,756 Shares of lululemon athletica inc. $LULU - MarketBeat",
         "lululemon athletica inc. Announces Second Quarter Fiscal 2026 Results - Lululemon",
-        "Why is Lululemon Stock Crashing, and is it a Generational Buying Opportunity? - The Motley Fool"
+        "Wellington Management Group LLP Sells 702,756 Shares of lululemon athletica inc. $LULU - MarketBeat",
+        "lululemon athletica inc. Investigation Notice: Levi & Korsinsky Notifies Investors of Pending Investigation Into lululemon athletica inc. (LULU) - PR Newswire"
       ]
     },
     "qual": {
@@ -900,14 +904,14 @@
       "qualitative_score": 62.0
     },
     "sig": {
-      "composite_score": 61.7,
+      "composite_score": 61.9,
       "signal": "HOLD",
-      "confidence_pct": 69.4,
+      "confidence_pct": 69.5,
       "pillar_scores": {
         "fundamentals": 84.0,
         "valuation": 85.0,
         "technicals": 22.0,
-        "sentiment": 49.9,
+        "sentiment": 51.2,
         "analyst": 45.0,
         "macro_moat": 62.0
       },
@@ -925,10 +929,10 @@
       ]
     }
   },
-  "RDDT": {
+  "BYD": {
     "data": {
-      "symbol": "RDDT",
-      "company_name": "Reddit, Inc.",
+      "symbol": "BYD",
+      "company_name": "Boyd Gaming Corporation",
       "exchange_info": {
         "country": "United States",
         "exchange": "NYSE/NASDAQ",
@@ -936,102 +940,102 @@
         "currency_symbol": "$"
       },
       "currency": "USD",
-      "sector": "Communication Services",
-      "industry": "Internet Content & Information",
-      "summary": "Reddit, Inc. operates a digital community in the United States and internationally. The company's platform enables user to engage in conversations, explore passions, research new hobbies, exchange goods and services, create new communities and experiences, share laughs, and find belonging. It also organizes communities based on specific interests that enable users to engage in conversations by sharing experiences, submitting links, uploading images and videos, and replying to one another. Reddit, Inc. was founded in 2005 and is headquartered in San Francisco, California.",
-      "current_price": 157.77,
-      "previous_close": 155.34,
-      "fifty_two_week_high": 282.95,
-      "fifty_two_week_low": 119.27,
-      "volume": 3129352,
-      "avg_volume": 5762148,
-      "pe_ratio": 36.60557,
-      "forward_pe": 16.285952,
-      "peg_ratio": 0.73,
-      "price_to_sales": 10.92343,
-      "price_to_book": 9.234957,
-      "ev_to_ebitda": 34.421,
-      "market_cap": 30354399232,
-      "enterprise_value": 27588907008,
-      "eps_trailing": 4.31,
-      "eps_forward": 9.68749,
-      "earnings_growth": 1.778,
-      "revenue_growth": 0.611,
-      "total_revenue": 2778833920,
-      "net_income": 871094976,
-      "profit_margins": 0.31348,
-      "operating_margins": 0.28788,
-      "return_on_equity": 0.30712,
-      "return_on_assets": 0.15653,
-      "total_debt": 20867000,
-      "total_cash": 2786356992,
-      "debt_to_equity": 0.635,
-      "current_ratio": 10.486,
-      "quick_ratio": 10.175,
-      "free_cash_flow": 678068736,
-      "dividend_yield_pct": 0.0,
-      "payout_ratio": 0.0,
-      "target_low": 130.0,
-      "target_mean": 213.10303,
-      "target_high": 300.0,
-      "target_median": 210.0,
+      "sector": "Consumer Cyclical",
+      "industry": "Resorts & Casinos",
+      "summary": "Boyd Gaming Corporation, together with its subsidiaries, operates as a multi-jurisdictional gaming company in the United States and Canada. The company operates through Las Vegas Locals, Downtown Las Vegas, Midwest & South, and Online segments. It owns and operates casinos; Boyd Interactive, an online casino gaming business; and a travel agency. The company was formerly known as The Boyd Group and changed its name to Boyd Gaming Corporation in April 1993. Boyd Gaming Corporation was founded in 1975 and is headquartered in Las Vegas, Nevada.",
+      "current_price": 77.0,
+      "previous_close": 76.45,
+      "fifty_two_week_high": 91.41,
+      "fifty_two_week_low": 74.8,
+      "volume": 983083,
+      "avg_volume": 914701,
+      "pe_ratio": 3.416149,
+      "forward_pe": 9.915857,
+      "peg_ratio": 3.03,
+      "price_to_sales": 1.3651145,
+      "price_to_book": 2.251462,
+      "ev_to_ebitda": 7.267,
+      "market_cap": 5594466816,
+      "enterprise_value": 8525960704,
+      "eps_trailing": 22.54,
+      "eps_forward": 7.76534,
+      "earnings_growth": -0.049,
+      "revenue_growth": 0.0,
+      "total_revenue": 4098167040,
+      "net_income": 1817171968,
+      "profit_margins": 0.44341,
+      "operating_margins": 0.20891,
+      "return_on_equity": 0.93084997,
+      "return_on_assets": 0.07824,
+      "total_debt": 3258284032,
+      "total_cash": 323612992,
+      "debt_to_equity": 130.47,
+      "current_ratio": 0.774,
+      "quick_ratio": 0.646,
+      "free_cash_flow": 283961504,
+      "dividend_yield_pct": 1.04,
+      "payout_ratio": 0.0337,
+      "target_low": 87.0,
+      "target_mean": 95.9375,
+      "target_high": 111.0,
+      "target_median": 93.5,
       "recommendation_key": "buy",
-      "recommendation_mean": 1.94118,
-      "number_of_analysts": 33,
-      "implied_upside_pct": 35.07195918108638,
+      "recommendation_mean": 2.36842,
+      "number_of_analysts": 16,
+      "implied_upside_pct": 24.594155844155843,
       "rec_breakdown": {
-        "strongBuy": 6,
-        "buy": 16,
-        "hold": 11,
-        "sell": 1,
+        "strongBuy": 0,
+        "buy": 6,
+        "hold": 13,
+        "sell": 0,
         "strongSell": 0
       },
-      "next_earnings_date": "2026-10-29",
-      "earnings_high_est": 2.02,
-      "earnings_low_est": 1.78514,
-      "earnings_avg_est": 1.94703,
-      "_ticker_obj": "yfinance.Ticker object <RDDT>"
+      "next_earnings_date": "2026-10-22",
+      "earnings_high_est": 2.009,
+      "earnings_low_est": 0.891,
+      "earnings_avg_est": 1.66969,
+      "_ticker_obj": "yfinance.Ticker object <BYD>"
     },
     "tech": {
-      "latest_price": 157.77,
-      "sma_20": 155.1770004272461,
-      "sma_50": 167.9373992919922,
-      "sma_200": 173.89509986877442,
-      "rsi_14": 53.46750043579664,
-      "rsi_status": "NEUTRAL",
+      "latest_price": 77.0,
+      "sma_20": 79.37449913024902,
+      "sma_50": 83.64819961547852,
+      "sma_200": 84.00713039398194,
+      "rsi_14": 32.62866551384161,
+      "rsi_status": "BEARISH",
       "macd_data": {
-        "macd": -3.0645804339001756,
-        "signal": -4.020762841926484,
-        "histogram": 0.9561824080263079,
-        "crossover": "BULLISH"
+        "macd": -2.1236525623968703,
+        "signal": -2.043610082035225,
+        "histogram": -0.0800424803616453,
+        "crossover": "BEARISH"
       },
       "cross_status": "DEATH_CROSS",
-      "fifty_two_week_pos_pct": 23.521505190649318,
-      "high_52": 282.95001220703125,
-      "low_52": 119.2699966430664,
+      "fifty_two_week_pos_pct": 13.24501425286596,
+      "high_52": 91.41000366210938,
+      "low_52": 74.80000305175781,
       "returns": {
-        "1m": -0.22134779154786566,
-        "3m": -2.6711942877722716,
-        "6m": 19.19764224272842,
-        "1y": -37.95666201364296
+        "1m": -7.5186187552431445,
+        "3m": -11.757966863457714,
+        "6m": -5.235165060514957,
+        "1y": -8.248532346558212
       },
-      "technical_score": 40.9,
+      "technical_score": 8.1,
       "signals": [
-        "Price is 6.1% below 50-day SMA (Bearish)",
+        "Price is 7.9% below 50-day SMA (Bearish)",
         "50-day SMA is below 200-day SMA (Death Cross)",
-        "MACD histogram indicates positive bullish momentum"
+        "MACD histogram indicates negative bearish momentum"
       ]
     },
     "sent": {
-      "combined_polarity": 0.023,
-      "sentiment_score": 50.9,
+      "combined_polarity": 0.048,
+      "sentiment_score": 51.9,
       "label": "NEUTRAL",
       "news_stats": {
-        "polarity": 0.03333333333333333,
-        "subjectivity": 0.08,
-        "positive_count": 2,
-        "negative_count": 1,
-        "neutral_count": 12,
+        "polarity": 0.06924242424242424,
+        "subjectivity": 0.1808080808080808,
+        "positive_count": 7,
+        "negative_count": 0,
+        "neutral_count": 8,
         "total": 15
       },
       "reddit_stats": {
@@ -1043,68 +1047,69 @@
       },
       "headline_count": 15,
       "positive_highlights": [
-        "Reddit Vs. Meta: The Better Bet In An AI-Saturated Market (NYSE:RDDT) - Seeking Alpha",
-        "What Are You Really Paying For Reddit's Ad Growth? - Yahoo Finance"
+        "Is Boyd Gaming Worth Buying as Growth Projects Lift Execution Risk? - Yahoo Finance",
+        "456,031 Shares in Boyd Gaming Corporation $BYD Acquired by Bank of New York Mellon Corp - MarketBeat",
+        "BlackRock Inc. Purchases New Position in Boyd Gaming Corporation $BYD - MarketBeat"
       ],
-      "negative_highlights": [
-        "Investors Heavily Search Reddit Inc. (RDDT): Here is What You Need to Know - Yahoo Finance"
-      ],
+      "negative_highlights": [],
       "recent_headlines": [
-        "Investors Heavily Search Reddit Inc. (RDDT): Here is What You Need to Know - Yahoo Finance",
-        "Reddit RDDT Stock Surges On Surprise S&P 500 Entry - StocksToTrade",
-        "What Are You Really Paying For Reddit's Ad Growth? - Yahoo Finance",
-        "RDDT Stock Surges As S&P 500 Inclusion Sparks Momentum - StocksToTrade",
-        "Bienville Capital Management LLC Buys 79,867 Shares of Reddit Inc. $RDDT - MarketBeat"
+        "WINTON GROUP Ltd Buys Shares of 52,446 Boyd Gaming Corporation $BYD - MarketBeat",
+        "How Boyd Gaming Corporation (BYD) Affects Rotational Strategy Timing - news.stocktradersdaily.com",
+        "Is Now The Time To Look At Buying Boyd Gaming Corporation (NYSE:BYD)? - Moomoo",
+        "BOYD GAMING REPORTS SECOND-QUARTER 2026 RESULTS - PR Newswire",
+        "Is Boyd Gaming Worth Buying as Growth Projects Lift Execution Risk? - Yahoo Finance"
       ]
     },
     "qual": {
       "priced_in": {
-        "valuation_tier": "Fair Value Range",
+        "valuation_tier": "Value / Low Expectation",
         "priced_in_points": [
-          "P/E ratio reflects balanced market expectations for mid-range growth.",
-          "Forward P/E is 55.5% lower than trailing P/E, pricing in robust earnings recovery/growth.",
-          "PEG ratio of 0.73 suggests stock may be undervalued relative to expected growth."
+          "Low P/E ratio suggests market is pricing in modest growth or cyclical headwinds.",
+          "Forward P/E is higher than trailing P/E, pricing in potential earnings contraction.",
+          "PEG ratio of 3.03 signals premium valuation relative to growth rate."
         ]
       },
       "macro_policy": {
         "macro_factors": [
           "Operating in United States under Federal Reserve (FED) interest rate policy environment.",
-          "Performance closely aligned with overall United States economic trajectory."
+          "Consumer sentiment and discretionary spending impact demand during inflation/rate shifts."
         ],
         "policy_risks": [
-          "Standard corporate governance and trade policy conditions apply."
+          "Antitrust oversight, data privacy laws, and international tariff trade policies affect cross-border supply chains."
         ]
       },
       "moat": {
         "moat_tier": "Wide Moat",
         "moat_score": 85.0,
         "reasons": [
-          "Strong Return on Equity (ROE: 30.7%), indicating high capital efficiency and competitive advantage.",
-          "High net profit margin (31.3%), demonstrating pricing power."
+          "Strong Return on Equity (ROE: 93.1%), indicating high capital efficiency and competitive advantage.",
+          "High net profit margin (44.3%), demonstrating pricing power."
         ]
       },
       "qualitative_score": 71.0
     },
     "sig": {
-      "composite_score": 74.4,
+      "composite_score": 65.7,
       "signal": "BUY",
-      "confidence_pct": 70.0,
+      "confidence_pct": 62.0,
       "pillar_scores": {
-        "fundamentals": 100.0,
-        "valuation": 70.0,
-        "technicals": 40.9,
-        "sentiment": 50.9,
+        "fundamentals": 82.0,
+        "valuation": 73.0,
+        "technicals": 8.1,
+        "sentiment": 51.9,
         "analyst": 97.0,
         "macro_moat": 71.0
       },
       "key_positives": [
-        "Exceptional Return on Equity (30.7%)",
-        "High profit margin (31.3%)",
-        "Strong YoY revenue growth (61.1%)",
-        "Low debt-to-equity ratio (0.6)"
+        "Exceptional Return on Equity (93.1%)",
+        "High profit margin (44.3%)",
+        "Positive free cash flow generation",
+        "Low P/E ratio (3.4x)"
       ],
       "key_risks": [
-        "Price is 6.1% below 50-day SMA (Bearish)",
+        "Current ratio below 1.0 (0.77)",
+        "High PEG ratio (3.03x)",
+        "Price is 7.9% below 50-day SMA (Bearish)",
         "50-day SMA is below 200-day SMA (Death Cross)"
       ]
     }
