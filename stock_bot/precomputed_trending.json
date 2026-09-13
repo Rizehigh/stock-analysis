@@ -70,13 +70,13 @@
       "latest_price": 975.26,
       "sma_20": 962.8070007324219,
       "sma_50": 928.607001953125,
-      "sma_200": 621.9325054168701,
+      "sma_200": 621.9325054931641,
       "rsi_14": 51.32284673692853,
       "rsi_status": "NEUTRAL",
       "macd_data": {
-        "macd": 18.439378342603504,
-        "signal": 14.558902883119213,
-        "histogram": 3.880475459484291,
+        "macd": 18.4393783426018,
+        "signal": 14.558902883116648,
+        "histogram": 3.880475459485151,
         "crossover": "BULLISH"
       },
       "cross_status": "GOLDEN_CROSS",
@@ -117,20 +117,20 @@
       },
       "headline_count": 15,
       "positive_highlights": [
-        "Micron Technology (MU) Rose on Elevated Demand for High-Bandwidth Memory - Yahoo Finance",
+        "Micron Technology (MU) Rose on Elevated Demand for High-Bandwidth Memory - finance.yahoo.com",
         "Applied Materials vs. Micron Technology: Which Technology Stock Is a Better Buy in 2026? - The Motley Fool",
         "Micron Technology (NASDAQ:MU): Strong Growth Meets a High-Quality Technical Setup - ChartMill"
       ],
       "negative_highlights": [
-        "Micron Technology Inc Stock (MU) Opened Down by 3.13% on Sep 10: What Signal Does It Send? - TradingKey",
+        "Micron Technology Inc Stock (MU) Opened Down by 3.13% on Sep 10: What Signal Does It Send? - tradingkey.com",
         "Micron's Q4 Might Change The Game (Preview) (NASDAQ:MU) - Seeking Alpha"
       ],
       "recent_headlines": [
         "MU Stock Slides As Legal Fight And Chip Selloff Rattle Traders - StocksToTrade",
         "What's Going On With Micron Technology Stock Thursday? - Benzinga",
-        "Micron Technology, Inc. (MU) Is a Trending Stock: Facts to Know Before Betting on It - Yahoo Finance",
-        "MU Stock Slides As Legal Fears And Chip Sell-Off Hit Momentum - timothysykes.com",
-        "Micron Technology Stock (MU) Opinions on AI Memory Demand and Price Volatility - Moomoo"
+        "Micron Technology, Inc. (MU) Is a Trending Stock: Facts to Know Before Betting on It - finance.yahoo.com",
+        "Micron Technology Stock (MU) Opinions on AI Memory Demand and Price Volatility - Moomoo",
+        "MU Stock Slides As Legal Fears And Chip Sell-Off Hit Momentum - timothysykes.com"
       ]
     },
     "qual": {
@@ -182,192 +182,6 @@
       ],
       "key_risks": [
         "Standard market risk and volatility."
-      ]
-    }
-  },
-  "ORCL": {
-    "data": {
-      "symbol": "ORCL",
-      "company_name": "Oracle Corporation",
-      "exchange_info": {
-        "country": "United States",
-        "exchange": "NYSE/NASDAQ",
-        "central_bank": "Federal Reserve (FED)",
-        "currency_symbol": "$"
-      },
-      "currency": "USD",
-      "sector": "Technology",
-      "industry": "Software - Infrastructure",
-      "summary": "Oracle Corporation offers products and services that build, run and support enterprise information technology frameworks worldwide. Its Oracle cloud software as a service offering includes various cloud software applications, including Oracle Fusion cloud enterprise resource planning ERP, Oracle Fusion cloud enterprise performance management EPM, Oracle Fusion cloud supply chain and manufacturing management SCM, Oracle Fusion cloud human capital management HCM, and NetSuite applications suite, Oracle Health applications, as well as Oracle Fusion Sales, Service, and Marketing. The company also offers cloud-based industry solutions for various industries; Oracle cloud license and on-premise license; and Oracle license support services. In addition, it provides cloud and license business' infrastructure technologies, such as the Oracle Database and MySQL Database; Java, a software development language; and middleware, including development tools and others. The company's cloud and license business' infrastructure technologies also comprise cloud-based compute, storage, and networking capabilities; and Oracle autonomous database, as well as AI, Internet-of-Things, machine learning, digital assistant, and blockchain. Further, it provides hardware products and other hardware-related software offerings, including Oracle engineered systems, enterprise servers, storage solutions, industry-specific hardware, virtualization software, operating systems, management software, and related hardware support services, and consulting and advanced customer services. It markets and sells its cloud, license, hardware, support, and services offerings directly to businesses in various industries, government agencies, and educational institutions, as well as through indirect channels. Oracle Corporation has a strategic alliance with Metron, Inc. The company was founded in 1977 and is headquartered in Austin, Texas.",
-      "current_price": 150.28,
-      "previous_close": 152.94,
-      "fifty_two_week_high": 329.5,
-      "fifty_two_week_low": 114.5,
-      "volume": 78527486,
-      "avg_volume": 32337727,
-      "pe_ratio": 23.517998,
-      "forward_pe": 13.669126,
-      "peg_ratio": 0.85,
-      "price_to_sales": 6.030946,
-      "price_to_book": 11.52454,
-      "ev_to_ebitda": 16.503,
-      "market_cap": 432877174784,
-      "enterprise_value": 564584448000,
-      "eps_trailing": 6.39,
-      "eps_forward": 10.99412,
-      "earnings_growth": 0.545,
-      "revenue_growth": 0.296,
-      "total_revenue": 71776002048,
-      "net_income": 18736001024,
-      "profit_margins": 0.2636,
-      "operating_margins": 0.35265,
-      "return_on_equity": 0.41192,
-      "return_on_assets": 0.06335,
-      "total_debt": 155931000832,
-      "total_cash": 37077000192,
-      "debt_to_equity": 232.054,
-      "current_ratio": 1.171,
-      "quick_ratio": 1.02,
-      "free_cash_flow": -41130123264,
-      "dividend_yield_pct": 1.33,
-      "payout_ratio": 0.31350002,
-      "target_low": 110.0,
-      "target_mean": 239.0961,
-      "target_high": 400.0,
-      "target_median": 239.0,
-      "recommendation_key": "buy",
-      "recommendation_mean": 1.60465,
-      "number_of_analysts": 41,
-      "implied_upside_pct": 59.10041256321533,
-      "rec_breakdown": {
-        "strongBuy": 8,
-        "buy": 27,
-        "hold": 7,
-        "sell": 1,
-        "strongSell": 0
-      },
-      "next_earnings_date": "2026-12-10",
-      "earnings_high_est": 1.95,
-      "earnings_low_est": 1.84,
-      "earnings_avg_est": 1.73834,
-      "_ticker_obj": "yfinance.Ticker object <ORCL>"
-    },
-    "tech": {
-      "latest_price": 150.28,
-      "sma_20": 149.37799987792968,
-      "sma_50": 140.62994674682616,
-      "sma_200": 166.81750896453858,
-      "rsi_14": 53.30901257067493,
-      "rsi_status": "NEUTRAL",
-      "macd_data": {
-        "macd": 3.2260331099253676,
-        "signal": 2.7641369108182503,
-        "histogram": 0.4618961991071173,
-        "crossover": "BULLISH"
-      },
-      "cross_status": "DEATH_CROSS",
-      "fifty_two_week_pos_pct": 16.93432905441672,
-      "high_52": 325.78678842264526,
-      "low_52": 114.5,
-      "returns": {
-        "1m": -3.802330799057707,
-        "3m": -18.099810167024412,
-        "6m": -2.437296070547279,
-        "1y": -47.97971912877947
-      },
-      "technical_score": 60.3,
-      "signals": [
-        "Price is 6.9% above 50-day SMA (Bullish)",
-        "50-day SMA is below 200-day SMA (Death Cross)",
-        "MACD histogram indicates positive bullish momentum"
-      ]
-    },
-    "sent": {
-      "combined_polarity": 0.015,
-      "sentiment_score": 50.6,
-      "label": "NEUTRAL",
-      "news_stats": {
-        "polarity": 0.022000000000000002,
-        "subjectivity": 0.228,
-        "positive_count": 2,
-        "negative_count": 1,
-        "neutral_count": 12,
-        "total": 15
-      },
-      "reddit_stats": {
-        "polarity": 0.0,
-        "subjectivity": 0.0,
-        "positive_count": 0,
-        "negative_count": 0,
-        "neutral_count": 0
-      },
-      "headline_count": 15,
-      "positive_highlights": [
-        "Oracle's stock edges up on earnings beat as cloud infrastructure revenue more than doubles - CNBC",
-        "ORCL Stock At 14-Month Low Amid High Debt, Execution Risks: Retail Calls $300B OpenAI Deal A 'Liability' - Stocktwits"
-      ],
-      "negative_highlights": [
-        "Oracle Earnings Preview: Chart Has Improved, But Free Cash Flow Is Still Grim - Seeking Alpha"
-      ],
-      "recent_headlines": [
-        "ORCL Stock Slips Premarket \u2014 Analysts See OpenAI-Fueled Cloud Beat As Options Traders Chase Another Big Upside Rip - Yahoo Finance",
-        "ORCL Stock Soars 7% After-Hours \u2014 Oracle Cloud Surge Powers Q1 Beat As AI Demand Fuels Record Backlog - Yahoo Finance",
-        "Larry Ellison Cancels His Plan to Sell Oracle Stock - Oracle - Investor Relations",
-        "Oracle: Above-Average Long-Term Stock Gains Are Likely - Seeking Alpha",
-        "ORCL Stock Is Shaking Off AI Debt Jitters: Q4 Results Will Test If Rally Is Here To Stay - Stocktwits"
-      ]
-    },
-    "qual": {
-      "priced_in": {
-        "valuation_tier": "Fair Value Range",
-        "priced_in_points": [
-          "P/E ratio reflects balanced market expectations for mid-range growth.",
-          "Forward P/E is 41.9% lower than trailing P/E, pricing in robust earnings recovery/growth.",
-          "PEG ratio of 0.85 suggests stock may be undervalued relative to expected growth."
-        ]
-      },
-      "macro_policy": {
-        "macro_factors": [
-          "Operating in United States under Federal Reserve (FED) interest rate policy environment.",
-          "Consumer sentiment and discretionary spending impact demand during inflation/rate shifts."
-        ],
-        "policy_risks": [
-          "Antitrust oversight, data privacy laws, and international tariff trade policies affect cross-border supply chains."
-        ]
-      },
-      "moat": {
-        "moat_tier": "Wide Moat",
-        "moat_score": 100.0,
-        "reasons": [
-          "Strong Return on Equity (ROE: 41.2%), indicating high capital efficiency and competitive advantage.",
-          "High net profit margin (26.4%), demonstrating pricing power.",
-          "Mega-cap scale ($432.88B) provides massive distribution and cost advantages."
-        ]
-      },
-      "qualitative_score": 80.0
-    },
-    "sig": {
-      "composite_score": 74.6,
-      "signal": "BUY",
-      "confidence_pct": 76.6,
-      "pillar_scores": {
-        "fundamentals": 72.0,
-        "valuation": 85.0,
-        "technicals": 60.3,
-        "sentiment": 50.6,
-        "analyst": 100.0,
-        "macro_moat": 80.0
-      },
-      "key_positives": [
-        "Exceptional Return on Equity (41.2%)",
-        "High profit margin (26.4%)",
-        "Strong YoY revenue growth (29.6%)",
-        "Attractive Forward P/E (13.7x)"
-      ],
-      "key_risks": [
-        "Elevated debt-to-equity ratio (232.1)",
-        "Negative free cash flow generation",
-        "50-day SMA is below 200-day SMA (Death Cross)"
       ]
     }
   },
@@ -442,13 +256,13 @@
       "latest_price": 218.29,
       "sma_20": 219.94082489013672,
       "sma_50": 212.35615325927733,
-      "sma_200": 197.10519287109375,
+      "sma_200": 197.1051926422119,
       "rsi_14": 52.56797141869234,
       "rsi_status": "NEUTRAL",
       "macd_data": {
-        "macd": 2.604784761396587,
-        "signal": 3.1118654508499874,
-        "histogram": -0.5070806894534003,
+        "macd": 2.6047847614631507,
+        "signal": 3.1118654509478714,
+        "histogram": -0.5070806894847206,
         "crossover": "BEARISH"
       },
       "cross_status": "GOLDEN_CROSS",
@@ -489,19 +303,19 @@
       },
       "headline_count": 15,
       "positive_highlights": [
-        "NVIDIA Corporation $NVDA Shares Bought by True North Advisors LLC - marketbeat.com"
+        "NVIDIA Corporation $NVDA Shares Bought by True North Advisors LLC - MarketBeat"
       ],
       "negative_highlights": [
         "Nvidia gap with other chip stocks could narrow amid increased cash return: Melius (NVDA:NASDAQ) - Seeking Alpha",
-        "Investors Heavily Search NVIDIA Corporation (NVDA): Here is What You Need to Know - Yahoo Finance",
+        "Investors Heavily Search NVIDIA Corporation (NVDA): Here is What You Need to Know - finance.yahoo.com",
         "It's About To Get Worse For Nvidia (NASDAQ:NVDA) - Seeking Alpha"
       ],
       "recent_headlines": [
-        "NVIDIA Corporation $NVDA Stock Position Raised by Apollon Wealth Management LLC - marketbeat.com",
-        "Investors Heavily Search NVIDIA Corporation (NVDA): Here is What You Need to Know - Yahoo Finance",
+        "Jim Cramer Discussed The Contradictions Surrounding NVIDIA Corporation (NASDAQ:NVDA)\u2019s Shares - finance.yahoo.com",
+        "NVIDIA Corporation $NVDA Stock Position Raised by Apollon Wealth Management LLC - MarketBeat",
         "Nvidia On The Offensive (NASDAQ:NVDA) - Seeking Alpha",
-        "NVIDIA Corporation $NVDA Stock Holdings Trimmed by Albion Financial Group UT - marketbeat.com",
-        "Jim Cramer Discussed The Contradictions Surrounding NVIDIA Corporation (NASDAQ:NVDA)\u2019s Shares - Yahoo Finance"
+        "NVIDIA Corporation $NVDA Stock Holdings Trimmed by Albion Financial Group UT - MarketBeat",
+        "Investors Heavily Search NVIDIA Corporation (NVDA): Here is What You Need to Know - finance.yahoo.com"
       ]
     },
     "qual": {
@@ -553,6 +367,193 @@
       ],
       "key_risks": [
         "Standard market risk and volatility."
+      ]
+    }
+  },
+  "ORCL": {
+    "data": {
+      "symbol": "ORCL",
+      "company_name": "Oracle Corporation",
+      "exchange_info": {
+        "country": "United States",
+        "exchange": "NYSE/NASDAQ",
+        "central_bank": "Federal Reserve (FED)",
+        "currency_symbol": "$"
+      },
+      "currency": "USD",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "summary": "Oracle Corporation offers products and services that build, run and support enterprise information technology frameworks worldwide. Its Oracle cloud software as a service offering includes various cloud software applications, including Oracle Fusion cloud enterprise resource planning ERP, Oracle Fusion cloud enterprise performance management EPM, Oracle Fusion cloud supply chain and manufacturing management SCM, Oracle Fusion cloud human capital management HCM, and NetSuite applications suite, Oracle Health applications, as well as Oracle Fusion Sales, Service, and Marketing. The company also offers cloud-based industry solutions for various industries; Oracle cloud license and on-premise license; and Oracle license support services. In addition, it provides cloud and license business' infrastructure technologies, such as the Oracle Database and MySQL Database; Java, a software development language; and middleware, including development tools and others. The company's cloud and license business' infrastructure technologies also comprise cloud-based compute, storage, and networking capabilities; and Oracle autonomous database, as well as AI, Internet-of-Things, machine learning, digital assistant, and blockchain. Further, it provides hardware products and other hardware-related software offerings, including Oracle engineered systems, enterprise servers, storage solutions, industry-specific hardware, virtualization software, operating systems, management software, and related hardware support services, and consulting and advanced customer services. It markets and sells its cloud, license, hardware, support, and services offerings directly to businesses in various industries, government agencies, and educational institutions, as well as through indirect channels. Oracle Corporation has a strategic alliance with Metron, Inc. The company was founded in 1977 and is headquartered in Austin, Texas.",
+      "current_price": 150.28,
+      "previous_close": 152.94,
+      "fifty_two_week_high": 329.5,
+      "fifty_two_week_low": 114.5,
+      "volume": 78527486,
+      "avg_volume": 32337727,
+      "pe_ratio": 23.517998,
+      "forward_pe": 13.669126,
+      "peg_ratio": 0.85,
+      "price_to_sales": 6.030946,
+      "price_to_book": 11.52454,
+      "ev_to_ebitda": 17.188,
+      "market_cap": 432877174784,
+      "enterprise_value": 591851028480,
+      "eps_trailing": 6.39,
+      "eps_forward": 10.99412,
+      "earnings_growth": 0.545,
+      "revenue_growth": 0.296,
+      "total_revenue": 71776002048,
+      "net_income": 18736001024,
+      "profit_margins": 0.2636,
+      "operating_margins": 0.35632,
+      "return_on_equity": 0.41192,
+      "return_on_assets": 0.06357,
+      "total_debt": 169142992896,
+      "total_cash": 37077000192,
+      "debt_to_equity": 251.716,
+      "current_ratio": 1.171,
+      "quick_ratio": 1.02,
+      "free_cash_flow": -45853626368,
+      "dividend_yield_pct": 1.33,
+      "payout_ratio": 0.31350002,
+      "target_low": 110.0,
+      "target_mean": 239.0961,
+      "target_high": 400.0,
+      "target_median": 239.0,
+      "recommendation_key": "buy",
+      "recommendation_mean": 1.60465,
+      "number_of_analysts": 41,
+      "implied_upside_pct": 59.10041256321533,
+      "rec_breakdown": {
+        "strongBuy": 8,
+        "buy": 27,
+        "hold": 7,
+        "sell": 1,
+        "strongSell": 0
+      },
+      "next_earnings_date": "2026-12-10",
+      "earnings_high_est": 1.95,
+      "earnings_low_est": 1.84,
+      "earnings_avg_est": 1.73834,
+      "_ticker_obj": "yfinance.Ticker object <ORCL>"
+    },
+    "tech": {
+      "latest_price": 150.28,
+      "sma_20": 149.37799987792968,
+      "sma_50": 140.62994674682616,
+      "sma_200": 166.81750804901122,
+      "rsi_14": 53.30901257067493,
+      "rsi_status": "NEUTRAL",
+      "macd_data": {
+        "macd": 3.2260331099056145,
+        "signal": 2.764136910789228,
+        "histogram": 0.46189619911638635,
+        "crossover": "BULLISH"
+      },
+      "cross_status": "DEATH_CROSS",
+      "fifty_two_week_pos_pct": 16.934326598414966,
+      "high_52": 325.7868190657724,
+      "low_52": 114.5,
+      "returns": {
+        "1m": -3.802330799057707,
+        "3m": -18.099810167024412,
+        "6m": -2.437296070547279,
+        "1y": -47.97972462411505
+      },
+      "technical_score": 60.3,
+      "signals": [
+        "Price is 6.9% above 50-day SMA (Bullish)",
+        "50-day SMA is below 200-day SMA (Death Cross)",
+        "MACD histogram indicates positive bullish momentum"
+      ]
+    },
+    "sent": {
+      "combined_polarity": 0.01,
+      "sentiment_score": 50.4,
+      "label": "NEUTRAL",
+      "news_stats": {
+        "polarity": 0.013666666666666667,
+        "subjectivity": 0.2946666666666667,
+        "positive_count": 2,
+        "negative_count": 2,
+        "neutral_count": 11,
+        "total": 15
+      },
+      "reddit_stats": {
+        "polarity": 0.0,
+        "subjectivity": 0.0,
+        "positive_count": 0,
+        "negative_count": 0,
+        "neutral_count": 0
+      },
+      "headline_count": 15,
+      "positive_highlights": [
+        "Oracle's stock edges up on earnings beat as cloud infrastructure revenue more than doubles - CNBC",
+        "ORCL Stock At 14-Month Low Amid High Debt, Execution Risks: Retail Calls $300B OpenAI Deal A 'Liability' - Stocktwits"
+      ],
+      "negative_highlights": [
+        "ORCL Stock Snaps 3-Day Losing Streak: What\u2019s Making Retail Traders \u2018Extremely Bullish\u2019? - Stocktwits",
+        "Oracle Earnings Preview: Chart Has Improved, But Free Cash Flow Is Still Grim - Seeking Alpha"
+      ],
+      "recent_headlines": [
+        "ORCL Stock Slips Premarket \u2014 Analysts See OpenAI-Fueled Cloud Beat As Options Traders Chase Another Big Upside Rip - finance.yahoo.com",
+        "Larry Ellison Cancels His Plan to Sell Oracle Stock - Oracle - Investor Relations",
+        "Oracle: Above-Average Long-Term Stock Gains Are Likely - Seeking Alpha",
+        "ORCL Stock Is Shaking Off AI Debt Jitters: Q4 Results Will Test If Rally Is Here To Stay - Stocktwits",
+        "Oracle's stock edges up on earnings beat as cloud infrastructure revenue more than doubles - CNBC"
+      ]
+    },
+    "qual": {
+      "priced_in": {
+        "valuation_tier": "Fair Value Range",
+        "priced_in_points": [
+          "P/E ratio reflects balanced market expectations for mid-range growth.",
+          "Forward P/E is 41.9% lower than trailing P/E, pricing in robust earnings recovery/growth.",
+          "PEG ratio of 0.85 suggests stock may be undervalued relative to expected growth."
+        ]
+      },
+      "macro_policy": {
+        "macro_factors": [
+          "Operating in United States under Federal Reserve (FED) interest rate policy environment.",
+          "Consumer sentiment and discretionary spending impact demand during inflation/rate shifts."
+        ],
+        "policy_risks": [
+          "Antitrust oversight, data privacy laws, and international tariff trade policies affect cross-border supply chains."
+        ]
+      },
+      "moat": {
+        "moat_tier": "Wide Moat",
+        "moat_score": 100.0,
+        "reasons": [
+          "Strong Return on Equity (ROE: 41.2%), indicating high capital efficiency and competitive advantage.",
+          "High net profit margin (26.4%), demonstrating pricing power.",
+          "Mega-cap scale ($432.88B) provides massive distribution and cost advantages."
+        ]
+      },
+      "qualitative_score": 80.0
+    },
+    "sig": {
+      "composite_score": 74.6,
+      "signal": "BUY",
+      "confidence_pct": 76.5,
+      "pillar_scores": {
+        "fundamentals": 72.0,
+        "valuation": 85.0,
+        "technicals": 60.3,
+        "sentiment": 50.4,
+        "analyst": 100.0,
+        "macro_moat": 80.0
+      },
+      "key_positives": [
+        "Exceptional Return on Equity (41.2%)",
+        "High profit margin (26.4%)",
+        "Strong YoY revenue growth (29.6%)",
+        "Attractive Forward P/E (13.7x)"
+      ],
+      "key_risks": [
+        "Elevated debt-to-equity ratio (251.7)",
+        "Negative free cash flow generation",
+        "50-day SMA is below 200-day SMA (Death Cross)"
       ]
     }
   },
@@ -654,42 +655,41 @@
       ]
     },
     "sent": {
-      "combined_polarity": 0.015,
-      "sentiment_score": 50.6,
+      "combined_polarity": 0.0,
+      "sentiment_score": 50.0,
       "label": "NEUTRAL",
       "news_stats": {
-        "polarity": -0.012884399551066218,
-        "subjectivity": 0.19413019079685745,
-        "positive_count": 3,
+        "polarity": 0.00044893378226711355,
+        "subjectivity": 0.21413019079685747,
+        "positive_count": 4,
         "negative_count": 4,
-        "neutral_count": 8,
+        "neutral_count": 7,
         "total": 15
       },
       "reddit_stats": {
-        "polarity": 0.080508658008658,
-        "subjectivity": 0.26641774891774894,
-        "positive_count": 3,
-        "negative_count": 1,
-        "neutral_count": 6,
-        "total": 10
+        "polarity": 0.0,
+        "subjectivity": 0.0,
+        "positive_count": 0,
+        "negative_count": 0,
+        "neutral_count": 0
       },
-      "headline_count": 25,
+      "headline_count": 15,
       "positive_highlights": [
-        "Is it still a good time to buy NBIS? - Reddit",
         "Nebius Stock Is Actually Cheap (NASDAQ:NBIS) - Seeking Alpha",
-        "Am I missing something, or is nebius free money right now - Reddit"
+        "Nebius Stock Forecast: How Did NBIS Secure $44B in Contracts and What's Next? - tradingkey.com",
+        "Nebius And Palantir: Implications Of The New Partnership (NASDAQ:NBIS) - Seeking Alpha"
       ],
       "negative_highlights": [
-        "What is everyone invested in other than NBIS? - Reddit",
-        "Nebius Group (NASDAQ:NBIS) Stock Price Down 5.1% - Here's What Happened - marketbeat.com",
-        "Nebius Group (NASDAQ:NBIS) Stock Price Down 1.4% - Here's What Happened - marketbeat.com"
+        "Nebius Group (NASDAQ:NBIS) Stock Price Down 5.1% - Here's What Happened - MarketBeat",
+        "Nebius Group (NASDAQ:NBIS) Stock Price Down 1.4% - Here's What Happened - MarketBeat",
+        "Nebius Group NV Stock (NBIS) Closed Down by 5.09% on Sep 10: Facts Behind the Movement - tradingkey.com"
       ],
       "recent_headlines": [
+        "Nebius Stock Forecast: How Did NBIS Secure $44B in Contracts and What's Next? - tradingkey.com",
+        "Nebius Stock Up 254% in a Year: Should You Buy, Hold or Sell? - finance.yahoo.com",
         "Nebius And Palantir: Implications Of The New Partnership (NASDAQ:NBIS) - Seeking Alpha",
-        "Nebius Stock Up 254% in a Year: Should You Buy, Hold or Sell? - Yahoo Finance",
-        "Nebius Group (NASDAQ:NBIS) Stock Price Down 1.4% - Here's What Happened - marketbeat.com",
-        "Why Is Nebius Stock Up 245% in the Past Year? - TIKR.com",
-        "Nebius Group N.V. announces results of its Annual General Meeting - Nebius"
+        "Nebius Group (NASDAQ:NBIS) Stock Price Down 5.1% - Here's What Happened - MarketBeat",
+        "Why Is Nebius Stock Up 245% in the Past Year? - TIKR.com"
       ]
     },
     "qual": {
@@ -718,14 +718,14 @@
       "qualitative_score": 41.0
     },
     "sig": {
-      "composite_score": 65.1,
+      "composite_score": 65.0,
       "signal": "BUY",
-      "confidence_pct": 69.8,
+      "confidence_pct": 69.7,
       "pillar_scores": {
         "fundamentals": 47.0,
         "valuation": 80.0,
         "technicals": 74.1,
-        "sentiment": 50.6,
+        "sentiment": 50.0,
         "analyst": 97.0,
         "macro_moat": 41.0
       },
@@ -741,10 +741,10 @@
       ]
     }
   },
-  "GME": {
+  "SNDK": {
     "data": {
-      "symbol": "GME",
-      "company_name": "GameStop Corp.",
+      "symbol": "SNDK",
+      "company_name": "Sandisk Corporation",
       "exchange_info": {
         "country": "United States",
         "exchange": "NYSE/NASDAQ",
@@ -752,103 +752,102 @@
         "currency_symbol": "$"
       },
       "currency": "USD",
-      "sector": "Consumer Cyclical",
-      "industry": "Specialty Retail",
-      "summary": "GameStop Corp., a specialty retailer, provides games, collectibles, and entertainment products through its stores and e-commerce platforms in United States, Australia and Europe. The company sells new and pre-owned gaming platforms; accessories, such as controllers, gaming headsets, and other peripheral devices; new and pre-owned gaming software; and in-game digital currency, digital downloadable content, and full-game downloads. It also sells collectibles comprising apparel, toys, trading cards, gadgets, and other retail products for pop culture and technology enthusiasts. The company operates stores and e-commerce sites under the GameStop, EB Games, and Micromania brands; and pop culture themed stores that sell collectibles, apparel, gadgets, electronics, toys, and other retail products under the Zing Pop Culture brand. The company was formerly known as GSC Holdings Corp. GameStop Corp. was founded in 1996 and is based in Grapevine, Texas.",
-      "current_price": 21.15,
-      "previous_close": 20.39,
-      "fifty_two_week_high": 28.1,
-      "fifty_two_week_low": 17.79,
-      "volume": 9841983,
-      "avg_volume": 6021611,
-      "pe_ratio": 13.914474,
-      "forward_pe": 11.370968,
-      "peg_ratio": 0.31,
-      "price_to_sales": 3.0050118,
-      "price_to_book": 1.6244239,
-      "ev_to_ebitda": 19.658,
-      "market_cap": 10670195712,
-      "enterprise_value": 9943096320,
-      "eps_trailing": 1.52,
-      "eps_forward": 1.86,
-      "earnings_growth": 0.645,
-      "revenue_growth": -0.187,
-      "total_revenue": 3550799872,
-      "net_income": 893299968,
-      "profit_margins": 0.25158,
-      "operating_margins": 0.19982,
-      "return_on_equity": 0.15786,
-      "return_on_assets": 0.02865,
-      "total_debt": 4333199872,
-      "total_cash": 5060299776,
-      "debt_to_equity": 70.557,
-      "current_ratio": 8.718,
-      "quick_ratio": 7.585,
-      "free_cash_flow": 85450000,
+      "sector": "Technology",
+      "industry": "Computer Hardware",
+      "summary": "Sandisk Corporation develops, manufactures, and sells data storage devices and solutions using NAND flash technology in the Americas, Europe, the Middle East, Africa, Asia, and internationally. The company provides solid state drives for desktop and notebook PCs, gaming consoles, and set top boxes; and flash-based embedded storage products for mobile phones, tablets, notebook PCs and other portable and wearable devices, automotive applications, Internet of Things, industrial, and connected home applications, as well as removable cards, universal serial bus drives, and wafers and components. It sells its products to computer manufacturers and original equipment manufacturers, datacenters, private cloud customers, cloud service providers, resellers, distributors, and retailers through its sales personnel, dealers, distributors, retailers, and subsidiaries. Sandisk Corporation was incorporated in 2024 and is based in Milpitas, California.",
+      "current_price": 1633.35,
+      "previous_close": 1692.59,
+      "fifty_two_week_high": 2354.39,
+      "fifty_two_week_low": 85.12,
+      "volume": 9320019,
+      "avg_volume": 13904006,
+      "pe_ratio": 22.12312,
+      "forward_pe": 6.1700664,
+      "peg_ratio": null,
+      "price_to_sales": 11.811214,
+      "price_to_book": 15.465718,
+      "ev_to_ebitda": 18.593,
+      "market_cap": 239153479680,
+      "enterprise_value": 234592468992,
+      "eps_trailing": 73.83,
+      "eps_forward": 264.72162,
+      "earnings_growth": null,
+      "revenue_growth": 3.716,
+      "total_revenue": 20248000512,
+      "net_income": 11432999936,
+      "profit_margins": 0.56465,
+      "operating_margins": 0.78472,
+      "return_on_equity": 0.9164,
+      "return_on_assets": 0.43910998,
+      "total_debt": 201000000,
+      "total_cash": 4761999872,
+      "debt_to_equity": 1.277,
+      "current_ratio": 2.29,
+      "quick_ratio": 1.707,
+      "free_cash_flow": 7720875008,
       "dividend_yield_pct": 0.0,
       "payout_ratio": 0.0,
-      "target_low": null,
-      "target_mean": null,
-      "target_high": null,
-      "target_median": null,
-      "recommendation_key": "strong_buy",
-      "recommendation_mean": 0.0,
-      "number_of_analysts": 0,
-      "implied_upside_pct": null,
+      "target_low": 1000.0,
+      "target_mean": 2125.087,
+      "target_high": 3600.0,
+      "target_median": 2100.0,
+      "recommendation_key": "buy",
+      "recommendation_mean": 1.54167,
+      "number_of_analysts": 23,
+      "implied_upside_pct": 30.10603973428843,
       "rec_breakdown": {
-        "strongBuy": 0,
-        "buy": 0,
-        "hold": 0,
+        "strongBuy": 4,
+        "buy": 16,
+        "hold": 3,
         "sell": 0,
-        "strongSell": 0
+        "strongSell": 1
       },
-      "next_earnings_date": "2026-12-08",
-      "earnings_high_est": 0.27,
-      "earnings_low_est": 0.27,
-      "earnings_avg_est": 0.27,
-      "_ticker_obj": "yfinance.Ticker object <GME>"
+      "next_earnings_date": "2026-11-06",
+      "earnings_high_est": 49.8,
+      "earnings_low_est": 44.05,
+      "earnings_avg_est": 46.20664,
+      "_ticker_obj": "yfinance.Ticker object <SNDK>"
     },
     "tech": {
-      "latest_price": 21.15,
-      "sma_20": 18.7189998626709,
-      "sma_50": 20.10400001525879,
-      "sma_200": 22.179500064849854,
-      "rsi_14": 79.6371190251597,
-      "rsi_status": "OVERBOUGHT",
+      "latest_price": 1633.35,
+      "sma_20": 1602.1279907226562,
+      "sma_50": 1517.8715942382812,
+      "sma_200": 1033.6725480651855,
+      "rsi_14": 52.99574122704939,
+      "rsi_status": "NEUTRAL",
       "macd_data": {
-        "macd": 0.10663644675705086,
-        "signal": -0.29008080754005217,
-        "histogram": 0.39671725429710303,
+        "macd": 52.50861356008204,
+        "signal": 35.53176668838442,
+        "histogram": 16.976846871697617,
         "crossover": "BULLISH"
       },
-      "cross_status": "DEATH_CROSS",
-      "fifty_two_week_pos_pct": 32.58971152784182,
-      "high_52": 28.100000381469727,
-      "low_52": 17.790000915527344,
+      "cross_status": "GOLDEN_CROSS",
+      "fifty_two_week_pos_pct": 68.26562418719146,
+      "high_52": 2354.389892578125,
+      "low_52": 82.27999877929688,
       "returns": {
-        "1m": 13.893378285271973,
-        "3m": -2.847957945460522,
-        "6m": -10.114749754326535,
-        "1y": -15.162455912168626
+        "1m": 6.886939792113567,
+        "3m": -17.511740814164177,
+        "6m": 146.87131768299983,
+        "1y": 1796.3776292645618
       },
-      "technical_score": 54.8,
+      "technical_score": 86.4,
       "signals": [
-        "Price is 5.2% above 50-day SMA (Bullish)",
-        "50-day SMA is below 200-day SMA (Death Cross)",
-        "RSI is overbought at 79.6 (Pullback Risk)",
+        "Price is 7.6% above 50-day SMA (Bullish)",
+        "50-day SMA is above 200-day SMA (Golden Cross)",
         "MACD histogram indicates positive bullish momentum"
       ]
     },
     "sent": {
-      "combined_polarity": 0.108,
-      "sentiment_score": 54.3,
+      "combined_polarity": 0.119,
+      "sentiment_score": 54.8,
       "label": "BULLISH",
       "news_stats": {
-        "polarity": 0.1537373737373737,
-        "subjectivity": 0.23393939393939395,
-        "positive_count": 7,
-        "negative_count": 0,
-        "neutral_count": 8,
+        "polarity": 0.16999999999999998,
+        "subjectivity": 0.3088888888888889,
+        "positive_count": 6,
+        "negative_count": 2,
+        "neutral_count": 7,
         "total": 15
       },
       "reddit_stats": {
@@ -860,26 +859,28 @@
       },
       "headline_count": 15,
       "positive_highlights": [
-        "Is GameStop Corp. (GME) A Good Stock To Buy Now? - Yahoo Finance",
-        "GameStop Director Alain Attal Buys 5,000 Shares for $100,000. Does This Predict Good Times Ahead for GME? - The Motley Fool",
-        "GameStop Is Finally Interesting Again (Rating Upgrade) (GME) - Seeking Alpha"
+        "Sandisk (SNDK) Weekend Outlook: Can the S&P 500's Best Stock Extend Its 857% Rally? - tradingkey.com",
+        "Is Sandisk Corporation (SNDK) A Good Stock To Buy Now? - finance.yahoo.com",
+        "SNDK Stock Is Sliding After-Hours \u2014 Why Wall Street Is Getting More Bullish On Sandisk Despite The Selloff - Stocktwits"
       ],
-      "negative_highlights": [],
+      "negative_highlights": [
+        "SanDisk Corporation Stock (SNDK) Moved Down by 3.92% on Sep 10: What Signal Does It Send? - tradingkey.com",
+        "SanDisk Corporation Stock (SNDK) Moved Down by 3.76% on Sep 11: Drivers Behind the Movement - tradingkey.com"
+      ],
       "recent_headlines": [
-        "GameStop Stock: Two Bets Outside Management's Control (NYSE:GME) - Seeking Alpha",
-        "A 1M-share buy at GameStop (NYSE: GME) boosts Ryan Cohen's stake\u2014see how big it is now - Stock Titan",
-        "VIRGINIA RETIREMENT SYSTEMS ET Al Takes Position in GameStop Corp. $GME - marketbeat.com",
-        "GameStop\u2019s Earnings Just Changed the Bull Case. We See 100% Upside - 24/7 Wall St.",
-        "GME Stock Ticks Higher Overnight: Retail Traders Buoyed By Another Insider Buy, Speculate Ryan Cohen To Be 'Next With Big One' - TradingView"
+        "Sandisk: The NAND Supercycle Makes This A Strong Buy (NASDAQ:SNDK) - Seeking Alpha",
+        "SNDK Stock Is Sliding After-Hours \u2014 Why Wall Street Is Getting More Bullish On Sandisk Despite The Selloff - Stocktwits",
+        "Sandisk (SNDK) Weekend Outlook: Can the S&P 500's Best Stock Extend Its 857% Rally? - tradingkey.com",
+        "Jim Cramer Highlights Sandisk\u2019s (SNDK) Massive Buybacks After Stock Surge - finance.yahoo.com",
+        "Why Is SanDisk Stock Up a Monstrous 2,440% in the Last 12 Months? - TIKR.com"
       ]
     },
     "qual": {
       "priced_in": {
-        "valuation_tier": "Value / Low Expectation",
+        "valuation_tier": "Fair Value Range",
         "priced_in_points": [
-          "Low P/E ratio suggests market is pricing in modest growth or cyclical headwinds.",
-          "Forward P/E is 18.3% lower than trailing P/E, pricing in robust earnings recovery/growth.",
-          "PEG ratio of 0.31 suggests stock may be undervalued relative to expected growth."
+          "P/E ratio reflects balanced market expectations for mid-range growth.",
+          "Forward P/E is 72.1% lower than trailing P/E, pricing in robust earnings recovery/growth."
         ]
       },
       "macro_policy": {
@@ -892,36 +893,36 @@
         ]
       },
       "moat": {
-        "moat_tier": "Narrow Moat",
-        "moat_score": 65.0,
+        "moat_tier": "Wide Moat",
+        "moat_score": 100.0,
         "reasons": [
-          "High net profit margin (25.2%), demonstrating pricing power."
+          "Strong Return on Equity (ROE: 91.6%), indicating high capital efficiency and competitive advantage.",
+          "High net profit margin (56.5%), demonstrating pricing power.",
+          "Mega-cap scale ($239.15B) provides massive distribution and cost advantages."
         ]
       },
-      "qualitative_score": 59.0
+      "qualitative_score": 80.0
     },
     "sig": {
-      "composite_score": 70.8,
-      "signal": "BUY",
-      "confidence_pct": 76.8,
+      "composite_score": 83.2,
+      "signal": "STRONG BUY",
+      "confidence_pct": 76.7,
       "pillar_scores": {
-        "fundamentals": 76.0,
-        "valuation": 95.0,
-        "technicals": 54.8,
-        "sentiment": 54.3,
-        "analyst": 70.0,
-        "macro_moat": 59.0
+        "fundamentals": 100.0,
+        "valuation": 70.0,
+        "technicals": 86.4,
+        "sentiment": 54.8,
+        "analyst": 100.0,
+        "macro_moat": 80.0
       },
       "key_positives": [
-        "Solid Return on Equity (15.8%)",
-        "High profit margin (25.2%)",
-        "Positive free cash flow generation",
-        "Low P/E ratio (13.9x)"
+        "Exceptional Return on Equity (91.6%)",
+        "High profit margin (56.5%)",
+        "Strong YoY revenue growth (371.6%)",
+        "Low debt-to-equity ratio (1.3)"
       ],
       "key_risks": [
-        "Declining YoY revenue (-18.7%)",
-        "50-day SMA is below 200-day SMA (Death Cross)",
-        "RSI is overbought at 79.6 (Pullback Risk)"
+        "Standard market risk and volatility."
       ]
     }
   },
@@ -996,13 +997,13 @@
       "latest_price": 35.92,
       "sma_20": 36.33198585510254,
       "sma_50": 32.56344352722168,
-      "sma_200": 39.098803243637086,
+      "sma_200": 39.098803186416625,
       "rsi_14": 42.00000899940733,
       "rsi_status": "BEARISH",
       "macd_data": {
-        "macd": 0.95722677207835,
-        "signal": 1.2494274147869813,
-        "histogram": -0.2922006427086312,
+        "macd": 0.9572267720932928,
+        "signal": 1.2494274148089715,
+        "histogram": -0.2922006427156787,
         "crossover": "BEARISH"
       },
       "cross_status": "DEATH_CROSS",
@@ -1013,7 +1014,7 @@
         "1m": 9.464075005844496,
         "3m": 2.156105674938713,
         "6m": -21.477473733156515,
-        "1y": 9.319592378079378
+        "1y": 9.319605069779646
       },
       "technical_score": 45.0,
       "signals": [
@@ -1043,17 +1044,17 @@
       },
       "headline_count": 15,
       "positive_highlights": [
-        "Alamos Gold (TSX:AGI) Stock Still Looks Below Fair Value Despite A 441% Run - Yahoo Finance",
-        "Alamos Gold (TSX:AGI) Stock Still Trades Below Fair Value After A 296% Run - Yahoo Finance",
-        "Investors Buy Large Volume of Call Options on Alamos Gold (NYSE:AGI) - marketbeat.com"
+        "Alamos Gold (TSX:AGI) Stock Still Trades Below Fair Value After A 296% Run - finance.yahoo.com",
+        "Alamos Gold (TSX:AGI) Stock Still Looks Below Fair Value Despite A 441% Run - finance.yahoo.com",
+        "Investors Buy Large Volume of Call Options on Alamos Gold (NYSE:AGI) - MarketBeat"
       ],
       "negative_highlights": [],
       "recent_headlines": [
         "Alamos Gold (NYSE:AGI): High Growth Momentum Meets a Breakout Setup - ChartMill",
+        "Alamos Gold (TSX:AGI) Stock Still Looks Below Fair Value Despite A 441% Run - finance.yahoo.com",
         "Alamos Gold: The Mine That Broke Isn't The One That Matters (NYSE:AGI) - Seeking Alpha",
-        "Alamos Gold (TSX:AGI) Stock Still Looks Below Fair Value Despite A 441% Run - Yahoo Finance",
         "Is Alamos Gold Inc (AGI) a Bargain After 3.4% Drop? GF Value Says Undervalued - GuruFocus",
-        "VELA Investment Management LLC Lowers Position in Alamos Gold Inc. $AGI - marketbeat.com"
+        "VELA Investment Management LLC Lowers Position in Alamos Gold Inc. $AGI - MarketBeat"
       ]
     },
     "qual": {
