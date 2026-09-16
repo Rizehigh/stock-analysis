@@ -19,11 +19,11 @@
       "fifty_two_week_low": 65.99,
       "volume": 6791942,
       "avg_volume": 5841150,
-      "pe_ratio": 48.97428,
+      "pe_ratio": null,
       "forward_pe": null,
       "peg_ratio": null,
       "price_to_sales": null,
-      "price_to_book": 2.342504,
+      "price_to_book": null,
       "ev_to_ebitda": null,
       "market_cap": null,
       "enterprise_value": null,
@@ -121,7 +121,7 @@
       "positive_highlights": [
         "What Is United States Oil Fund LP (USO Stock)? A Guide to the Best Way to Invest in Oil - Bitget",
         "5 Best Oil ETFs for 2026 and How to Invest - The Motley Fool",
-        "How to Invest in United States Oil Fund LP (USO) - The Motley Fool"
+        "How to Buy United States Oil Fund LP (USO) - The Motley Fool"
       ],
       "negative_highlights": [
         "Why the USO oil ETF is a better buy than crude futures as the Iran war rages - MarketWatch",
@@ -138,9 +138,9 @@
     },
     "qual": {
       "priced_in": {
-        "valuation_tier": "High Growth Premium",
+        "valuation_tier": "Moderate",
         "priced_in_points": [
-          "High P/E ratio indicates market has priced in strong future earnings acceleration."
+          "Market pricing reflects baseline sector performance."
         ]
       },
       "macro_policy": {
@@ -162,12 +162,12 @@
       "qualitative_score": 50.0
     },
     "sig": {
-      "composite_score": 52.7,
+      "composite_score": 55.7,
       "signal": "HOLD",
-      "confidence_pct": 73.0,
+      "confidence_pct": 74.0,
       "pillar_scores": {
         "fundamentals": 50.0,
-        "valuation": 35.0,
+        "valuation": 50.0,
         "technicals": 82.0,
         "sentiment": 56.1,
         "analyst": 50.0,
@@ -178,7 +178,6 @@
         "50-day SMA is above 200-day SMA (Golden Cross)"
       ],
       "key_risks": [
-        "High P/E ratio (49.0x)",
         "RSI is overbought at 91.0 (Pullback Risk)"
       ]
     }
@@ -203,7 +202,7 @@
       "fifty_two_week_low": 164.27,
       "volume": 85131691,
       "avg_volume": 131906400,
-      "pe_ratio": 26.82301,
+      "pe_ratio": 26.654522,
       "forward_pe": 13.587671,
       "peg_ratio": 0.46,
       "price_to_sales": 16.910152,
@@ -211,7 +210,7 @@
       "ev_to_ebitda": 25.288,
       "market_cap": 5123268935680,
       "enterprise_value": 5089687764992,
-      "eps_trailing": 7.91,
+      "eps_trailing": 7.96,
       "eps_forward": 15.61489,
       "earnings_growth": 1.278,
       "revenue_growth": 1.059,
@@ -258,9 +257,9 @@
       "rsi_14": 49.55378641913654,
       "rsi_status": "NEUTRAL",
       "macd_data": {
-        "macd": 0.8895018211407546,
-        "signal": 2.4253530934060445,
-        "histogram": -1.53585127226529,
+        "macd": 0.8895018211405272,
+        "signal": 2.4253530934057204,
+        "histogram": -1.5358512722651931,
         "crossover": "BEARISH"
       },
       "cross_status": "GOLDEN_CROSS",
@@ -281,15 +280,15 @@
       ]
     },
     "sent": {
-      "combined_polarity": 0.007,
-      "sentiment_score": 50.3,
+      "combined_polarity": 0.004,
+      "sentiment_score": 50.2,
       "label": "NEUTRAL",
       "news_stats": {
-        "polarity": 0.01037878787878788,
-        "subjectivity": 0.15098484848484847,
-        "positive_count": 3,
+        "polarity": 0.005833333333333334,
+        "subjectivity": 0.13583333333333333,
+        "positive_count": 2,
         "negative_count": 1,
-        "neutral_count": 11,
+        "neutral_count": 12,
         "total": 15
       },
       "reddit_stats": {
@@ -302,18 +301,17 @@
       "headline_count": 15,
       "positive_highlights": [
         "CSCO, NVDA Stock Inch Higher \u2014 Cisco And Nvidia Expand Partnership To Bring Agentic AI To Splunk Customers - TradingView",
-        "Nvidia: Too Cheap To Ignore Due To Misguided AI Panic (NASDAQ:NVDA) - Seeking Alpha",
-        "New Harbor Financial Group LLC Acquires 4,895 Shares of NVIDIA Corporation $NVDA - MarketBeat"
+        "Nvidia: Too Cheap To Ignore Due To Misguided AI Panic (NASDAQ:NVDA) - Seeking Alpha"
       ],
       "negative_highlights": [
         "Investors Heavily Search NVIDIA Corporation (NVDA): Here is What You Need to Know - Yahoo Finance"
       ],
       "recent_headlines": [
         "Jim Cramer Tries To Predict NVIDIA Corporation (NASDAQ:NVDA) Share Price Movement Following Anthropic CEO\u2019s Remarks - Yahoo Finance",
-        "NVIDIA Corporation $NVDA Stock Holdings Trimmed by Albion Financial Group UT - MarketBeat",
-        "Nvidia: Why The 'AI Slowdown' Could Extend The Boom (NASDAQ:NVDA) - Seeking Alpha",
-        "CSCO, NVDA Stock Inch Higher \u2014 Cisco And Nvidia Expand Partnership To Bring Agentic AI To Splunk Customers - TradingView",
-        "Cashing in on the Qubit: NVIDIA Takes the Quantum Leap - MarketBeat"
+        "NVIDIA Corporation $NVDA Stock Position Increased by Ignite Planners LLC - MarketBeat",
+        "Nvidia: Too Cheap To Ignore Due To Misguided AI Panic (NASDAQ:NVDA) - Seeking Alpha",
+        "NVIDIA Corporation $NVDA Shares Acquired by Davidson Investment Advisors - MarketBeat",
+        "CSCO, NVDA Stock Inch Higher \u2014 Cisco And Nvidia Expand Partnership To Bring Agentic AI To Splunk Customers - TradingView"
       ]
     },
     "qual": {
@@ -321,7 +319,7 @@
         "valuation_tier": "Fair Value Range",
         "priced_in_points": [
           "P/E ratio reflects balanced market expectations for mid-range growth.",
-          "Forward P/E is 49.3% lower than trailing P/E, pricing in robust earnings recovery/growth.",
+          "Forward P/E is 49.0% lower than trailing P/E, pricing in robust earnings recovery/growth.",
           "PEG ratio of 0.46 suggests stock may be undervalued relative to expected growth."
         ]
       },
@@ -353,7 +351,7 @@
         "fundamentals": 100.0,
         "valuation": 80.0,
         "technicals": 44.4,
-        "sentiment": 50.3,
+        "sentiment": 50.2,
         "analyst": 100.0,
         "macro_moat": 80.0
       },
@@ -388,16 +386,16 @@
       "fifty_two_week_low": 154.65,
       "volume": 20305657,
       "avg_volume": 40562203,
-      "pe_ratio": 20.957975,
-      "forward_pe": 5.9436364,
+      "pe_ratio": 20.877785,
+      "forward_pe": 5.9332347,
       "peg_ratio": 0.14,
       "price_to_sales": 11.604948,
       "price_to_book": 10.397355,
       "ev_to_ebitda": 15.068,
       "market_cap": 1047625072640,
       "enterprise_value": 1027979083776,
-      "eps_trailing": 44.26,
-      "eps_forward": 156.06607,
+      "eps_trailing": 44.43,
+      "eps_forward": 156.33968,
       "earnings_growth": 13.685,
       "revenue_growth": 3.457,
       "total_revenue": 90273996800,
@@ -466,15 +464,15 @@
       ]
     },
     "sent": {
-      "combined_polarity": 0.057,
-      "sentiment_score": 52.3,
+      "combined_polarity": 0.038,
+      "sentiment_score": 51.5,
       "label": "NEUTRAL",
       "news_stats": {
-        "polarity": 0.08166666666666665,
-        "subjectivity": 0.18242424242424243,
-        "positive_count": 5,
+        "polarity": 0.05378787878787879,
+        "subjectivity": 0.09393939393939395,
+        "positive_count": 3,
         "negative_count": 0,
-        "neutral_count": 10,
+        "neutral_count": 12,
         "total": 15
       },
       "reddit_stats": {
@@ -487,14 +485,14 @@
       "headline_count": 15,
       "positive_highlights": [
         "Micron vs. AMD: Which AI Chip Stock Is the Better Investment Bet? - TradingView",
-        "MU Stock Slides As Legal Fears And Chip Sell-Off Hit Momentum - timothysykes.com",
-        "MU Stock Slides As Legal Fight And Chip Selloff Rattle Traders - StocksToTrade"
+        "Micron Technology (MU) Stock Faces New AI Demand Questions After Industry Slowdown Call - Yahoo! Finance Canada",
+        "MU Stock Rises After Micron Debuts 512GB DDR5 Server Memory \u2013 AMD, Intel To Validate New Server Technology - Yahoo Finance"
       ],
       "negative_highlights": [],
       "recent_headlines": [
         "Why Is Micron Technology Stock Falling Monday? - Benzinga",
         "What's Going On With Micron Technology Stock Tuesday? - Benzinga",
-        "MU Stock Rises After Micron Debuts 512GB DDR5 Server Memory \u2013 AMD, Intel To Validate New Server Technology - Yahoo Finance",
+        "Micron Technology Shares Fall 5.2% as Semiconductor Stocks Decline - Yahoo Finance",
         "Micron: The AI Memory Cycle Still Looks Underpriced (Upgrade) (NASDAQ:MU) - Seeking Alpha",
         "Micron's research lab has a planned $10 billion budget. Deirdre Hanford will lead it. - Stock Titan"
       ]
@@ -529,14 +527,14 @@
       "qualitative_score": 80.0
     },
     "sig": {
-      "composite_score": 79.6,
+      "composite_score": 79.5,
       "signal": "BUY",
-      "confidence_pct": 70.3,
+      "confidence_pct": 70.1,
       "pillar_scores": {
         "fundamentals": 100.0,
         "valuation": 85.0,
         "technicals": 45.2,
-        "sentiment": 52.3,
+        "sentiment": 51.5,
         "analyst": 100.0,
         "macro_moat": 80.0
       },
@@ -570,7 +568,7 @@
       "fifty_two_week_high": 155.75,
       "fifty_two_week_low": 126.23,
       "volume": 1577944,
-      "avg_volume": 1323593,
+      "avg_volume": 1328450,
       "pe_ratio": 20.73132,
       "forward_pe": 15.588297,
       "peg_ratio": 1.68,
@@ -595,7 +593,7 @@
       "current_ratio": 0.802,
       "quick_ratio": 0.395,
       "free_cash_flow": -2596624896,
-      "dividend_yield_pct": 3.55,
+      "dividend_yield_pct": 3.57,
       "payout_ratio": 0.72550005,
       "target_low": 143.0,
       "target_mean": 156.85715,
@@ -622,13 +620,13 @@
       "latest_price": 130.4,
       "sma_20": 135.85150070190429,
       "sma_50": 141.21280029296875,
-      "sma_200": 140.18940578460695,
+      "sma_200": 140.18940643310546,
       "rsi_14": 29.702949996708668,
       "rsi_status": "OVERSOLD",
       "macd_data": {
-        "macd": -2.3479730439245827,
-        "signal": -2.03033168793805,
-        "histogram": -0.31764135598653276,
+        "macd": -2.3479730440676008,
+        "signal": -2.0303316881483866,
+        "histogram": -0.31764135591921416,
         "crossover": "BEARISH"
       },
       "cross_status": "GOLDEN_CROSS",
@@ -671,16 +669,16 @@
       "headline_count": 15,
       "positive_highlights": [
         "DTE Energy (DTE) Stock Looks Fairly Valued On Its 36% Run - simplywall.st",
-        "Man Group plc Purchases New Position in DTE Energy Company $DTE - MarketBeat",
-        "DTE Energy Company (DTE) Stock Price | Live Quotes & Charts | NYSE - timothysykes.com"
+        "DTE Energy Company (DTE) Stock Price | Live Quotes & Charts | NYSE - timothysykes.com",
+        "Man Group plc Purchases New Position in DTE Energy Company $DTE - MarketBeat"
       ],
       "negative_highlights": [],
       "recent_headlines": [
         "DTE Energy (DTE) Stock Looks Fairly Valued On Its 36% Run - simplywall.st",
         "DTE Energy Co. stock underperforms Monday when compared to competitors - MarketWatch",
         "Are Wall Street Analysts Predicting DTE Energy Stock Will Climb or Sink? - Yahoo Finance",
-        "DTE Energy Co. stock edges lower as gas rate hike reshapes outlook - ad-hoc-news.de",
-        "DTE Energy Company (DTE) Stock Price | Live Quotes & Charts | NYSE - timothysykes.com"
+        "DTE Energy Company (DTE) Stock Price | Live Quotes & Charts | NYSE - timothysykes.com",
+        "DTE Energy Co. stock edges lower as gas rate hike reshapes outlook - ad-hoc-news.de"
       ]
     },
     "qual": {
@@ -755,7 +753,7 @@
       "fifty_two_week_low": 289.96,
       "volume": 23370886,
       "avg_volume": 23663944,
-      "pe_ratio": 43.329502,
+      "pe_ratio": 44.06104,
       "forward_pe": 17.50266,
       "peg_ratio": 0.34,
       "price_to_sales": 18.175945,
@@ -763,7 +761,7 @@
       "ev_to_ebitda": 31.668,
       "market_cap": 1619549356032,
       "enterprise_value": 1654993453056,
-      "eps_trailing": 7.83,
+      "eps_trailing": 7.7,
       "eps_forward": 19.38391,
       "earnings_growth": 2.153,
       "revenue_growth": 0.855,
@@ -779,7 +777,7 @@
       "current_ratio": 2.504,
       "quick_ratio": 2.153,
       "free_cash_flow": 30596499456,
-      "dividend_yield_pct": 75.0,
+      "dividend_yield_pct": 77.0,
       "payout_ratio": 0.324,
       "target_low": 215.88,
       "target_mean": 531.8468,
@@ -806,13 +804,13 @@
       "latest_price": 339.27,
       "sma_20": 362.42249908447263,
       "sma_50": 382.0783990478516,
-      "sma_200": 369.06398880004883,
+      "sma_200": 369.06399002075193,
       "rsi_14": 38.74210462349787,
       "rsi_status": "BEARISH",
       "macd_data": {
-        "macd": -9.818586807477857,
-        "signal": -8.194507225693709,
-        "histogram": -1.624079581784148,
+        "macd": -9.81858680732904,
+        "signal": -8.194507225474798,
+        "histogram": -1.624079581854243,
         "crossover": "BEARISH"
       },
       "cross_status": "GOLDEN_CROSS",
@@ -833,15 +831,15 @@
       ]
     },
     "sent": {
-      "combined_polarity": 0.056,
-      "sentiment_score": 52.2,
+      "combined_polarity": 0.042,
+      "sentiment_score": 51.7,
       "label": "NEUTRAL",
       "news_stats": {
-        "polarity": 0.08018518518518518,
-        "subjectivity": 0.23814814814814816,
-        "positive_count": 4,
-        "negative_count": 2,
-        "neutral_count": 9,
+        "polarity": 0.06018518518518518,
+        "subjectivity": 0.34814814814814815,
+        "positive_count": 5,
+        "negative_count": 3,
+        "neutral_count": 7,
         "total": 15
       },
       "reddit_stats": {
@@ -858,15 +856,16 @@
         "Fantastic News for Broadcom Stock Investors - Yahoo Finance"
       ],
       "negative_highlights": [
-        "Broadcom Inc Stock (AVGO) Opened Down by 3.73% on Sep 14: Key Drivers Unveiled - tradingkey.com",
-        "Broadcom's Biggest Customers Want To Slow AI Down - They're Still Buying (NASDAQ:AVGO) - Seeking Alpha"
+        "Broadcom Inc Stock (AVGO) Opened Down by 3.73% on Sep 14: Key Drivers Unveiled - TradingKey",
+        "Broadcom's Biggest Customers Want To Slow AI Down - They're Still Buying (NASDAQ:AVGO) - Seeking Alpha",
+        "Broadcom: The Valuation At This Point Is Absurdly Inadequate (NASDAQ:AVGO) - Seeking Alpha"
       ],
       "recent_headlines": [
         "Broadcom: Buckle Up For What's Coming (NASDAQ:AVGO) - Seeking Alpha",
-        "Broadcom Inc Stock (AVGO) Opened Down by 3.73% on Sep 14: Key Drivers Unveiled - tradingkey.com",
+        "Broadcom Inc Stock (AVGO) Opened Down by 3.73% on Sep 14: Key Drivers Unveiled - TradingKey",
         "Fantastic News for Broadcom Stock Investors - Yahoo Finance",
-        "Broadcom (NASDAQ:AVGO): Dividend Quality and Growth for Income Investors - ChartMill",
-        "Why Is Broadcom Stock Falling Monday? - Benzinga"
+        "Why Is Broadcom Stock Falling Monday? - Benzinga",
+        "NVIDIA vs. Broadcom: Which AI Stock Should You Buy After Earnings? - TradingView"
       ]
     },
     "qual": {
@@ -874,7 +873,7 @@
         "valuation_tier": "High Growth Premium",
         "priced_in_points": [
           "High P/E ratio indicates market has priced in strong future earnings acceleration.",
-          "Forward P/E is 59.6% lower than trailing P/E, pricing in robust earnings recovery/growth.",
+          "Forward P/E is 60.3% lower than trailing P/E, pricing in robust earnings recovery/growth.",
           "PEG ratio of 0.34 suggests stock may be undervalued relative to expected growth."
         ]
       },
@@ -899,14 +898,14 @@
       "qualitative_score": 80.0
     },
     "sig": {
-      "composite_score": 73.6,
+      "composite_score": 73.5,
       "signal": "BUY",
       "confidence_pct": 64.1,
       "pillar_scores": {
         "fundamentals": 100.0,
         "valuation": 70.0,
         "technicals": 25.0,
-        "sentiment": 52.2,
+        "sentiment": 51.7,
         "analyst": 100.0,
         "macro_moat": 80.0
       },
@@ -921,10 +920,10 @@
       ]
     }
   },
-  "META": {
+  "SNDK": {
     "data": {
-      "symbol": "META",
-      "company_name": "Meta Platforms, Inc.",
+      "symbol": "SNDK",
+      "company_name": "Sandisk Corporation",
       "exchange_info": {
         "country": "United States",
         "exchange": "NYSE/NASDAQ",
@@ -932,103 +931,102 @@
         "currency_symbol": "$"
       },
       "currency": "USD",
-      "sector": "Communication Services",
-      "industry": "Internet Content & Information",
-      "summary": "Meta Platforms, Inc. engages in the development of products that enable people to connect and share with friends and family through mobile devices, personal computers, virtual reality (VR) headsets, and AI glasses in the United States, Canada, Europe, Asia-Pacific, and internationally. It operates through two segments, Family of Apps (FoA) and Reality Labs (RL). The FoA segment offers Facebook, which enables people to build community through feed, reels, stories, groups, marketplace, and other; Instagram that brings people closer through Instagram feed, stories, reels, live, and messaging; Messenger, a messaging application for people to connect with friends, family, communities, and businesses across platforms and devices through text, audio, and video calls; Meta AI, an assistant that's available across apps, as a stand-alone app, on AI glasses, and on the web; Threads, an application for text-based updates and public conversations; and WhatsApp, a messaging application that is used by people and businesses to communicate and transact. The RL segment provides virtual and augmented reality products, including consumer hardware, software, and content that help people feel connected, as well as Meta Quest devices that enable social experiences across gaming, fitness, entertainment, and more. The segment also includes wearables such as AI glasses like Ray Ban Meta and Oakley Meta glasses; and the Meta Ray Ban Display, which combines AI glasses with an integrated lens display and the Meta Neural Band, a wrist worn device using electromyography that lets people control their AI glasses through neuromuscular signals. Meta Platforms, Inc. has a collaboration with Microsoft Corporation, NVIDIA Corporation, Advanced Micro Devices, Inc., Broadcom Inc., and OpenAI, L.L.C. The company was formerly known as Facebook, Inc. and changed its name to Meta Platforms, Inc. in October 2021. The company was incorporated in 2004 and is headquartered in Menlo Park, California.",
-      "current_price": 670.24,
-      "previous_close": 665.6,
-      "fifty_two_week_high": 790.8,
-      "fifty_two_week_low": 520.26,
-      "volume": 18598822,
-      "avg_volume": 18291730,
-      "pe_ratio": 25.065071,
-      "forward_pe": 19.171812,
-      "peg_ratio": 0.88,
-      "price_to_sales": 7.48067,
-      "price_to_book": 6.5376515,
-      "ev_to_ebitda": 15.772,
-      "market_cap": 1707440472064,
-      "enterprise_value": 1729498578944,
-      "eps_trailing": 26.74,
-      "eps_forward": 34.95966,
-      "earnings_growth": -0.134,
-      "revenue_growth": 0.28,
-      "total_revenue": 228246994944,
-      "net_income": 68097998848,
-      "profit_margins": 0.29834998,
-      "operating_margins": 0.34827,
-      "return_on_equity": 0.29848,
-      "return_on_assets": 0.14591,
-      "total_debt": 112317997056,
-      "total_cash": 90259996672,
-      "debt_to_equity": 42.997,
-      "current_ratio": 2.226,
-      "quick_ratio": 1.987,
-      "free_cash_flow": 21553625088,
-      "dividend_yield_pct": 32.0,
-      "payout_ratio": 0.0791,
-      "target_low": 580.0,
-      "target_mean": 758.2758,
-      "target_high": 1000.0,
-      "target_median": 750.0,
-      "recommendation_key": "strong_buy",
-      "recommendation_mean": 1.33871,
-      "number_of_analysts": 57,
-      "implied_upside_pct": 13.134966579135831,
+      "sector": "Technology",
+      "industry": "Computer Hardware",
+      "summary": "Sandisk Corporation develops, manufactures, and sells data storage devices and solutions using NAND flash technology in the Americas, Europe, the Middle East, Africa, Asia, and internationally. The company provides solid state drives for desktop and notebook PCs, gaming consoles, and set top boxes; and flash-based embedded storage products for mobile phones, tablets, notebook PCs and other portable and wearable devices, automotive applications, Internet of Things, industrial, and connected home applications, as well as removable cards, universal serial bus drives, and wafers and components. It sells its products to computer manufacturers and original equipment manufacturers, datacenters, private cloud customers, cloud service providers, resellers, distributors, and retailers through its sales personnel, dealers, distributors, retailers, and subsidiaries. Sandisk Corporation was incorporated in 2024 and is based in Milpitas, California.",
+      "current_price": 1530.9,
+      "previous_close": 1551.99,
+      "fifty_two_week_high": 2354.39,
+      "fifty_two_week_low": 90.22,
+      "volume": 6830792,
+      "avg_volume": 13982321,
+      "pe_ratio": 21.051981,
+      "forward_pe": 5.7830563,
+      "peg_ratio": null,
+      "price_to_sales": 11.070371,
+      "price_to_book": 14.495649,
+      "ev_to_ebitda": 17.404,
+      "market_cap": 224152862720,
+      "enterprise_value": 219591114752,
+      "eps_trailing": 72.72,
+      "eps_forward": 264.72162,
+      "earnings_growth": null,
+      "revenue_growth": 3.716,
+      "total_revenue": 20248000512,
+      "net_income": 11432999936,
+      "profit_margins": 0.56465,
+      "operating_margins": 0.78472,
+      "return_on_equity": 0.9164,
+      "return_on_assets": 0.43910998,
+      "total_debt": 201000000,
+      "total_cash": 4761999872,
+      "debt_to_equity": 1.277,
+      "current_ratio": 2.29,
+      "quick_ratio": 1.707,
+      "free_cash_flow": 7720875008,
+      "dividend_yield_pct": 0.0,
+      "payout_ratio": 0.0,
+      "target_low": 1000.0,
+      "target_mean": 2125.087,
+      "target_high": 3600.0,
+      "target_median": 2100.0,
+      "recommendation_key": "buy",
+      "recommendation_mean": 1.54167,
+      "number_of_analysts": 23,
+      "implied_upside_pct": 38.81292050427852,
       "rec_breakdown": {
-        "strongBuy": 9,
-        "buy": 47,
-        "hold": 6,
+        "strongBuy": 4,
+        "buy": 16,
+        "hold": 3,
         "sell": 0,
-        "strongSell": 0
+        "strongSell": 1
       },
-      "next_earnings_date": "2026-10-28",
-      "earnings_high_est": 7.64,
-      "earnings_low_est": 6.31,
-      "earnings_avg_est": 6.97333,
-      "_ticker_obj": "yfinance.Ticker object <META>"
+      "next_earnings_date": "2026-11-06",
+      "earnings_high_est": 49.8,
+      "earnings_low_est": 44.05,
+      "earnings_avg_est": 46.20664,
+      "_ticker_obj": "yfinance.Ticker object <SNDK>"
     },
     "tech": {
-      "latest_price": 670.24,
-      "sma_20": 595.318002319336,
-      "sma_50": 603.9551965332031,
-      "sma_200": 623.0273370361328,
-      "rsi_14": 84.11765561705391,
-      "rsi_status": "OVERBOUGHT",
+      "latest_price": 1530.9,
+      "sma_20": 1584.8742431640626,
+      "sma_50": 1509.740693359375,
+      "sma_200": 1046.8496730804443,
+      "rsi_14": 54.11403527403724,
+      "rsi_status": "NEUTRAL",
       "macd_data": {
-        "macd": 19.798038849906447,
-        "signal": 9.360533922566031,
-        "histogram": 10.437504927340417,
-        "crossover": "BULLISH"
+        "macd": 32.650069748358874,
+        "signal": 36.08467319471758,
+        "histogram": -3.4346034463587074,
+        "crossover": "BEARISH_CROSS"
       },
-      "cross_status": "DEATH_CROSS",
-      "fifty_two_week_pos_pct": 56.05077249112765,
-      "high_52": 788.2165669565625,
-      "low_52": 519.7782492802263,
+      "cross_status": "GOLDEN_CROSS",
+      "fifty_two_week_pos_pct": 63.640099665364794,
+      "high_52": 2354.389892578125,
+      "low_52": 89.55999755859375,
       "returns": {
-        "1m": 17.798835529356126,
-        "3m": 11.667578924654155,
-        "6m": 7.741174612191748,
-        "1y": -13.67949464215571
+        "1m": -14.324088708231208,
+        "3m": -23.130227086142384,
+        "6m": 112.57481377017977,
+        "1y": 1572.2009273276653
       },
-      "technical_score": 62.0,
+      "technical_score": 47.1,
       "signals": [
-        "Price is 11.0% above 50-day SMA (Bullish)",
-        "50-day SMA is below 200-day SMA (Death Cross)",
-        "RSI is overbought at 84.1 (Pullback Risk)",
-        "MACD histogram indicates positive bullish momentum"
+        "Price is 1.4% above 50-day SMA (Bullish)",
+        "50-day SMA is above 200-day SMA (Golden Cross)",
+        "MACD histogram indicates negative bearish momentum"
       ]
     },
     "sent": {
-      "combined_polarity": 0.13,
-      "sentiment_score": 55.2,
-      "label": "BULLISH",
+      "combined_polarity": 0.045,
+      "sentiment_score": 51.8,
+      "label": "NEUTRAL",
       "news_stats": {
-        "polarity": 0.18555555555555556,
-        "subjectivity": 0.2622222222222222,
-        "positive_count": 5,
-        "negative_count": 0,
-        "neutral_count": 10,
+        "polarity": 0.0639057239057239,
+        "subjectivity": 0.2654882154882155,
+        "positive_count": 3,
+        "negative_count": 4,
+        "neutral_count": 8,
         "total": 15
       },
       "reddit_stats": {
@@ -1040,17 +1038,21 @@
       },
       "headline_count": 15,
       "positive_highlights": [
-        "After Earnings, Is Meta Stock a Buy, a Sell, or Fairly Valued? - Morningstar",
-        "Ahead of Earnings, Is Meta Stock a Buy, a Sell, or Fairly Valued? - Morningstar",
-        "Why Is Meta Stock Up Today? - The Motley Fool"
+        "Sandisk (SNDK) Weekend Outlook: Can the S&P 500's Best Stock Extend Its 857% Rally? - TradingKey",
+        "Sandisk: The NAND Supercycle Makes This A Strong Buy (NASDAQ:SNDK) - Seeking Alpha",
+        "Sandisk: Customers Are Sending A New Signal (NASDAQ:SNDK) - Seeking Alpha"
       ],
-      "negative_highlights": [],
+      "negative_highlights": [
+        "SanDisk Corporation Stock (SNDK) Moved Down by 4.20% on Sep 14: Key Drivers Unveiled - TradingKey",
+        "Sandisk Sinks 37%, but Wall Street Still Backs SNDK Stock - Yahoo Finance",
+        "SanDisk Corporation Stock (SNDK) Moved Down by 3.92% on Sep 10: What Signal Does It Send? - TradingKey"
+      ],
       "recent_headlines": [
-        "Meta Platforms Inc. (META) Stock Could Surge as AI Monetization Gains Momentum, Says JPMorgan - Yahoo Finance",
-        "What's Going On With Meta Stock? - Benzinga",
-        "Meta stock rises on cost-saving AI chip deployment plans - Investing.com",
-        "Meta: The Case For $1,000 Is Easy To Make (NASDAQ:META) - Seeking Alpha",
-        "Fifty-Five Analysts Cover Meta and None Say Sell - 24/7 Wall St."
+        "Sandisk (SNDK) Weekend Outlook: Can the S&P 500's Best Stock Extend Its 857% Rally? - TradingKey",
+        "Sandisk: Customers Are Sending A New Signal (NASDAQ:SNDK) - Seeking Alpha",
+        "Sandisk Corporation (SNDK) Up 23.6% Since Last Earnings Report: Can It Continue? - Yahoo Finance",
+        "What's Going On With Sandisk Stock Monday? - TradingView",
+        "Sandisk: The NAND Supercycle Makes This A Strong Buy (NASDAQ:SNDK) - Seeking Alpha"
       ]
     },
     "qual": {
@@ -1058,51 +1060,49 @@
         "valuation_tier": "Fair Value Range",
         "priced_in_points": [
           "P/E ratio reflects balanced market expectations for mid-range growth.",
-          "Forward P/E is 23.5% lower than trailing P/E, pricing in robust earnings recovery/growth.",
-          "PEG ratio of 0.88 suggests stock may be undervalued relative to expected growth."
+          "Forward P/E is 72.5% lower than trailing P/E, pricing in robust earnings recovery/growth."
         ]
       },
       "macro_policy": {
         "macro_factors": [
           "Operating in United States under Federal Reserve (FED) interest rate policy environment.",
-          "Performance closely aligned with overall United States economic trajectory."
+          "Consumer sentiment and discretionary spending impact demand during inflation/rate shifts."
         ],
         "policy_risks": [
-          "Standard corporate governance and trade policy conditions apply."
+          "Antitrust oversight, data privacy laws, and international tariff trade policies affect cross-border supply chains."
         ]
       },
       "moat": {
         "moat_tier": "Wide Moat",
         "moat_score": 100.0,
         "reasons": [
-          "Strong Return on Equity (ROE: 29.8%), indicating high capital efficiency and competitive advantage.",
-          "High net profit margin (29.8%), demonstrating pricing power.",
-          "Mega-cap scale ($1.71T) provides massive distribution and cost advantages."
+          "Strong Return on Equity (ROE: 91.6%), indicating high capital efficiency and competitive advantage.",
+          "High net profit margin (56.5%), demonstrating pricing power.",
+          "Mega-cap scale ($224.15B) provides massive distribution and cost advantages."
         ]
       },
       "qualitative_score": 80.0
     },
     "sig": {
-      "composite_score": 78.8,
+      "composite_score": 76.8,
       "signal": "BUY",
-      "confidence_pct": 76.3,
+      "confidence_pct": 70.9,
       "pillar_scores": {
         "fundamentals": 100.0,
         "valuation": 70.0,
-        "technicals": 62.0,
-        "sentiment": 55.2,
-        "analyst": 95.0,
+        "technicals": 47.1,
+        "sentiment": 51.8,
+        "analyst": 100.0,
         "macro_moat": 80.0
       },
       "key_positives": [
-        "Exceptional Return on Equity (29.8%)",
-        "High profit margin (29.8%)",
-        "Strong YoY revenue growth (28.0%)",
-        "Low debt-to-equity ratio (43.0)"
+        "Exceptional Return on Equity (91.6%)",
+        "High profit margin (56.5%)",
+        "Strong YoY revenue growth (371.6%)",
+        "Low debt-to-equity ratio (1.3)"
       ],
       "key_risks": [
-        "50-day SMA is below 200-day SMA (Death Cross)",
-        "RSI is overbought at 84.1 (Pullback Risk)"
+        "Standard market risk and volatility."
       ]
     }
   }
