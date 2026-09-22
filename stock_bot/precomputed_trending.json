@@ -43,16 +43,16 @@
       "current_ratio": 2.226,
       "quick_ratio": 1.987,
       "free_cash_flow": 21553625088,
-      "dividend_yield_pct": 32.0,
+      "dividend_yield_pct": 28.000000000000004,
       "payout_ratio": 0.0791,
       "target_low": 580.0,
-      "target_mean": 755.2807,
+      "target_mean": 758.0664,
       "target_high": 1000.0,
       "target_median": 750.0,
       "recommendation_key": "strong_buy",
       "recommendation_mean": 1.33871,
       "number_of_analysts": 56,
-      "implied_upside_pct": 1.8935304791263374,
+      "implied_upside_pct": 2.269344143973995,
       "rec_breakdown": {
         "strongBuy": 9,
         "buy": 47,
@@ -62,27 +62,27 @@
       },
       "next_earnings_date": "2026-10-28",
       "earnings_high_est": 7.64,
-      "earnings_low_est": 6.31,
-      "earnings_avg_est": 6.97333,
+      "earnings_low_est": 3.92,
+      "earnings_avg_est": 6.73846,
       "_ticker_obj": "yfinance.Ticker object <META>"
     },
     "tech": {
       "latest_price": 741.245,
       "sma_20": 623.7145202636718,
       "sma_50": 608.3513891601563,
-      "sma_200": 623.5369503784179,
+      "sma_200": 623.5369506835938,
       "rsi_14": 87.20015358314188,
       "rsi_status": "OVERBOUGHT",
       "macd_data": {
-        "macd": 29.84670758358652,
-        "signal": 18.94906845994242,
-        "histogram": 10.897639123644101,
+        "macd": 29.846707561390417,
+        "signal": 18.949068427529795,
+        "histogram": 10.897639133860622,
         "crossover": "BULLISH"
       },
       "cross_status": "DEATH_CROSS",
-      "fifty_two_week_pos_pct": 84.13806792790453,
+      "fifty_two_week_pos_pct": 84.13806429475574,
       "high_52": 783.0737723834768,
-      "low_52": 519.368366299545,
+      "low_52": 519.3684267008094,
       "returns": {
         "1m": 34.90270578354331,
         "3m": 31.951263285107355,
@@ -98,14 +98,14 @@
       ]
     },
     "sent": {
-      "combined_polarity": 0.063,
-      "sentiment_score": 52.5,
+      "combined_polarity": 0.069,
+      "sentiment_score": 52.8,
       "label": "NEUTRAL",
       "news_stats": {
-        "polarity": 0.09004040404040405,
-        "subjectivity": 0.19094949494949495,
-        "positive_count": 3,
-        "negative_count": 1,
+        "polarity": 0.09837373737373738,
+        "subjectivity": 0.17761616161616162,
+        "positive_count": 4,
+        "negative_count": 0,
         "neutral_count": 11,
         "total": 15
       },
@@ -119,18 +119,16 @@
       "headline_count": 15,
       "positive_highlights": [
         "Why Meta Platforms Stock Skyrocketed Today - The Motley Fool",
-        "Meta: Poised For Strong Long-Term Growth - Seeking Alpha",
-        "Meta\u2019s stock is enjoying its best month in 13 years thanks to the company\u2019s hot new AI assistant - MarketWatch"
-      ],
-      "negative_highlights": [
-        "Meta's stock drops on disappointing guidance, dwindling free cash flow - CNBC"
-      ],
-      "recent_headlines": [
-        "Why Meta Platforms Stock Skyrocketed Today - Yahoo Finance",
         "Meta\u2019s stock is enjoying its best month in 13 years thanks to the company\u2019s hot new AI assistant - MarketWatch",
+        "QUICK SPARK: Meta Stock Adds Over $200 Billion in Value Today - Benzinga"
+      ],
+      "negative_highlights": [],
+      "recent_headlines": [
+        "Meta (META) Stock Trades Up, Here Is Why - Yahoo Finance",
+        "Meta\u2019s stock is enjoying its best month in 13 years thanks to the company\u2019s hot new AI assistant - MarketWatch",
+        "Why Meta Platforms Stock Skyrocketed Today - The Motley Fool",
         "Meta Stock Is Surging: What's Happening Today? - Benzinga",
-        "Meta: Poised For Strong Long-Term Growth - Seeking Alpha",
-        "Why Meta Platforms Stock Skyrocketed Today - The Motley Fool"
+        "Why Meta Platforms Stock Skyrocketed Today - The Globe and Mail"
       ]
     },
     "qual": {
@@ -163,14 +161,14 @@
       "qualitative_score": 80.0
     },
     "sig": {
-      "composite_score": 76.9,
+      "composite_score": 77.0,
       "signal": "BUY",
-      "confidence_pct": 77.3,
+      "confidence_pct": 77.4,
       "pillar_scores": {
         "fundamentals": 100.0,
         "valuation": 70.0,
         "technicals": 62.0,
-        "sentiment": 52.5,
+        "sentiment": 52.8,
         "analyst": 85.0,
         "macro_moat": 80.0
       },
@@ -285,15 +283,15 @@
       ]
     },
     "sent": {
-      "combined_polarity": 0.164,
-      "sentiment_score": 56.5,
+      "combined_polarity": 0.175,
+      "sentiment_score": 57.0,
       "label": "BULLISH",
       "news_stats": {
-        "polarity": 0.23358585858585856,
-        "subjectivity": 0.4478787878787878,
-        "positive_count": 11,
+        "polarity": 0.2502525252525252,
+        "subjectivity": 0.47565656565656556,
+        "positive_count": 12,
         "negative_count": 0,
-        "neutral_count": 4,
+        "neutral_count": 3,
         "total": 15
       },
       "reddit_stats": {
@@ -305,17 +303,17 @@
       },
       "headline_count": 15,
       "positive_highlights": [
-        "Why AMD Stock Is Rising Fast Today - The Motley Fool",
-        "Advanced Micro Devices (NASDAQ:AMD) Stock Price Up 9.9% - Here's What Happened - marketbeat.com",
-        "Is Advanced Micro Devices Inc (AMD) Overvalued After 9.9% Rally? - GuruFocus"
+        "Is Advanced Micro Devices Inc (AMD) Overvalued After 9.9% Rally? - GuruFocus",
+        "Advanced Micro Devices (NASDAQ:AMD) Stock Price Up 9.9% - Here's What Happened - MarketBeat",
+        "Advanced Micro Devices Inc Stock (AMD) Opened Up by 7.81% on Sep 21: What Signal Does It Send? - TradingKey"
       ],
       "negative_highlights": [],
       "recent_headlines": [
-        "Amd stock hits all-time high at 584.95 USD - Investing.com",
         "Advanced Micro Devices rises 10% to set new high (AMD:NASDAQ) - Seeking Alpha",
+        "Amd stock hits all-time high at 584.95 USD - Investing.com",
         "Better Artificial Intelligence Stock: Advanced Micro Devices vs. SK Hynix - The Motley Fool",
-        "What's Going On With AMD Stock Monday? - Benzinga",
-        "Advanced Micro Devices (NASDAQ:AMD) Stock Price Up 9.9% - Here's What Happened - marketbeat.com"
+        "AMD Stock Alert: Advanced Micro Devices Joins the Trillion-Dollar Club - Yahoo Finance",
+        "What's Going On With AMD Stock Monday? - Benzinga"
       ]
     },
     "qual": {
@@ -349,12 +347,12 @@
     "sig": {
       "composite_score": 73.6,
       "signal": "BUY",
-      "confidence_pct": 77.4,
+      "confidence_pct": 77.5,
       "pillar_scores": {
         "fundamentals": 93.0,
         "valuation": 50.0,
         "technicals": 82.0,
-        "sentiment": 56.5,
+        "sentiment": 57.0,
         "analyst": 85.0,
         "macro_moat": 68.0
       },
@@ -390,7 +388,7 @@
       "fifty_two_week_low": 154.65,
       "volume": 27268696,
       "avg_volume": 38681988,
-      "pe_ratio": 23.571009,
+      "pe_ratio": 23.586987,
       "forward_pe": 6.5688252,
       "peg_ratio": 0.15,
       "price_to_sales": 13.060697,
@@ -398,7 +396,7 @@
       "ev_to_ebitda": 16.994,
       "market_cap": 1179041267712,
       "enterprise_value": 1159395278848,
-      "eps_trailing": 44.29,
+      "eps_trailing": 44.26,
       "eps_forward": 158.92644,
       "earnings_growth": 13.685,
       "revenue_growth": 3.457,
@@ -468,15 +466,15 @@
       ]
     },
     "sent": {
-      "combined_polarity": 0.04,
-      "sentiment_score": 51.6,
+      "combined_polarity": 0.043,
+      "sentiment_score": 51.7,
       "label": "NEUTRAL",
       "news_stats": {
-        "polarity": 0.05736075036075036,
-        "subjectivity": 0.2630793650793651,
+        "polarity": 0.0616031746031746,
+        "subjectivity": 0.20974603174603174,
         "positive_count": 5,
-        "negative_count": 2,
-        "neutral_count": 8,
+        "negative_count": 1,
+        "neutral_count": 9,
         "total": 15
       },
       "reddit_stats": {
@@ -493,15 +491,14 @@
         "Micron (MU) Unveils Breakthrough Memory Product. It Says Much About the Memory Market - Yahoo Finance"
       ],
       "negative_highlights": [
-        "Micron: Likely Dead Money From Here (NASDAQ:MU) - Seeking Alpha",
         "Micron Technology Inc Stock (MU) Opened Up by 4.24% on Sep 21: Drivers Behind the Movement - TradingKey"
       ],
       "recent_headlines": [
         "Micron (MU) Beats Stock Market Upswing: What Investors Need to Know - Yahoo Finance",
         "Micron's Stock Could Easily Double (NASDAQ:MU) - Seeking Alpha",
         "Micron Stock Price Forecast: MU Stock Poised to Hit All-Time High as Tight Memory Supply Continues to Support Price Increases - TradingKey",
-        "Wall Street analysts set Micron (MU) stock price target - Finbold",
-        "What's Going On With Micron Technology Stock Monday? - Micron Technology (NASDAQ:MU) - Benzinga"
+        "Micron Stock Forecast: MU Breaks $1,000 as September 30 Earnings Near - FXLeaders",
+        "Wall Street analysts set Micron (MU) stock price target - Finbold"
       ]
     },
     "qual": {
@@ -509,7 +506,7 @@
         "valuation_tier": "Fair Value Range",
         "priced_in_points": [
           "P/E ratio reflects balanced market expectations for mid-range growth.",
-          "Forward P/E is 72.1% lower than trailing P/E, pricing in robust earnings recovery/growth.",
+          "Forward P/E is 72.2% lower than trailing P/E, pricing in robust earnings recovery/growth.",
           "PEG ratio of 0.15 suggests stock may be undervalued relative to expected growth."
         ]
       },
@@ -541,7 +538,7 @@
         "fundamentals": 100.0,
         "valuation": 85.0,
         "technicals": 95.0,
-        "sentiment": 51.6,
+        "sentiment": 51.7,
         "analyst": 100.0,
         "macro_moat": 80.0
       },
@@ -600,7 +597,7 @@
       "current_ratio": 4.589,
       "quick_ratio": 2.918,
       "free_cash_flow": 41809874944,
-      "dividend_yield_pct": 45.0,
+      "dividend_yield_pct": 44.0,
       "payout_ratio": 0.0354,
       "target_low": 180.0,
       "target_mean": 327.7,
@@ -627,13 +624,13 @@
       "latest_price": 227.38,
       "sma_20": 219.36353912353516,
       "sma_50": 214.40009399414063,
-      "sma_200": 198.25313751220702,
+      "sma_200": 198.2531374359131,
       "rsi_14": 56.608301267021844,
       "rsi_status": "BULLISH",
       "macd_data": {
-        "macd": 1.488538874049567,
-        "signal": 1.5462152500916857,
-        "histogram": -0.057676376042118616,
+        "macd": 1.4885388726869166,
+        "signal": 1.5462152480948408,
+        "histogram": -0.05767637540792414,
         "crossover": "BEARISH"
       },
       "cross_status": "GOLDEN_CROSS",
@@ -654,15 +651,15 @@
       ]
     },
     "sent": {
-      "combined_polarity": 0.028,
-      "sentiment_score": 51.1,
+      "combined_polarity": 0.006,
+      "sentiment_score": 50.3,
       "label": "NEUTRAL",
       "news_stats": {
-        "polarity": 0.03987654320987654,
-        "subjectivity": 0.06530864197530865,
-        "positive_count": 1,
+        "polarity": 0.008967452300785633,
+        "subjectivity": 0.06894500561167229,
+        "positive_count": 2,
         "negative_count": 1,
-        "neutral_count": 13,
+        "neutral_count": 12,
         "total": 15
       },
       "reddit_stats": {
@@ -674,17 +671,18 @@
       },
       "headline_count": 15,
       "positive_highlights": [
-        "Is NVIDIA Corporation (NVDA) A Good Stock To Buy Now? - Yahoo Finance"
+        "Qsemble Capital Management LP Acquires New Stake in NVIDIA Corporation $NVDA - MarketBeat",
+        "NVIDIA Corporation $NVDA Shares Sold by Old Peak Finance LLC - MarketBeat"
       ],
       "negative_highlights": [
         "Nvidia: One Of 5 AI Stocks Down Big (Relative To Earnings) (NASDAQ:NVDA) - Seeking Alpha"
       ],
       "recent_headlines": [
-        "Worried About An AI Bubble? Buy Nvidia Anyway (NASDAQ:NVDA) - Seeking Alpha",
-        "Nvidia-Backed Cloud Platform Nscale Files For IPO \u2014 NVDA Stock In Focus - Yahoo Finance",
-        "NVIDIA Corporation $NVDA Shares Acquired by SWS Partners - marketbeat.com",
-        "Preset trading plan at NVIDIA (NASDAQ: NVDA) set to sell company stock - Stock Titan",
-        "NVDA|NVIDIA Corp|Price:227.380|Chg%:+5.110 - TradingKey"
+        "Nvidia-backed AI drugmaker Iambic Therapeutics seeks U.S. listing (NVDA:NASDAQ) - Seeking Alpha",
+        "NVIDIA Corporation $NVDA Shares Sold by Old Peak Finance LLC - MarketBeat",
+        "NVIDIA (NVDA) officer already sold $6.5M in stock\u2014and another sale is queued up - Stock Titan",
+        "Jim Cramer Tries To Predict NVIDIA Corporation (NASDAQ:NVDA) Share Price Movement Following Anthropic CEO\u2019s Remarks - Yahoo Finance",
+        "NVIDIA Corporation $NVDA Shares Purchased by Symphony Financial Ltd. Co. - MarketBeat"
       ]
     },
     "qual": {
@@ -717,14 +715,14 @@
       "qualitative_score": 80.0
     },
     "sig": {
-      "composite_score": 82.0,
-      "signal": "STRONG BUY",
-      "confidence_pct": 75.5,
+      "composite_score": 81.9,
+      "signal": "HOLD",
+      "confidence_pct": 75.2,
       "pillar_scores": {
         "fundamentals": 100.0,
         "valuation": 80.0,
         "technicals": 69.1,
-        "sentiment": 51.1,
+        "sentiment": 50.3,
         "analyst": 100.0,
         "macro_moat": 80.0
       },
@@ -783,7 +781,7 @@
       "current_ratio": 0.802,
       "quick_ratio": 0.395,
       "free_cash_flow": -2596624896,
-      "dividend_yield_pct": 3.63,
+      "dividend_yield_pct": 3.69,
       "payout_ratio": 0.72550005,
       "target_low": 141.0,
       "target_mean": 156.35715,
@@ -810,13 +808,13 @@
       "latest_price": 126.13,
       "sma_20": 132.84546508789063,
       "sma_50": 138.19214324951173,
-      "sma_200": 138.87644985198975,
+      "sma_200": 138.87644947052001,
       "rsi_14": 20.624717164682636,
       "rsi_status": "OVERSOLD",
       "macd_data": {
-        "macd": -2.933983922035111,
-        "signal": -2.4199477657052872,
-        "histogram": -0.5140361563298237,
+        "macd": -2.933983921980598,
+        "signal": -2.4199477656251434,
+        "histogram": -0.5140361563554547,
         "crossover": "BEARISH"
       },
       "cross_status": "DEATH_CROSS",
@@ -864,8 +862,8 @@
       "negative_highlights": [],
       "recent_headlines": [
         "DTE Energy Co's Dividend Analysis - Yahoo Finance",
+        "DTE Energy (DTE) Stock Forecast and Price Target 2026 $DTE - MarketBeat",
         "DTE Energy stock hits 52-week low at 126.23 USD - Investing.com",
-        "DTE Energy (DTE) Stock Forecast and Price Target 2026 $DTE - marketbeat.com",
         "Is DTE Energy Stock Underperforming the Dow? - webull.com",
         "Is DTE Energy Stock Underperforming the Dow? - Barchart.com"
       ]
@@ -942,7 +940,7 @@
       "fifty_two_week_low": 93.535,
       "volume": 10340082,
       "avg_volume": 13849617,
-      "pe_ratio": 23.931726,
+      "pe_ratio": 23.922005,
       "forward_pe": 6.673577,
       "peg_ratio": null,
       "price_to_sales": 12.775072,
@@ -950,7 +948,7 @@
       "ev_to_ebitda": 20.14,
       "market_cap": 258669674496,
       "enterprise_value": 254108663808,
-      "eps_trailing": 73.82,
+      "eps_trailing": 73.85,
       "eps_forward": 264.72162,
       "earnings_growth": null,
       "revenue_growth": 3.716,
@@ -1020,15 +1018,15 @@
       ]
     },
     "sent": {
-      "combined_polarity": 0.056,
-      "sentiment_score": 52.2,
+      "combined_polarity": 0.047,
+      "sentiment_score": 51.9,
       "label": "NEUTRAL",
       "news_stats": {
-        "polarity": 0.08,
-        "subjectivity": 0.06666666666666667,
-        "positive_count": 2,
+        "polarity": 0.06666666666666667,
+        "subjectivity": 0.12000000000000001,
+        "positive_count": 1,
         "negative_count": 0,
-        "neutral_count": 13,
+        "neutral_count": 14,
         "total": 15
       },
       "reddit_stats": {
@@ -1040,16 +1038,15 @@
       },
       "headline_count": 15,
       "positive_highlights": [
-        "Sandisk (SNDK) Weekend Outlook: Can the S&P 500's Best Stock Extend Its 857% Rally? - TradingKey",
-        "Sandisk (SNDK) legal chief gets 1,001-share award as stock is withheld for taxes - Stock Titan"
+        "Sandisk (SNDK) Weekend Outlook: Can the S&P 500's Best Stock Extend Its 857% Rally? - TradingKey"
       ],
       "negative_highlights": [],
       "recent_headlines": [
         "Why Sandisk Stock Rallied Today - Yahoo Finance",
-        "SNDK Stock Surges As S&P 100 Inclusion And AI Volatility Drive Trading - StocksToTrade",
-        "SanDisk Corp\u2019s (SNDK) Impact on Small/Mid Cap Returns - Yahoo Finance",
         "Sandisk\u2019s AI Storage Story Just Got Much Bigger (NASDAQ:SNDK) - Seeking Alpha",
-        "Sandisk Corp (SNDK) awards 1,619 stock units to its CTO - Stock Titan"
+        "Sandisk (SNDK) Weekend Outlook: Can the S&P 500's Best Stock Extend Its 857% Rally? - TradingKey",
+        "Sandisk Corp (SNDK) awards 1,619 stock units to its CTO - Stock Titan",
+        "SanDisk Stock Jumped 11% on S&P 100 News. Here\u2019s What the Street Says. - TIKR.com"
       ]
     },
     "qual": {
@@ -1081,14 +1078,14 @@
       "qualitative_score": 80.0
     },
     "sig": {
-      "composite_score": 84.1,
+      "composite_score": 84.0,
       "signal": "STRONG BUY",
-      "confidence_pct": 74.9,
+      "confidence_pct": 74.8,
       "pillar_scores": {
         "fundamentals": 100.0,
         "valuation": 70.0,
         "technicals": 95.0,
-        "sentiment": 52.2,
+        "sentiment": 51.9,
         "analyst": 100.0,
         "macro_moat": 80.0
       },
