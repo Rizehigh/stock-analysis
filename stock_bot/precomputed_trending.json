@@ -1,181 +1,4 @@
 {
-  "VOO": {
-    "data": {
-      "symbol": "VOO",
-      "company_name": "Vanguard S&P 500 ETF",
-      "exchange_info": {
-        "country": "United States",
-        "exchange": "NYSE/NASDAQ",
-        "central_bank": "Federal Reserve (FED)",
-        "currency_symbol": "$"
-      },
-      "currency": "USD",
-      "sector": "N/A",
-      "industry": "N/A",
-      "summary": "The fund manager employs an indexing investment approach designed to track the performance of the Standard & Poor's 500 Index, a widely recognized benchmark of U.S. stock market performance that is dominated by the stocks of large U.S. companies. The advisor attempts to replicate the target index by investing all, or substantially all, of its assets in the stocks that make up the index, holding each stock in approximately the same proportion as its weighting in the index. The fund is non-diversified.",
-      "current_price": 710.79,
-      "previous_close": 706.99,
-      "fifty_two_week_high": 716.39,
-      "fifty_two_week_low": 578.46,
-      "volume": 5448010,
-      "avg_volume": 7098858,
-      "pe_ratio": 25.001913,
-      "forward_pe": null,
-      "peg_ratio": null,
-      "price_to_sales": null,
-      "price_to_book": null,
-      "ev_to_ebitda": null,
-      "market_cap": null,
-      "enterprise_value": null,
-      "eps_trailing": null,
-      "eps_forward": null,
-      "earnings_growth": null,
-      "revenue_growth": null,
-      "total_revenue": null,
-      "net_income": null,
-      "profit_margins": null,
-      "operating_margins": null,
-      "return_on_equity": null,
-      "return_on_assets": null,
-      "total_debt": null,
-      "total_cash": null,
-      "debt_to_equity": null,
-      "current_ratio": null,
-      "quick_ratio": null,
-      "free_cash_flow": null,
-      "dividend_yield_pct": 1.04,
-      "payout_ratio": null,
-      "target_low": null,
-      "target_mean": null,
-      "target_high": null,
-      "target_median": null,
-      "recommendation_key": "N/A",
-      "recommendation_mean": null,
-      "number_of_analysts": 0,
-      "implied_upside_pct": null,
-      "rec_breakdown": {
-        "strongBuy": 0,
-        "buy": 0,
-        "hold": 0,
-        "sell": 0,
-        "strongSell": 0
-      },
-      "next_earnings_date": "Unknown",
-      "earnings_high_est": null,
-      "earnings_low_est": null,
-      "earnings_avg_est": null,
-      "_ticker_obj": "yfinance.Ticker object <VOO>"
-    },
-    "tech": {
-      "latest_price": 710.79,
-      "sma_20": 704.0595031738281,
-      "sma_50": 700.2510046386719,
-      "sma_200": 658.6022506713867,
-      "rsi_14": 52.49458603575133,
-      "rsi_status": "NEUTRAL",
-      "macd_data": {
-        "macd": 1.9375232362059478,
-        "signal": 1.2062170646600032,
-        "histogram": 0.7313061715459446,
-        "crossover": "BULLISH"
-      },
-      "cross_status": "GOLDEN_CROSS",
-      "fifty_two_week_pos_pct": 95.98880544712986,
-      "high_52": 716.3900146484375,
-      "low_52": 576.780365337597,
-      "returns": {
-        "1m": 0.28783068783069243,
-        "3m": 4.372915200559824,
-        "6m": 22.28280490627168,
-        "1y": 17.86823689589987
-      },
-      "technical_score": 72.3,
-      "signals": [
-        "Price is 1.5% above 50-day SMA (Bullish)",
-        "50-day SMA is above 200-day SMA (Golden Cross)",
-        "MACD histogram indicates positive bullish momentum"
-      ]
-    },
-    "sent": {
-      "combined_polarity": 0.202,
-      "sentiment_score": 58.1,
-      "label": "BULLISH",
-      "news_stats": {
-        "polarity": 0.28833333333333333,
-        "subjectivity": 0.4670833333333334,
-        "positive_count": 9,
-        "negative_count": 0,
-        "neutral_count": 6,
-        "total": 15
-      },
-      "reddit_stats": {
-        "polarity": 0.0,
-        "subjectivity": 0.0,
-        "positive_count": 0,
-        "negative_count": 0,
-        "neutral_count": 0
-      },
-      "headline_count": 15,
-      "positive_highlights": [
-        "I'd Put $10,000 Into These 3 Vanguard Funds and Not Touch It for 20 Years - The Motley Fool",
-        "Vanguard S&P 500 ETF Long-Term Outlook: What History Tells Investors - The Motley Fool",
-        "History Says You Should Know These 3 Things Before Buying the Vanguard S&P 500 ETF (VOO) in September - The Motley Fool"
-      ],
-      "negative_highlights": [],
-      "recent_headlines": [
-        "VOO vs. VTI: Which Vanguard ETF Is More Likely to Make You a Millionaire? - The Motley Fool",
-        "VOO vs. VTI: Which Vanguard ETF Is More Likely to Make You a Millionaire? - Currently.com",
-        "VOO's 0.03% Fee Hides the Real Cost: State Street Now Sells the Same 500 Stocks for a Third Less - 24/7 Wall St.",
-        "I'd Put $10,000 Into These 3 Vanguard Funds and Not Touch It for 20 Years - The Motley Fool",
-        "What a $10,000 Investment in the Vanguard S&P 500 ETF (VOO) a Decade Ago Is Worth Today - Yahoo Finance"
-      ]
-    },
-    "qual": {
-      "priced_in": {
-        "valuation_tier": "Fair Value Range",
-        "priced_in_points": [
-          "P/E ratio reflects balanced market expectations for mid-range growth."
-        ]
-      },
-      "macro_policy": {
-        "macro_factors": [
-          "Operating in United States under Federal Reserve (FED) interest rate policy environment.",
-          "Performance closely aligned with overall United States economic trajectory."
-        ],
-        "policy_risks": [
-          "Standard corporate governance and trade policy conditions apply."
-        ]
-      },
-      "moat": {
-        "moat_tier": "Narrow Moat",
-        "moat_score": 50.0,
-        "reasons": [
-          "Standard market positioning within industry."
-        ]
-      },
-      "qualitative_score": 50.0
-    },
-    "sig": {
-      "composite_score": 54.6,
-      "signal": "HOLD",
-      "confidence_pct": 80.1,
-      "pillar_scores": {
-        "fundamentals": 50.0,
-        "valuation": 50.0,
-        "technicals": 72.3,
-        "sentiment": 58.1,
-        "analyst": 50.0,
-        "macro_moat": 50.0
-      },
-      "key_positives": [
-        "Price is 1.5% above 50-day SMA (Bullish)",
-        "50-day SMA is above 200-day SMA (Golden Cross)"
-      ],
-      "key_risks": [
-        "Standard market risk and volatility."
-      ]
-    }
-  },
   "MU": {
     "data": {
       "symbol": "MU",
@@ -247,24 +70,24 @@
       "latest_price": 1082.28,
       "sma_20": 994.1425018310547,
       "sma_50": 941.6152026367188,
-      "sma_200": 660.9748892974853,
+      "sma_200": 660.9748895263672,
       "rsi_14": 59.2134411896589,
       "rsi_status": "BULLISH",
       "macd_data": {
-        "macd": 35.13755418602773,
-        "signal": 23.43139168398001,
-        "histogram": 11.706162502047718,
+        "macd": 35.13755418575465,
+        "signal": 23.431391683578386,
+        "histogram": 11.706162502176266,
         "crossover": "BULLISH"
       },
       "cross_status": "GOLDEN_CROSS",
-      "fifty_two_week_pos_pct": 84.31395602471608,
+      "fifty_two_week_pos_pct": 84.31395580999249,
       "high_52": 1254.8069810301963,
-      "low_52": 154.9313125567278,
+      "low_52": 154.9313276127379,
       "returns": {
         "1m": 15.703608446875549,
         "3m": -5.486304153926403,
-        "6m": 203.14686233563305,
-        "1y": 589.271404124066
+        "6m": 203.1468364227013,
+        "1y": 589.2713371416332
       },
       "technical_score": 95.0,
       "signals": [
@@ -279,7 +102,7 @@
       "label": "NEUTRAL",
       "news_stats": {
         "polarity": 0.06666666666666667,
-        "subjectivity": 0.35,
+        "subjectivity": 0.35000000000000003,
         "positive_count": 3,
         "negative_count": 2,
         "neutral_count": 10,
@@ -305,9 +128,9 @@
       "recent_headlines": [
         "Micron (MU) Trades at Just 6.5x Forward Earnings. RBC Says SCAs Could Change That - Yahoo Finance",
         "Micron Stock Clears Key Resistance as Analysts Predict 352% Revenue Surge - Benzinga",
-        "Micron Likely to Beat Q4 Earnings Estimates: How to Play MU Stock? - The Globe and Mail",
-        "Micron Technology Inc (MU) Stock Analysis & Forecast - TradingKey",
-        "Micron: Exit Before It\u2019s Too Late (NASDAQ:MU) - Seeking Alpha"
+        "What Will Micron's Gross Margin Guide Be? (undefined:MU) - Seeking Alpha",
+        "What Lies Ahead for Micron (MU) in the Upcoming Fourth Quarter Report? - Yahoo Finance",
+        "Micron Technology Inc (MU) Stock Analysis & Forecast - TradingKey"
       ]
     },
     "qual": {
@@ -356,6 +179,183 @@
         "High profit margin (55.9%)",
         "Strong YoY revenue growth (345.7%)",
         "Low debt-to-equity ratio (6.3)"
+      ],
+      "key_risks": [
+        "Standard market risk and volatility."
+      ]
+    }
+  },
+  "VOO": {
+    "data": {
+      "symbol": "VOO",
+      "company_name": "Vanguard S&P 500 ETF",
+      "exchange_info": {
+        "country": "United States",
+        "exchange": "NYSE/NASDAQ",
+        "central_bank": "Federal Reserve (FED)",
+        "currency_symbol": "$"
+      },
+      "currency": "USD",
+      "sector": "N/A",
+      "industry": "N/A",
+      "summary": "The fund manager employs an indexing investment approach designed to track the performance of the Standard & Poor's 500 Index, a widely recognized benchmark of U.S. stock market performance that is dominated by the stocks of large U.S. companies. The advisor attempts to replicate the target index by investing all, or substantially all, of its assets in the stocks that make up the index, holding each stock in approximately the same proportion as its weighting in the index. The fund is non-diversified.",
+      "current_price": 710.79,
+      "previous_close": 706.99,
+      "fifty_two_week_high": 716.39,
+      "fifty_two_week_low": 578.46,
+      "volume": 5448010,
+      "avg_volume": 7098858,
+      "pe_ratio": 25.001913,
+      "forward_pe": null,
+      "peg_ratio": null,
+      "price_to_sales": null,
+      "price_to_book": null,
+      "ev_to_ebitda": null,
+      "market_cap": null,
+      "enterprise_value": null,
+      "eps_trailing": null,
+      "eps_forward": null,
+      "earnings_growth": null,
+      "revenue_growth": null,
+      "total_revenue": null,
+      "net_income": null,
+      "profit_margins": null,
+      "operating_margins": null,
+      "return_on_equity": null,
+      "return_on_assets": null,
+      "total_debt": null,
+      "total_cash": null,
+      "debt_to_equity": null,
+      "current_ratio": null,
+      "quick_ratio": null,
+      "free_cash_flow": null,
+      "dividend_yield_pct": 1.04,
+      "payout_ratio": null,
+      "target_low": null,
+      "target_mean": null,
+      "target_high": null,
+      "target_median": null,
+      "recommendation_key": "N/A",
+      "recommendation_mean": null,
+      "number_of_analysts": 0,
+      "implied_upside_pct": null,
+      "rec_breakdown": {
+        "strongBuy": 0,
+        "buy": 0,
+        "hold": 0,
+        "sell": 0,
+        "strongSell": 0
+      },
+      "next_earnings_date": "Unknown",
+      "earnings_high_est": null,
+      "earnings_low_est": null,
+      "earnings_avg_est": null,
+      "_ticker_obj": "yfinance.Ticker object <VOO>"
+    },
+    "tech": {
+      "latest_price": 710.79,
+      "sma_20": 704.0595031738281,
+      "sma_50": 700.2510046386719,
+      "sma_200": 658.6022509765625,
+      "rsi_14": 52.49458603575133,
+      "rsi_status": "NEUTRAL",
+      "macd_data": {
+        "macd": 1.9375232362061752,
+        "signal": 1.2062170646605102,
+        "histogram": 0.731306171545665,
+        "crossover": "BULLISH"
+      },
+      "cross_status": "GOLDEN_CROSS",
+      "fifty_two_week_pos_pct": 95.98880544712986,
+      "high_52": 716.3900146484375,
+      "low_52": 576.780365337597,
+      "returns": {
+        "1m": 0.28783068783069243,
+        "3m": 4.372915200559824,
+        "6m": 22.28280490627168,
+        "1y": 17.86823689589987
+      },
+      "technical_score": 72.3,
+      "signals": [
+        "Price is 1.5% above 50-day SMA (Bullish)",
+        "50-day SMA is above 200-day SMA (Golden Cross)",
+        "MACD histogram indicates positive bullish momentum"
+      ]
+    },
+    "sent": {
+      "combined_polarity": 0.202,
+      "sentiment_score": 58.1,
+      "label": "BULLISH",
+      "news_stats": {
+        "polarity": 0.28833333333333333,
+        "subjectivity": 0.4670833333333334,
+        "positive_count": 9,
+        "negative_count": 0,
+        "neutral_count": 6,
+        "total": 15
+      },
+      "reddit_stats": {
+        "polarity": 0.0,
+        "subjectivity": 0.0,
+        "positive_count": 0,
+        "negative_count": 0,
+        "neutral_count": 0
+      },
+      "headline_count": 15,
+      "positive_highlights": [
+        "History Says You Should Know These 3 Things Before Buying the Vanguard S&P 500 ETF (VOO) in September - The Motley Fool",
+        "Vanguard S&P 500 ETF Long-Term Outlook: What History Tells Investors - The Motley Fool",
+        "I'd Put $10,000 Into These 3 Vanguard Funds and Not Touch It for 20 Years - The Motley Fool"
+      ],
+      "negative_highlights": [],
+      "recent_headlines": [
+        "VOO's 0.03% Fee Hides the Real Cost: State Street Now Sells the Same 500 Stocks for a Third Less - 24/7 Wall St.",
+        "What a $10,000 Investment in the Vanguard S&P 500 ETF (VOO) a Decade Ago Is Worth Today - Yahoo Finance",
+        "VOO vs. VTI: Which Vanguard ETF Is More Likely to Make You a Millionaire? - The Motley Fool",
+        "Vanguard S&P 500 ETF Long-Term Outlook: What History Tells Investors - Yahoo Finance",
+        "I'd Put $10,000 Into These 3 Vanguard Funds and Not Touch It for 20 Years - The Motley Fool"
+      ]
+    },
+    "qual": {
+      "priced_in": {
+        "valuation_tier": "Fair Value Range",
+        "priced_in_points": [
+          "P/E ratio reflects balanced market expectations for mid-range growth."
+        ]
+      },
+      "macro_policy": {
+        "macro_factors": [
+          "Operating in United States under Federal Reserve (FED) interest rate policy environment.",
+          "Performance closely aligned with overall United States economic trajectory."
+        ],
+        "policy_risks": [
+          "Standard corporate governance and trade policy conditions apply."
+        ]
+      },
+      "moat": {
+        "moat_tier": "Narrow Moat",
+        "moat_score": 50.0,
+        "reasons": [
+          "Standard market positioning within industry."
+        ]
+      },
+      "qualitative_score": 50.0
+    },
+    "sig": {
+      "composite_score": 54.6,
+      "signal": "HOLD",
+      "confidence_pct": 80.1,
+      "pillar_scores": {
+        "fundamentals": 50.0,
+        "valuation": 50.0,
+        "technicals": 72.3,
+        "sentiment": 58.1,
+        "analyst": 50.0,
+        "macro_moat": 50.0
+      },
+      "key_positives": [
+        "Price is 1.5% above 50-day SMA (Bullish)",
+        "50-day SMA is above 200-day SMA (Golden Cross)"
       ],
       "key_risks": [
         "Standard market risk and volatility."
@@ -433,13 +433,13 @@
       "latest_price": 121.44,
       "sma_20": 130.35131874084473,
       "sma_50": 136.20711654663086,
-      "sma_200": 138.78587562561034,
+      "sma_200": 138.78587642669677,
       "rsi_14": 10.240942047020894,
       "rsi_status": "OVERSOLD",
       "macd_data": {
-        "macd": -3.9942284334898233,
-        "signal": -3.156961843552069,
-        "histogram": -0.8372665899377543,
+        "macd": -3.9942284495127893,
+        "signal": -3.156961867018075,
+        "histogram": -0.8372665824947143,
         "crossover": "BEARISH"
       },
       "cross_status": "DEATH_CROSS",
@@ -461,15 +461,15 @@
       ]
     },
     "sent": {
-      "combined_polarity": 0.044,
-      "sentiment_score": 51.8,
+      "combined_polarity": 0.041,
+      "sentiment_score": 51.6,
       "label": "NEUTRAL",
       "news_stats": {
-        "polarity": 0.06301767676767675,
-        "subjectivity": 0.21029040404040406,
-        "positive_count": 4,
+        "polarity": 0.05847222222222222,
+        "subjectivity": 0.1851388888888889,
+        "positive_count": 3,
         "negative_count": 0,
-        "neutral_count": 11,
+        "neutral_count": 12,
         "total": 15
       },
       "reddit_stats": {
@@ -528,7 +528,7 @@
         "fundamentals": 10.0,
         "valuation": 75.0,
         "technicals": 22.0,
-        "sentiment": 51.8,
+        "sentiment": 51.6,
         "analyst": 97.0,
         "macro_moat": 50.0
       },
@@ -543,6 +543,188 @@
         "Elevated debt-to-equity ratio (229.1)",
         "Current ratio below 1.0 (0.80)",
         "Negative free cash flow generation"
+      ]
+    }
+  },
+  "MSFT": {
+    "data": {
+      "symbol": "MSFT",
+      "company_name": "Microsoft Corporation",
+      "exchange_info": {
+        "country": "United States",
+        "exchange": "NYSE/NASDAQ",
+        "central_bank": "Federal Reserve (FED)",
+        "currency_symbol": "$"
+      },
+      "currency": "USD",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "summary": "Microsoft Corporation, a technology company, develops and supports a portfolio of technology solutions for individuals and businesses worldwide. Its products include operating systems, server applications, business solution applications, software development tools, desktop and server management tools, and video games; and devices, such as PCs, tablets, gaming and entertainment consoles, other intelligent devices, and related accessories. The company's Productivity and Business Processes segment offers Microsoft 365 Commercial, Enterprise Mobility + Security, Power BI, Exchange, SharePoint, Microsoft Teams, Microsoft 365 Security and Compliance, Microsoft 365 Copilot, and Windows Commercial on-premises and Office licensed on-premises. This segment also provides Microsoft 365 Consumer products and cloud services; LinkedIn, including talent solutions, marketing solutions, subscriptions, and sales solutions; Dynamics 365, a set of cloud-based applications; and on-premises ERP and CRM applications. Its Intelligent Cloud segment offers server products and cloud services; cloud and AI consumption-based services, GitHub cloud services, health and life sciences cloud services, as well as virtual desktop offerings, and other cloud services; SQL Server, Windows Server, Visual Studio, System Center, and related client access licenses; and enterprise support services, industry solutions, Microsoft partner network, and learning experience. The company's More Personal Computing segment provides Windows OEM licensing and devices comprising Surface and PC accessories; XBOX hardware, and XBOX first- and third-party content and services; XBOX Game Pass and other subscriptions; XBOX Cloud Gaming, advertising, and other cloud services; and search advertising consisting of Bing, Copilot, Microsoft News, Microsoft Edge, and third-party affiliates. It sells its products through partners and retail networks. The company was founded in 1975 and is headquartered in Redmond, Washington.",
+      "current_price": 516.17,
+      "previous_close": 497.93,
+      "fifty_two_week_high": 553.72,
+      "fifty_two_week_low": 349.2,
+      "volume": 37985485,
+      "avg_volume": 29841950,
+      "pe_ratio": 28.739979,
+      "forward_pe": 21.801512,
+      "peg_ratio": 1.68,
+      "price_to_sales": 11.550311,
+      "price_to_book": 8.665659,
+      "ev_to_ebitda": 20.0,
+      "market_cap": 3832843862016,
+      "enterprise_value": 3884813910016,
+      "eps_trailing": 17.96,
+      "eps_forward": 23.67588,
+      "earnings_growth": 0.317,
+      "revenue_growth": 0.177,
+      "total_revenue": 331839012864,
+      "net_income": 133748998144,
+      "profit_margins": 0.40305,
+      "operating_margins": 0.45111,
+      "return_on_equity": 0.34039003,
+      "return_on_assets": 0.14088,
+      "total_debt": 128812998656,
+      "total_cash": 76842999808,
+      "debt_to_equity": 29.118,
+      "current_ratio": 1.23,
+      "quick_ratio": 1.099,
+      "free_cash_flow": 16545500160,
+      "dividend_yield_pct": 76.0,
+      "payout_ratio": 0.1983,
+      "target_low": 440.0,
+      "target_mean": 577.26135,
+      "target_high": 870.0,
+      "target_median": 575.0,
+      "recommendation_key": "strong_buy",
+      "recommendation_mean": 1.32727,
+      "number_of_analysts": 52,
+      "implied_upside_pct": 11.835509618924005,
+      "rec_breakdown": {
+        "strongBuy": 14,
+        "buy": 39,
+        "hold": 2,
+        "sell": 0,
+        "strongSell": 0
+      },
+      "next_earnings_date": "2026-10-28",
+      "earnings_high_est": 4.83363,
+      "earnings_low_est": 4.43,
+      "earnings_avg_est": 4.72455,
+      "_ticker_obj": "yfinance.Ticker object <MSFT>"
+    },
+    "tech": {
+      "latest_price": 516.17,
+      "sma_20": 500.0404998779297,
+      "sma_50": 475.4040515136719,
+      "sma_200": 430.609797668457,
+      "rsi_14": 59.88949612107637,
+      "rsi_status": "BULLISH",
+      "macd_data": {
+        "macd": 6.887135385857562,
+        "signal": 7.686868774365815,
+        "histogram": -0.7997333885082529,
+        "crossover": "BEARISH"
+      },
+      "cross_status": "GOLDEN_CROSS",
+      "fifty_two_week_pos_pct": 83.5384546625917,
+      "high_52": 549.2013167264516,
+      "low_52": 348.54386902384044,
+      "returns": {
+        "1m": 2.1997391389361187,
+        "3m": 40.310304216420455,
+        "6m": 45.26494549942435,
+        "1y": 1.751241460951647
+      },
+      "technical_score": 67.9,
+      "signals": [
+        "Price is 8.6% above 50-day SMA (Bullish)",
+        "50-day SMA is above 200-day SMA (Golden Cross)",
+        "MACD histogram indicates negative bearish momentum"
+      ]
+    },
+    "sent": {
+      "combined_polarity": 0.037,
+      "sentiment_score": 51.5,
+      "label": "NEUTRAL",
+      "news_stats": {
+        "polarity": 0.05333333333333333,
+        "subjectivity": 0.10666666666666666,
+        "positive_count": 3,
+        "negative_count": 0,
+        "neutral_count": 12,
+        "total": 15
+      },
+      "reddit_stats": {
+        "polarity": 0.0,
+        "subjectivity": 0.0,
+        "positive_count": 0,
+        "negative_count": 0,
+        "neutral_count": 0
+      },
+      "headline_count": 15,
+      "positive_highlights": [
+        "Microsoft stock rises as analysts warm to Azure and AI growth outlook - Quiver Quantitative",
+        "Microsoft Stock: Buy This Early Recovery (NASDAQ:MSFT) - Seeking Alpha",
+        "Microsoft Corporation stock Analysis: Bullish Momentum Near Record Highs - The Cryptonomist"
+      ],
+      "negative_highlights": [],
+      "recent_headlines": [
+        "Microsoft Corp Stock (MSFT) Opened Up by 3.21% on Sep 25: What Investors Need To Know - TradingKey",
+        "Microsoft Copilot Is Turning Into An \u2018AI Operating System\u2019 \u2014 Here\u2019s What It Means For MSFT Stock, According To Oppenheimer\u2019s Brian Schwartz - Yahoo Finance",
+        "Microsoft Stock: Buy This Early Recovery (NASDAQ:MSFT) - Seeking Alpha",
+        "Microsoft stock rises as analysts warm to Azure and AI growth outlook - Quiver Quantitative",
+        "What's Going On With Microsoft Stock Friday? - Microsoft (NASDAQ:MSFT) - Benzinga"
+      ]
+    },
+    "qual": {
+      "priced_in": {
+        "valuation_tier": "Fair Value Range",
+        "priced_in_points": [
+          "P/E ratio reflects balanced market expectations for mid-range growth.",
+          "Forward P/E is 24.1% lower than trailing P/E, pricing in robust earnings recovery/growth."
+        ]
+      },
+      "macro_policy": {
+        "macro_factors": [
+          "Operating in United States under Federal Reserve (FED) interest rate policy environment.",
+          "Consumer sentiment and discretionary spending impact demand during inflation/rate shifts."
+        ],
+        "policy_risks": [
+          "Antitrust oversight, data privacy laws, and international tariff trade policies affect cross-border supply chains."
+        ]
+      },
+      "moat": {
+        "moat_tier": "Wide Moat",
+        "moat_score": 100.0,
+        "reasons": [
+          "Strong Return on Equity (ROE: 34.0%), indicating high capital efficiency and competitive advantage.",
+          "High net profit margin (40.3%), demonstrating pricing power.",
+          "Mega-cap scale ($3.83T) provides massive distribution and cost advantages."
+        ]
+      },
+      "qualitative_score": 80.0
+    },
+    "sig": {
+      "composite_score": 76.2,
+      "signal": "BUY",
+      "confidence_pct": 73.8,
+      "pillar_scores": {
+        "fundamentals": 100.0,
+        "valuation": 55.0,
+        "technicals": 67.9,
+        "sentiment": 51.5,
+        "analyst": 95.0,
+        "macro_moat": 80.0
+      },
+      "key_positives": [
+        "Exceptional Return on Equity (34.0%)",
+        "High profit margin (40.3%)",
+        "Strong YoY revenue growth (17.7%)",
+        "Low debt-to-equity ratio (29.1)"
+      ],
+      "key_risks": [
+        "Standard market risk and volatility."
       ]
     }
   },
@@ -617,24 +799,24 @@
       "latest_price": 751.66,
       "sma_20": 660.4862701416016,
       "sma_50": 615.3199987792968,
-      "sma_200": 625.4245974731446,
+      "sma_200": 625.4245971679687,
       "rsi_14": 76.56412956361649,
       "rsi_status": "OVERBOUGHT",
       "macd_data": {
-        "macd": 42.93353767970666,
-        "signal": 31.204444027579946,
-        "histogram": 11.729093652126714,
+        "macd": 42.93353766316625,
+        "signal": 31.204444003373688,
+        "histogram": 11.72909365979256,
         "crossover": "BULLISH"
       },
       "cross_status": "DEATH_CROSS",
-      "fifty_two_week_pos_pct": 89.18800925445079,
+      "fifty_two_week_pos_pct": 89.18800674704457,
       "high_52": 779.8200073242188,
-      "low_52": 519.368366299545,
+      "low_52": 519.3684267008094,
       "returns": {
         "1m": 31.720061440567605,
         "3m": 33.71014168922004,
-        "6m": 43.22271932960513,
-        "1y": 1.4063383585825484
+        "6m": 43.222702673156846,
+        "1y": 1.406346708628381
       },
       "technical_score": 62.0,
       "signals": [
@@ -645,15 +827,15 @@
       ]
     },
     "sent": {
-      "combined_polarity": 0.018,
-      "sentiment_score": 50.7,
+      "combined_polarity": 0.015,
+      "sentiment_score": 50.6,
       "label": "NEUTRAL",
       "news_stats": {
-        "polarity": 0.025138888888888888,
-        "subjectivity": 0.28430555555555553,
-        "positive_count": 2,
-        "negative_count": 3,
-        "neutral_count": 10,
+        "polarity": 0.02089646464646465,
+        "subjectivity": 0.3812752525252525,
+        "positive_count": 3,
+        "negative_count": 4,
+        "neutral_count": 8,
         "total": 15
       },
       "reddit_stats": {
@@ -666,19 +848,20 @@
       "headline_count": 15,
       "positive_highlights": [
         "Meta\u2019s Best Month Since 2013 Has It on Cusp of $2 Trillion Level - Yahoo Finance",
-        "Is Meta\u2019s (META) Stock Still Cheap After Its AI-Fueled Rally? - Yahoo Finance"
+        "Is Meta\u2019s (META) Stock Still Cheap After Its AI-Fueled Rally? - Yahoo Finance",
+        "Meta Platforms, Inc. $META Shares Newly Purchased by William John Sempolinski - MarketBeat"
       ],
       "negative_highlights": [
+        "Mark Zuckerberg Loses Nearly $9 Billion in One Day as Meta Stock Slides 4% After Goldman Questions AI Spe - Benzinga",
         "Meta Stock Expected to be 'Flat to Down' on 'Connect' Keynote, Says Gene Munster: Muse is 'Bad News' for - Benzinga",
-        "Meta Platforms Inc Stock (META) Moved Down by 3.14% on Sep 25: Facts Behind the Movement - TradingKey",
-        "Gene Munster Admits He Got Meta's Stock Rally Wrong - Meta Platforms (NASDAQ:META) - Benzinga"
+        "Meta Platforms Inc Stock (META) Moved Down by 3.14% on Sep 25: Facts Behind the Movement - TradingKey"
       ],
       "recent_headlines": [
         "Meta's Stock May Plunge As Credit Market Warns Against Massive Rally (NASDAQ:META) - Seeking Alpha",
-        "Meta Platforms, Inc. $META Stock Acquired by BAM Wealth Management LLC - marketbeat.com",
+        "Meta Platforms, Inc. $META Stock Holdings Raised by Saudi Central Bank - MarketBeat",
         "Meta Stock Expected to be 'Flat to Down' on 'Connect' Keynote, Says Gene Munster: Muse is 'Bad News' for - Benzinga",
-        "Why Meta Platforms Stock Keeps Going Up - Yahoo Finance",
-        "Meta Platforms Inc Stock (META) Moved Down by 3.14% on Sep 25: Facts Behind the Movement - TradingKey"
+        "Piper Sandler revamps Meta stock price target after cutting it 3 weeks ago - thestreet.com",
+        "'Meta is having its moment' as stock's monster rally vindicates the bulls: Chart of the Day - Yahoo Finance"
       ]
     },
     "qual": {
@@ -711,14 +894,14 @@
       "qualitative_score": 80.0
     },
     "sig": {
-      "composite_score": 76.7,
+      "composite_score": 76.6,
       "signal": "BUY",
       "confidence_pct": 76.8,
       "pillar_scores": {
         "fundamentals": 100.0,
         "valuation": 70.0,
         "technicals": 62.0,
-        "sentiment": 50.7,
+        "sentiment": 50.6,
         "analyst": 85.0,
         "macro_moat": 80.0
       },
@@ -731,194 +914,6 @@
       "key_risks": [
         "50-day SMA is below 200-day SMA (Death Cross)",
         "RSI is overbought at 76.6 (Pullback Risk)"
-      ]
-    }
-  },
-  "BE": {
-    "data": {
-      "symbol": "BE",
-      "company_name": "Bloom Energy Corporation",
-      "exchange_info": {
-        "country": "United States",
-        "exchange": "NYSE/NASDAQ",
-        "central_bank": "Federal Reserve (FED)",
-        "currency_symbol": "$"
-      },
-      "currency": "USD",
-      "sector": "Industrials",
-      "industry": "Electrical Equipment & Parts",
-      "summary": "Bloom Energy Corporation designs, manufactures, sells, and installs solid oxide fuel cell systems for on-site power generation in the United States and internationally. It offers Bloom Energy Server, an energy server platform to convert fuel, such as natural gas, biogas, hydrogen, or a blend of these fuels, into electricity through a non-combustion electrochemical process. The company also provides Bloom Electrolyzer for producing hydrogen. It sells its products through direct and indirect sales channels to utilities, data centers, retail, healthcare, education, telecom, manufacturing, and other industries. The company was formerly known as Ion America Corp. and changed its name to Bloom Energy Corporation in 2006. Bloom Energy Corporation was incorporated in 2001 and is headquartered in San Jose, California.",
-      "current_price": 288.7,
-      "previous_close": 266.65,
-      "fifty_two_week_high": 351.28,
-      "fifty_two_week_low": 70.89,
-      "volume": 17303729,
-      "avg_volume": 15627806,
-      "pe_ratio": 384.93335,
-      "forward_pe": 58.57517,
-      "peg_ratio": 0.65,
-      "price_to_sales": 27.313189,
-      "price_to_book": 52.538673,
-      "ev_to_ebitda": 203.491,
-      "market_cap": 85030051840,
-      "enterprise_value": 85156880384,
-      "eps_trailing": 0.75,
-      "eps_forward": 4.92871,
-      "earnings_growth": null,
-      "revenue_growth": 1.655,
-      "total_revenue": 3113149952,
-      "net_income": 244942000,
-      "profit_margins": 0.07868,
-      "operating_margins": 0.17106001,
-      "return_on_equity": 0.22213,
-      "return_on_assets": 0.05599,
-      "total_debt": 2815023104,
-      "total_cash": 2716858880,
-      "debt_to_equity": 171.578,
-      "current_ratio": 4.087,
-      "quick_ratio": 3.213,
-      "free_cash_flow": 531637504,
-      "dividend_yield_pct": 0.0,
-      "payout_ratio": 0.0,
-      "target_low": 97.0,
-      "target_mean": 280.23846,
-      "target_high": 390.0,
-      "target_median": 296.5,
-      "recommendation_key": "buy",
-      "recommendation_mean": 2.24138,
-      "number_of_analysts": 26,
-      "implied_upside_pct": -2.9309109802563262,
-      "rec_breakdown": {
-        "strongBuy": 5,
-        "buy": 10,
-        "hold": 12,
-        "sell": 1,
-        "strongSell": 1
-      },
-      "next_earnings_date": "2026-10-27",
-      "earnings_high_est": 0.8,
-      "earnings_low_est": 0.56,
-      "earnings_avg_est": 0.66511,
-      "_ticker_obj": "yfinance.Ticker object <BE>"
-    },
-    "tech": {
-      "latest_price": 288.7,
-      "sma_20": 256.4955009460449,
-      "sma_50": 229.67520080566408,
-      "sma_200": 202.9561508178711,
-      "rsi_14": 61.147407934604196,
-      "rsi_status": "BULLISH",
-      "macd_data": {
-        "macd": 13.922618077387199,
-        "signal": 12.473190065362429,
-        "histogram": 1.4494280120247698,
-        "crossover": "BULLISH"
-      },
-      "cross_status": "GOLDEN_CROSS",
-      "fifty_two_week_pos_pct": 78.01587871444191,
-      "high_52": 351.2799987792969,
-      "low_52": 66.62000274658203,
-      "returns": {
-        "1m": 32.534544173539004,
-        "3m": 4.97799707219464,
-        "6m": 116.67666473851344,
-        "1y": 310.5517651491817
-      },
-      "technical_score": 95.0,
-      "signals": [
-        "Price is 25.7% above 50-day SMA (Bullish)",
-        "50-day SMA is above 200-day SMA (Golden Cross)",
-        "MACD histogram indicates positive bullish momentum"
-      ]
-    },
-    "sent": {
-      "combined_polarity": 0.052,
-      "sentiment_score": 52.1,
-      "label": "NEUTRAL",
-      "news_stats": {
-        "polarity": 0.0737037037037037,
-        "subjectivity": 0.2796296296296296,
-        "positive_count": 4,
-        "negative_count": 5,
-        "neutral_count": 6,
-        "total": 15
-      },
-      "reddit_stats": {
-        "polarity": 0.0,
-        "subjectivity": 0.0,
-        "positive_count": 0,
-        "negative_count": 0,
-        "neutral_count": 0
-      },
-      "headline_count": 15,
-      "positive_highlights": [
-        "Bloom Energy vs. Marathon Petroleum: Which Popular Energy Stock Is the Better Buy? - TradingView",
-        "Bloom Energy vs. Eos Energy Enterprises: Which Energy Storage Stock Is a Better Buy in 2026? - The Motley Fool",
-        "Bloom Energy vs. NextEra Energy: Which Renewable Energy Stock Is a Better Buy in 2026? - The Motley Fool"
-      ],
-      "negative_highlights": [
-        "Bloom Energy slides on reported Oracle data center force majeure (BE:NYSE) - Seeking Alpha",
-        "Bloom Energy Stock Surges On S&P 500, AI Data Center Demand - timothysykes.com",
-        "Bloom Energy Stock Surges As S&P 500, AI Data Center Deals Align - StocksToTrade"
-      ],
-      "recent_headlines": [
-        "Bloom Energy Stock Rebounds: What's Going On? - Benzinga",
-        "Bloom Energy Stock Surges On S&P 500 Debut And AI Power Push - StocksToTrade",
-        "Fluence Energy, Generac, Bloom Energy, Columbus McKinnon, and Viavi Solutions Shares Are Soaring, What You Need To Know - Yahoo Finance",
-        "Bloom Energy slides on reported Oracle data center force majeure (BE:NYSE) - Seeking Alpha",
-        "Bloom Energy vs. NextEra Energy: Which Renewable Energy Stock Is a Better Buy in 2026? - The Motley Fool"
-      ]
-    },
-    "qual": {
-      "priced_in": {
-        "valuation_tier": "High Growth Premium",
-        "priced_in_points": [
-          "High P/E ratio indicates market has priced in strong future earnings acceleration.",
-          "Forward P/E is 84.8% lower than trailing P/E, pricing in robust earnings recovery/growth.",
-          "PEG ratio of 0.65 suggests stock may be undervalued relative to expected growth."
-        ]
-      },
-      "macro_policy": {
-        "macro_factors": [
-          "Operating in United States under Federal Reserve (FED) interest rate policy environment.",
-          "Performance closely aligned with overall United States economic trajectory."
-        ],
-        "policy_risks": [
-          "Standard corporate governance and trade policy conditions apply."
-        ]
-      },
-      "moat": {
-        "moat_tier": "Narrow Moat",
-        "moat_score": 70.0,
-        "reasons": [
-          "Strong Return on Equity (ROE: 22.2%), indicating high capital efficiency and competitive advantage."
-        ]
-      },
-      "qualitative_score": 62.0
-    },
-    "sig": {
-      "composite_score": 64.9,
-      "signal": "HOLD",
-      "confidence_pct": 73.3,
-      "pillar_scores": {
-        "fundamentals": 82.0,
-        "valuation": 38.0,
-        "technicals": 95.0,
-        "sentiment": 52.1,
-        "analyst": 57.0,
-        "macro_moat": 62.0
-      },
-      "key_positives": [
-        "Exceptional Return on Equity (22.2%)",
-        "Strong YoY revenue growth (165.5%)",
-        "Positive free cash flow generation",
-        "Favorable PEG ratio (0.65x < 1.0)"
-      ],
-      "key_risks": [
-        "Elevated debt-to-equity ratio (171.6)",
-        "High P/E ratio (384.9x)",
-        "Elevated Forward P/E (58.6x)",
-        "Price exceeds average analyst target (-2.9%)"
       ]
     }
   },
@@ -1043,14 +1038,14 @@
       "positive_highlights": [
         "AMD Is On The Edge\u2026 Of One More Inflection (NASDAQ:AMD) - Seeking Alpha",
         "Advanced Micro Devices (AMD) is Emerging as a Viable Alternative to Nvidia - Yahoo Finance",
-        "Advanced Micro Devices (AMD) Reaches $1 Trillion Market Value - Yahoo Finance"
+        "Advanced Micro Devices (NASDAQ:AMD) Stock Jumps 2.4% - Should You Buy? - MarketBeat"
       ],
       "negative_highlights": [],
       "recent_headlines": [
-        "Advanced Micro Devices (AMD) is Emerging as a Viable Alternative to Nvidia - Yahoo Finance",
-        "AMD Stock Hits 52-Week High - Here's Why - Advanced Micro Devices (NASDAQ:AMD) - Benzinga",
-        "Bank of America Issues Positive Forecast for Advanced Micro Devices (NASDAQ:AMD) Stock Price - marketbeat.com",
         "Advanced Micro Devices, Inc. (AMD) is Attracting Investor Attention: Here is What You Should Know - Yahoo Finance",
+        "AMD Stock Hits 52-Week High - Here's Why - Advanced Micro Devices (NASDAQ:AMD) - Benzinga",
+        "Bank of America Issues Positive Forecast for Advanced Micro Devices (NASDAQ:AMD) Stock Price - MarketBeat",
+        "Advanced Micro Devices (AMD) is Emerging as a Viable Alternative to Nvidia - Yahoo Finance",
         "Advanced Micro Devices (AMD) Stock Moves 1.34%: What You Should Know - Yahoo Finance"
       ]
     },
