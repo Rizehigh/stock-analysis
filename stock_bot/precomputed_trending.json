@@ -19,32 +19,32 @@
       "fifty_two_week_low": 179.61,
       "volume": 44760261,
       "avg_volume": 33908822,
-      "pe_ratio": 14.326241,
+      "pe_ratio": 14.771706,
       "forward_pe": 5.345326,
       "peg_ratio": 0.16,
-      "price_to_sales": 13.729144,
+      "price_to_sales": 9.305529,
       "price_to_book": 12.30051,
-      "ev_to_ebitda": 17.345,
+      "ev_to_ebitda": 11.042,
       "market_cap": 1239384719360,
-      "enterprise_value": 1183281971200,
-      "eps_trailing": 76.6,
+      "enterprise_value": 1201795760128,
+      "eps_trailing": 74.29,
       "eps_forward": 205.299,
-      "earnings_growth": 13.685,
-      "revenue_growth": 3.457,
-      "total_revenue": 90273996800,
-      "net_income": 50468999168,
-      "profit_margins": 0.55906,
-      "operating_margins": 0.80370003,
-      "return_on_equity": 0.66638,
-      "return_on_assets": 0.3487,
-      "total_debt": 6376000000,
-      "total_cash": 26022000640,
-      "debt_to_equity": 6.33,
-      "current_ratio": 3.425,
-      "quick_ratio": 2.927,
-      "free_cash_flow": 7639499776,
+      "earnings_growth": 10.605,
+      "revenue_growth": 3.793,
+      "total_revenue": 133188001792,
+      "net_income": 84968996864,
+      "profit_margins": 0.63796,
+      "operating_margins": 0.80678004,
+      "return_on_equity": 0.8826,
+      "return_on_assets": 0.44557,
+      "total_debt": 5178999808,
+      "total_cash": 43434000384,
+      "debt_to_equity": 3.743,
+      "current_ratio": 3.314,
+      "quick_ratio": 2.898,
+      "free_cash_flow": 27881250816,
       "dividend_yield_pct": 5.0,
-      "payout_ratio": 0.0112,
+      "payout_ratio": 0.0070999996,
       "target_low": 361.0,
       "target_mean": 1520.0217,
       "target_high": 2200.0,
@@ -74,9 +74,9 @@
       "rsi_14": 68.40138148901826,
       "rsi_status": "BULLISH",
       "macd_data": {
-        "macd": 36.01747881920255,
-        "signal": 30.21571748205353,
-        "histogram": 5.801761337149021,
+        "macd": 36.017478819002804,
+        "signal": 30.215717481759764,
+        "histogram": 5.80176133724304,
         "crossover": "BULLISH"
       },
       "cross_status": "GOLDEN_CROSS",
@@ -97,15 +97,15 @@
       ]
     },
     "sent": {
-      "combined_polarity": 0.109,
-      "sentiment_score": 54.4,
-      "label": "BULLISH",
+      "combined_polarity": 0.023,
+      "sentiment_score": 50.9,
+      "label": "NEUTRAL",
       "news_stats": {
-        "polarity": 0.15555555555555553,
-        "subjectivity": 0.20888888888888887,
-        "positive_count": 5,
-        "negative_count": 0,
-        "neutral_count": 10,
+        "polarity": 0.03222222222222222,
+        "subjectivity": 0.20222222222222222,
+        "positive_count": 3,
+        "negative_count": 1,
+        "neutral_count": 11,
         "total": 15
       },
       "reddit_stats": {
@@ -117,17 +117,19 @@
       },
       "headline_count": 15,
       "positive_highlights": [
-        "Micron Is Keeping Shareholders Happy (NASDAQ:MU) - Seeking Alpha",
         "Micron rises as Q4 results, guidance top estimates (MU:NASDAQ) - Seeking Alpha",
-        "Micron (NASDAQ:MU) Delivers Strong Q3 Numbers But Inventory Levels Increase - finance.yahoo.com"
+        "Micron (NASDAQ:MU) Delivers Strong Q3 Numbers But Inventory Levels Increase - Yahoo Finance",
+        "Q4 GAAP profit hits $37.7B at Micron (MU), which forecasts higher Q1 revenue. - Stock Titan"
       ],
-      "negative_highlights": [],
+      "negative_highlights": [
+        "GUIDANCE: (MU) Micron Technology, Inc. Expects Q1 Revenue Range $60.0B - $63.0B - Moomoo"
+      ],
       "recent_headlines": [
+        "MU Stock Drops After Hours: Micron\u2019s Heightened Capex Forecast Overpowers Q4 Beat, Expectation-Beating Q1 Guidance - Yahoo Finance",
         "Micron rises as Q4 results, guidance top estimates (MU:NASDAQ) - Seeking Alpha",
-        "Micron Earnings: Should You Buy MU Stock Before Results? - Micron Technology (NASDAQ:MU) - benzinga.com",
+        "Micron Earnings: Should You Buy MU Stock Before Results? - Micron Technology (NASDAQ:MU) - Benzinga",
         "Micron: What We Think of the Stock After Earnings - Morningstar",
-        "Micron at 6.6x Earnings: Bargain or Bubble Warning? - TIKR.com",
-        "Micron Isn't Stepping Off The Gas (NASDAQ:MU) - Seeking Alpha"
+        "Micron at 6.6x Earnings: Bargain or Bubble Warning? - TIKR.com"
       ]
     },
     "qual": {
@@ -135,7 +137,7 @@
         "valuation_tier": "Value / Low Expectation",
         "priced_in_points": [
           "Low P/E ratio suggests market is pricing in modest growth or cyclical headwinds.",
-          "Forward P/E is 62.7% lower than trailing P/E, pricing in robust earnings recovery/growth.",
+          "Forward P/E is 63.8% lower than trailing P/E, pricing in robust earnings recovery/growth.",
           "PEG ratio of 0.16 suggests stock may be undervalued relative to expected growth."
         ]
       },
@@ -152,30 +154,30 @@
         "moat_tier": "Wide Moat",
         "moat_score": 100.0,
         "reasons": [
-          "Strong Return on Equity (ROE: 66.6%), indicating high capital efficiency and competitive advantage.",
-          "High net profit margin (55.9%), demonstrating pricing power.",
+          "Strong Return on Equity (ROE: 88.3%), indicating high capital efficiency and competitive advantage.",
+          "High net profit margin (63.8%), demonstrating pricing power.",
           "Mega-cap scale ($1.24T) provides massive distribution and cost advantages."
         ]
       },
       "qualitative_score": 80.0
     },
     "sig": {
-      "composite_score": 89.4,
+      "composite_score": 88.9,
       "signal": "STRONG BUY",
-      "confidence_pct": 76.5,
+      "confidence_pct": 75.1,
       "pillar_scores": {
         "fundamentals": 100.0,
         "valuation": 95.0,
         "technicals": 95.0,
-        "sentiment": 54.4,
+        "sentiment": 50.9,
         "analyst": 100.0,
         "macro_moat": 80.0
       },
       "key_positives": [
-        "Exceptional Return on Equity (66.6%)",
-        "High profit margin (55.9%)",
-        "Strong YoY revenue growth (345.7%)",
-        "Low debt-to-equity ratio (6.3)"
+        "Exceptional Return on Equity (88.3%)",
+        "High profit margin (63.8%)",
+        "Strong YoY revenue growth (379.3%)",
+        "Low debt-to-equity ratio (3.7)"
       ],
       "key_risks": [
         "Standard market risk and volatility."
@@ -202,16 +204,16 @@
       "fifty_two_week_low": 35.02,
       "volume": 95217681,
       "avg_volume": 27550706,
-      "pe_ratio": 16.89904,
-      "forward_pe": 16.555824,
+      "pe_ratio": 16.738096,
+      "forward_pe": 18.294905,
       "peg_ratio": 1.42,
       "price_to_sales": 1.1238627,
       "price_to_book": 3.5065844,
       "ev_to_ebitda": 10.988,
       "market_cap": 52144984064,
       "enterprise_value": 54160977920,
-      "eps_trailing": 2.08,
-      "eps_forward": 2.12312,
+      "eps_trailing": 2.1,
+      "eps_forward": 1.9213,
       "earnings_growth": 4.28,
       "revenue_growth": -0.011,
       "total_revenue": 46398001152,
@@ -243,7 +245,7 @@
         "sell": 3,
         "strongSell": 3
       },
-      "next_earnings_date": "2026-10-01",
+      "next_earnings_date": "2026-12-17",
       "earnings_high_est": 0.54,
       "earnings_low_est": 0.45,
       "earnings_avg_est": 0.49825,
@@ -253,24 +255,24 @@
       "latest_price": 35.15,
       "sma_20": 36.48649978637695,
       "sma_50": 38.848910064697264,
-      "sma_200": 48.03533531188965,
+      "sma_200": 48.035335559844974,
       "rsi_14": 35.70192738059899,
       "rsi_status": "BEARISH",
       "macd_data": {
-        "macd": -0.9679466775145826,
-        "signal": -1.0186675694811655,
-        "histogram": 0.050720891966582915,
+        "macd": -0.9679466778823738,
+        "signal": -1.0186675700217502,
+        "histogram": 0.05072089213937647,
         "crossover": "BULLISH"
       },
       "cross_status": "DEATH_CROSS",
-      "fifty_two_week_pos_pct": 0.329169829185515,
-      "high_52": 74.5131528399223,
+      "fifty_two_week_pos_pct": 0.32916976354899297,
+      "high_52": 74.51316071486542,
       "low_52": 35.02000045776367,
       "returns": {
         "1m": -8.080547967671247,
         "3m": -18.03675214473498,
         "6m": -18.89401622584147,
-        "1y": -51.30888255153003
+        "1y": -51.30888769746367
       },
       "technical_score": 25.7,
       "signals": [
@@ -280,15 +282,15 @@
       ]
     },
     "sent": {
-      "combined_polarity": 0.037,
-      "sentiment_score": 51.5,
+      "combined_polarity": -0.006,
+      "sentiment_score": 49.8,
       "label": "NEUTRAL",
       "news_stats": {
-        "polarity": 0.05307936507936508,
-        "subjectivity": 0.20231746031746034,
-        "positive_count": 4,
-        "negative_count": 2,
-        "neutral_count": 9,
+        "polarity": -0.00834920634920635,
+        "subjectivity": 0.1297777777777778,
+        "positive_count": 2,
+        "negative_count": 3,
+        "neutral_count": 10,
         "total": 15
       },
       "reddit_stats": {
@@ -300,20 +302,20 @@
       },
       "headline_count": 15,
       "positive_highlights": [
-        "NKE Stock: Morgan Stanley Flags \u2018Elevated\u2019 Valuation, More Earnings Risk - Stocktwits",
-        "Nike's turnaround faces more headwinds as China sales slide, sees further sales decline in FY27 (NKE:NYSE) - Seeking Alpha",
-        "NKE Stock Ticks Higher Overnight: Retail Stays Bullish On Nike Ahead of Q1 Earnings \u2013 'Time To Reinvest' - Stocktwits"
+        "Here\u2019s How Much Traders Expect Nike Stock to Move After Earnings - Investopedia",
+        "NKE Stock Slumps About 9% After-Hours On A Soft Full-Year Forecast: CEO Says The Fix Will Take Time - Yahoo Finance"
       ],
       "negative_highlights": [
-        "Nike stock sinks as revenue misses estimates, expects to cut jobs - finance.yahoo.com",
+        "Nike: Management Is Taking Right Actions, But Bleeding Is Worse Than I Expected (Downgrade) - Seeking Alpha",
+        "Nike stock sinks as revenue misses estimates, expects to cut jobs - Yahoo Finance",
         "Nike Q1: The Company Of The Past Is Gone (NYSE:NKE) - Seeking Alpha"
       ],
       "recent_headlines": [
-        "Nike stock sinks as revenue misses estimates, expects to cut jobs - finance.yahoo.com",
+        "Nike stock sinks as revenue misses estimates, expects to cut jobs - Yahoo Finance",
         "Nike expects revenue to fall by high single digits in fiscal 2027. Its plan is expected to save about $2.5 billion. - Stock Titan",
-        "Nike Q1: The Company Of The Past Is Gone (NYSE:NKE) - Seeking Alpha",
-        "NIKE, Inc. $NKE Stock Position Boosted by Confluence Investment Management LLC - MarketBeat",
-        "Nike Inc (NKE) Reports Q1 Fiscal 2027 Results Amid Dividend Sust - GuruFocus"
+        "NKE stock faces weaker sales outlook after Nike reports first-quarter results - finchannel",
+        "Nike: Management Is Taking Right Actions, But Bleeding Is Worse Than I Expected (Downgrade) - Seeking Alpha",
+        "NKE Stock Trails S&P 500 By Widest Margin In 25 Years \u2013 Can Elliott Hill\u2019s Turnaround Effort Change Narrative? - Stocktwits"
       ]
     },
     "qual": {
@@ -321,7 +323,7 @@
         "valuation_tier": "Fair Value Range",
         "priced_in_points": [
           "P/E ratio reflects balanced market expectations for mid-range growth.",
-          "Forward P/E is 2.0% lower than trailing P/E, pricing in robust earnings recovery/growth."
+          "Forward P/E is higher than trailing P/E, pricing in potential earnings contraction."
         ]
       },
       "macro_policy": {
@@ -343,14 +345,14 @@
       "qualitative_score": 62.0
     },
     "sig": {
-      "composite_score": 59.0,
+      "composite_score": 58.8,
       "signal": "HOLD",
-      "confidence_pct": 76.8,
+      "confidence_pct": 76.6,
       "pillar_scores": {
         "fundamentals": 68.0,
         "valuation": 65.0,
         "technicals": 25.7,
-        "sentiment": 51.5,
+        "sentiment": 49.8,
         "analyst": 75.0,
         "macro_moat": 62.0
       },
@@ -387,7 +389,7 @@
       "fifty_two_week_low": 236.685,
       "volume": 19631552,
       "avg_volume": 18114568,
-      "pe_ratio": 17.096989,
+      "pe_ratio": 16.805319,
       "forward_pe": 22.22268,
       "peg_ratio": 1.22,
       "price_to_sales": 9.187002,
@@ -395,7 +397,7 @@
       "ev_to_ebitda": 23.056,
       "market_cap": 4096171966464,
       "enterprise_value": 3992533860352,
-      "eps_trailing": 19.59,
+      "eps_trailing": 19.93,
       "eps_forward": 15.07154,
       "earnings_growth": 2.94,
       "revenue_growth": 0.242,
@@ -438,13 +440,13 @@
       "latest_price": 334.93,
       "sma_20": 339.1929992675781,
       "sma_50": 341.196572265625,
-      "sma_200": 336.85454223632814,
+      "sma_200": 336.85454177856445,
       "rsi_14": 49.58793959155721,
       "rsi_status": "NEUTRAL",
       "macd_data": {
-        "macd": -0.789457715232686,
-        "signal": -0.577661047979513,
-        "histogram": -0.21179666725317303,
+        "macd": -0.7894577151976705,
+        "signal": -0.5776610479281576,
+        "histogram": -0.21179666726951285,
         "crossover": "BEARISH_CROSS"
       },
       "cross_status": "GOLDEN_CROSS",
@@ -465,15 +467,15 @@
       ]
     },
     "sent": {
-      "combined_polarity": 0.022,
-      "sentiment_score": 50.9,
+      "combined_polarity": 0.034,
+      "sentiment_score": 51.4,
       "label": "NEUTRAL",
       "news_stats": {
-        "polarity": 0.03192640692640693,
-        "subjectivity": 0.06753246753246754,
-        "positive_count": 2,
+        "polarity": 0.0485930735930736,
+        "subjectivity": 0.07753246753246754,
+        "positive_count": 3,
         "negative_count": 0,
-        "neutral_count": 13,
+        "neutral_count": 12,
         "total": 15
       },
       "reddit_stats": {
@@ -486,15 +488,16 @@
       "headline_count": 15,
       "positive_highlights": [
         "Is This The Right Time To Buy Google Stock? - Forbes",
-        "Google Unveils New AI Model Gemini 4 Argon, Sending Alphabet Stock Higher - Barron's"
+        "How Much Must Google Cloud Be Worth to Justify Alphabet\u2019s Valuation? - Yahoo Finance",
+        "Google Unveils New AI Model Gemini 4 Argon, Sending Alphabet Stock Higher - barrons.com"
       ],
       "negative_highlights": [],
       "recent_headlines": [
-        "Google Unveils New AI Model Gemini 4 Argon, Sending Alphabet Stock Higher - Barron's",
-        "Alphabet Stock Jumps: What's Happening Today? - benzinga.com",
-        "Alphabet stock slips on report of internal doubts over Gemini 4 - finance.yahoo.com",
-        "Is Alphabet's Argon AI Model Benchmaxxed? Probably, But The Stock Remains A Buy (GOOG) - Seeking Alpha",
-        "Is This The Right Time To Buy Google Stock? - Forbes"
+        "Alphabet Stock Jumps: What's Happening Today? - Benzinga",
+        "How Much Must Google Cloud Be Worth to Justify Alphabet\u2019s Valuation? - Yahoo Finance",
+        "Google Unveils New AI Model Gemini 4 Argon, Sending Alphabet Stock Higher - barrons.com",
+        "Is This The Right Time To Buy Google Stock? - Forbes",
+        "Is Alphabet's Argon AI Model Benchmaxxed? Probably, But The Stock Remains A Buy (GOOG) - Seeking Alpha"
       ]
     },
     "qual": {
@@ -526,14 +529,14 @@
       "qualitative_score": 80.0
     },
     "sig": {
-      "composite_score": 74.7,
+      "composite_score": 74.8,
       "signal": "BUY",
-      "confidence_pct": 69.9,
+      "confidence_pct": 70.0,
       "pillar_scores": {
         "fundamentals": 100.0,
         "valuation": 60.0,
         "technicals": 47.2,
-        "sentiment": 50.9,
+        "sentiment": 51.4,
         "analyst": 100.0,
         "macro_moat": 80.0
       },
@@ -545,194 +548,6 @@
       ],
       "key_risks": [
         "Price is 1.8% below 50-day SMA (Bearish)"
-      ]
-    }
-  },
-  "DTE": {
-    "data": {
-      "symbol": "DTE",
-      "company_name": "DTE Energy Company",
-      "exchange_info": {
-        "country": "United States",
-        "exchange": "NYSE/NASDAQ",
-        "central_bank": "Federal Reserve (FED)",
-        "currency_symbol": "$"
-      },
-      "currency": "USD",
-      "sector": "Utilities",
-      "industry": "Utilities - Regulated Electric",
-      "summary": "DTE Energy Company engages in energy-related businesses and services. The company operates through four segments: Electric, Gas, DTE Vantage, and Energy Trading.The company's Electric segment generates, purchases, distributes, and sells electricity to approximately 2.3 million residential, commercial, and industrial customers in southeastern Michigan. It generates electricity through coal-fired plants, natural gas plant, hydroelectric pumped storage, and nuclear plants, as well as wind and solar assets. This segment owns and operates 702 distribution substations with a capacity of approximately 37,870,000 kilovolt-amperes (kVA) and approximately 4,56,900 line transformers with a capacity of approximately 33,770,000 kVA. The company's Gas segment purchases, stores, transports, distributes, and sells natural gas to approximately 1.4 million residential, commercial, and industrial customers throughout Michigan; and sells storage and transportation capacity. This segment has approximately 21,000 miles of distribution mains; 1,242,000 service pipelines; and 1,361,000 active meters, as well as owns approximately 2,000 miles of transmission pipelines. Its DTE Vantage segment offers metallurgical and petroleum coke to steel and other industries; and power generation, steam production, chilled water production, and wastewater treatment services, as well as compressed air supply to industrial customers. This segment also owns and operates 2 renewable generating plants with a capacity of 70 MWs; and 22 gas recovery sites. Its Energy Trading segment engages in power, natural gas, and environmental marketing and trading; structured transactions; and the optimization of contracted natural gas pipeline transportation and storage positions. The company was founded in 1849 and is based in Detroit, Michigan.",
-      "current_price": 123.27,
-      "previous_close": 121.8,
-      "fifty_two_week_high": 155.75,
-      "fifty_two_week_low": 119.68,
-      "volume": 2164116,
-      "avg_volume": 1491911,
-      "pe_ratio": 19.260937,
-      "forward_pe": 14.73707,
-      "peg_ratio": 1.56,
-      "price_to_sales": 1.5579116,
-      "price_to_book": 2.111366,
-      "ev_to_ebitda": 14.779,
-      "market_cap": 25651015680,
-      "enterprise_value": 53454016512,
-      "eps_trailing": 6.4,
-      "eps_forward": 8.36462,
-      "earnings_growth": 0.224,
-      "revenue_growth": -0.015,
-      "total_revenue": 16465000448,
-      "net_income": 1314000000,
-      "profit_margins": 0.07999,
-      "operating_margins": 0.13623999,
-      "return_on_equity": 0.1103,
-      "return_on_assets": 0.02769,
-      "total_debt": 27840000000,
-      "total_cash": 42000000,
-      "debt_to_equity": 229.06,
-      "current_ratio": 0.802,
-      "quick_ratio": 0.395,
-      "free_cash_flow": -2596624896,
-      "dividend_yield_pct": 3.83,
-      "payout_ratio": 0.72550005,
-      "target_low": 132.0,
-      "target_mean": 152.5357,
-      "target_high": 168.0,
-      "target_median": 156.5,
-      "recommendation_key": "buy",
-      "recommendation_mean": 1.88235,
-      "number_of_analysts": 14,
-      "implied_upside_pct": 23.741137340796623,
-      "rec_breakdown": {
-        "strongBuy": 1,
-        "buy": 9,
-        "hold": 7,
-        "sell": 0,
-        "strongSell": 0
-      },
-      "next_earnings_date": "2026-10-29",
-      "earnings_high_est": 2.5666,
-      "earnings_low_est": 2.26,
-      "earnings_avg_est": 2.40395,
-      "_ticker_obj": "yfinance.Ticker object <DTE>"
-    },
-    "tech": {
-      "latest_price": 123.27,
-      "sma_20": 127.83219833374024,
-      "sma_50": 134.32506713867187,
-      "sma_200": 138.71008918762206,
-      "rsi_14": 23.472712632098663,
-      "rsi_status": "OVERSOLD",
-      "macd_data": {
-        "macd": -3.8931847466968748,
-        "signal": -3.6778020360855335,
-        "histogram": -0.2153827106113413,
-        "crossover": "BEARISH"
-      },
-      "cross_status": "DEATH_CROSS",
-      "fifty_two_week_pos_pct": 10.358307113333202,
-      "high_52": 154.3381703666057,
-      "low_52": 119.68000030517578,
-      "returns": {
-        "1m": -8.564768571703441,
-        "3m": -17.813403602645117,
-        "6m": -15.301542582017657,
-        "1y": -8.446017346091129
-      },
-      "technical_score": 24.7,
-      "signals": [
-        "Price is 8.2% below 50-day SMA (Bearish)",
-        "50-day SMA is below 200-day SMA (Death Cross)",
-        "RSI is oversold at 23.5 (Potential Rebound)",
-        "MACD histogram indicates negative bearish momentum"
-      ]
-    },
-    "sent": {
-      "combined_polarity": 0.035,
-      "sentiment_score": 51.4,
-      "label": "NEUTRAL",
-      "news_stats": {
-        "polarity": 0.06402777777777778,
-        "subjectivity": 0.15736111111111112,
-        "positive_count": 3,
-        "negative_count": 0,
-        "neutral_count": 12,
-        "total": 15
-      },
-      "reddit_stats": {
-        "polarity": -0.032333333333333325,
-        "subjectivity": 0.279,
-        "positive_count": 2,
-        "negative_count": 2,
-        "neutral_count": 6,
-        "total": 10
-      },
-      "headline_count": 25,
-      "positive_highlights": [
-        "DTE Energy Co. stock outperforms competitors on strong trading day - MarketWatch",
-        "DTE Energy Costs really high? - Reddit",
-        "DTE made $6 billion in profit last year, and now wants to increase rates. How can Michigan residents fight this? - Reddit"
-      ],
-      "negative_highlights": [
-        "Is DTE really that bad? - Reddit",
-        "[Serious] What alternatives do we have for DTE Energy? - Reddit"
-      ],
-      "recent_headlines": [
-        "DTE Energy Company (DTE) Stock Price, News, Quote & History - Yahoo! Finance Canada",
-        "DTE Energy Co. stock outperforms competitors on strong trading day - MarketWatch",
-        "DTE Energy (DTE) Stock Forecast and Price Target 2026 $DTE - MarketBeat",
-        "DTE Stock Price, Quote & Chart - ChartMill",
-        "Ford says Michigan vehicle assembly will use the equivalent of 100% carbon-free electricity by end-2027 - Stock Titan"
-      ]
-    },
-    "qual": {
-      "priced_in": {
-        "valuation_tier": "Fair Value Range",
-        "priced_in_points": [
-          "P/E ratio reflects balanced market expectations for mid-range growth.",
-          "Forward P/E is 23.5% lower than trailing P/E, pricing in robust earnings recovery/growth."
-        ]
-      },
-      "macro_policy": {
-        "macro_factors": [
-          "Operating in United States under Federal Reserve (FED) interest rate policy environment.",
-          "Performance closely aligned with overall United States economic trajectory."
-        ],
-        "policy_risks": [
-          "Standard corporate governance and trade policy conditions apply."
-        ]
-      },
-      "moat": {
-        "moat_tier": "Narrow Moat",
-        "moat_score": 50.0,
-        "reasons": [
-          "Standard market positioning within industry."
-        ]
-      },
-      "qualitative_score": 50.0
-    },
-    "sig": {
-      "composite_score": 48.5,
-      "signal": "HOLD",
-      "confidence_pct": 61.1,
-      "pillar_scores": {
-        "fundamentals": 10.0,
-        "valuation": 75.0,
-        "technicals": 24.7,
-        "sentiment": 51.4,
-        "analyst": 97.0,
-        "macro_moat": 50.0
-      },
-      "key_positives": [
-        "Attractive Forward P/E (14.7x)",
-        "Low P/S ratio (1.56x)",
-        "Significant price target upside (+23.7%)",
-        "Bullish analyst consensus (Buy)"
-      ],
-      "key_risks": [
-        "Declining YoY revenue (-1.5%)",
-        "Elevated debt-to-equity ratio (229.1)",
-        "Current ratio below 1.0 (0.80)",
-        "Negative free cash flow generation"
       ]
     }
   },
@@ -756,7 +571,7 @@
       "fifty_two_week_low": 235.84,
       "volume": 33110940,
       "avg_volume": 27174865,
-      "pe_ratio": 17.274769,
+      "pe_ratio": 16.97992,
       "forward_pe": 22.442299,
       "peg_ratio": 1.23,
       "price_to_sales": 9.277795,
@@ -764,7 +579,7 @@
       "ev_to_ebitda": 23.29,
       "market_cap": 4136653029376,
       "enterprise_value": 4033015185408,
-      "eps_trailing": 19.58,
+      "eps_trailing": 19.92,
       "eps_forward": 15.07154,
       "earnings_growth": 2.94,
       "revenue_growth": 0.242,
@@ -811,20 +626,20 @@
       "rsi_14": 49.7991894039885,
       "rsi_status": "NEUTRAL",
       "macd_data": {
-        "macd": -0.6054780878421298,
-        "signal": -0.31048892538226425,
-        "histogram": -0.2949891624598655,
+        "macd": -0.6054780878428119,
+        "signal": -0.31048892538323236,
+        "histogram": -0.2949891624595795,
         "crossover": "BEARISH_CROSS"
       },
       "cross_status": "GOLDEN_CROSS",
-      "fifty_two_week_pos_pct": 59.58723851368129,
+      "fifty_two_week_pos_pct": 59.58724206969037,
       "high_52": 408.10376741205215,
-      "low_52": 235.2282576904417,
+      "low_52": 235.22824247873842,
       "returns": {
         "1m": 0.39671830235228356,
         "3m": -7.641371025595955,
         "6m": 14.5009998674557,
-        "1y": 38.02745069762501
+        "1y": 38.02744210301825
       },
       "technical_score": 47.6,
       "signals": [
@@ -834,15 +649,15 @@
       ]
     },
     "sent": {
-      "combined_polarity": 0.009,
-      "sentiment_score": 50.3,
+      "combined_polarity": 0.027,
+      "sentiment_score": 51.1,
       "label": "NEUTRAL",
       "news_stats": {
-        "polarity": 0.01248196248196248,
-        "subjectivity": 0.10364357864357863,
-        "positive_count": 2,
+        "polarity": 0.03822270322270322,
+        "subjectivity": 0.0967917267917268,
+        "positive_count": 3,
         "negative_count": 1,
-        "neutral_count": 12,
+        "neutral_count": 11,
         "total": 15
       },
       "reddit_stats": {
@@ -855,17 +670,18 @@
       "headline_count": 15,
       "positive_highlights": [
         "Is This The Right Time To Buy Google Stock? - Forbes",
-        "Google Unveils New AI Model Gemini 4 Argon, Sending Alphabet Stock Higher - Barron's"
+        "How Much Must Google Cloud Be Worth to Justify Alphabet\u2019s Valuation? - Yahoo Finance",
+        "Google Unveils New AI Model Gemini 4 Argon, Sending Alphabet Stock Higher - barrons.com"
       ],
       "negative_highlights": [
-        "Google Just Sent Its AI Chips Into Space \u2014 Now Comes The Hard Part - Stocktwits"
+        "Why Is Alphabet (NASDAQ:GOOGL) Stock Falling Despite the Gemini 4 Argon Launch? Analysts Stay Bullish - Stocks Down Under"
       ],
       "recent_headlines": [
-        "Alphabet Inc. (GOOGL) Stock Forecasts - finance.yahoo.com",
-        "Google Unveils New AI Model Gemini 4 Argon, Sending Alphabet Stock Higher - Barron's",
-        "Alphabet Stock Jumps: What's Happening Today? - benzinga.com",
-        "Alphabet shares up in premarket trade after Gemini 4 Argon launch - Investing.com",
-        "Is This The Right Time To Buy Google Stock? - Forbes"
+        "How Much Must Google Cloud Be Worth to Justify Alphabet\u2019s Valuation? - Yahoo Finance",
+        "Is This The Right Time To Buy Google Stock? - Forbes",
+        "Alphabet Stock Jumps: What's Happening Today? - Benzinga",
+        "Why Is Alphabet (NASDAQ:GOOGL) Stock Falling Despite the Gemini 4 Argon Launch? Analysts Stay Bullish - Stocks Down Under",
+        "Google Unveils New AI Model Gemini 4 Argon, Sending Alphabet Stock Higher - barrons.com"
       ]
     },
     "qual": {
@@ -897,14 +713,14 @@
       "qualitative_score": 80.0
     },
     "sig": {
-      "composite_score": 74.7,
+      "composite_score": 74.8,
       "signal": "BUY",
-      "confidence_pct": 69.9,
+      "confidence_pct": 70.1,
       "pillar_scores": {
         "fundamentals": 100.0,
         "valuation": 60.0,
         "technicals": 47.6,
-        "sentiment": 50.3,
+        "sentiment": 51.1,
         "analyst": 100.0,
         "macro_moat": 80.0
       },
@@ -939,7 +755,7 @@
       "fifty_two_week_low": 164.27,
       "volume": 97538145,
       "avg_volume": 122420392,
-      "pe_ratio": 28.893618,
+      "pe_ratio": 29.14899,
       "forward_pe": 14.709068,
       "peg_ratio": 0.48,
       "price_to_sales": 18.399761,
@@ -947,7 +763,7 @@
       "ev_to_ebitda": 27.526,
       "market_cap": 5574576046080,
       "enterprise_value": 5540117217280,
-      "eps_trailing": 7.99,
+      "eps_trailing": 7.92,
       "eps_forward": 15.69508,
       "earnings_growth": 1.278,
       "revenue_growth": 1.059,
@@ -963,7 +779,7 @@
       "current_ratio": 4.589,
       "quick_ratio": 2.918,
       "free_cash_flow": 41809874944,
-      "dividend_yield_pct": 44.0,
+      "dividend_yield_pct": 43.0,
       "payout_ratio": 0.0354,
       "target_low": 180.0,
       "target_mean": 327.7,
@@ -994,9 +810,9 @@
       "rsi_14": 66.07008673057341,
       "rsi_status": "BULLISH",
       "macd_data": {
-        "macd": 3.1233540210252215,
-        "signal": 2.5126829179826724,
-        "histogram": 0.6106711030425491,
+        "macd": 3.1233540217623386,
+        "signal": 2.5126829190648703,
+        "histogram": 0.6106711026974683,
         "crossover": "BULLISH"
       },
       "cross_status": "GOLDEN_CROSS",
@@ -1006,8 +822,8 @@
       "returns": {
         "1m": 2.9893133628708046,
         "3m": 18.18886122056449,
-        "6m": 30.44009497781648,
-        "1y": 22.51208497439048
+        "6m": 30.440106223701214,
+        "1y": 22.51209489479258
       },
       "technical_score": 84.1,
       "signals": [
@@ -1017,15 +833,15 @@
       ]
     },
     "sent": {
-      "combined_polarity": 0.02,
-      "sentiment_score": 50.8,
+      "combined_polarity": 0.036,
+      "sentiment_score": 51.4,
       "label": "NEUTRAL",
       "news_stats": {
-        "polarity": 0.028333333333333335,
-        "subjectivity": 0.055,
-        "positive_count": 1,
-        "negative_count": 0,
-        "neutral_count": 14,
+        "polarity": 0.051666666666666666,
+        "subjectivity": 0.11722222222222221,
+        "positive_count": 2,
+        "negative_count": 1,
+        "neutral_count": 12,
         "total": 15
       },
       "reddit_stats": {
@@ -1037,15 +853,18 @@
       },
       "headline_count": 15,
       "positive_highlights": [
-        "Nvidia Looks Criminally Cheap (NASDAQ:NVDA) - Seeking Alpha"
+        "NVIDIA Corporation $NVDA Stock Purchased by Foster & Motley Inc. - MarketBeat",
+        "NVIDIA Corporation $NVDA Stock Bought by First National Bank of Omaha - MarketBeat"
       ],
-      "negative_highlights": [],
+      "negative_highlights": [
+        "Nvidia Stock Price Forecast: Stock Expected to Challenge $300 as Largest-Ever Buyback Begins - TradingKey"
+      ],
       "recent_headlines": [
+        "NVIDIA Corporation $NVDA Stock Purchased by Foster & Motley Inc. - MarketBeat",
         "NVIDIA Announces a $150 Billion Share Repurchase Authorization Increase - NVIDIA Newsroom",
-        "NVIDIA Corporation $NVDA Stock Bought by Quent Capital LLC - MarketBeat",
-        "Wall Street sets Nvidia stock price for the next 12 months - Finbold",
-        "Why Nvidia (NVDA) Stock Is Trading Up Today - finance.yahoo.com",
-        "NVIDIA Soars 17% in Three Months: Should Investors Buy the Stock? - TradingView"
+        "Nvidia Stock Price Forecast: Stock Expected to Challenge $300 as Largest-Ever Buyback Begins - TradingKey",
+        "Why Nvidia (NVDA) Stock Is Trading Up Today - Yahoo Finance",
+        "Wall Street sets Nvidia stock price for the next 12 months - Finbold"
       ]
     },
     "qual": {
@@ -1053,7 +872,7 @@
         "valuation_tier": "Fair Value Range",
         "priced_in_points": [
           "P/E ratio reflects balanced market expectations for mid-range growth.",
-          "Forward P/E is 49.1% lower than trailing P/E, pricing in robust earnings recovery/growth.",
+          "Forward P/E is 49.5% lower than trailing P/E, pricing in robust earnings recovery/growth.",
           "PEG ratio of 0.48 suggests stock may be undervalued relative to expected growth."
         ]
       },
@@ -1078,14 +897,14 @@
       "qualitative_score": 80.0
     },
     "sig": {
-      "composite_score": 84.2,
+      "composite_score": 84.3,
       "signal": "STRONG BUY",
-      "confidence_pct": 76.2,
+      "confidence_pct": 76.4,
       "pillar_scores": {
         "fundamentals": 100.0,
         "valuation": 80.0,
         "technicals": 84.1,
-        "sentiment": 50.8,
+        "sentiment": 51.4,
         "analyst": 100.0,
         "macro_moat": 80.0
       },
@@ -1097,6 +916,189 @@
       ],
       "key_risks": [
         "Standard market risk and volatility."
+      ]
+    }
+  },
+  "DTE": {
+    "data": {
+      "symbol": "DTE",
+      "company_name": "DTE Energy Company",
+      "exchange_info": {
+        "country": "United States",
+        "exchange": "NYSE/NASDAQ",
+        "central_bank": "Federal Reserve (FED)",
+        "currency_symbol": "$"
+      },
+      "currency": "USD",
+      "sector": "Utilities",
+      "industry": "Utilities - Regulated Electric",
+      "summary": "DTE Energy Company engages in energy-related businesses and services. The company operates through four segments: Electric, Gas, DTE Vantage, and Energy Trading.The company's Electric segment generates, purchases, distributes, and sells electricity to approximately 2.3 million residential, commercial, and industrial customers in southeastern Michigan. It generates electricity through coal-fired plants, natural gas plant, hydroelectric pumped storage, and nuclear plants, as well as wind and solar assets. This segment owns and operates 702 distribution substations with a capacity of approximately 37,870,000 kilovolt-amperes (kVA) and approximately 4,56,900 line transformers with a capacity of approximately 33,770,000 kVA. The company's Gas segment purchases, stores, transports, distributes, and sells natural gas to approximately 1.4 million residential, commercial, and industrial customers throughout Michigan; and sells storage and transportation capacity. This segment has approximately 21,000 miles of distribution mains; 1,242,000 service pipelines; and 1,361,000 active meters, as well as owns approximately 2,000 miles of transmission pipelines. Its DTE Vantage segment offers metallurgical and petroleum coke to steel and other industries; and power generation, steam production, chilled water production, and wastewater treatment services, as well as compressed air supply to industrial customers. This segment also owns and operates 2 renewable generating plants with a capacity of 70 MWs; and 22 gas recovery sites. Its Energy Trading segment engages in power, natural gas, and environmental marketing and trading; structured transactions; and the optimization of contracted natural gas pipeline transportation and storage positions. The company was founded in 1849 and is based in Detroit, Michigan.",
+      "current_price": 123.27,
+      "previous_close": 121.8,
+      "fifty_two_week_high": 155.75,
+      "fifty_two_week_low": 119.68,
+      "volume": 2164116,
+      "avg_volume": 1491911,
+      "pe_ratio": 19.504745,
+      "forward_pe": 14.73707,
+      "peg_ratio": 1.56,
+      "price_to_sales": 1.5579116,
+      "price_to_book": 2.111366,
+      "ev_to_ebitda": 14.779,
+      "market_cap": 25651015680,
+      "enterprise_value": 53454016512,
+      "eps_trailing": 6.32,
+      "eps_forward": 8.36462,
+      "earnings_growth": 0.224,
+      "revenue_growth": -0.015,
+      "total_revenue": 16465000448,
+      "net_income": 1314000000,
+      "profit_margins": 0.07999,
+      "operating_margins": 0.13623999,
+      "return_on_equity": 0.1103,
+      "return_on_assets": 0.02769,
+      "total_debt": 27840000000,
+      "total_cash": 42000000,
+      "debt_to_equity": 229.06,
+      "current_ratio": 0.802,
+      "quick_ratio": 0.395,
+      "free_cash_flow": -2596624896,
+      "dividend_yield_pct": 3.78,
+      "payout_ratio": 0.72550005,
+      "target_low": 132.0,
+      "target_mean": 152.5357,
+      "target_high": 168.0,
+      "target_median": 156.5,
+      "recommendation_key": "buy",
+      "recommendation_mean": 1.88235,
+      "number_of_analysts": 14,
+      "implied_upside_pct": 23.741137340796623,
+      "rec_breakdown": {
+        "strongBuy": 1,
+        "buy": 9,
+        "hold": 7,
+        "sell": 0,
+        "strongSell": 0
+      },
+      "next_earnings_date": "2026-10-29",
+      "earnings_high_est": 2.5666,
+      "earnings_low_est": 2.26,
+      "earnings_avg_est": 2.40395,
+      "_ticker_obj": "yfinance.Ticker object <DTE>"
+    },
+    "tech": {
+      "latest_price": 123.27,
+      "sma_20": 127.83219833374024,
+      "sma_50": 134.32506713867187,
+      "sma_200": 138.7100894165039,
+      "rsi_14": 23.472712632098663,
+      "rsi_status": "OVERSOLD",
+      "macd_data": {
+        "macd": -3.8931847584275516,
+        "signal": -3.677802053286503,
+        "histogram": -0.21538270514104862,
+        "crossover": "BEARISH"
+      },
+      "cross_status": "DEATH_CROSS",
+      "fifty_two_week_pos_pct": 10.358307113333202,
+      "high_52": 154.3381703666057,
+      "low_52": 119.68000030517578,
+      "returns": {
+        "1m": -8.564768571703441,
+        "3m": -17.813403602645117,
+        "6m": -15.301551462031227,
+        "1y": -8.446006970395937
+      },
+      "technical_score": 24.7,
+      "signals": [
+        "Price is 8.2% below 50-day SMA (Bearish)",
+        "50-day SMA is below 200-day SMA (Death Cross)",
+        "RSI is oversold at 23.5 (Potential Rebound)",
+        "MACD histogram indicates negative bearish momentum"
+      ]
+    },
+    "sent": {
+      "combined_polarity": 0.045,
+      "sentiment_score": 51.8,
+      "label": "NEUTRAL",
+      "news_stats": {
+        "polarity": 0.06402777777777778,
+        "subjectivity": 0.15736111111111112,
+        "positive_count": 3,
+        "negative_count": 0,
+        "neutral_count": 12,
+        "total": 15
+      },
+      "reddit_stats": {
+        "polarity": 0.0,
+        "subjectivity": 0.0,
+        "positive_count": 0,
+        "negative_count": 0,
+        "neutral_count": 0
+      },
+      "headline_count": 15,
+      "positive_highlights": [
+        "DTE Energy Co. stock outperforms competitors on strong trading day - MarketWatch",
+        "America Needs More Electricity. Here\u2019s What It Could Mean for DTE Energy - 24/7 Wall St."
+      ],
+      "negative_highlights": [],
+      "recent_headlines": [
+        "DTE Energy Co. stock outperforms competitors on strong trading day - MarketWatch",
+        "DTE Energy (DTE) Stock Forecast and Price Target 2026 $DTE - MarketBeat",
+        "DTE Energy Company (DTE) Stock Forecasts - Yahoo Finance",
+        "DTE Energy stock hits 52-week low at 17.85 USD - Investing.com",
+        "Ford says Michigan vehicle assembly will use the equivalent of 100% carbon-free electricity by end-2027 - Stock Titan"
+      ]
+    },
+    "qual": {
+      "priced_in": {
+        "valuation_tier": "Fair Value Range",
+        "priced_in_points": [
+          "P/E ratio reflects balanced market expectations for mid-range growth.",
+          "Forward P/E is 24.4% lower than trailing P/E, pricing in robust earnings recovery/growth."
+        ]
+      },
+      "macro_policy": {
+        "macro_factors": [
+          "Operating in United States under Federal Reserve (FED) interest rate policy environment.",
+          "Performance closely aligned with overall United States economic trajectory."
+        ],
+        "policy_risks": [
+          "Standard corporate governance and trade policy conditions apply."
+        ]
+      },
+      "moat": {
+        "moat_tier": "Narrow Moat",
+        "moat_score": 50.0,
+        "reasons": [
+          "Standard market positioning within industry."
+        ]
+      },
+      "qualitative_score": 50.0
+    },
+    "sig": {
+      "composite_score": 48.5,
+      "signal": "HOLD",
+      "confidence_pct": 61.1,
+      "pillar_scores": {
+        "fundamentals": 10.0,
+        "valuation": 75.0,
+        "technicals": 24.7,
+        "sentiment": 51.8,
+        "analyst": 97.0,
+        "macro_moat": 50.0
+      },
+      "key_positives": [
+        "Attractive Forward P/E (14.7x)",
+        "Low P/S ratio (1.56x)",
+        "Significant price target upside (+23.7%)",
+        "Bullish analyst consensus (Buy)"
+      ],
+      "key_risks": [
+        "Declining YoY revenue (-1.5%)",
+        "Elevated debt-to-equity ratio (229.1)",
+        "Current ratio below 1.0 (0.80)",
+        "Negative free cash flow generation"
       ]
     }
   }
