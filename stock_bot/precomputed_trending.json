@@ -18,15 +18,15 @@
       "fifty_two_week_high": 1255.0,
       "fifty_two_week_low": 179.61,
       "volume": 26523742,
-      "avg_volume": 33908822,
+      "avg_volume": 33911561,
       "pe_ratio": 14.468839,
       "forward_pe": 5.2488065,
       "peg_ratio": 0.16,
       "price_to_sales": 9.114736,
       "price_to_book": 12.048311,
-      "ev_to_ebitda": 11.042,
+      "ev_to_ebitda": 10.808,
       "market_cap": 1213973397504,
-      "enterprise_value": 1201795760128,
+      "enterprise_value": 1176370675712,
       "eps_trailing": 74.29,
       "eps_forward": 204.7875,
       "earnings_growth": 10.605,
@@ -98,15 +98,15 @@
       ]
     },
     "sent": {
-      "combined_polarity": 0.049,
-      "sentiment_score": 52.0,
+      "combined_polarity": 0.021,
+      "sentiment_score": 50.9,
       "label": "NEUTRAL",
       "news_stats": {
-        "polarity": 0.07018518518518517,
-        "subjectivity": 0.28407407407407415,
-        "positive_count": 4,
+        "polarity": 0.03055555555555555,
+        "subjectivity": 0.22333333333333333,
+        "positive_count": 2,
         "negative_count": 2,
-        "neutral_count": 9,
+        "neutral_count": 11,
         "total": 15
       },
       "reddit_stats": {
@@ -119,8 +119,7 @@
       "headline_count": 15,
       "positive_highlights": [
         "Micron rises as Q4 results, guidance top estimates (MU:NASDAQ) - Seeking Alpha",
-        "Micron (NASDAQ:MU) Delivers Strong Q3 Numbers But Inventory Levels Increase - Yahoo Finance",
-        "Micron tops Q4 estimates on top and bottom lines, offers strong Q1 outlook - Yahoo Finance"
+        "Micron (NASDAQ:MU) Delivers Strong Q3 Numbers But Inventory Levels Increase - finance.yahoo.com"
       ],
       "negative_highlights": [
         "Micron just sent a stark memory chip warning to tech stock investors - thestreet.com",
@@ -128,8 +127,8 @@
       ],
       "recent_headlines": [
         "Micron: It May Get Worse, Not Better - Seeking Alpha",
-        "MU Stock Drops After Hours: Micron\u2019s Heightened Capex Forecast Overpowers Q4 Beat, Expectation-Beating Q1 Guidance - Yahoo Finance",
-        "Micron Earnings: Should You Buy MU Stock Before Results? - Micron Technology (NASDAQ:MU) - Benzinga",
+        "MU Stock Drops After Hours: Micron\u2019s Heightened Capex Forecast Overpowers Q4 Beat, Expectation-Beating Q1 Guidance - finance.yahoo.com",
+        "Micron Stock Split Chatter Grows Ahead of Q4 Earnings - Micron Technology (NASDAQ:MU) - Benzinga",
         "Micron rises as Q4 results, guidance top estimates (MU:NASDAQ) - Seeking Alpha",
         "Micron just sent a stark memory chip warning to tech stock investors - thestreet.com"
       ]
@@ -164,14 +163,14 @@
       "qualitative_score": 80.0
     },
     "sig": {
-      "composite_score": 87.1,
+      "composite_score": 86.9,
       "signal": "STRONG BUY",
-      "confidence_pct": 76.0,
+      "confidence_pct": 75.5,
       "pillar_scores": {
         "fundamentals": 100.0,
         "valuation": 95.0,
         "technicals": 82.0,
-        "sentiment": 52.0,
+        "sentiment": 50.9,
         "analyst": 100.0,
         "macro_moat": 80.0
       },
@@ -183,193 +182,6 @@
       ],
       "key_risks": [
         "RSI is overbought at 74.9 (Pullback Risk)"
-      ]
-    }
-  },
-  "NKE": {
-    "data": {
-      "symbol": "NKE",
-      "company_name": "NIKE, Inc.",
-      "exchange_info": {
-        "country": "United States",
-        "exchange": "NYSE/NASDAQ",
-        "central_bank": "Federal Reserve (FED)",
-        "currency_symbol": "$"
-      },
-      "currency": "USD",
-      "sector": "Consumer Cyclical",
-      "industry": "Footwear & Accessories",
-      "summary": "NIKE, Inc., together with its subsidiaries, designs, develops, markets, and sells athletic footwear, apparel, equipment, accessories, and services for men, women, and kids in North America, Europe, the Middle East, Africa, Greater China, the Asia Pacific, and Latin America. The company offers its products under the NIKE, Jordan, Converse, Jumpman, Chuck Taylor, All Star, One Star, Star Chevron, and Jack Purcell trademarks. It also provides a line of performance equipment and accessories, including bags, socks, sport balls, eyewear, timepieces, digital devices, bats, gloves, protective equipment, and other equipment for sports activities; and sports apparel, as well as sells products to wholesale customers and directly to consumers through NIKE Direct operations; distributes and licenses casual sneakers, apparel, and accessories; and markets apparel with licensed college and professional team and league logos. In addition, the company offers consumer services and experiences, including sport focused events and activations; fitness and activity apps; sport, fitness, and wellness content; and digital services and features in retail stores. It sells its products to footwear stores; sporting goods stores; athletic specialty stores; department stores; skate, tennis, and golf shops; and other wholesale accounts through NIKE-owned retail stores, independent distributors, licensees, sales representatives, and digital platforms. The company was formerly known as Blue Ribbon Sports, Inc. and changed its name to NIKE, Inc. in May 1971. NIKE, Inc. was founded in 1964 and is headquartered in Beaverton, Oregon.",
-      "current_price": 33.87,
-      "previous_close": 35.15,
-      "fifty_two_week_high": 74.78,
-      "fifty_two_week_low": 31.97,
-      "volume": 141948809,
-      "avg_volume": 27550706,
-      "pe_ratio": 16.128572,
-      "forward_pe": 19.197197,
-      "peg_ratio": 1.41,
-      "price_to_sales": 1.0829368,
-      "price_to_book": 3.3788905,
-      "ev_to_ebitda": 10.988,
-      "market_cap": 50246103040,
-      "enterprise_value": 54160977920,
-      "eps_trailing": 2.1,
-      "eps_forward": 1.76432,
-      "earnings_growth": 4.28,
-      "revenue_growth": -0.011,
-      "total_revenue": 46398001152,
-      "net_income": 3108000000,
-      "profit_margins": 0.066989996,
-      "operating_margins": 0.12687,
-      "return_on_equity": 0.22138001,
-      "return_on_assets": 0.06971,
-      "total_debt": 11043000320,
-      "total_cash": 9027000320,
-      "debt_to_equity": 74.289,
-      "current_ratio": 1.961,
-      "quick_ratio": 1.192,
-      "free_cash_flow": 1889250048,
-      "dividend_yield_pct": 4.63,
-      "payout_ratio": 0.77620006,
-      "target_low": 19.0,
-      "target_mean": 40.79444,
-      "target_high": 94.0,
-      "target_median": 39.5,
-      "recommendation_key": "hold",
-      "recommendation_mean": 2.7619,
-      "number_of_analysts": 36,
-      "implied_upside_pct": 20.444168881015663,
-      "rec_breakdown": {
-        "strongBuy": 1,
-        "buy": 8,
-        "hold": 27,
-        "sell": 3,
-        "strongSell": 3
-      },
-      "next_earnings_date": "2026-12-17",
-      "earnings_high_est": 0.54,
-      "earnings_low_est": 0.29,
-      "earnings_avg_est": 0.41526,
-      "_ticker_obj": "yfinance.Ticker object <NKE>"
-    },
-    "tech": {
-      "latest_price": 33.87,
-      "sma_20": 36.241499710083005,
-      "sma_50": 38.71511520385742,
-      "sma_200": 47.874508476257326,
-      "rsi_14": 26.617655308597662,
-      "rsi_status": "OVERSOLD",
-      "macd_data": {
-        "macd": -1.0669454645201029,
-        "signal": -1.02832313567332,
-        "histogram": -0.03862232884678285,
-        "crossover": "BEARISH_CROSS"
-      },
-      "cross_status": "DEATH_CROSS",
-      "fifty_two_week_pos_pct": 4.700288883468462,
-      "high_52": 72.39306125169745,
-      "low_52": 31.969999313354492,
-      "returns": {
-        "1m": -12.638639153749232,
-        "3m": -20.783861737291442,
-        "6m": -21.56352769441321,
-        "1y": -51.35999102450381
-      },
-      "technical_score": 22.0,
-      "signals": [
-        "Price is 12.5% below 50-day SMA (Bearish)",
-        "50-day SMA is below 200-day SMA (Death Cross)",
-        "RSI is oversold at 26.6 (Potential Rebound)",
-        "MACD histogram indicates negative bearish momentum"
-      ]
-    },
-    "sent": {
-      "combined_polarity": -0.034,
-      "sentiment_score": 48.6,
-      "label": "NEUTRAL",
-      "news_stats": {
-        "polarity": -0.04927513227513226,
-        "subjectivity": 0.27366666666666667,
-        "positive_count": 3,
-        "negative_count": 5,
-        "neutral_count": 7,
-        "total": 15
-      },
-      "reddit_stats": {
-        "polarity": 0.0,
-        "subjectivity": 0.0,
-        "positive_count": 0,
-        "negative_count": 0,
-        "neutral_count": 0
-      },
-      "headline_count": 15,
-      "positive_highlights": [
-        "NKE Stock: Morgan Stanley Flags \u2018Elevated\u2019 Valuation, More Earnings Risk - Stocktwits",
-        "Here\u2019s How Much Traders Expect Nike Stock to Move After Earnings - Investopedia",
-        "NKE Stock Slumps About 9% After-Hours On A Soft Full-Year Forecast: CEO Says The Fix Will Take Time - Yahoo Finance"
-      ],
-      "negative_highlights": [
-        "Nike: Management Is Taking Right Actions, But Bleeding Is Worse Than I Expected (Downgrade) - Seeking Alpha",
-        "Nike stock sinks as revenue misses estimates, expects to cut jobs - Yahoo Finance",
-        "NKE Stock Cracks Premarket: Analysts Slash Targets On Weak Outlook \u2013 Citi Calls Nike A \u2018Cost-Cutting\u2019 Story - Stocktwits"
-      ],
-      "recent_headlines": [
-        "Nike stock sinks as revenue misses estimates, expects to cut jobs - Yahoo Finance",
-        "Nike Stock Suffers Another Setback on Disappointing Revenue - Schaeffer's Investment Research",
-        "NKE Stock Cracks Premarket: Analysts Slash Targets On Weak Outlook \u2013 Citi Calls Nike A \u2018Cost-Cutting\u2019 Story - Stocktwits",
-        "Nike seeks supply chain overhaul to improve profitability -- report (NKE:NYSE) - Seeking Alpha",
-        "Nike expects revenue to fall by high single digits in fiscal 2027. Its plan is expected to save about $2.5 billion. - stocktitan.net"
-      ]
-    },
-    "qual": {
-      "priced_in": {
-        "valuation_tier": "Fair Value Range",
-        "priced_in_points": [
-          "P/E ratio reflects balanced market expectations for mid-range growth.",
-          "Forward P/E is higher than trailing P/E, pricing in potential earnings contraction."
-        ]
-      },
-      "macro_policy": {
-        "macro_factors": [
-          "Operating in United States under Federal Reserve (FED) interest rate policy environment.",
-          "Consumer sentiment and discretionary spending impact demand during inflation/rate shifts."
-        ],
-        "policy_risks": [
-          "Antitrust oversight, data privacy laws, and international tariff trade policies affect cross-border supply chains."
-        ]
-      },
-      "moat": {
-        "moat_tier": "Narrow Moat",
-        "moat_score": 70.0,
-        "reasons": [
-          "Strong Return on Equity (ROE: 22.1%), indicating high capital efficiency and competitive advantage."
-        ]
-      },
-      "qualitative_score": 62.0
-    },
-    "sig": {
-      "composite_score": 58.0,
-      "signal": "HOLD",
-      "confidence_pct": 75.0,
-      "pillar_scores": {
-        "fundamentals": 68.0,
-        "valuation": 65.0,
-        "technicals": 22.0,
-        "sentiment": 48.6,
-        "analyst": 75.0,
-        "macro_moat": 62.0
-      },
-      "key_positives": [
-        "Exceptional Return on Equity (22.1%)",
-        "Positive free cash flow generation",
-        "Low P/S ratio (1.08x)",
-        "Significant price target upside (+20.4%)"
-      ],
-      "key_risks": [
-        "Declining YoY revenue (-1.1%)",
-        "Price is 12.5% below 50-day SMA (Bearish)",
-        "50-day SMA is below 200-day SMA (Death Cross)"
       ]
     }
   },
@@ -397,10 +209,10 @@
       "forward_pe": 13.0801935,
       "peg_ratio": 0.88,
       "price_to_sales": 11.589833,
-      "price_to_book": null,
-      "ev_to_ebitda": 33.263,
+      "price_to_book": 19.856083,
+      "ev_to_ebitda": 29.856,
       "market_cap": 149729050624,
-      "enterprise_value": 166383812608,
+      "enterprise_value": 149341044736,
       "eps_trailing": 26.92,
       "eps_forward": 31.74953,
       "earnings_growth": 9.841,
@@ -444,24 +256,24 @@
       "latest_price": 415.29,
       "sma_20": 449.43499755859375,
       "sma_50": 466.06309631347654,
-      "sma_200": 399.8304111480713,
+      "sma_200": 399.8304119873047,
       "rsi_14": 46.507167157176795,
       "rsi_status": "NEUTRAL",
       "macd_data": {
-        "macd": -6.1409756799307615,
-        "signal": -6.74383488183178,
-        "histogram": 0.6028592019010182,
+        "macd": -6.14097568646423,
+        "signal": -6.7438348914301525,
+        "histogram": 0.602859204965922,
         "crossover": "BULLISH"
       },
       "cross_status": "GOLDEN_CROSS",
-      "fifty_two_week_pos_pct": 44.08239441616059,
+      "fifty_two_week_pos_pct": 44.08239379879495,
       "high_52": 799.6132774415504,
-      "low_52": 112.31046211388092,
+      "low_52": 112.31046970213751,
       "returns": {
         "1m": -5.92130440382439,
         "3m": -21.92757972114695,
         "6m": 36.62062174617735,
-        "1y": 216.85686118459873
+        "1y": 216.85689807342845
       },
       "technical_score": 50.0,
       "signals": [
@@ -471,15 +283,15 @@
       ]
     },
     "sent": {
-      "combined_polarity": -0.002,
-      "sentiment_score": 49.9,
+      "combined_polarity": 0.001,
+      "sentiment_score": 50.1,
       "label": "NEUTRAL",
       "news_stats": {
-        "polarity": -0.002456790123456789,
+        "polarity": 0.001987654320987654,
         "subjectivity": 0.1359753086419753,
         "positive_count": 2,
-        "negative_count": 3,
-        "neutral_count": 10,
+        "negative_count": 2,
+        "neutral_count": 11,
         "total": 15
       },
       "reddit_stats": {
@@ -496,15 +308,14 @@
       ],
       "negative_highlights": [
         "Western Digital (NASDAQ:WDC) Shares Gap Down - Should You Sell? - MarketBeat",
-        "Seagate, Western Digital plunge amid report that Toshiba aims to boost hard disk drive supply (STX:NASDAQ) - Seeking Alpha",
-        "WDC Stock Sinks 11% After-Hours Despite Earnings Beat \u2014 Retail Questions Selloff, Blames \u2018Technicals And Algos\u2019 - Stocktwits"
+        "Seagate, Western Digital plunge amid report that Toshiba aims to boost hard disk drive supply (STX:NASDAQ) - Seeking Alpha"
       ],
       "recent_headlines": [
-        "Why Western Digital Stock Just Crashed - Yahoo Finance",
-        "Why Western Digital and Seagate are seeing big stock drops today - MarketWatch",
+        "Why Western Digital Stock Just Crashed - finance.yahoo.com",
         "Western Digital retreats 10% amid storage selloff (WDC:NASDAQ) - Seeking Alpha",
-        "WDC Stock Holds High Ground As Volatility Picks Up - timothysykes.com",
-        "Western Digital (NASDAQ:WDC) Shares Down 10.2% - What's Next? - MarketBeat"
+        "Western Digital (WDC) Stock Sinks As Market Gains: Here's Why - finance.yahoo.com",
+        "Why Western Digital and Seagate are seeing big stock drops today - MarketWatch",
+        "WDC Stock Holds High Ground As Volatility Picks Up - timothysykes.com"
       ]
     },
     "qual": {
@@ -537,14 +348,14 @@
       "qualitative_score": 80.0
     },
     "sig": {
-      "composite_score": 77.7,
+      "composite_score": 77.8,
       "signal": "BUY",
-      "confidence_pct": 73.5,
+      "confidence_pct": 73.6,
       "pillar_scores": {
         "fundamentals": 100.0,
         "valuation": 85.0,
         "technicals": 50.0,
-        "sentiment": 49.9,
+        "sentiment": 50.1,
         "analyst": 85.0,
         "macro_moat": 80.0
       },
@@ -556,6 +367,193 @@
       ],
       "key_risks": [
         "Price is 10.9% below 50-day SMA (Bearish)"
+      ]
+    }
+  },
+  "NKE": {
+    "data": {
+      "symbol": "NKE",
+      "company_name": "NIKE, Inc.",
+      "exchange_info": {
+        "country": "United States",
+        "exchange": "NYSE/NASDAQ",
+        "central_bank": "Federal Reserve (FED)",
+        "currency_symbol": "$"
+      },
+      "currency": "USD",
+      "sector": "Consumer Cyclical",
+      "industry": "Footwear & Accessories",
+      "summary": "NIKE, Inc., together with its subsidiaries, designs, develops, markets, and sells athletic footwear, apparel, equipment, accessories, and services for men, women, and kids in North America, Europe, the Middle East, Africa, Greater China, the Asia Pacific, and Latin America. The company offers its products under the NIKE, Jordan, Converse, Jumpman, Chuck Taylor, All Star, One Star, Star Chevron, and Jack Purcell trademarks. It also provides a line of performance equipment and accessories, including bags, socks, sport balls, eyewear, timepieces, digital devices, bats, gloves, protective equipment, and other equipment for sports activities; and sports apparel, as well as sells products to wholesale customers and directly to consumers through NIKE Direct operations; distributes and licenses casual sneakers, apparel, and accessories; and markets apparel with licensed college and professional team and league logos. In addition, the company offers consumer services and experiences, including sport focused events and activations; fitness and activity apps; sport, fitness, and wellness content; and digital services and features in retail stores. It sells its products to footwear stores; sporting goods stores; athletic specialty stores; department stores; skate, tennis, and golf shops; and other wholesale accounts through NIKE-owned retail stores, independent distributors, licensees, sales representatives, and digital platforms. The company was formerly known as Blue Ribbon Sports, Inc. and changed its name to NIKE, Inc. in May 1971. NIKE, Inc. was founded in 1964 and is headquartered in Beaverton, Oregon.",
+      "current_price": 33.87,
+      "previous_close": 35.15,
+      "fifty_two_week_high": 74.78,
+      "fifty_two_week_low": 31.97,
+      "volume": 141948809,
+      "avg_volume": 27666104,
+      "pe_ratio": 16.128572,
+      "forward_pe": 15.702363,
+      "peg_ratio": 1.41,
+      "price_to_sales": 1.0810302,
+      "price_to_book": 3.3788905,
+      "ev_to_ebitda": 10.988,
+      "market_cap": 50246103040,
+      "enterprise_value": 54160977920,
+      "eps_trailing": 2.1,
+      "eps_forward": 2.157,
+      "earnings_growth": 4.28,
+      "revenue_growth": -0.011,
+      "total_revenue": 46398001152,
+      "net_income": 3108000000,
+      "profit_margins": 0.066989996,
+      "operating_margins": 0.12687,
+      "return_on_equity": 0.22138001,
+      "return_on_assets": 0.06971,
+      "total_debt": 11043000320,
+      "total_cash": 9027000320,
+      "debt_to_equity": 74.289,
+      "current_ratio": 1.961,
+      "quick_ratio": 1.192,
+      "free_cash_flow": 1889250048,
+      "dividend_yield_pct": 4.63,
+      "payout_ratio": 0.77620006,
+      "target_low": 19.0,
+      "target_mean": 40.79444,
+      "target_high": 94.0,
+      "target_median": 39.5,
+      "recommendation_key": "hold",
+      "recommendation_mean": 2.7619,
+      "number_of_analysts": 36,
+      "implied_upside_pct": 20.444168881015663,
+      "rec_breakdown": {
+        "strongBuy": 1,
+        "buy": 8,
+        "hold": 27,
+        "sell": 3,
+        "strongSell": 3
+      },
+      "next_earnings_date": "2026-12-17",
+      "earnings_high_est": 0.54,
+      "earnings_low_est": 0.29,
+      "earnings_avg_est": 0.41526,
+      "_ticker_obj": "yfinance.Ticker object <NKE>"
+    },
+    "tech": {
+      "latest_price": 33.87,
+      "sma_20": 36.241499710083005,
+      "sma_50": 38.71511520385742,
+      "sma_200": 47.87450828552246,
+      "rsi_14": 26.617655308597662,
+      "rsi_status": "OVERSOLD",
+      "macd_data": {
+        "macd": -1.0669454645137648,
+        "signal": -1.0283231356640021,
+        "histogram": -0.03862232884976269,
+        "crossover": "BEARISH_CROSS"
+      },
+      "cross_status": "DEATH_CROSS",
+      "fifty_two_week_pos_pct": 4.700288883468462,
+      "high_52": 72.39306125169745,
+      "low_52": 31.969999313354492,
+      "returns": {
+        "1m": -12.638639153749232,
+        "3m": -20.783861737291442,
+        "6m": -21.56352769441321,
+        "1y": -51.35999102450381
+      },
+      "technical_score": 22.0,
+      "signals": [
+        "Price is 12.5% below 50-day SMA (Bearish)",
+        "50-day SMA is below 200-day SMA (Death Cross)",
+        "RSI is oversold at 26.6 (Potential Rebound)",
+        "MACD histogram indicates negative bearish momentum"
+      ]
+    },
+    "sent": {
+      "combined_polarity": 0.004,
+      "sentiment_score": 50.2,
+      "label": "NEUTRAL",
+      "news_stats": {
+        "polarity": 0.005724867724867725,
+        "subjectivity": 0.32866666666666666,
+        "positive_count": 4,
+        "negative_count": 4,
+        "neutral_count": 7,
+        "total": 15
+      },
+      "reddit_stats": {
+        "polarity": 0.0,
+        "subjectivity": 0.0,
+        "positive_count": 0,
+        "negative_count": 0,
+        "neutral_count": 0
+      },
+      "headline_count": 15,
+      "positive_highlights": [
+        "NKE Stock: Morgan Stanley Flags \u2018Elevated\u2019 Valuation, More Earnings Risk - Stocktwits",
+        "NKE Stock Layoffs: What to Know About the Latest Nike Job Cuts - finance.yahoo.com",
+        "Here\u2019s How Much Traders Expect Nike Stock to Move After Earnings - Investopedia"
+      ],
+      "negative_highlights": [
+        "Nike: Management Is Taking Right Actions, But Bleeding Is Worse Than I Expected (Downgrade) - Seeking Alpha",
+        "NKE Stock Cracks Premarket: Analysts Slash Targets On Weak Outlook \u2013 Citi Calls Nike A \u2018Cost-Cutting\u2019 Story - TradingView",
+        "NKE Stock Cracks Premarket: Analysts Slash Targets On Weak Outlook \u2013 Citi Calls Nike A \u2018Cost-Cutting\u2019 Story - Stocktwits"
+      ],
+      "recent_headlines": [
+        "NKE Stock Layoffs: What to Know About the Latest Nike Job Cuts - finance.yahoo.com",
+        "NKE Stock Cracks Premarket: Analysts Slash Targets On Weak Outlook \u2013 Citi Calls Nike A \u2018Cost-Cutting\u2019 Story - Stocktwits",
+        "Nike seeks supply chain overhaul to improve profitability -- report (NKE:NYSE) - Seeking Alpha",
+        "Nike expects revenue to fall by high single digits in fiscal 2027. Its plan is expected to save about $2.5 billion. - Stock Titan",
+        "Is Nike Inc (NKE) a Bargain After 3.6% Drop? GF Value Says Under - GuruFocus"
+      ]
+    },
+    "qual": {
+      "priced_in": {
+        "valuation_tier": "Fair Value Range",
+        "priced_in_points": [
+          "P/E ratio reflects balanced market expectations for mid-range growth.",
+          "Forward P/E is 2.6% lower than trailing P/E, pricing in robust earnings recovery/growth."
+        ]
+      },
+      "macro_policy": {
+        "macro_factors": [
+          "Operating in United States under Federal Reserve (FED) interest rate policy environment.",
+          "Consumer sentiment and discretionary spending impact demand during inflation/rate shifts."
+        ],
+        "policy_risks": [
+          "Antitrust oversight, data privacy laws, and international tariff trade policies affect cross-border supply chains."
+        ]
+      },
+      "moat": {
+        "moat_tier": "Narrow Moat",
+        "moat_score": 70.0,
+        "reasons": [
+          "Strong Return on Equity (ROE: 22.1%), indicating high capital efficiency and competitive advantage."
+        ]
+      },
+      "qualitative_score": 62.0
+    },
+    "sig": {
+      "composite_score": 58.3,
+      "signal": "HOLD",
+      "confidence_pct": 75.2,
+      "pillar_scores": {
+        "fundamentals": 68.0,
+        "valuation": 65.0,
+        "technicals": 22.0,
+        "sentiment": 50.2,
+        "analyst": 75.0,
+        "macro_moat": 62.0
+      },
+      "key_positives": [
+        "Exceptional Return on Equity (22.1%)",
+        "Positive free cash flow generation",
+        "Low P/S ratio (1.08x)",
+        "Significant price target upside (+20.4%)"
+      ],
+      "key_risks": [
+        "Declining YoY revenue (-1.1%)",
+        "Price is 12.5% below 50-day SMA (Bearish)",
+        "50-day SMA is below 200-day SMA (Death Cross)"
       ]
     }
   },
@@ -578,15 +576,15 @@
       "fifty_two_week_high": 237.87,
       "fifty_two_week_low": 164.27,
       "volume": 134470648,
-      "avg_volume": 122420392,
+      "avg_volume": 122423909,
       "pe_ratio": 29.53914,
       "forward_pe": 14.905945,
       "peg_ratio": 0.28,
       "price_to_sales": 18.646038,
       "price_to_book": 24.670464,
-      "ev_to_ebitda": 27.526,
+      "ev_to_ebitda": 27.896,
       "market_cap": 5649190617088,
-      "enterprise_value": 5540117217280,
+      "enterprise_value": 5614586036224,
       "eps_trailing": 7.92,
       "eps_forward": 15.69508,
       "earnings_growth": 1.278,
@@ -630,18 +628,18 @@
       "latest_price": 233.95,
       "sma_20": 223.7480110168457,
       "sma_50": 218.11908416748048,
-      "sma_200": 200.37908630371095,
+      "sma_200": 200.3790860748291,
       "rsi_14": 82.96531914837755,
       "rsi_status": "OVERBOUGHT",
       "macd_data": {
-        "macd": 3.5405843851278007,
-        "signal": 2.71826321797945,
-        "histogram": 0.8223211671483508,
+        "macd": 3.540584385106598,
+        "signal": 2.7182632179482438,
+        "histogram": 0.8223211671583543,
         "crossover": "BULLISH"
       },
       "cross_status": "GOLDEN_CROSS",
-      "fifty_two_week_pos_pct": 94.70089162316249,
-      "high_52": 237.8699951171875,
+      "fifty_two_week_pos_pct": 94.688079046101,
+      "high_52": 237.8800048828125,
       "low_52": 163.89537828689438,
       "returns": {
         "1m": 2.5221202456842784,
@@ -658,12 +656,12 @@
       ]
     },
     "sent": {
-      "combined_polarity": 0.106,
-      "sentiment_score": 54.2,
+      "combined_polarity": 0.102,
+      "sentiment_score": 54.1,
       "label": "BULLISH",
       "news_stats": {
-        "polarity": 0.15166666666666667,
-        "subjectivity": 0.3638888888888889,
+        "polarity": 0.14533333333333331,
+        "subjectivity": 0.34355555555555556,
         "positive_count": 5,
         "negative_count": 0,
         "neutral_count": 10,
@@ -684,11 +682,11 @@
       ],
       "negative_highlights": [],
       "recent_headlines": [
+        "NVDA Stock Hits Record High After Morgan Stanley Names Nvidia Top Pick, Says AI Trends Play To Its \u2018Strengths\u2019 - finance.yahoo.com",
         "Nvidia Stock Has Become Deeply Undervalued, But Watch Out For Accounts Receivable (NVDA) - Seeking Alpha",
-        "NVIDIA (NASDAQ:NVDA) Stock Price Up 1.3% - Time to Buy? - MarketBeat",
         "NVIDIA Announces a $150 Billion Share Repurchase Authorization Increase - NVIDIA Newsroom",
-        "NVDA Stock Rallies As Massive AI Deals And Record Buyback Fuel Bull Case - timothysykes.com",
-        "NVDA Stock Climbs As Record Buybacks Meet Massive AI Demand - StocksToTrade"
+        "NVIDIA (NASDAQ:NVDA) Stock Price Up 1.3% - Time to Buy? - MarketBeat",
+        "NVDA Stock Rallies As Massive AI Deals And Record Buyback Fuel Bull Case - timothysykes.com"
       ]
     },
     "qual": {
@@ -723,12 +721,12 @@
     "sig": {
       "composite_score": 83.1,
       "signal": "STRONG BUY",
-      "confidence_pct": 77.0,
+      "confidence_pct": 76.9,
       "pillar_scores": {
         "fundamentals": 100.0,
         "valuation": 80.0,
         "technicals": 72.9,
-        "sentiment": 54.2,
+        "sentiment": 54.1,
         "analyst": 100.0,
         "macro_moat": 80.0
       },
@@ -762,15 +760,15 @@
       "fifty_two_week_high": 2354.39,
       "fifty_two_week_low": 115.68,
       "volume": 8141704,
-      "avg_volume": 13182233,
+      "avg_volume": 13182669,
       "pe_ratio": 23.296627,
       "forward_pe": 6.5278344,
       "peg_ratio": null,
       "price_to_sales": 12.437734,
       "price_to_book": 16.286087,
-      "ev_to_ebitda": 20.384,
+      "ev_to_ebitda": 19.599,
       "market_cap": 251839234048,
-      "enterprise_value": 257190789120,
+      "enterprise_value": 247278223360,
       "eps_trailing": 73.83,
       "eps_forward": 263.48553,
       "earnings_growth": null,
@@ -841,15 +839,15 @@
       ]
     },
     "sent": {
-      "combined_polarity": 0.079,
-      "sentiment_score": 53.2,
-      "label": "NEUTRAL",
+      "combined_polarity": 0.108,
+      "sentiment_score": 54.3,
+      "label": "BULLISH",
       "news_stats": {
-        "polarity": 0.11259259259259256,
-        "subjectivity": 0.1951851851851852,
-        "positive_count": 6,
+        "polarity": 0.1537037037037037,
+        "subjectivity": 0.2562962962962963,
+        "positive_count": 8,
         "negative_count": 1,
-        "neutral_count": 8,
+        "neutral_count": 6,
         "total": 15
       },
       "reddit_stats": {
@@ -863,7 +861,7 @@
       "positive_highlights": [
         "Sandisk: Great Long-Term Deal Coverage Balanced By Richer Valuations (Upgrade) (SNDK) - Seeking Alpha",
         "Sandisk Is Selling The Top Of Its Edge Business (NASDAQ:SNDK) - Seeking Alpha",
-        "PENG vs. SNDK: Which AI Data Center Infrastructure Provider Is Better? - TradingView"
+        "SNDK Stock: Citigroup Sees SanDisk As Top Beneficiary Of Strong Micron Earnings - Stocktwits"
       ],
       "negative_highlights": [
         "Why Sandisk Corporation (SNDK) Stock Is Down Today - Quiver Quantitative"
@@ -873,7 +871,7 @@
         "Why Sandisk Corporation (SNDK) Stock Is Down Today - Quiver Quantitative",
         "Sandisk: Great Long-Term Deal Coverage Balanced By Richer Valuations (Upgrade) (SNDK) - Seeking Alpha",
         "SanDisk Corporation Stock (SNDK) Moved Down by 3.23% on Oct 2: A Full Analysis - TradingKey",
-        "Surging 700% in 2026, SanDisk Takes Center Stage in Global NAND Storage Squeeze - Benzinga"
+        "SNDK Stock: Citigroup Sees SanDisk As Top Beneficiary Of Strong Micron Earnings - Stocktwits"
       ]
     },
     "qual": {
@@ -905,14 +903,14 @@
       "qualitative_score": 80.0
     },
     "sig": {
-      "composite_score": 81.2,
+      "composite_score": 81.4,
       "signal": "HOLD",
-      "confidence_pct": 76.1,
+      "confidence_pct": 76.5,
       "pillar_scores": {
         "fundamentals": 100.0,
         "valuation": 70.0,
         "technicals": 75.0,
-        "sentiment": 53.2,
+        "sentiment": 54.3,
         "analyst": 100.0,
         "macro_moat": 80.0
       },
@@ -952,9 +950,9 @@
       "peg_ratio": 1.58,
       "price_to_sales": 1.5728246,
       "price_to_book": 2.131577,
-      "ev_to_ebitda": 14.779,
+      "ev_to_ebitda": 14.846,
       "market_cap": 25896558592,
-      "enterprise_value": 53454016512,
+      "enterprise_value": 53699559424,
       "eps_trailing": 6.32,
       "eps_forward": 8.36462,
       "earnings_growth": 0.224,
@@ -998,13 +996,13 @@
       "latest_price": 124.45,
       "sma_20": 127.26332321166993,
       "sma_50": 133.8783221435547,
-      "sma_200": 138.70409786224366,
+      "sma_200": 138.7040986251831,
       "rsi_14": 31.7270685197484,
       "rsi_status": "BEARISH",
       "macd_data": {
-        "macd": -3.6059183050581964,
-        "signal": -3.6634252935382188,
-        "histogram": 0.057506988480022336,
+        "macd": -3.605918315974435,
+        "signal": -3.6634253095491043,
+        "histogram": 0.05750699357466926,
         "crossover": "BULLISH_CROSS"
       },
       "cross_status": "DEATH_CROSS",
@@ -1015,7 +1013,7 @@
         "1m": -8.37643293204552,
         "3m": -18.364257361395385,
         "6m": -14.276524472053055,
-        "1y": -8.051530658432892
+        "1y": -8.051541024502662
       },
       "technical_score": 29.4,
       "signals": [
@@ -1049,9 +1047,9 @@
       ],
       "negative_highlights": [],
       "recent_headlines": [
-        "Deferred fees bring David Brandon 294.07 stock-linked units at DTE Energy (DTB). - stocktitan.net",
+        "DTE Energy Company (DTE) Stock Forecasts - finance.yahoo.com",
+        "Director fees earn Gary Torgow 294.07 cash-settled stock units at DTE Energy (DTB). - Stock Titan",
         "DTE Energy (DTE) Stock Forecast and Price Target 2026 $DTE - MarketBeat",
-        "DTE Energy Company (DTE) Stock Forecasts - Yahoo Finance",
         "DTE Energy stock after-hours at EUR 110.60: plus 0.93 percent versus prior close - AD HOC NEWS",
         "DTE Energy stock hits 52-week low at 17.85 USD - Investing.com"
       ]
