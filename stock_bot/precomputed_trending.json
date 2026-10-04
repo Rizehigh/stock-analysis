@@ -70,13 +70,13 @@
       "latest_price": 1074.89,
       "sma_20": 1025.0015014648438,
       "sma_50": 956.04580078125,
-      "sma_200": 681.4971128082275,
+      "sma_200": 681.4971128845215,
       "rsi_14": 74.88452214114274,
       "rsi_status": "OVERBOUGHT",
       "macd_data": {
-        "macd": 35.2873853564879,
-        "signal": 31.23005103498104,
-        "histogram": 4.057334321506861,
+        "macd": 35.28738535648722,
+        "signal": 31.23005103498013,
+        "histogram": 4.057334321507092,
         "crossover": "BULLISH"
       },
       "cross_status": "GOLDEN_CROSS",
@@ -98,14 +98,14 @@
       ]
     },
     "sent": {
-      "combined_polarity": 0.045,
-      "sentiment_score": 51.8,
+      "combined_polarity": -0.013,
+      "sentiment_score": 49.5,
       "label": "NEUTRAL",
       "news_stats": {
-        "polarity": 0.065,
-        "subjectivity": 0.2366666666666667,
-        "positive_count": 4,
-        "negative_count": 2,
+        "polarity": -0.01833333333333333,
+        "subjectivity": 0.26999999999999996,
+        "positive_count": 3,
+        "negative_count": 3,
         "neutral_count": 9,
         "total": 15
       },
@@ -118,20 +118,21 @@
       },
       "headline_count": 15,
       "positive_highlights": [
-        "Micron rises as Q4 results, guidance top estimates (MU:NASDAQ) - Seeking Alpha",
-        "Micron, Nike, Meta and More: 5 Stocks Investors Couldn't Stop Buzzing About This Week - Benzinga",
-        "Q4 GAAP profit hits $37.7B at Micron (MU), which forecasts higher Q1 revenue. - Stock Titan"
+        "MU Stock Muted Despite Blowout Quarter: Analysts Weigh In As Retail Gets More Bullish - Stocktwits",
+        "Q4 GAAP profit hits $37.7B at Micron (MU), which forecasts higher Q1 revenue. - Stock Titan",
+        "Is Micron Stock Cheap Enough to Survive Lower Memory Profits? - Yahoo Finance"
       ],
       "negative_highlights": [
         "Micron just sent a stark memory chip warning to tech stock investors - thestreet.com",
-        "Micron: It May Get Worse, Not Better - Seeking Alpha"
+        "Micron: It May Get Worse, Not Better - Seeking Alpha",
+        "GUIDANCE: (MU) Micron Technology, Inc. Expects Q1 Revenue Range $60.0B - $63.0B - Moomoo"
       ],
       "recent_headlines": [
+        "Micron: The Memory Equity Cycle Is At Its Zenith - Seeking Alpha",
         "Micron: It May Get Worse, Not Better - Seeking Alpha",
         "MU Stock Drops After Hours: Micron\u2019s Heightened Capex Forecast Overpowers Q4 Beat, Expectation-Beating Q1 Guidance - Yahoo Finance",
-        "Micron rises as Q4 results, guidance top estimates (MU:NASDAQ) - Seeking Alpha",
-        "Micron: The Memory Equity Cycle Is At Its Zenith - Seeking Alpha",
-        "Is Micron Stock Cheap Enough to Survive Lower Memory Profits? - Yahoo Finance"
+        "Is Micron Stock Cheap Enough to Survive Lower Memory Profits? - Yahoo Finance",
+        "Micron: What We Think of the Stock After Earnings - Morningstar"
       ]
     },
     "qual": {
@@ -164,14 +165,14 @@
       "qualitative_score": 80.0
     },
     "sig": {
-      "composite_score": 87.1,
+      "composite_score": 86.7,
       "signal": "STRONG BUY",
-      "confidence_pct": 75.9,
+      "confidence_pct": 75.0,
       "pillar_scores": {
         "fundamentals": 100.0,
         "valuation": 95.0,
         "technicals": 82.0,
-        "sentiment": 51.8,
+        "sentiment": 49.5,
         "analyst": 100.0,
         "macro_moat": 80.0
       },
@@ -257,13 +258,13 @@
       "latest_price": 124.45,
       "sma_20": 127.26332321166993,
       "sma_50": 133.8783221435547,
-      "sma_200": 138.7040980911255,
+      "sma_200": 138.70409797668458,
       "rsi_14": 31.7270685197484,
       "rsi_status": "BEARISH",
       "macd_data": {
-        "macd": -3.605918315921514,
-        "signal": -3.663425309471285,
-        "histogram": 0.0575069935497714,
+        "macd": -3.605918305071839,
+        "signal": -3.6634252935582703,
+        "histogram": 0.05750698848643143,
         "crossover": "BULLISH_CROSS"
       },
       "cross_status": "DEATH_CROSS",
@@ -274,7 +275,7 @@
         "1m": -8.37643293204552,
         "3m": -18.364257361395385,
         "6m": -14.276524472053055,
-        "1y": -8.051530658432892
+        "1y": -8.051541024502662
       },
       "technical_score": 29.4,
       "signals": [
@@ -437,14 +438,14 @@
     "tech": {
       "latest_price": 100.44,
       "sma_20": 100.28988342285156,
-      "sma_50": 100.0750390625,
-      "sma_200": 99.00391704559325,
+      "sma_50": 100.07503845214843,
+      "sma_200": 99.00391494750977,
       "rsi_14": 50.0,
       "rsi_status": "NEUTRAL",
       "macd_data": {
-        "macd": 0.10003501692010275,
-        "signal": 0.09916211992050433,
-        "histogram": 0.0008728969995984159,
+        "macd": 0.10003510234197677,
+        "signal": 0.09916224145823094,
+        "histogram": 0.0008728608837458296,
         "crossover": "BULLISH_CROSS"
       },
       "cross_status": "GOLDEN_CROSS",
@@ -465,15 +466,15 @@
       ]
     },
     "sent": {
-      "combined_polarity": 0.063,
-      "sentiment_score": 52.5,
+      "combined_polarity": 0.071,
+      "sentiment_score": 52.8,
       "label": "NEUTRAL",
       "news_stats": {
-        "polarity": 0.09055555555555554,
-        "subjectivity": 0.19055555555555556,
+        "polarity": 0.10166666666666666,
+        "subjectivity": 0.22666666666666666,
         "positive_count": 5,
-        "negative_count": 1,
-        "neutral_count": 9,
+        "negative_count": 0,
+        "neutral_count": 10,
         "total": 15
       },
       "reddit_stats": {
@@ -485,19 +486,17 @@
       },
       "headline_count": 15,
       "positive_highlights": [
-        "The Defensive Shift: This Week\u2019s Top 10 ETF Inflows - etfdb.com",
+        "The Defensive Shift: This Week\u2019s Top 10 ETF Inflows - ETF Database",
         "SGOV: Enjoy The Yield While It Lasts (NYSE:SGOV) - Seeking Alpha",
-        "BND and SGOV Are Both \"Safe\" Bond ETFs, Yet Only One Has Never Had a Losing Year - 24/7 Wall St."
+        "SGOV Nears $100 Billion, a First for Ultra-Short Bond ETFs - ETF.com"
       ],
-      "negative_highlights": [
-        "Treasury Yields Hit 5%: The Hidden Duration In Your ETF Portfolio - Benzinga"
-      ],
+      "negative_highlights": [],
       "recent_headlines": [
         "Korean Retail Investors Pivot to Ultra-Short Treasury and Dividend ETFs as SGOV Tops Net Buying - finance.biggo.com",
         "Retiring at 62 With $850,000? This Money May Need to Last 30 Years. These 3 ETFs Keep Growing It While You Spend - 24/7 Wall St.",
+        "iShares 0-3 Month Treasury Bond ETF ETF Price, Holdings, & News (NYSE:SGOV) - MarketBeat",
         "Treasury Yields Are Soaring. Don\u2019t Miss Out and Buy This ETF Today - Yahoo Finance",
-        "How the Largest Bond ETFs Performed - Morningstar",
-        "SGOV: Enjoy The Yield While It Lasts (NYSE:SGOV) - Seeking Alpha"
+        "How the Largest Bond ETFs Performed - Morningstar"
       ]
     },
     "qual": {
@@ -533,373 +532,12 @@
         "fundamentals": 50.0,
         "valuation": 50.0,
         "technicals": 70.5,
-        "sentiment": 52.5,
+        "sentiment": 52.8,
         "analyst": 50.0,
         "macro_moat": 50.0
       },
       "key_positives": [
         "Price is 0.4% above 50-day SMA (Bullish)",
-        "50-day SMA is above 200-day SMA (Golden Cross)"
-      ],
-      "key_risks": [
-        "Standard market risk and volatility."
-      ]
-    }
-  },
-  "NVDA": {
-    "data": {
-      "symbol": "NVDA",
-      "company_name": "NVIDIA Corporation",
-      "exchange_info": {
-        "country": "United States",
-        "exchange": "NYSE/NASDAQ",
-        "central_bank": "Federal Reserve (FED)",
-        "currency_symbol": "$"
-      },
-      "currency": "USD",
-      "sector": "Technology",
-      "industry": "Semiconductors",
-      "summary": "NVIDIA Corporation operates as a data center scale AI infrastructure company in the United States, Taiwan, China, Hong Kong, Europe, and internationally. It operates through Compute & Networking, and Graphics segments. The Compute & Networking segment provides data center accelerated computing and networking platforms and artificial intelligence solutions and software, and automotive platforms and autonomous and electric vehicle solutions, including software. The Graphics segment offers GeForce GPUs for gaming and PCs; Quadro/NVIDIA RTX GPUs for enterprise workstation graphics. The company's products are used in gaming, professional visualization, data center, and automotive markets. It sells its products to original equipment manufacturers, original device manufacturers, system integrators and distributors, independent software vendors, cloud service providers, add-in board manufacturers, distributors, automotive manufacturers and tier-1 automotive suppliers, and other ecosystem participants. NVIDIA Corporation was incorporated in 1993 and is headquartered in Santa Clara, California.",
-      "current_price": 233.95,
-      "previous_close": 230.86,
-      "fifty_two_week_high": 237.88,
-      "fifty_two_week_low": 164.27,
-      "volume": 134470648,
-      "avg_volume": 122619076,
-      "pe_ratio": 29.576487,
-      "forward_pe": 14.905945,
-      "peg_ratio": 0.29,
-      "price_to_sales": 18.646038,
-      "price_to_book": 24.670464,
-      "ev_to_ebitda": 27.896,
-      "market_cap": 5649190617088,
-      "enterprise_value": 5614586036224,
-      "eps_trailing": 7.91,
-      "eps_forward": 15.69508,
-      "earnings_growth": 1.278,
-      "revenue_growth": 1.059,
-      "total_revenue": 302970011648,
-      "net_income": 192880001024,
-      "profit_margins": 0.63663,
-      "operating_margins": 0.66236997,
-      "return_on_equity": 1.17211,
-      "return_on_assets": 0.53572,
-      "total_debt": 38860001280,
-      "total_cash": 62469001216,
-      "debt_to_equity": 16.971,
-      "current_ratio": 4.589,
-      "quick_ratio": 2.918,
-      "free_cash_flow": 41809874944,
-      "dividend_yield_pct": 43.0,
-      "payout_ratio": 0.0354,
-      "target_low": 180.0,
-      "target_mean": 327.7,
-      "target_high": 515.0,
-      "target_median": 315.0,
-      "recommendation_key": "strong_buy",
-      "recommendation_mean": 1.29508,
-      "number_of_analysts": 59,
-      "implied_upside_pct": 40.07266509938021,
-      "rec_breakdown": {
-        "strongBuy": 10,
-        "buy": 48,
-        "hold": 2,
-        "sell": 1,
-        "strongSell": 0
-      },
-      "next_earnings_date": "2026-11-17",
-      "earnings_high_est": 2.7,
-      "earnings_low_est": 2.34,
-      "earnings_avg_est": 2.47332,
-      "_ticker_obj": "yfinance.Ticker object <NVDA>"
-    },
-    "tech": {
-      "latest_price": 233.95,
-      "sma_20": 223.7480110168457,
-      "sma_50": 218.11908416748048,
-      "sma_200": 200.37908630371095,
-      "rsi_14": 82.96531914837755,
-      "rsi_status": "OVERBOUGHT",
-      "macd_data": {
-        "macd": 3.5405843851275165,
-        "signal": 2.7182632179789934,
-        "histogram": 0.8223211671485231,
-        "crossover": "BULLISH"
-      },
-      "cross_status": "GOLDEN_CROSS",
-      "fifty_two_week_pos_pct": 94.688079046101,
-      "high_52": 237.8800048828125,
-      "low_52": 163.89537828689438,
-      "returns": {
-        "1m": 2.5221202456842784,
-        "3m": 18.931491634965724,
-        "6m": 31.99997761566351,
-        "1y": 24.992273249464624
-      },
-      "technical_score": 72.9,
-      "signals": [
-        "Price is 7.3% above 50-day SMA (Bullish)",
-        "50-day SMA is above 200-day SMA (Golden Cross)",
-        "RSI is overbought at 83.0 (Pullback Risk)",
-        "MACD histogram indicates positive bullish momentum"
-      ]
-    },
-    "sent": {
-      "combined_polarity": 0.084,
-      "sentiment_score": 53.4,
-      "label": "BULLISH",
-      "news_stats": {
-        "polarity": 0.12000000000000001,
-        "subjectivity": 0.2966666666666667,
-        "positive_count": 4,
-        "negative_count": 0,
-        "neutral_count": 11,
-        "total": 15
-      },
-      "reddit_stats": {
-        "polarity": 0.0,
-        "subjectivity": 0.0,
-        "positive_count": 0,
-        "negative_count": 0,
-        "neutral_count": 0
-      },
-      "headline_count": 15,
-      "positive_highlights": [
-        "39,656 NVIDIA Corporation $NVDA Shares Sold by Great Lakes Advisors LLC - MarketBeat",
-        "Nvidia in focus as Morgan Stanley reinstates as top pick (NVDA:NASDAQ) - Seeking Alpha",
-        "Nvidia Looks Criminally Cheap (NASDAQ:NVDA) - Seeking Alpha"
-      ],
-      "negative_highlights": [],
-      "recent_headlines": [
-        "GoalVest Advisory LLC boosts Nvidia stake by 111,496 shares - The Globe and Mail",
-        "Nvidia Stock Has Become Deeply Undervalued, But Watch Out For Accounts Receivable (NVDA) - Seeking Alpha",
-        "NVIDIA Corporation $NVDA Stock Purchased by Flossbach Von Storch SE - MarketBeat",
-        "NVIDIA Announces a $150 Billion Share Repurchase Authorization Increase - NVIDIA Newsroom",
-        "NVIDIA's Stock Gains 1.7% as It Unveils Historic Buyback - Yahoo Finance"
-      ]
-    },
-    "qual": {
-      "priced_in": {
-        "valuation_tier": "Fair Value Range",
-        "priced_in_points": [
-          "P/E ratio reflects balanced market expectations for mid-range growth.",
-          "Forward P/E is 49.6% lower than trailing P/E, pricing in robust earnings recovery/growth.",
-          "PEG ratio of 0.29 suggests stock may be undervalued relative to expected growth."
-        ]
-      },
-      "macro_policy": {
-        "macro_factors": [
-          "Operating in United States under Federal Reserve (FED) interest rate policy environment.",
-          "Consumer sentiment and discretionary spending impact demand during inflation/rate shifts."
-        ],
-        "policy_risks": [
-          "Antitrust oversight, data privacy laws, and international tariff trade policies affect cross-border supply chains."
-        ]
-      },
-      "moat": {
-        "moat_tier": "Wide Moat",
-        "moat_score": 100.0,
-        "reasons": [
-          "Strong Return on Equity (ROE: 117.2%), indicating high capital efficiency and competitive advantage.",
-          "High net profit margin (63.7%), demonstrating pricing power.",
-          "Mega-cap scale ($5.65T) provides massive distribution and cost advantages."
-        ]
-      },
-      "qualitative_score": 80.0
-    },
-    "sig": {
-      "composite_score": 82.9,
-      "signal": "STRONG BUY",
-      "confidence_pct": 76.7,
-      "pillar_scores": {
-        "fundamentals": 100.0,
-        "valuation": 80.0,
-        "technicals": 72.9,
-        "sentiment": 53.4,
-        "analyst": 100.0,
-        "macro_moat": 80.0
-      },
-      "key_positives": [
-        "Exceptional Return on Equity (117.2%)",
-        "High profit margin (63.7%)",
-        "Strong YoY revenue growth (105.9%)",
-        "Low debt-to-equity ratio (17.0)"
-      ],
-      "key_risks": [
-        "RSI is overbought at 83.0 (Pullback Risk)"
-      ]
-    }
-  },
-  "VOO": {
-    "data": {
-      "symbol": "VOO",
-      "company_name": "Vanguard S&P 500 ETF",
-      "exchange_info": {
-        "country": "United States",
-        "exchange": "NYSE/NASDAQ",
-        "central_bank": "Federal Reserve (FED)",
-        "currency_symbol": "$"
-      },
-      "currency": "USD",
-      "sector": "N/A",
-      "industry": "N/A",
-      "summary": "The fund manager employs an indexing investment approach designed to track the performance of the Standard & Poor's 500 Index, a widely recognized benchmark of U.S. stock market performance that is dominated by the stocks of large U.S. companies. The advisor attempts to replicate the target index by investing all, or substantially all, of its assets in the stocks that make up the index, holding each stock in approximately the same proportion as its weighting in the index. The fund is non-diversified.",
-      "current_price": 707.54,
-      "previous_close": 702.35,
-      "fifty_two_week_high": 716.39,
-      "fifty_two_week_low": 578.46,
-      "volume": 6598003,
-      "avg_volume": 7116267,
-      "pe_ratio": 24.887594,
-      "forward_pe": null,
-      "peg_ratio": null,
-      "price_to_sales": null,
-      "price_to_book": 1.8102411,
-      "ev_to_ebitda": null,
-      "market_cap": null,
-      "enterprise_value": null,
-      "eps_trailing": null,
-      "eps_forward": null,
-      "earnings_growth": null,
-      "revenue_growth": null,
-      "total_revenue": null,
-      "net_income": null,
-      "profit_margins": null,
-      "operating_margins": null,
-      "return_on_equity": null,
-      "return_on_assets": null,
-      "total_debt": null,
-      "total_cash": null,
-      "debt_to_equity": null,
-      "current_ratio": null,
-      "quick_ratio": null,
-      "free_cash_flow": null,
-      "dividend_yield_pct": 1.04,
-      "payout_ratio": null,
-      "target_low": null,
-      "target_mean": null,
-      "target_high": null,
-      "target_median": null,
-      "recommendation_key": "N/A",
-      "recommendation_mean": null,
-      "number_of_analysts": 0,
-      "implied_upside_pct": null,
-      "rec_breakdown": {
-        "strongBuy": 0,
-        "buy": 0,
-        "hold": 0,
-        "sell": 0,
-        "strongSell": 0
-      },
-      "next_earnings_date": "Unknown",
-      "earnings_high_est": null,
-      "earnings_low_est": null,
-      "earnings_avg_est": null,
-      "_ticker_obj": "yfinance.Ticker object <VOO>"
-    },
-    "tech": {
-      "latest_price": 707.54,
-      "sma_20": 702.2200103759766,
-      "sma_50": 700.5890197753906,
-      "sma_200": 658.9424008178711,
-      "rsi_14": 60.05627978393457,
-      "rsi_status": "BULLISH",
-      "macd_data": {
-        "macd": 1.2601697247885113,
-        "signal": 1.2476166876217847,
-        "histogram": 0.012553037166726622,
-        "crossover": "BULLISH_CROSS"
-      },
-      "cross_status": "GOLDEN_CROSS",
-      "fifty_two_week_pos_pct": 94.96404753106516,
-      "high_52": 714.5526421804886,
-      "low_52": 575.3010860201117,
-      "returns": {
-        "1m": -0.19144607235170863,
-        "3m": 3.242601695295644,
-        "6m": 17.460845592295794,
-        "1y": 16.315686410261797
-      },
-      "technical_score": 76.5,
-      "signals": [
-        "Price is 1.0% above 50-day SMA (Bullish)",
-        "50-day SMA is above 200-day SMA (Golden Cross)",
-        "MACD histogram indicates positive bullish momentum"
-      ]
-    },
-    "sent": {
-      "combined_polarity": 0.196,
-      "sentiment_score": 57.8,
-      "label": "BULLISH",
-      "news_stats": {
-        "polarity": 0.28,
-        "subjectivity": 0.3944444444444445,
-        "positive_count": 10,
-        "negative_count": 0,
-        "neutral_count": 5,
-        "total": 15
-      },
-      "reddit_stats": {
-        "polarity": 0.0,
-        "subjectivity": 0.0,
-        "positive_count": 0,
-        "negative_count": 0,
-        "neutral_count": 0
-      },
-      "headline_count": 15,
-      "positive_highlights": [
-        "1 Vanguard ETF I'd Buy With $10,000 in October and Hold for 30 Years - The Motley Fool",
-        "Meet the Low-Cost Vanguard ETF With 51.8% Invested in Nvidia, Apple, Alphabet, Microsoft, and Amazon While VOO Has Just 30% - The Motley Fool",
-        "Vanguard S&P 500 ETF vs. Invesco QQQ: Which ETF Is the Better Buy for Investors? - The Motley Fool"
-      ],
-      "negative_highlights": [],
-      "recent_headlines": [
-        "If a Recession Is Coming, This Is the 1 ETF I'd Buy Without a Second Thought - The Motley Fool",
-        "Vanguard S&P 500 ETF vs. Invesco QQQ: Which ETF Is the Better Buy for Investors? - Yahoo Finance",
-        "Here's What History Says a $1,000 Investment in the Vanguard S&P 500 ETF Could Be Worth in 30 Years - The Motley Fool",
-        "If You'd Invested $1,000 in the Vanguard S&P 500 ETF (VOO) 10 Years Ago, Here's How Much You'd Have Today - Yahoo Finance",
-        "If You'd Invested $1,000 in the Vanguard S&P 500 ETF (VOO) 10 Years Ago, Here's How Much You'd Have Today - The Motley Fool"
-      ]
-    },
-    "qual": {
-      "priced_in": {
-        "valuation_tier": "Fair Value Range",
-        "priced_in_points": [
-          "P/E ratio reflects balanced market expectations for mid-range growth."
-        ]
-      },
-      "macro_policy": {
-        "macro_factors": [
-          "Operating in United States under Federal Reserve (FED) interest rate policy environment.",
-          "Performance closely aligned with overall United States economic trajectory."
-        ],
-        "policy_risks": [
-          "Standard corporate governance and trade policy conditions apply."
-        ]
-      },
-      "moat": {
-        "moat_tier": "Narrow Moat",
-        "moat_score": 50.0,
-        "reasons": [
-          "Standard market positioning within industry."
-        ]
-      },
-      "qualitative_score": 50.0
-    },
-    "sig": {
-      "composite_score": 56.1,
-      "signal": "HOLD",
-      "confidence_pct": 78.7,
-      "pillar_scores": {
-        "fundamentals": 50.0,
-        "valuation": 55.0,
-        "technicals": 76.5,
-        "sentiment": 57.8,
-        "analyst": 50.0,
-        "macro_moat": 50.0
-      },
-      "key_positives": [
-        "Price is 1.0% above 50-day SMA (Bullish)",
         "50-day SMA is above 200-day SMA (Golden Cross)"
       ],
       "key_risks": [
@@ -1005,15 +643,15 @@
       ]
     },
     "sent": {
-      "combined_polarity": 0.033,
-      "sentiment_score": 51.3,
+      "combined_polarity": 0.044,
+      "sentiment_score": 51.8,
       "label": "NEUTRAL",
       "news_stats": {
-        "polarity": 0.04666666666666666,
-        "subjectivity": 0.3400000000000001,
-        "positive_count": 2,
+        "polarity": 0.06333333333333334,
+        "subjectivity": 0.29000000000000004,
+        "positive_count": 3,
         "negative_count": 1,
-        "neutral_count": 12,
+        "neutral_count": 11,
         "total": 15
       },
       "reddit_stats": {
@@ -1026,17 +664,18 @@
       "headline_count": 15,
       "positive_highlights": [
         "Is TeraWulf Inc. (WULF) A Good Stock To Buy Now? - Yahoo Finance",
+        "KEEL Vs WULF Vs HUT Vs CIFR: Which Former Bitcoin Miner Is The Better AI Infra Play? - Stocktwits",
         "Stock vesting gives TeraWulf (WULF) technology chief 666,667 shares, bringing direct holdings to 667,167. - Stock Titan"
       ],
       "negative_highlights": [
         "Earnings Preview: TeraWulf Inc. (WULF) Q2 Earnings Expected to Decline - Yahoo Finance"
       ],
       "recent_headlines": [
+        "WULF Stock In Focus: TeraWulf CEO Reportedly Says Anthropic Deal Is Just The \u2018Tip Of The Iceberg\u2019 For AI Infrastructure - Stocktwits",
         "Shares replace cash retainers as TeraWulf (WULF) director Carter acquires 2,112 shares. - Stock Titan",
         "WULF Stock Rallies As Massive Anthropic AI Deal Takes Shape - StocksToTrade",
         "WULF Stock Rallies As Massive Anthropic AI Deal Takes Shape - timothysykes.com",
-        "TeraWulf (NASDAQ:WULF) Shares Climb 8.2% - What's Next? - MarketBeat",
-        "A Look at TeraWulf Inc (WULF) After 3.9% Gain -- GF Value $5.80 vs Price $15.49 - GuruFocus"
+        "TeraWulf (NASDAQ:WULF) Shares Climb 8.2% - What's Next? - MarketBeat"
       ]
     },
     "qual": {
@@ -1066,14 +705,14 @@
       "qualitative_score": 32.0
     },
     "sig": {
-      "composite_score": 42.1,
+      "composite_score": 42.2,
       "signal": "SELL",
       "confidence_pct": 55.4,
       "pillar_scores": {
         "fundamentals": 0.0,
         "valuation": 65.0,
         "technicals": 21.4,
-        "sentiment": 51.3,
+        "sentiment": 51.8,
         "analyst": 100.0,
         "macro_moat": 32.0
       },
@@ -1088,6 +727,377 @@
         "Thin profit margin (0.0%)",
         "Declining YoY revenue (-6.0%)",
         "Elevated debt-to-equity ratio (3549.6)"
+      ]
+    }
+  },
+  "AMD": {
+    "data": {
+      "symbol": "AMD",
+      "company_name": "Advanced Micro Devices, Inc.",
+      "exchange_info": {
+        "country": "United States",
+        "exchange": "NYSE/NASDAQ",
+        "central_bank": "Federal Reserve (FED)",
+        "currency_symbol": "$"
+      },
+      "currency": "USD",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "summary": "Advanced Micro Devices, Inc. operates as a semiconductor company internationally. It operates in three segments: Data Center, Client and Gaming, and Embedded. The company offers artificial intelligence (AI) accelerators, microprocessors, and graphics processing units (GPUs) as standalone devices or as incorporated into accelerated processing units, chipsets, and data center and professional GPUs; and embedded processors and semi-custom system-on-chip (SoC) products, microprocessor and SoC development services and technology, data processing units, field programmable gate arrays (FPGA), system on modules, AI network interface cards, and adaptive SoC products. It provides processors under the AMD Ryzen, AMD Ryzen AI, AMD Ryzen PRO, AMD Ryzen Threadripper, AMD Ryzen Threadripper PRO, AMD Athlon, and AMD PRO A-Series brands; graphics under the AMD Radeon graphics and AMD Embedded Radeon graphics; professional graphics under the AMD Radeon Pro graphics brand; and AI and general-purpose compute infrastructure for hyperscale providers. The company offers data center graphics under the AMD Instinct accelerators and Radeon PRO V-series brands; server microprocessors under the AMD EPYC brand; low power solutions under the AMD Athlon, AMD Geode, AMD Ryzen, AMD EPYC, and AMD R-Series and G-Series brands; FPGA products under the Virtex-6, Virtex-7, Virtex UltraScale+, Kintex-7, Kintex UltraScale, Kintex UltraScale+, Artix-7, Artix UltraScale+, Spartan-6, and Spartan-7 brands; adaptive SOCs under the Zynq-7000, Zynq UltraScale+ MPSoC, Zynq UltraScale+ RFSoCs, Versal HBM, Versal Premium, Versal Prime, Versal AI Core, Versal AI Edge, Vitis, and Vivado brands; and compute and network acceleration board products under the Alveo and Pensando brands. It serves original equipment and design manufacturers, public cloud service providers, system integrators, distributors, and add-in-board manufacturers. The company was incorporated in 1969 and is headquartered in Santa Clara, California.",
+      "current_price": 633.91,
+      "previous_close": 615.73,
+      "fifty_two_week_high": 645.46,
+      "fifty_two_week_low": 188.22,
+      "volume": 19323673,
+      "avg_volume": 23691812,
+      "pe_ratio": 161.30025,
+      "forward_pe": 40.67883,
+      "peg_ratio": 0.64,
+      "price_to_sales": 25.053679,
+      "price_to_book": 15.389525,
+      "ev_to_ebitda": 107.3,
+      "market_cap": 1034842210304,
+      "enterprise_value": 1026007236608,
+      "eps_trailing": 3.93,
+      "eps_forward": 15.58329,
+      "earnings_growth": 1.595,
+      "revenue_growth": 0.501,
+      "total_revenue": 41305001984,
+      "net_income": 6469000192,
+      "profit_margins": 0.15577,
+      "operating_margins": 0.1725,
+      "return_on_equity": 0.10196,
+      "return_on_assets": 0.05128,
+      "total_debt": 4276000000,
+      "total_cash": 13111000064,
+      "debt_to_equity": 6.361,
+      "current_ratio": 2.609,
+      "quick_ratio": 1.688,
+      "free_cash_flow": 8841499648,
+      "dividend_yield_pct": 0.0,
+      "payout_ratio": 0.0,
+      "target_low": 365.0,
+      "target_mean": 619.508,
+      "target_high": 1250.0,
+      "target_median": 616.0,
+      "recommendation_key": "strong_buy",
+      "recommendation_mean": 1.49091,
+      "number_of_analysts": 50,
+      "implied_upside_pct": -2.271931346721132,
+      "rec_breakdown": {
+        "strongBuy": 5,
+        "buy": 39,
+        "hold": 11,
+        "sell": 0,
+        "strongSell": 0
+      },
+      "next_earnings_date": "2026-11-03",
+      "earnings_high_est": 2.03,
+      "earnings_low_est": 1.72,
+      "earnings_avg_est": 1.92938,
+      "_ticker_obj": "yfinance.Ticker object <AMD>"
+    },
+    "tech": {
+      "latest_price": 633.91,
+      "sma_20": 566.489501953125,
+      "sma_50": 513.5342016601562,
+      "sma_200": 374.7236004638672,
+      "rsi_14": 84.27831240530267,
+      "rsi_status": "OVERBOUGHT",
+      "macd_data": {
+        "macd": 35.557484948999104,
+        "signal": 31.164186810599485,
+        "histogram": 4.393298138399619,
+        "crossover": "BULLISH"
+      },
+      "cross_status": "GOLDEN_CROSS",
+      "fifty_two_week_pos_pct": 97.60531982255236,
+      "high_52": 645.4600219726562,
+      "low_52": 163.13999938964844,
+      "returns": {
+        "1m": 38.96658955429926,
+        "3m": 22.824595142873427,
+        "6m": 187.90535974512593,
+        "1y": 284.9577986571858
+      },
+      "technical_score": 82.0,
+      "signals": [
+        "Price is 23.4% above 50-day SMA (Bullish)",
+        "50-day SMA is above 200-day SMA (Golden Cross)",
+        "RSI is overbought at 84.3 (Pullback Risk)",
+        "MACD histogram indicates positive bullish momentum"
+      ]
+    },
+    "sent": {
+      "combined_polarity": 0.12,
+      "sentiment_score": 54.8,
+      "label": "BULLISH",
+      "news_stats": {
+        "polarity": 0.17111111111111113,
+        "subjectivity": 0.41,
+        "positive_count": 8,
+        "negative_count": 2,
+        "neutral_count": 5,
+        "total": 15
+      },
+      "reddit_stats": {
+        "polarity": 0.0,
+        "subjectivity": 0.0,
+        "positive_count": 0,
+        "negative_count": 0,
+        "neutral_count": 0
+      },
+      "headline_count": 15,
+      "positive_highlights": [
+        "Could Advanced Micro Devices Stock Help You Become a Millionaire? - Yahoo Finance",
+        "Advanced Micro Devices (NASDAQ:AMD) Stock Lifted to \"Buy\" by Wall Street Zen - MarketBeat",
+        "Advanced Micro Devices (NASDAQ:AMD) Shares Climb 3% - Still a Buy? - MarketBeat"
+      ],
+      "negative_highlights": [
+        "AMD: The Job Is Difficult, But Not Impossible (NASDAQ:AMD) - Seeking Alpha",
+        "AMD Stock Crosses $1 Trillion - And The Market Still Underestimates The Dark Horse - Seeking Alpha"
+      ],
+      "recent_headlines": [
+        "Advanced Micro Devices (NASDAQ:AMD) Stock Lifted to \"Buy\" by Wall Street Zen - MarketBeat",
+        "AMD Beat on Revenue, Profit, and Guidance \u2014 So Why Did the Stock Drop 7%? - TradingKey",
+        "Could Advanced Micro Devices Stock Help You Become a Millionaire? - Yahoo Finance",
+        "Breakingviews - COMMENTARY: AMD takes an $8 bln leap at Nvidia - Reuters",
+        "What's Going On With AMD Stock Thursday? - TradingView"
+      ]
+    },
+    "qual": {
+      "priced_in": {
+        "valuation_tier": "High Growth Premium",
+        "priced_in_points": [
+          "High P/E ratio indicates market has priced in strong future earnings acceleration.",
+          "Forward P/E is 74.8% lower than trailing P/E, pricing in robust earnings recovery/growth.",
+          "PEG ratio of 0.64 suggests stock may be undervalued relative to expected growth."
+        ]
+      },
+      "macro_policy": {
+        "macro_factors": [
+          "Operating in United States under Federal Reserve (FED) interest rate policy environment.",
+          "Consumer sentiment and discretionary spending impact demand during inflation/rate shifts."
+        ],
+        "policy_risks": [
+          "Antitrust oversight, data privacy laws, and international tariff trade policies affect cross-border supply chains."
+        ]
+      },
+      "moat": {
+        "moat_tier": "Wide Moat",
+        "moat_score": 80.0,
+        "reasons": [
+          "High net profit margin (15.6%), demonstrating pricing power.",
+          "Mega-cap scale ($1.03T) provides massive distribution and cost advantages."
+        ]
+      },
+      "qualitative_score": 68.0
+    },
+    "sig": {
+      "composite_score": 67.9,
+      "signal": "BUY",
+      "confidence_pct": 74.7,
+      "pillar_scores": {
+        "fundamentals": 93.0,
+        "valuation": 38.0,
+        "technicals": 82.0,
+        "sentiment": 54.8,
+        "analyst": 65.0,
+        "macro_moat": 68.0
+      },
+      "key_positives": [
+        "Strong YoY revenue growth (50.1%)",
+        "Low debt-to-equity ratio (6.4)",
+        "Positive free cash flow generation",
+        "Favorable PEG ratio (0.64x < 1.0)"
+      ],
+      "key_risks": [
+        "High P/E ratio (161.3x)",
+        "Elevated Forward P/E (40.7x)",
+        "Price exceeds average analyst target (-2.3%)",
+        "RSI is overbought at 84.3 (Pullback Risk)"
+      ]
+    }
+  },
+  "NVDA": {
+    "data": {
+      "symbol": "NVDA",
+      "company_name": "NVIDIA Corporation",
+      "exchange_info": {
+        "country": "United States",
+        "exchange": "NYSE/NASDAQ",
+        "central_bank": "Federal Reserve (FED)",
+        "currency_symbol": "$"
+      },
+      "currency": "USD",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "summary": "NVIDIA Corporation operates as a data center scale AI infrastructure company in the United States, Taiwan, China, Hong Kong, Europe, and internationally. It operates through Compute & Networking, and Graphics segments. The Compute & Networking segment provides data center accelerated computing and networking platforms and artificial intelligence solutions and software, and automotive platforms and autonomous and electric vehicle solutions, including software. The Graphics segment offers GeForce GPUs for gaming and PCs; Quadro/NVIDIA RTX GPUs for enterprise workstation graphics. The company's products are used in gaming, professional visualization, data center, and automotive markets. It sells its products to original equipment manufacturers, original device manufacturers, system integrators and distributors, independent software vendors, cloud service providers, add-in board manufacturers, distributors, automotive manufacturers and tier-1 automotive suppliers, and other ecosystem participants. NVIDIA Corporation was incorporated in 1993 and is headquartered in Santa Clara, California.",
+      "current_price": 233.95,
+      "previous_close": 230.86,
+      "fifty_two_week_high": 237.88,
+      "fifty_two_week_low": 164.27,
+      "volume": 134470648,
+      "avg_volume": 122619076,
+      "pe_ratio": 29.576487,
+      "forward_pe": 14.905945,
+      "peg_ratio": 0.29,
+      "price_to_sales": 18.646038,
+      "price_to_book": 24.670464,
+      "ev_to_ebitda": 27.896,
+      "market_cap": 5649190617088,
+      "enterprise_value": 5614586036224,
+      "eps_trailing": 7.91,
+      "eps_forward": 15.69508,
+      "earnings_growth": 1.278,
+      "revenue_growth": 1.059,
+      "total_revenue": 302970011648,
+      "net_income": 192880001024,
+      "profit_margins": 0.63663,
+      "operating_margins": 0.66236997,
+      "return_on_equity": 1.17211,
+      "return_on_assets": 0.53572,
+      "total_debt": 38860001280,
+      "total_cash": 62469001216,
+      "debt_to_equity": 16.971,
+      "current_ratio": 4.589,
+      "quick_ratio": 2.918,
+      "free_cash_flow": 41809874944,
+      "dividend_yield_pct": 43.0,
+      "payout_ratio": 0.0354,
+      "target_low": 180.0,
+      "target_mean": 327.7,
+      "target_high": 515.0,
+      "target_median": 315.0,
+      "recommendation_key": "strong_buy",
+      "recommendation_mean": 1.29508,
+      "number_of_analysts": 59,
+      "implied_upside_pct": 40.07266509938021,
+      "rec_breakdown": {
+        "strongBuy": 10,
+        "buy": 48,
+        "hold": 2,
+        "sell": 1,
+        "strongSell": 0
+      },
+      "next_earnings_date": "2026-11-17",
+      "earnings_high_est": 2.7,
+      "earnings_low_est": 2.34,
+      "earnings_avg_est": 2.47332,
+      "_ticker_obj": "yfinance.Ticker object <NVDA>"
+    },
+    "tech": {
+      "latest_price": 233.95,
+      "sma_20": 223.7480110168457,
+      "sma_50": 218.11908416748048,
+      "sma_200": 200.37908630371095,
+      "rsi_14": 82.96531914837755,
+      "rsi_status": "OVERBOUGHT",
+      "macd_data": {
+        "macd": 3.54058438509162,
+        "signal": 2.7182632179262183,
+        "histogram": 0.8223211671654016,
+        "crossover": "BULLISH"
+      },
+      "cross_status": "GOLDEN_CROSS",
+      "fifty_two_week_pos_pct": 94.688079046101,
+      "high_52": 237.8800048828125,
+      "low_52": 163.89537828689438,
+      "returns": {
+        "1m": 2.5221202456842784,
+        "3m": 18.931491634965724,
+        "6m": 31.99997761566351,
+        "1y": 24.992273249464624
+      },
+      "technical_score": 72.9,
+      "signals": [
+        "Price is 7.3% above 50-day SMA (Bullish)",
+        "50-day SMA is above 200-day SMA (Golden Cross)",
+        "RSI is overbought at 83.0 (Pullback Risk)",
+        "MACD histogram indicates positive bullish momentum"
+      ]
+    },
+    "sent": {
+      "combined_polarity": 0.006,
+      "sentiment_score": 50.3,
+      "label": "NEUTRAL",
+      "news_stats": {
+        "polarity": 0.00909090909090909,
+        "subjectivity": 0.05696969696969697,
+        "positive_count": 1,
+        "negative_count": 0,
+        "neutral_count": 14,
+        "total": 15
+      },
+      "reddit_stats": {
+        "polarity": 0.0,
+        "subjectivity": 0.0,
+        "positive_count": 0,
+        "negative_count": 0,
+        "neutral_count": 0
+      },
+      "headline_count": 15,
+      "positive_highlights": [
+        "Toews Corp ADV Buys New Shares in NVIDIA Corporation $NVDA - MarketBeat"
+      ],
+      "negative_highlights": [],
+      "recent_headlines": [
+        "NVIDIA Corporation $NVDA Stock Sold by Planning Directions Inc. - MarketBeat",
+        "Nvidia Stock Has Become Deeply Undervalued, But Watch Out For Accounts Receivable (NVDA) - Seeking Alpha",
+        "NVIDIA Announces a $150 Billion Share Repurchase Authorization Increase - NVIDIA Newsroom",
+        "GoalVest Advisory LLC boosts Nvidia stake by 111,496 shares - The Globe and Mail",
+        "NVIDIA's Stock Gains 1.7% as It Unveils Historic Buyback - Yahoo Finance"
+      ]
+    },
+    "qual": {
+      "priced_in": {
+        "valuation_tier": "Fair Value Range",
+        "priced_in_points": [
+          "P/E ratio reflects balanced market expectations for mid-range growth.",
+          "Forward P/E is 49.6% lower than trailing P/E, pricing in robust earnings recovery/growth.",
+          "PEG ratio of 0.29 suggests stock may be undervalued relative to expected growth."
+        ]
+      },
+      "macro_policy": {
+        "macro_factors": [
+          "Operating in United States under Federal Reserve (FED) interest rate policy environment.",
+          "Consumer sentiment and discretionary spending impact demand during inflation/rate shifts."
+        ],
+        "policy_risks": [
+          "Antitrust oversight, data privacy laws, and international tariff trade policies affect cross-border supply chains."
+        ]
+      },
+      "moat": {
+        "moat_tier": "Wide Moat",
+        "moat_score": 100.0,
+        "reasons": [
+          "Strong Return on Equity (ROE: 117.2%), indicating high capital efficiency and competitive advantage.",
+          "High net profit margin (63.7%), demonstrating pricing power.",
+          "Mega-cap scale ($5.65T) provides massive distribution and cost advantages."
+        ]
+      },
+      "qualitative_score": 80.0
+    },
+    "sig": {
+      "composite_score": 82.5,
+      "signal": "STRONG BUY",
+      "confidence_pct": 75.6,
+      "pillar_scores": {
+        "fundamentals": 100.0,
+        "valuation": 80.0,
+        "technicals": 72.9,
+        "sentiment": 50.3,
+        "analyst": 100.0,
+        "macro_moat": 80.0
+      },
+      "key_positives": [
+        "Exceptional Return on Equity (117.2%)",
+        "High profit margin (63.7%)",
+        "Strong YoY revenue growth (105.9%)",
+        "Low debt-to-equity ratio (17.0)"
+      ],
+      "key_risks": [
+        "RSI is overbought at 83.0 (Pullback Risk)"
       ]
     }
   }
