@@ -1,189 +1,4 @@
 {
-  "SPCX": {
-    "data": {
-      "symbol": "SPCX",
-      "company_name": "Space Exploration Technologies Corp.",
-      "exchange_info": {
-        "country": "United States",
-        "exchange": "NYSE/NASDAQ",
-        "central_bank": "Federal Reserve (FED)",
-        "currency_symbol": "$"
-      },
-      "currency": "USD",
-      "sector": "Industrials",
-      "industry": "Aerospace & Defense",
-      "summary": "Space Exploration Technologies Corp. provides satellite-based broadband services in the United States, Ireland, Canada, and internationally. It operates through three operating segments: Space, Connectivity, and AI. The Space segment designs, manufactures, and launches reusable rockets to provide access to space. It also provides launch services for the deployment of payloads to intended orbits for commercial and government customers utilizing Falcon 9 and Falcon Heavy; and engages in the launch and development for the development of spacecraft and the provision of launch and mission services for government agency space programs utilizing Falcon 9, Falcon Heavy, Starship, and Dragon. Its company's Connectivity segment operates broadband data and communications network by various Starlink satellites in low-earth orbit, delivering connectivity to various consumers, enterprise, and government customers. The company's AI segment operates a vertically integrated AI platform spanning a frontier LLM Grok; AI solutions for consumer and enterprise customers; X, a real-time information, entertainment, and free speech platform; and AI computational infrastructure. Space Exploration Technologies Corp. was incorporated in 2002 and is based in Starbase, Texas.",
-      "current_price": 171.09,
-      "previous_close": 158.96,
-      "fifty_two_week_high": 225.64,
-      "fifty_two_week_low": 104.83,
-      "volume": 134420923,
-      "avg_volume": 91270430,
-      "pe_ratio": null,
-      "forward_pe": 88.85346,
-      "peg_ratio": null,
-      "price_to_sales": 97.811646,
-      "price_to_book": 17.718517,
-      "ev_to_ebitda": 754.662,
-      "market_cap": 2253971521536,
-      "enterprise_value": 4450240430080,
-      "eps_trailing": -1.1,
-      "eps_forward": 1.92553,
-      "earnings_growth": null,
-      "revenue_growth": 0.919,
-      "total_revenue": 23043999744,
-      "net_income": -8888999936,
-      "profit_margins": -0.35661998,
-      "operating_margins": -0.01804,
-      "return_on_equity": null,
-      "return_on_assets": null,
-      "total_debt": 39708000256,
-      "total_cash": 100009000960,
-      "debt_to_equity": 31.211,
-      "current_ratio": 5.115,
-      "quick_ratio": 4.949,
-      "free_cash_flow": 9900000256,
-      "dividend_yield_pct": 0.0,
-      "payout_ratio": 0.0,
-      "target_low": 140.0,
-      "target_mean": 227.44,
-      "target_high": 450.0,
-      "target_median": 225.0,
-      "recommendation_key": "buy",
-      "recommendation_mean": 1.69444,
-      "number_of_analysts": 25,
-      "implied_upside_pct": 32.93588169969021,
-      "rec_breakdown": {
-        "strongBuy": 7,
-        "buy": 22,
-        "hold": 5,
-        "sell": 2,
-        "strongSell": 0
-      },
-      "next_earnings_date": "2026-11-03",
-      "earnings_high_est": 0.26,
-      "earnings_low_est": -0.11,
-      "earnings_avg_est": 0.11329,
-      "_ticker_obj": "yfinance.Ticker object <SPCX>"
-    },
-    "tech": {
-      "latest_price": 171.09,
-      "sma_20": 151.28900146484375,
-      "sma_50": 140.07800018310547,
-      "sma_200": null,
-      "rsi_14": 73.42955446110132,
-      "rsi_status": "OVERBOUGHT",
-      "macd_data": {
-        "macd": 4.173152872691787,
-        "signal": 3.0883069920775865,
-        "histogram": 1.0848458806142007,
-        "crossover": "BULLISH_CROSS"
-      },
-      "cross_status": "NEUTRAL",
-      "fifty_two_week_pos_pct": 54.846452700910554,
-      "high_52": 225.63999938964844,
-      "low_52": 104.83000183105469,
-      "returns": {
-        "1m": 15.640421445803042,
-        "3m": 15.367495940164154,
-        "6m": 0.0,
-        "1y": 0.0
-      },
-      "technical_score": 72.0,
-      "signals": [
-        "Price is 22.1% above 50-day SMA (Bullish)",
-        "RSI is overbought at 73.4 (Pullback Risk)",
-        "MACD histogram indicates positive bullish momentum"
-      ]
-    },
-    "sent": {
-      "combined_polarity": 0.069,
-      "sentiment_score": 52.7,
-      "label": "NEUTRAL",
-      "news_stats": {
-        "polarity": 0.09796296296296296,
-        "subjectivity": 0.25425925925925924,
-        "positive_count": 5,
-        "negative_count": 2,
-        "neutral_count": 8,
-        "total": 15
-      },
-      "reddit_stats": {
-        "polarity": 0.0,
-        "subjectivity": 0.0,
-        "positive_count": 0,
-        "negative_count": 0,
-        "neutral_count": 0
-      },
-      "headline_count": 15,
-      "positive_highlights": [
-        "SpaceX Earnings: 3 Numbers Long-Term Investors Should Watch - fool.com",
-        "SpaceX Stock Surges as Morgan Stanley Says Stock \u2018Cheap and Getting Cheaper\u2019 - Investopedia",
-        "SpaceX Stock Rises as Analysts See Significant Upside - Benzinga"
-      ],
-      "negative_highlights": [
-        "Elon Musk Is Back Working With the U.S. Government. Why That Could Be Trouble for SpaceX's Stock - Yahoo Finance",
-        "Morgan Stanley doubles down on SpaceX stock verdict for investors - thestreet.com"
-      ],
-      "recent_headlines": [
-        "SpaceX To Reattempt SDA Mission, Rally Continues Amid Busy Launch Schedule - Investor's Business Daily",
-        "SpaceX Stock Rises as Analysts See Significant Upside - Benzinga",
-        "Why SpaceX Stock Took Flight Today - Yahoo Finance",
-        "Morgan Stanley doubles down on SpaceX stock verdict for investors - thestreet.com",
-        "Why SpaceX Stock Took Flight Today - fool.com"
-      ]
-    },
-    "qual": {
-      "priced_in": {
-        "valuation_tier": "Moderate",
-        "priced_in_points": [
-          "Market pricing reflects baseline sector performance."
-        ]
-      },
-      "macro_policy": {
-        "macro_factors": [
-          "Operating in United States under Federal Reserve (FED) interest rate policy environment.",
-          "Performance closely aligned with overall United States economic trajectory."
-        ],
-        "policy_risks": [
-          "Standard corporate governance and trade policy conditions apply."
-        ]
-      },
-      "moat": {
-        "moat_tier": "Narrow Moat",
-        "moat_score": 50.0,
-        "reasons": [
-          "Thin net profit margin (-35.7%), making company vulnerable to cost inflation.",
-          "Mega-cap scale ($2.25T) provides massive distribution and cost advantages."
-        ]
-      },
-      "qualitative_score": 50.0
-    },
-    "sig": {
-      "composite_score": 64.6,
-      "signal": "HOLD",
-      "confidence_pct": 67.8,
-      "pillar_scores": {
-        "fundamentals": 73.0,
-        "valuation": 38.0,
-        "technicals": 72.0,
-        "sentiment": 52.7,
-        "analyst": 100.0,
-        "macro_moat": 50.0
-      },
-      "key_positives": [
-        "Strong YoY revenue growth (91.9%)",
-        "Low debt-to-equity ratio (31.2)",
-        "Positive free cash flow generation",
-        "Significant price target upside (+32.9%)"
-      ],
-      "key_risks": [
-        "Thin profit margin (-35.7%)",
-        "Elevated Forward P/E (88.9x)",
-        "RSI is overbought at 73.4 (Pullback Risk)"
-      ]
-    }
-  },
   "MU": {
     "data": {
       "symbol": "MU",
@@ -203,9 +18,9 @@
       "fifty_two_week_high": 1255.0,
       "fifty_two_week_low": 179.61,
       "volume": 17877625,
-      "avg_volume": 33754557,
+      "avg_volume": 33513393,
       "pe_ratio": 14.314004,
-      "forward_pe": 5.1479435,
+      "forward_pe": 5.137083,
       "peg_ratio": 0.16,
       "price_to_sales": 9.022052,
       "price_to_book": 11.925797,
@@ -213,7 +28,7 @@
       "market_cap": 1201629036544,
       "enterprise_value": 1164019761152,
       "eps_trailing": 74.33,
-      "eps_forward": 206.6767,
+      "eps_forward": 207.11365,
       "earnings_growth": 10.605,
       "revenue_growth": 3.793,
       "total_revenue": 133188001792,
@@ -255,19 +70,19 @@
       "latest_price": 1063.96,
       "sma_20": 1027.3699981689454,
       "sma_50": 958.9059997558594,
-      "sma_200": 685.6554987335205,
+      "sma_200": 685.6554985809327,
       "rsi_14": 71.95952826353454,
       "rsi_status": "OVERBOUGHT",
       "macd_data": {
-        "macd": 33.44132624844292,
-        "signal": 31.67230606146344,
-        "histogram": 1.7690201869794784,
+        "macd": 33.4413262486147,
+        "signal": 31.67230606171608,
+        "histogram": 1.7690201868986222,
         "crossover": "BULLISH"
       },
       "cross_status": "GOLDEN_CROSS",
-      "fifty_two_week_pos_pct": 82.25294219907126,
+      "fifty_two_week_pos_pct": 82.25294195001229,
       "high_52": 1254.8069810301963,
-      "low_52": 179.43447043743328,
+      "low_52": 179.43448552901378,
       "returns": {
         "1m": 4.659692884363298,
         "3m": 12.137438204959118,
@@ -283,14 +98,14 @@
       ]
     },
     "sent": {
-      "combined_polarity": 0.004,
-      "sentiment_score": 50.2,
+      "combined_polarity": 0.06,
+      "sentiment_score": 52.4,
       "label": "NEUTRAL",
       "news_stats": {
-        "polarity": 0.0054166666666666695,
-        "subjectivity": 0.30833333333333335,
-        "positive_count": 4,
-        "negative_count": 2,
+        "polarity": 0.08541666666666667,
+        "subjectivity": 0.2718518518518519,
+        "positive_count": 5,
+        "negative_count": 1,
         "neutral_count": 9,
         "total": 15
       },
@@ -304,19 +119,18 @@
       "headline_count": 15,
       "positive_highlights": [
         "6 Stocks Priced To Swing Most This Week - PepsiCo (NASDAQ:PEP), Micron Technology (NASDAQ:MU) - Benzinga",
-        "Q4 GAAP profit hits $37.7B at Micron (MU), which forecasts higher Q1 revenue. - Stock Titan",
-        "Micron Has a Major Catalyst: A Huge Buyback Could Be Coming - Benzinga"
+        "Samsung May Report Its First 100 Trillion Won Quarter. Micron Stock Has More to Lose Than to Gain. - The Motley Fool",
+        "Q4 GAAP profit hits $37.7B at Micron (MU), which forecasts higher Q1 revenue. - Stock Titan"
       ],
       "negative_highlights": [
-        "Why It\u2019s So Frustrating Being A Micron Bull These Days (NASDAQ:MU) - Seeking Alpha",
-        "GUIDANCE: (MU) Micron Technology, Inc. Expects Q1 Revenue Range $60.0B - $63.0B - Moomoo"
+        "Why It\u2019s So Frustrating Being A Micron Bull These Days (NASDAQ:MU) - Seeking Alpha"
       ],
       "recent_headlines": [
         "Micron: The Trade Of The Decade Has Arrived (NASDAQ:MU) - Seeking Alpha",
+        "Micron: The Memory Equity Cycle Is At Its Zenith - Seeking Alpha",
         "Is Micron Stock Cheap Enough to Survive Lower Memory Profits? - Yahoo Finance",
-        "Micron Stock Forecast: MU Pullback Tests $1,000 as Memory Cycle Risks Rise - FXLeaders",
-        "SA analyst upgrades/downgrades: MU, NOW, SNDK, ACN - Seeking Alpha",
-        "Micron at 6.6x Earnings: Bargain or Bubble Warning? - TIKR.com"
+        "Samsung May Report Its First 100 Trillion Won Quarter. Micron Stock Has More to Lose Than to Gain. - The Motley Fool",
+        "Micron Stock Forecast: MU Pullback Tests $1,000 as Memory Cycle Risks Rise - FXLeaders"
       ]
     },
     "qual": {
@@ -324,7 +138,7 @@
         "valuation_tier": "Value / Low Expectation",
         "priced_in_points": [
           "Low P/E ratio suggests market is pricing in modest growth or cyclical headwinds.",
-          "Forward P/E is 64.0% lower than trailing P/E, pricing in robust earnings recovery/growth.",
+          "Forward P/E is 64.1% lower than trailing P/E, pricing in robust earnings recovery/growth.",
           "PEG ratio of 0.16 suggests stock may be undervalued relative to expected growth."
         ]
       },
@@ -349,14 +163,14 @@
       "qualitative_score": 80.0
     },
     "sig": {
-      "composite_score": 86.1,
+      "composite_score": 86.4,
       "signal": "STRONG BUY",
-      "confidence_pct": 75.0,
+      "confidence_pct": 75.8,
       "pillar_scores": {
         "fundamentals": 100.0,
         "valuation": 95.0,
         "technicals": 77.0,
-        "sentiment": 50.2,
+        "sentiment": 52.4,
         "analyst": 100.0,
         "macro_moat": 80.0
       },
@@ -368,6 +182,188 @@
       ],
       "key_risks": [
         "RSI is overbought at 72.0 (Pullback Risk)"
+      ]
+    }
+  },
+  "SPCX": {
+    "data": {
+      "symbol": "SPCX",
+      "company_name": "Space Exploration Technologies Corp.",
+      "exchange_info": {
+        "country": "United States",
+        "exchange": "NYSE/NASDAQ",
+        "central_bank": "Federal Reserve (FED)",
+        "currency_symbol": "$"
+      },
+      "currency": "USD",
+      "sector": "Industrials",
+      "industry": "Aerospace & Defense",
+      "summary": "Space Exploration Technologies Corp. provides satellite-based broadband services in the United States, Ireland, Canada, and internationally. It operates through three operating segments: Space, Connectivity, and AI. The Space segment designs, manufactures, and launches reusable rockets to provide access to space. It also provides launch services for the deployment of payloads to intended orbits for commercial and government customers utilizing Falcon 9 and Falcon Heavy; and engages in the launch and development for the development of spacecraft and the provision of launch and mission services for government agency space programs utilizing Falcon 9, Falcon Heavy, Starship, and Dragon. Its company's Connectivity segment operates broadband data and communications network by various Starlink satellites in low-earth orbit, delivering connectivity to various consumers, enterprise, and government customers. The company's AI segment operates a vertically integrated AI platform spanning a frontier LLM Grok; AI solutions for consumer and enterprise customers; X, a real-time information, entertainment, and free speech platform; and AI computational infrastructure. Space Exploration Technologies Corp. was incorporated in 2002 and is based in Starbase, Texas.",
+      "current_price": 171.09,
+      "previous_close": 158.96,
+      "fifty_two_week_high": 225.64,
+      "fifty_two_week_low": 104.83,
+      "volume": 134420923,
+      "avg_volume": 91955409,
+      "pe_ratio": null,
+      "forward_pe": 88.85346,
+      "peg_ratio": null,
+      "price_to_sales": 97.86803,
+      "price_to_book": 17.718517,
+      "ev_to_ebitda": 754.662,
+      "market_cap": 2255270707200,
+      "enterprise_value": 4450240430080,
+      "eps_trailing": -1.1,
+      "eps_forward": 1.92553,
+      "earnings_growth": null,
+      "revenue_growth": 0.919,
+      "total_revenue": 23043999744,
+      "net_income": -8888999936,
+      "profit_margins": -0.35661998,
+      "operating_margins": -0.01804,
+      "return_on_equity": null,
+      "return_on_assets": null,
+      "total_debt": 39708000256,
+      "total_cash": 100009000960,
+      "debt_to_equity": 31.211,
+      "current_ratio": 5.115,
+      "quick_ratio": 4.949,
+      "free_cash_flow": 9900000256,
+      "dividend_yield_pct": 0.0,
+      "payout_ratio": 0.0,
+      "target_low": 140.0,
+      "target_mean": 227.44,
+      "target_high": 450.0,
+      "target_median": 225.0,
+      "recommendation_key": "buy",
+      "recommendation_mean": 1.69444,
+      "number_of_analysts": 25,
+      "implied_upside_pct": 32.93588169969021,
+      "rec_breakdown": {
+        "strongBuy": 0,
+        "buy": 0,
+        "hold": 0,
+        "sell": 0,
+        "strongSell": 0
+      },
+      "next_earnings_date": "2026-11-03",
+      "earnings_high_est": 0.26,
+      "earnings_low_est": -0.11,
+      "earnings_avg_est": 0.11329,
+      "_ticker_obj": "yfinance.Ticker object <SPCX>"
+    },
+    "tech": {
+      "latest_price": 171.09,
+      "sma_20": 151.28900146484375,
+      "sma_50": 140.07800018310547,
+      "sma_200": null,
+      "rsi_14": 73.42955446110132,
+      "rsi_status": "OVERBOUGHT",
+      "macd_data": {
+        "macd": 4.173152872691787,
+        "signal": 3.0883069920775865,
+        "histogram": 1.0848458806142007,
+        "crossover": "BULLISH_CROSS"
+      },
+      "cross_status": "NEUTRAL",
+      "fifty_two_week_pos_pct": 54.846452700910554,
+      "high_52": 225.63999938964844,
+      "low_52": 104.83000183105469,
+      "returns": {
+        "1m": 15.640421445803042,
+        "3m": 15.367495940164154,
+        "6m": 0.0,
+        "1y": 0.0
+      },
+      "technical_score": 72.0,
+      "signals": [
+        "Price is 22.1% above 50-day SMA (Bullish)",
+        "RSI is overbought at 73.4 (Pullback Risk)",
+        "MACD histogram indicates positive bullish momentum"
+      ]
+    },
+    "sent": {
+      "combined_polarity": 0.08,
+      "sentiment_score": 53.2,
+      "label": "NEUTRAL",
+      "news_stats": {
+        "polarity": 0.1138888888888889,
+        "subjectivity": 0.28777777777777774,
+        "positive_count": 5,
+        "negative_count": 0,
+        "neutral_count": 10,
+        "total": 15
+      },
+      "reddit_stats": {
+        "polarity": 0.0,
+        "subjectivity": 0.0,
+        "positive_count": 0,
+        "negative_count": 0,
+        "neutral_count": 0
+      },
+      "headline_count": 15,
+      "positive_highlights": [
+        "Why SpaceX Stock Took Flight Today - The Motley Fool",
+        "SpaceX Stock Surges as Morgan Stanley Says Stock \u2018Cheap and Getting Cheaper\u2019 - Investopedia",
+        "SpaceX Stock Rises as Analysts See Significant Upside - Benzinga"
+      ],
+      "negative_highlights": [],
+      "recent_headlines": [
+        "Why SpaceX Stock Took Flight Today - Yahoo Finance",
+        "Elon Musk Is Back Working With the U.S. Government. Why That Could Be Trouble for SpaceX's Stock - The Motley Fool",
+        "SpaceX Stock Rises as Analysts See Significant Upside - Benzinga",
+        "What Jim Cramer Says About Space Exploration Technologies\u2019 (SPCX) Starlink and AI Opportunity - Yahoo Finance",
+        "Starlink Is Now SpaceX's Cash Machine. Can It Help the Stock Double? - Yahoo Finance"
+      ]
+    },
+    "qual": {
+      "priced_in": {
+        "valuation_tier": "Moderate",
+        "priced_in_points": [
+          "Market pricing reflects baseline sector performance."
+        ]
+      },
+      "macro_policy": {
+        "macro_factors": [
+          "Operating in United States under Federal Reserve (FED) interest rate policy environment.",
+          "Performance closely aligned with overall United States economic trajectory."
+        ],
+        "policy_risks": [
+          "Standard corporate governance and trade policy conditions apply."
+        ]
+      },
+      "moat": {
+        "moat_tier": "Narrow Moat",
+        "moat_score": 50.0,
+        "reasons": [
+          "Thin net profit margin (-35.7%), making company vulnerable to cost inflation.",
+          "Mega-cap scale ($2.26T) provides massive distribution and cost advantages."
+        ]
+      },
+      "qualitative_score": 50.0
+    },
+    "sig": {
+      "composite_score": 63.9,
+      "signal": "HOLD",
+      "confidence_pct": 69.6,
+      "pillar_scores": {
+        "fundamentals": 73.0,
+        "valuation": 38.0,
+        "technicals": 72.0,
+        "sentiment": 53.2,
+        "analyst": 95.0,
+        "macro_moat": 50.0
+      },
+      "key_positives": [
+        "Strong YoY revenue growth (91.9%)",
+        "Low debt-to-equity ratio (31.2)",
+        "Positive free cash flow generation",
+        "Significant price target upside (+32.9%)"
+      ],
+      "key_risks": [
+        "Thin profit margin (-35.7%)",
+        "Elevated Forward P/E (88.9x)",
+        "RSI is overbought at 73.4 (Pullback Risk)"
       ]
     }
   },
@@ -387,10 +383,10 @@
       "summary": "NVIDIA Corporation operates as a data center scale AI infrastructure company in the United States, Taiwan, China, Hong Kong, Europe, and internationally. It operates through Compute & Networking, and Graphics segments. The Compute & Networking segment provides data center accelerated computing and networking platforms and artificial intelligence solutions and software, and automotive platforms and autonomous and electric vehicle solutions, including software. The Graphics segment offers GeForce GPUs for gaming and PCs; Quadro/NVIDIA RTX GPUs for enterprise workstation graphics. The company's products are used in gaming, professional visualization, data center, and automotive markets. It sells its products to original equipment manufacturers, original device manufacturers, system integrators and distributors, independent software vendors, cloud service providers, add-in board manufacturers, distributors, automotive manufacturers and tier-1 automotive suppliers, and other ecosystem participants. NVIDIA Corporation was incorporated in 1993 and is headquartered in Santa Clara, California.",
       "current_price": 238.9,
       "previous_close": 233.95,
-      "fifty_two_week_high": 240.0983,
+      "fifty_two_week_high": 240.1,
       "fifty_two_week_low": 164.27,
       "volume": 126384437,
-      "avg_volume": 122835268,
+      "avg_volume": 122898671,
       "pe_ratio": 30.202276,
       "forward_pe": 15.12099,
       "peg_ratio": 0.29,
@@ -415,7 +411,7 @@
       "current_ratio": 4.589,
       "quick_ratio": 2.918,
       "free_cash_flow": 41809874944,
-      "dividend_yield_pct": 43.0,
+      "dividend_yield_pct": 42.0,
       "payout_ratio": 0.0354,
       "target_low": 180.0,
       "target_mean": 328.71695,
@@ -442,13 +438,13 @@
       "latest_price": 238.9,
       "sma_20": 224.18788452148436,
       "sma_50": 218.76490783691406,
-      "sma_200": 200.68706047058106,
+      "sma_200": 200.68706077575683,
       "rsi_14": 84.61540589556435,
       "rsi_status": "OVERBOUGHT",
       "macd_data": {
-        "macd": 4.221997287030405,
-        "signal": 3.0190100425209776,
-        "histogram": 1.2029872445094272,
+        "macd": 4.2219972877042835,
+        "signal": 3.019010043510615,
+        "histogram": 1.2029872441936686,
         "crossover": "BULLISH"
       },
       "cross_status": "GOLDEN_CROSS",
@@ -459,7 +455,7 @@
         "1m": 3.823285399422116,
         "3m": 17.169962916441662,
         "6m": 34.44473383051061,
-        "1y": 29.067781037974825
+        "1y": 29.06779167792617
       },
       "technical_score": 75.8,
       "signals": [
@@ -470,15 +466,15 @@
       ]
     },
     "sent": {
-      "combined_polarity": 0.033,
-      "sentiment_score": 51.3,
+      "combined_polarity": 0.005,
+      "sentiment_score": 50.2,
       "label": "NEUTRAL",
       "news_stats": {
-        "polarity": 0.046628787878787874,
-        "subjectivity": 0.16515151515151516,
-        "positive_count": 3,
-        "negative_count": 0,
-        "neutral_count": 12,
+        "polarity": 0.006666666666666665,
+        "subjectivity": 0.11333333333333333,
+        "positive_count": 1,
+        "negative_count": 1,
+        "neutral_count": 13,
         "total": 15
       },
       "reddit_stats": {
@@ -490,17 +486,17 @@
       },
       "headline_count": 15,
       "positive_highlights": [
-        "3 Reasons Investors Love Nvidia (NVDA) - Yahoo Finance",
-        "Nvidia\u2019s valuation shows AI stocks are far from a bubble, DBS CIO says (NVDA:NASDAQ) - Seeking Alpha",
-        "Nvidia Stock at New All-Time Highs: Market Expert Says \u2018Cusp of a Major Breakout\u2019 - Benzinga"
+        "3 Reasons Investors Love Nvidia (NVDA) - Yahoo Finance"
       ],
-      "negative_highlights": [],
+      "negative_highlights": [
+        "NVIDIA Corporation $NVDA Position Decreased by OneAscent Investment Solutions LLC - MarketBeat"
+      ],
       "recent_headlines": [
+        "NVIDIA Corporation $NVDA Stock Purchased by Robinhood Asset Management LLC - MarketBeat",
         "Nvidia (NVDA) Outperforms Broader Market: What You Need to Know - Yahoo Finance",
-        "NVIDIA (NASDAQ:NVDA) Stock Jumps 2.1% - Here's What Happened - MarketBeat",
-        "Nvidia: Reaching The Point Of An Explosive Upside Breakout (NASDAQ:NVDA) - Seeking Alpha",
-        "Nvidia Stock at New All-Time Highs: Market Expert Says \u2018Cusp of a Major Breakout\u2019 - Benzinga",
-        "NVIDIA Corporation (NVDA) is Attracting Investor Attention: Here is What You Should Know - Yahoo Finance"
+        "Nvidia: Inventory Doesn't Lie And Says Downgrade (NASDAQ:NVDA) - Seeking Alpha",
+        "NVIDIA Corporation $NVDA Stock Bought by OneAscent Financial Services LLC - MarketBeat",
+        "3 Reasons Investors Love Nvidia (NVDA) - Yahoo Finance"
       ]
     },
     "qual": {
@@ -533,14 +529,14 @@
       "qualitative_score": 80.0
     },
     "sig": {
-      "composite_score": 81.1,
-      "signal": "HOLD",
-      "confidence_pct": 75.6,
+      "composite_score": 80.9,
+      "signal": "BUY",
+      "confidence_pct": 75.2,
       "pillar_scores": {
         "fundamentals": 100.0,
         "valuation": 70.0,
         "technicals": 75.8,
-        "sentiment": 51.3,
+        "sentiment": 50.2,
         "analyst": 100.0,
         "macro_moat": 80.0
       },
@@ -574,8 +570,8 @@
       "fifty_two_week_high": 155.75,
       "fifty_two_week_low": 119.68,
       "volume": 1852083,
-      "avg_volume": 1505577,
-      "pe_ratio": 19.722397,
+      "avg_volume": 1510992,
+      "pe_ratio": 19.816166,
       "forward_pe": 14.948676,
       "peg_ratio": 1.6,
       "price_to_sales": 1.5802813,
@@ -583,7 +579,7 @@
       "ev_to_ebitda": 14.88,
       "market_cap": 26019332096,
       "enterprise_value": 53822332928,
-      "eps_trailing": 6.34,
+      "eps_trailing": 6.31,
       "eps_forward": 8.36462,
       "earnings_growth": 0.224,
       "revenue_growth": -0.015,
@@ -599,7 +595,7 @@
       "current_ratio": 0.802,
       "quick_ratio": 0.395,
       "free_cash_flow": -2596624896,
-      "dividend_yield_pct": 3.74,
+      "dividend_yield_pct": 3.73,
       "payout_ratio": 0.72660005,
       "target_low": 134.0,
       "target_mean": 152.67857,
@@ -626,13 +622,13 @@
       "latest_price": 125.04,
       "sma_20": 126.77299995422364,
       "sma_50": 133.4170182800293,
-      "sma_200": 138.70178840637206,
+      "sma_200": 138.70178825378417,
       "rsi_14": 35.972977362111436,
       "rsi_status": "BEARISH",
       "macd_data": {
-        "macd": -3.2926930794789087,
-        "signal": -3.589278859528539,
-        "histogram": 0.29658578004963054,
+        "macd": -3.292693079465721,
+        "signal": -3.5892788595091556,
+        "histogram": 0.2965857800434346,
         "crossover": "BULLISH"
       },
       "cross_status": "DEATH_CROSS",
@@ -643,7 +639,7 @@
         "1m": -7.272319661507398,
         "3m": -16.6498269501307,
         "6m": -14.218665101211469,
-        "1y": -8.756095613776937
+        "1y": -8.756085454123951
       },
       "technical_score": 30.6,
       "signals": [
@@ -680,9 +676,9 @@
       "recent_headlines": [
         "DTE Energy Company (DTE) Stock Price, News, Quote & History - Yahoo! Finance Canada",
         "DTE Energy: An Undervalued Stock For Investors Interested In Utility Exposure - Seeking Alpha",
+        "BMO raises target for DTE Energy stock from USD 132.00 to USD 134.00 - AD HOC NEWS",
         "DTE Energy Co. stock outperforms competitors on strong trading day - MarketWatch",
-        "DTE Energy (DTE) Institutional Ownership 2026 $DTE - MarketBeat",
-        "DTE Energy stock hits 52-week low at 17.85 USD - Investing.com"
+        "DTE Energy (DTE) Institutional Ownership 2026 $DTE - MarketBeat"
       ]
     },
     "qual": {
@@ -690,7 +686,7 @@
         "valuation_tier": "Fair Value Range",
         "priced_in_points": [
           "P/E ratio reflects balanced market expectations for mid-range growth.",
-          "Forward P/E is 24.2% lower than trailing P/E, pricing in robust earnings recovery/growth."
+          "Forward P/E is 24.6% lower than trailing P/E, pricing in robust earnings recovery/growth."
         ]
       },
       "macro_policy": {
@@ -756,7 +752,7 @@
       "fifty_two_week_high": 498.83,
       "fifty_two_week_low": 297.38,
       "volume": 42006295,
-      "avg_volume": 37897138,
+      "avg_volume": 37964373,
       "pe_ratio": 350.67593,
       "forward_pe": 176.58551,
       "peg_ratio": 4.43,
@@ -835,15 +831,15 @@
       ]
     },
     "sent": {
-      "combined_polarity": -0.013,
-      "sentiment_score": 49.5,
+      "combined_polarity": -0.002,
+      "sentiment_score": 49.9,
       "label": "NEUTRAL",
       "news_stats": {
-        "polarity": -0.019259259259259264,
-        "subjectivity": 0.2709259259259259,
+        "polarity": -0.0025925925925925964,
+        "subjectivity": 0.19037037037037038,
         "positive_count": 3,
-        "negative_count": 3,
-        "neutral_count": 9,
+        "negative_count": 2,
+        "neutral_count": 10,
         "total": 15
       },
       "reddit_stats": {
@@ -855,21 +851,20 @@
       },
       "headline_count": 15,
       "positive_highlights": [
-        "TSLA Stock Slips Premarket: Morningstar Calls Tesla \u2018Very Attractive\u2019 After Earnings Rout \u2014 \u2018Now\u2019s A Good Time\u2019 To Buy - Stocktwits",
         "Tesla Stock Trends Higher: What's Happening? - Benzinga",
-        "Tesla Wins Denmark Green Light For FSD Expansion \u2014 But TSLA Stock Slips - Stocktwits"
+        "TSLA Stock Rises Overnight: Analyst Says SpaceX Merger Buzz Could \u2018Dominate\u2019 Near-Term Narrative \u2014 Gary Black Sees More Gains Ahead - Stocktwits",
+        "Elon Musk's Tesla Delivered More Cars Than Wall Street Expected \u2014 So Why Is This Top Analyst Still Wary o - Benzinga"
       ],
       "negative_highlights": [
-        "Tesla Stock Is Down 15% This Year. Is the $396 Street Target Within Reach? - TIKR.com",
-        "Tesla Inc Stock (TSLA) Opened Up by 4.34% on Oct 2: Facts Behind the Movement - TradingKey",
-        "TSLA Eyes Worst Week In 2 Months As Q3 Delivery Numbers Loom \u2014 But Munster Bets On A Beat As 'EV Winter' Thaws - Yahoo Finance"
+        "Tesla Stock Is Down 15% This Year. Is the $396 Street Target Within Reach? - tikr.com",
+        "Tesla Inc Stock (TSLA) Opened Up by 4.34% on Oct 2: Facts Behind the Movement - tradingkey.com"
       ],
       "recent_headlines": [
         "Tesla (TSLA) Laps the Stock Market: Here's Why - Yahoo Finance",
-        "Tesla Is The EV King, Again (NASDAQ:TSLA) - Seeking Alpha",
-        "TSLA Stock: Tesla Doubles EU Registrations In May But BYD Still Leads With Over 26K Units - Stocktwits",
         "Tesla Stock Trends Higher: What's Happening? - Benzinga",
-        "Tesla Stock Is Down 15% This Year. Is the $396 Street Target Within Reach? - TIKR.com"
+        "Tesla Is The EV King, Again (NASDAQ:TSLA) - Seeking Alpha",
+        "TSLA Stock Rises Overnight: Analyst Says SpaceX Merger Buzz Could \u2018Dominate\u2019 Near-Term Narrative \u2014 Gary Black Sees More Gains Ahead - Stocktwits",
+        "Tesla Set to Snap 2-Year Delivery Slump in 2026: Is TSLA a Buy Now? - TradingView"
       ]
     },
     "qual": {
@@ -901,14 +896,14 @@
       "qualitative_score": 50.0
     },
     "sig": {
-      "composite_score": 52.8,
+      "composite_score": 52.9,
       "signal": "HOLD",
       "confidence_pct": 69.9,
       "pillar_scores": {
         "fundamentals": 75.0,
         "valuation": 11.0,
         "technicals": 52.8,
-        "sentiment": 49.5,
+        "sentiment": 49.9,
         "analyst": 77.0,
         "macro_moat": 50.0
       },
@@ -945,9 +940,9 @@
       "fifty_two_week_high": 553.72,
       "fifty_two_week_low": 349.2,
       "volume": 26287910,
-      "avg_volume": 28151212,
+      "avg_volume": 28126893,
       "pe_ratio": 29.257936,
-      "forward_pe": 22.181002,
+      "forward_pe": 22.18072,
       "peg_ratio": 1.68,
       "price_to_sales": 11.751927,
       "price_to_book": 8.816923,
@@ -955,7 +950,7 @@
       "market_cap": 3899747991552,
       "enterprise_value": 3951718039552,
       "eps_trailing": 17.95,
-      "eps_forward": 23.67702,
+      "eps_forward": 23.67732,
       "earnings_growth": 0.317,
       "revenue_growth": 0.177,
       "total_revenue": 331839012864,
@@ -997,13 +992,13 @@
       "latest_price": 525.18,
       "sma_20": 502.9459991455078,
       "sma_50": 490.27446899414065,
-      "sma_200": 431.7146974182129,
+      "sma_200": 431.7146975708008,
       "rsi_14": 68.26821596259056,
       "rsi_status": "BULLISH",
       "macd_data": {
-        "macd": 8.70000816046712,
-        "signal": 7.776920056702488,
-        "histogram": 0.9230881037646332,
+        "macd": 8.700008160483605,
+        "signal": 7.776920056726741,
+        "histogram": 0.9230881037568643,
         "crossover": "BULLISH"
       },
       "cross_status": "GOLDEN_CROSS",
@@ -1024,15 +1019,15 @@
       ]
     },
     "sent": {
-      "combined_polarity": 0.183,
-      "sentiment_score": 57.3,
+      "combined_polarity": 0.137,
+      "sentiment_score": 55.5,
       "label": "BULLISH",
       "news_stats": {
-        "polarity": 0.26206349206349205,
-        "subjectivity": 0.243015873015873,
-        "positive_count": 6,
+        "polarity": 0.19539682539682537,
+        "subjectivity": 0.223015873015873,
+        "positive_count": 5,
         "negative_count": 1,
-        "neutral_count": 8,
+        "neutral_count": 9,
         "total": 15
       },
       "reddit_stats": {
@@ -1044,17 +1039,17 @@
       },
       "headline_count": 15,
       "positive_highlights": [
+        "MSFT Stock Posts Best Quarter Since 1998 As Azure Growth Revives AI Optimism - TradingView",
         "Is Microsoft Corporation (MSFT) the Best Software Stocks to Buy in 2026? - Yahoo Finance",
-        "MSFT Stock Posts Best Quarter Since 1998 As Azure Growth Revives AI Optimism - Stocktwits",
-        "MSFT Stock Posts Best Quarter Since 1998 As Azure Growth Revives AI Optimism - TradingView"
+        "Microsoft Corporation (MSFT) Is A Top AI Stock In Ken Griffin\u2019s Portfolio - Yahoo Finance"
       ],
       "negative_highlights": [
         "Microsoft Corporation (MSFT) Fell on Heavy AI Capex and Softer Azure Growth - Yahoo Finance"
       ],
       "recent_headlines": [
-        "MSFT Stock Gains: Melius Research Calls Microsoft \u2018Adults In Charge\u2019 Of AI, Upgrades To \u2018Buy\u2019 - Yahoo Finance",
         "Microsoft Corporation (MSFT) Stock Forecasts - Yahoo Finance",
-        "BNY Mellon US Large Cap Equity Growth ETF's Microsoft Corp(MSFT) Holding History - GuruFocus",
+        "MSFT Stock Gains: Melius Research Calls Microsoft \u2018Adults In Charge\u2019 Of AI, Upgrades To \u2018Buy\u2019 - Stocktwits",
+        "BNY Mellon US Large Cap Equity Growth ETF's Microsoft Corp(MSFT) Holding History - gurufocus.com",
         "MSFT Stock Posts Best Quarter Since 1998 As Azure Growth Revives AI Optimism - TradingView",
         "Why is Microsoft (NASDAQ:MSFT) stock in focus as Azure demand accelerates? - Kalkine Media"
       ]
@@ -1088,14 +1083,14 @@
       "qualitative_score": 80.0
     },
     "sig": {
-      "composite_score": 80.5,
+      "composite_score": 80.2,
       "signal": "BUY",
-      "confidence_pct": 74.8,
+      "confidence_pct": 74.3,
       "pillar_scores": {
         "fundamentals": 100.0,
         "valuation": 55.0,
         "technicals": 90.7,
-        "sentiment": 57.3,
+        "sentiment": 55.5,
         "analyst": 95.0,
         "macro_moat": 80.0
       },
