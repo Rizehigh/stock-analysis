@@ -97,15 +97,15 @@
       ]
     },
     "sent": {
-      "combined_polarity": 0.05,
-      "sentiment_score": 52.0,
+      "combined_polarity": 0.019,
+      "sentiment_score": 50.8,
       "label": "NEUTRAL",
       "news_stats": {
-        "polarity": 0.07111111111111111,
-        "subjectivity": 0.14222222222222225,
-        "positive_count": 3,
+        "polarity": 0.027407407407407405,
+        "subjectivity": 0.10148148148148149,
+        "positive_count": 1,
         "negative_count": 5,
-        "neutral_count": 7,
+        "neutral_count": 9,
         "total": 15
       },
       "reddit_stats": {
@@ -117,9 +117,7 @@
       },
       "headline_count": 15,
       "positive_highlights": [
-        "AST SpaceMobile Taps Vodafone, Deutsche Telekom, Orange For Europe Expansion \u2013 ASTS Stock Heads For Best Week In Over A Month - Stocktwits",
-        "AST SpaceMobile: Cheaper And Better Than SpaceX (Rating Upgrade) - Seeking Alpha",
-        "SpaceX's Spectrum Deal Could Boost AST SpaceMobile\u2019s Strategic Value \u2014 Analyst Calls ASTS 'Natural Satellite Partner' For Carriers - TradingView"
+        "AST SpaceMobile Taps Vodafone, Deutsche Telekom, Orange For Europe Expansion \u2013 ASTS Stock Heads For Best Week In Over A Month - Stocktwits"
       ],
       "negative_highlights": [
         "AST SpaceMobile (NASDAQ:ASTS) Stock Price Down 10.5% - What's Next? - MarketBeat",
@@ -128,10 +126,10 @@
       ],
       "recent_headlines": [
         "AST SpaceMobile (ASTS) Stock Now Has A Bigger Question After FCC Satellite Ruling - Yahoo Finance",
-        "ASTS Stock Eyes Weekly Comeback: AT&T Says AST SpaceMobile Satellite Offering Will 'Come To Fruition' Next Year - Stocktwits",
-        "Why Is AST SpaceMobile Stock Falling on Friday? - Benzinga",
+        "AST SpaceMobile Taps Vodafone, Deutsche Telekom, Orange For Europe Expansion \u2013 ASTS Stock Heads For Best Week In Over A Month - Stocktwits",
         "AST SpaceMobile (NASDAQ:ASTS) Shares Gap Down - Should You Sell? - MarketBeat",
-        "AST SpaceMobile: The Bull Case Just Got Stronger (NASDAQ:ASTS) - Seeking Alpha"
+        "Why Is AST SpaceMobile Stock Falling Thursday? - Benzinga",
+        "AST SpaceMobile Inc Stock (ASTS) Moved Down by 14.90% on Oct 9: What Investors Need To Know - TradingKey"
       ]
     },
     "qual": {
@@ -161,14 +159,14 @@
       "qualitative_score": 32.0
     },
     "sig": {
-      "composite_score": 44.8,
+      "composite_score": 44.6,
       "signal": "HOLD",
-      "confidence_pct": 66.2,
+      "confidence_pct": 66.3,
       "pillar_scores": {
         "fundamentals": 35.0,
         "valuation": 65.0,
         "technicals": 5.0,
-        "sentiment": 52.0,
+        "sentiment": 50.8,
         "analyst": 75.0,
         "macro_moat": 32.0
       },
@@ -182,6 +180,191 @@
         "Thin profit margin (0.0%)",
         "Negative free cash flow generation",
         "Price is 18.9% below 50-day SMA (Bearish)"
+      ]
+    }
+  },
+  "MU": {
+    "data": {
+      "symbol": "MU",
+      "company_name": "Micron Technology, Inc.",
+      "exchange_info": {
+        "country": "United States",
+        "exchange": "NYSE/NASDAQ",
+        "central_bank": "Federal Reserve (FED)",
+        "currency_symbol": "$"
+      },
+      "currency": "USD",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "summary": "Micron Technology, Inc. designs, develops, manufactures, and sells memory and storage products in the United States, Taiwan, Japan, Mainland China, Hong Kong, Europe, and internationally. The company operates through the Cloud Memory Business Unit (CMBU); Core Data Center Business Unit (CDCB); Mobile and Client Business Unit (MCBU); and Automotive and Embedded Business Unit (AEBU) segments. It provides dynamic random access memory (DRAM) semiconductor devices comprising high-bandwidth memory, double data rate, low-power DRAM, and graphics DRAM. The company also offers NAND products that include managed NAND and low-density NAND; and NOR products. In addition, its CMBU unit offers memory solutions for large hyperscale cloud customers; CDCB's storage solutions for data center customers, including data center SSDs and NAND components, and memory solutions; MCBU's memory and storage solutions for the mobile and client segments; and AEBU's memory and storage solutions for the automotive, industrial, and consumer segments. The company offers its products in the form of components, modules, SSDs, managed NAND, multi-chip packages, and wafers. It sells its products through its direct sales force, independent sales representatives, distributors, and retailers; web-based customer direct sales channel; and channel and distribution partners. Micron Technology, Inc. was founded in 1978 and is headquartered in Boise, Idaho.",
+      "current_price": 1029.0,
+      "previous_close": 1035.84,
+      "fifty_two_week_high": 1255.0,
+      "fifty_two_week_low": 186.25,
+      "volume": 19765706,
+      "avg_volume": 32485792,
+      "pe_ratio": 13.84367,
+      "forward_pe": 4.9870977,
+      "peg_ratio": 0.16,
+      "price_to_sales": 8.741286,
+      "price_to_book": 11.533936,
+      "ev_to_ebitda": 10.345,
+      "market_cap": 1164234457088,
+      "enterprise_value": 1125979521024,
+      "eps_trailing": 74.33,
+      "eps_forward": 206.33243,
+      "earnings_growth": 10.595,
+      "revenue_growth": 3.793,
+      "total_revenue": 133188001792,
+      "net_income": 84968996864,
+      "profit_margins": 0.63796,
+      "operating_margins": 0.80678004,
+      "return_on_equity": 0.8826,
+      "return_on_assets": 0.44557,
+      "total_debt": 5178999808,
+      "total_cash": 43434000384,
+      "debt_to_equity": 3.743,
+      "current_ratio": 3.314,
+      "quick_ratio": 2.898,
+      "free_cash_flow": 29140250624,
+      "dividend_yield_pct": 6.0,
+      "payout_ratio": 0.0070999996,
+      "target_low": 361.0,
+      "target_mean": 1555.1304,
+      "target_high": 3000.0,
+      "target_median": 1550.0,
+      "recommendation_key": "strong_buy",
+      "recommendation_mean": 1.36735,
+      "number_of_analysts": 46,
+      "implied_upside_pct": 51.13026239067055,
+      "rec_breakdown": {
+        "strongBuy": 9,
+        "buy": 36,
+        "hold": 3,
+        "sell": 0,
+        "strongSell": 1
+      },
+      "next_earnings_date": "2026-12-23",
+      "earnings_high_est": 40.47,
+      "earnings_low_est": 30.2,
+      "earnings_avg_est": 38.21061,
+      "_ticker_obj": "yfinance.Ticker object <MU>"
+    },
+    "tech": {
+      "latest_price": 1029.0,
+      "sma_20": 1038.2549987792968,
+      "sma_50": 976.1861999511718,
+      "sma_200": 701.5695654296875,
+      "rsi_14": 47.60149493611528,
+      "rsi_status": "NEUTRAL",
+      "macd_data": {
+        "macd": 22.359325747693674,
+        "signal": 28.682563549285536,
+        "histogram": -6.323237801591862,
+        "crossover": "BEARISH"
+      },
+      "cross_status": "GOLDEN_CROSS",
+      "fifty_two_week_pos_pct": 79.00197541085912,
+      "high_52": 1254.8069810301963,
+      "low_52": 179.43448552901378,
+      "returns": {
+        "1m": 5.510324395162058,
+        "3m": 4.666775684624702,
+        "6m": 141.26927882905989,
+        "1y": 467.18418988927226
+      },
+      "technical_score": 63.1,
+      "signals": [
+        "Price is 5.4% above 50-day SMA (Bullish)",
+        "50-day SMA is above 200-day SMA (Golden Cross)",
+        "MACD histogram indicates negative bearish momentum"
+      ]
+    },
+    "sent": {
+      "combined_polarity": -0.007,
+      "sentiment_score": 49.7,
+      "label": "NEUTRAL",
+      "news_stats": {
+        "polarity": -0.010166666666666666,
+        "subjectivity": 0.126,
+        "positive_count": 2,
+        "negative_count": 2,
+        "neutral_count": 11,
+        "total": 15
+      },
+      "reddit_stats": {
+        "polarity": 0.0,
+        "subjectivity": 0.0,
+        "positive_count": 0,
+        "negative_count": 0,
+        "neutral_count": 0
+      },
+      "headline_count": 15,
+      "positive_highlights": [
+        "Micron Technology (NASDAQ:MU): High Growth Momentum Meets Breakout Setup - ChartMill",
+        "Is Micron Stock Worth Holding After Its Solid Q4 Earnings Results? - TradingView"
+      ],
+      "negative_highlights": [
+        "OpenAI reportedly told investors annualized revenue neared $50 billion, below roughly $70 billion in media reports. - Stock Titan",
+        "Micron Suffers Extreme AI Pessimism: Structural Demand Through 2031 (Rating Upgrade) - Seeking Alpha"
+      ],
+      "recent_headlines": [
+        "Micron (MU) Is A Stock Jim Cramer Thinks Could Go From ~$1,000 To ~$2,000 Per Share - Yahoo Finance",
+        "Micron: The Party Is Coming To An End (NASDAQ:MU) - Seeking Alpha",
+        "MU Stock Could Soar to $3,000 in 24 Months - Micron Technology (NASDAQ:MU) - Benzinga",
+        "Micron: Winter Is Coming (Rating Upgrade) (NASDAQ:MU) - Seeking Alpha",
+        "Is Micron Stock Worth Holding After Its Solid Q4 Earnings Results? - TradingView"
+      ]
+    },
+    "qual": {
+      "priced_in": {
+        "valuation_tier": "Value / Low Expectation",
+        "priced_in_points": [
+          "Low P/E ratio suggests market is pricing in modest growth or cyclical headwinds.",
+          "Forward P/E is 64.0% lower than trailing P/E, pricing in robust earnings recovery/growth.",
+          "PEG ratio of 0.16 suggests stock may be undervalued relative to expected growth."
+        ]
+      },
+      "macro_policy": {
+        "macro_factors": [
+          "Operating in United States under Federal Reserve (FED) interest rate policy environment.",
+          "Consumer sentiment and discretionary spending impact demand during inflation/rate shifts."
+        ],
+        "policy_risks": [
+          "Antitrust oversight, data privacy laws, and international tariff trade policies affect cross-border supply chains."
+        ]
+      },
+      "moat": {
+        "moat_tier": "Wide Moat",
+        "moat_score": 100.0,
+        "reasons": [
+          "Strong Return on Equity (ROE: 88.3%), indicating high capital efficiency and competitive advantage.",
+          "High net profit margin (63.8%), demonstrating pricing power.",
+          "Mega-cap scale ($1.16T) provides massive distribution and cost advantages."
+        ]
+      },
+      "qualitative_score": 80.0
+    },
+    "sig": {
+      "composite_score": 83.9,
+      "signal": "STRONG BUY",
+      "confidence_pct": 72.9,
+      "pillar_scores": {
+        "fundamentals": 100.0,
+        "valuation": 95.0,
+        "technicals": 63.1,
+        "sentiment": 49.7,
+        "analyst": 100.0,
+        "macro_moat": 80.0
+      },
+      "key_positives": [
+        "Exceptional Return on Equity (88.3%)",
+        "High profit margin (63.8%)",
+        "Strong YoY revenue growth (379.3%)",
+        "Low debt-to-equity ratio (3.7)"
+      ],
+      "key_risks": [
+        "Standard market risk and volatility."
       ]
     }
   },
@@ -303,8 +486,8 @@
       },
       "headline_count": 15,
       "positive_highlights": [
-        "NVIDIA Corporation $NVDA Shares Newly Acquired by Jupiter Topco LLC - MarketBeat",
         "Nvidia Stock: Finding New Ways To Extend The AI Growth Runway (NASDAQ:NVDA) - Seeking Alpha",
+        "NVIDIA Corporation $NVDA Shares Newly Acquired by Jupiter Topco LLC - MarketBeat",
         "NVIDIA Corporation $NVDA Shares Sold by Legal & General Group Plc - MarketBeat"
       ],
       "negative_highlights": [
@@ -313,8 +496,8 @@
       "recent_headlines": [
         "Nvidia Stock: Finding New Ways To Extend The AI Growth Runway (NASDAQ:NVDA) - Seeking Alpha",
         "NVIDIA Corporation $NVDA Stock Sold by Kinetic Partners Management LP - MarketBeat",
+        "Robust AI Demand Reinforces NVIDIA\u2019s (NVDA) Market Leadership - Yahoo Finance",
         "NVIDIA Corporation $NVDA Stock Sold by Primecap Management Co. CA - MarketBeat",
-        "NVIDIA Corporation $NVDA Stock Position Raised by Castleark Management LLC - MarketBeat",
         "NVIDIA Corporation $NVDA Shares Newly Acquired by Jupiter Topco LLC - MarketBeat"
       ]
     },
@@ -364,191 +547,6 @@
         "High profit margin (63.7%)",
         "Strong YoY revenue growth (105.9%)",
         "Low debt-to-equity ratio (17.0)"
-      ],
-      "key_risks": [
-        "Standard market risk and volatility."
-      ]
-    }
-  },
-  "MU": {
-    "data": {
-      "symbol": "MU",
-      "company_name": "Micron Technology, Inc.",
-      "exchange_info": {
-        "country": "United States",
-        "exchange": "NYSE/NASDAQ",
-        "central_bank": "Federal Reserve (FED)",
-        "currency_symbol": "$"
-      },
-      "currency": "USD",
-      "sector": "Technology",
-      "industry": "Semiconductors",
-      "summary": "Micron Technology, Inc. designs, develops, manufactures, and sells memory and storage products in the United States, Taiwan, Japan, Mainland China, Hong Kong, Europe, and internationally. The company operates through the Cloud Memory Business Unit (CMBU); Core Data Center Business Unit (CDCB); Mobile and Client Business Unit (MCBU); and Automotive and Embedded Business Unit (AEBU) segments. It provides dynamic random access memory (DRAM) semiconductor devices comprising high-bandwidth memory, double data rate, low-power DRAM, and graphics DRAM. The company also offers NAND products that include managed NAND and low-density NAND; and NOR products. In addition, its CMBU unit offers memory solutions for large hyperscale cloud customers; CDCB's storage solutions for data center customers, including data center SSDs and NAND components, and memory solutions; MCBU's memory and storage solutions for the mobile and client segments; and AEBU's memory and storage solutions for the automotive, industrial, and consumer segments. The company offers its products in the form of components, modules, SSDs, managed NAND, multi-chip packages, and wafers. It sells its products through its direct sales force, independent sales representatives, distributors, and retailers; web-based customer direct sales channel; and channel and distribution partners. Micron Technology, Inc. was founded in 1978 and is headquartered in Boise, Idaho.",
-      "current_price": 1029.0,
-      "previous_close": 1035.84,
-      "fifty_two_week_high": 1255.0,
-      "fifty_two_week_low": 186.25,
-      "volume": 19765706,
-      "avg_volume": 32485792,
-      "pe_ratio": 13.84367,
-      "forward_pe": 4.9870977,
-      "peg_ratio": 0.16,
-      "price_to_sales": 8.741286,
-      "price_to_book": 11.533936,
-      "ev_to_ebitda": 10.345,
-      "market_cap": 1164234457088,
-      "enterprise_value": 1125979521024,
-      "eps_trailing": 74.33,
-      "eps_forward": 206.33243,
-      "earnings_growth": 10.595,
-      "revenue_growth": 3.793,
-      "total_revenue": 133188001792,
-      "net_income": 84968996864,
-      "profit_margins": 0.63796,
-      "operating_margins": 0.80678004,
-      "return_on_equity": 0.8826,
-      "return_on_assets": 0.44557,
-      "total_debt": 5178999808,
-      "total_cash": 43434000384,
-      "debt_to_equity": 3.743,
-      "current_ratio": 3.314,
-      "quick_ratio": 2.898,
-      "free_cash_flow": 29140250624,
-      "dividend_yield_pct": 6.0,
-      "payout_ratio": 0.0070999996,
-      "target_low": 361.0,
-      "target_mean": 1555.1304,
-      "target_high": 3000.0,
-      "target_median": 1550.0,
-      "recommendation_key": "strong_buy",
-      "recommendation_mean": 1.36735,
-      "number_of_analysts": 46,
-      "implied_upside_pct": 51.13026239067055,
-      "rec_breakdown": {
-        "strongBuy": 9,
-        "buy": 36,
-        "hold": 3,
-        "sell": 0,
-        "strongSell": 1
-      },
-      "next_earnings_date": "2026-12-23",
-      "earnings_high_est": 40.47,
-      "earnings_low_est": 30.2,
-      "earnings_avg_est": 38.21061,
-      "_ticker_obj": "yfinance.Ticker object <MU>"
-    },
-    "tech": {
-      "latest_price": 1029.0,
-      "sma_20": 1038.2549987792968,
-      "sma_50": 976.1861999511718,
-      "sma_200": 701.5695655822753,
-      "rsi_14": 47.60149493611528,
-      "rsi_status": "NEUTRAL",
-      "macd_data": {
-        "macd": 22.359325747692992,
-        "signal": 28.68256354928446,
-        "histogram": -6.323237801591468,
-        "crossover": "BEARISH"
-      },
-      "cross_status": "GOLDEN_CROSS",
-      "fifty_two_week_pos_pct": 79.00197541085912,
-      "high_52": 1254.8069810301963,
-      "low_52": 179.43448552901378,
-      "returns": {
-        "1m": 5.510324395162058,
-        "3m": 4.666775684624702,
-        "6m": 141.26927882905989,
-        "1y": 467.18418988927226
-      },
-      "technical_score": 63.1,
-      "signals": [
-        "Price is 5.4% above 50-day SMA (Bullish)",
-        "50-day SMA is above 200-day SMA (Golden Cross)",
-        "MACD histogram indicates negative bearish momentum"
-      ]
-    },
-    "sent": {
-      "combined_polarity": 0.033,
-      "sentiment_score": 51.3,
-      "label": "NEUTRAL",
-      "news_stats": {
-        "polarity": 0.04733333333333333,
-        "subjectivity": 0.13766666666666666,
-        "positive_count": 3,
-        "negative_count": 1,
-        "neutral_count": 11,
-        "total": 15
-      },
-      "reddit_stats": {
-        "polarity": 0.0,
-        "subjectivity": 0.0,
-        "positive_count": 0,
-        "negative_count": 0,
-        "neutral_count": 0
-      },
-      "headline_count": 15,
-      "positive_highlights": [
-        "3 Reasons Growth Investors Will Love Micron (MU) - Yahoo Finance",
-        "Micron Technology (NASDAQ:MU): High Growth Momentum Meets Breakout Setup - ChartMill",
-        "Is Micron Stock Worth Holding After Its Solid Q4 Earnings Results? - TradingView"
-      ],
-      "negative_highlights": [
-        "OpenAI reportedly told investors annualized revenue neared $50 billion, below roughly $70 billion in media reports. - Stock Titan"
-      ],
-      "recent_headlines": [
-        "Micron (MU) Is A Stock Jim Cramer Thinks Could Go From ~$1,000 To ~$2,000 Per Share - Yahoo Finance",
-        "Micron: The Party Is Coming To An End (NASDAQ:MU) - Seeking Alpha",
-        "MU Stock Could Soar to $3,000 in 24 Months - Micron Technology (NASDAQ:MU) - Benzinga",
-        "Is Micron Stock Worth Holding After Its Solid Q4 Earnings Results? - TradingView",
-        "OpenAI reportedly told investors annualized revenue neared $50 billion, below roughly $70 billion in media reports. - Stock Titan"
-      ]
-    },
-    "qual": {
-      "priced_in": {
-        "valuation_tier": "Value / Low Expectation",
-        "priced_in_points": [
-          "Low P/E ratio suggests market is pricing in modest growth or cyclical headwinds.",
-          "Forward P/E is 64.0% lower than trailing P/E, pricing in robust earnings recovery/growth.",
-          "PEG ratio of 0.16 suggests stock may be undervalued relative to expected growth."
-        ]
-      },
-      "macro_policy": {
-        "macro_factors": [
-          "Operating in United States under Federal Reserve (FED) interest rate policy environment.",
-          "Consumer sentiment and discretionary spending impact demand during inflation/rate shifts."
-        ],
-        "policy_risks": [
-          "Antitrust oversight, data privacy laws, and international tariff trade policies affect cross-border supply chains."
-        ]
-      },
-      "moat": {
-        "moat_tier": "Wide Moat",
-        "moat_score": 100.0,
-        "reasons": [
-          "Strong Return on Equity (ROE: 88.3%), indicating high capital efficiency and competitive advantage.",
-          "High net profit margin (63.8%), demonstrating pricing power.",
-          "Mega-cap scale ($1.16T) provides massive distribution and cost advantages."
-        ]
-      },
-      "qualitative_score": 80.0
-    },
-    "sig": {
-      "composite_score": 84.2,
-      "signal": "STRONG BUY",
-      "confidence_pct": 73.4,
-      "pillar_scores": {
-        "fundamentals": 100.0,
-        "valuation": 95.0,
-        "technicals": 63.1,
-        "sentiment": 51.3,
-        "analyst": 100.0,
-        "macro_moat": 80.0
-      },
-      "key_positives": [
-        "Exceptional Return on Equity (88.3%)",
-        "High profit margin (63.8%)",
-        "Strong YoY revenue growth (379.3%)",
-        "Low debt-to-equity ratio (3.7)"
       ],
       "key_risks": [
         "Standard market risk and volatility."
@@ -626,13 +624,13 @@
       "latest_price": 126.9,
       "sma_20": 125.478857421875,
       "sma_50": 132.14050231933595,
-      "sma_200": 138.73856163024902,
+      "sma_200": 138.7385623550415,
       "rsi_14": 52.450683294967796,
       "rsi_status": "NEUTRAL",
       "macd_data": {
-        "macd": -1.824159868666996,
-        "signal": -2.753971582321696,
-        "histogram": 0.9298117136547002,
+        "macd": -1.824159876091997,
+        "signal": -2.753971593222326,
+        "histogram": 0.9298117171303288,
         "crossover": "BULLISH"
       },
       "cross_status": "DEATH_CROSS",
@@ -643,7 +641,7 @@
         "1m": -3.4086356774365445,
         "3m": -14.09349652072458,
         "6m": -12.494103505573262,
-        "1y": -6.535095704523652
+        "1y": -6.535106208543406
       },
       "technical_score": 44.1,
       "signals": [
@@ -653,15 +651,15 @@
       ]
     },
     "sent": {
-      "combined_polarity": 0.052,
-      "sentiment_score": 52.1,
+      "combined_polarity": 0.075,
+      "sentiment_score": 53.0,
       "label": "NEUTRAL",
       "news_stats": {
-        "polarity": 0.07444444444444445,
-        "subjectivity": 0.24873015873015875,
-        "positive_count": 3,
+        "polarity": 0.10777777777777778,
+        "subjectivity": 0.30206349206349203,
+        "positive_count": 4,
         "negative_count": 0,
-        "neutral_count": 12,
+        "neutral_count": 11,
         "total": 15
       },
       "reddit_stats": {
@@ -673,6 +671,7 @@
       },
       "headline_count": 15,
       "positive_highlights": [
+        "Top DTE Energy (DTE) Competitors 2026 - MarketBeat",
         "DTE Energy Co. stock outperforms competitors on strong trading day - MarketWatch",
         "DTE Energy: An Undervalued Stock For Investors Interested In Utility Exposure - Seeking Alpha"
       ],
@@ -712,14 +711,14 @@
       "qualitative_score": 50.0
     },
     "sig": {
-      "composite_score": 49.5,
+      "composite_score": 49.6,
       "signal": "HOLD",
-      "confidence_pct": 64.9,
+      "confidence_pct": 65.0,
       "pillar_scores": {
         "fundamentals": 10.0,
         "valuation": 65.0,
         "technicals": 44.1,
-        "sentiment": 52.1,
+        "sentiment": 53.0,
         "analyst": 97.0,
         "macro_moat": 50.0
       },
@@ -737,10 +736,10 @@
       ]
     }
   },
-  "TSLA": {
+  "IREN": {
     "data": {
-      "symbol": "TSLA",
-      "company_name": "Tesla, Inc.",
+      "symbol": "IREN",
+      "company_name": "IREN Limited",
       "exchange_info": {
         "country": "United States",
         "exchange": "NYSE/NASDAQ",
@@ -748,102 +747,103 @@
         "currency_symbol": "$"
       },
       "currency": "USD",
-      "sector": "Consumer Cyclical",
-      "industry": "Auto Manufacturers",
-      "summary": "Tesla, Inc. designs, develops, manufactures, leases, and sells electric vehicles, and energy generation and storage systems in the United States, China, and internationally. The company operates in two segments, Automotive; and Energy Generation and Storage. The company offers electric vehicles, as well as sells automotive regulatory credits; and non-warranty maintenance services and collision, automotive insurance services, as well as part sales and retail merchandise sale. It also provides sedans and sport utility vehicles through direct and used vehicle sales, a network of Tesla Superchargers, and in-app upgrades; purchase financing and leasing services; services for electric vehicles through its company-owned service locations and Tesla mobile service technicians; and vehicle limited warranties and extended service plans. In addition, the company engages in the design, manufacture, installation, sale, and leasing of solar energy generation and energy storage products, and related services to residential, commercial, and industrial customers and utilities through its website, stores, and galleries, as well as through a network of channel partners. Further, it provides services and repairs to its energy product customers, including under warranty and extended service plans; and various financing options to its residential customers; lithium-ion battery energy storage products, such as Powerwall and Megapack; energy generation products, including solar panels and solar roof; self-driving development and artificial intelligence software, vehicle control and infotainment software, and battery and powertrain. The company was formerly known as Tesla Motors, Inc. and changed its name to Tesla, Inc. in February 2017. Tesla, Inc. was incorporated in 2003 and is headquartered in Austin, Texas.",
-      "current_price": 382.7,
-      "previous_close": 375.0,
-      "fifty_two_week_high": 498.83,
-      "fifty_two_week_low": 297.38,
-      "volume": 38952426,
-      "avg_volume": 37612851,
-      "pe_ratio": 354.35184,
-      "forward_pe": 175.3534,
-      "peg_ratio": 4.58,
-      "price_to_sales": 14.587014,
-      "price_to_book": 17.399408,
-      "ev_to_ebitda": 138.048,
-      "market_cap": 1511491895296,
-      "enterprise_value": 1484708773888,
-      "eps_trailing": 1.08,
-      "eps_forward": 2.18245,
-      "earnings_growth": -0.03,
-      "revenue_growth": 0.255,
-      "total_revenue": 103619002368,
-      "net_income": 3806000128,
-      "profit_margins": 0.03671,
-      "operating_margins": 0.014099999,
-      "return_on_equity": 0.046669997,
-      "return_on_assets": 0.019299999,
-      "total_debt": 16080000000,
-      "total_cash": 43524001792,
-      "debt_to_equity": 18.373,
-      "current_ratio": 1.941,
-      "quick_ratio": 1.347,
-      "free_cash_flow": 4835999744,
+      "sector": "Financial Services",
+      "industry": "Capital Markets",
+      "summary": "IREN Limited operates as a vertically integrated AI cloud services platform in Australia and Canada. It develops, owns, and operate data centers, including the associated land, grid connections, and substations, as well as buildings and cooling. The company also owns and operates compute layers, such as GPUs, CPUs, storage, servers, and networking deployed within that data center infrastructure; and software layers comprising managed services and enterprise support that enables customers to deploy, operate, and manage AI workloads. In addition, it is involved in Bitcoin mining. The company was formerly known as Iris Energy Limited and changed its name to IREN Limited in November 2024. IREN Limited was incorporated in 2018 and is based in Sydney, Australia.",
+      "current_price": 35.19,
+      "previous_close": 35.71,
+      "fifty_two_week_high": 76.87,
+      "fifty_two_week_low": 28.93,
+      "volume": 38526695,
+      "avg_volume": 42913237,
+      "pe_ratio": null,
+      "forward_pe": -8.835847,
+      "peg_ratio": 3.11,
+      "price_to_sales": 19.61356,
+      "price_to_book": 3.1964755,
+      "ev_to_ebitda": 412.31,
+      "market_cap": 13866924032,
+      "enterprise_value": 15810859008,
+      "eps_trailing": -2.22,
+      "eps_forward": -3.98264,
+      "earnings_growth": null,
+      "revenue_growth": -0.267,
+      "total_revenue": 707006976,
+      "net_income": -702620992,
+      "profit_margins": -0.9938,
+      "operating_margins": -1.0247,
+      "return_on_equity": -0.23409,
+      "return_on_assets": -0.02528,
+      "total_debt": 7839525888,
+      "total_cash": 5895590912,
+      "debt_to_equity": 187.297,
+      "current_ratio": 3.551,
+      "quick_ratio": 2.664,
+      "free_cash_flow": -4219297280,
       "dividend_yield_pct": 0.0,
       "payout_ratio": 0.0,
-      "target_low": 128.11,
-      "target_mean": 396.56894,
-      "target_high": 600.0,
-      "target_median": 412.5,
+      "target_low": 40.0,
+      "target_mean": 78.13889,
+      "target_high": 139.0,
+      "target_median": 80.0,
       "recommendation_key": "buy",
-      "recommendation_mean": 2.36364,
-      "number_of_analysts": 38,
-      "implied_upside_pct": 3.623971779461722,
+      "recommendation_mean": 1.6,
+      "number_of_analysts": 18,
+      "implied_upside_pct": 122.0485649332197,
       "rec_breakdown": {
-        "strongBuy": 4,
-        "buy": 15,
-        "hold": 21,
-        "sell": 2,
-        "strongSell": 2
+        "strongBuy": 2,
+        "buy": 13,
+        "hold": 5,
+        "sell": 0,
+        "strongSell": 0
       },
-      "next_earnings_date": "2026-10-21",
-      "earnings_high_est": 0.7,
-      "earnings_low_est": 0.29912,
-      "earnings_avg_est": 0.44794,
-      "_ticker_obj": "yfinance.Ticker object <TSLA>"
+      "next_earnings_date": "2026-11-05",
+      "earnings_high_est": -0.51,
+      "earnings_low_est": -0.82,
+      "earnings_avg_est": -0.665,
+      "_ticker_obj": "yfinance.Ticker object <IREN>"
     },
     "tech": {
-      "latest_price": 382.7,
-      "sma_20": 368.6594970703125,
-      "sma_50": 354.74499755859375,
-      "sma_200": 390.60454925537107,
-      "rsi_14": 54.95183436215757,
-      "rsi_status": "NEUTRAL",
+      "latest_price": 35.19,
+      "sma_20": 42.41874980926514,
+      "sma_50": 41.724799957275394,
+      "sma_200": 45.59010004043579,
+      "rsi_14": 17.45944356534538,
+      "rsi_status": "OVERSOLD",
       "macd_data": {
-        "macd": 5.070899311618803,
-        "signal": 4.0007910470066435,
-        "histogram": 1.0701082646121591,
-        "crossover": "BULLISH"
+        "macd": -1.3880664779553982,
+        "signal": -0.37976185727416667,
+        "histogram": -1.0083046206812316,
+        "crossover": "BEARISH"
       },
       "cross_status": "DEATH_CROSS",
-      "fifty_two_week_pos_pct": 42.3529426022551,
-      "high_52": 498.8299865722656,
-      "low_52": 297.3800048828125,
+      "fifty_two_week_pos_pct": 13.057987851534595,
+      "high_52": 76.87000274658203,
+      "low_52": 28.93000030517578,
       "returns": {
-        "1m": 4.723072855539723,
-        "3m": -3.402492030134585,
-        "6m": 8.592016746652419,
-        "1y": -7.44636894763101
+        "1m": -19.71252902146362,
+        "3m": -8.810573047794835,
+        "6m": -18.2957969599688,
+        "1y": -41.1243103053564
       },
-      "technical_score": 61.8,
+      "technical_score": 22.0,
       "signals": [
-        "Price is 7.9% above 50-day SMA (Bullish)",
+        "Price is 15.7% below 50-day SMA (Bearish)",
         "50-day SMA is below 200-day SMA (Death Cross)",
-        "MACD histogram indicates positive bullish momentum"
+        "RSI is oversold at 17.5 (Potential Rebound)",
+        "MACD histogram indicates negative bearish momentum"
       ]
     },
     "sent": {
-      "combined_polarity": 0.082,
-      "sentiment_score": 53.3,
-      "label": "BULLISH",
+      "combined_polarity": 0.019,
+      "sentiment_score": 50.7,
+      "label": "NEUTRAL",
       "news_stats": {
-        "polarity": 0.11666666666666667,
-        "subjectivity": 0.13166666666666668,
+        "polarity": 0.026666666666666675,
+        "subjectivity": 0.08888888888888888,
         "positive_count": 3,
-        "negative_count": 0,
-        "neutral_count": 12,
+        "negative_count": 4,
+        "neutral_count": 8,
         "total": 15
       },
       "reddit_stats": {
@@ -855,252 +855,252 @@
       },
       "headline_count": 15,
       "positive_highlights": [
-        "TSLA Stock Slips Premarket: Morningstar Calls Tesla \u2018Very Attractive\u2019 After Earnings Rout \u2014 \u2018Now\u2019s A Good Time\u2019 To Buy - Stocktwits",
-        "TSLA Stock Heads For Weekly Win: Dan Ives Sees Over 30% Upside From AI, UBS Calls Setup \u2018Tactically Favorable\u2019 - TradingView",
-        "TSLA Stock Rises Overnight On Record Cybercab Registrations \u2014 Analyst\u2019s 5 Bullish Bets Signal Nearly 50% Upside - TradingView"
+        "IREN Stock Drops 7.3% in Three Months: Is it Worth Investing Now? - Yahoo! Finance Canada",
+        "IREN's Mystery Customer Is Anthropic? Fresh Buzz Pushes Stock Higher - TradingView",
+        "IREN Limited: The Story Is Getting Better, But It Is Still Not Worth It - Seeking Alpha"
       ],
-      "negative_highlights": [],
+      "negative_highlights": [
+        "IREN Limited $IREN Stock Holdings Lowered by Mn Services Vermogensbeheer B.V. - MarketBeat",
+        "IREN Limited's Sweetwater Hub: Can It Fuel IREN's AI Expansion Plans? - TradingView",
+        "IREN Falls 7% as Financing-Heavy Data Center Names Sell Off Apart From Their Sector Fund; TeraWulf and Core Scientific Drop 5% - 24/7 Wall St."
+      ],
       "recent_headlines": [
-        "Tesla, Inc. $TSLA Stock: Balefire LLC Increases Holdings - MarketBeat",
-        "Here is What to Know Beyond Why Tesla, Inc. (TSLA) is a Trending Stock - Yahoo Finance UK",
-        "TSLA Stock Slips Premarket: Morningstar Calls Tesla \u2018Very Attractive\u2019 After Earnings Rout \u2014 \u2018Now\u2019s A Good Time\u2019 To Buy - Stocktwits",
-        "TSLA Stock Rises Overnight On Record Cybercab Registrations \u2014 Analyst\u2019s 5 Bullish Bets Signal Nearly 50% Upside - TradingView",
-        "Tesla, Inc. $TSLA Stock Holdings Boosted by Systrade AG - MarketBeat"
+        "Iren shares fall as SemiAnalysis highlights data center reliability issues - Yahoo Finance",
+        "IREN Limited: The Story Is Getting Better, But It Is Still Not Worth It - Seeking Alpha",
+        "IREN's Mystery Customer Is Anthropic? Fresh Buzz Pushes Stock Higher - TradingView",
+        "Why Is IREN Stock Falling Wednesday? - Benzinga",
+        "IREN Stock Fell 6% in a Day After SemiAnalysis Flagged Its Canadian Sites. Here\u2019s Where the Stock Could Go - TIKR.com"
       ]
     },
     "qual": {
       "priced_in": {
-        "valuation_tier": "High Growth Premium",
+        "valuation_tier": "Moderate",
         "priced_in_points": [
-          "High P/E ratio indicates market has priced in strong future earnings acceleration.",
-          "Forward P/E is 50.5% lower than trailing P/E, pricing in robust earnings recovery/growth.",
-          "PEG ratio of 4.58 signals premium valuation relative to growth rate."
+          "PEG ratio of 3.11 signals premium valuation relative to growth rate."
         ]
       },
       "macro_policy": {
         "macro_factors": [
           "Operating in United States under Federal Reserve (FED) interest rate policy environment.",
-          "Consumer sentiment and discretionary spending impact demand during inflation/rate shifts."
+          "Interest rate yield curve directly impacts net interest margin (NIM) and loan volume demand."
         ],
         "policy_risks": [
-          "Antitrust oversight, data privacy laws, and international tariff trade policies affect cross-border supply chains."
+          "Subject to banking regulatory capital requirements (e.g. APRA for Australia, Fed/OCC for US, Basel III)."
+        ]
+      },
+      "moat": {
+        "moat_tier": "Weak / No Moat",
+        "moat_score": 20.0,
+        "reasons": [
+          "Low Return on Equity (ROE: -23.4%), indicating margin pressure or weak capital efficiency.",
+          "Thin net profit margin (-99.4%), making company vulnerable to cost inflation."
+        ]
+      },
+      "qualitative_score": 32.0
+    },
+    "sig": {
+      "composite_score": 40.0,
+      "signal": "SELL",
+      "confidence_pct": 56.9,
+      "pillar_scores": {
+        "fundamentals": 1.0,
+        "valuation": 53.0,
+        "technicals": 22.0,
+        "sentiment": 50.7,
+        "analyst": 100.0,
+        "macro_moat": 32.0
+      },
+      "key_positives": [
+        "Attractive Forward P/E (-8.8x)",
+        "Significant price target upside (+122.0%)",
+        "Strong Wall Street analyst consensus (Strong Buy)",
+        "100% of analyst ratings are Buy/Strong Buy"
+      ],
+      "key_risks": [
+        "Subpar Return on Equity (-23.4%)",
+        "Thin profit margin (-99.4%)",
+        "Declining YoY revenue (-26.7%)",
+        "Elevated debt-to-equity ratio (187.3)"
+      ]
+    }
+  },
+  "SPCX": {
+    "data": {
+      "symbol": "SPCX",
+      "company_name": "Space Exploration Technologies Corp.",
+      "exchange_info": {
+        "country": "United States",
+        "exchange": "NYSE/NASDAQ",
+        "central_bank": "Federal Reserve (FED)",
+        "currency_symbol": "$"
+      },
+      "currency": "USD",
+      "sector": "Industrials",
+      "industry": "Aerospace & Defense",
+      "summary": "Space Exploration Technologies Corp. provides satellite-based broadband services in the United States, Ireland, Canada, and internationally. It operates through three operating segments: Space, Connectivity, and AI. The Space segment designs, manufactures, and launches reusable rockets to provide access to space. It also provides launch services for the deployment of payloads to intended orbits for commercial and government customers utilizing Falcon 9 and Falcon Heavy; and engages in the launch and development for the development of spacecraft and the provision of launch and mission services for government agency space programs utilizing Falcon 9, Falcon Heavy, Starship, and Dragon. Its company's Connectivity segment operates broadband data and communications network by various Starlink satellites in low-earth orbit, delivering connectivity to various consumers, enterprise, and government customers. The company's AI segment operates a vertically integrated AI platform spanning a frontier LLM Grok; AI solutions for consumer and enterprise customers; X, a real-time information, entertainment, and free speech platform; and AI computational infrastructure. Space Exploration Technologies Corp. was incorporated in 2002 and is based in Starbase, Texas.",
+      "current_price": 162.57,
+      "previous_close": 160.57,
+      "fifty_two_week_high": 225.64,
+      "fifty_two_week_low": 104.83,
+      "volume": 93042640,
+      "avg_volume": 93704956,
+      "pe_ratio": null,
+      "forward_pe": 81.731255,
+      "peg_ratio": null,
+      "price_to_sales": 92.99436,
+      "price_to_book": 16.836164,
+      "ev_to_ebitda": 716.572,
+      "market_cap": 2142962057216,
+      "enterprise_value": 4225622867968,
+      "eps_trailing": -1.1,
+      "eps_forward": 1.98908,
+      "earnings_growth": null,
+      "revenue_growth": 0.919,
+      "total_revenue": 23043999744,
+      "net_income": -8888999936,
+      "profit_margins": -0.35661998,
+      "operating_margins": -0.01804,
+      "return_on_equity": null,
+      "return_on_assets": null,
+      "total_debt": 39708000256,
+      "total_cash": 100009000960,
+      "debt_to_equity": 31.211,
+      "current_ratio": 5.115,
+      "quick_ratio": 4.949,
+      "free_cash_flow": 9900000256,
+      "dividend_yield_pct": 0.0,
+      "payout_ratio": 0.0,
+      "target_low": 118.0,
+      "target_mean": 221.06897,
+      "target_high": 450.0,
+      "target_median": 225.0,
+      "recommendation_key": "buy",
+      "recommendation_mean": 1.78947,
+      "number_of_analysts": 29,
+      "implied_upside_pct": 35.983865411822606,
+      "rec_breakdown": {
+        "strongBuy": 8,
+        "buy": 22,
+        "hold": 5,
+        "sell": 3,
+        "strongSell": 0
+      },
+      "next_earnings_date": "2026-11-03",
+      "earnings_high_est": 0.26,
+      "earnings_low_est": -0.11,
+      "earnings_avg_est": 0.1294,
+      "_ticker_obj": "yfinance.Ticker object <SPCX>"
+    },
+    "tech": {
+      "latest_price": 162.57,
+      "sma_20": 154.4015022277832,
+      "sma_50": 144.23800048828124,
+      "sma_200": null,
+      "rsi_14": 59.115653920032464,
+      "rsi_status": "BULLISH",
+      "macd_data": {
+        "macd": 5.477612612839664,
+        "signal": 4.540321953682115,
+        "histogram": 0.9372906591575489,
+        "crossover": "BULLISH"
+      },
+      "cross_status": "NEUTRAL",
+      "fifty_two_week_pos_pct": 47.794056233583625,
+      "high_52": 225.63999938964844,
+      "low_52": 104.83000183105469,
+      "returns": {
+        "1m": 7.51272586584113,
+        "3m": 19.466488692315732,
+        "6m": 0.0,
+        "1y": 0.0
+      },
+      "technical_score": 85.0,
+      "signals": [
+        "Price is 12.7% above 50-day SMA (Bullish)",
+        "MACD histogram indicates positive bullish momentum"
+      ]
+    },
+    "sent": {
+      "combined_polarity": 0.087,
+      "sentiment_score": 53.5,
+      "label": "BULLISH",
+      "news_stats": {
+        "polarity": 0.12414141414141414,
+        "subjectivity": 0.22232323232323234,
+        "positive_count": 4,
+        "negative_count": 0,
+        "neutral_count": 11,
+        "total": 15
+      },
+      "reddit_stats": {
+        "polarity": 0.0,
+        "subjectivity": 0.0,
+        "positive_count": 0,
+        "negative_count": 0,
+        "neutral_count": 0
+      },
+      "headline_count": 15,
+      "positive_highlights": [
+        "SPCX to Acquire 800 MHz Spectrum for Superior Network: Buy the Stock? - TradingView",
+        "Elon Musk\u2019s SpaceX Could Pay Off for Investors Before Tesla Ever Did, Says Jim Cramer \u2014 Top Investment Bank Sees Over 37% Upside for SPCX Investors (UPDATED) - Yahoo Finance",
+        "Here's What a $5,000 Investment in SpaceX Stock Could Be Worth in 3 Years - The Motley Fool"
+      ],
+      "negative_highlights": [],
+      "recent_headlines": [
+        "Here's the 1 Thing I'd Wait to See Before Buying SpaceX Stock. - Yahoo Finance",
+        "SpaceX Stock Pressured Despite Its Wireless Hopes as Credit Risk Jumps - Benzinga",
+        "Can You Buy SpaceX Stock? Yes, Ticker SPCX on the Nasdaq Since June 2026 - KeepTrack",
+        "Musk promises affordable Starlink service in India as Reliance Jio preps $106B IPO (SPCX:NASDAQ) - Seeking Alpha",
+        "SPCX to Acquire 800 MHz Spectrum for Superior Network: Buy the Stock? - TradingView"
+      ]
+    },
+    "qual": {
+      "priced_in": {
+        "valuation_tier": "Moderate",
+        "priced_in_points": [
+          "Market pricing reflects baseline sector performance."
+        ]
+      },
+      "macro_policy": {
+        "macro_factors": [
+          "Operating in United States under Federal Reserve (FED) interest rate policy environment.",
+          "Performance closely aligned with overall United States economic trajectory."
+        ],
+        "policy_risks": [
+          "Standard corporate governance and trade policy conditions apply."
         ]
       },
       "moat": {
         "moat_tier": "Narrow Moat",
         "moat_score": 50.0,
         "reasons": [
-          "Low Return on Equity (ROE: 4.7%), indicating margin pressure or weak capital efficiency.",
-          "Mega-cap scale ($1.51T) provides massive distribution and cost advantages."
+          "Thin net profit margin (-35.7%), making company vulnerable to cost inflation.",
+          "Mega-cap scale ($2.14T) provides massive distribution and cost advantages."
         ]
       },
       "qualitative_score": 50.0
     },
     "sig": {
-      "composite_score": 54.8,
-      "signal": "HOLD",
-      "confidence_pct": 69.6,
+      "composite_score": 66.6,
+      "signal": "BUY",
+      "confidence_pct": 66.3,
       "pillar_scores": {
-        "fundamentals": 75.0,
-        "valuation": 11.0,
-        "technicals": 61.8,
-        "sentiment": 53.3,
-        "analyst": 77.0,
+        "fundamentals": 73.0,
+        "valuation": 38.0,
+        "technicals": 85.0,
+        "sentiment": 53.5,
+        "analyst": 100.0,
         "macro_moat": 50.0
       },
       "key_positives": [
-        "Strong YoY revenue growth (25.5%)",
-        "Low debt-to-equity ratio (18.4)",
+        "Strong YoY revenue growth (91.9%)",
+        "Low debt-to-equity ratio (31.2)",
         "Positive free cash flow generation",
-        "Bullish analyst consensus (Buy)"
+        "Significant price target upside (+36.0%)"
       ],
       "key_risks": [
-        "Subpar Return on Equity (4.7%)",
-        "High P/E ratio (354.4x)",
-        "Elevated Forward P/E (175.4x)",
-        "High PEG ratio (4.58x)"
-      ]
-    }
-  },
-  "AMD": {
-    "data": {
-      "symbol": "AMD",
-      "company_name": "Advanced Micro Devices, Inc.",
-      "exchange_info": {
-        "country": "United States",
-        "exchange": "NYSE/NASDAQ",
-        "central_bank": "Federal Reserve (FED)",
-        "currency_symbol": "$"
-      },
-      "currency": "USD",
-      "sector": "Technology",
-      "industry": "Semiconductors",
-      "summary": "Advanced Micro Devices, Inc. operates as a semiconductor company internationally. It operates in three segments: Data Center, Client and Gaming, and Embedded. The company offers artificial intelligence (AI) accelerators, microprocessors, and graphics processing units (GPUs) as standalone devices or as incorporated into accelerated processing units, chipsets, and data center and professional GPUs; and embedded processors and semi-custom system-on-chip (SoC) products, microprocessor and SoC development services and technology, data processing units, field programmable gate arrays (FPGA), system on modules, AI network interface cards, and adaptive SoC products. It provides processors under the AMD Ryzen, AMD Ryzen AI, AMD Ryzen PRO, AMD Ryzen Threadripper, AMD Ryzen Threadripper PRO, AMD Athlon, and AMD PRO A-Series brands; graphics under the AMD Radeon graphics and AMD Embedded Radeon graphics; professional graphics under the AMD Radeon Pro graphics brand; and AI and general-purpose compute infrastructure for hyperscale providers. The company offers data center graphics under the AMD Instinct accelerators and Radeon PRO V-series brands; server microprocessors under the AMD EPYC brand; low power solutions under the AMD Athlon, AMD Geode, AMD Ryzen, AMD EPYC, and AMD R-Series and G-Series brands; FPGA products under the Virtex-6, Virtex-7, Virtex UltraScale+, Kintex-7, Kintex UltraScale, Kintex UltraScale+, Artix-7, Artix UltraScale+, Spartan-6, and Spartan-7 brands; adaptive SOCs under the Zynq-7000, Zynq UltraScale+ MPSoC, Zynq UltraScale+ RFSoCs, Versal HBM, Versal Premium, Versal Prime, Versal AI Core, Versal AI Edge, Vitis, and Vivado brands; and compute and network acceleration board products under the Alveo and Pensando brands. It serves original equipment and design manufacturers, public cloud service providers, system integrators, distributors, and add-in-board manufacturers. The company was incorporated in 1969 and is headquartered in Santa Clara, California.",
-      "current_price": 608.1,
-      "previous_close": 620.68,
-      "fifty_two_week_high": 658.52,
-      "fifty_two_week_low": 188.22,
-      "volume": 13733349,
-      "avg_volume": 23106220,
-      "pe_ratio": 155.12755,
-      "forward_pe": 38.678555,
-      "peg_ratio": 0.61,
-      "price_to_sales": 24.033602,
-      "price_to_book": 14.762933,
-      "ev_to_ebitda": 102.894,
-      "market_cap": 992708001792,
-      "enterprise_value": 983873093632,
-      "eps_trailing": 3.92,
-      "eps_forward": 15.72189,
-      "earnings_growth": 1.595,
-      "revenue_growth": 0.501,
-      "total_revenue": 41305001984,
-      "net_income": 6469000192,
-      "profit_margins": 0.15577,
-      "operating_margins": 0.1725,
-      "return_on_equity": 0.10196,
-      "return_on_assets": 0.05128,
-      "total_debt": 4276000000,
-      "total_cash": 13111000064,
-      "debt_to_equity": 6.361,
-      "current_ratio": 2.609,
-      "quick_ratio": 1.688,
-      "free_cash_flow": 8841499648,
-      "dividend_yield_pct": 0.0,
-      "payout_ratio": 0.0,
-      "target_low": 365.0,
-      "target_mean": 636.208,
-      "target_high": 1250.0,
-      "target_median": 635.5,
-      "recommendation_key": "strong_buy",
-      "recommendation_mean": 1.49091,
-      "number_of_analysts": 50,
-      "implied_upside_pct": 4.622266074658764,
-      "rec_breakdown": {
-        "strongBuy": 5,
-        "buy": 39,
-        "hold": 11,
-        "sell": 0,
-        "strongSell": 0
-      },
-      "next_earnings_date": "2026-11-03",
-      "earnings_high_est": 2.03,
-      "earnings_low_est": 1.72,
-      "earnings_avg_est": 1.92939,
-      "_ticker_obj": "yfinance.Ticker object <AMD>"
-    },
-    "tech": {
-      "latest_price": 608.1,
-      "sma_20": 598.0729995727539,
-      "sma_50": 528.9209997558594,
-      "sma_200": 385.3190502166748,
-      "rsi_14": 47.42323761916228,
-      "rsi_status": "NEUTRAL",
-      "macd_data": {
-        "macd": 30.920114421551375,
-        "signal": 33.18847674874188,
-        "histogram": -2.268362327190502,
-        "crossover": "BEARISH_CROSS"
-      },
-      "cross_status": "GOLDEN_CROSS",
-      "fifty_two_week_pos_pct": 89.27917976436123,
-      "high_52": 658.52001953125,
-      "low_52": 188.22000122070312,
-      "returns": {
-        "1m": 17.819152974466057,
-        "3m": 10.940834215052476,
-        "6m": 146.36389235058235,
-        "1y": 182.96883074501946
-      },
-      "technical_score": 70.0,
-      "signals": [
-        "Price is 15.0% above 50-day SMA (Bullish)",
-        "50-day SMA is above 200-day SMA (Golden Cross)",
-        "MACD histogram indicates negative bearish momentum"
-      ]
-    },
-    "sent": {
-      "combined_polarity": 0.194,
-      "sentiment_score": 57.8,
-      "label": "BULLISH",
-      "news_stats": {
-        "polarity": 0.27704585537918874,
-        "subjectivity": 0.49018298059964704,
-        "positive_count": 15,
-        "negative_count": 0,
-        "neutral_count": 0,
-        "total": 15
-      },
-      "reddit_stats": {
-        "polarity": 0.0,
-        "subjectivity": 0.0,
-        "positive_count": 0,
-        "negative_count": 0,
-        "neutral_count": 0
-      },
-      "headline_count": 15,
-      "positive_highlights": [
-        "Advanced Micro Devices, Inc. (AMD) Is a Trending Stock: Facts to Know Before Betting on It - Yahoo! Finance Canada",
-        "Advanced Micro Devices vs. Qualcomm: Which Technology Stock Is a Better Buy in 2026? - The Motley Fool",
-        "Advanced Micro Devices (AMD) Stock Moves 1.34%: What You Should Know - Yahoo Finance"
-      ],
-      "negative_highlights": [],
-      "recent_headlines": [
-        "Why Advanced Micro Devices (AMD) Stock Is Down Today - Quiver Quantitative",
-        "Advanced Micro Devices (NASDAQ:AMD) Stock Price Down 2% - What's Next? - MarketBeat",
-        "Why Advanced Micro Devices (AMD) Outpaced the Stock Market Today - Yahoo Finance",
-        "Advanced Micro Devices vs. Qualcomm: Which Technology Stock Is a Better Buy in 2026? - The Motley Fool",
-        "AMD: Too Expensive To Be Worth It Despite Unique Position As CPU Leader - Seeking Alpha"
-      ]
-    },
-    "qual": {
-      "priced_in": {
-        "valuation_tier": "High Growth Premium",
-        "priced_in_points": [
-          "High P/E ratio indicates market has priced in strong future earnings acceleration.",
-          "Forward P/E is 75.1% lower than trailing P/E, pricing in robust earnings recovery/growth.",
-          "PEG ratio of 0.61 suggests stock may be undervalued relative to expected growth."
-        ]
-      },
-      "macro_policy": {
-        "macro_factors": [
-          "Operating in United States under Federal Reserve (FED) interest rate policy environment.",
-          "Consumer sentiment and discretionary spending impact demand during inflation/rate shifts."
-        ],
-        "policy_risks": [
-          "Antitrust oversight, data privacy laws, and international tariff trade policies affect cross-border supply chains."
-        ]
-      },
-      "moat": {
-        "moat_tier": "Wide Moat",
-        "moat_score": 80.0,
-        "reasons": [
-          "High net profit margin (15.6%), demonstrating pricing power.",
-          "Mega-cap scale ($992.71B) provides massive distribution and cost advantages."
-        ]
-      },
-      "qualitative_score": 68.0
-    },
-    "sig": {
-      "composite_score": 72.0,
-      "signal": "BUY",
-      "confidence_pct": 78.3,
-      "pillar_scores": {
-        "fundamentals": 93.0,
-        "valuation": 50.0,
-        "technicals": 70.0,
-        "sentiment": 57.8,
-        "analyst": 85.0,
-        "macro_moat": 68.0
-      },
-      "key_positives": [
-        "Strong YoY revenue growth (50.1%)",
-        "Low debt-to-equity ratio (6.4)",
-        "Positive free cash flow generation",
-        "Favorable PEG ratio (0.61x < 1.0)"
-      ],
-      "key_risks": [
-        "High P/E ratio (155.1x)"
+        "Thin profit margin (-35.7%)",
+        "Elevated Forward P/E (81.7x)"
       ]
     }
   }
