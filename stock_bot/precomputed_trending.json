@@ -1,4 +1,190 @@
 {
+  "MU": {
+    "data": {
+      "symbol": "MU",
+      "company_name": "Micron Technology, Inc.",
+      "exchange_info": {
+        "country": "United States",
+        "exchange": "NYSE/NASDAQ",
+        "central_bank": "Federal Reserve (FED)",
+        "currency_symbol": "$"
+      },
+      "currency": "USD",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "summary": "Micron Technology, Inc. engages in the provision of semiconductor memory and storage products in the United States, Taiwan, Mainland China, other Asia Pacific countries, Japan, Europe, and internationally. It operates through Cloud Memory Business Unit, Core Data Center Business Unit, Mobile and Client Business Unit, and Automotive and Embedded Business Unit segments. The company provides dynamic random access memory (DRAM) products, including High-Bandwidth Memory, doublie data rate, low-power DRAM, and graphics DRAM products; NAND products comprising solid state drives, managed NAND, and multi-chip packages; and NOR products. The company sells its products under the Micron brand name and private labels through its own direct sales force, sales or representative offices, as well as through distributors, retailers, and independent sales representatives. Micron Technology, Inc. was founded in 1978 and is headquartered in Boise, Idaho.",
+      "current_price": 904.9,
+      "previous_close": 878.84,
+      "fifty_two_week_high": 1255.0,
+      "fifty_two_week_low": 192.4,
+      "volume": 25566435,
+      "avg_volume": 31039329,
+      "pe_ratio": 12.1740885,
+      "forward_pe": 4.373741,
+      "peg_ratio": 0.16,
+      "price_to_sales": 7.6870656,
+      "price_to_book": 7.3959956,
+      "ev_to_ebitda": 9.055,
+      "market_cap": 1023824887808,
+      "enterprise_value": 985569886208,
+      "eps_trailing": 74.33,
+      "eps_forward": 206.89381,
+      "earnings_growth": 10.595,
+      "revenue_growth": 3.793,
+      "total_revenue": 133188001792,
+      "net_income": 84968996864,
+      "profit_margins": 0.63796,
+      "operating_margins": 0.80678004,
+      "return_on_equity": 0.8826,
+      "return_on_assets": 0.44557,
+      "total_debt": 5178999808,
+      "total_cash": 43434000384,
+      "debt_to_equity": 3.743,
+      "current_ratio": 3.314,
+      "quick_ratio": 2.898,
+      "free_cash_flow": 29140250624,
+      "dividend_yield_pct": 7.000000000000001,
+      "payout_ratio": 0.0070999996,
+      "target_low": 361.0,
+      "target_mean": 1560.5652,
+      "target_high": 3000.0,
+      "target_median": 1550.0,
+      "recommendation_key": "strong_buy",
+      "recommendation_mean": 1.36735,
+      "number_of_analysts": 46,
+      "implied_upside_pct": 72.45719969057355,
+      "rec_breakdown": {
+        "strongBuy": 9,
+        "buy": 36,
+        "hold": 3,
+        "sell": 0,
+        "strongSell": 1
+      },
+      "next_earnings_date": "2026-12-23",
+      "earnings_high_est": 40.47,
+      "earnings_low_est": 35.85,
+      "earnings_avg_est": 38.27861,
+      "_ticker_obj": "yfinance.Ticker object <MU>"
+    },
+    "tech": {
+      "latest_price": 904.9,
+      "sma_20": 1025.9170959472656,
+      "sma_50": 983.52103515625,
+      "sma_200": 720.7215896606446,
+      "rsi_14": 29.78768777196288,
+      "rsi_status": "OVERSOLD",
+      "macd_data": {
+        "macd": -22.005502037083374,
+        "signal": 0.692975215157996,
+        "histogram": -22.69847725224137,
+        "crossover": "BEARISH"
+      },
+      "cross_status": "GOLDEN_CROSS",
+      "fifty_two_week_pos_pct": 67.08392453743562,
+      "high_52": 1254.6095437059498,
+      "low_52": 192.18172145941148,
+      "returns": {
+        "1m": -13.30678602896066,
+        "3m": -5.6736511307100335,
+        "6m": 101.4289888193519,
+        "1y": 338.1330259738331
+      },
+      "technical_score": 45.0,
+      "signals": [
+        "Price is 8.0% below 50-day SMA (Bearish)",
+        "50-day SMA is above 200-day SMA (Golden Cross)",
+        "RSI is oversold at 29.8 (Potential Rebound)",
+        "MACD histogram indicates negative bearish momentum"
+      ]
+    },
+    "sent": {
+      "combined_polarity": 0.054,
+      "sentiment_score": 52.2,
+      "label": "NEUTRAL",
+      "news_stats": {
+        "polarity": 0.07716931216931217,
+        "subjectivity": 0.3034656084656085,
+        "positive_count": 8,
+        "negative_count": 1,
+        "neutral_count": 6,
+        "total": 15
+      },
+      "reddit_stats": {
+        "polarity": 0.0,
+        "subjectivity": 0.0,
+        "positive_count": 0,
+        "negative_count": 0,
+        "neutral_count": 0
+      },
+      "headline_count": 15,
+      "positive_highlights": [
+        "Micron Technology (NASDAQ:MU) Screens as a Decent Value Stock Backed by Strong Profitability - ChartMill",
+        "Broadcom Vs. Micron: Which Semiconductor Stock Wins the AI Sell-Off? - Benzinga",
+        "Micron: CXMT Sparks Fear, HBM Fuels Higher Margins (NASDAQ:MU) - Seeking Alpha"
+      ],
+      "negative_highlights": [
+        "Micron Technology Inc Stock (MU) Opened Up by 3.88% on Oct 19: Drivers Behind the Movement - TradingKey"
+      ],
+      "recent_headlines": [
+        "Micron Just Broke Support, So Buy MUU Into Strength (NASDAQ:MU) - Seeking Alpha",
+        "Micron Technology Inc Stock (MU) Opened Up by 3.88% on Oct 19: Drivers Behind the Movement - TradingKey",
+        "Micron Technology (MU) Stock Is Down 24% From Its Peak. History Says $10,000 Invested Right Now Could Be Worth This Much by 2030 - Yahoo Finance",
+        "Micron: Significant Upside Potential, But Not Without Risks (NASDAQ:MU) - Seeking Alpha",
+        "Micron Technology (MU) and Major Tech Stocks See Gains Amid Semi - GuruFocus"
+      ]
+    },
+    "qual": {
+      "priced_in": {
+        "valuation_tier": "Value / Low Expectation",
+        "priced_in_points": [
+          "Low P/E ratio suggests market is pricing in modest growth or cyclical headwinds.",
+          "Forward P/E is 64.1% lower than trailing P/E, pricing in robust earnings recovery/growth.",
+          "PEG ratio of 0.16 suggests stock may be undervalued relative to expected growth."
+        ]
+      },
+      "macro_policy": {
+        "macro_factors": [
+          "Operating in United States under Federal Reserve (FED) interest rate policy environment.",
+          "Consumer sentiment and discretionary spending impact demand during inflation/rate shifts."
+        ],
+        "policy_risks": [
+          "Antitrust oversight, data privacy laws, and international tariff trade policies affect cross-border supply chains."
+        ]
+      },
+      "moat": {
+        "moat_tier": "Wide Moat",
+        "moat_score": 100.0,
+        "reasons": [
+          "Strong Return on Equity (ROE: 88.3%), indicating high capital efficiency and competitive advantage.",
+          "High net profit margin (63.8%), demonstrating pricing power.",
+          "Mega-cap scale ($1.02T) provides massive distribution and cost advantages."
+        ]
+      },
+      "qualitative_score": 80.0
+    },
+    "sig": {
+      "composite_score": 81.6,
+      "signal": "HOLD",
+      "confidence_pct": 69.1,
+      "pillar_scores": {
+        "fundamentals": 100.0,
+        "valuation": 95.0,
+        "technicals": 45.0,
+        "sentiment": 52.2,
+        "analyst": 100.0,
+        "macro_moat": 80.0
+      },
+      "key_positives": [
+        "Exceptional Return on Equity (88.3%)",
+        "High profit margin (63.8%)",
+        "Strong YoY revenue growth (379.3%)",
+        "Low debt-to-equity ratio (3.7)"
+      ],
+      "key_risks": [
+        "Price is 8.0% below 50-day SMA (Bearish)"
+      ]
+    }
+  },
   "CRWV": {
     "data": {
       "symbol": "CRWV",
@@ -18,7 +204,7 @@
       "fifty_two_week_high": 141.79,
       "fifty_two_week_low": 59.25,
       "volume": 100198767,
-      "avg_volume": 32270095,
+      "avg_volume": 33493520,
       "pe_ratio": null,
       "forward_pe": -33.096516,
       "peg_ratio": null,
@@ -98,15 +284,15 @@
       ]
     },
     "sent": {
-      "combined_polarity": -0.013,
-      "sentiment_score": 49.5,
+      "combined_polarity": -0.018,
+      "sentiment_score": 49.3,
       "label": "NEUTRAL",
       "news_stats": {
-        "polarity": -0.01888888888888889,
-        "subjectivity": 0.19749999999999998,
+        "polarity": -0.025555555555555554,
+        "subjectivity": 0.2141666666666667,
         "positive_count": 2,
-        "negative_count": 2,
-        "neutral_count": 11,
+        "negative_count": 3,
+        "neutral_count": 10,
         "total": 15
       },
       "reddit_stats": {
@@ -122,15 +308,16 @@
         "CoreWeave Remains The Most Obvious Short In This Market (NASDAQ:CRWV) - Seeking Alpha"
       ],
       "negative_highlights": [
-        "CoreWeave: Why The Market Got It Wrong (Rating Upgrade) (NASDAQ:CRWV) - Seeking Alpha",
-        "What's Wrong With CoreWeave Stock? - Yahoo Finance"
+        "CoreWeave stock sinks as AI financing worries linger - Yahoo Finance",
+        "What's Wrong With CoreWeave Stock? - Yahoo Finance",
+        "CoreWeave: Why The Market Got It Wrong (Rating Upgrade) (NASDAQ:CRWV) - Seeking Alpha"
       ],
       "recent_headlines": [
-        "CoreWeave stock rebounds on Goldman Sachs upgrade to Buy - Yahoo Finance",
         "CoreWeave stock attempts to rebound on Goldman Sachs upgrade to Buy - Yahoo Finance",
+        "CoreWeave stock rebounds on Goldman Sachs upgrade to Buy - Yahoo Finance",
         "CoreWeave Remains The Most Obvious Short In This Market (NASDAQ:CRWV) - Seeking Alpha",
-        "CoreWeave (CRWV) Stock Whipsaws As Debt Jitters Clash With AI Growth Bets - Timothy Sykes",
-        "CoreWeave Dropped 20% Last Week. Is It Time to Panic or Buy? - Yahoo Finance"
+        "CRWV Stock Tumbles Premarket: HSBC Sees 36% Downside For CoreWeave As AI Boom Faces Debt Test - Yahoo Finance",
+        "CoreWeave: Why The Market Got It Wrong (Rating Upgrade) (NASDAQ:CRWV) - Seeking Alpha"
       ]
     },
     "qual": {
@@ -160,14 +347,14 @@
       "qualitative_score": 32.0
     },
     "sig": {
-      "composite_score": 44.5,
+      "composite_score": 44.4,
       "signal": "HOLD",
       "confidence_pct": 59.7,
       "pillar_scores": {
         "fundamentals": 12.0,
         "valuation": 65.0,
         "technicals": 22.0,
-        "sentiment": 49.5,
+        "sentiment": 49.3,
         "analyst": 97.0,
         "macro_moat": 32.0
       },
@@ -182,194 +369,6 @@
         "Thin profit margin (-25.4%)",
         "Elevated debt-to-equity ratio (1027.3)",
         "Current ratio below 1.0 (0.46)"
-      ]
-    }
-  },
-  "MU": {
-    "data": {
-      "symbol": "MU",
-      "company_name": "Micron Technology, Inc.",
-      "exchange_info": {
-        "country": "United States",
-        "exchange": "NYSE/NASDAQ",
-        "central_bank": "Federal Reserve (FED)",
-        "currency_symbol": "$"
-      },
-      "currency": "USD",
-      "sector": "Technology",
-      "industry": "Semiconductors",
-      "summary": "Micron Technology, Inc. engages in the provision of semiconductor memory and storage products in the United States, Taiwan, Mainland China, other Asia Pacific countries, Japan, Europe, and internationally. It operates through Cloud Memory Business Unit, Core Data Center Business Unit, Mobile and Client Business Unit, and Automotive and Embedded Business Unit segments. The company provides dynamic random access memory (DRAM) products, including High-Bandwidth Memory, doublie data rate, low-power DRAM, and graphics DRAM products; NAND products comprising solid state drives, managed NAND, and multi-chip packages; and NOR products. The company sells its products under the Micron brand name and private labels through its own direct sales force, sales or representative offices, as well as through distributors, retailers, and independent sales representatives. Micron Technology, Inc. was founded in 1978 and is headquartered in Boise, Idaho.",
-      "current_price": 904.9,
-      "previous_close": 878.84,
-      "fifty_two_week_high": 1255.0,
-      "fifty_two_week_low": 192.4,
-      "volume": 25566435,
-      "avg_volume": 31121901,
-      "pe_ratio": 12.1740885,
-      "forward_pe": 4.373741,
-      "peg_ratio": 0.16,
-      "price_to_sales": 7.6870656,
-      "price_to_book": 7.3959956,
-      "ev_to_ebitda": 9.055,
-      "market_cap": 1023824887808,
-      "enterprise_value": 985569886208,
-      "eps_trailing": 74.33,
-      "eps_forward": 206.89381,
-      "earnings_growth": 10.595,
-      "revenue_growth": 3.793,
-      "total_revenue": 133188001792,
-      "net_income": 84968996864,
-      "profit_margins": 0.63796,
-      "operating_margins": 0.80678004,
-      "return_on_equity": 0.8826,
-      "return_on_assets": 0.44557,
-      "total_debt": 5178999808,
-      "total_cash": 43434000384,
-      "debt_to_equity": 3.743,
-      "current_ratio": 3.314,
-      "quick_ratio": 2.898,
-      "free_cash_flow": 29140250624,
-      "dividend_yield_pct": 7.000000000000001,
-      "payout_ratio": 0.0070999996,
-      "target_low": 361.0,
-      "target_mean": 1560.5652,
-      "target_high": 3000.0,
-      "target_median": 1550.0,
-      "recommendation_key": "strong_buy",
-      "recommendation_mean": 1.36735,
-      "number_of_analysts": 46,
-      "implied_upside_pct": 72.45719969057355,
-      "rec_breakdown": {
-        "strongBuy": 9,
-        "buy": 36,
-        "hold": 3,
-        "sell": 0,
-        "strongSell": 1
-      },
-      "next_earnings_date": "2026-12-23",
-      "earnings_high_est": 40.47,
-      "earnings_low_est": 35.85,
-      "earnings_avg_est": 38.27861,
-      "_ticker_obj": "yfinance.Ticker object <MU>"
-    },
-    "tech": {
-      "latest_price": 904.9,
-      "sma_20": 1025.9170959472656,
-      "sma_50": 983.52103515625,
-      "sma_200": 720.7215896606446,
-      "rsi_14": 29.78768777196288,
-      "rsi_status": "OVERSOLD",
-      "macd_data": {
-        "macd": -22.005502037083374,
-        "signal": 0.6929752151579773,
-        "histogram": -22.698477252241354,
-        "crossover": "BEARISH"
-      },
-      "cross_status": "GOLDEN_CROSS",
-      "fifty_two_week_pos_pct": 67.08392453743562,
-      "high_52": 1254.6095437059498,
-      "low_52": 192.18172145941148,
-      "returns": {
-        "1m": -13.30678602896066,
-        "3m": -5.6736511307100335,
-        "6m": 101.4289888193519,
-        "1y": 338.1330259738331
-      },
-      "technical_score": 45.0,
-      "signals": [
-        "Price is 8.0% below 50-day SMA (Bearish)",
-        "50-day SMA is above 200-day SMA (Golden Cross)",
-        "RSI is oversold at 29.8 (Potential Rebound)",
-        "MACD histogram indicates negative bearish momentum"
-      ]
-    },
-    "sent": {
-      "combined_polarity": 0.091,
-      "sentiment_score": 53.6,
-      "label": "BULLISH",
-      "news_stats": {
-        "polarity": 0.1293148148148148,
-        "subjectivity": 0.3412407407407408,
-        "positive_count": 7,
-        "negative_count": 3,
-        "neutral_count": 5,
-        "total": 15
-      },
-      "reddit_stats": {
-        "polarity": 0.0,
-        "subjectivity": 0.0,
-        "positive_count": 0,
-        "negative_count": 0,
-        "neutral_count": 0
-      },
-      "headline_count": 15,
-      "positive_highlights": [
-        "Why Micron Is Betting $35 Billion on Its Own Stock - Barchart.com",
-        "Prediction: This Will Be Micron's Stock Price By the End of 2027 - The Motley Fool",
-        "Jim Cramer On Micron (MU) & Intel (INTC): Nothing Is Working Despite Good Businesses & Strong Quarters - Yahoo Finance"
-      ],
-      "negative_highlights": [
-        "Micron and other chip stocks spring back to life after bruising selloff - MarketWatch",
-        "Micron Technology Stock: Is It a No-Brainer Buy at Less Than $900? - Yahoo Finance",
-        "President Trump Sells Micron Stock and Buys Another Mega-Cap Artificial Intelligence (AI) Stock - Yahoo Finance"
-      ],
-      "recent_headlines": [
-        "Does Micron (MU) Have an Economic Moat at All? - Yahoo Finance",
-        "Micron Stock Rallies as China Memory Chip Rival Forecasts Revenue Boom - Barron's",
-        "Prediction: This Will Be Micron's Stock Price By the End of 2027 - The Motley Fool",
-        "Why Micron Is Betting $35 Billion on Its Own Stock - Barchart.com",
-        "Micron: The Undisputed King Of Memory Chips (NASDAQ:MU) - Seeking Alpha"
-      ]
-    },
-    "qual": {
-      "priced_in": {
-        "valuation_tier": "Value / Low Expectation",
-        "priced_in_points": [
-          "Low P/E ratio suggests market is pricing in modest growth or cyclical headwinds.",
-          "Forward P/E is 64.1% lower than trailing P/E, pricing in robust earnings recovery/growth.",
-          "PEG ratio of 0.16 suggests stock may be undervalued relative to expected growth."
-        ]
-      },
-      "macro_policy": {
-        "macro_factors": [
-          "Operating in United States under Federal Reserve (FED) interest rate policy environment.",
-          "Consumer sentiment and discretionary spending impact demand during inflation/rate shifts."
-        ],
-        "policy_risks": [
-          "Antitrust oversight, data privacy laws, and international tariff trade policies affect cross-border supply chains."
-        ]
-      },
-      "moat": {
-        "moat_tier": "Wide Moat",
-        "moat_score": 100.0,
-        "reasons": [
-          "Strong Return on Equity (ROE: 88.3%), indicating high capital efficiency and competitive advantage.",
-          "High net profit margin (63.8%), demonstrating pricing power.",
-          "Mega-cap scale ($1.02T) provides massive distribution and cost advantages."
-        ]
-      },
-      "qualitative_score": 80.0
-    },
-    "sig": {
-      "composite_score": 81.8,
-      "signal": "HOLD",
-      "confidence_pct": 69.4,
-      "pillar_scores": {
-        "fundamentals": 100.0,
-        "valuation": 95.0,
-        "technicals": 45.0,
-        "sentiment": 53.6,
-        "analyst": 100.0,
-        "macro_moat": 80.0
-      },
-      "key_positives": [
-        "Exceptional Return on Equity (88.3%)",
-        "High profit margin (63.8%)",
-        "Strong YoY revenue growth (379.3%)",
-        "Low debt-to-equity ratio (3.7)"
-      ],
-      "key_risks": [
-        "Price is 8.0% below 50-day SMA (Bearish)"
       ]
     }
   },
@@ -392,16 +391,16 @@
       "fifty_two_week_high": 299.86,
       "fifty_two_week_low": 73.52,
       "volume": 26668076,
-      "avg_volume": 20968903,
-      "pe_ratio": 133.0,
+      "avg_volume": 21063292,
+      "pe_ratio": 128.9697,
       "forward_pe": -47.84697,
       "peg_ratio": 0.38,
-      "price_to_sales": 31.897003,
+      "price_to_sales": 34.152927,
       "price_to_book": 4.513016,
       "ev_to_ebitda": 189.212,
-      "market_cap": 43223629824,
+      "market_cap": 46280634368,
       "enterprise_value": 48816787456,
-      "eps_trailing": 1.28,
+      "eps_trailing": 1.32,
       "eps_forward": -3.55801,
       "earnings_growth": null,
       "revenue_growth": 4.54,
@@ -472,40 +471,40 @@
       ]
     },
     "sent": {
-      "combined_polarity": 0.038,
-      "sentiment_score": 51.5,
+      "combined_polarity": 0.033,
+      "sentiment_score": 51.3,
       "label": "NEUTRAL",
       "news_stats": {
         "polarity": 0.01975757575757576,
-        "subjectivity": 0.132969696969697,
+        "subjectivity": 0.1363030303030303,
         "positive_count": 2,
         "negative_count": 0,
         "neutral_count": 13,
         "total": 15
       },
       "reddit_stats": {
-        "polarity": 0.080508658008658,
-        "subjectivity": 0.3664177489177489,
-        "positive_count": 3,
+        "polarity": 0.0643181818181818,
+        "subjectivity": 0.3202272727272727,
+        "positive_count": 2,
         "negative_count": 1,
-        "neutral_count": 6,
+        "neutral_count": 7,
         "total": 10
       },
       "headline_count": 25,
       "positive_highlights": [
         "What's so good about NBIS? - Reddit",
-        "Am I missing something, or is nebius free money right now - Reddit",
-        "Nebius Group And 2 High Growth Insider Stocks To Watch - Yahoo Finance"
+        "Nebius Group And 2 High Growth Insider Stocks To Watch - Yahoo Finance",
+        "Nebius is Your New AI Sentiment Gauge For AI Debt and GPU Risks - Yahoo Finance"
       ],
       "negative_highlights": [
         "What is everyone invested in other than NBIS? - Reddit"
       ],
       "recent_headlines": [
-        "Nebius Group NBIS Stock Surges On AI Cloud Momentum - Timothy Sykes",
-        "Nebius is Your New AI Sentiment Gauge For AI Debt and GPU Risks - Yahoo Finance",
+        "Nebius Is Poised To Feast On The CoreWeave Rout (NASDAQ:NBIS) - Seeking Alpha",
         "Why Is Nebius Group Stock Falling Friday? - Benzinga",
-        "Nebius Group NV (NBIS) November 26 Puts Surge 48% as Shares Drop to $165.47 - GuruFocus",
-        "A director sold 7,260 Nebius Group (NBIS) shares in 19 transactions under a preset trading plan. - Stock Titan"
+        "Nebius Group N.V. (NBIS) - What Are Analysts Saying About This Stock? - MarketBeat",
+        "Nebius is Your New AI Sentiment Gauge For AI Debt and GPU Risks - Yahoo Finance",
+        "Nebius Group NBIS Stock Surges On AI Cloud Momentum - Timothy Sykes"
       ]
     },
     "qual": {
@@ -513,7 +512,7 @@
         "valuation_tier": "High Growth Premium",
         "priced_in_points": [
           "High P/E ratio indicates market has priced in strong future earnings acceleration.",
-          "Forward P/E is 136.0% lower than trailing P/E, pricing in robust earnings recovery/growth.",
+          "Forward P/E is 137.1% lower than trailing P/E, pricing in robust earnings recovery/growth.",
           "PEG ratio of 0.38 suggests stock may be undervalued relative to expected growth."
         ]
       },
@@ -543,7 +542,7 @@
         "fundamentals": 47.0,
         "valuation": 65.0,
         "technicals": 42.0,
-        "sentiment": 51.5,
+        "sentiment": 51.3,
         "analyst": 97.0,
         "macro_moat": 41.0
       },
@@ -556,7 +555,7 @@
       "key_risks": [
         "Subpar Return on Equity (0.6%)",
         "Negative free cash flow generation",
-        "High P/E ratio (133.0x)",
+        "High P/E ratio (129.0x)",
         "Price is 23.5% below 50-day SMA (Bearish)"
       ]
     }
@@ -580,7 +579,7 @@
       "fifty_two_week_high": 498.83,
       "fifty_two_week_low": 297.38,
       "volume": 38651173,
-      "avg_volume": 37828412,
+      "avg_volume": 37846003,
       "pe_ratio": 340.7963,
       "forward_pe": 169.73727,
       "peg_ratio": 3.61,
@@ -659,41 +658,38 @@
       ]
     },
     "sent": {
-      "combined_polarity": 0.035,
-      "sentiment_score": 51.4,
+      "combined_polarity": 0.016,
+      "sentiment_score": 50.7,
       "label": "NEUTRAL",
       "news_stats": {
-        "polarity": 0.016666666666666666,
-        "subjectivity": 0.21,
-        "positive_count": 1,
+        "polarity": 0.02333333333333333,
+        "subjectivity": 0.23666666666666666,
+        "positive_count": 2,
         "negative_count": 1,
-        "neutral_count": 13,
+        "neutral_count": 12,
         "total": 15
       },
       "reddit_stats": {
-        "polarity": 0.07733333333333334,
-        "subjectivity": 0.35683333333333334,
-        "positive_count": 3,
-        "negative_count": 1,
-        "neutral_count": 6,
-        "total": 10
+        "polarity": 0.0,
+        "subjectivity": 0.0,
+        "positive_count": 0,
+        "negative_count": 0,
+        "neutral_count": 0
       },
-      "headline_count": 25,
+      "headline_count": 15,
       "positive_highlights": [
-        "TSLA's fair value is about $55 per share - Reddit",
         "Tesla Inc Stock (TSLA) Moved Up by 3.53% on Oct 19: A Full Analysis - TradingKey",
-        "How high do you expect TSLA stock to reach? - Reddit"
+        "TSLA Stock Could Surge Nearly 1,100% by 2031, Cathie Wood\u2019s ARK Invest Says: Expects Tesla-SpaceX Merger - Benzinga"
       ],
       "negative_highlights": [
-        "Tesla, Inc. SEC Filing (Oct 19, 2026) - Stock Titan",
-        "I'm absolutely devastated at my sheer stupidity. - Reddit"
+        "Tesla, Inc. SEC Filing (Oct 19, 2026) - Stock Titan"
       ],
       "recent_headlines": [
-        "Tesla, Inc. $TSLA Stock Sold by Generali Investments Management Co LLC - MarketBeat",
-        "Tesla, Inc. SEC Filing (Oct 19, 2026) - Stock Titan",
+        "Tesla, Inc. $TSLA Stock: RWQ Financial Management Services Inc. Cuts Holdings - MarketBeat",
         "Tesla Stock At $4,400? Cathie Wood's ARK Pins Hopes On Robotaxis, Sees SpaceX Merger In 5 Years - TradingView",
-        "Tesla\u2019s Biggest Earnings Risk May Be Its Bullish Sentiment (NASDAQ:TSLA) - Seeking Alpha",
-        "Tesla Inc Stock (TSLA) Moved Up by 3.53% on Oct 19: A Full Analysis - TradingKey"
+        "Tesla, Inc. SEC Filing (Oct 19, 2026) - Stock Titan",
+        "TSLA Stock Could Surge Nearly 1,100% by 2031, Cathie Wood\u2019s ARK Invest Says: Expects Tesla-SpaceX Merger - Benzinga",
+        "Tesla\u2019s Biggest Earnings Risk May Be Its Bullish Sentiment (NASDAQ:TSLA) - Seeking Alpha"
       ]
     },
     "qual": {
@@ -725,14 +721,14 @@
       "qualitative_score": 50.0
     },
     "sig": {
-      "composite_score": 51.0,
+      "composite_score": 50.8,
       "signal": "HOLD",
       "confidence_pct": 69.1,
       "pillar_scores": {
         "fundamentals": 75.0,
         "valuation": 11.0,
         "technicals": 38.3,
-        "sentiment": 51.4,
+        "sentiment": 50.7,
         "analyst": 77.0,
         "macro_moat": 50.0
       },
@@ -747,6 +743,187 @@
         "High P/E ratio (340.8x)",
         "Elevated Forward P/E (169.7x)",
         "High PEG ratio (3.61x)"
+      ]
+    }
+  },
+  "SPCX": {
+    "data": {
+      "symbol": "SPCX",
+      "company_name": "Space Exploration Technologies Corp.",
+      "exchange_info": {
+        "country": "United States",
+        "exchange": "NYSE/NASDAQ",
+        "central_bank": "Federal Reserve (FED)",
+        "currency_symbol": "$"
+      },
+      "currency": "USD",
+      "sector": "Industrials",
+      "industry": "Aerospace & Defense",
+      "summary": "Space Exploration Technologies Corp. provides satellite-based broadband services in the United States, Ireland, Canada, and internationally. It operates through three operating segments: Space, Connectivity, and AI. The Space segment designs, manufactures, and launches reusable rockets to provide access to space. It also provides launch services for the deployment of payloads to intended orbits for commercial and government customers utilizing Falcon 9 and Falcon Heavy; and engages in the launch and development for the development of spacecraft and the provision of launch and mission services for government agency space programs utilizing Falcon 9, Falcon Heavy, Starship, and Dragon. Its company's Connectivity segment operates broadband data and communications network by various Starlink satellites in low-earth orbit, delivering connectivity to various consumers, enterprise, and government customers. The company's AI segment operates a vertically integrated AI platform spanning a frontier LLM Grok; AI solutions for consumer and enterprise customers; X, a real-time information, entertainment, and free speech platform; and AI computational infrastructure. Space Exploration Technologies Corp. was incorporated in 2002 and is based in Starbase, Texas.",
+      "current_price": 147.96,
+      "previous_close": 146.03,
+      "fifty_two_week_high": 225.64,
+      "fifty_two_week_low": 104.83,
+      "volume": 73484844,
+      "avg_volume": 95159984,
+      "pe_ratio": null,
+      "forward_pe": 72.33617,
+      "peg_ratio": null,
+      "price_to_sales": 84.637054,
+      "price_to_book": 15.323115,
+      "ev_to_ebitda": 651.255,
+      "market_cap": 1950376263680,
+      "enterprise_value": 3840451280896,
+      "eps_trailing": -1.1,
+      "eps_forward": 2.04545,
+      "earnings_growth": null,
+      "revenue_growth": 0.919,
+      "total_revenue": 23043999744,
+      "net_income": -8888999936,
+      "profit_margins": -0.35661998,
+      "operating_margins": -0.01804,
+      "return_on_equity": null,
+      "return_on_assets": null,
+      "total_debt": 39708000256,
+      "total_cash": 100009000960,
+      "debt_to_equity": 31.211,
+      "current_ratio": 5.115,
+      "quick_ratio": 4.949,
+      "free_cash_flow": 9900000256,
+      "dividend_yield_pct": 0.0,
+      "payout_ratio": 0.0,
+      "target_low": 118.0,
+      "target_mean": 222.70969,
+      "target_high": 450.0,
+      "target_median": 225.0,
+      "recommendation_key": "buy",
+      "recommendation_mean": 1.78947,
+      "number_of_analysts": 31,
+      "implied_upside_pct": 50.520201405785336,
+      "rec_breakdown": {
+        "strongBuy": 8,
+        "buy": 22,
+        "hold": 5,
+        "sell": 3,
+        "strongSell": 0
+      },
+      "next_earnings_date": "2026-10-20",
+      "earnings_high_est": 0.26,
+      "earnings_low_est": -0.11,
+      "earnings_avg_est": 0.13302,
+      "_ticker_obj": "yfinance.Ticker object <SPCX>"
+    },
+    "tech": {
+      "latest_price": 147.96,
+      "sma_20": 155.0435012817383,
+      "sma_50": 148.4420004272461,
+      "sma_200": null,
+      "rsi_14": 48.96406649654269,
+      "rsi_status": "NEUTRAL",
+      "macd_data": {
+        "macd": 1.0180303567143483,
+        "signal": 3.158259748107021,
+        "histogram": -2.1402293913926727,
+        "crossover": "BEARISH"
+      },
+      "cross_status": "NEUTRAL",
+      "fifty_two_week_pos_pct": 35.700686235033615,
+      "high_52": 225.63999938964844,
+      "low_52": 104.83000183105469,
+      "returns": {
+        "1m": -2.5617424742570116,
+        "3m": 28.37063791229162,
+        "6m": 0.0,
+        "1y": 0.0
+      },
+      "technical_score": 39.5,
+      "signals": [
+        "Price is 0.3% below 50-day SMA (Bearish)",
+        "MACD histogram indicates negative bearish momentum"
+      ]
+    },
+    "sent": {
+      "combined_polarity": 0.065,
+      "sentiment_score": 52.6,
+      "label": "NEUTRAL",
+      "news_stats": {
+        "polarity": 0.09333333333333332,
+        "subjectivity": 0.31333333333333335,
+        "positive_count": 4,
+        "negative_count": 0,
+        "neutral_count": 11,
+        "total": 15
+      },
+      "reddit_stats": {
+        "polarity": 0.0,
+        "subjectivity": 0.0,
+        "positive_count": 0,
+        "negative_count": 0,
+        "neutral_count": 0
+      },
+      "headline_count": 15,
+      "positive_highlights": [
+        "Prediction: This Will Be SpaceX's Stock Price By the End of 2027 - The Motley Fool",
+        "Here's What $5,000 Invested in SpaceX Could Be Worth in 2030 - Yahoo Finance",
+        "SpaceX Analysis: Is SPCX Headed Higher? - SpaceX (NASDAQ:SPCX) - Benzinga"
+      ],
+      "negative_highlights": [],
+      "recent_headlines": [
+        "SpaceX Investors, Mark Your Calendars: A Massive Stock Lockup Expiration Is Coming - Yahoo Finance",
+        "Prediction: This Will Be SpaceX's Stock Price By the End of 2027 - The Motley Fool",
+        "Key facts: NASDAQ:SPCX $7.8B revenue; Musk share gift; price ~$146 - TradingView",
+        "SpaceX Investors Have Three Big Questions for Q3 Earnings Call - SpaceX (NASDAQ:SPCX) - Benzinga",
+        "SpaceX $SPCX Stock: Blue Zone Wealth Advisors LLC Boosts Position - MarketBeat"
+      ]
+    },
+    "qual": {
+      "priced_in": {
+        "valuation_tier": "Moderate",
+        "priced_in_points": [
+          "Market pricing reflects baseline sector performance."
+        ]
+      },
+      "macro_policy": {
+        "macro_factors": [
+          "Operating in United States under Federal Reserve (FED) interest rate policy environment.",
+          "Performance closely aligned with overall United States economic trajectory."
+        ],
+        "policy_risks": [
+          "Standard corporate governance and trade policy conditions apply."
+        ]
+      },
+      "moat": {
+        "moat_tier": "Narrow Moat",
+        "moat_score": 50.0,
+        "reasons": [
+          "Thin net profit margin (-35.7%), making company vulnerable to cost inflation.",
+          "Mega-cap scale ($1.95T) provides massive distribution and cost advantages."
+        ]
+      },
+      "qualitative_score": 50.0
+    },
+    "sig": {
+      "composite_score": 59.7,
+      "signal": "HOLD",
+      "confidence_pct": 66.0,
+      "pillar_scores": {
+        "fundamentals": 73.0,
+        "valuation": 38.0,
+        "technicals": 39.5,
+        "sentiment": 52.6,
+        "analyst": 100.0,
+        "macro_moat": 50.0
+      },
+      "key_positives": [
+        "Strong YoY revenue growth (91.9%)",
+        "Low debt-to-equity ratio (31.2)",
+        "Positive free cash flow generation",
+        "Significant price target upside (+50.5%)"
+      ],
+      "key_risks": [
+        "Thin profit margin (-35.7%)",
+        "Elevated Forward P/E (72.3x)",
+        "Price is 0.3% below 50-day SMA (Bearish)"
       ]
     }
   },
@@ -769,7 +946,7 @@
       "fifty_two_week_high": 287.2,
       "fifty_two_week_low": 196.0,
       "volume": 54744203,
-      "avg_volume": 38752600,
+      "avg_volume": 39025050,
       "pe_ratio": 21.11424,
       "forward_pe": 25.131308,
       "peg_ratio": 1.45,
@@ -848,15 +1025,15 @@
       ]
     },
     "sent": {
-      "combined_polarity": 0.081,
-      "sentiment_score": 53.2,
-      "label": "BULLISH",
+      "combined_polarity": 0.041,
+      "sentiment_score": 51.7,
+      "label": "NEUTRAL",
       "news_stats": {
-        "polarity": 0.11533333333333333,
-        "subjectivity": 0.2768888888888889,
-        "positive_count": 6,
+        "polarity": 0.05909090909090908,
+        "subjectivity": 0.20863636363636362,
+        "positive_count": 3,
         "negative_count": 2,
-        "neutral_count": 7,
+        "neutral_count": 10,
         "total": 15
       },
       "reddit_stats": {
@@ -868,20 +1045,20 @@
       },
       "headline_count": 15,
       "positive_highlights": [
-        "AMZN Stock Set For Best Day In Three Months: Morgan Stanley Expects Amazon's AWS To Grow 47% In 2027, Denotes Stock As 'Top Pick' - Yahoo Finance",
-        "Amazon Jumps 5% as Morgan Stanley Names It Top Pick on Faster AWS Growth; Microsoft and Alphabet Edge Higher - Yahoo Finance",
-        "Amazon cloud revenue jumps significantly: Can AMZN continue gains? - Traders Union"
+        "AMZN Stock Set For Best Day In Three Months: Morgan Stanley Expects Amazon's AWS To Grow 47% In 2027, Denotes Stock As 'Top Pick' - TradingView",
+        "Amazon Stock to Top $300 in October? Prediction Market Punters Trade the Odds as Morgan Stanley Raises Ne - Benzinga",
+        "Copeland Capital Management LLC Purchases New Shares in Amazon.com, Inc. $AMZN - MarketBeat"
       ],
       "negative_highlights": [
-        "Amazon: Project Mercury Adds Strategic Value With Minimal Capex - Seeking Alpha",
-        "Amazon: Wall Street Is Missing The Bigger Picture (NASDAQ:AMZN) - Seeking Alpha"
+        "Amazon: Wall Street Is Missing The Bigger Picture (NASDAQ:AMZN) - Seeking Alpha",
+        "Amazon.com, Inc. $AMZN Stake Decreased by 4WEALTH Advisors Inc. - MarketBeat"
       ],
       "recent_headlines": [
-        "Amazon stock pops after Morgan Stanley details 5 catalysts, lifts price target - Yahoo Finance",
-        "Amazon: Wall Street Is Missing The Bigger Picture (NASDAQ:AMZN) - Seeking Alpha",
-        "Why Amazon (AMZN) Stock Is Up Today - TradingView",
-        "Why is Amazon stock rallying today? - Investing.com",
-        "Amazon cloud revenue jumps significantly: Can AMZN continue gains? - Traders Union"
+        "Amazon.com, Inc. $AMZN Stock: Walker Asset Management LLC Raises Stake - MarketBeat",
+        "AMZN Stock Set For Best Day In Three Months: Morgan Stanley Expects Amazon's AWS To Grow 47% In 2027, Denotes Stock As 'Top Pick' - TradingView",
+        "Amazon Stock to Top $300 in October? Prediction Market Punters Trade the Odds as Morgan Stanley Raises Ne - Benzinga",
+        "Amazon: Big Morgan Stanley Upgrade, Primed Into Earnings (NASDAQ:AMZN) - Seeking Alpha",
+        "Amazon.com, Inc. $AMZN Stock: GEM Asset Management LLC Cuts Holdings - MarketBeat"
       ]
     },
     "qual": {
@@ -913,14 +1090,14 @@
       "qualitative_score": 80.0
     },
     "sig": {
-      "composite_score": 78.7,
+      "composite_score": 78.5,
       "signal": "BUY",
-      "confidence_pct": 73.5,
+      "confidence_pct": 73.1,
       "pillar_scores": {
         "fundamentals": 100.0,
         "valuation": 55.0,
         "technicals": 78.3,
-        "sentiment": 53.2,
+        "sentiment": 51.7,
         "analyst": 100.0,
         "macro_moat": 80.0
       },
@@ -932,187 +1109,6 @@
       ],
       "key_risks": [
         "Standard market risk and volatility."
-      ]
-    }
-  },
-  "SPCX": {
-    "data": {
-      "symbol": "SPCX",
-      "company_name": "Space Exploration Technologies Corp.",
-      "exchange_info": {
-        "country": "United States",
-        "exchange": "NYSE/NASDAQ",
-        "central_bank": "Federal Reserve (FED)",
-        "currency_symbol": "$"
-      },
-      "currency": "USD",
-      "sector": "Industrials",
-      "industry": "Aerospace & Defense",
-      "summary": "Space Exploration Technologies Corp. provides satellite-based broadband services in the United States, Ireland, Canada, and internationally. It operates through three operating segments: Space, Connectivity, and AI. The Space segment designs, manufactures, and launches reusable rockets to provide access to space. It also provides launch services for the deployment of payloads to intended orbits for commercial and government customers utilizing Falcon 9 and Falcon Heavy; and engages in the launch and development for the development of spacecraft and the provision of launch and mission services for government agency space programs utilizing Falcon 9, Falcon Heavy, Starship, and Dragon. Its company's Connectivity segment operates broadband data and communications network by various Starlink satellites in low-earth orbit, delivering connectivity to various consumers, enterprise, and government customers. The company's AI segment operates a vertically integrated AI platform spanning a frontier LLM Grok; AI solutions for consumer and enterprise customers; X, a real-time information, entertainment, and free speech platform; and AI computational infrastructure. Space Exploration Technologies Corp. was incorporated in 2002 and is based in Starbase, Texas.",
-      "current_price": 147.96,
-      "previous_close": 146.03,
-      "fifty_two_week_high": 225.64,
-      "fifty_two_week_low": 104.83,
-      "volume": 73484844,
-      "avg_volume": 95494095,
-      "pe_ratio": null,
-      "forward_pe": 72.33617,
-      "peg_ratio": null,
-      "price_to_sales": 84.5883,
-      "price_to_book": 15.323115,
-      "ev_to_ebitda": 651.255,
-      "market_cap": 1949252845568,
-      "enterprise_value": 3840451280896,
-      "eps_trailing": -1.1,
-      "eps_forward": 2.04545,
-      "earnings_growth": null,
-      "revenue_growth": 0.919,
-      "total_revenue": 23043999744,
-      "net_income": -8888999936,
-      "profit_margins": -0.35661998,
-      "operating_margins": -0.01804,
-      "return_on_equity": null,
-      "return_on_assets": null,
-      "total_debt": 39708000256,
-      "total_cash": 100009000960,
-      "debt_to_equity": 31.211,
-      "current_ratio": 5.115,
-      "quick_ratio": 4.949,
-      "free_cash_flow": 9900000256,
-      "dividend_yield_pct": 0.0,
-      "payout_ratio": 0.0,
-      "target_low": 118.0,
-      "target_mean": 222.70969,
-      "target_high": 450.0,
-      "target_median": 225.0,
-      "recommendation_key": "buy",
-      "recommendation_mean": 1.78947,
-      "number_of_analysts": 31,
-      "implied_upside_pct": 50.520201405785336,
-      "rec_breakdown": {
-        "strongBuy": 8,
-        "buy": 22,
-        "hold": 5,
-        "sell": 3,
-        "strongSell": 0
-      },
-      "next_earnings_date": "2026-10-20",
-      "earnings_high_est": 0.26,
-      "earnings_low_est": -0.11,
-      "earnings_avg_est": 0.13302,
-      "_ticker_obj": "yfinance.Ticker object <SPCX>"
-    },
-    "tech": {
-      "latest_price": 147.96,
-      "sma_20": 155.0435012817383,
-      "sma_50": 148.4420004272461,
-      "sma_200": null,
-      "rsi_14": 48.96406649654269,
-      "rsi_status": "NEUTRAL",
-      "macd_data": {
-        "macd": 1.0180303567143483,
-        "signal": 3.158259748107021,
-        "histogram": -2.1402293913926727,
-        "crossover": "BEARISH"
-      },
-      "cross_status": "NEUTRAL",
-      "fifty_two_week_pos_pct": 35.700686235033615,
-      "high_52": 225.63999938964844,
-      "low_52": 104.83000183105469,
-      "returns": {
-        "1m": -2.5617424742570116,
-        "3m": 28.37063791229162,
-        "6m": 0.0,
-        "1y": 0.0
-      },
-      "technical_score": 39.5,
-      "signals": [
-        "Price is 0.3% below 50-day SMA (Bearish)",
-        "MACD histogram indicates negative bearish momentum"
-      ]
-    },
-    "sent": {
-      "combined_polarity": 0.088,
-      "sentiment_score": 53.5,
-      "label": "BULLISH",
-      "news_stats": {
-        "polarity": 0.12500000000000003,
-        "subjectivity": 0.2968518518518518,
-        "positive_count": 6,
-        "negative_count": 0,
-        "neutral_count": 9,
-        "total": 15
-      },
-      "reddit_stats": {
-        "polarity": 0.0,
-        "subjectivity": 0.0,
-        "positive_count": 0,
-        "negative_count": 0,
-        "neutral_count": 0
-      },
-      "headline_count": 15,
-      "positive_highlights": [
-        "Prediction: This Will Be SpaceX's Stock Price By the End of 2027 - The Motley Fool",
-        "Here's What $5,000 Invested in SpaceX Could Be Worth in 2030 - Yahoo Finance",
-        "SpaceX Stock Moves Higher: What's Going On? - Benzinga"
-      ],
-      "negative_highlights": [],
-      "recent_headlines": [
-        "SpaceX surprises Wall Street with Oct. 20 earnings date \u2014 here's why - Yahoo Finance",
-        "Prediction: This Will Be SpaceX's Stock Price By the End of 2027 - The Motley Fool",
-        "SpaceX Analysis: Is SPCX Headed Higher? - SpaceX (NASDAQ:SPCX) - Benzinga",
-        "SpaceX: The $2 Trillion Conglomerate Built On Fragile Economics (NASDAQ:SPCX) - Seeking Alpha",
-        "SpaceX Investors, Mark Your Calendars: A Massive Stock Lockup Expiration Is Coming - The Globe and Mail"
-      ]
-    },
-    "qual": {
-      "priced_in": {
-        "valuation_tier": "Moderate",
-        "priced_in_points": [
-          "Market pricing reflects baseline sector performance."
-        ]
-      },
-      "macro_policy": {
-        "macro_factors": [
-          "Operating in United States under Federal Reserve (FED) interest rate policy environment.",
-          "Performance closely aligned with overall United States economic trajectory."
-        ],
-        "policy_risks": [
-          "Standard corporate governance and trade policy conditions apply."
-        ]
-      },
-      "moat": {
-        "moat_tier": "Narrow Moat",
-        "moat_score": 50.0,
-        "reasons": [
-          "Thin net profit margin (-35.7%), making company vulnerable to cost inflation.",
-          "Mega-cap scale ($1.95T) provides massive distribution and cost advantages."
-        ]
-      },
-      "qualitative_score": 50.0
-    },
-    "sig": {
-      "composite_score": 59.8,
-      "signal": "HOLD",
-      "confidence_pct": 66.0,
-      "pillar_scores": {
-        "fundamentals": 73.0,
-        "valuation": 38.0,
-        "technicals": 39.5,
-        "sentiment": 53.5,
-        "analyst": 100.0,
-        "macro_moat": 50.0
-      },
-      "key_positives": [
-        "Strong YoY revenue growth (91.9%)",
-        "Low debt-to-equity ratio (31.2)",
-        "Positive free cash flow generation",
-        "Significant price target upside (+50.5%)"
-      ],
-      "key_risks": [
-        "Thin profit margin (-35.7%)",
-        "Elevated Forward P/E (72.3x)",
-        "Price is 0.3% below 50-day SMA (Bearish)"
       ]
     }
   }
