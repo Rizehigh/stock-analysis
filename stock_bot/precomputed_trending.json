@@ -20,7 +20,7 @@
       "volume": 99549776,
       "avg_volume": 95611018,
       "pe_ratio": null,
-      "forward_pe": 72.253044,
+      "forward_pe": 68.31565,
       "peg_ratio": null,
       "price_to_sales": 84.5398,
       "price_to_book": 15.305509,
@@ -28,7 +28,7 @@
       "market_cap": 1948135194624,
       "enterprise_value": 3835969404928,
       "eps_trailing": -1.1,
-      "eps_forward": 2.04545,
+      "eps_forward": 2.16334,
       "earnings_growth": null,
       "revenue_growth": 0.919,
       "total_revenue": 23043999744,
@@ -46,13 +46,13 @@
       "dividend_yield_pct": 0.0,
       "payout_ratio": 0.0,
       "target_low": 118.0,
-      "target_mean": 222.70969,
+      "target_mean": 224.80646,
       "target_high": 450.0,
       "target_median": 225.0,
       "recommendation_key": "buy",
       "recommendation_mean": 1.78947,
       "number_of_analysts": 31,
-      "implied_upside_pct": 50.69334190405306,
+      "implied_upside_pct": 52.1120914811557,
       "rec_breakdown": {
         "strongBuy": 8,
         "buy": 22,
@@ -61,9 +61,9 @@
         "strongSell": 0
       },
       "next_earnings_date": "2026-10-20",
-      "earnings_high_est": 0.26,
-      "earnings_low_est": -0.11,
-      "earnings_avg_est": 0.13302,
+      "earnings_high_est": 0.7,
+      "earnings_low_est": -0.14,
+      "earnings_avg_est": 0.39008,
       "_ticker_obj": "yfinance.Ticker object <SPCX>"
     },
     "tech": {
@@ -96,15 +96,15 @@
       ]
     },
     "sent": {
-      "combined_polarity": 0.075,
-      "sentiment_score": 53.0,
-      "label": "NEUTRAL",
+      "combined_polarity": 0.104,
+      "sentiment_score": 54.2,
+      "label": "BULLISH",
       "news_stats": {
-        "polarity": 0.10726310726310724,
-        "subjectivity": 0.3071957671957672,
-        "positive_count": 5,
-        "negative_count": 0,
-        "neutral_count": 10,
+        "polarity": 0.14895863395863396,
+        "subjectivity": 0.3897354497354497,
+        "positive_count": 8,
+        "negative_count": 1,
+        "neutral_count": 6,
         "total": 15
       },
       "reddit_stats": {
@@ -116,17 +116,19 @@
       },
       "headline_count": 15,
       "positive_highlights": [
-        "Prediction: This Will Be SpaceX's Stock Price By the End of 2027 - The Motley Fool",
-        "Here's What $5,000 Invested in SpaceX Could Be Worth in 2030 - Yahoo Finance",
+        "CEO Elon Musk Just Gave SpaceX Investors Great News - Yahoo Finance",
+        "SPCX Stock Jumps 10% Premarket: Morningstar Boosts SpaceX\u2019s Fair Value As Starship And Orbital AI Offer Long-Term Upside - Yahoo Finance",
         "Up 35%, Should You Buy SpaceX Stock Right Now? - Yahoo Finance"
       ],
-      "negative_highlights": [],
+      "negative_highlights": [
+        "SpaceX Can't Find Spare Nvidia, Google or Amazon Chips Despite Billions to Spend, Strategist Terms It 'Pretty Insane' - Yahoo Finance"
+      ],
       "recent_headlines": [
-        "SpaceX earnings Live: SpaceX beats on earnings, capex comes in less than expected - Yahoo Finance",
-        "SpaceX surprises Wall Street with Oct. 20 earnings date \u2014 here's why - Yahoo Finance",
-        "Prediction: This Will Be SpaceX's Stock Price By the End of 2027 - The Motley Fool",
-        "SpaceX Delivers Q3 Double Beat as AI Revenue Soars - SpaceX (NASDAQ:SPCX) - Benzinga",
-        "SpaceX Investors, Mark Your Calendars: A Massive Stock Lockup Expiration Is Coming - Yahoo Finance"
+        "Space Exploration Technologies - Live Earnings Release - SEC.gov",
+        "SPCX Stock Jumps 10% Premarket: Morningstar Boosts SpaceX\u2019s Fair Value As Starship And Orbital AI Offer Long-Term Upside - Yahoo Finance",
+        "SPCX Stock Jumps Overnight: Musk Teases $1 Trillion Revenue By 2028 \u2014 Analyst Sees 95% Tesla Merger Odds In 2 Years - Yahoo Finance",
+        "SpaceX earnings left one big question unanswered - Yahoo Finance",
+        "Space Exploration Technologies: 3 Key Takeaways for Long-Term Investors - Yahoo Finance"
       ]
     },
     "qual": {
@@ -156,14 +158,14 @@
       "qualitative_score": 50.0
     },
     "sig": {
-      "composite_score": 59.7,
+      "composite_score": 59.9,
       "signal": "HOLD",
       "confidence_pct": 66.0,
       "pillar_scores": {
         "fundamentals": 73.0,
         "valuation": 38.0,
         "technicals": 39.2,
-        "sentiment": 53.0,
+        "sentiment": 54.2,
         "analyst": 100.0,
         "macro_moat": 50.0
       },
@@ -171,11 +173,11 @@
         "Strong YoY revenue growth (91.9%)",
         "Low debt-to-equity ratio (31.2)",
         "Positive free cash flow generation",
-        "Significant price target upside (+50.7%)"
+        "Significant price target upside (+52.1%)"
       ],
       "key_risks": [
         "Thin profit margin (-35.7%)",
-        "Elevated Forward P/E (72.3x)",
+        "Elevated Forward P/E (68.3x)",
         "Price is 0.6% below 50-day SMA (Bearish)"
       ]
     }
@@ -200,51 +202,51 @@
       "fifty_two_week_low": 65.08,
       "volume": 62819587,
       "avg_volume": 34340410,
-      "pe_ratio": 21.60063,
-      "forward_pe": 18.074652,
+      "pe_ratio": 19.852602,
+      "forward_pe": 18.160715,
       "peg_ratio": 1.21,
-      "price_to_sales": 5.913097,
-      "price_to_book": 9.4862585,
-      "ev_to_ebitda": 19.933,
+      "price_to_sales": 5.7509427,
+      "price_to_book": 9.697868,
+      "ev_to_ebitda": 18.231,
       "market_cap": 286021025792,
-      "enterprise_value": 293547769856,
-      "eps_trailing": 3.18,
-      "eps_forward": 3.80035,
-      "earnings_growth": 0.111,
-      "revenue_growth": 0.134,
-      "total_revenue": 48370765824,
-      "net_income": 13649642496,
-      "profit_margins": 0.28219,
-      "operating_margins": 0.33381,
-      "return_on_equity": 0.49541,
-      "return_on_assets": 0.16084999,
-      "total_debt": 16654660608,
-      "total_cash": 9127910400,
-      "debt_to_equity": 55.236,
-      "current_ratio": 1.142,
-      "quick_ratio": 0.917,
-      "free_cash_flow": 25387552768,
+      "enterprise_value": 290905718784,
+      "eps_trailing": 3.46,
+      "eps_forward": 3.78234,
+      "earnings_growth": 0.482,
+      "revenue_growth": 0.118,
+      "total_revenue": 49734631424,
+      "net_income": 14766653440,
+      "profit_margins": 0.29691,
+      "operating_margins": 0.34632,
+      "return_on_equity": 0.53463,
+      "return_on_assets": 0.17124,
+      "total_debt": 15132394496,
+      "total_cash": 8222952960,
+      "debt_to_equity": 51.671,
+      "current_ratio": 1.075,
+      "quick_ratio": 0.668,
+      "free_cash_flow": 25739923456,
       "dividend_yield_pct": 0.0,
       "payout_ratio": 0.0,
       "target_low": 57.0,
-      "target_mean": 90.90444,
+      "target_mean": 90.74889,
       "target_high": 126.0,
       "target_median": 90.0,
       "recommendation_key": "buy",
-      "recommendation_mean": 1.86538,
+      "recommendation_mean": 1.86,
       "number_of_analysts": 45,
-      "implied_upside_pct": 32.34013684670257,
+      "implied_upside_pct": 32.11368467025768,
       "rec_breakdown": {
         "strongBuy": 7,
-        "buy": 28,
-        "hold": 15,
+        "buy": 27,
+        "hold": 14,
         "sell": 2,
         "strongSell": 0
       },
-      "next_earnings_date": "2026-10-20",
-      "earnings_high_est": 0.82,
-      "earnings_low_est": 0.69,
-      "earnings_avg_est": 0.73012,
+      "next_earnings_date": "2027-01-19",
+      "earnings_high_est": 0.72,
+      "earnings_low_est": 0.67,
+      "earnings_avg_est": 0.69977,
       "_ticker_obj": "yfinance.Ticker object <NFLX>"
     },
     "tech": {
@@ -278,15 +280,15 @@
       ]
     },
     "sent": {
-      "combined_polarity": 0.016,
-      "sentiment_score": 50.6,
+      "combined_polarity": 0.028,
+      "sentiment_score": 51.1,
       "label": "NEUTRAL",
       "news_stats": {
-        "polarity": 0.022878787878787877,
-        "subjectivity": 0.13035353535353536,
-        "positive_count": 2,
-        "negative_count": 1,
-        "neutral_count": 12,
+        "polarity": 0.03954545454545454,
+        "subjectivity": 0.1836868686868687,
+        "positive_count": 3,
+        "negative_count": 2,
+        "neutral_count": 10,
         "total": 15
       },
       "reddit_stats": {
@@ -299,17 +301,19 @@
       "headline_count": 15,
       "positive_highlights": [
         "Netflix Is Cheap Again As Management Tackles Growth (NASDAQ:NFLX) - Seeking Alpha",
+        "NFLX Stock Slips More Than 6% Premarket: Morningstar Sees 'Best Buying Opportunity' For Netflix Amid Negative Sentiment - Stocktwits",
         "NFLX Stock Tumbles Overnight: Co-CEO Wants Netflix To Be Last Service Customers 'Ever Cancel', Says Live Events 'Drive New Membership' - Yahoo Finance"
       ],
       "negative_highlights": [
+        "Netflix, Inc. (NASDAQ:NFLX) Stock Has Average Price Target of $93.38 - MarketBeat",
         "NFLX Stock Flat Overnight: Netflix's \u2018Largest Content Deal\u2019 With Brazil Media Giant Globo Fails To Sway Retail Ahead Of Earnings - Yahoo Finance"
       ],
       "recent_headlines": [
         "NFLX Stock Tumbles Overnight: Co-CEO Wants Netflix To Be Last Service Customers 'Ever Cancel', Says Live Events 'Drive New Membership' - Yahoo Finance",
-        "Netflix, Inc. $NFLX Stock: Prime Capital Investment Advisors LLC Lowers Holdings - MarketBeat",
-        "Netflix: The Carnage Continues As Growth Slows (NASDAQ:NFLX) - Seeking Alpha",
-        "Netflix (NFLX) cannot reconcile adjusted forecasts to standard accounting measures. - Stock Titan",
-        "Netflix Stock Drops After-Hours As Revenue Growth Slows Further And Q4 Sales Miss Expectations - TradingView"
+        "Netflix, Inc. $NFLX Stock Purchased by Diversify Advisory Services LLC - MarketBeat",
+        "NFLX Stock Slips More Than 6% Premarket: Morningstar Sees 'Best Buying Opportunity' For Netflix Amid Negative Sentiment - Stocktwits",
+        "Netflix Stock Q3: Sometimes, A Selloff Is Just A Sale (Downgrade) (NASDAQ:NFLX) - Seeking Alpha",
+        "Netflix (NFLX) cannot reconcile adjusted forecasts to standard accounting measures. - Stock Titan"
       ]
     },
     "qual": {
@@ -317,7 +321,7 @@
         "valuation_tier": "Fair Value Range",
         "priced_in_points": [
           "P/E ratio reflects balanced market expectations for mid-range growth.",
-          "Forward P/E is 16.3% lower than trailing P/E, pricing in robust earnings recovery/growth."
+          "Forward P/E is 8.5% lower than trailing P/E, pricing in robust earnings recovery/growth."
         ]
       },
       "macro_policy": {
@@ -333,30 +337,30 @@
         "moat_tier": "Wide Moat",
         "moat_score": 100.0,
         "reasons": [
-          "Strong Return on Equity (ROE: 49.5%), indicating high capital efficiency and competitive advantage.",
-          "High net profit margin (28.2%), demonstrating pricing power.",
+          "Strong Return on Equity (ROE: 53.5%), indicating high capital efficiency and competitive advantage.",
+          "High net profit margin (29.7%), demonstrating pricing power.",
           "Mega-cap scale ($286.02B) provides massive distribution and cost advantages."
         ]
       },
       "qualitative_score": 80.0
     },
     "sig": {
-      "composite_score": 71.5,
+      "composite_score": 71.6,
       "signal": "BUY",
       "confidence_pct": 69.3,
       "pillar_scores": {
         "fundamentals": 95.0,
         "valuation": 60.0,
         "technicals": 37.6,
-        "sentiment": 50.6,
+        "sentiment": 51.1,
         "analyst": 97.0,
         "macro_moat": 80.0
       },
       "key_positives": [
-        "Exceptional Return on Equity (49.5%)",
-        "High profit margin (28.2%)",
+        "Exceptional Return on Equity (53.5%)",
+        "High profit margin (29.7%)",
         "Positive free cash flow generation",
-        "Significant price target upside (+32.3%)"
+        "Significant price target upside (+32.1%)"
       ],
       "key_risks": [
         "Price is 8.2% below 50-day SMA (Bearish)",
@@ -385,7 +389,7 @@
       "volume": 30761382,
       "avg_volume": 37830426,
       "pe_ratio": 346.02777,
-      "forward_pe": 172.34286,
+      "forward_pe": 172.3381,
       "peg_ratio": 3.61,
       "price_to_sales": 14.24435,
       "price_to_book": 16.990679,
@@ -393,7 +397,7 @@
       "market_cap": 1475985408000,
       "enterprise_value": 1449202417664,
       "eps_trailing": 1.08,
-      "eps_forward": 2.16841,
+      "eps_forward": 2.16847,
       "earnings_growth": -0.03,
       "revenue_growth": 0.255,
       "total_revenue": 103619002368,
@@ -428,7 +432,7 @@
       "next_earnings_date": "2026-10-21",
       "earnings_high_est": 0.7,
       "earnings_low_est": 0.29912,
-      "earnings_avg_est": 0.45054,
+      "earnings_avg_est": 0.45134,
       "_ticker_obj": "yfinance.Ticker object <TSLA>"
     },
     "tech": {
@@ -462,12 +466,12 @@
       ]
     },
     "sent": {
-      "combined_polarity": 0.044,
-      "sentiment_score": 51.8,
+      "combined_polarity": 0.049,
+      "sentiment_score": 52.0,
       "label": "NEUTRAL",
       "news_stats": {
-        "polarity": 0.06319444444444446,
-        "subjectivity": 0.23111111111111113,
+        "polarity": 0.07,
+        "subjectivity": 0.22666666666666668,
         "positive_count": 3,
         "negative_count": 1,
         "neutral_count": 11,
@@ -483,18 +487,18 @@
       "headline_count": 15,
       "positive_highlights": [
         "Why Tesla Could Make Much More Money (NASDAQ:TSLA) - Seeking Alpha",
-        "Tesla earnings preview: Fireworks or the calm before the SpaceX merger? (TSLA:NASDAQ) - Seeking Alpha",
-        "Tesla Ahead Of Q3 2026 Earnings: Strong Deliveries, Weakening Demand In China, And A Major Test For Cybercab - Seeking Alpha"
+        "Tesla Inc Stock (TSLA) Moved Up by 3.53% on Oct 19: A Full Analysis - TradingKey",
+        "Tesla earnings preview: Fireworks or the calm before the SpaceX merger? (TSLA:NASDAQ) - Seeking Alpha"
       ],
       "negative_highlights": [
         "Tesla, Inc. SEC Filing (Oct 19, 2026) - Stock Titan"
       ],
       "recent_headlines": [
-        "Tesla, Inc. $TSLA Stock: RWQ Financial Management Services Inc. Cuts Holdings - MarketBeat",
+        "Tesla, Inc. $TSLA Stock Holdings Lessened by Focused Alpha LLC - MarketBeat",
         "Buy, Hold or Sell TSLA Stock? Key Tips Ahead of Q3 Earnings - Yahoo Finance",
-        "Tesla earnings preview: Fireworks or the calm before the SpaceX merger? (TSLA:NASDAQ) - Seeking Alpha",
+        "Tesla Stock Forecast: Can Q3 Margins Hold Up as SpaceX Merger Review Begins? - TradingKey",
         "Tesla, Inc. SEC Filing (Oct 19, 2026) - Stock Titan",
-        "Tesla Stock At $4,400? Cathie Wood's ARK Pins Hopes On Robotaxis, Sees SpaceX Merger In 5 Years - TradingView"
+        "Tesla earnings preview: Fireworks or the calm before the SpaceX merger? (TSLA:NASDAQ) - Seeking Alpha"
       ]
     },
     "qual": {
@@ -533,7 +537,7 @@
         "fundamentals": 75.0,
         "valuation": 11.0,
         "technicals": 40.2,
-        "sentiment": 51.8,
+        "sentiment": 52.0,
         "analyst": 77.0,
         "macro_moat": 50.0
       },
@@ -650,15 +654,15 @@
       ]
     },
     "sent": {
-      "combined_polarity": 0.031,
-      "sentiment_score": 51.2,
+      "combined_polarity": -0.017,
+      "sentiment_score": 49.3,
       "label": "NEUTRAL",
       "news_stats": {
-        "polarity": 0.04398148148148148,
-        "subjectivity": 0.28574074074074074,
-        "positive_count": 4,
+        "polarity": -0.024343434343434348,
+        "subjectivity": 0.2718181818181818,
+        "positive_count": 3,
         "negative_count": 3,
-        "neutral_count": 8,
+        "neutral_count": 9,
         "total": 15
       },
       "reddit_stats": {
@@ -671,20 +675,20 @@
       "headline_count": 15,
       "positive_highlights": [
         "CoreWeave CRWV Slides As Insider Sales Rattle AI Favorite - Timothy Sykes",
-        "CoreWeave (CRWV) Slides As Insider Stock Sales Rattle AI Favorite - Timothy Sykes",
-        "CoreWeave: Excitedly Holding Onto Our Short Position (NASDAQ:CRWV) - Seeking Alpha"
+        "CoreWeave Remains The Most Obvious Short In This Market (NASDAQ:CRWV) - Seeking Alpha",
+        "CoreWeave (NASDAQ:CRWV) Reaches New 12-Month Low - Should You Sell? - MarketBeat"
       ],
       "negative_highlights": [
-        "CoreWeave stock sinks as AI financing worries linger - Yahoo Finance",
         "Coreweave Keeps Getting Crushed: This Analyst Says It\u2019s Going to Quadruple In Price - Yahoo Finance",
-        "CoreWeave: Why The Market Got It Wrong (Rating Upgrade) (NASDAQ:CRWV) - Seeking Alpha"
+        "CoreWeave: Why The Market Got It Wrong (Rating Upgrade) (NASDAQ:CRWV) - Seeking Alpha",
+        "What's Wrong With CoreWeave Stock? - Yahoo Finance"
       ],
       "recent_headlines": [
         "CoreWeave stock attempts to rebound on Goldman Sachs upgrade to Buy - Yahoo Finance",
         "CRWV Stock Tumbles Premarket: HSBC Sees 36% Downside For CoreWeave As AI Boom Faces Debt Test - Yahoo Finance",
-        "CoreWeave: AI Neocloud Panic Is Overdone (NASDAQ:CRWV) - Seeking Alpha",
-        "CoreWeave CRWV Slides As Insider Sales Rattle AI Favorite - Timothy Sykes",
-        "CoreWeave (NASDAQ:CRWV) Shares Climb 1.7% on Analyst Upgrade - MarketBeat"
+        "CoreWeave stock rebounds on Goldman Sachs upgrade to Buy - Yahoo Finance",
+        "CoreWeave (NASDAQ:CRWV) Reaches New 12-Month Low - Should You Sell? - MarketBeat",
+        "CoreWeave: AI Neocloud Panic Is Overdone (NASDAQ:CRWV) - Seeking Alpha"
       ]
     },
     "qual": {
@@ -714,14 +718,14 @@
       "qualitative_score": 32.0
     },
     "sig": {
-      "composite_score": 44.7,
+      "composite_score": 44.4,
       "signal": "HOLD",
       "confidence_pct": 59.7,
       "pillar_scores": {
         "fundamentals": 12.0,
         "valuation": 65.0,
         "technicals": 22.0,
-        "sentiment": 51.2,
+        "sentiment": 49.3,
         "analyst": 97.0,
         "macro_moat": 32.0
       },
@@ -814,9 +818,9 @@
       "rsi_14": 29.13243488627016,
       "rsi_status": "OVERSOLD",
       "macd_data": {
-        "macd": -26.151845719093785,
-        "signal": -4.67598885824771,
-        "histogram": -21.475856860846076,
+        "macd": -26.15184571909333,
+        "signal": -4.67598885824711,
+        "histogram": -21.47585686084622,
         "crossover": "BEARISH"
       },
       "cross_status": "GOLDEN_CROSS",
@@ -838,15 +842,15 @@
       ]
     },
     "sent": {
-      "combined_polarity": 0.054,
-      "sentiment_score": 52.1,
+      "combined_polarity": 0.024,
+      "sentiment_score": 50.9,
       "label": "NEUTRAL",
       "news_stats": {
-        "polarity": 0.07646825396825396,
-        "subjectivity": 0.2270238095238095,
-        "positive_count": 6,
+        "polarity": 0.03361111111111111,
+        "subjectivity": 0.2036111111111111,
+        "positive_count": 5,
         "negative_count": 3,
-        "neutral_count": 6,
+        "neutral_count": 7,
         "total": 15
       },
       "reddit_stats": {
@@ -858,9 +862,9 @@
       },
       "headline_count": 15,
       "positive_highlights": [
-        "The Best Trillion-Dollar Stock to Buy Right Now, According to Wall Street - Yahoo Finance",
+        "Broadcom Vs. Micron: Which Semiconductor Stock Wins the AI Sell-Off? - Benzinga",
         "Micron Stock (MU) Ticks Up after Announcing Funding Deal with Indium to Secure Critical Resources to Supply More AI Chips - TipRanks",
-        "Broadcom Vs. Micron: Which Semiconductor Stock Wins the AI Sell-Off? - Benzinga"
+        "Micron Technology Stock: Is It a No-Brainer Buy at Less Than $900? - The Motley Fool"
       ],
       "negative_highlights": [
         "Micron and other chip stocks spring back to life after bruising selloff - MarketWatch",
@@ -868,11 +872,11 @@
         "Micron Technology(MU.US) Officer Sells US$25.69 Million in Common Stock - Moomoo"
       ],
       "recent_headlines": [
-        "Micron Technology(MU.US) Officer Sells US$25.69 Million in Common Stock - Moomoo",
-        "Can Micron Stock Keep Climbing After a 10-Fold Run? Here's What Its Past Booms Say. - Yahoo Finance",
+        "Micron (MU) Looks Cheap at 5 Times Forward Earnings. Can Its Profit Boom Last? - Yahoo Finance",
         "Micron Stock: The AI Memory Tax Could Change Everything (NASDAQ:MU) - Seeking Alpha",
-        "Micron Stock Rises to Defy 3 Warning Signals - Barron's",
-        "Micron union in Taiwan to launch one-day strike as bonus dispute escalates - Reuters"
+        "Micron Technology(MU.US) Officer Sells US$25.69 Million in Common Stock - Moomoo",
+        "Micron Technology Stock: Is It a No-Brainer Buy at Less Than $900? - The Motley Fool",
+        "Broadcom Vs. Micron: Which Semiconductor Stock Wins the AI Sell-Off? - Benzinga"
       ]
     },
     "qual": {
@@ -905,14 +909,14 @@
       "qualitative_score": 80.0
     },
     "sig": {
-      "composite_score": 81.4,
+      "composite_score": 81.2,
       "signal": "HOLD",
-      "confidence_pct": 68.7,
+      "confidence_pct": 68.4,
       "pillar_scores": {
         "fundamentals": 100.0,
         "valuation": 95.0,
         "technicals": 43.6,
-        "sentiment": 52.1,
+        "sentiment": 50.9,
         "analyst": 100.0,
         "macro_moat": 80.0
       },
@@ -991,7 +995,7 @@
       "next_earnings_date": "2026-11-03",
       "earnings_high_est": 1.08,
       "earnings_low_est": 0.8,
-      "earnings_avg_est": 1.03705,
+      "earnings_avg_est": 1.03693,
       "_ticker_obj": "yfinance.Ticker object <SMCI>"
     },
     "tech": {
@@ -1026,12 +1030,12 @@
       ]
     },
     "sent": {
-      "combined_polarity": 0.136,
+      "combined_polarity": 0.135,
       "sentiment_score": 55.4,
       "label": "BULLISH",
       "news_stats": {
-        "polarity": 0.19444444444444445,
-        "subjectivity": 0.3822222222222222,
+        "polarity": 0.19266666666666662,
+        "subjectivity": 0.3703333333333333,
         "positive_count": 10,
         "negative_count": 0,
         "neutral_count": 5,
@@ -1047,16 +1051,16 @@
       "headline_count": 15,
       "positive_highlights": [
         "Super Micro Jumps After Preliminary Results Top Estimates - Bloomberg.com",
-        "Super Micro Computer Is Getting Cheaper As Its Moat Expands (NASDAQ:SMCI) - Seeking Alpha",
+        "Super Micro surges 13% after raising revenue outlook on AI demand - Investing.com",
         "Super Micro Computer Stock Surges on Increased AI Demand - Benzinga"
       ],
       "negative_highlights": [],
       "recent_headlines": [
         "Supermicro stock surges 12% after raising revenue outlook on AI demand - Yahoo Finance",
         "Super Micro Jumps After Preliminary Results Top Estimates - Bloomberg.com",
+        "Super Micro surges 13% after raising revenue outlook on AI demand - Investing.com",
         "AI platform demand pushes Supermicro's sales estimate above guidance - Stock Titan",
-        "Super Micro Computer Shares Up as Preliminary Revenue Tops Guidance - WSJ",
-        "Super Micro Computer Stock Surges on Increased AI Demand - Benzinga"
+        "Super Micro Computer Shares Up as Preliminary Revenue Tops Guidance - WSJ"
       ]
     },
     "qual": {
