@@ -13,19 +13,19 @@
       "sector": "Technology",
       "industry": "Semiconductors",
       "summary": "Micron Technology, Inc. engages in the provision of semiconductor memory and storage products in the United States, Taiwan, Mainland China, other Asia Pacific countries, Japan, Europe, and internationally. It operates through Cloud Memory Business Unit, Core Data Center Business Unit, Mobile and Client Business Unit, and Automotive and Embedded Business Unit segments. The company provides dynamic random access memory (DRAM) products, including High-Bandwidth Memory, doublie data rate, low-power DRAM, and graphics DRAM products; NAND products comprising solid state drives, managed NAND, and multi-chip packages; and NOR products. The company sells its products under the Micron brand name and private labels through its own direct sales force, sales or representative offices, as well as through distributors, retailers, and independent sales representatives. Micron Technology, Inc. was founded in 1978 and is headquartered in Boise, Idaho.",
-      "current_price": 856.49,
-      "previous_close": 913.67,
+      "current_price": 887.52,
+      "previous_close": 856.49,
       "fifty_two_week_high": 1255.0,
       "fifty_two_week_low": 192.59,
-      "volume": 31922936,
-      "avg_volume": 30444778,
-      "pe_ratio": 11.522803,
-      "forward_pe": 4.139756,
+      "volume": 11869066,
+      "avg_volume": 30292410,
+      "pe_ratio": 11.940267,
+      "forward_pe": 4.2897367,
       "peg_ratio": 0.16,
-      "price_to_sales": 7.2758255,
-      "price_to_book": 7.000327,
+      "price_to_sales": 7.5394235,
+      "price_to_book": 7.253944,
       "ev_to_ebitda": 8.552,
-      "market_cap": 969052651520,
+      "market_cap": 1004160745472,
       "enterprise_value": 930797649920,
       "eps_trailing": 74.33,
       "eps_forward": 206.89381,
@@ -52,7 +52,7 @@
       "recommendation_key": "strong_buy",
       "recommendation_mean": 1.36735,
       "number_of_analysts": 45,
-      "implied_upside_pct": 82.36186061717008,
+      "implied_upside_pct": 75.98601721651343,
       "rec_breakdown": {
         "strongBuy": 9,
         "buy": 36,
@@ -67,46 +67,45 @@
       "_ticker_obj": "yfinance.Ticker object <MU>"
     },
     "tech": {
-      "latest_price": 856.49,
-      "sma_20": 996.8256530761719,
-      "sma_50": 984.0377453613281,
-      "sma_200": 729.2012881469726,
-      "rsi_14": 24.303863877446005,
-      "rsi_status": "OVERSOLD",
+      "latest_price": 887.52,
+      "sma_20": 987.095166015625,
+      "sma_50": 982.7941345214844,
+      "sma_200": 731.9422784423828,
+      "rsi_14": 30.179345339280218,
+      "rsi_status": "BEARISH",
       "macd_data": {
-        "macd": -33.155789866384794,
-        "signal": -14.055533707743212,
-        "histogram": -19.10025615864158,
+        "macd": -34.579951923051226,
+        "signal": -18.160417350730118,
+        "histogram": -16.41953457232111,
         "crossover": "BEARISH"
       },
       "cross_status": "GOLDEN_CROSS",
-      "fifty_two_week_pos_pct": 62.52068423544805,
+      "fifty_two_week_pos_pct": 65.44187508518192,
       "high_52": 1254.6095437059498,
       "low_52": 192.3715183189107,
       "returns": {
-        "1m": -20.72179536330313,
-        "3m": -4.840613903341229,
-        "6m": 72.48279806780671,
-        "1y": 314.81432905945417
+        "1m": -17.982440578825344,
+        "3m": 8.181250994591437,
+        "6m": 69.2458874052765,
+        "1y": 329.8427457726848
       },
-      "technical_score": 42.0,
+      "technical_score": 25.5,
       "signals": [
-        "Price is 13.0% below 50-day SMA (Bearish)",
+        "Price is 9.7% below 50-day SMA (Bearish)",
         "50-day SMA is above 200-day SMA (Golden Cross)",
-        "RSI is oversold at 24.3 (Potential Rebound)",
         "MACD histogram indicates negative bearish momentum"
       ]
     },
     "sent": {
-      "combined_polarity": 0.046,
-      "sentiment_score": 51.8,
+      "combined_polarity": 0.029,
+      "sentiment_score": 51.2,
       "label": "NEUTRAL",
       "news_stats": {
-        "polarity": 0.06603703703703703,
-        "subjectivity": 0.3178518518518519,
-        "positive_count": 5,
-        "negative_count": 4,
-        "neutral_count": 6,
+        "polarity": 0.04148148148148148,
+        "subjectivity": 0.2026851851851852,
+        "positive_count": 3,
+        "negative_count": 2,
+        "neutral_count": 10,
         "total": 15
       },
       "reddit_stats": {
@@ -118,21 +117,20 @@
       },
       "headline_count": 15,
       "positive_highlights": [
-        "Is Micron a Millionaire-Maker Stock After Its 2026 Run? - The Motley Fool",
         "Micron (MU) Falls More Steeply Than Broader Market: What Investors Need to Know - Yahoo Finance",
-        "Micron: The Story Is Now Worth It (Rating Upgrade) - Seeking Alpha"
+        "Micron Stock Moves Higher: What's Going On? - Benzinga",
+        "Micron Technology Inc Stock (MU) Moved Down by 4.42% on Oct 22: A Full Analysis - TradingKey"
       ],
       "negative_highlights": [
-        "Micron leads memory stock rebound candidates after sharp selloff - Investing.com",
-        "3 big reasons Micron and other chip stocks fell hard on Thursday - MarketWatch",
-        "Why Are Nvidia, AMD and Micron Stocks Crashing Today? AI Spending Fears Hit Chips - Stocks Down Under"
+        "Micron: HBM\u2019s Margin Drag Flips Into A Profit Driver In 2027 (NASDAQ:MU) - Seeking Alpha",
+        "Micron leads memory stock rebound candidates after sharp selloff - Investing.com"
       ],
       "recent_headlines": [
-        "Why Micron Stock Dropped on Thursday - Yahoo Finance",
-        "Micron Stock Falls but Stock Price Could Triple Says Analyst - Barron's",
-        "3 big reasons Micron and other chip stocks fell hard on Thursday - MarketWatch",
-        "Micron: The Story Is Now Worth It (Rating Upgrade) - Seeking Alpha",
-        "Why Are Nvidia, AMD and Micron Stocks Crashing Today? AI Spending Fears Hit Chips - Stocks Down Under"
+        "Micron (MU) Stock Looks Fully Valued After A Critical Minerals Deal - Yahoo Finance",
+        "What's Going On With Micron Technology Stock Thursday? - Benzinga",
+        "Micron leads memory stock rebound candidates after sharp selloff - Investing.com",
+        "Micron Technology Inc Stock (MU) Moved Up by 3.19% on Oct 23: What Investors Need To Know - TradingKey",
+        "Micron: HBM\u2019s Margin Drag Flips Into A Profit Driver In 2027 (NASDAQ:MU) - Seeking Alpha"
       ]
     },
     "qual": {
@@ -159,20 +157,20 @@
         "reasons": [
           "Strong Return on Equity (ROE: 88.3%), indicating high capital efficiency and competitive advantage.",
           "High net profit margin (63.8%), demonstrating pricing power.",
-          "Mega-cap scale ($969.05B) provides massive distribution and cost advantages."
+          "Mega-cap scale ($1.00T) provides massive distribution and cost advantages."
         ]
       },
       "qualitative_score": 80.0
     },
     "sig": {
-      "composite_score": 81.1,
-      "signal": "HOLD",
-      "confidence_pct": 68.1,
+      "composite_score": 78.5,
+      "signal": "BUY",
+      "confidence_pct": 62.4,
       "pillar_scores": {
         "fundamentals": 100.0,
         "valuation": 95.0,
-        "technicals": 42.0,
-        "sentiment": 51.8,
+        "technicals": 25.5,
+        "sentiment": 51.2,
         "analyst": 100.0,
         "macro_moat": 80.0
       },
@@ -183,378 +181,7 @@
         "Low debt-to-equity ratio (3.7)"
       ],
       "key_risks": [
-        "Price is 13.0% below 50-day SMA (Bearish)"
-      ]
-    }
-  },
-  "META": {
-    "data": {
-      "symbol": "META",
-      "company_name": "Meta Platforms, Inc.",
-      "exchange_info": {
-        "country": "United States",
-        "exchange": "NYSE/NASDAQ",
-        "central_bank": "Federal Reserve (FED)",
-        "currency_symbol": "$"
-      },
-      "currency": "USD",
-      "sector": "Communication Services",
-      "industry": "Internet Content & Information",
-      "summary": "Meta Platforms, Inc. engages in the development of products that enable people to connect and share with friends and family through mobile devices, personal computers, virtual reality (VR) headsets, and AI glasses in the United States, Canada, Europe, Asia-Pacific, and internationally. It operates through two segments, Family of Apps (FoA) and Reality Labs (RL). The FoA segment offers Facebook, which enables people to build community through feed, reels, stories, groups, marketplace, and other; Instagram that brings people closer through Instagram feed, stories, reels, live, and messaging; Messenger, a messaging application for people to connect with friends, family, communities, and businesses across platforms and devices through text, audio, and video calls; Meta AI, an assistant that's available across apps, as a stand-alone app, on AI glasses, and on the web; Threads, an application for text-based updates and public conversations; and WhatsApp, a messaging application that is used by people and businesses to communicate and transact. The RL segment provides virtual and augmented reality products, including consumer hardware, software, and content that help people feel connected, as well as Meta Quest devices that enable social experiences across gaming, fitness, entertainment, and more. The segment also includes wearables such as AI glasses like Ray Ban Meta and Oakley Meta glasses; and the Meta Ray Ban Display, which combines AI glasses with an integrated lens display and the Meta Neural Band, a wrist worn device using electromyography that lets people control their AI glasses through neuromuscular signals. Meta Platforms, Inc. has a collaboration with Microsoft Corporation, NVIDIA Corporation, Advanced Micro Devices, Inc., Broadcom Inc., and OpenAI, L.L.C. The company was formerly known as Facebook, Inc. and changed its name to Meta Platforms, Inc. in October 2021. The company was incorporated in 2004 and is headquartered in Menlo Park, California.",
-      "current_price": 648.85,
-      "previous_close": 697.52,
-      "fifty_two_week_high": 779.82,
-      "fifty_two_week_low": 520.26,
-      "volume": 40510072,
-      "avg_volume": 19576227,
-      "pe_ratio": 22.137495,
-      "forward_pe": 18.646185,
-      "peg_ratio": 0.92,
-      "price_to_sales": 6.8415365,
-      "price_to_book": 6.079131,
-      "ev_to_ebitda": 14.761,
-      "market_cap": 1652949385216,
-      "enterprise_value": 1685511208960,
-      "eps_trailing": 29.31,
-      "eps_forward": 34.798,
-      "earnings_growth": 2.648,
-      "revenue_growth": 0.261,
-      "total_revenue": 241605001216,
-      "net_income": 75249000448,
-      "profit_margins": 0.31145,
-      "operating_margins": 0.35414,
-      "return_on_equity": 0.32264,
-      "return_on_assets": 0.14257,
-      "total_debt": 112095002624,
-      "total_cash": 82448998400,
-      "debt_to_equity": 41.153,
-      "current_ratio": 1.903,
-      "quick_ratio": 1.669,
-      "free_cash_flow": 18649874432,
-      "dividend_yield_pct": 32.0,
-      "payout_ratio": 0.0791,
-      "target_low": 600.0,
-      "target_mean": 843.48,
-      "target_high": 1050.0,
-      "target_median": 850.0,
-      "recommendation_key": "strong_buy",
-      "recommendation_mean": 1.40323,
-      "number_of_analysts": 58,
-      "implied_upside_pct": 29.996147029359634,
-      "rec_breakdown": {
-        "strongBuy": 9,
-        "buy": 46,
-        "hold": 6,
-        "sell": 1,
-        "strongSell": 0
-      },
-      "next_earnings_date": "2026-10-21",
-      "earnings_high_est": 9.65,
-      "earnings_low_est": 7.92,
-      "earnings_avg_est": 8.489,
-      "_ticker_obj": "yfinance.Ticker object <META>"
-    },
-    "tech": {
-      "latest_price": 648.85,
-      "sma_20": 723.1009979248047,
-      "sma_50": 662.6142785644531,
-      "sma_200": 631.681178894043,
-      "rsi_14": 30.297908559942172,
-      "rsi_status": "BEARISH",
-      "macd_data": {
-        "macd": 3.464365119003446,
-        "signal": 15.946314582454177,
-        "histogram": -12.48194946345073,
-        "crossover": "BEARISH"
-      },
-      "cross_status": "GOLDEN_CROSS",
-      "fifty_two_week_pos_pct": 49.7142706381292,
-      "high_52": 779.8200073242188,
-      "low_52": 519.368366299545,
-      "returns": {
-        "1m": -16.556285755886858,
-        "3m": 9.34414751746322,
-        "6m": -3.7133351049540297,
-        "1y": -11.300958573827835
-      },
-      "technical_score": 36.9,
-      "signals": [
-        "Price is 2.1% below 50-day SMA (Bearish)",
-        "50-day SMA is above 200-day SMA (Golden Cross)",
-        "MACD histogram indicates negative bearish momentum"
-      ]
-    },
-    "sent": {
-      "combined_polarity": 0.092,
-      "sentiment_score": 53.7,
-      "label": "BULLISH",
-      "news_stats": {
-        "polarity": 0.13080808080808082,
-        "subjectivity": 0.4823232323232323,
-        "positive_count": 11,
-        "negative_count": 1,
-        "neutral_count": 3,
-        "total": 15
-      },
-      "reddit_stats": {
-        "polarity": 0.0,
-        "subjectivity": 0.0,
-        "positive_count": 0,
-        "negative_count": 0,
-        "neutral_count": 0
-      },
-      "headline_count": 15,
-      "positive_highlights": [
-        "Is Meta Platforms Stock a Buy as Revenue Continues to Soar? - The Motley Fool",
-        "Exclusive / Meta plans nonvoting shares, eyeing more stock sales to fund its AI dreams - Semafor",
-        "Meta stock drops more than 7% despite strong Q3 results as AI spending fears return - Yahoo Finance"
-      ],
-      "negative_highlights": [
-        "Nasdaq posts worst day since June as AI financing worries batter risk sentiment - Investing.com"
-      ],
-      "recent_headlines": [
-        "Meta stock drops more than 7% despite strong Q3 results as AI spending fears return - Yahoo Finance",
-        "Zuckerberg weighed leaving California over the wealth tax. Meta answered with a new class of stock - Fortune",
-        "Meta shares slide, default insurance hits record as AI spending alarms investors - Reuters",
-        "Zuckerberg wins Meta deal to help him foot bill for possible California billionaire tax - BBC",
-        "Meta Will Split Stock, Create New Class to Fund AI Spending - WSJ"
-      ]
-    },
-    "qual": {
-      "priced_in": {
-        "valuation_tier": "Fair Value Range",
-        "priced_in_points": [
-          "P/E ratio reflects balanced market expectations for mid-range growth.",
-          "Forward P/E is 15.8% lower than trailing P/E, pricing in robust earnings recovery/growth.",
-          "PEG ratio of 0.92 suggests stock may be undervalued relative to expected growth."
-        ]
-      },
-      "macro_policy": {
-        "macro_factors": [
-          "Operating in United States under Federal Reserve (FED) interest rate policy environment.",
-          "Performance closely aligned with overall United States economic trajectory."
-        ],
-        "policy_risks": [
-          "Standard corporate governance and trade policy conditions apply."
-        ]
-      },
-      "moat": {
-        "moat_tier": "Wide Moat",
-        "moat_score": 100.0,
-        "reasons": [
-          "Strong Return on Equity (ROE: 32.3%), indicating high capital efficiency and competitive advantage.",
-          "High net profit margin (31.1%), demonstrating pricing power.",
-          "Mega-cap scale ($1.65T) provides massive distribution and cost advantages."
-        ]
-      },
-      "qualitative_score": 80.0
-    },
-    "sig": {
-      "composite_score": 76.6,
-      "signal": "BUY",
-      "confidence_pct": 68.4,
-      "pillar_scores": {
-        "fundamentals": 100.0,
-        "valuation": 75.0,
-        "technicals": 36.9,
-        "sentiment": 53.7,
-        "analyst": 100.0,
-        "macro_moat": 80.0
-      },
-      "key_positives": [
-        "Exceptional Return on Equity (32.3%)",
-        "High profit margin (31.1%)",
-        "Strong YoY revenue growth (26.1%)",
-        "Low debt-to-equity ratio (41.2)"
-      ],
-      "key_risks": [
-        "Price is 2.1% below 50-day SMA (Bearish)"
-      ]
-    }
-  },
-  "WDC": {
-    "data": {
-      "symbol": "WDC",
-      "company_name": "Western Digital Corporation",
-      "exchange_info": {
-        "country": "United States",
-        "exchange": "NYSE/NASDAQ",
-        "central_bank": "Federal Reserve (FED)",
-        "currency_symbol": "$"
-      },
-      "currency": "USD",
-      "sector": "Technology",
-      "industry": "Computer Hardware",
-      "summary": "Western Digital Corporation engages in the development, manufacture, and sale of data storage devices and solutions based on hard disk drive (HDD) technology in the United States, Asia, Europe, the Middle East, and Africa. The company offers internal HDDs, data center drives, data center platforms, external drives, portable drives, NAS for home and office, and accessories. It sells its data storage devices and solutions through its computer sales personnel, dealers, distributors, retailers, and subsidiaries. The company has a collaboration with Open Quantum Design for the development of quantum error correction technology and related systems to advance reliable quantum computing. Western Digital Corporation was founded in 1970 and is headquartered in San Jose, California.",
-      "current_price": 354.19,
-      "previous_close": 378.51,
-      "fifty_two_week_high": 799.87,
-      "fifty_two_week_low": 121.72,
-      "volume": 13399788,
-      "avg_volume": 7985501,
-      "pe_ratio": 13.157132,
-      "forward_pe": 9.606573,
-      "peg_ratio": 0.72,
-      "price_to_sales": 10.262525,
-      "price_to_book": 14.42494,
-      "ev_to_ebitda": 25.452,
-      "market_cap": 132581556224,
-      "enterprise_value": 127311994880,
-      "eps_trailing": 26.92,
-      "eps_forward": 36.86955,
-      "earnings_growth": 9.841,
-      "revenue_growth": 0.438,
-      "total_revenue": 12919000064,
-      "net_income": 9285999616,
-      "profit_margins": 0.72947,
-      "operating_margins": 0.43608,
-      "return_on_equity": 1.30853,
-      "return_on_assets": 0.20758,
-      "total_debt": 1191000064,
-      "total_cash": 1579000064,
-      "debt_to_equity": 13.436,
-      "current_ratio": 1.329,
-      "quick_ratio": 0.85,
-      "free_cash_flow": 2268750080,
-      "dividend_yield_pct": 17.0,
-      "payout_ratio": 0.0186,
-      "target_low": 405.0,
-      "target_mean": 636.0833,
-      "target_high": 1050.0,
-      "target_median": 627.5,
-      "recommendation_key": "buy",
-      "recommendation_mean": 1.53846,
-      "number_of_analysts": 24,
-      "implied_upside_pct": 79.58815889776673,
-      "rec_breakdown": {
-        "strongBuy": 4,
-        "buy": 17,
-        "hold": 5,
-        "sell": 0,
-        "strongSell": 0
-      },
-      "next_earnings_date": "2026-10-22",
-      "earnings_high_est": 5.92634,
-      "earnings_low_est": 4.19,
-      "earnings_avg_est": 5.21784,
-      "_ticker_obj": "yfinance.Ticker object <WDC>"
-    },
-    "tech": {
-      "latest_price": 354.19,
-      "sma_20": 400.6975036621094,
-      "sma_50": 435.82355041503905,
-      "sma_200": 413.75439826965334,
-      "rsi_14": 35.77481964919002,
-      "rsi_status": "BEARISH",
-      "macd_data": {
-        "macd": -25.369203218783753,
-        "signal": -22.997159874300614,
-        "histogram": -2.3720433444831386,
-        "crossover": "BEARISH"
-      },
-      "cross_status": "GOLDEN_CROSS",
-      "fifty_two_week_pos_pct": 34.31497155900761,
-      "high_52": 799.6132774415504,
-      "low_52": 121.49333441420923,
-      "returns": {
-        "1m": -21.345295036690082,
-        "3m": -28.843249549204398,
-        "6m": -12.278198058527167,
-        "1y": 182.25485141192505
-      },
-      "technical_score": 25.0,
-      "signals": [
-        "Price is 18.7% below 50-day SMA (Bearish)",
-        "50-day SMA is above 200-day SMA (Golden Cross)",
-        "MACD histogram indicates negative bearish momentum"
-      ]
-    },
-    "sent": {
-      "combined_polarity": 0.056,
-      "sentiment_score": 52.2,
-      "label": "NEUTRAL",
-      "news_stats": {
-        "polarity": 0.07964506172839506,
-        "subjectivity": 0.1372993827160494,
-        "positive_count": 6,
-        "negative_count": 2,
-        "neutral_count": 7,
-        "total": 15
-      },
-      "reddit_stats": {
-        "polarity": 0.0,
-        "subjectivity": 0.0,
-        "positive_count": 0,
-        "negative_count": 0,
-        "neutral_count": 0
-      },
-      "headline_count": 15,
-      "positive_highlights": [
-        "WDC Slides Overnight Post-Earnings Despite Goldman\u2019s Upside Call \u2014 CEO Sees Top Customers\u2019 Storage Demand Into 2031 - Yahoo Finance",
-        "Western Digital (WDC) Stock Gets Fair Value Trim As Analysts Weigh HDD Demand And HAMR Risks - Yahoo Finance",
-        "Western Digital Earnings Are Imminent; These Most Accurate Analysts Revise Forecasts Ahead Of Earnings Call - Benzinga"
-      ],
-      "negative_highlights": [
-        "Western Digital (NASDAQ:WDC) Beats Earnings as Revenue Surges 55%, AI Storage Outlook Strengthens - Stocks Down Under",
-        "Western Digital Earnings Fail to Get Stock Back on Track - Barron's"
-      ],
-      "recent_headlines": [
-        "Western Digital beats earnings estimates, but AI selloff erases initial gains - Yahoo Finance",
-        "Western Digital Earnings Fail to Get Stock Back on Track - Barron's",
-        "Western Digital WDC Stock Defies Memory Market Panic With Crushing First-Quarter Earnings Beat and Explosive Revenue Forecast - cristinaiglesias.com",
-        "Dear Western Digital Stock Fans, Mark Your Calendars for October 22 - Barchart.com",
-        "Western Digital Reports Quarterly Earnings Beat - Investor's Business Daily"
-      ]
-    },
-    "qual": {
-      "priced_in": {
-        "valuation_tier": "Value / Low Expectation",
-        "priced_in_points": [
-          "Low P/E ratio suggests market is pricing in modest growth or cyclical headwinds.",
-          "Forward P/E is 27.0% lower than trailing P/E, pricing in robust earnings recovery/growth.",
-          "PEG ratio of 0.72 suggests stock may be undervalued relative to expected growth."
-        ]
-      },
-      "macro_policy": {
-        "macro_factors": [
-          "Operating in United States under Federal Reserve (FED) interest rate policy environment.",
-          "Consumer sentiment and discretionary spending impact demand during inflation/rate shifts."
-        ],
-        "policy_risks": [
-          "Antitrust oversight, data privacy laws, and international tariff trade policies affect cross-border supply chains."
-        ]
-      },
-      "moat": {
-        "moat_tier": "Wide Moat",
-        "moat_score": 100.0,
-        "reasons": [
-          "Strong Return on Equity (ROE: 130.9%), indicating high capital efficiency and competitive advantage.",
-          "High net profit margin (72.9%), demonstrating pricing power.",
-          "Mega-cap scale ($132.58B) provides massive distribution and cost advantages."
-        ]
-      },
-      "qualitative_score": 80.0
-    },
-    "sig": {
-      "composite_score": 78.6,
-      "signal": "BUY",
-      "confidence_pct": 62.4,
-      "pillar_scores": {
-        "fundamentals": 100.0,
-        "valuation": 95.0,
-        "technicals": 25.0,
-        "sentiment": 52.2,
-        "analyst": 100.0,
-        "macro_moat": 80.0
-      },
-      "key_positives": [
-        "Exceptional Return on Equity (130.9%)",
-        "High profit margin (72.9%)",
-        "Strong YoY revenue growth (43.8%)",
-        "Low debt-to-equity ratio (13.4)"
-      ],
-      "key_risks": [
-        "Price is 18.7% below 50-day SMA (Bearish)"
+        "Price is 9.7% below 50-day SMA (Bearish)"
       ]
     }
   },
@@ -572,19 +199,19 @@
       "sector": "Healthcare",
       "industry": "Biotechnology",
       "summary": "Moderna, Inc., a biotechnology company, provides messenger RNA medicines in the United States, Europe, and internationally. The company's respiratory vaccines include spikevax, mNEXSPIKE, mRESVIA, COVID, RSV, seasonal influenza, combination, and pandemic influenza vaccine; latent vaccines comprise cytomegalovirus, epstein-barr virus, and human immunodeficiency virus vaccines; enteric viruses include norovirus; public health vaccines consist of Zika, Nipah, and Mpox vaccines; and bacterial diseases vaccines, such as lyme vaccines. It also provides oncology therapeutics, such as intismeran autogene, cancer antigen therapy, t-cell engager, and cell therapy enhancer; and rare disease products, including propionic and methylmalonic acidemia, and cystic fibrosis. It has strategic alliances and collaborations with Merck & Co., Inc; Vertex Pharmaceuticals Incorporated; Vertex Pharmaceuticals (Europe) Limited; immatics N.V.; Defense Advanced Research Projects Agency; Biomedical Advanced Research and Development Authority; Institute for Life Changing Medicines; The Bill & Melinda Gates Foundation; and OpenAI. The company was formerly known as Moderna Therapeutics, Inc. and changed its name to Moderna, Inc. in August 2018. Moderna, Inc. was founded in 2010 and is headquartered in Cambridge, Massachusetts.",
-      "current_price": 202.63,
-      "previous_close": 245.81,
+      "current_price": 206.1043,
+      "previous_close": 202.63,
       "fifty_two_week_high": 254.48,
       "fifty_two_week_low": 22.28,
-      "volume": 49812057,
-      "avg_volume": 20167049,
+      "volume": 13753692,
+      "avg_volume": 20408790,
       "pe_ratio": null,
-      "forward_pe": -44.721703,
+      "forward_pe": -45.4885,
       "peg_ratio": null,
-      "price_to_sales": 36.309322,
-      "price_to_book": 11.9581,
+      "price_to_sales": 36.93188,
+      "price_to_book": 12.163134,
       "ev_to_ebitda": -35.101,
-      "market_cap": 80897171456,
+      "market_cap": 82284232704,
       "enterprise_value": 77046169600,
       "eps_trailing": -7.98,
       "eps_forward": -4.53091,
@@ -611,7 +238,7 @@
       "recommendation_key": "hold",
       "recommendation_mean": 2.86957,
       "number_of_analysts": 19,
-      "implied_upside_pct": -32.96050930266989,
+      "implied_upside_pct": -34.090593937147354,
       "rec_breakdown": {
         "strongBuy": 1,
         "buy": 4,
@@ -626,27 +253,27 @@
       "_ticker_obj": "yfinance.Ticker object <MRNA>"
     },
     "tech": {
-      "latest_price": 202.63,
-      "sma_20": 210.4250015258789,
-      "sma_50": 168.41700134277343,
-      "sma_200": 81.34242530822753,
-      "rsi_14": 53.32140505837142,
+      "latest_price": 206.1043,
+      "sma_20": 210.78621597290038,
+      "sma_50": 171.2660871887207,
+      "sma_200": 82.1934967803955,
+      "rsi_14": 50.80283453752871,
       "rsi_status": "NEUTRAL",
       "macd_data": {
-        "macd": 18.219703427491027,
-        "signal": 19.765568827064804,
-        "histogram": -1.5458653995737777,
-        "crossover": "BEARISH_CROSS"
+        "macd": 15.838336109079478,
+        "signal": 18.98012228346774,
+        "histogram": -3.141786174388262,
+        "crossover": "BEARISH"
       },
       "cross_status": "GOLDEN_CROSS",
-      "fifty_two_week_pos_pct": 77.6701133355289,
+      "fifty_two_week_pos_pct": 79.1663665974586,
       "high_52": 254.47999572753906,
       "low_52": 22.280000686645508,
       "returns": {
-        "1m": 4.008824752164131,
-        "3m": 264.24590348630954,
-        "6m": 299.4283497505182,
-        "1y": 671.9238095238095
+        "1m": 3.632489410609341,
+        "3m": 269.32944874634165,
+        "6m": 323.2121083596465,
+        "1y": 685.159238095238
       },
       "technical_score": 65.0,
       "signals": [
@@ -656,15 +283,15 @@
       ]
     },
     "sent": {
-      "combined_polarity": 0.011,
-      "sentiment_score": 50.4,
+      "combined_polarity": 0.021,
+      "sentiment_score": 50.9,
       "label": "NEUTRAL",
       "news_stats": {
-        "polarity": 0.01585185185185185,
-        "subjectivity": 0.16748148148148145,
+        "polarity": 0.030555555555555558,
+        "subjectivity": 0.17555555555555555,
         "positive_count": 3,
-        "negative_count": 1,
-        "neutral_count": 11,
+        "negative_count": 0,
+        "neutral_count": 12,
         "total": 15
       },
       "reddit_stats": {
@@ -676,19 +303,17 @@
       },
       "headline_count": 15,
       "positive_highlights": [
-        "MRNA Stock Plunges 18% After Leaked Melanoma Vaccine Data Misses High Hopes - Yahoo Finance",
+        "Moderna has made Science's top-employer list for 12 straight years. - Stock Titan",
         "Moderna Tumbles 25% After Apparent Early Leak of Melanoma Vaccine Data; BioNTech Dips, Pfizer Edges Higher - 24/7 Wall St.",
-        "Moderna (MRNA) Shares Drop 24% After Early Release of Cancer Vac - GuruFocus"
+        "Moderna (MRNA) Rises Higher Than Market: Key Facts - Yahoo Finance"
       ],
-      "negative_highlights": [
-        "Why Is Moderna (NASDAQ:MRNA) Stock Crashing 25%? Cancer Vaccine Data Leak Sparks Selloff - Stocks Down Under"
-      ],
+      "negative_highlights": [],
       "recent_headlines": [
         "Why Moderna (MRNA) stock is trading lower today - Yahoo Finance",
+        "Moderna Stock Cools After Cancer Vaccine Data Leak - Schaeffer's Investment Research",
         "Moderna, Merck Shares Fall After Possible Melanoma Data Leak - Bloomberg.com",
-        "Moderna shares plunge on leaked cancer vaccine data (MRNA:NASDAQ) - Seeking Alpha",
-        "Moderna Tumbles 25% After Apparent Early Leak of Melanoma Vaccine Data; BioNTech Dips, Pfizer Edges Higher - 24/7 Wall St.",
-        "MRNA Stock Plunges 18% After Leaked Melanoma Vaccine Data Misses High Hopes - Yahoo Finance"
+        "Moderna Stock Slides Again Friday: What's Going On? - TradingView",
+        "Moderna shares plunge on leaked cancer vaccine data (MRNA:NASDAQ) - Seeking Alpha"
       ]
     },
     "qual": {
@@ -718,27 +343,585 @@
       "qualitative_score": 32.0
     },
     "sig": {
-      "composite_score": 51.5,
+      "composite_score": 51.6,
       "signal": "HOLD",
       "confidence_pct": 78.5,
       "pillar_scores": {
         "fundamentals": 51.0,
         "valuation": 65.0,
         "technicals": 65.0,
-        "sentiment": 50.4,
+        "sentiment": 50.9,
         "analyst": 35.0,
         "macro_moat": 32.0
       },
       "key_positives": [
         "Low debt-to-equity ratio (19.0)",
         "Positive free cash flow generation",
-        "Attractive Forward P/E (-44.7x)",
+        "Attractive Forward P/E (-45.5x)",
         "Price is 20.3% above 50-day SMA (Bullish)"
       ],
       "key_risks": [
         "Subpar Return on Equity (-39.0%)",
         "Thin profit margin (-141.4%)",
-        "Price exceeds average analyst target (-33.0%)"
+        "Price exceeds average analyst target (-34.1%)"
+      ]
+    }
+  },
+  "BE": {
+    "data": {
+      "symbol": "BE",
+      "company_name": "Bloom Energy Corporation",
+      "exchange_info": {
+        "country": "United States",
+        "exchange": "NYSE/NASDAQ",
+        "central_bank": "Federal Reserve (FED)",
+        "currency_symbol": "$"
+      },
+      "currency": "USD",
+      "sector": "Industrials",
+      "industry": "Electrical Equipment & Parts",
+      "summary": "Bloom Energy Corporation designs, manufactures, sells, and installs solid oxide fuel cell systems for on-site power generation in the United States and internationally. It offers Bloom Energy Server, an energy server platform to convert fuel, such as natural gas, biogas, hydrogen, or a blend of these fuels, into electricity through a non-combustion electrochemical process. The company also provides Bloom Electrolyzer for producing hydrogen. It sells its products through direct and indirect sales channels to utilities, data centers, retail, healthcare, education, telecom, manufacturing, and other industries. The company was formerly known as Ion America Corp. and changed its name to Bloom Energy Corporation in 2006. Bloom Energy Corporation was incorporated in 2001 and is headquartered in San Jose, California.",
+      "current_price": 191.95,
+      "previous_close": 217.77,
+      "fifty_two_week_high": 351.28,
+      "fifty_two_week_low": 75.7,
+      "volume": 21822935,
+      "avg_volume": 15750545,
+      "pe_ratio": 252.5658,
+      "forward_pe": 36.776894,
+      "peg_ratio": 0.54,
+      "price_to_sales": 18.15991,
+      "price_to_book": 69.92714,
+      "ev_to_ebitda": 153.57,
+      "market_cap": 56534523904,
+      "enterprise_value": 64266055680,
+      "eps_trailing": 0.76,
+      "eps_forward": 5.21931,
+      "earnings_growth": null,
+      "revenue_growth": 1.655,
+      "total_revenue": 3113149952,
+      "net_income": 244942000,
+      "profit_margins": 0.07868,
+      "operating_margins": 0.17106001,
+      "return_on_equity": 0.22213,
+      "return_on_assets": 0.05599,
+      "total_debt": 2815023104,
+      "total_cash": 2716858880,
+      "debt_to_equity": 171.578,
+      "current_ratio": 4.087,
+      "quick_ratio": 3.213,
+      "free_cash_flow": 531637504,
+      "dividend_yield_pct": 0.0,
+      "payout_ratio": 0.0,
+      "target_low": 97.0,
+      "target_mean": 285.08463,
+      "target_high": 380.0,
+      "target_median": 295.0,
+      "recommendation_key": "buy",
+      "recommendation_mean": 2.24138,
+      "number_of_analysts": 26,
+      "implied_upside_pct": 48.520255274811156,
+      "rec_breakdown": {
+        "strongBuy": 5,
+        "buy": 10,
+        "hold": 12,
+        "sell": 1,
+        "strongSell": 1
+      },
+      "next_earnings_date": "2026-10-22",
+      "earnings_high_est": 1.2,
+      "earnings_low_est": 1.0,
+      "earnings_avg_est": 1.09333,
+      "_ticker_obj": "yfinance.Ticker object <BE>"
+    },
+    "tech": {
+      "latest_price": 191.95,
+      "sma_20": 257.235555267334,
+      "sma_50": 248.27602264404297,
+      "sma_200": 219.2806562423706,
+      "rsi_14": 22.51466939660685,
+      "rsi_status": "OVERSOLD",
+      "macd_data": {
+        "macd": -12.840753027340412,
+        "signal": -4.625009737330846,
+        "histogram": -8.215743290009566,
+        "crossover": "BEARISH"
+      },
+      "cross_status": "GOLDEN_CROSS",
+      "fifty_two_week_pos_pct": 42.18375871955516,
+      "high_52": 351.2799987792969,
+      "low_52": 75.69999694824219,
+      "returns": {
+        "1m": -33.51229931284184,
+        "3m": 15.050350163791437,
+        "6m": -18.207769732980296,
+        "1y": 89.26247630201087
+      },
+      "technical_score": 42.0,
+      "signals": [
+        "Price is 22.7% below 50-day SMA (Bearish)",
+        "50-day SMA is above 200-day SMA (Golden Cross)",
+        "RSI is oversold at 22.5 (Potential Rebound)",
+        "MACD histogram indicates negative bearish momentum"
+      ]
+    },
+    "sent": {
+      "combined_polarity": 0.046,
+      "sentiment_score": 51.8,
+      "label": "NEUTRAL",
+      "news_stats": {
+        "polarity": 0.0651851851851852,
+        "subjectivity": 0.14814814814814817,
+        "positive_count": 3,
+        "negative_count": 2,
+        "neutral_count": 10,
+        "total": 15
+      },
+      "reddit_stats": {
+        "polarity": 0.0,
+        "subjectivity": 0.0,
+        "positive_count": 0,
+        "negative_count": 0,
+        "neutral_count": 0
+      },
+      "headline_count": 15,
+      "positive_highlights": [
+        "Bloom Energy vs. Vistra: Which Energy Stock Is a Better Buy in 2026? - The Motley Fool",
+        "Bloom Energy Posts Strong Q3, Production Ramp Weighs On Near-Term Margin - Benzinga",
+        "Morgan Stanley raises Bloom Energy stock price target on higher shipment forecasts - Investing.com"
+      ],
+      "negative_highlights": [
+        "Bloom Energy Sinks 9% as Pre-Earnings Rally Reverses; FuelCell Drops 6%, Plug Power Falls 3% - Yahoo Finance",
+        "Bloom Energy Corp Stock (BE) Moved Down by 11.27% on Oct 23: What Signal Does It Send? - TradingKey"
+      ],
+      "recent_headlines": [
+        "Bloom Energy Sinks 9% as Pre-Earnings Rally Reverses; FuelCell Drops 6%, Plug Power Falls 3% - Yahoo Finance",
+        "Bloom Energy shares fall despite beating Q3 estimates - Investing.com",
+        "Bloom Energy vs. Vistra: Which Energy Stock Is a Better Buy in 2026? - The Motley Fool",
+        "Bloom Energy Stock Slides: What's Going On? - Benzinga",
+        "Why Is Bloom Energy Stock Rising in Pre-Market Trading? - Yahoo Finance"
+      ]
+    },
+    "qual": {
+      "priced_in": {
+        "valuation_tier": "High Growth Premium",
+        "priced_in_points": [
+          "High P/E ratio indicates market has priced in strong future earnings acceleration.",
+          "Forward P/E is 85.4% lower than trailing P/E, pricing in robust earnings recovery/growth.",
+          "PEG ratio of 0.54 suggests stock may be undervalued relative to expected growth."
+        ]
+      },
+      "macro_policy": {
+        "macro_factors": [
+          "Operating in United States under Federal Reserve (FED) interest rate policy environment.",
+          "Performance closely aligned with overall United States economic trajectory."
+        ],
+        "policy_risks": [
+          "Standard corporate governance and trade policy conditions apply."
+        ]
+      },
+      "moat": {
+        "moat_tier": "Narrow Moat",
+        "moat_score": 70.0,
+        "reasons": [
+          "Strong Return on Equity (ROE: 22.2%), indicating high capital efficiency and competitive advantage."
+        ]
+      },
+      "qualitative_score": 62.0
+    },
+    "sig": {
+      "composite_score": 65.3,
+      "signal": "BUY",
+      "confidence_pct": 72.8,
+      "pillar_scores": {
+        "fundamentals": 82.0,
+        "valuation": 50.0,
+        "technicals": 42.0,
+        "sentiment": 51.8,
+        "analyst": 97.0,
+        "macro_moat": 62.0
+      },
+      "key_positives": [
+        "Exceptional Return on Equity (22.2%)",
+        "Strong YoY revenue growth (165.5%)",
+        "Positive free cash flow generation",
+        "Favorable PEG ratio (0.54x < 1.0)"
+      ],
+      "key_risks": [
+        "Elevated debt-to-equity ratio (171.6)",
+        "High P/E ratio (252.6x)",
+        "Price is 22.7% below 50-day SMA (Bearish)"
+      ]
+    }
+  },
+  "WDC": {
+    "data": {
+      "symbol": "WDC",
+      "company_name": "Western Digital Corporation",
+      "exchange_info": {
+        "country": "United States",
+        "exchange": "NYSE/NASDAQ",
+        "central_bank": "Federal Reserve (FED)",
+        "currency_symbol": "$"
+      },
+      "currency": "USD",
+      "sector": "Technology",
+      "industry": "Computer Hardware",
+      "summary": "Western Digital Corporation engages in the development, manufacture, and sale of data storage devices and solutions based on hard disk drive (HDD) technology in the United States, Asia, Europe, the Middle East, and Africa. The company offers internal HDDs, data center drives, data center platforms, external drives, portable drives, NAS for home and office, and accessories. It sells its data storage devices and solutions through its computer sales personnel, dealers, distributors, retailers, and subsidiaries. The company has a collaboration with Open Quantum Design for the development of quantum error correction technology and related systems to advance reliable quantum computing. Western Digital Corporation was founded in 1970 and is headquartered in San Jose, California.",
+      "current_price": 352.57,
+      "previous_close": 354.19,
+      "fifty_two_week_high": 799.87,
+      "fifty_two_week_low": 121.85,
+      "volume": 8535472,
+      "avg_volume": 8021379,
+      "pe_ratio": 13.096954,
+      "forward_pe": 9.495464,
+      "peg_ratio": 0.72,
+      "price_to_sales": 10.215587,
+      "price_to_book": 14.358964,
+      "ev_to_ebitda": 25.452,
+      "market_cap": 131975159808,
+      "enterprise_value": 127311994880,
+      "eps_trailing": 26.92,
+      "eps_forward": 37.13036,
+      "earnings_growth": 9.841,
+      "revenue_growth": 0.438,
+      "total_revenue": 12919000064,
+      "net_income": 9285999616,
+      "profit_margins": 0.72947,
+      "operating_margins": 0.43608,
+      "return_on_equity": 1.30853,
+      "return_on_assets": 0.20758,
+      "total_debt": 1191000064,
+      "total_cash": 1579000064,
+      "debt_to_equity": 13.436,
+      "current_ratio": 1.329,
+      "quick_ratio": 0.85,
+      "free_cash_flow": 2268750080,
+      "dividend_yield_pct": 17.0,
+      "payout_ratio": 0.0186,
+      "target_low": 405.0,
+      "target_mean": 636.0833,
+      "target_high": 1050.0,
+      "target_median": 627.5,
+      "recommendation_key": "buy",
+      "recommendation_mean": 1.53846,
+      "number_of_analysts": 24,
+      "implied_upside_pct": 80.41333635873727,
+      "rec_breakdown": {
+        "strongBuy": 4,
+        "buy": 17,
+        "hold": 5,
+        "sell": 0,
+        "strongSell": 0
+      },
+      "next_earnings_date": "2026-10-22",
+      "earnings_high_est": 5.92634,
+      "earnings_low_est": 4.19,
+      "earnings_avg_est": 5.21784,
+      "_ticker_obj": "yfinance.Ticker object <WDC>"
+    },
+    "tech": {
+      "latest_price": 352.57,
+      "sma_20": 395.4855041503906,
+      "sma_50": 433.13227783203126,
+      "sma_200": 414.51890647888183,
+      "rsi_14": 26.564228387012236,
+      "rsi_status": "OVERSOLD",
+      "macd_data": {
+        "macd": -25.31491895336211,
+        "signal": -23.460711687498993,
+        "histogram": -1.854207265863117,
+        "crossover": "BEARISH"
+      },
+      "cross_status": "GOLDEN_CROSS",
+      "fifty_two_week_pos_pct": 34.076075050177806,
+      "high_52": 799.6132774415504,
+      "low_52": 121.49334180086133,
+      "returns": {
+        "1m": -22.819114755741133,
+        "3m": -23.910342740918356,
+        "6m": -11.966876481361465,
+        "1y": 180.9638524857629
+      },
+      "technical_score": 42.0,
+      "signals": [
+        "Price is 18.6% below 50-day SMA (Bearish)",
+        "50-day SMA is above 200-day SMA (Golden Cross)",
+        "RSI is oversold at 26.6 (Potential Rebound)",
+        "MACD histogram indicates negative bearish momentum"
+      ]
+    },
+    "sent": {
+      "combined_polarity": 0.012,
+      "sentiment_score": 50.5,
+      "label": "NEUTRAL",
+      "news_stats": {
+        "polarity": 0.01742283950617284,
+        "subjectivity": 0.07896604938271605,
+        "positive_count": 4,
+        "negative_count": 2,
+        "neutral_count": 9,
+        "total": 15
+      },
+      "reddit_stats": {
+        "polarity": 0.0,
+        "subjectivity": 0.0,
+        "positive_count": 0,
+        "negative_count": 0,
+        "neutral_count": 0
+      },
+      "headline_count": 15,
+      "positive_highlights": [
+        "Western Digital Corp. stock outperforms competitors on strong trading day - MarketWatch",
+        "Western Digital WDC Stock Defies Memory Market Panic With Crushing First-Quarter Earnings Beat and Explosive Revenue Forecast - cristinaiglesias.com",
+        "Western Digital Earnings Easily Beat Estimates. Why The Stock Is Falling Anyway. - Investor's Business Daily"
+      ],
+      "negative_highlights": [
+        "Western Digital (WDC) and Seagate (STX) Stocks Rise: Morgan Stanley Sees 80% Upside - Stocks Down Under",
+        "Western Digital Earnings Fail to Get Stock Back on Track - Barron's"
+      ],
+      "recent_headlines": [
+        "Western Digital beats earnings estimates, but AI selloff erases initial gains - Yahoo Finance",
+        "Western Digital Earnings Fail to Get Stock Back on Track - Barron's",
+        "Western Digital Earnings Easily Beat Estimates. Why The Stock Is Falling Anyway. - Investor's Business Daily",
+        "Western Digital in focus as Wall Street defends amid capex concerns (WDC:NASDAQ) - Seeking Alpha",
+        "Dear Western Digital Stock Fans, Mark Your Calendars for October 22 - Barchart.com"
+      ]
+    },
+    "qual": {
+      "priced_in": {
+        "valuation_tier": "Value / Low Expectation",
+        "priced_in_points": [
+          "Low P/E ratio suggests market is pricing in modest growth or cyclical headwinds.",
+          "Forward P/E is 27.5% lower than trailing P/E, pricing in robust earnings recovery/growth.",
+          "PEG ratio of 0.72 suggests stock may be undervalued relative to expected growth."
+        ]
+      },
+      "macro_policy": {
+        "macro_factors": [
+          "Operating in United States under Federal Reserve (FED) interest rate policy environment.",
+          "Consumer sentiment and discretionary spending impact demand during inflation/rate shifts."
+        ],
+        "policy_risks": [
+          "Antitrust oversight, data privacy laws, and international tariff trade policies affect cross-border supply chains."
+        ]
+      },
+      "moat": {
+        "moat_tier": "Wide Moat",
+        "moat_score": 100.0,
+        "reasons": [
+          "Strong Return on Equity (ROE: 130.9%), indicating high capital efficiency and competitive advantage.",
+          "High net profit margin (72.9%), demonstrating pricing power.",
+          "Mega-cap scale ($131.98B) provides massive distribution and cost advantages."
+        ]
+      },
+      "qualitative_score": 80.0
+    },
+    "sig": {
+      "composite_score": 80.9,
+      "signal": "BUY",
+      "confidence_pct": 67.8,
+      "pillar_scores": {
+        "fundamentals": 100.0,
+        "valuation": 95.0,
+        "technicals": 42.0,
+        "sentiment": 50.5,
+        "analyst": 100.0,
+        "macro_moat": 80.0
+      },
+      "key_positives": [
+        "Exceptional Return on Equity (130.9%)",
+        "High profit margin (72.9%)",
+        "Strong YoY revenue growth (43.8%)",
+        "Low debt-to-equity ratio (13.4)"
+      ],
+      "key_risks": [
+        "Price is 18.6% below 50-day SMA (Bearish)"
+      ]
+    }
+  },
+  "NVDA": {
+    "data": {
+      "symbol": "NVDA",
+      "company_name": "NVIDIA Corporation",
+      "exchange_info": {
+        "country": "United States",
+        "exchange": "NYSE/NASDAQ",
+        "central_bank": "Federal Reserve (FED)",
+        "currency_symbol": "$"
+      },
+      "currency": "USD",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "summary": "NVIDIA Corporation operates as a data center scale AI infrastructure company in the United States, Taiwan, China, Hong Kong, Europe, and internationally. It operates through Compute & Networking, and Graphics segments. The Compute & Networking segment provides data center accelerated computing and networking platforms and artificial intelligence solutions and software, and automotive platforms and autonomous and electric vehicle solutions, including software. The Graphics segment offers GeForce GPUs for gaming and PCs; Quadro/NVIDIA RTX GPUs for enterprise workstation graphics. The company's products are used in gaming, professional visualization, data center, and automotive markets. It sells its products to original equipment manufacturers, original device manufacturers, system integrators and distributors, independent software vendors, cloud service providers, add-in board manufacturers, distributors, automotive manufacturers and tier-1 automotive suppliers, and other ecosystem participants. It has a collaboration with Cisco to develop Ultra-Dense Small Form Factor Pluggable (USFP), a high-density optical module pluggable transceiver. It has a collaboration with ChipAgents to develop Build-A-Chip-Bench, a benchmark for AI agents carrying chip design tasks and The Company has a strategic alliance with MediaTek to build the next generations of AI computing platforms. NVIDIA Corporation was incorporated in 1993 and is headquartered in Santa Clara, California.",
+      "current_price": 212.725,
+      "previous_close": 212.21,
+      "fifty_two_week_high": 243.37,
+      "fifty_two_week_low": 164.27,
+      "volume": 36072702,
+      "avg_volume": 117647362,
+      "pe_ratio": 26.893805,
+      "forward_pe": 13.366971,
+      "peg_ratio": 0.27,
+      "price_to_sales": 16.954388,
+      "price_to_book": 22.432774,
+      "ev_to_ebitda": 25.293,
+      "market_cap": 5136790847488,
+      "enterprise_value": 5090651930624,
+      "eps_trailing": 7.91,
+      "eps_forward": 15.9146,
+      "earnings_growth": 1.278,
+      "revenue_growth": 1.059,
+      "total_revenue": 302970011648,
+      "net_income": 192880001024,
+      "profit_margins": 0.63663,
+      "operating_margins": 0.66236997,
+      "return_on_equity": 1.17211,
+      "return_on_assets": 0.53572,
+      "total_debt": 38860001280,
+      "total_cash": 62469001216,
+      "debt_to_equity": 16.971,
+      "current_ratio": 4.589,
+      "quick_ratio": 2.918,
+      "free_cash_flow": 41809874944,
+      "dividend_yield_pct": 47.0,
+      "payout_ratio": 0.0354,
+      "target_low": 180.0,
+      "target_mean": 328.95346,
+      "target_high": 515.0,
+      "target_median": 315.0,
+      "recommendation_key": "strong_buy",
+      "recommendation_mean": 1.29032,
+      "number_of_analysts": 58,
+      "implied_upside_pct": 54.637893994593966,
+      "rec_breakdown": {
+        "strongBuy": 10,
+        "buy": 49,
+        "hold": 2,
+        "sell": 1,
+        "strongSell": 0
+      },
+      "next_earnings_date": "2026-11-17",
+      "earnings_high_est": 2.7,
+      "earnings_low_est": 2.34,
+      "earnings_avg_est": 2.47325,
+      "_ticker_obj": "yfinance.Ticker object <NVDA>"
+    },
+    "tech": {
+      "latest_price": 212.725,
+      "sma_20": 225.62975158691407,
+      "sma_50": 222.42923065185548,
+      "sma_200": 203.3710609436035,
+      "rsi_14": 23.402098429062193,
+      "rsi_status": "OVERSOLD",
+      "macd_data": {
+        "macd": -2.48868655878519,
+        "signal": -0.44239956952283027,
+        "histogram": -2.04628698926236,
+        "crossover": "BEARISH"
+      },
+      "cross_status": "GOLDEN_CROSS",
+      "fifty_two_week_pos_pct": 61.44052486264188,
+      "high_52": 243.3699951171875,
+      "low_52": 163.89537828689438,
+      "returns": {
+        "1m": -5.484963310298152,
+        "3m": 8.097576952326847,
+        "6m": -1.5690704880523265,
+        "1y": 17.058984399435584
+      },
+      "technical_score": 50.5,
+      "signals": [
+        "Price is 4.4% below 50-day SMA (Bearish)",
+        "50-day SMA is above 200-day SMA (Golden Cross)",
+        "RSI is oversold at 23.4 (Potential Rebound)",
+        "MACD histogram indicates negative bearish momentum"
+      ]
+    },
+    "sent": {
+      "combined_polarity": -0.016,
+      "sentiment_score": 49.3,
+      "label": "NEUTRAL",
+      "news_stats": {
+        "polarity": -0.02333333333333333,
+        "subjectivity": 0.17619047619047618,
+        "positive_count": 1,
+        "negative_count": 1,
+        "neutral_count": 13,
+        "total": 15
+      },
+      "reddit_stats": {
+        "polarity": 0.0,
+        "subjectivity": 0.0,
+        "positive_count": 0,
+        "negative_count": 0,
+        "neutral_count": 0
+      },
+      "headline_count": 15,
+      "positive_highlights": [
+        "Nvidia (NVDA) Stock Price Lags Massive Earnings Growth\u2014A Compelling Value Opportunity - Yahoo Finance"
+      ],
+      "negative_highlights": [
+        "Nvidia, Intel among chip stocks to benefit as open-weight models prove expensive: BofA (NVDA:NASDAQ) - Seeking Alpha"
+      ],
+      "recent_headlines": [
+        "Nvidia (NVDA) Stock Price Lags Massive Earnings Growth\u2014A Compelling Value Opportunity - Yahoo Finance",
+        "Robert Bender&Associates trims Nvidia Corporation stake by 12,742 shares - The Globe and Mail",
+        "Nvidia: Apex Arbiter Of Agentic And Physical Compute Economy (NASDAQ:NVDA) - Seeking Alpha",
+        "NVIDIA Corporation $NVDA Stock Holdings Lessened by Amundi - MarketBeat",
+        "NVIDIA Corporation (NVDA) Remains a Key AI Growth Driver Despite Benchmark Headwinds - Yahoo Finance"
+      ]
+    },
+    "qual": {
+      "priced_in": {
+        "valuation_tier": "Fair Value Range",
+        "priced_in_points": [
+          "P/E ratio reflects balanced market expectations for mid-range growth.",
+          "Forward P/E is 50.3% lower than trailing P/E, pricing in robust earnings recovery/growth.",
+          "PEG ratio of 0.27 suggests stock may be undervalued relative to expected growth."
+        ]
+      },
+      "macro_policy": {
+        "macro_factors": [
+          "Operating in United States under Federal Reserve (FED) interest rate policy environment.",
+          "Consumer sentiment and discretionary spending impact demand during inflation/rate shifts."
+        ],
+        "policy_risks": [
+          "Antitrust oversight, data privacy laws, and international tariff trade policies affect cross-border supply chains."
+        ]
+      },
+      "moat": {
+        "moat_tier": "Wide Moat",
+        "moat_score": 100.0,
+        "reasons": [
+          "Strong Return on Equity (ROE: 117.2%), indicating high capital efficiency and competitive advantage.",
+          "High net profit margin (63.7%), demonstrating pricing power.",
+          "Mega-cap scale ($5.14T) provides massive distribution and cost advantages."
+        ]
+      },
+      "qualitative_score": 80.0
+    },
+    "sig": {
+      "composite_score": 79.0,
+      "signal": "BUY",
+      "confidence_pct": 71.3,
+      "pillar_scores": {
+        "fundamentals": 100.0,
+        "valuation": 80.0,
+        "technicals": 50.5,
+        "sentiment": 49.3,
+        "analyst": 100.0,
+        "macro_moat": 80.0
+      },
+      "key_positives": [
+        "Exceptional Return on Equity (117.2%)",
+        "High profit margin (63.7%)",
+        "Strong YoY revenue growth (105.9%)",
+        "Low debt-to-equity ratio (17.0)"
+      ],
+      "key_risks": [
+        "Price is 4.4% below 50-day SMA (Bearish)"
       ]
     }
   },
@@ -756,13 +939,13 @@
       "sector": "N/A",
       "industry": "N/A",
       "summary": "The fund invests at least 80% of its net assets in financial instruments, such as swap agreements, securities of the index, and ETFs that track the index, that, in combination, provide 3X daily leveraged exposure to the index, consistent with the fund's investment objective. The index is a rules-based, modified float-adjusted market capitalization-weighted index that tracks the performance of the thirty largest U.S. listed semiconductor companies. The fund is non-diversified.",
-      "current_price": 82.11,
-      "previous_close": 103.24,
+      "current_price": 85.665,
+      "previous_close": 82.11,
       "fifty_two_week_high": 302.0,
       "fifty_two_week_low": 28.12,
-      "volume": 177999401,
-      "avg_volume": 69968290,
-      "pe_ratio": 18.554047,
+      "volume": 61461427,
+      "avg_volume": 70157929,
+      "pe_ratio": 19.357355,
       "forward_pe": null,
       "peg_ratio": null,
       "price_to_sales": null,
@@ -810,46 +993,46 @@
       "_ticker_obj": "yfinance.Ticker object <SOXL>"
     },
     "tech": {
-      "latest_price": 82.11,
-      "sma_20": 131.23999977111816,
-      "sma_50": 126.06299362182617,
-      "sma_200": 122.97857982635497,
-      "rsi_14": 10.791847002702184,
+      "latest_price": 85.665,
+      "sma_20": 127.95074996948242,
+      "sma_50": 124.87099853515625,
+      "sma_200": 123.14562614440918,
+      "rsi_14": 13.287561004689806,
       "rsi_status": "OVERSOLD",
       "macd_data": {
-        "macd": -11.132524606934595,
-        "signal": -4.763047709264146,
-        "histogram": -6.369476897670449,
+        "macd": -12.335724929642751,
+        "signal": -6.277583153339868,
+        "histogram": -6.058141776302883,
         "crossover": "BEARISH"
       },
       "cross_status": "GOLDEN_CROSS",
-      "fifty_two_week_pos_pct": 19.73267017442327,
+      "fifty_two_week_pos_pct": 21.031535006560375,
       "high_52": 301.8021115035658,
       "low_52": 28.10157607904972,
       "returns": {
-        "1m": -43.88710519200286,
-        "3m": -35.88463439785963,
-        "6m": -35.96958426095927,
-        "1y": 99.57212363829757
+        "1m": -43.43677667469621,
+        "3m": -21.744413853733334,
+        "6m": -30.528270191940198,
+        "1y": 108.21271430367511
       },
       "technical_score": 42.0,
       "signals": [
-        "Price is 34.9% below 50-day SMA (Bearish)",
+        "Price is 31.4% below 50-day SMA (Bearish)",
         "50-day SMA is above 200-day SMA (Golden Cross)",
-        "RSI is oversold at 10.8 (Potential Rebound)",
+        "RSI is oversold at 13.3 (Potential Rebound)",
         "MACD histogram indicates negative bearish momentum"
       ]
     },
     "sent": {
-      "combined_polarity": 0.001,
-      "sentiment_score": 50.0,
+      "combined_polarity": 0.042,
+      "sentiment_score": 51.7,
       "label": "NEUTRAL",
       "news_stats": {
-        "polarity": 0.001666666666666668,
-        "subjectivity": 0.18166666666666667,
+        "polarity": 0.05999999999999999,
+        "subjectivity": 0.11499999999999999,
         "positive_count": 3,
-        "negative_count": 1,
-        "neutral_count": 11,
+        "negative_count": 0,
+        "neutral_count": 12,
         "total": 15
       },
       "reddit_stats": {
@@ -861,19 +1044,17 @@
       },
       "headline_count": 15,
       "positive_highlights": [
+        "Why Direxion Daily Semiconductor Bull 3X ETF Crashed Today - The Motley Fool",
         "Why Direxion Daily Semiconductor Bull 3X ETF Just Crashed - The Motley Fool",
-        "Why Direxion Daily Semiconductor Bull 3X ETF Keeps Crashing - The Motley Fool",
-        "Why Direxion Daily Semiconductor Bull 3X ETF Crashed Today - The Motley Fool"
+        "Why Direxion Daily Semiconductor Bull 3X ETF Keeps Crashing - The Motley Fool"
       ],
-      "negative_highlights": [
-        "Nvidia's AI Warning, $111 Oil: Why SOXL Just Suffered a Brutal 20% Wipeout - Benzinga"
-      ],
+      "negative_highlights": [],
       "recent_headlines": [
         "SOXX, SOXL, SMH Plunge As Chip Stocks Sell Off Amid Supply Chain Concerns - Stocktwits",
-        "Nasdaq Futures Rise After Chip Selloff While S&P 500, Dow Track Mixed Open: SLV, GLD, SOXL, BE In Focus - TradingView",
         "Why Direxion Daily Semiconductor Bull 3X ETF Dropped Today - Yahoo Finance",
+        "Nasdaq Futures Rise After Chip Selloff While S&P 500, Dow Track Mixed Open: SLV, GLD, SOXL, BE In Focus - TradingView",
         "Why Direxion Daily Semiconductor Bull 3X ETF Crashed Today - The Motley Fool",
-        "Nvidia's AI Warning, $111 Oil: Why SOXL Just Suffered a Brutal 20% Wipeout - Benzinga"
+        "Why Direxion Daily Semiconductor Bull 3X ETF Crashed Today - Yahoo Finance"
       ]
     },
     "qual": {
@@ -902,210 +1083,23 @@
       "qualitative_score": 50.0
     },
     "sig": {
-      "composite_score": 49.8,
+      "composite_score": 50.1,
       "signal": "HOLD",
-      "confidence_pct": 85.4,
+      "confidence_pct": 85.3,
       "pillar_scores": {
         "fundamentals": 50.0,
         "valuation": 55.0,
         "technicals": 42.0,
-        "sentiment": 50.0,
+        "sentiment": 51.7,
         "analyst": 50.0,
         "macro_moat": 50.0
       },
       "key_positives": [
         "50-day SMA is above 200-day SMA (Golden Cross)",
-        "RSI is oversold at 10.8 (Potential Rebound)"
+        "RSI is oversold at 13.3 (Potential Rebound)"
       ],
       "key_risks": [
-        "Price is 34.9% below 50-day SMA (Bearish)"
-      ]
-    }
-  },
-  "BE": {
-    "data": {
-      "symbol": "BE",
-      "company_name": "Bloom Energy Corporation",
-      "exchange_info": {
-        "country": "United States",
-        "exchange": "NYSE/NASDAQ",
-        "central_bank": "Federal Reserve (FED)",
-        "currency_symbol": "$"
-      },
-      "currency": "USD",
-      "sector": "Industrials",
-      "industry": "Electrical Equipment & Parts",
-      "summary": "Bloom Energy Corporation designs, manufactures, sells, and installs solid oxide fuel cell systems for on-site power generation in the United States and internationally. It offers Bloom Energy Server, an energy server platform to convert fuel, such as natural gas, biogas, hydrogen, or a blend of these fuels, into electricity through a non-combustion electrochemical process. The company also provides Bloom Electrolyzer for producing hydrogen. It sells its products through direct and indirect sales channels to utilities, data centers, retail, healthcare, education, telecom, manufacturing, and other industries. The company was formerly known as Ion America Corp. and changed its name to Bloom Energy Corporation in 2006. Bloom Energy Corporation was incorporated in 2001 and is headquartered in San Jose, California.",
-      "current_price": 217.77,
-      "previous_close": 238.53,
-      "fifty_two_week_high": 351.28,
-      "fifty_two_week_low": 75.7,
-      "volume": 23302400,
-      "avg_volume": 15653313,
-      "pe_ratio": 315.6087,
-      "forward_pe": 43.922337,
-      "peg_ratio": 0.54,
-      "price_to_sales": 20.602676,
-      "price_to_book": 39.630573,
-      "ev_to_ebitda": 153.57,
-      "market_cap": 64139223040,
-      "enterprise_value": 64266055680,
-      "eps_trailing": 0.69,
-      "eps_forward": 4.95807,
-      "earnings_growth": null,
-      "revenue_growth": 1.655,
-      "total_revenue": 3113149952,
-      "net_income": 244942000,
-      "profit_margins": 0.07868,
-      "operating_margins": 0.17106001,
-      "return_on_equity": 0.22213,
-      "return_on_assets": 0.05599,
-      "total_debt": 2815023104,
-      "total_cash": 2716858880,
-      "debt_to_equity": 171.578,
-      "current_ratio": 4.087,
-      "quick_ratio": 3.213,
-      "free_cash_flow": 531637504,
-      "dividend_yield_pct": 0.0,
-      "payout_ratio": 0.0,
-      "target_low": 97.0,
-      "target_mean": 285.08463,
-      "target_high": 380.0,
-      "target_median": 295.0,
-      "recommendation_key": "buy",
-      "recommendation_mean": 2.24138,
-      "number_of_analysts": 26,
-      "implied_upside_pct": 30.910883041741283,
-      "rec_breakdown": {
-        "strongBuy": 5,
-        "buy": 10,
-        "hold": 12,
-        "sell": 1,
-        "strongSell": 1
-      },
-      "next_earnings_date": "2026-10-22",
-      "earnings_high_est": 1.2,
-      "earnings_low_est": 1.0,
-      "earnings_avg_est": 1.09333,
-      "_ticker_obj": "yfinance.Ticker object <BE>"
-    },
-    "tech": {
-      "latest_price": 217.77,
-      "sma_20": 262.07100067138674,
-      "sma_50": 249.1606005859375,
-      "sma_200": 218.86070072174073,
-      "rsi_14": 26.034120375346475,
-      "rsi_status": "OVERSOLD",
-      "macd_data": {
-        "macd": -9.52063440113048,
-        "signal": -2.5710739148284536,
-        "histogram": -6.949560486302026,
-        "crossover": "BEARISH"
-      },
-      "cross_status": "GOLDEN_CROSS",
-      "fifty_two_week_pos_pct": 51.553088797370116,
-      "high_52": 351.2799987792969,
-      "low_52": 75.69999694824219,
-      "returns": {
-        "1m": -18.33114382723743,
-        "3m": 15.724311019184656,
-        "6m": -5.796599158664273,
-        "1y": 114.72096621145566
-      },
-      "technical_score": 42.0,
-      "signals": [
-        "Price is 12.6% below 50-day SMA (Bearish)",
-        "50-day SMA is above 200-day SMA (Golden Cross)",
-        "RSI is oversold at 26.0 (Potential Rebound)",
-        "MACD histogram indicates negative bearish momentum"
-      ]
-    },
-    "sent": {
-      "combined_polarity": 0.034,
-      "sentiment_score": 51.4,
-      "label": "NEUTRAL",
-      "news_stats": {
-        "polarity": 0.04888888888888889,
-        "subjectivity": 0.11222222222222221,
-        "positive_count": 2,
-        "negative_count": 2,
-        "neutral_count": 11,
-        "total": 15
-      },
-      "reddit_stats": {
-        "polarity": 0.0,
-        "subjectivity": 0.0,
-        "positive_count": 0,
-        "negative_count": 0,
-        "neutral_count": 0
-      },
-      "headline_count": 15,
-      "positive_highlights": [
-        "Bloom Energy vs. Vistra: Which Energy Stock Is a Better Buy in 2026? - The Motley Fool",
-        "Bloom Energy (NYSE:BE) beats expectations in strong Q3 2026, guides for strong full-year sales - Yahoo Finance"
-      ],
-      "negative_highlights": [
-        "Bloom Energy Sinks 9% as Pre-Earnings Rally Reverses; FuelCell Drops 6%, Plug Power Falls 3% - Yahoo Finance",
-        "BE Stock Drops After-Hours: Bloom Energy Q4 Guidance Comes Above Estimates, But Negative Cash Flows In Q3 Dampen Sentiment - Yahoo Finance"
-      ],
-      "recent_headlines": [
-        "BE Stock Drops After-Hours: Bloom Energy Q4 Guidance Comes Above Estimates, But Negative Cash Flows In Q3 Dampen Sentiment - Yahoo Finance",
-        "Bloom Energy vs. Vistra: Which Energy Stock Is a Better Buy in 2026? - The Motley Fool",
-        "Bloom Energy Stock Slides: What's Going On? - Benzinga",
-        "Bloom Energy Sinks 9% as Pre-Earnings Rally Reverses; FuelCell Drops 6%, Plug Power Falls 3% - Yahoo Finance",
-        "Why Is Bloom Energy Stock Rising in Pre-Market Trading? - Yahoo Finance"
-      ]
-    },
-    "qual": {
-      "priced_in": {
-        "valuation_tier": "High Growth Premium",
-        "priced_in_points": [
-          "High P/E ratio indicates market has priced in strong future earnings acceleration.",
-          "Forward P/E is 86.1% lower than trailing P/E, pricing in robust earnings recovery/growth.",
-          "PEG ratio of 0.54 suggests stock may be undervalued relative to expected growth."
-        ]
-      },
-      "macro_policy": {
-        "macro_factors": [
-          "Operating in United States under Federal Reserve (FED) interest rate policy environment.",
-          "Performance closely aligned with overall United States economic trajectory."
-        ],
-        "policy_risks": [
-          "Standard corporate governance and trade policy conditions apply."
-        ]
-      },
-      "moat": {
-        "moat_tier": "Narrow Moat",
-        "moat_score": 70.0,
-        "reasons": [
-          "Strong Return on Equity (ROE: 22.2%), indicating high capital efficiency and competitive advantage."
-        ]
-      },
-      "qualitative_score": 62.0
-    },
-    "sig": {
-      "composite_score": 62.9,
-      "signal": "HOLD",
-      "confidence_pct": 70.5,
-      "pillar_scores": {
-        "fundamentals": 82.0,
-        "valuation": 38.0,
-        "technicals": 42.0,
-        "sentiment": 51.4,
-        "analyst": 97.0,
-        "macro_moat": 62.0
-      },
-      "key_positives": [
-        "Exceptional Return on Equity (22.2%)",
-        "Strong YoY revenue growth (165.5%)",
-        "Positive free cash flow generation",
-        "Favorable PEG ratio (0.54x < 1.0)"
-      ],
-      "key_risks": [
-        "Elevated debt-to-equity ratio (171.6)",
-        "High P/E ratio (315.6x)",
-        "Elevated Forward P/E (43.9x)",
-        "Price is 12.6% below 50-day SMA (Bearish)"
+        "Price is 31.4% below 50-day SMA (Bearish)"
       ]
     }
   }
