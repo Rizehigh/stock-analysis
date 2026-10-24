@@ -70,19 +70,19 @@
       "latest_price": 877.55,
       "sma_20": 986.5976654052735,
       "sma_50": 982.5951342773437,
-      "sma_200": 731.8925247192383,
+      "sma_200": 731.8925245666504,
       "rsi_14": 28.581448065119645,
       "rsi_status": "OVERSOLD",
       "macd_data": {
-        "macd": -35.37368508431325,
-        "signal": -18.31916397517569,
-        "histogram": -17.05452110913756,
+        "macd": -35.37368508424447,
+        "signal": -18.319163975074545,
+        "histogram": -17.054521109169926,
         "crossover": "BEARISH"
       },
       "cross_status": "GOLDEN_CROSS",
-      "fifty_two_week_pos_pct": 64.50329072257004,
+      "fifty_two_week_pos_pct": 64.50329119612907,
       "high_52": 1254.6095437059498,
-      "low_52": 192.3715183189107,
+      "low_52": 192.3715041476699,
       "returns": {
         "1m": -18.90378890610711,
         "3m": 6.965991538561056,
@@ -98,39 +98,41 @@
       ]
     },
     "sent": {
-      "combined_polarity": 0.048,
-      "sentiment_score": 51.9,
+      "combined_polarity": 0.068,
+      "sentiment_score": 52.7,
       "label": "NEUTRAL",
       "news_stats": {
-        "polarity": 0.06814814814814814,
-        "subjectivity": 0.2049074074074074,
-        "positive_count": 4,
+        "polarity": 0.09216931216931218,
+        "subjectivity": 0.20235449735449737,
+        "positive_count": 5,
         "negative_count": 2,
-        "neutral_count": 9,
+        "neutral_count": 8,
         "total": 15
       },
       "reddit_stats": {
-        "polarity": 0.0,
-        "subjectivity": 0.0,
-        "positive_count": 0,
-        "negative_count": 0,
-        "neutral_count": 0
+        "polarity": 0.010000000000000009,
+        "subjectivity": 0.3,
+        "positive_count": 2,
+        "negative_count": 2,
+        "neutral_count": 6,
+        "total": 10
       },
-      "headline_count": 15,
+      "headline_count": 25,
       "positive_highlights": [
         "Micron (MU) is an Incredible Growth Stock: 3 Reasons Why - Yahoo Finance",
-        "Micron Stock Moves Higher: What's Going On? - Benzinga",
-        "Micron (MU) Looks Cheap at 5 Times Forward Earnings. Can Its Profit Boom Last? - Yahoo Finance"
+        "Why MU is a huge buy - Reddit",
+        "Micron (MU) Stock is really cheap among Semiconductors - Reddit"
       ],
       "negative_highlights": [
         "Micron: HBM\u2019s Margin Drag Flips Into A Profit Driver In 2027 (NASDAQ:MU) - Seeking Alpha",
-        "Micron leads memory stock rebound candidates after sharp selloff - Investing.com"
+        "Micron leads memory stock rebound candidates after sharp selloff - Investing.com",
+        "Micron will peak and leave all you retail with heavy bags - Reddit"
       ],
       "recent_headlines": [
-        "What's Going On With Micron Technology Stock Friday? - Benzinga",
+        "Micron Technology Inc (MU) Shares Fall 6.3% -- GF Value Says Still Overvalued - GuruFocus",
         "What's Going On With Micron Technology Stock Thursday? - Benzinga",
         "Micron (MU) is an Incredible Growth Stock: 3 Reasons Why - Yahoo Finance",
-        "Micron Technology Inc Stock (MU) Moved Up by 3.19% on Oct 23: What Investors Need To Know - TradingKey",
+        "What's Going On With Micron Technology Stock Friday? - Benzinga",
         "Micron leads memory stock rebound candidates after sharp selloff - Investing.com"
       ]
     },
@@ -164,14 +166,14 @@
       "qualitative_score": 80.0
     },
     "sig": {
-      "composite_score": 81.1,
+      "composite_score": 81.2,
       "signal": "HOLD",
-      "confidence_pct": 68.1,
+      "confidence_pct": 68.3,
       "pillar_scores": {
         "fundamentals": 100.0,
         "valuation": 95.0,
         "technicals": 42.0,
-        "sentiment": 51.9,
+        "sentiment": 52.7,
         "analyst": 100.0,
         "macro_moat": 80.0
       },
@@ -207,15 +209,15 @@
       "volume": 35824073,
       "avg_volume": 16066235,
       "pe_ratio": 254.34212,
-      "forward_pe": 36.922714,
+      "forward_pe": 39.141838,
       "peg_ratio": 0.49,
       "price_to_sales": 18.287632,
-      "price_to_book": 70.418945,
+      "price_to_book": 35.177437,
       "ev_to_ebitda": 153.57,
       "market_cap": 56932139008,
       "enterprise_value": 64266055680,
       "eps_trailing": 0.76,
-      "eps_forward": 5.23526,
+      "eps_forward": 4.93845,
       "earnings_growth": null,
       "revenue_growth": 1.655,
       "total_revenue": 3113149952,
@@ -285,14 +287,14 @@
       ]
     },
     "sent": {
-      "combined_polarity": 0.014,
-      "sentiment_score": 50.5,
+      "combined_polarity": 0.035,
+      "sentiment_score": 51.4,
       "label": "NEUTRAL",
       "news_stats": {
-        "polarity": 0.019629629629629632,
-        "subjectivity": 0.06592592592592593,
-        "positive_count": 1,
-        "negative_count": 2,
+        "polarity": 0.05,
+        "subjectivity": 0.11,
+        "positive_count": 2,
+        "negative_count": 1,
         "neutral_count": 12,
         "total": 15
       },
@@ -305,18 +307,18 @@
       },
       "headline_count": 15,
       "positive_highlights": [
-        "Bloom Energy vs. Vistra: Which Energy Stock Is a Better Buy in 2026? - The Motley Fool"
+        "Bloom Energy vs. Vistra: Which Energy Stock Is a Better Buy in 2026? - The Motley Fool",
+        "Bloom Energy Is Joining the S&P 500: Is the Stock Still a Buy After Its Massive Run? - The Motley Fool"
       ],
       "negative_highlights": [
-        "Bloom Energy Sinks 9% as Pre-Earnings Rally Reverses; FuelCell Drops 6%, Plug Power Falls 3% - Yahoo Finance",
-        "Bloom Energy Corp Stock (BE) Moved Down by 11.27% on Oct 23: What Signal Does It Send? - TradingKey"
+        "Bloom Energy Sinks 9% as Pre-Earnings Rally Reverses; FuelCell Drops 6%, Plug Power Falls 3% - Yahoo Finance"
       ],
       "recent_headlines": [
         "Bloom Energy slides 11% after quarterly results (BE:NYSE) - Seeking Alpha",
         "Bloom Energy Sinks 9% as Pre-Earnings Rally Reverses; FuelCell Drops 6%, Plug Power Falls 3% - Yahoo Finance",
         "Why is Bloom Energy stock tumbling today? - Investing.com",
-        "Bloom Energy vs. Vistra: Which Energy Stock Is a Better Buy in 2026? - The Motley Fool",
-        "Bloom Energy Stock Slides: What's Going On? - Benzinga"
+        "Why Is Bloom Energy Stock Rising in Pre-Market Trading? - Yahoo Finance",
+        "Bloom Energy shares fall despite beating Q3 estimates - Investing.com"
       ]
     },
     "qual": {
@@ -324,7 +326,7 @@
         "valuation_tier": "High Growth Premium",
         "priced_in_points": [
           "High P/E ratio indicates market has priced in strong future earnings acceleration.",
-          "Forward P/E is 85.5% lower than trailing P/E, pricing in robust earnings recovery/growth.",
+          "Forward P/E is 84.6% lower than trailing P/E, pricing in robust earnings recovery/growth.",
           "PEG ratio of 0.49 suggests stock may be undervalued relative to expected growth."
         ]
       },
@@ -347,14 +349,14 @@
       "qualitative_score": 62.0
     },
     "sig": {
-      "composite_score": 65.1,
+      "composite_score": 65.3,
       "signal": "BUY",
-      "confidence_pct": 72.6,
+      "confidence_pct": 72.7,
       "pillar_scores": {
         "fundamentals": 82.0,
         "valuation": 50.0,
         "technicals": 42.0,
-        "sentiment": 50.5,
+        "sentiment": 51.4,
         "analyst": 97.0,
         "macro_moat": 62.0
       },
@@ -442,13 +444,13 @@
       "latest_price": 210.96,
       "sma_20": 225.54150161743163,
       "sma_50": 222.3939306640625,
-      "sma_200": 203.36223594665526,
+      "sma_200": 203.3622361755371,
       "rsi_14": 22.026437371271115,
       "rsi_status": "OVERSOLD",
       "macd_data": {
-        "macd": -2.6294842475811606,
-        "signal": -0.47055912848463405,
-        "histogram": -2.1589251190965264,
+        "macd": -2.629484247580308,
+        "signal": -0.47055912848339687,
+        "histogram": -2.158925119096911,
         "crossover": "BEARISH"
       },
       "cross_status": "GOLDEN_CROSS",
@@ -470,8 +472,8 @@
       ]
     },
     "sent": {
-      "combined_polarity": 0.052,
-      "sentiment_score": 52.1,
+      "combined_polarity": 0.03,
+      "sentiment_score": 51.2,
       "label": "NEUTRAL",
       "news_stats": {
         "polarity": 0.04333333333333333,
@@ -482,28 +484,25 @@
         "total": 15
       },
       "reddit_stats": {
-        "polarity": 0.07308333333333333,
-        "subjectivity": 0.38830555555555557,
-        "positive_count": 4,
-        "negative_count": 1,
-        "neutral_count": 5,
-        "total": 10
+        "polarity": 0.0,
+        "subjectivity": 0.0,
+        "positive_count": 0,
+        "negative_count": 0,
+        "neutral_count": 0
       },
-      "headline_count": 25,
+      "headline_count": 15,
       "positive_highlights": [
         "NVDA Logs Best Day In Over A Month: Burry Spotlights Partnership Blitz \u2014 Analyst Calls Full-Stack Strategy \u2018Underappreciated\u2019 - TradingView",
-        "When (if?) the AI bubble bursts and NVIDIA inevitably crashes, would that be a good time to get NVIDIA stocks? - Reddit",
-        "Are tech layoffs really because of AI, or is AI just part of the story? - Reddit"
+        "Nvidia (NVDA) Stock Price Lags Massive Earnings Growth\u2014A Compelling Value Opportunity - Yahoo Finance"
       ],
       "negative_highlights": [
-        "NVIDIA reportedly denied multiple neoclouds access to GTC Berlin after they added AMD GPUs, TPUs, and other chips to their cloud offerings. - Reddit",
         "Nvidia, Intel among chip stocks to benefit as open-weight models prove expensive: BofA (NVDA:NASDAQ) - Seeking Alpha"
       ],
       "recent_headlines": [
         "Nvidia (NVDA) Stock Price Lags Massive Earnings Growth\u2014A Compelling Value Opportunity - Yahoo Finance",
-        "Nvidia: Apex Arbiter Of Agentic And Physical Compute Economy (NASDAQ:NVDA) - Seeking Alpha",
+        "NVIDIA Corporation $NVDA Stock Bought by West Family Investments Inc. - MarketBeat",
+        "Nvidia ticks up even as Seaport reiterates Sell rating and says competition is 'mounting' (NVDA:NASDAQ) - Seeking Alpha",
         "Robert Bender&Associates trims Nvidia Corporation stake by 12,742 shares - The Globe and Mail",
-        "NVIDIA Corporation $NVDA Stock Holdings Lessened by Amundi - MarketBeat",
         "NVIDIA Corporation (NVDA) Remains a Key AI Growth Driver Despite Benchmark Headwinds - Yahoo Finance"
       ]
     },
@@ -537,14 +536,14 @@
       "qualitative_score": 80.0
     },
     "sig": {
-      "composite_score": 79.2,
+      "composite_score": 79.1,
       "signal": "BUY",
-      "confidence_pct": 71.7,
+      "confidence_pct": 71.5,
       "pillar_scores": {
         "fundamentals": 100.0,
         "valuation": 80.0,
         "technicals": 49.3,
-        "sentiment": 52.1,
+        "sentiment": 51.2,
         "analyst": 100.0,
         "macro_moat": 80.0
       },
@@ -556,6 +555,191 @@
       ],
       "key_risks": [
         "Price is 5.1% below 50-day SMA (Bearish)"
+      ]
+    }
+  },
+  "GOOG": {
+    "data": {
+      "symbol": "GOOG",
+      "company_name": "Alphabet Inc.",
+      "exchange_info": {
+        "country": "United States",
+        "exchange": "NYSE/NASDAQ",
+        "central_bank": "Federal Reserve (FED)",
+        "currency_symbol": "$"
+      },
+      "currency": "USD",
+      "sector": "Communication Services",
+      "industry": "Internet Content & Information",
+      "summary": "Alphabet Inc. offers various products and platforms in the United States, Europe, the Middle East, Africa, the Asia-Pacific, Canada, and Latin America. It operates through Google Services, Google Cloud, and Other Bets segments. The Google Services segment provides products and services, including ads, Android, Chrome, devices, Gmail, Google Drive, Google Maps, Google Photos, Google Play, Search, and YouTube. It is also involved in the sale of apps and in-app purchases and digital content in Google Play and YouTube; and devices, as well as the provision of YouTube consumer subscription services, such as YouTube TV, YouTube Music and Premium, NFL Sunday Ticket, and Google One. The Google Cloud segment offers consumption-based fees and subscriptions for AI solutions, including AI infrastructure, Vertex AI platform, and Gemini enterprise. It also provides cybersecurity, and data and analytics services; Google Workspace that include cloud-based communication and collaboration tools for enterprises, such as Calendar, Gmail, Docs, Drive, and Meet; and other enterprise services. The Other Bets segment sells transportation and internet services. Alphabet Inc. was incorporated in 1998 and is headquartered in Mountain View, California.",
+      "current_price": 317.28,
+      "previous_close": 320.76,
+      "fifty_two_week_high": 404.47,
+      "fifty_two_week_low": 256.1,
+      "volume": 10793024,
+      "avg_volume": 17076953,
+      "pe_ratio": 15.919719,
+      "forward_pe": 20.65808,
+      "peg_ratio": 1.13,
+      "price_to_sales": 8.70287,
+      "price_to_book": 6.2338886,
+      "ev_to_ebitda": 21.81,
+      "market_cap": 3880313683968,
+      "enterprise_value": 3776674529280,
+      "eps_trailing": 19.93,
+      "eps_forward": 15.35864,
+      "earnings_growth": 2.94,
+      "revenue_growth": 0.242,
+      "total_revenue": 445865984000,
+      "net_income": 244118994944,
+      "profit_margins": 0.54771,
+      "operating_margins": 0.34033,
+      "return_on_equity": 0.48676,
+      "return_on_assets": 0.12958999,
+      "total_debt": 120790999040,
+      "total_cash": 242473992192,
+      "debt_to_equity": 18.859,
+      "current_ratio": 2.724,
+      "quick_ratio": 2.471,
+      "free_cash_flow": 22665000960,
+      "dividend_yield_pct": 28.000000000000004,
+      "payout_ratio": 0.042600002,
+      "target_low": 340.0,
+      "target_mean": 422.35715,
+      "target_high": 485.0,
+      "target_median": 427.5,
+      "recommendation_key": "strong_buy",
+      "recommendation_mean": 1.37705,
+      "number_of_analysts": 14,
+      "implied_upside_pct": 33.118113338376205,
+      "rec_breakdown": {
+        "strongBuy": 13,
+        "buy": 43,
+        "hold": 5,
+        "sell": 0,
+        "strongSell": 0
+      },
+      "next_earnings_date": "2026-10-28",
+      "earnings_high_est": 3.19,
+      "earnings_low_est": 2.25023,
+      "earnings_avg_est": 2.96591,
+      "_ticker_obj": "yfinance.Ticker object <GOOG>"
+    },
+    "tech": {
+      "latest_price": 317.28,
+      "sma_20": 339.5259979248047,
+      "sma_50": 339.51807556152346,
+      "sma_200": 339.10784286499023,
+      "rsi_14": 24.45644450760267,
+      "rsi_status": "OVERSOLD",
+      "macd_data": {
+        "macd": -3.8741965062453687,
+        "signal": -0.9332281933045931,
+        "histogram": -2.9409683129407758,
+        "crossover": "BEARISH"
+      },
+      "cross_status": "GOLDEN_CROSS",
+      "fifty_two_week_pos_pct": 41.63890700783701,
+      "high_52": 403.9644697672297,
+      "low_52": 255.43320463333282,
+      "returns": {
+        "1m": -6.977831449874028,
+        "3m": -4.544203836252758,
+        "6m": -8.849687827376219,
+        "1y": 22.10979959751782
+      },
+      "technical_score": 47.2,
+      "signals": [
+        "Price is 6.5% below 50-day SMA (Bearish)",
+        "50-day SMA is above 200-day SMA (Golden Cross)",
+        "RSI is oversold at 24.5 (Potential Rebound)",
+        "MACD histogram indicates negative bearish momentum"
+      ]
+    },
+    "sent": {
+      "combined_polarity": 0.12,
+      "sentiment_score": 54.8,
+      "label": "BULLISH",
+      "news_stats": {
+        "polarity": 0.1711111111111111,
+        "subjectivity": 0.24666666666666665,
+        "positive_count": 5,
+        "negative_count": 1,
+        "neutral_count": 9,
+        "total": 15
+      },
+      "reddit_stats": {
+        "polarity": 0.0,
+        "subjectivity": 0.0,
+        "positive_count": 0,
+        "negative_count": 0,
+        "neutral_count": 0
+      },
+      "headline_count": 15,
+      "positive_highlights": [
+        "Alphabet: The Best Way To Invest In AI May Be Closer To The End User (NASDAQ:GOOG) - Seeking Alpha",
+        "If Alphabet Does This on Oct. 28, the Stock Could Skyrocket - The Motley Fool",
+        "Why Alphabet Inc. (GOOG) Dipped More Than Broader Market Today - Yahoo Finance"
+      ],
+      "negative_highlights": [
+        "Alphabet Inc. (GOOG) Earnings Expected to Grow: Should You Buy? - Yahoo Finance"
+      ],
+      "recent_headlines": [
+        "Alphabet Inc. (GOOG) Stock Drops Despite Market Gains: Important Facts to Note - Yahoo Finance",
+        "Alphabet Stock Is Up 6% This Year. Is It a Buy Ahead of Earnings? - Morningstar",
+        "Alphabet: Gemini 4 Argon Is Coming For ChatGPT\u2019s Lunch (NASDAQ:GOOG) - Seeking Alpha",
+        "Alphabet Slips 2% Despite NASDAQ Rally as Pichai Says Google Cloud Is Giving Up Revenue for AI Capacity; Amazon Dips, Microsoft Holds Steady - 24/7 Wall St.",
+        "If Alphabet Does This on Oct. 28, the Stock Could Skyrocket - Yahoo Finance"
+      ]
+    },
+    "qual": {
+      "priced_in": {
+        "valuation_tier": "Fair Value Range",
+        "priced_in_points": [
+          "P/E ratio reflects balanced market expectations for mid-range growth.",
+          "Forward P/E is higher than trailing P/E, pricing in potential earnings contraction."
+        ]
+      },
+      "macro_policy": {
+        "macro_factors": [
+          "Operating in United States under Federal Reserve (FED) interest rate policy environment.",
+          "Performance closely aligned with overall United States economic trajectory."
+        ],
+        "policy_risks": [
+          "Standard corporate governance and trade policy conditions apply."
+        ]
+      },
+      "moat": {
+        "moat_tier": "Wide Moat",
+        "moat_score": 100.0,
+        "reasons": [
+          "Strong Return on Equity (ROE: 48.7%), indicating high capital efficiency and competitive advantage.",
+          "High net profit margin (54.8%), demonstrating pricing power.",
+          "Mega-cap scale ($3.88T) provides massive distribution and cost advantages."
+        ]
+      },
+      "qualitative_score": 80.0
+    },
+    "sig": {
+      "composite_score": 75.3,
+      "signal": "BUY",
+      "confidence_pct": 70.7,
+      "pillar_scores": {
+        "fundamentals": 100.0,
+        "valuation": 60.0,
+        "technicals": 47.2,
+        "sentiment": 54.8,
+        "analyst": 100.0,
+        "macro_moat": 80.0
+      },
+      "key_positives": [
+        "Exceptional Return on Equity (48.7%)",
+        "High profit margin (54.8%)",
+        "Strong YoY revenue growth (24.2%)",
+        "Low debt-to-equity ratio (18.9)"
+      ],
+      "key_risks": [
+        "Price is 6.5% below 50-day SMA (Bearish)"
       ]
     }
   },
@@ -580,7 +764,7 @@
       "volume": 34615357,
       "avg_volume": 37085109,
       "pe_ratio": 409.03296,
-      "forward_pe": 172.00873,
+      "forward_pe": 171.9841,
       "peg_ratio": 3.82,
       "price_to_sales": 14.2057085,
       "price_to_book": 13.506785,
@@ -588,7 +772,7 @@
       "market_cap": 1471285166080,
       "enterprise_value": 1170668781568,
       "eps_trailing": 0.91,
-      "eps_forward": 2.16396,
+      "eps_forward": 2.16427,
       "earnings_growth": -0.436,
       "revenue_growth": -0.002,
       "total_revenue": 103569997824,
@@ -657,30 +841,27 @@
       ]
     },
     "sent": {
-      "combined_polarity": -0.018,
-      "sentiment_score": 49.3,
+      "combined_polarity": -0.045,
+      "sentiment_score": 48.2,
       "label": "NEUTRAL",
       "news_stats": {
         "polarity": -0.06444444444444444,
-        "subjectivity": 0.2555555555555556,
+        "subjectivity": 0.1888888888888889,
         "positive_count": 1,
         "negative_count": 2,
         "neutral_count": 12,
         "total": 15
       },
       "reddit_stats": {
-        "polarity": 0.0915,
-        "subjectivity": 0.221,
-        "positive_count": 3,
+        "polarity": 0.0,
+        "subjectivity": 0.0,
+        "positive_count": 0,
         "negative_count": 0,
-        "neutral_count": 7,
-        "total": 10
+        "neutral_count": 0
       },
-      "headline_count": 25,
+      "headline_count": 15,
       "positive_highlights": [
-        "TSLA's fair value is about $55 per share - Reddit",
-        "Tesla: Record Auto Backlog Tells The Whole Story - Seeking Alpha",
-        "How high do you expect TSLA stock to reach? - Reddit"
+        "Tesla: Record Auto Backlog Tells The Whole Story - Seeking Alpha"
       ],
       "negative_highlights": [
         "Tesla Stock Lags Apple Because Of \u2018Communications Problem,\u2019 Says Investor Gary Black - TradingView",
@@ -688,10 +869,10 @@
       ],
       "recent_headlines": [
         "Tesla, Inc. (TSLA) Stock Forecasts - Yahoo! Finance Canada",
+        "Tesla: SpaceX, Robots, And A Valuation That Defies Gravity - Seeking Alpha",
         "Tesla Stock Lags Apple Because Of \u2018Communications Problem,\u2019 Says Investor Gary Black - TradingView",
-        "Tesla: Record Auto Backlog Tells The Whole Story - Seeking Alpha",
-        "Tesla Shares Fall 4.86% Premarket - Tesla (NASDAQ:TSLA) - Benzinga",
-        "Tesla (TSLA) Surpasses Q3 Earnings and Revenue Estimates - Yahoo Finance"
+        "Tesla, Inc. $TSLA Stock: Howland Capital Management LLC Cuts Stake - MarketBeat",
+        "Tesla Shares Fall 4.86% Premarket - Tesla (NASDAQ:TSLA) - Benzinga"
       ]
     },
     "qual": {
@@ -699,7 +880,7 @@
         "valuation_tier": "High Growth Premium",
         "priced_in_points": [
           "High P/E ratio indicates market has priced in strong future earnings acceleration.",
-          "Forward P/E is 57.9% lower than trailing P/E, pricing in robust earnings recovery/growth.",
+          "Forward P/E is 58.0% lower than trailing P/E, pricing in robust earnings recovery/growth.",
           "PEG ratio of 3.82 signals premium valuation relative to growth rate."
         ]
       },
@@ -723,14 +904,14 @@
       "qualitative_score": 50.0
     },
     "sig": {
-      "composite_score": 43.9,
+      "composite_score": 43.8,
       "signal": "SELL",
-      "confidence_pct": 72.0,
+      "confidence_pct": 72.1,
       "pillar_scores": {
         "fundamentals": 51.0,
         "valuation": 11.0,
         "technicals": 33.5,
-        "sentiment": 49.3,
+        "sentiment": 48.2,
         "analyst": 77.0,
         "macro_moat": 50.0
       },
@@ -847,15 +1028,15 @@
       ]
     },
     "sent": {
-      "combined_polarity": 0.002,
-      "sentiment_score": 50.1,
+      "combined_polarity": 0.035,
+      "sentiment_score": 51.4,
       "label": "NEUTRAL",
       "news_stats": {
-        "polarity": 0.002979797979797986,
-        "subjectivity": 0.2441919191919192,
+        "polarity": 0.04964646464646464,
+        "subjectivity": 0.19974747474747473,
         "positive_count": 4,
-        "negative_count": 3,
-        "neutral_count": 8,
+        "negative_count": 2,
+        "neutral_count": 9,
         "total": 15
       },
       "reddit_stats": {
@@ -867,18 +1048,17 @@
       },
       "headline_count": 15,
       "positive_highlights": [
-        "SpaceX\u2019s 80,000 Cell Site Push A Win For ASTS, Ericsson, Nokia, NextNav, Among Others, Says Roth Capital - Stocktwits",
+        "SpaceX\u2019s 80,000 Cell Site Push A Win For AST SpaceMobile, Ericsson, Nokia, NextNav, Among Others, Says Roth Capital - Stocktwits",
         "AST SpaceMobile, Inc. (ASTS) Falls More Steeply Than Broader Market: What Investors Need to Know - Yahoo Finance",
         "AST SpaceMobile Hit a 52-Week Low Days After SpaceX Spent $8 Billion on Spectrum. That's Not a Coincidence. - The Motley Fool"
       ],
       "negative_highlights": [
         "Long Rocket Lab, Short AST SpaceMobile: One Owns Its Path, The Other Rents It From SpaceX - Seeking Alpha",
-        "AST SpaceMobile: The Bad News May Be Overstated (NASDAQ:ASTS) - Seeking Alpha",
         "RKLB Stock Suffers Worst Week Ever: AST SpaceMobile Partner Challenges Iridium Deal \u2014 Claims Rival Uses FCC To Block Competitors - Stocktwits"
       ],
       "recent_headlines": [
         "5 Telecom Stocks That Can Survive the Musk Threat\u2014and 1 Reason to Buy SpaceX - Barron's",
-        "AST SpaceMobile, Inc. (ASTS) Falls More Steeply Than Broader Market: What Investors Need to Know - Yahoo Finance",
+        "AST SpaceMobile (ASTS) Stock Dropped, So What Is Driving Attention Now? - Yahoo Finance",
         "Long Rocket Lab, Short AST SpaceMobile: One Owns Its Path, The Other Rents It From SpaceX - Seeking Alpha",
         "AST SpaceMobile Stock Gets a New Catalyst. Wall Street Sees 93% Upside. - Barchart.com",
         "Should You Sell Your AST SpaceMobile Stock Now? - Trefis"
@@ -911,14 +1091,14 @@
       "qualitative_score": 32.0
     },
     "sig": {
-      "composite_score": 47.0,
+      "composite_score": 47.2,
       "signal": "HOLD",
-      "confidence_pct": 71.5,
+      "confidence_pct": 71.4,
       "pillar_scores": {
         "fundamentals": 35.0,
         "valuation": 65.0,
         "technicals": 22.0,
-        "sentiment": 50.1,
+        "sentiment": 51.4,
         "analyst": 75.0,
         "macro_moat": 32.0
       },
@@ -933,191 +1113,6 @@
         "Thin profit margin (0.0%)",
         "Negative free cash flow generation",
         "Price is 31.0% below 50-day SMA (Bearish)"
-      ]
-    }
-  },
-  "GOOG": {
-    "data": {
-      "symbol": "GOOG",
-      "company_name": "Alphabet Inc.",
-      "exchange_info": {
-        "country": "United States",
-        "exchange": "NYSE/NASDAQ",
-        "central_bank": "Federal Reserve (FED)",
-        "currency_symbol": "$"
-      },
-      "currency": "USD",
-      "sector": "Communication Services",
-      "industry": "Internet Content & Information",
-      "summary": "Alphabet Inc. offers various products and platforms in the United States, Europe, the Middle East, Africa, the Asia-Pacific, Canada, and Latin America. It operates through Google Services, Google Cloud, and Other Bets segments. The Google Services segment provides products and services, including ads, Android, Chrome, devices, Gmail, Google Drive, Google Maps, Google Photos, Google Play, Search, and YouTube. It is also involved in the sale of apps and in-app purchases and digital content in Google Play and YouTube; and devices, as well as the provision of YouTube consumer subscription services, such as YouTube TV, YouTube Music and Premium, NFL Sunday Ticket, and Google One. The Google Cloud segment offers consumption-based fees and subscriptions for AI solutions, including AI infrastructure, Vertex AI platform, and Gemini enterprise. It also provides cybersecurity, and data and analytics services; Google Workspace that include cloud-based communication and collaboration tools for enterprises, such as Calendar, Gmail, Docs, Drive, and Meet; and other enterprise services. The Other Bets segment sells transportation and internet services. Alphabet Inc. was incorporated in 1998 and is headquartered in Mountain View, California.",
-      "current_price": 317.28,
-      "previous_close": 320.76,
-      "fifty_two_week_high": 404.47,
-      "fifty_two_week_low": 256.1,
-      "volume": 10793024,
-      "avg_volume": 17076953,
-      "pe_ratio": 15.919719,
-      "forward_pe": 20.65808,
-      "peg_ratio": 1.13,
-      "price_to_sales": 8.70287,
-      "price_to_book": 6.2338886,
-      "ev_to_ebitda": 21.81,
-      "market_cap": 3880313683968,
-      "enterprise_value": 3776674529280,
-      "eps_trailing": 19.93,
-      "eps_forward": 15.35864,
-      "earnings_growth": 2.94,
-      "revenue_growth": 0.242,
-      "total_revenue": 445865984000,
-      "net_income": 244118994944,
-      "profit_margins": 0.54771,
-      "operating_margins": 0.34033,
-      "return_on_equity": 0.48676,
-      "return_on_assets": 0.12958999,
-      "total_debt": 120790999040,
-      "total_cash": 242473992192,
-      "debt_to_equity": 18.859,
-      "current_ratio": 2.724,
-      "quick_ratio": 2.471,
-      "free_cash_flow": 22665000960,
-      "dividend_yield_pct": 27.0,
-      "payout_ratio": 0.042600002,
-      "target_low": 340.0,
-      "target_mean": 422.35715,
-      "target_high": 485.0,
-      "target_median": 427.5,
-      "recommendation_key": "strong_buy",
-      "recommendation_mean": 1.37705,
-      "number_of_analysts": 14,
-      "implied_upside_pct": 33.118113338376205,
-      "rec_breakdown": {
-        "strongBuy": 13,
-        "buy": 43,
-        "hold": 5,
-        "sell": 0,
-        "strongSell": 0
-      },
-      "next_earnings_date": "2026-10-28",
-      "earnings_high_est": 3.19,
-      "earnings_low_est": 2.25023,
-      "earnings_avg_est": 2.96591,
-      "_ticker_obj": "yfinance.Ticker object <GOOG>"
-    },
-    "tech": {
-      "latest_price": 317.28,
-      "sma_20": 339.5259979248047,
-      "sma_50": 339.51807556152346,
-      "sma_200": 339.107841796875,
-      "rsi_14": 24.45644450760267,
-      "rsi_status": "OVERSOLD",
-      "macd_data": {
-        "macd": -3.8741965058134156,
-        "signal": -0.9332281926693896,
-        "histogram": -2.940968313144026,
-        "crossover": "BEARISH"
-      },
-      "cross_status": "GOLDEN_CROSS",
-      "fifty_two_week_pos_pct": 41.63890700783701,
-      "high_52": 403.9644697672297,
-      "low_52": 255.43320463333282,
-      "returns": {
-        "1m": -6.977831449874028,
-        "3m": -4.544203836252758,
-        "6m": -8.849687827376219,
-        "1y": 22.10979959751782
-      },
-      "technical_score": 47.2,
-      "signals": [
-        "Price is 6.5% below 50-day SMA (Bearish)",
-        "50-day SMA is above 200-day SMA (Golden Cross)",
-        "RSI is oversold at 24.5 (Potential Rebound)",
-        "MACD histogram indicates negative bearish momentum"
-      ]
-    },
-    "sent": {
-      "combined_polarity": 0.12,
-      "sentiment_score": 54.8,
-      "label": "BULLISH",
-      "news_stats": {
-        "polarity": 0.1711111111111111,
-        "subjectivity": 0.23999999999999996,
-        "positive_count": 5,
-        "negative_count": 1,
-        "neutral_count": 9,
-        "total": 15
-      },
-      "reddit_stats": {
-        "polarity": 0.0,
-        "subjectivity": 0.0,
-        "positive_count": 0,
-        "negative_count": 0,
-        "neutral_count": 0
-      },
-      "headline_count": 15,
-      "positive_highlights": [
-        "Alphabet: The Best Way To Invest In AI May Be Closer To The End User (NASDAQ:GOOG) - Seeking Alpha",
-        "If Alphabet Does This on Oct. 28, the Stock Could Skyrocket - The Motley Fool",
-        "Why Alphabet Inc. (GOOG) Dipped More Than Broader Market Today - Yahoo Finance"
-      ],
-      "negative_highlights": [
-        "Alphabet Inc. (GOOG) Earnings Expected to Grow: Should You Buy? - Yahoo Finance"
-      ],
-      "recent_headlines": [
-        "Alphabet Inc. (GOOG) Stock Drops Despite Market Gains: Important Facts to Note - Yahoo Finance",
-        "Alphabet: Gemini 4 Argon Is Coming For ChatGPT\u2019s Lunch (NASDAQ:GOOG) - Seeking Alpha",
-        "Alphabet Stock Is Up 6% This Year. Is It a Buy Ahead of Earnings? - Morningstar",
-        "Alphabet Slips 2% Despite NASDAQ Rally as Pichai Says Google Cloud Is Giving Up Revenue for AI Capacity; Amazon Dips, Microsoft Holds Steady - 24/7 Wall St.",
-        "Google Cloud Revenue Surges: Alphabet Focuses on $100 Billion TPU Opportunity Ahead of Q3 Earnings - Benzinga"
-      ]
-    },
-    "qual": {
-      "priced_in": {
-        "valuation_tier": "Fair Value Range",
-        "priced_in_points": [
-          "P/E ratio reflects balanced market expectations for mid-range growth.",
-          "Forward P/E is higher than trailing P/E, pricing in potential earnings contraction."
-        ]
-      },
-      "macro_policy": {
-        "macro_factors": [
-          "Operating in United States under Federal Reserve (FED) interest rate policy environment.",
-          "Performance closely aligned with overall United States economic trajectory."
-        ],
-        "policy_risks": [
-          "Standard corporate governance and trade policy conditions apply."
-        ]
-      },
-      "moat": {
-        "moat_tier": "Wide Moat",
-        "moat_score": 100.0,
-        "reasons": [
-          "Strong Return on Equity (ROE: 48.7%), indicating high capital efficiency and competitive advantage.",
-          "High net profit margin (54.8%), demonstrating pricing power.",
-          "Mega-cap scale ($3.88T) provides massive distribution and cost advantages."
-        ]
-      },
-      "qualitative_score": 80.0
-    },
-    "sig": {
-      "composite_score": 75.3,
-      "signal": "BUY",
-      "confidence_pct": 70.7,
-      "pillar_scores": {
-        "fundamentals": 100.0,
-        "valuation": 60.0,
-        "technicals": 47.2,
-        "sentiment": 54.8,
-        "analyst": 100.0,
-        "macro_moat": 80.0
-      },
-      "key_positives": [
-        "Exceptional Return on Equity (48.7%)",
-        "High profit margin (54.8%)",
-        "Strong YoY revenue growth (24.2%)",
-        "Low debt-to-equity ratio (18.9)"
-      ],
-      "key_risks": [
-        "Price is 6.5% below 50-day SMA (Bearish)"
       ]
     }
   }
