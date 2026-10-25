@@ -20,7 +20,7 @@
       "volume": 13629072,
       "avg_volume": 25928984,
       "pe_ratio": 29.220612,
-      "forward_pe": 22.128946,
+      "forward_pe": 22.127527,
       "peg_ratio": 1.7,
       "price_to_sales": 11.736936,
       "price_to_book": 8.805675,
@@ -28,7 +28,7 @@
       "market_cap": 3894773022720,
       "enterprise_value": 3946742808576,
       "eps_trailing": 17.95,
-      "eps_forward": 23.70244,
+      "eps_forward": 23.70396,
       "earnings_growth": 0.317,
       "revenue_growth": 0.177,
       "total_revenue": 331839012864,
@@ -70,13 +70,13 @@
       "latest_price": 524.51,
       "sma_20": 526.7020050048828,
       "sma_50": 508.3546337890625,
-      "sma_200": 435.3675630187988,
+      "sma_200": 435.36756362915037,
       "rsi_14": 49.586277857554755,
       "rsi_status": "NEUTRAL",
       "macd_data": {
-        "macd": 7.176633396063949,
-        "signal": 9.48763320201692,
-        "histogram": -2.310999805952971,
+        "macd": 7.176633396631132,
+        "signal": 9.487633202851,
+        "histogram": -2.3109998062198684,
         "crossover": "BEARISH"
       },
       "cross_status": "GOLDEN_CROSS",
@@ -87,7 +87,7 @@
         "1m": 1.6157501144919095,
         "3m": 33.59537364495533,
         "6m": 23.966753501092054,
-        "1y": 0.9960706645741002
+        "1y": 0.9960587949984667
       },
       "technical_score": 54.8,
       "signals": [
@@ -97,41 +97,36 @@
       ]
     },
     "sent": {
-      "combined_polarity": 0.032,
-      "sentiment_score": 51.3,
-      "label": "NEUTRAL",
+      "combined_polarity": 0.118,
+      "sentiment_score": 54.7,
+      "label": "BULLISH",
       "news_stats": {
-        "polarity": 0.07555555555555556,
-        "subjectivity": 0.14555555555555555,
-        "positive_count": 3,
+        "polarity": 0.16865079365079363,
+        "subjectivity": 0.24990079365079365,
+        "positive_count": 6,
         "negative_count": 0,
-        "neutral_count": 12,
+        "neutral_count": 9,
         "total": 15
       },
       "reddit_stats": {
-        "polarity": -0.07064285714285716,
-        "subjectivity": 0.30735714285714283,
-        "positive_count": 2,
-        "negative_count": 4,
-        "neutral_count": 4,
-        "total": 10
+        "polarity": 0.0,
+        "subjectivity": 0.0,
+        "positive_count": 0,
+        "negative_count": 0,
+        "neutral_count": 0
       },
-      "headline_count": 25,
+      "headline_count": 15,
       "positive_highlights": [
+        "Is Microsoft Corporation (MSFT) A Good Stock To Buy Now? - Yahoo Finance",
         "Microsoft (MSFT) Falls More Steeply Than Broader Market: What Investors Need to Know - Yahoo Finance",
-        "MSFT seems like a good buy right now? - Reddit",
-        "Strong Azure Growth and Cash Flow Discipline Strengthen Microsoft Corporation (MSFT) - Yahoo Finance"
+        "Earnings Week Ahead: MSFT, GOOGL, AMZN, XOM, BA, VZ, and more (NASDAQ:MSFT) - Seeking Alpha"
       ],
-      "negative_highlights": [
-        "Been watching Microsoft lately and I keep coming back to the same thought\u2026 this feels like one of those moments people look back on later. - Reddit",
-        "Seeing these 4 goats together in charge of the next Fallout game is a sight for sore eyes. (Fallout day video 2026) - Reddit",
-        "FIX: Mac Office update falsely demanding Microsoft 365 subscription on perpetual licenses (Token Desync / Build Incompatibility) - Reddit"
-      ],
+      "negative_highlights": [],
       "recent_headlines": [
         "Durable Growth Reinforces Microsoft Corporation\u2019s (MSFT) Investment Thesis - Yahoo Finance",
-        "Microsoft Q1: A $744 Billion AI Reckoning Is Coming (NASDAQ:MSFT) - Seeking Alpha",
+        "Earnings Week Ahead: MSFT, GOOGL, AMZN, XOM, BA, VZ, and more (NASDAQ:MSFT) - Seeking Alpha",
         "Strong Azure Growth and Cash Flow Discipline Strengthen Microsoft Corporation (MSFT) - Yahoo Finance",
-        "Microsoft Q1 Preview: Expecting Strength In Core Business, Shares Reasonably Priced (MSFT) - Seeking Alpha",
+        "Microsoft Q1: A $744 Billion AI Reckoning Is Coming (NASDAQ:MSFT) - Seeking Alpha",
         "Microsoft (MSFT) Falls More Steeply Than Broader Market: What Investors Need to Know - Yahoo Finance"
       ]
     },
@@ -164,14 +159,14 @@
       "qualitative_score": 80.0
     },
     "sig": {
-      "composite_score": 74.2,
+      "composite_score": 74.7,
       "signal": "BUY",
-      "confidence_pct": 72.1,
+      "confidence_pct": 72.8,
       "pillar_scores": {
         "fundamentals": 100.0,
         "valuation": 55.0,
         "technicals": 54.8,
-        "sentiment": 51.3,
+        "sentiment": 54.7,
         "analyst": 95.0,
         "macro_moat": 80.0
       },
@@ -284,12 +279,12 @@
       ]
     },
     "sent": {
-      "combined_polarity": 0.083,
-      "sentiment_score": 53.3,
-      "label": "BULLISH",
+      "combined_polarity": 0.048,
+      "sentiment_score": 51.9,
+      "label": "NEUTRAL",
       "news_stats": {
-        "polarity": 0.1189814814814815,
-        "subjectivity": 0.2201851851851852,
+        "polarity": 0.06898148148148149,
+        "subjectivity": 0.24796296296296297,
         "positive_count": 4,
         "negative_count": 2,
         "neutral_count": 9,
@@ -304,20 +299,20 @@
       },
       "headline_count": 15,
       "positive_highlights": [
-        "AMZN Stock Set For Best Day In Three Months: Morgan Stanley Expects Amazon's AWS To Grow 47% In 2027, Denotes Stock As 'Top Pick' - TradingView",
         "Amazon Q3 Preview: CAPEX Spending In Focus, Shares Fairly Valued (NASDAQ:AMZN) - Seeking Alpha",
-        "Why Amazon (AMZN) Dipped More Than Broader Market Today - Yahoo Finance"
+        "Should You Buy Jim Cramer and Ken Fisher\u2019s Top AI Stock Pick Ahead of Earnings? - Yahoo Finance",
+        "Amazon Earnings Showdown: Fresh Tactical ETF Plays for the Cloud Giant\u2019s Q3 Report - Barchart.com"
       ],
       "negative_highlights": [
         "Amazon (AMZN) Suffers a Larger Drop Than the General Market: Key Insights - Yahoo Finance",
         "Amazon.com Inc Stock (AMZN) Opened Down by 3.50% on Oct 22: Facts Behind the Movement - TradingKey"
       ],
       "recent_headlines": [
-        "Amazon.com Inc Stock (AMZN) Opened Down by 3.50% on Oct 22: Facts Behind the Movement - TradingKey",
-        "Amazon (AMZN) Suffers a Larger Drop Than the General Market: Key Insights - Yahoo Finance",
-        "Amazon Q3 Preview: CAPEX Spending In Focus, Shares Fairly Valued (NASDAQ:AMZN) - Seeking Alpha",
-        "Amazon.com, Inc. $AMZN Shares Sold by Ninety One UK Ltd - MarketBeat",
-        "AMZN Stock Set For Best Day In Three Months: Morgan Stanley Expects Amazon's AWS To Grow 47% In 2027, Denotes Stock As 'Top Pick' - TradingView"
+        "Amazon: Rule Of 90 In FY2028? We'll Hit 80 By Year-End (NASDAQ:AMZN) - Seeking Alpha",
+        "Amazon Earnings Showdown: Fresh Tactical ETF Plays for the Cloud Giant\u2019s Q3 Report - Barchart.com",
+        "Amazon Stock Is Up 8% This Year. Is It Still a Buy Ahead of Earnings? - Morningstar",
+        "Amazon (AMZN) Says AWS Is Already Nearly Sold Out Through 2027 as AI Demand Surges - TipRanks",
+        "Amazon Earnings Are a Week Away: Here\u2019s What to Expect - Benzinga"
       ]
     },
     "qual": {
@@ -349,14 +344,14 @@
       "qualitative_score": 80.0
     },
     "sig": {
-      "composite_score": 74.8,
+      "composite_score": 74.6,
       "signal": "BUY",
-      "confidence_pct": 70.0,
+      "confidence_pct": 69.7,
       "pillar_scores": {
         "fundamentals": 100.0,
         "valuation": 60.0,
         "technicals": 45.5,
-        "sentiment": 53.3,
+        "sentiment": 51.9,
         "analyst": 100.0,
         "macro_moat": 80.0
       },
@@ -442,13 +437,13 @@
       "latest_price": 210.96,
       "sma_20": 225.54150161743163,
       "sma_50": 222.3939306640625,
-      "sma_200": 203.36223625183106,
+      "sma_200": 203.3622361755371,
       "rsi_14": 22.026437371271115,
       "rsi_status": "OVERSOLD",
       "macd_data": {
-        "macd": -2.629484247814503,
-        "signal": -0.4705591288276698,
-        "histogram": -2.158925118986833,
+        "macd": -2.629484247580308,
+        "signal": -0.4705591284833991,
+        "histogram": -2.1589251190969088,
         "crossover": "BEARISH"
       },
       "cross_status": "GOLDEN_CROSS",
@@ -470,15 +465,15 @@
       ]
     },
     "sent": {
-      "combined_polarity": -0.016,
-      "sentiment_score": 49.3,
+      "combined_polarity": -0.023,
+      "sentiment_score": 49.1,
       "label": "NEUTRAL",
       "news_stats": {
-        "polarity": -0.02333333333333333,
-        "subjectivity": 0.17619047619047618,
+        "polarity": -0.03333333333333333,
+        "subjectivity": 0.1895238095238095,
         "positive_count": 1,
-        "negative_count": 1,
-        "neutral_count": 13,
+        "negative_count": 2,
+        "neutral_count": 12,
         "total": 15
       },
       "reddit_stats": {
@@ -493,14 +488,15 @@
         "Nvidia (NVDA) Stock Price Lags Massive Earnings Growth\u2014A Compelling Value Opportunity - Yahoo Finance"
       ],
       "negative_highlights": [
+        "Nvidia Growth Could Slow to 20% But Its Stock Can Still Double, Expert Says - Benzinga",
         "Nvidia, Intel among chip stocks to benefit as open-weight models prove expensive: BofA (NVDA:NASDAQ) - Seeking Alpha"
       ],
       "recent_headlines": [
-        "Penn Davis Mcfarland trims Nvidia stake by 4,287 shares - The Globe and Mail",
         "NVIDIA Corporation (NVDA) Remains a Key AI Growth Driver Despite Benchmark Headwinds - Yahoo Finance",
-        "NVIDIA Corporation $NVDA Shares Acquired by Bouchey Financial Group Ltd. - MarketBeat",
-        "Nvidia: Apex Arbiter Of Agentic And Physical Compute Economy (NASDAQ:NVDA) - Seeking Alpha",
-        "NVDA|NVIDIA Corp|Price:210.960|Chg%:-1.250 - TradingKey"
+        "Penn Davis Mcfarland trims Nvidia stake by 4,287 shares - The Globe and Mail",
+        "NVIDIA Corporation $NVDA Stock Sold by WINTON GROUP Ltd - MarketBeat",
+        "Nvidia Growth Could Slow to 20% But Its Stock Can Still Double, Expert Says - Benzinga",
+        "Nvidia: Apex Arbiter Of Agentic And Physical Compute Economy (NASDAQ:NVDA) - Seeking Alpha"
       ]
     },
     "qual": {
@@ -535,12 +531,12 @@
     "sig": {
       "composite_score": 78.8,
       "signal": "BUY",
-      "confidence_pct": 71.0,
+      "confidence_pct": 70.9,
       "pillar_scores": {
         "fundamentals": 100.0,
         "valuation": 80.0,
         "technicals": 49.3,
-        "sentiment": 49.3,
+        "sentiment": 49.1,
         "analyst": 100.0,
         "macro_moat": 80.0
       },
@@ -552,190 +548,6 @@
       ],
       "key_risks": [
         "Price is 5.1% below 50-day SMA (Bearish)"
-      ]
-    }
-  },
-  "SPCX": {
-    "data": {
-      "symbol": "SPCX",
-      "company_name": "Space Exploration Technologies Corp.",
-      "exchange_info": {
-        "country": "United States",
-        "exchange": "NYSE/NASDAQ",
-        "central_bank": "Federal Reserve (FED)",
-        "currency_symbol": "$"
-      },
-      "currency": "USD",
-      "sector": "Industrials",
-      "industry": "Aerospace & Defense",
-      "summary": "Space Exploration Technologies Corp. provides satellite-based broadband services in the United States, Ireland, Canada, and internationally. It operates through three operating segments: Space, Connectivity, and AI. The Space segment designs, manufactures, and launches reusable rockets to provide access to space. It also provides launch services for the deployment of payloads to intended orbits for commercial and government customers utilizing Falcon 9 and Falcon Heavy; and engages in the launch and development for the development of spacecraft and the provision of launch and mission services for government agency space programs utilizing Falcon 9, Falcon Heavy, Starship, and Dragon. Its company's Connectivity segment operates broadband data and communications network by various Starlink satellites in low-earth orbit, delivering connectivity to various consumers, enterprise, and government customers. The company's AI segment operates a vertically integrated AI platform spanning a frontier LLM Grok; AI solutions for consumer and enterprise customers; X, a real-time information, entertainment, and free speech platform; and AI computational infrastructure. Space Exploration Technologies Corp. was incorporated in 2002 and is based in Starbase, Texas.",
-      "current_price": 147.49,
-      "previous_close": 144.75,
-      "fifty_two_week_high": 225.64,
-      "fifty_two_week_low": 104.83,
-      "volume": 109627721,
-      "avg_volume": 100491115,
-      "pe_ratio": null,
-      "forward_pe": 59.003082,
-      "peg_ratio": null,
-      "price_to_sales": 62.51198,
-      "price_to_book": 176.42345,
-      "ev_to_ebitda": 166.363,
-      "market_cap": 2003071270912,
-      "enterprise_value": 1952434094080,
-      "eps_trailing": -1.0,
-      "eps_forward": 2.4997,
-      "earnings_growth": null,
-      "revenue_growth": 1.614,
-      "total_revenue": 32042999808,
-      "net_income": -3431000064,
-      "profit_margins": -0.08613,
-      "operating_margins": 0.27575,
-      "return_on_equity": null,
-      "return_on_assets": null,
-      "total_debt": 39217999872,
-      "total_cash": 89855000576,
-      "debt_to_equity": 22.186,
-      "current_ratio": 3.084,
-      "quick_ratio": 2.945,
-      "free_cash_flow": 15761999872,
-      "dividend_yield_pct": 0.0,
-      "payout_ratio": 0.0,
-      "target_low": 70.0,
-      "target_mean": 257.48572,
-      "target_high": 800.0,
-      "target_median": 245.0,
-      "recommendation_key": "buy",
-      "recommendation_mean": 1.68421,
-      "number_of_analysts": 35,
-      "implied_upside_pct": 74.57842565597667,
-      "rec_breakdown": {
-        "strongBuy": 8,
-        "buy": 23,
-        "hold": 5,
-        "sell": 2,
-        "strongSell": 0
-      },
-      "next_earnings_date": "2026-10-20",
-      "earnings_high_est": 0.75029,
-      "earnings_low_est": 0.07,
-      "earnings_avg_est": 0.3392,
-      "_ticker_obj": "yfinance.Ticker object <SPCX>"
-    },
-    "tech": {
-      "latest_price": 147.49,
-      "sma_20": 155.02100143432617,
-      "sma_50": 149.23940063476562,
-      "sma_200": null,
-      "rsi_14": 31.370392702956437,
-      "rsi_status": "BEARISH",
-      "macd_data": {
-        "macd": -0.30638677229359246,
-        "signal": 1.4124254542543508,
-        "histogram": -1.7188122265479433,
-        "crossover": "BEARISH"
-      },
-      "cross_status": "NEUTRAL",
-      "fifty_two_week_pos_pct": 35.3116455848407,
-      "high_52": 225.63999938964844,
-      "low_52": 104.83000183105469,
-      "returns": {
-        "1m": -0.8003717610991501,
-        "3m": 26.69873323610843,
-        "6m": 0.0,
-        "1y": 0.0
-      },
-      "technical_score": 33.2,
-      "signals": [
-        "Price is 1.2% below 50-day SMA (Bearish)",
-        "MACD histogram indicates negative bearish momentum"
-      ]
-    },
-    "sent": {
-      "combined_polarity": 0.009,
-      "sentiment_score": 50.3,
-      "label": "NEUTRAL",
-      "news_stats": {
-        "polarity": 0.012424242424242426,
-        "subjectivity": 0.3266666666666667,
-        "positive_count": 5,
-        "negative_count": 2,
-        "neutral_count": 8,
-        "total": 15
-      },
-      "reddit_stats": {
-        "polarity": 0.0,
-        "subjectivity": 0.0,
-        "positive_count": 0,
-        "negative_count": 0,
-        "neutral_count": 0
-      },
-      "headline_count": 15,
-      "positive_highlights": [
-        "Fantastic News for SpaceX Stock Investors - The Motley Fool",
-        "SpaceX Shares Surge as Elon Musk Makes Huge Revenue Prediction. Is the Stock Still a Buy? - Yahoo Finance",
-        "Not Starlink. Not Starship. Not Grok. $561 Million of SpaceX's $4.4 Billion Profit Came From an Unexpected Source. - The Motley Fool"
-      ],
-      "negative_highlights": [
-        "Is It Too Late to Buy SpaceX Stock After Its Monster Third-Quarter Earnings Report? Here's the Answer. - Yahoo Finance",
-        "Tesla Plus SpaceX: 5 Reasons This Merger Is A Terrible Idea (NASDAQ:SPCX) - Seeking Alpha"
-      ],
-      "recent_headlines": [
-        "Space Exploration Technologies - Live Earnings Release - SEC.gov",
-        "Elon Musk Wants to Give Every American Child a Share of SpaceX. Here's What It Would Cost -- and What It Means for Everyone Else Holding the Stock - Yahoo Finance",
-        "Fantastic News for SpaceX Stock Investors - The Motley Fool",
-        "Tesla Plus SpaceX: 5 Reasons This Merger Is A Terrible Idea (NASDAQ:SPCX) - Seeking Alpha",
-        "Prediction: Here\u2019s Where SpaceX Stock Will Trade on Its 1-Year IPO Anniversary - Yahoo Finance"
-      ]
-    },
-    "qual": {
-      "priced_in": {
-        "valuation_tier": "Moderate",
-        "priced_in_points": [
-          "Market pricing reflects baseline sector performance."
-        ]
-      },
-      "macro_policy": {
-        "macro_factors": [
-          "Operating in United States under Federal Reserve (FED) interest rate policy environment.",
-          "Performance closely aligned with overall United States economic trajectory."
-        ],
-        "policy_risks": [
-          "Standard corporate governance and trade policy conditions apply."
-        ]
-      },
-      "moat": {
-        "moat_tier": "Narrow Moat",
-        "moat_score": 50.0,
-        "reasons": [
-          "Thin net profit margin (-8.6%), making company vulnerable to cost inflation.",
-          "Mega-cap scale ($2.00T) provides massive distribution and cost advantages."
-        ]
-      },
-      "qualitative_score": 50.0
-    },
-    "sig": {
-      "composite_score": 58.4,
-      "signal": "HOLD",
-      "confidence_pct": 64.6,
-      "pillar_scores": {
-        "fundamentals": 73.0,
-        "valuation": 38.0,
-        "technicals": 33.2,
-        "sentiment": 50.3,
-        "analyst": 100.0,
-        "macro_moat": 50.0
-      },
-      "key_positives": [
-        "Strong YoY revenue growth (161.4%)",
-        "Low debt-to-equity ratio (22.2)",
-        "Positive free cash flow generation",
-        "Significant price target upside (+74.6%)"
-      ],
-      "key_risks": [
-        "Thin profit margin (-8.6%)",
-        "Elevated Forward P/E (59.0x)",
-        "Price is 1.2% below 50-day SMA (Bearish)"
       ]
     }
   },
@@ -814,9 +626,9 @@
       "rsi_14": 28.581448065119645,
       "rsi_status": "OVERSOLD",
       "macd_data": {
-        "macd": -35.37368508429847,
-        "signal": -18.31916397515389,
-        "histogram": -17.05452110914458,
+        "macd": -35.37368508429881,
+        "signal": -18.319163975154446,
+        "histogram": -17.054521109144368,
         "crossover": "BEARISH"
       },
       "cross_status": "GOLDEN_CROSS",
@@ -838,42 +650,40 @@
       ]
     },
     "sent": {
-      "combined_polarity": 0.057,
-      "sentiment_score": 52.3,
+      "combined_polarity": 0.003,
+      "sentiment_score": 50.1,
       "label": "NEUTRAL",
       "news_stats": {
-        "polarity": 0.062222222222222213,
-        "subjectivity": 0.2208333333333333,
-        "positive_count": 3,
-        "negative_count": 3,
-        "neutral_count": 9,
+        "polarity": 0.004537037037037036,
+        "subjectivity": 0.2490740740740741,
+        "positive_count": 2,
+        "negative_count": 6,
+        "neutral_count": 7,
         "total": 15
       },
       "reddit_stats": {
-        "polarity": 0.043611111111111114,
-        "subjectivity": 0.2663888888888889,
-        "positive_count": 2,
-        "negative_count": 2,
-        "neutral_count": 6,
-        "total": 10
+        "polarity": 0.0,
+        "subjectivity": 0.0,
+        "positive_count": 0,
+        "negative_count": 0,
+        "neutral_count": 0
       },
-      "headline_count": 25,
+      "headline_count": 15,
       "positive_highlights": [
-        "Micron (MU) is an Incredible Growth Stock: 3 Reasons Why - Yahoo Finance",
         "Micron (MU) Falls More Steeply Than Broader Market: What Investors Need to Know - Yahoo Finance",
-        "Why MU is a huge buy - Reddit"
+        "Micron stock gets stunning $3,000 call despite 6% plunge - TheStreet"
       ],
       "negative_highlights": [
-        "Been watching MU pretty closely these past couple weeks and honestly it\u2019s hard to ignore what\u2019s going on here. - Reddit",
+        "Micron Says AI Cut Its Data Center SSD Development Time by 60%. Here\u2019s Where the Stock Could Go by 2031 - TIKR.com",
         "Micron: HBM\u2019s Margin Drag Flips Into A Profit Driver In 2027 (NASDAQ:MU) - Seeking Alpha",
         "Micron leads memory stock rebound candidates after sharp selloff - Investing.com"
       ],
       "recent_headlines": [
-        "What's Going On With Micron Technology Stock Friday? - Benzinga",
-        "What's Going On With Micron Technology Stock Thursday? - Benzinga",
         "Sell Micron: Don't Wait For Memory Boom To End (NASDAQ:MU) - Seeking Alpha",
-        "Micron (MU) Falls More Steeply Than Broader Market: What Investors Need to Know - Yahoo Finance",
-        "Micron leads memory stock rebound candidates after sharp selloff - Investing.com"
+        "3 big reasons Micron and other chip stocks fell hard on Thursday - MarketWatch",
+        "Micron Stock Leads Chip Rebound. Dip Buyers Must Buckle Up as AI Chaos Swirls. - Barron's",
+        "Micron Says AI Cut Its Data Center SSD Development Time by 60%. Here\u2019s Where the Stock Could Go by 2031 - TIKR.com",
+        "Micron's Next AI Memory Breakthrough Has a Cooling Problem - Benzinga"
       ]
     },
     "qual": {
@@ -906,14 +716,14 @@
       "qualitative_score": 80.0
     },
     "sig": {
-      "composite_score": 81.1,
-      "signal": "HOLD",
-      "confidence_pct": 68.2,
+      "composite_score": 80.8,
+      "signal": "BUY",
+      "confidence_pct": 67.7,
       "pillar_scores": {
         "fundamentals": 100.0,
         "valuation": 95.0,
         "technicals": 42.0,
-        "sentiment": 52.3,
+        "sentiment": 50.1,
         "analyst": 100.0,
         "macro_moat": 80.0
       },
@@ -928,10 +738,10 @@
       ]
     }
   },
-  "META": {
+  "NOW": {
     "data": {
-      "symbol": "META",
-      "company_name": "Meta Platforms, Inc.",
+      "symbol": "NOW",
+      "company_name": "ServiceNow, Inc.",
       "exchange_info": {
         "country": "United States",
         "exchange": "NYSE/NASDAQ",
@@ -939,103 +749,103 @@
         "currency_symbol": "$"
       },
       "currency": "USD",
-      "sector": "Communication Services",
-      "industry": "Internet Content & Information",
-      "summary": "Meta Platforms, Inc. engages in the development of products that enable people to connect and share with friends and family through mobile devices, personal computers, virtual reality (VR) headsets, and AI glasses in the United States, Canada, Europe, Asia-Pacific, and internationally. It operates through two segments, Family of Apps (FoA) and Reality Labs (RL). The FoA segment offers Facebook, which enables people to build community through feed, reels, stories, groups, marketplace, and other; Instagram that brings people closer through Instagram feed, stories, reels, live, and messaging; Messenger, a messaging application for people to connect with friends, family, communities, and businesses across platforms and devices through text, audio, and video calls; Meta AI, an assistant that's available across apps, as a stand-alone app, on AI glasses, and on the web; Threads, an application for text-based updates and public conversations; and WhatsApp, a messaging application that is used by people and businesses to communicate and transact. The RL segment provides virtual and augmented reality products, including consumer hardware, software, and content that help people feel connected, as well as Meta Quest devices that enable social experiences across gaming, fitness, entertainment, and more. The segment also includes wearables such as AI glasses like Ray Ban Meta and Oakley Meta glasses; and the Meta Ray Ban Display, which combines AI glasses with an integrated lens display and the Meta Neural Band, a wrist worn device using electromyography that lets people control their AI glasses through neuromuscular signals. Meta Platforms, Inc. has a collaboration with Microsoft Corporation, NVIDIA Corporation, Advanced Micro Devices, Inc., Broadcom Inc., and OpenAI, L.L.C. The company was formerly known as Facebook, Inc. and changed its name to Meta Platforms, Inc. in October 2021. The company was incorporated in 2004 and is headquartered in Menlo Park, California.",
-      "current_price": 642.62,
-      "previous_close": 648.85,
-      "fifty_two_week_high": 779.82,
-      "fifty_two_week_low": 520.26,
-      "volume": 14729073,
-      "avg_volume": 19692282,
-      "pe_ratio": 21.92494,
-      "forward_pe": 18.455109,
-      "peg_ratio": 0.85,
-      "price_to_sales": 6.7758465,
-      "price_to_book": 6.0301967,
-      "ev_to_ebitda": 14.417,
-      "market_cap": 1637078401024,
-      "enterprise_value": 1675084693504,
-      "eps_trailing": 29.31,
-      "eps_forward": 34.82071,
-      "earnings_growth": 2.648,
-      "revenue_growth": 0.261,
-      "total_revenue": 241605001216,
-      "net_income": 75249000448,
-      "profit_margins": 0.31145,
-      "operating_margins": 0.35414,
-      "return_on_equity": 0.32264,
-      "return_on_assets": 0.14577,
-      "total_debt": 114842001408,
-      "total_cash": 82448998400,
-      "debt_to_equity": 42.161,
-      "current_ratio": 1.903,
-      "quick_ratio": 1.669,
-      "free_cash_flow": 16848499712,
-      "dividend_yield_pct": 33.0,
-      "payout_ratio": 0.0716,
-      "target_low": 629.06,
-      "target_mean": 844.25586,
-      "target_high": 1050.0,
-      "target_median": 850.0,
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "summary": "ServiceNow, Inc. provides cloud-based solution for digital workflows in the North America, Brazil, Europe, the Middle East and Africa, Asia Pacific, and internationally. The company provides asset management, integrated risk management, IT service management, Operational Technology management, Security Operations, strategic portfolio management, IT operations management products; customer service management product; field service management applications; and sales and order management services. It also offers human resources delivery; legal and contract operations; workplace service delivery products; app engine product; automation engine; platform privacy and security product; and source-to-pay operations. In addition, the company provides RaptorDB, a database built to manage workloads at scale; ServiceNow Impact that provides customers with software tools, guided plans, and AI-driven recommendations; customer support; and workflow data fabric. It serves government, financial services, healthcare and life science, manufacturing, Public Sector, retail, technology, and Telecom sectors through service providers and resale partners. The company has a strategic collaboration with Cohesity, Inc. to develop, operate, and safeguard autonomous AI agents and data with enterprise-grade reliability; and with ServiceNow to Advance Ai-Powered Solution for Mission-Critical Infrastructure Monitoring. The company was formerly known as Service-now.com and changed its name to ServiceNow, Inc. in May 2012. ServiceNow, Inc. has a strategic alliance with Accenture for integrated risk management and third-party risk management solutions, and with Tech Mahindra to validate and deliver production-ready, industry-specific enterprise AI and automation solutions at scale. ServiceNow, Inc. was founded in 2004 and is headquartered in Santa Clara, California.",
+      "current_price": 158.96,
+      "previous_close": 157.0,
+      "fifty_two_week_high": 192.966,
+      "fifty_two_week_low": 81.24,
+      "volume": 11057820,
+      "avg_volume": 15761920,
+      "pe_ratio": 96.926834,
+      "forward_pe": 31.746857,
+      "peg_ratio": 1.15,
+      "price_to_sales": 11.155492,
+      "price_to_book": 13.13068,
+      "ev_to_ebitda": 58.036,
+      "market_cap": 164342710272,
+      "enterprise_value": 168131706880,
+      "eps_trailing": 1.64,
+      "eps_forward": 5.00711,
+      "earnings_growth": -0.219,
+      "revenue_growth": 0.24,
+      "total_revenue": 14732000256,
+      "net_income": 1670000000,
+      "profit_margins": 0.11336,
+      "operating_margins": 0.04063,
+      "return_on_equity": 0.14244,
+      "return_on_assets": 0.04249,
+      "total_debt": 8453000192,
+      "total_cash": 4664000000,
+      "debt_to_equity": 67.538,
+      "current_ratio": 0.701,
+      "quick_ratio": 0.565,
+      "free_cash_flow": 5149374976,
+      "dividend_yield_pct": 0.0,
+      "payout_ratio": 0.0,
+      "target_low": 72.0,
+      "target_mean": 156.53609,
+      "target_high": 266.0,
+      "target_median": 160.0,
       "recommendation_key": "strong_buy",
-      "recommendation_mean": 1.40323,
-      "number_of_analysts": 58,
-      "implied_upside_pct": 31.377152905293947,
+      "recommendation_mean": 1.44898,
+      "number_of_analysts": 46,
+      "implied_upside_pct": -1.524855309511831,
       "rec_breakdown": {
         "strongBuy": 9,
-        "buy": 46,
-        "hold": 6,
+        "buy": 35,
+        "hold": 3,
         "sell": 1,
-        "strongSell": 0
+        "strongSell": 1
       },
-      "next_earnings_date": "2026-10-21",
-      "earnings_high_est": 9.65,
-      "earnings_low_est": 7.93,
-      "earnings_avg_est": 8.55222,
-      "_ticker_obj": "yfinance.Ticker object <META>"
+      "next_earnings_date": "2026-10-28",
+      "earnings_high_est": 1.17,
+      "earnings_low_est": 0.91,
+      "earnings_avg_est": 1.0231,
+      "_ticker_obj": "yfinance.Ticker object <NOW>"
     },
     "tech": {
-      "latest_price": 642.62,
-      "sma_20": 717.6489990234375,
-      "sma_50": 663.5766625976562,
-      "sma_200": 631.659157409668,
-      "rsi_14": 24.34360743197587,
-      "rsi_status": "OVERSOLD",
+      "latest_price": 158.96,
+      "sma_20": 141.675,
+      "sma_50": 137.48919967651366,
+      "sma_200": 115.11485015869141,
+      "rsi_14": 78.05295297392762,
+      "rsi_status": "OVERBOUGHT",
       "macd_data": {
-        "macd": -1.9078685267597848,
-        "signal": 12.375477938087354,
-        "histogram": -14.283346464847138,
-        "crossover": "BEARISH"
+        "macd": 5.25768444077238,
+        "signal": 3.4684665093209395,
+        "histogram": 1.7892179314514403,
+        "crossover": "BULLISH"
       },
       "cross_status": "GOLDEN_CROSS",
-      "fifty_two_week_pos_pct": 47.322271887232546,
-      "high_52": 779.8200073242188,
-      "low_52": 519.368366299545,
+      "fifty_two_week_pos_pct": 69.56303660075616,
+      "high_52": 192.96600341796875,
+      "low_52": 81.23999786376953,
       "returns": {
-        "1m": -14.506555761958174,
-        "3m": 8.37821945612256,
-        "6m": -5.1423148253675555,
-        "1y": -12.671343079144815
+        "1m": 17.2098552743972,
+        "3m": 43.699146676175246,
+        "6m": 75.7435106282657,
+        "1y": -14.55325213641423
       },
-      "technical_score": 52.3,
+      "technical_score": 82.0,
       "signals": [
-        "Price is 3.2% below 50-day SMA (Bearish)",
+        "Price is 15.6% above 50-day SMA (Bullish)",
         "50-day SMA is above 200-day SMA (Golden Cross)",
-        "RSI is oversold at 24.3 (Potential Rebound)",
-        "MACD histogram indicates negative bearish momentum"
+        "RSI is overbought at 78.1 (Pullback Risk)",
+        "MACD histogram indicates positive bullish momentum"
       ]
     },
     "sent": {
-      "combined_polarity": 0.09,
-      "sentiment_score": 53.6,
-      "label": "BULLISH",
+      "combined_polarity": 0.024,
+      "sentiment_score": 51.0,
+      "label": "NEUTRAL",
       "news_stats": {
-        "polarity": 0.12863636363636363,
-        "subjectivity": 0.3521212121212121,
-        "positive_count": 8,
-        "negative_count": 1,
-        "neutral_count": 6,
+        "polarity": 0.034646464646464634,
+        "subjectivity": 0.14585858585858583,
+        "positive_count": 2,
+        "negative_count": 0,
+        "neutral_count": 13,
         "total": 15
       },
       "reddit_stats": {
@@ -1047,19 +857,199 @@
       },
       "headline_count": 15,
       "positive_highlights": [
-        "Meta Plans What Amounts to a 2-for-1 Stock Split. Is the Stock a Buy? - The Motley Fool",
-        "Why Meta's spending sent stocks lower during a volatile market week - Detroit Free Press",
-        "Meta\u2019s Muse Is a Huge Hit. Its Success Could Hammer the Stock Market. - Barron's"
+        "ServiceNow Inc. stock outperforms competitors on strong trading day - MarketWatch",
+        "Radnor Capital Management LLC Makes New Investment in ServiceNow, Inc. $NOW - MarketBeat"
       ],
-      "negative_highlights": [
-        "Steep bill for AI build out punishes Meta, other tech favourites - The Globe and Mail"
-      ],
+      "negative_highlights": [],
       "recent_headlines": [
-        "What the New Class C Share Structure Actually Means for Meta Platforms Stock Investors - Yahoo Finance",
-        "Meta\u2019s Muse Is a Huge Hit. Its Success Could Hammer the Stock Market. - Barron's",
-        "Why You Should Buy Meta Stock Before It Touches $1,050 - Barchart.com",
-        "Why Meta's spending sent stocks lower during a volatile market week - Detroit Free Press",
-        "Zuckerberg wins Meta deal to help him foot bill for possible California billionaire tax - BBC"
+        "ServiceNow (NOW) Advances While Market Declines: Some Information for Investors - Yahoo Finance",
+        "ServiceNow, Inc. $NOW Stock Sold by MN Wealth Advisors LLC - MarketBeat",
+        "ServiceNow (NOW) Ascends While Market Falls: Some Facts to Note - Yahoo Finance",
+        "ServiceNow: The Shift From Seats To 'Assists' Uncaps Exponential Growth - Seeking Alpha",
+        "ServiceNow stock may move 9.3% on Oct. 28 earnings report - Investing.com"
+      ]
+    },
+    "qual": {
+      "priced_in": {
+        "valuation_tier": "High Growth Premium",
+        "priced_in_points": [
+          "High P/E ratio indicates market has priced in strong future earnings acceleration.",
+          "Forward P/E is 67.2% lower than trailing P/E, pricing in robust earnings recovery/growth."
+        ]
+      },
+      "macro_policy": {
+        "macro_factors": [
+          "Operating in United States under Federal Reserve (FED) interest rate policy environment.",
+          "Consumer sentiment and discretionary spending impact demand during inflation/rate shifts."
+        ],
+        "policy_risks": [
+          "Antitrust oversight, data privacy laws, and international tariff trade policies affect cross-border supply chains."
+        ]
+      },
+      "moat": {
+        "moat_tier": "Narrow Moat",
+        "moat_score": 65.0,
+        "reasons": [
+          "Mega-cap scale ($164.34B) provides massive distribution and cost advantages."
+        ]
+      },
+      "qualitative_score": 59.0
+    },
+    "sig": {
+      "composite_score": 62.6,
+      "signal": "HOLD",
+      "confidence_pct": 76.5,
+      "pillar_scores": {
+        "fundamentals": 80.0,
+        "valuation": 35.0,
+        "technicals": 82.0,
+        "sentiment": 51.0,
+        "analyst": 65.0,
+        "macro_moat": 59.0
+      },
+      "key_positives": [
+        "Solid Return on Equity (14.2%)",
+        "Strong YoY revenue growth (24.0%)",
+        "Positive free cash flow generation",
+        "Strong Wall Street analyst consensus (Strong Buy)"
+      ],
+      "key_risks": [
+        "Current ratio below 1.0 (0.70)",
+        "High P/E ratio (96.9x)",
+        "Price exceeds average analyst target (-1.5%)",
+        "RSI is overbought at 78.1 (Pullback Risk)"
+      ]
+    }
+  },
+  "IT": {
+    "data": {
+      "symbol": "IT",
+      "company_name": "Gartner, Inc.",
+      "exchange_info": {
+        "country": "United States",
+        "exchange": "NYSE/NASDAQ",
+        "central_bank": "Federal Reserve (FED)",
+        "currency_symbol": "$"
+      },
+      "currency": "USD",
+      "sector": "Technology",
+      "industry": "Information Technology Services",
+      "summary": "Gartner, Inc. provides business and technology insights to support decision-making and performance on an organization's mission-critical priorities in the United States, Canada, Europe, the Middle East, Africa, and internationally. It operates through three segments: Insights, Conferences, and Consulting. The Insights segment delivers insights through subscription services, such as access to published content, data and benchmarks, and direct access to a network of business and technology experts. The Conferences segment enables executives and teams to learn, share, and network through its Symposium/Xpo series and peer-driven sessions, as well as through its conferences focused on specific business roles and topics. The Consulting segment provides technology-driven strategic initiatives, including custom analysis and on-the-ground support to senior executives. This segment also offers actionable solutions for IT-related priorities, including IT cost optimization, digital transformation, and IT sourcing optimization. The company was formerly known as Gartner Group, Inc. and changed its name to Gartner, Inc. in November 2001. Gartner, Inc. was founded in 1979 and is headquartered in Stamford, Connecticut.",
+      "current_price": 230.28,
+      "previous_close": 234.44,
+      "fifty_two_week_high": 257.69,
+      "fifty_two_week_low": 124.25,
+      "volume": 1195726,
+      "avg_volume": 1206521,
+      "pe_ratio": 20.820976,
+      "forward_pe": 14.053752,
+      "peg_ratio": 0.91,
+      "price_to_sales": 2.2498124,
+      "price_to_book": -88.63741,
+      "ev_to_ebitda": 11.838,
+      "market_cap": 14541945856,
+      "enterprise_value": 16382736384,
+      "eps_trailing": 11.06,
+      "eps_forward": 16.38566,
+      "earnings_growth": 0.331,
+      "revenue_growth": -0.006,
+      "total_revenue": 6463626240,
+      "net_income": 775350976,
+      "profit_margins": 0.11996,
+      "operating_margins": 0.22623,
+      "return_on_equity": 1.13581,
+      "return_on_assets": 0.1017,
+      "total_debt": 3329496064,
+      "total_cash": 1488706048,
+      "debt_to_equity": null,
+      "current_ratio": 0.88,
+      "quick_ratio": 0.75,
+      "free_cash_flow": 1052553024,
+      "dividend_yield_pct": 0.0,
+      "payout_ratio": 0.0,
+      "target_low": 150.0,
+      "target_mean": 193.76923,
+      "target_high": 235.0,
+      "target_median": 190.0,
+      "recommendation_key": "hold",
+      "recommendation_mean": 2.86667,
+      "number_of_analysts": 13,
+      "implied_upside_pct": -15.85494615250999,
+      "rec_breakdown": {
+        "strongBuy": 0,
+        "buy": 3,
+        "hold": 9,
+        "sell": 1,
+        "strongSell": 2
+      },
+      "next_earnings_date": "2026-11-03",
+      "earnings_high_est": 3.09244,
+      "earnings_low_est": 2.67,
+      "earnings_avg_est": 2.84008,
+      "_ticker_obj": "yfinance.Ticker object <IT>"
+    },
+    "tech": {
+      "latest_price": 230.28,
+      "sma_20": 199.59350128173827,
+      "sma_50": 192.3590008544922,
+      "sma_200": 169.71290004730224,
+      "rsi_14": 79.7425901048839,
+      "rsi_status": "OVERBOUGHT",
+      "macd_data": {
+        "macd": 10.64103322309208,
+        "signal": 6.724956991063237,
+        "histogram": 3.9160762320288427,
+        "crossover": "BULLISH"
+      },
+      "cross_status": "GOLDEN_CROSS",
+      "fifty_two_week_pos_pct": 79.45893139994355,
+      "high_52": 257.69000244140625,
+      "low_52": 124.25,
+      "returns": {
+        "1m": 22.55455427362234,
+        "3m": 47.76694392414471,
+        "6m": 54.778869397358854,
+        "1y": -7.965311609882397
+      },
+      "technical_score": 82.0,
+      "signals": [
+        "Price is 19.7% above 50-day SMA (Bullish)",
+        "50-day SMA is above 200-day SMA (Golden Cross)",
+        "RSI is overbought at 79.7 (Pullback Risk)",
+        "MACD histogram indicates positive bullish momentum"
+      ]
+    },
+    "sent": {
+      "combined_polarity": 0.089,
+      "sentiment_score": 53.5,
+      "label": "BULLISH",
+      "news_stats": {
+        "polarity": 0.12666666666666665,
+        "subjectivity": 0.20666666666666667,
+        "positive_count": 4,
+        "negative_count": 0,
+        "neutral_count": 11,
+        "total": 15
+      },
+      "reddit_stats": {
+        "polarity": 0.0,
+        "subjectivity": 0.0,
+        "positive_count": 0,
+        "negative_count": 0,
+        "neutral_count": 0
+      },
+      "headline_count": 15,
+      "positive_highlights": [
+        "Why Gartner Inc. Stock Is Soaring Today - The Motley Fool",
+        "Gartner Inc. stock outperforms competitors on strong trading day - MarketWatch"
+      ],
+      "negative_highlights": [],
+      "recent_headlines": [
+        "Why Gartner (IT) Stock Is Trading Up Today - Yahoo Finance",
+        "Gartner Inc. stock underperforms Friday when compared to competitors - MarketWatch",
+        "Gartner Inc (IT) Stock Up 5.7% and Still Undervalued -- GF Score: 85/100 - GuruFocus",
+        "Why Gartner Inc. Stock Is Soaring Today - The Motley Fool",
+        "Gartner, Inc. (IT) Stock Forecasts - Yahoo Finance"
       ]
     },
     "qual": {
@@ -1067,50 +1057,51 @@
         "valuation_tier": "Fair Value Range",
         "priced_in_points": [
           "P/E ratio reflects balanced market expectations for mid-range growth.",
-          "Forward P/E is 15.8% lower than trailing P/E, pricing in robust earnings recovery/growth.",
-          "PEG ratio of 0.85 suggests stock may be undervalued relative to expected growth."
+          "Forward P/E is 32.5% lower than trailing P/E, pricing in robust earnings recovery/growth.",
+          "PEG ratio of 0.91 suggests stock may be undervalued relative to expected growth."
         ]
       },
       "macro_policy": {
         "macro_factors": [
           "Operating in United States under Federal Reserve (FED) interest rate policy environment.",
-          "Performance closely aligned with overall United States economic trajectory."
+          "Consumer sentiment and discretionary spending impact demand during inflation/rate shifts."
         ],
         "policy_risks": [
-          "Standard corporate governance and trade policy conditions apply."
+          "Antitrust oversight, data privacy laws, and international tariff trade policies affect cross-border supply chains."
         ]
       },
       "moat": {
-        "moat_tier": "Wide Moat",
-        "moat_score": 100.0,
+        "moat_tier": "Narrow Moat",
+        "moat_score": 70.0,
         "reasons": [
-          "Strong Return on Equity (ROE: 32.3%), indicating high capital efficiency and competitive advantage.",
-          "High net profit margin (31.1%), demonstrating pricing power.",
-          "Mega-cap scale ($1.64T) provides massive distribution and cost advantages."
+          "Strong Return on Equity (ROE: 113.6%), indicating high capital efficiency and competitive advantage."
         ]
       },
-      "qualitative_score": 80.0
+      "qualitative_score": 62.0
     },
     "sig": {
-      "composite_score": 78.9,
-      "signal": "BUY",
-      "confidence_pct": 72.9,
+      "composite_score": 64.5,
+      "signal": "HOLD",
+      "confidence_pct": 75.7,
       "pillar_scores": {
-        "fundamentals": 100.0,
-        "valuation": 75.0,
-        "technicals": 52.3,
-        "sentiment": 53.6,
-        "analyst": 100.0,
-        "macro_moat": 80.0
+        "fundamentals": 63.0,
+        "valuation": 85.0,
+        "technicals": 82.0,
+        "sentiment": 53.5,
+        "analyst": 35.0,
+        "macro_moat": 62.0
       },
       "key_positives": [
-        "Exceptional Return on Equity (32.3%)",
-        "High profit margin (31.1%)",
-        "Strong YoY revenue growth (26.1%)",
-        "Low debt-to-equity ratio (42.2)"
+        "Exceptional Return on Equity (113.6%)",
+        "Positive free cash flow generation",
+        "Attractive Forward P/E (14.1x)",
+        "Favorable PEG ratio (0.91x < 1.0)"
       ],
       "key_risks": [
-        "Price is 3.2% below 50-day SMA (Bearish)"
+        "Declining YoY revenue (-0.6%)",
+        "Current ratio below 1.0 (0.88)",
+        "Price exceeds average analyst target (-15.9%)",
+        "RSI is overbought at 79.7 (Pullback Risk)"
       ]
     }
   }
