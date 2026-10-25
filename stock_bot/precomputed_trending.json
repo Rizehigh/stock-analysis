@@ -17,10 +17,10 @@
       "previous_close": 521.08,
       "fifty_two_week_high": 553.72,
       "fifty_two_week_low": 349.2,
-      "volume": 13629072,
+      "volume": 13681067,
       "avg_volume": 25928984,
       "pe_ratio": 29.220612,
-      "forward_pe": 22.127527,
+      "forward_pe": 22.128946,
       "peg_ratio": 1.7,
       "price_to_sales": 11.736936,
       "price_to_book": 8.805675,
@@ -28,7 +28,7 @@
       "market_cap": 3894773022720,
       "enterprise_value": 3946742808576,
       "eps_trailing": 17.95,
-      "eps_forward": 23.70396,
+      "eps_forward": 23.70244,
       "earnings_growth": 0.317,
       "revenue_growth": 0.177,
       "total_revenue": 331839012864,
@@ -97,15 +97,15 @@
       ]
     },
     "sent": {
-      "combined_polarity": 0.118,
-      "sentiment_score": 54.7,
+      "combined_polarity": 0.096,
+      "sentiment_score": 53.9,
       "label": "BULLISH",
       "news_stats": {
-        "polarity": 0.16865079365079363,
-        "subjectivity": 0.24990079365079365,
-        "positive_count": 6,
+        "polarity": 0.13777777777777775,
+        "subjectivity": 0.20777777777777778,
+        "positive_count": 5,
         "negative_count": 0,
-        "neutral_count": 9,
+        "neutral_count": 10,
         "total": 15
       },
       "reddit_stats": {
@@ -117,17 +117,17 @@
       },
       "headline_count": 15,
       "positive_highlights": [
-        "Is Microsoft Corporation (MSFT) A Good Stock To Buy Now? - Yahoo Finance",
         "Microsoft (MSFT) Falls More Steeply Than Broader Market: What Investors Need to Know - Yahoo Finance",
-        "Earnings Week Ahead: MSFT, GOOGL, AMZN, XOM, BA, VZ, and more (NASDAQ:MSFT) - Seeking Alpha"
+        "Earnings Week Ahead: MSFT, GOOGL, AMZN, XOM, BA, VZ, and more (NASDAQ:MSFT) - Seeking Alpha",
+        "Strong Azure Results Powered Microsoft Corporation\u2019s (MSFT) Rally - Yahoo Finance"
       ],
       "negative_highlights": [],
       "recent_headlines": [
         "Durable Growth Reinforces Microsoft Corporation\u2019s (MSFT) Investment Thesis - Yahoo Finance",
         "Earnings Week Ahead: MSFT, GOOGL, AMZN, XOM, BA, VZ, and more (NASDAQ:MSFT) - Seeking Alpha",
+        "Why Is Microsoft Stock Surging Today? Azure Growth Hits 43% as MSFT Targets $560 Next - TradingKey",
         "Strong Azure Growth and Cash Flow Discipline Strengthen Microsoft Corporation (MSFT) - Yahoo Finance",
-        "Microsoft Q1: A $744 Billion AI Reckoning Is Coming (NASDAQ:MSFT) - Seeking Alpha",
-        "Microsoft (MSFT) Falls More Steeply Than Broader Market: What Investors Need to Know - Yahoo Finance"
+        "Microsoft Analyst Price Targets - Benzinga"
       ]
     },
     "qual": {
@@ -159,14 +159,14 @@
       "qualitative_score": 80.0
     },
     "sig": {
-      "composite_score": 74.7,
+      "composite_score": 74.6,
       "signal": "BUY",
-      "confidence_pct": 72.8,
+      "confidence_pct": 72.6,
       "pillar_scores": {
         "fundamentals": 100.0,
         "valuation": 55.0,
         "technicals": 54.8,
-        "sentiment": 54.7,
+        "sentiment": 53.9,
         "analyst": 95.0,
         "macro_moat": 80.0
       },
@@ -178,191 +178,6 @@
       ],
       "key_risks": [
         "Standard market risk and volatility."
-      ]
-    }
-  },
-  "AMZN": {
-    "data": {
-      "symbol": "AMZN",
-      "company_name": "Amazon.com, Inc.",
-      "exchange_info": {
-        "country": "United States",
-        "exchange": "NYSE/NASDAQ",
-        "central_bank": "Federal Reserve (FED)",
-        "currency_symbol": "$"
-      },
-      "currency": "USD",
-      "sector": "Consumer Cyclical",
-      "industry": "Internet Retail",
-      "summary": "Amazon.com, Inc. engages in the retail sale of consumer products, advertising, and subscriptions service through online and physical stores in North America and internationally. The company operates through three segments: North America, International, and Amazon Web Services (AWS). It also manufactures and sells electronic devices, including Kindle, fire tablets, fire TVs, echo, ring, blink, and eero; and develops and produces media content. In addition, the company offers programs that enable sellers to sell their products in its stores; and programs that allow authors, independent publishers, musicians, filmmakers, Twitch streamers, skill and app developers, and others to publish and sell content. Further, it provides compute, storage, Artificial intelligence, database, analytics, machine learning, and other services, as well as advertising services through programs, such as sponsored ads, display, and video advertising. Additionally, the company offers Amazon Prime, a membership program. The company's products offered through its stores include merchandise and content purchased for resale and products offered by third-party sellers. It serves consumers, sellers, developers, enterprises, content creators, advertisers, and employees. The company was incorporated in 1994 and is headquartered in Seattle, Washington.",
-      "current_price": 248.0,
-      "previous_close": 250.38,
-      "fifty_two_week_high": 287.2,
-      "fifty_two_week_low": 196.0,
-      "volume": 25470108,
-      "avg_volume": 38966726,
-      "pe_ratio": 19.951729,
-      "forward_pe": 23.777382,
-      "peg_ratio": 1.44,
-      "price_to_sales": 3.4485943,
-      "price_to_book": 4.847916,
-      "ev_to_ebitda": 16.598,
-      "market_cap": 2675005718528,
-      "enterprise_value": 2803652886528,
-      "eps_trailing": 12.43,
-      "eps_forward": 10.43008,
-      "earnings_growth": 2.423,
-      "revenue_growth": 0.196,
-      "total_revenue": 775680032768,
-      "net_income": 135281000448,
-      "profit_margins": 0.1744,
-      "operating_margins": 0.13689,
-      "return_on_equity": 0.30558002,
-      "return_on_assets": 0.06589,
-      "total_debt": 251635007488,
-      "total_cash": 122988003328,
-      "debt_to_equity": 45.617,
-      "current_ratio": 1.033,
-      "quick_ratio": 0.843,
-      "free_cash_flow": 3219124992,
-      "dividend_yield_pct": 0.0,
-      "payout_ratio": 0.0,
-      "target_low": 230.0,
-      "target_mean": 331.71967,
-      "target_high": 405.0,
-      "target_median": 329.5,
-      "recommendation_key": "strong_buy",
-      "recommendation_mean": 1.33333,
-      "number_of_analysts": 58,
-      "implied_upside_pct": 33.757931451612905,
-      "rec_breakdown": {
-        "strongBuy": 16,
-        "buy": 42,
-        "hold": 2,
-        "sell": 0,
-        "strongSell": 0
-      },
-      "next_earnings_date": "2026-10-29",
-      "earnings_high_est": 2.22,
-      "earnings_low_est": 1.85,
-      "earnings_avg_est": 1.98231,
-      "_ticker_obj": "yfinance.Ticker object <AMZN>"
-    },
-    "tech": {
-      "latest_price": 248.0,
-      "sma_20": 254.42999954223632,
-      "sma_50": 255.64759979248046,
-      "sma_200": 243.29289993286133,
-      "rsi_14": 47.33542874554135,
-      "rsi_status": "NEUTRAL",
-      "macd_data": {
-        "macd": 0.1899772432729776,
-        "signal": 0.615827334561116,
-        "histogram": -0.42585009128813844,
-        "crossover": "BEARISH_CROSS"
-      },
-      "cross_status": "GOLDEN_CROSS",
-      "fifty_two_week_pos_pct": 57.017536227907385,
-      "high_52": 287.20001220703125,
-      "low_52": 196.0,
-      "returns": {
-        "1m": -0.6688821969771719,
-        "3m": 7.424412780184286,
-        "6m": -5.024508027927698,
-        "1y": 10.610584975581915
-      },
-      "technical_score": 45.5,
-      "signals": [
-        "Price is 3.0% below 50-day SMA (Bearish)",
-        "50-day SMA is above 200-day SMA (Golden Cross)",
-        "MACD histogram indicates negative bearish momentum"
-      ]
-    },
-    "sent": {
-      "combined_polarity": 0.048,
-      "sentiment_score": 51.9,
-      "label": "NEUTRAL",
-      "news_stats": {
-        "polarity": 0.06898148148148149,
-        "subjectivity": 0.24796296296296297,
-        "positive_count": 4,
-        "negative_count": 2,
-        "neutral_count": 9,
-        "total": 15
-      },
-      "reddit_stats": {
-        "polarity": 0.0,
-        "subjectivity": 0.0,
-        "positive_count": 0,
-        "negative_count": 0,
-        "neutral_count": 0
-      },
-      "headline_count": 15,
-      "positive_highlights": [
-        "Amazon Q3 Preview: CAPEX Spending In Focus, Shares Fairly Valued (NASDAQ:AMZN) - Seeking Alpha",
-        "Should You Buy Jim Cramer and Ken Fisher\u2019s Top AI Stock Pick Ahead of Earnings? - Yahoo Finance",
-        "Amazon Earnings Showdown: Fresh Tactical ETF Plays for the Cloud Giant\u2019s Q3 Report - Barchart.com"
-      ],
-      "negative_highlights": [
-        "Amazon (AMZN) Suffers a Larger Drop Than the General Market: Key Insights - Yahoo Finance",
-        "Amazon.com Inc Stock (AMZN) Opened Down by 3.50% on Oct 22: Facts Behind the Movement - TradingKey"
-      ],
-      "recent_headlines": [
-        "Amazon: Rule Of 90 In FY2028? We'll Hit 80 By Year-End (NASDAQ:AMZN) - Seeking Alpha",
-        "Amazon Earnings Showdown: Fresh Tactical ETF Plays for the Cloud Giant\u2019s Q3 Report - Barchart.com",
-        "Amazon Stock Is Up 8% This Year. Is It Still a Buy Ahead of Earnings? - Morningstar",
-        "Amazon (AMZN) Says AWS Is Already Nearly Sold Out Through 2027 as AI Demand Surges - TipRanks",
-        "Amazon Earnings Are a Week Away: Here\u2019s What to Expect - Benzinga"
-      ]
-    },
-    "qual": {
-      "priced_in": {
-        "valuation_tier": "Fair Value Range",
-        "priced_in_points": [
-          "P/E ratio reflects balanced market expectations for mid-range growth.",
-          "Forward P/E is higher than trailing P/E, pricing in potential earnings contraction."
-        ]
-      },
-      "macro_policy": {
-        "macro_factors": [
-          "Operating in United States under Federal Reserve (FED) interest rate policy environment.",
-          "Consumer sentiment and discretionary spending impact demand during inflation/rate shifts."
-        ],
-        "policy_risks": [
-          "Antitrust oversight, data privacy laws, and international tariff trade policies affect cross-border supply chains."
-        ]
-      },
-      "moat": {
-        "moat_tier": "Wide Moat",
-        "moat_score": 100.0,
-        "reasons": [
-          "Strong Return on Equity (ROE: 30.6%), indicating high capital efficiency and competitive advantage.",
-          "High net profit margin (17.4%), demonstrating pricing power.",
-          "Mega-cap scale ($2.68T) provides massive distribution and cost advantages."
-        ]
-      },
-      "qualitative_score": 80.0
-    },
-    "sig": {
-      "composite_score": 74.6,
-      "signal": "BUY",
-      "confidence_pct": 69.7,
-      "pillar_scores": {
-        "fundamentals": 100.0,
-        "valuation": 60.0,
-        "technicals": 45.5,
-        "sentiment": 51.9,
-        "analyst": 100.0,
-        "macro_moat": 80.0
-      },
-      "key_positives": [
-        "Exceptional Return on Equity (30.6%)",
-        "Strong YoY revenue growth (19.6%)",
-        "Low debt-to-equity ratio (45.6)",
-        "Positive free cash flow generation"
-      ],
-      "key_risks": [
-        "Price is 3.0% below 50-day SMA (Bearish)"
       ]
     }
   },
@@ -384,7 +199,7 @@
       "previous_close": 212.21,
       "fifty_two_week_high": 243.37,
       "fifty_two_week_low": 164.27,
-      "volume": 79740563,
+      "volume": 80189765,
       "avg_volume": 117112081,
       "pe_ratio": 26.67004,
       "forward_pe": 13.255753,
@@ -437,13 +252,13 @@
       "latest_price": 210.96,
       "sma_20": 225.54150161743163,
       "sma_50": 222.3939306640625,
-      "sma_200": 203.3622361755371,
+      "sma_200": 203.36223594665526,
       "rsi_14": 22.026437371271115,
       "rsi_status": "OVERSOLD",
       "macd_data": {
-        "macd": -2.629484247580308,
-        "signal": -0.4705591284833991,
-        "histogram": -2.1589251190969088,
+        "macd": -2.6294842475811038,
+        "signal": -0.47055912848457726,
+        "histogram": -2.1589251190965264,
         "crossover": "BEARISH"
       },
       "cross_status": "GOLDEN_CROSS",
@@ -465,15 +280,15 @@
       ]
     },
     "sent": {
-      "combined_polarity": -0.023,
-      "sentiment_score": 49.1,
+      "combined_polarity": -0.0,
+      "sentiment_score": 50.0,
       "label": "NEUTRAL",
       "news_stats": {
-        "polarity": -0.03333333333333333,
-        "subjectivity": 0.1895238095238095,
+        "polarity": -1.8503717077085942e-18,
+        "subjectivity": 0.14285714285714285,
         "positive_count": 1,
-        "negative_count": 2,
-        "neutral_count": 12,
+        "negative_count": 1,
+        "neutral_count": 13,
         "total": 15
       },
       "reddit_stats": {
@@ -488,8 +303,7 @@
         "Nvidia (NVDA) Stock Price Lags Massive Earnings Growth\u2014A Compelling Value Opportunity - Yahoo Finance"
       ],
       "negative_highlights": [
-        "Nvidia Growth Could Slow to 20% But Its Stock Can Still Double, Expert Says - Benzinga",
-        "Nvidia, Intel among chip stocks to benefit as open-weight models prove expensive: BofA (NVDA:NASDAQ) - Seeking Alpha"
+        "Nvidia Growth Could Slow to 20% But Its Stock Can Still Double, Expert Says - Benzinga"
       ],
       "recent_headlines": [
         "NVIDIA Corporation (NVDA) Remains a Key AI Growth Driver Despite Benchmark Headwinds - Yahoo Finance",
@@ -529,14 +343,14 @@
       "qualitative_score": 80.0
     },
     "sig": {
-      "composite_score": 78.8,
+      "composite_score": 78.9,
       "signal": "BUY",
-      "confidence_pct": 70.9,
+      "confidence_pct": 71.2,
       "pillar_scores": {
         "fundamentals": 100.0,
         "valuation": 80.0,
         "technicals": 49.3,
-        "sentiment": 49.1,
+        "sentiment": 50.0,
         "analyst": 100.0,
         "macro_moat": 80.0
       },
@@ -548,193 +362,6 @@
       ],
       "key_risks": [
         "Price is 5.1% below 50-day SMA (Bearish)"
-      ]
-    }
-  },
-  "MU": {
-    "data": {
-      "symbol": "MU",
-      "company_name": "Micron Technology, Inc.",
-      "exchange_info": {
-        "country": "United States",
-        "exchange": "NYSE/NASDAQ",
-        "central_bank": "Federal Reserve (FED)",
-        "currency_symbol": "$"
-      },
-      "currency": "USD",
-      "sector": "Technology",
-      "industry": "Semiconductors",
-      "summary": "Micron Technology, Inc. engages in the provision of semiconductor memory and storage products in the United States, Taiwan, Mainland China, other Asia Pacific countries, Japan, Europe, and internationally. It operates through Cloud Memory Business Unit, Core Data Center Business Unit, Mobile and Client Business Unit, and Automotive and Embedded Business Unit segments. The company provides dynamic random access memory (DRAM) products, including High-Bandwidth Memory, doublie data rate, low-power DRAM, and graphics DRAM products; NAND products comprising solid state drives, managed NAND, and multi-chip packages; and NOR products. The company sells its products under the Micron brand name and private labels through its own direct sales force, sales or representative offices, as well as through distributors, retailers, and independent sales representatives. Micron Technology, Inc. was founded in 1978 and is headquartered in Boise, Idaho.",
-      "current_price": 877.55,
-      "previous_close": 856.49,
-      "fifty_two_week_high": 1255.0,
-      "fifty_two_week_low": 192.59,
-      "volume": 21123737,
-      "avg_volume": 29990103,
-      "pe_ratio": 11.806134,
-      "forward_pe": 4.2415476,
-      "peg_ratio": 0.16,
-      "price_to_sales": 7.4547286,
-      "price_to_book": 7.1724563,
-      "ev_to_ebitda": 8.771,
-      "market_cap": 992880427008,
-      "enterprise_value": 954625425408,
-      "eps_trailing": 74.33,
-      "eps_forward": 206.89381,
-      "earnings_growth": 10.595,
-      "revenue_growth": 3.793,
-      "total_revenue": 133188001792,
-      "net_income": 84968996864,
-      "profit_margins": 0.63796,
-      "operating_margins": 0.80678004,
-      "return_on_equity": 0.8826,
-      "return_on_assets": 0.44557,
-      "total_debt": 5178999808,
-      "total_cash": 43434000384,
-      "debt_to_equity": 3.743,
-      "current_ratio": 3.314,
-      "quick_ratio": 2.898,
-      "free_cash_flow": 29140250624,
-      "dividend_yield_pct": 7.000000000000001,
-      "payout_ratio": 0.0070999996,
-      "target_low": 361.0,
-      "target_mean": 1561.9111,
-      "target_high": 3000.0,
-      "target_median": 1550.0,
-      "recommendation_key": "strong_buy",
-      "recommendation_mean": 1.36735,
-      "number_of_analysts": 45,
-      "implied_upside_pct": 77.98542533188993,
-      "rec_breakdown": {
-        "strongBuy": 9,
-        "buy": 36,
-        "hold": 3,
-        "sell": 0,
-        "strongSell": 1
-      },
-      "next_earnings_date": "2026-12-23",
-      "earnings_high_est": 40.47,
-      "earnings_low_est": 35.85,
-      "earnings_avg_est": 38.29128,
-      "_ticker_obj": "yfinance.Ticker object <MU>"
-    },
-    "tech": {
-      "latest_price": 877.55,
-      "sma_20": 986.5976654052735,
-      "sma_50": 982.5951342773437,
-      "sma_200": 731.8925250244141,
-      "rsi_14": 28.581448065119645,
-      "rsi_status": "OVERSOLD",
-      "macd_data": {
-        "macd": -35.37368508429881,
-        "signal": -18.319163975154446,
-        "histogram": -17.054521109144368,
-        "crossover": "BEARISH"
-      },
-      "cross_status": "GOLDEN_CROSS",
-      "fifty_two_week_pos_pct": 64.50329119612907,
-      "high_52": 1254.6095437059498,
-      "low_52": 192.3715041476699,
-      "returns": {
-        "1m": -18.90378890610711,
-        "3m": 6.965991538561056,
-        "6m": 67.3446358458227,
-        "1y": 301.1262060405323
-      },
-      "technical_score": 42.0,
-      "signals": [
-        "Price is 10.7% below 50-day SMA (Bearish)",
-        "50-day SMA is above 200-day SMA (Golden Cross)",
-        "RSI is oversold at 28.6 (Potential Rebound)",
-        "MACD histogram indicates negative bearish momentum"
-      ]
-    },
-    "sent": {
-      "combined_polarity": 0.003,
-      "sentiment_score": 50.1,
-      "label": "NEUTRAL",
-      "news_stats": {
-        "polarity": 0.004537037037037036,
-        "subjectivity": 0.2490740740740741,
-        "positive_count": 2,
-        "negative_count": 6,
-        "neutral_count": 7,
-        "total": 15
-      },
-      "reddit_stats": {
-        "polarity": 0.0,
-        "subjectivity": 0.0,
-        "positive_count": 0,
-        "negative_count": 0,
-        "neutral_count": 0
-      },
-      "headline_count": 15,
-      "positive_highlights": [
-        "Micron (MU) Falls More Steeply Than Broader Market: What Investors Need to Know - Yahoo Finance",
-        "Micron stock gets stunning $3,000 call despite 6% plunge - TheStreet"
-      ],
-      "negative_highlights": [
-        "Micron Says AI Cut Its Data Center SSD Development Time by 60%. Here\u2019s Where the Stock Could Go by 2031 - TIKR.com",
-        "Micron: HBM\u2019s Margin Drag Flips Into A Profit Driver In 2027 (NASDAQ:MU) - Seeking Alpha",
-        "Micron leads memory stock rebound candidates after sharp selloff - Investing.com"
-      ],
-      "recent_headlines": [
-        "Sell Micron: Don't Wait For Memory Boom To End (NASDAQ:MU) - Seeking Alpha",
-        "3 big reasons Micron and other chip stocks fell hard on Thursday - MarketWatch",
-        "Micron Stock Leads Chip Rebound. Dip Buyers Must Buckle Up as AI Chaos Swirls. - Barron's",
-        "Micron Says AI Cut Its Data Center SSD Development Time by 60%. Here\u2019s Where the Stock Could Go by 2031 - TIKR.com",
-        "Micron's Next AI Memory Breakthrough Has a Cooling Problem - Benzinga"
-      ]
-    },
-    "qual": {
-      "priced_in": {
-        "valuation_tier": "Value / Low Expectation",
-        "priced_in_points": [
-          "Low P/E ratio suggests market is pricing in modest growth or cyclical headwinds.",
-          "Forward P/E is 64.1% lower than trailing P/E, pricing in robust earnings recovery/growth.",
-          "PEG ratio of 0.16 suggests stock may be undervalued relative to expected growth."
-        ]
-      },
-      "macro_policy": {
-        "macro_factors": [
-          "Operating in United States under Federal Reserve (FED) interest rate policy environment.",
-          "Consumer sentiment and discretionary spending impact demand during inflation/rate shifts."
-        ],
-        "policy_risks": [
-          "Antitrust oversight, data privacy laws, and international tariff trade policies affect cross-border supply chains."
-        ]
-      },
-      "moat": {
-        "moat_tier": "Wide Moat",
-        "moat_score": 100.0,
-        "reasons": [
-          "Strong Return on Equity (ROE: 88.3%), indicating high capital efficiency and competitive advantage.",
-          "High net profit margin (63.8%), demonstrating pricing power.",
-          "Mega-cap scale ($992.88B) provides massive distribution and cost advantages."
-        ]
-      },
-      "qualitative_score": 80.0
-    },
-    "sig": {
-      "composite_score": 80.8,
-      "signal": "BUY",
-      "confidence_pct": 67.7,
-      "pillar_scores": {
-        "fundamentals": 100.0,
-        "valuation": 95.0,
-        "technicals": 42.0,
-        "sentiment": 50.1,
-        "analyst": 100.0,
-        "macro_moat": 80.0
-      },
-      "key_positives": [
-        "Exceptional Return on Equity (88.3%)",
-        "High profit margin (63.8%)",
-        "Strong YoY revenue growth (379.3%)",
-        "Low debt-to-equity ratio (3.7)"
-      ],
-      "key_risks": [
-        "Price is 10.7% below 50-day SMA (Bearish)"
       ]
     }
   },
@@ -758,16 +385,16 @@
       "fifty_two_week_low": 81.24,
       "volume": 11057820,
       "avg_volume": 15761920,
-      "pe_ratio": 96.926834,
-      "forward_pe": 31.746857,
+      "pe_ratio": 99.350006,
+      "forward_pe": 31.78145,
       "peg_ratio": 1.15,
       "price_to_sales": 11.155492,
       "price_to_book": 13.13068,
       "ev_to_ebitda": 58.036,
       "market_cap": 164342710272,
       "enterprise_value": 168131706880,
-      "eps_trailing": 1.64,
-      "eps_forward": 5.00711,
+      "eps_trailing": 1.6,
+      "eps_forward": 5.00166,
       "earnings_growth": -0.219,
       "revenue_growth": 0.24,
       "total_revenue": 14732000256,
@@ -863,8 +490,8 @@
       "negative_highlights": [],
       "recent_headlines": [
         "ServiceNow (NOW) Advances While Market Declines: Some Information for Investors - Yahoo Finance",
-        "ServiceNow, Inc. $NOW Stock Sold by MN Wealth Advisors LLC - MarketBeat",
         "ServiceNow (NOW) Ascends While Market Falls: Some Facts to Note - Yahoo Finance",
+        "ServiceNow, Inc. $NOW Stock Sold by MN Wealth Advisors LLC - MarketBeat",
         "ServiceNow: The Shift From Seats To 'Assists' Uncaps Exponential Growth - Seeking Alpha",
         "ServiceNow stock may move 9.3% on Oct. 28 earnings report - Investing.com"
       ]
@@ -874,7 +501,7 @@
         "valuation_tier": "High Growth Premium",
         "priced_in_points": [
           "High P/E ratio indicates market has priced in strong future earnings acceleration.",
-          "Forward P/E is 67.2% lower than trailing P/E, pricing in robust earnings recovery/growth."
+          "Forward P/E is 68.0% lower than trailing P/E, pricing in robust earnings recovery/growth."
         ]
       },
       "macro_policy": {
@@ -915,9 +542,197 @@
       ],
       "key_risks": [
         "Current ratio below 1.0 (0.70)",
-        "High P/E ratio (96.9x)",
+        "High P/E ratio (99.4x)",
         "Price exceeds average analyst target (-1.5%)",
         "RSI is overbought at 78.1 (Pullback Risk)"
+      ]
+    }
+  },
+  "MU": {
+    "data": {
+      "symbol": "MU",
+      "company_name": "Micron Technology, Inc.",
+      "exchange_info": {
+        "country": "United States",
+        "exchange": "NYSE/NASDAQ",
+        "central_bank": "Federal Reserve (FED)",
+        "currency_symbol": "$"
+      },
+      "currency": "USD",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "summary": "Micron Technology, Inc. engages in the provision of semiconductor memory and storage products in the United States, Taiwan, Mainland China, other Asia Pacific countries, Japan, Europe, and internationally. It operates through Cloud Memory Business Unit, Core Data Center Business Unit, Mobile and Client Business Unit, and Automotive and Embedded Business Unit segments. The company provides dynamic random access memory (DRAM) products, including High-Bandwidth Memory, doublie data rate, low-power DRAM, and graphics DRAM products; NAND products comprising solid state drives, managed NAND, and multi-chip packages; and NOR products. The company sells its products under the Micron brand name and private labels through its own direct sales force, sales or representative offices, as well as through distributors, retailers, and independent sales representatives. Micron Technology, Inc. was founded in 1978 and is headquartered in Boise, Idaho.",
+      "current_price": 877.55,
+      "previous_close": 856.49,
+      "fifty_two_week_high": 1255.0,
+      "fifty_two_week_low": 192.59,
+      "volume": 21249884,
+      "avg_volume": 29990103,
+      "pe_ratio": 11.806134,
+      "forward_pe": 4.2415476,
+      "peg_ratio": 0.16,
+      "price_to_sales": 7.4547286,
+      "price_to_book": 7.1724563,
+      "ev_to_ebitda": 8.771,
+      "market_cap": 992880427008,
+      "enterprise_value": 954625425408,
+      "eps_trailing": 74.33,
+      "eps_forward": 206.89381,
+      "earnings_growth": 10.595,
+      "revenue_growth": 3.793,
+      "total_revenue": 133188001792,
+      "net_income": 84968996864,
+      "profit_margins": 0.63796,
+      "operating_margins": 0.80678004,
+      "return_on_equity": 0.8826,
+      "return_on_assets": 0.44557,
+      "total_debt": 5178999808,
+      "total_cash": 43434000384,
+      "debt_to_equity": 3.743,
+      "current_ratio": 3.314,
+      "quick_ratio": 2.898,
+      "free_cash_flow": 29140250624,
+      "dividend_yield_pct": 7.000000000000001,
+      "payout_ratio": 0.0070999996,
+      "target_low": 361.0,
+      "target_mean": 1561.9111,
+      "target_high": 3000.0,
+      "target_median": 1550.0,
+      "recommendation_key": "strong_buy",
+      "recommendation_mean": 1.36735,
+      "number_of_analysts": 45,
+      "implied_upside_pct": 77.98542533188993,
+      "rec_breakdown": {
+        "strongBuy": 9,
+        "buy": 36,
+        "hold": 3,
+        "sell": 0,
+        "strongSell": 1
+      },
+      "next_earnings_date": "2026-12-23",
+      "earnings_high_est": 40.47,
+      "earnings_low_est": 35.85,
+      "earnings_avg_est": 38.29128,
+      "_ticker_obj": "yfinance.Ticker object <MU>"
+    },
+    "tech": {
+      "latest_price": 877.55,
+      "sma_20": 986.5976654052735,
+      "sma_50": 982.5951342773437,
+      "sma_200": 731.8925247192383,
+      "rsi_14": 28.581448065119645,
+      "rsi_status": "OVERSOLD",
+      "macd_data": {
+        "macd": -35.37368508431234,
+        "signal": -18.319163975174437,
+        "histogram": -17.054521109137905,
+        "crossover": "BEARISH"
+      },
+      "cross_status": "GOLDEN_CROSS",
+      "fifty_two_week_pos_pct": 64.50329119612907,
+      "high_52": 1254.6095437059498,
+      "low_52": 192.3715041476699,
+      "returns": {
+        "1m": -18.90378890610711,
+        "3m": 6.965991538561056,
+        "6m": 67.3446358458227,
+        "1y": 301.1262060405323
+      },
+      "technical_score": 42.0,
+      "signals": [
+        "Price is 10.7% below 50-day SMA (Bearish)",
+        "50-day SMA is above 200-day SMA (Golden Cross)",
+        "RSI is oversold at 28.6 (Potential Rebound)",
+        "MACD histogram indicates negative bearish momentum"
+      ]
+    },
+    "sent": {
+      "combined_polarity": 0.1,
+      "sentiment_score": 54.0,
+      "label": "BULLISH",
+      "news_stats": {
+        "polarity": 0.1422222222222222,
+        "subjectivity": 0.2708333333333333,
+        "positive_count": 5,
+        "negative_count": 3,
+        "neutral_count": 7,
+        "total": 15
+      },
+      "reddit_stats": {
+        "polarity": 0.0,
+        "subjectivity": 0.0,
+        "positive_count": 0,
+        "negative_count": 0,
+        "neutral_count": 0
+      },
+      "headline_count": 15,
+      "positive_highlights": [
+        "Micron (MU) is an Incredible Growth Stock: 3 Reasons Why - Yahoo Finance",
+        "Is Micron Technology, Inc. (MU) A Good Stock To Buy Now? - Yahoo Finance",
+        "Micron (MU) Falls More Steeply Than Broader Market: What Investors Need to Know - Yahoo Finance"
+      ],
+      "negative_highlights": [
+        "Micron: HBM\u2019s Margin Drag Flips Into A Profit Driver In 2027 (NASDAQ:MU) - Seeking Alpha",
+        "Micron leads memory stock rebound candidates after sharp selloff - Investing.com",
+        "Why Micron Stock Is Falling Hard Today - The Globe and Mail"
+      ],
+      "recent_headlines": [
+        "What's Going On With Micron Technology Stock Friday? - Benzinga",
+        "What's Going On With Micron Technology Stock Thursday? - Benzinga",
+        "Sell Micron: Don't Wait For Memory Boom To End (NASDAQ:MU) - Seeking Alpha",
+        "Micron (MU) Falls More Steeply Than Broader Market: What Investors Need to Know - Yahoo Finance",
+        "Micron leads memory stock rebound candidates after sharp selloff - Investing.com"
+      ]
+    },
+    "qual": {
+      "priced_in": {
+        "valuation_tier": "Value / Low Expectation",
+        "priced_in_points": [
+          "Low P/E ratio suggests market is pricing in modest growth or cyclical headwinds.",
+          "Forward P/E is 64.1% lower than trailing P/E, pricing in robust earnings recovery/growth.",
+          "PEG ratio of 0.16 suggests stock may be undervalued relative to expected growth."
+        ]
+      },
+      "macro_policy": {
+        "macro_factors": [
+          "Operating in United States under Federal Reserve (FED) interest rate policy environment.",
+          "Consumer sentiment and discretionary spending impact demand during inflation/rate shifts."
+        ],
+        "policy_risks": [
+          "Antitrust oversight, data privacy laws, and international tariff trade policies affect cross-border supply chains."
+        ]
+      },
+      "moat": {
+        "moat_tier": "Wide Moat",
+        "moat_score": 100.0,
+        "reasons": [
+          "Strong Return on Equity (ROE: 88.3%), indicating high capital efficiency and competitive advantage.",
+          "High net profit margin (63.8%), demonstrating pricing power.",
+          "Mega-cap scale ($992.88B) provides massive distribution and cost advantages."
+        ]
+      },
+      "qualitative_score": 80.0
+    },
+    "sig": {
+      "composite_score": 81.4,
+      "signal": "HOLD",
+      "confidence_pct": 68.6,
+      "pillar_scores": {
+        "fundamentals": 100.0,
+        "valuation": 95.0,
+        "technicals": 42.0,
+        "sentiment": 54.0,
+        "analyst": 100.0,
+        "macro_moat": 80.0
+      },
+      "key_positives": [
+        "Exceptional Return on Equity (88.3%)",
+        "High profit margin (63.8%)",
+        "Strong YoY revenue growth (379.3%)",
+        "Low debt-to-equity ratio (3.7)"
+      ],
+      "key_risks": [
+        "Price is 10.7% below 50-day SMA (Bearish)"
       ]
     }
   },
@@ -1102,6 +917,191 @@
         "Current ratio below 1.0 (0.88)",
         "Price exceeds average analyst target (-15.9%)",
         "RSI is overbought at 79.7 (Pullback Risk)"
+      ]
+    }
+  },
+  "AMZN": {
+    "data": {
+      "symbol": "AMZN",
+      "company_name": "Amazon.com, Inc.",
+      "exchange_info": {
+        "country": "United States",
+        "exchange": "NYSE/NASDAQ",
+        "central_bank": "Federal Reserve (FED)",
+        "currency_symbol": "$"
+      },
+      "currency": "USD",
+      "sector": "Consumer Cyclical",
+      "industry": "Internet Retail",
+      "summary": "Amazon.com, Inc. engages in the retail sale of consumer products, advertising, and subscriptions service through online and physical stores in North America and internationally. The company operates through three segments: North America, International, and Amazon Web Services (AWS). It also manufactures and sells electronic devices, including Kindle, fire tablets, fire TVs, echo, ring, blink, and eero; and develops and produces media content. In addition, the company offers programs that enable sellers to sell their products in its stores; and programs that allow authors, independent publishers, musicians, filmmakers, Twitch streamers, skill and app developers, and others to publish and sell content. Further, it provides compute, storage, Artificial intelligence, database, analytics, machine learning, and other services, as well as advertising services through programs, such as sponsored ads, display, and video advertising. Additionally, the company offers Amazon Prime, a membership program. The company's products offered through its stores include merchandise and content purchased for resale and products offered by third-party sellers. It serves consumers, sellers, developers, enterprises, content creators, advertisers, and employees. The company was incorporated in 1994 and is headquartered in Seattle, Washington.",
+      "current_price": 248.0,
+      "previous_close": 250.38,
+      "fifty_two_week_high": 287.2,
+      "fifty_two_week_low": 196.0,
+      "volume": 25569043,
+      "avg_volume": 38966726,
+      "pe_ratio": 19.951729,
+      "forward_pe": 23.777382,
+      "peg_ratio": 1.44,
+      "price_to_sales": 3.4485943,
+      "price_to_book": 4.847916,
+      "ev_to_ebitda": 16.598,
+      "market_cap": 2675005718528,
+      "enterprise_value": 2803652886528,
+      "eps_trailing": 12.43,
+      "eps_forward": 10.43008,
+      "earnings_growth": 2.423,
+      "revenue_growth": 0.196,
+      "total_revenue": 775680032768,
+      "net_income": 135281000448,
+      "profit_margins": 0.1744,
+      "operating_margins": 0.13689,
+      "return_on_equity": 0.30558002,
+      "return_on_assets": 0.06589,
+      "total_debt": 251635007488,
+      "total_cash": 122988003328,
+      "debt_to_equity": 45.617,
+      "current_ratio": 1.033,
+      "quick_ratio": 0.843,
+      "free_cash_flow": 3219124992,
+      "dividend_yield_pct": 0.0,
+      "payout_ratio": 0.0,
+      "target_low": 230.0,
+      "target_mean": 331.71967,
+      "target_high": 405.0,
+      "target_median": 329.5,
+      "recommendation_key": "strong_buy",
+      "recommendation_mean": 1.33333,
+      "number_of_analysts": 58,
+      "implied_upside_pct": 33.757931451612905,
+      "rec_breakdown": {
+        "strongBuy": 16,
+        "buy": 42,
+        "hold": 2,
+        "sell": 0,
+        "strongSell": 0
+      },
+      "next_earnings_date": "2026-10-29",
+      "earnings_high_est": 2.22,
+      "earnings_low_est": 1.85,
+      "earnings_avg_est": 1.98231,
+      "_ticker_obj": "yfinance.Ticker object <AMZN>"
+    },
+    "tech": {
+      "latest_price": 248.0,
+      "sma_20": 254.42999954223632,
+      "sma_50": 255.64759979248046,
+      "sma_200": 243.29289993286133,
+      "rsi_14": 47.33542874554135,
+      "rsi_status": "NEUTRAL",
+      "macd_data": {
+        "macd": 0.1899772432729776,
+        "signal": 0.615827334561116,
+        "histogram": -0.42585009128813844,
+        "crossover": "BEARISH_CROSS"
+      },
+      "cross_status": "GOLDEN_CROSS",
+      "fifty_two_week_pos_pct": 57.017536227907385,
+      "high_52": 287.20001220703125,
+      "low_52": 196.0,
+      "returns": {
+        "1m": -0.6688821969771719,
+        "3m": 7.424412780184286,
+        "6m": -5.024508027927698,
+        "1y": 10.610584975581915
+      },
+      "technical_score": 45.5,
+      "signals": [
+        "Price is 3.0% below 50-day SMA (Bearish)",
+        "50-day SMA is above 200-day SMA (Golden Cross)",
+        "MACD histogram indicates negative bearish momentum"
+      ]
+    },
+    "sent": {
+      "combined_polarity": 0.074,
+      "sentiment_score": 53.0,
+      "label": "NEUTRAL",
+      "news_stats": {
+        "polarity": 0.10564814814814816,
+        "subjectivity": 0.21462962962962964,
+        "positive_count": 3,
+        "negative_count": 2,
+        "neutral_count": 10,
+        "total": 15
+      },
+      "reddit_stats": {
+        "polarity": 0.0,
+        "subjectivity": 0.0,
+        "positive_count": 0,
+        "negative_count": 0,
+        "neutral_count": 0
+      },
+      "headline_count": 15,
+      "positive_highlights": [
+        "AMZN Stock Set For Best Day In Three Months: Morgan Stanley Expects Amazon's AWS To Grow 47% In 2027, Denotes Stock As 'Top Pick' - Yahoo Finance",
+        "Amazon Q3 Preview: CAPEX Spending In Focus, Shares Fairly Valued (NASDAQ:AMZN) - Seeking Alpha",
+        "Amazon.com, Inc. (AMZN): Top 10 Stocks That Members of Congress Own - Yahoo Finance"
+      ],
+      "negative_highlights": [
+        "Amazon (AMZN) Suffers a Larger Drop Than the General Market: Key Insights - Yahoo Finance",
+        "Amazon.com Inc Stock (AMZN) Opened Down by 3.50% on Oct 22: Facts Behind the Movement - TradingKey"
+      ],
+      "recent_headlines": [
+        "Amazon (AMZN) Reports Next Week: Wall Street Expects Earnings Growth - Yahoo Finance",
+        "Amazon.com Inc Stock (AMZN) Opened Down by 3.50% on Oct 22: Facts Behind the Movement - TradingKey",
+        "Amazon Q3 Preview: CAPEX Spending In Focus, Shares Fairly Valued (NASDAQ:AMZN) - Seeking Alpha",
+        "Is Amazon.com Inc (AMZN) a Bargain After 4.6% Drop? GF Value Says Undervalued - GuruFocus",
+        "Amazon.com, Inc. $AMZN Stock: Fortitude Family Office LLC Increases Stake - MarketBeat"
+      ]
+    },
+    "qual": {
+      "priced_in": {
+        "valuation_tier": "Fair Value Range",
+        "priced_in_points": [
+          "P/E ratio reflects balanced market expectations for mid-range growth.",
+          "Forward P/E is higher than trailing P/E, pricing in potential earnings contraction."
+        ]
+      },
+      "macro_policy": {
+        "macro_factors": [
+          "Operating in United States under Federal Reserve (FED) interest rate policy environment.",
+          "Consumer sentiment and discretionary spending impact demand during inflation/rate shifts."
+        ],
+        "policy_risks": [
+          "Antitrust oversight, data privacy laws, and international tariff trade policies affect cross-border supply chains."
+        ]
+      },
+      "moat": {
+        "moat_tier": "Wide Moat",
+        "moat_score": 100.0,
+        "reasons": [
+          "Strong Return on Equity (ROE: 30.6%), indicating high capital efficiency and competitive advantage.",
+          "High net profit margin (17.4%), demonstrating pricing power.",
+          "Mega-cap scale ($2.68T) provides massive distribution and cost advantages."
+        ]
+      },
+      "qualitative_score": 80.0
+    },
+    "sig": {
+      "composite_score": 74.8,
+      "signal": "BUY",
+      "confidence_pct": 69.9,
+      "pillar_scores": {
+        "fundamentals": 100.0,
+        "valuation": 60.0,
+        "technicals": 45.5,
+        "sentiment": 53.0,
+        "analyst": 100.0,
+        "macro_moat": 80.0
+      },
+      "key_positives": [
+        "Exceptional Return on Equity (30.6%)",
+        "Strong YoY revenue growth (19.6%)",
+        "Low debt-to-equity ratio (45.6)",
+        "Positive free cash flow generation"
+      ],
+      "key_risks": [
+        "Price is 3.0% below 50-day SMA (Bearish)"
       ]
     }
   }
