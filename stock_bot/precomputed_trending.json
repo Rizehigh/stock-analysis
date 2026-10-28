@@ -18,7 +18,7 @@
       "fifty_two_week_high": 150.47,
       "fifty_two_week_low": 63.515,
       "volume": 24561939,
-      "avg_volume": 20306234,
+      "avg_volume": 20408186,
       "pe_ratio": 41.656387,
       "forward_pe": 27.685633,
       "peg_ratio": 1.57,
@@ -26,7 +26,7 @@
       "price_to_book": 8.967283,
       "ev_to_ebitda": null,
       "market_cap": 85017223168,
-      "enterprise_value": 82551799808,
+      "enterprise_value": 84098220032,
       "eps_trailing": 2.27,
       "eps_forward": 3.41549,
       "earnings_growth": 0.476,
@@ -61,9 +61,9 @@
         "strongSell": 1
       },
       "next_earnings_date": "2026-10-27",
-      "earnings_high_est": 0.68,
-      "earnings_low_est": 0.62,
-      "earnings_avg_est": 0.64417,
+      "earnings_high_est": 0.77101,
+      "earnings_low_est": 0.71,
+      "earnings_avg_est": 0.73775,
       "_ticker_obj": "yfinance.Ticker object <HOOD>"
     },
     "tech": {
@@ -97,8 +97,8 @@
       ]
     },
     "sent": {
-      "combined_polarity": 0.015,
-      "sentiment_score": 50.6,
+      "combined_polarity": 0.007,
+      "sentiment_score": 50.3,
       "label": "NEUTRAL",
       "news_stats": {
         "polarity": 0.020794612794612796,
@@ -109,26 +109,28 @@
         "total": 15
       },
       "reddit_stats": {
-        "polarity": 0.0,
-        "subjectivity": 0.0,
+        "polarity": -0.025,
+        "subjectivity": 0.025,
         "positive_count": 0,
-        "negative_count": 0,
-        "neutral_count": 0
+        "negative_count": 1,
+        "neutral_count": 9,
+        "total": 10
       },
-      "headline_count": 15,
+      "headline_count": 25,
       "positive_highlights": [
         "Is Robinhood Stock a Buy About a Third Below Its Record High? - The Motley Fool",
-        "Robinhood shares fall 5% as crypto slump weighs on profits, offsetting gains in new businesses - CNBC"
+        "Robinhood shares fall 4% as crypto slump weighs on profits, offsetting gains in new businesses - CNBC"
       ],
       "negative_highlights": [
-        "PayPal (NASDAQ:PYPL) vs Robinhood (NASDAQ:HOOD): Which Stock Faces the Bigger Earnings Test? - Stocks Down Under"
+        "PayPal (NASDAQ:PYPL) vs Robinhood (NASDAQ:HOOD): Which Stock Faces the Bigger Earnings Test? - Stocks Down Under",
+        "Why isn\u2019t Robinhood usually recommended as a brokerage? - Reddit"
       ],
       "recent_headlines": [
-        "Robinhood shares fall 5% as crypto slump weighs on profits, offsetting gains in new businesses - CNBC",
-        "Robinhood Q3 Highlights: Trump Accounts, Prediction Markets Help Offset Crypto Weakness - Yahoo Finance",
+        "Robinhood shares fall 4% as crypto slump weighs on profits, offsetting gains in new businesses - CNBC",
+        "Robinhood stock falls 7% after earnings miss despite record trading volumes - Yahoo Finance",
         "Robinhood stock dips as venture capital fund-related losses hit Q3 EPS (HOOD:NASDAQ) - Seeking Alpha",
-        "Is Robinhood Stock a Buy About a Third Below Its Record High? - The Motley Fool",
-        "Robinhood's quarterly profit falls as softer crypto activity outweighs robust trading - Reuters"
+        "Robinhood profit misses estimates as crypto trading slows - Reuters",
+        "Robinhood (HOOD) earnings: Crypto revenue slumps, but tops diminished forecasts - CoinDesk"
       ]
     },
     "qual": {
@@ -166,7 +168,7 @@
         "fundamentals": 92.0,
         "valuation": 50.0,
         "technicals": 25.0,
-        "sentiment": 50.6,
+        "sentiment": 50.3,
         "analyst": 100.0,
         "macro_moat": 71.0
       },
@@ -179,6 +181,192 @@
       "key_risks": [
         "Elevated debt-to-equity ratio (240.3)",
         "Price is 13.1% below 50-day SMA (Bearish)"
+      ]
+    }
+  },
+  "MU": {
+    "data": {
+      "symbol": "MU",
+      "company_name": "Micron Technology, Inc.",
+      "exchange_info": {
+        "country": "United States",
+        "exchange": "NYSE/NASDAQ",
+        "central_bank": "Federal Reserve (FED)",
+        "currency_symbol": "$"
+      },
+      "currency": "USD",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "summary": "Micron Technology, Inc. engages in the provision of semiconductor memory and storage products in the United States, Taiwan, Mainland China, other Asia Pacific countries, Japan, Europe, and internationally. It operates through Cloud Memory Business Unit, Core Data Center Business Unit, Mobile and Client Business Unit, and Automotive and Embedded Business Unit segments. The company provides dynamic random access memory (DRAM) products, including High-Bandwidth Memory, doublie data rate, low-power DRAM, and graphics DRAM products; NAND products comprising solid state drives, managed NAND, and multi-chip packages; and NOR products. The company sells its products under the Micron brand name and private labels through its own direct sales force, sales or representative offices, as well as through distributors, retailers, and independent sales representatives. Micron Technology, Inc. was founded in 1978 and is headquartered in Boise, Idaho.",
+      "current_price": 928.76,
+      "previous_close": 903.7,
+      "fifty_two_week_high": 1255.0,
+      "fifty_two_week_low": 192.59,
+      "volume": 22799290,
+      "avg_volume": 29500964,
+      "pe_ratio": 12.49509,
+      "forward_pe": 4.489066,
+      "peg_ratio": 0.16,
+      "price_to_sales": 7.889755,
+      "price_to_book": 7.5910096,
+      "ev_to_ebitda": 9.303,
+      "market_cap": 1050820673536,
+      "enterprise_value": 1012565606400,
+      "eps_trailing": 74.33,
+      "eps_forward": 206.89381,
+      "earnings_growth": 10.595,
+      "revenue_growth": 3.793,
+      "total_revenue": 133188001792,
+      "net_income": 84968996864,
+      "profit_margins": 0.63796,
+      "operating_margins": 0.80678004,
+      "return_on_equity": 0.8826,
+      "return_on_assets": 0.44557,
+      "total_debt": 5178999808,
+      "total_cash": 43434000384,
+      "debt_to_equity": 3.743,
+      "current_ratio": 3.314,
+      "quick_ratio": 2.898,
+      "free_cash_flow": 29140250624,
+      "dividend_yield_pct": 7.000000000000001,
+      "payout_ratio": 0.0070999996,
+      "target_low": 361.0,
+      "target_mean": 1561.9111,
+      "target_high": 3000.0,
+      "target_median": 1550.0,
+      "recommendation_key": "strong_buy",
+      "recommendation_mean": 1.36735,
+      "number_of_analysts": 45,
+      "implied_upside_pct": 68.17165898617512,
+      "rec_breakdown": {
+        "strongBuy": 9,
+        "buy": 36,
+        "hold": 3,
+        "sell": 0,
+        "strongSell": 1
+      },
+      "next_earnings_date": "2026-12-23",
+      "earnings_high_est": 40.47,
+      "earnings_low_est": 35.85,
+      "earnings_avg_est": 38.29128,
+      "_ticker_obj": "yfinance.Ticker object <MU>"
+    },
+    "tech": {
+      "latest_price": 928.76,
+      "sma_20": 972.2843444824218,
+      "sma_50": 979.5823767089844,
+      "sma_200": 737.6967311096191,
+      "rsi_14": 31.292567888253743,
+      "rsi_status": "BEARISH",
+      "macd_data": {
+        "macd": -31.639771528843198,
+        "signal": -23.591769909428955,
+        "histogram": -8.048001619414244,
+        "crossover": "BEARISH"
+      },
+      "cross_status": "GOLDEN_CROSS",
+      "fifty_two_week_pos_pct": 69.32424451289178,
+      "high_52": 1254.6095437059498,
+      "low_52": 192.3715041476699,
+      "returns": {
+        "1m": -12.785310740939515,
+        "3m": 6.20197549248076,
+        "6m": 79.19396462896114,
+        "1y": 319.00535651986195
+      },
+      "technical_score": 32.2,
+      "signals": [
+        "Price is 5.2% below 50-day SMA (Bearish)",
+        "50-day SMA is above 200-day SMA (Golden Cross)",
+        "MACD histogram indicates negative bearish momentum"
+      ]
+    },
+    "sent": {
+      "combined_polarity": 0.092,
+      "sentiment_score": 53.7,
+      "label": "BULLISH",
+      "news_stats": {
+        "polarity": 0.13207070707070706,
+        "subjectivity": 0.3733838383838383,
+        "positive_count": 6,
+        "negative_count": 2,
+        "neutral_count": 7,
+        "total": 15
+      },
+      "reddit_stats": {
+        "polarity": 0.0,
+        "subjectivity": 0.0,
+        "positive_count": 0,
+        "negative_count": 0,
+        "neutral_count": 0
+      },
+      "headline_count": 15,
+      "positive_highlights": [
+        "After Two Spectacular Micron Buy Ratings, I\u2019m Calling It Quits (Downgrade To Sell) (MU) - Seeking Alpha",
+        "Micron: I Was Bearish Before, But This Call May Be Even More Controversial (Upgrade) (MU) - Seeking Alpha",
+        "\u201cDurability and Predictability\u201d: Micron Is Up 200% in 2026. Take Profits, or Buy More? - Yahoo Finance"
+      ],
+      "negative_highlights": [
+        "Micron Will Pay Bonuses Half in Stock. At 63, Shares He Hasn't Sold Could Still Count Toward His $25,560 Social Security Limit - 24/7 Wall St.",
+        "Micron Suffers a 99.8% Snub From Its Union, Exposing AI's Human Fault Line - Benzinga"
+      ],
+      "recent_headlines": [
+        "SA analyst upgrades/downgrades: GOOG, MSFT, NBIS, MU - Seeking Alpha",
+        "Micron Just Unveiled a New Bonus Plan. What That Means for MU Stock. - Barchart.com",
+        "Micron, Musk, and Memory. A Big Prediction Is Lifting the Stock. - Barron's",
+        "Prediction: This Artificial Intelligence (AI) Memory Stock Will Go Parabolic on Oct. 30 - The Motley Fool",
+        "Micron Will Pay Bonuses Half in Stock. At 63, Shares He Hasn't Sold Could Still Count Toward His $25,560 Social Security Limit - 24/7 Wall St."
+      ]
+    },
+    "qual": {
+      "priced_in": {
+        "valuation_tier": "Value / Low Expectation",
+        "priced_in_points": [
+          "Low P/E ratio suggests market is pricing in modest growth or cyclical headwinds.",
+          "Forward P/E is 64.1% lower than trailing P/E, pricing in robust earnings recovery/growth.",
+          "PEG ratio of 0.16 suggests stock may be undervalued relative to expected growth."
+        ]
+      },
+      "macro_policy": {
+        "macro_factors": [
+          "Operating in United States under Federal Reserve (FED) interest rate policy environment.",
+          "Consumer sentiment and discretionary spending impact demand during inflation/rate shifts."
+        ],
+        "policy_risks": [
+          "Antitrust oversight, data privacy laws, and international tariff trade policies affect cross-border supply chains."
+        ]
+      },
+      "moat": {
+        "moat_tier": "Wide Moat",
+        "moat_score": 100.0,
+        "reasons": [
+          "Strong Return on Equity (ROE: 88.3%), indicating high capital efficiency and competitive advantage.",
+          "High net profit margin (63.8%), demonstrating pricing power.",
+          "Mega-cap scale ($1.05T) provides massive distribution and cost advantages."
+        ]
+      },
+      "qualitative_score": 80.0
+    },
+    "sig": {
+      "composite_score": 79.9,
+      "signal": "BUY",
+      "confidence_pct": 65.2,
+      "pillar_scores": {
+        "fundamentals": 100.0,
+        "valuation": 95.0,
+        "technicals": 32.2,
+        "sentiment": 53.7,
+        "analyst": 100.0,
+        "macro_moat": 80.0
+      },
+      "key_positives": [
+        "Exceptional Return on Equity (88.3%)",
+        "High profit margin (63.8%)",
+        "Strong YoY revenue growth (379.3%)",
+        "Low debt-to-equity ratio (3.7)"
+      ],
+      "key_risks": [
+        "Price is 5.2% below 50-day SMA (Bearish)"
       ]
     }
   },
@@ -201,15 +389,15 @@
       "fifty_two_week_high": 404.47,
       "fifty_two_week_low": 267.17,
       "volume": 17638170,
-      "avg_volume": 16935945,
+      "avg_volume": 16948866,
       "pe_ratio": 15.89714,
       "forward_pe": 20.628778,
       "peg_ratio": 1.1,
       "price_to_sales": 8.690527,
       "price_to_book": 6.225047,
-      "ev_to_ebitda": 21.592,
+      "ev_to_ebitda": 21.778,
       "market_cap": 3874810232832,
-      "enterprise_value": 3738883588096,
+      "enterprise_value": 3771170816000,
       "eps_trailing": 19.93,
       "eps_forward": 15.35864,
       "earnings_growth": 2.94,
@@ -257,20 +445,20 @@
       "rsi_14": 21.805754726815294,
       "rsi_status": "OVERSOLD",
       "macd_data": {
-        "macd": -5.942000958951212,
-        "signal": -2.615239499745044,
-        "histogram": -3.326761459206168,
+        "macd": -5.942000958951155,
+        "signal": -2.6152394997449013,
+        "histogram": -3.3267614592062538,
         "crossover": "BEARISH"
       },
       "cross_status": "DEATH_CROSS",
-      "fifty_two_week_pos_pct": 36.6249085920592,
+      "fifty_two_week_pos_pct": 36.62492259289126,
       "high_52": 403.9644697672297,
-      "low_52": 266.47438047275983,
+      "low_52": 266.4743500984277,
       "returns": {
         "1m": -6.074352804257044,
         "3m": -4.988102424358464,
         "6m": -8.661862695674905,
-        "1y": 18.338894783228387
+        "1y": 18.338908272199816
       },
       "technical_score": 27.4,
       "signals": [
@@ -281,15 +469,15 @@
       ]
     },
     "sent": {
-      "combined_polarity": 0.157,
-      "sentiment_score": 56.3,
+      "combined_polarity": 0.103,
+      "sentiment_score": 54.1,
       "label": "BULLISH",
       "news_stats": {
-        "polarity": 0.22416666666666665,
-        "subjectivity": 0.3733333333333333,
-        "positive_count": 7,
-        "negative_count": 0,
-        "neutral_count": 8,
+        "polarity": 0.14666666666666664,
+        "subjectivity": 0.3333333333333333,
+        "positive_count": 5,
+        "negative_count": 1,
+        "neutral_count": 9,
         "total": 15
       },
       "reddit_stats": {
@@ -301,16 +489,18 @@
       },
       "headline_count": 15,
       "positive_highlights": [
-        "Prediction: This Magnificent Seven Stock Could Be a $1 Trillion Opportunity - 24/7 Wall St.",
         "Ahead of Earnings, Is Alphabet Stock a Buy, a Sell, or Fairly Valued? - Morningstar",
+        "Alphabet Stock: 3 Reasons Why GOOGL Is a Buy Ahead of Q3 Results - Barchart.com",
         "Prediction: Alphabet Could Be Sitting on More Upside Than Investors Realize - 24/7 Wall St."
       ],
-      "negative_highlights": [],
+      "negative_highlights": [
+        "Alphabet Inc. (GOOG) Earnings Expected to Grow: Should You Buy? - Yahoo Finance"
+      ],
       "recent_headlines": [
-        "Google to report Q3 results as investors focus on AI growth, weigh Meta Muse AI risk - Yahoo Finance",
+        "META_TITLE_QUOTE - Yahoo Finance",
         "Alphabet Earnings To Accelerate The AI Bubble Burst (NASDAQ:GOOG) - Seeking Alpha",
         "Ahead of Earnings, Is Alphabet Stock a Buy, a Sell, or Fairly Valued? - Morningstar",
-        "Prediction: Alphabet Could Be Sitting on More Upside Than Investors Realize - 24/7 Wall St.",
+        "Alphabet Stock: 3 Reasons Why GOOGL Is a Buy Ahead of Q3 Results - Barchart.com",
         "Here\u2019s How Much Traders See Google Parent Alphabet\u2019s Stock Moving After Earnings - Investopedia"
       ]
     },
@@ -343,14 +533,14 @@
       "qualitative_score": 80.0
     },
     "sig": {
-      "composite_score": 72.6,
+      "composite_score": 72.2,
       "signal": "BUY",
-      "confidence_pct": 65.0,
+      "confidence_pct": 64.8,
       "pillar_scores": {
         "fundamentals": 100.0,
         "valuation": 60.0,
         "technicals": 27.4,
-        "sentiment": 56.3,
+        "sentiment": 54.1,
         "analyst": 100.0,
         "macro_moat": 80.0
       },
@@ -363,194 +553,6 @@
       "key_risks": [
         "Price is 6.4% below 50-day SMA (Bearish)",
         "50-day SMA is below 200-day SMA (Death Cross)"
-      ]
-    }
-  },
-  "MU": {
-    "data": {
-      "symbol": "MU",
-      "company_name": "Micron Technology, Inc.",
-      "exchange_info": {
-        "country": "United States",
-        "exchange": "NYSE/NASDAQ",
-        "central_bank": "Federal Reserve (FED)",
-        "currency_symbol": "$"
-      },
-      "currency": "USD",
-      "sector": "Technology",
-      "industry": "Semiconductors",
-      "summary": "Micron Technology, Inc. engages in the provision of semiconductor memory and storage products in the United States, Taiwan, Mainland China, other Asia Pacific countries, Japan, Europe, and internationally. It operates through Cloud Memory Business Unit, Core Data Center Business Unit, Mobile and Client Business Unit, and Automotive and Embedded Business Unit segments. The company provides dynamic random access memory (DRAM) products, including High-Bandwidth Memory, doublie data rate, low-power DRAM, and graphics DRAM products; NAND products comprising solid state drives, managed NAND, and multi-chip packages; and NOR products. The company sells its products under the Micron brand name and private labels through its own direct sales force, sales or representative offices, as well as through distributors, retailers, and independent sales representatives. Micron Technology, Inc. was founded in 1978 and is headquartered in Boise, Idaho.",
-      "current_price": 928.76,
-      "previous_close": 903.7,
-      "fifty_two_week_high": 1255.0,
-      "fifty_two_week_low": 192.59,
-      "volume": 22799290,
-      "avg_volume": 29602560,
-      "pe_ratio": 12.49509,
-      "forward_pe": 4.489066,
-      "peg_ratio": 0.16,
-      "price_to_sales": 7.889755,
-      "price_to_book": 7.5910096,
-      "ev_to_ebitda": 9.042,
-      "market_cap": 1050820673536,
-      "enterprise_value": 984212176896,
-      "eps_trailing": 74.33,
-      "eps_forward": 206.89381,
-      "earnings_growth": 10.595,
-      "revenue_growth": 3.793,
-      "total_revenue": 133188001792,
-      "net_income": 84968996864,
-      "profit_margins": 0.63796,
-      "operating_margins": 0.80678004,
-      "return_on_equity": 0.8826,
-      "return_on_assets": 0.44557,
-      "total_debt": 5178999808,
-      "total_cash": 43434000384,
-      "debt_to_equity": 3.743,
-      "current_ratio": 3.314,
-      "quick_ratio": 2.898,
-      "free_cash_flow": 29140250624,
-      "dividend_yield_pct": 7.000000000000001,
-      "payout_ratio": 0.0070999996,
-      "target_low": 361.0,
-      "target_mean": 1561.9111,
-      "target_high": 3000.0,
-      "target_median": 1550.0,
-      "recommendation_key": "strong_buy",
-      "recommendation_mean": 1.36735,
-      "number_of_analysts": 45,
-      "implied_upside_pct": 68.17165898617512,
-      "rec_breakdown": {
-        "strongBuy": 9,
-        "buy": 36,
-        "hold": 3,
-        "sell": 0,
-        "strongSell": 1
-      },
-      "next_earnings_date": "2026-12-23",
-      "earnings_high_est": 40.47,
-      "earnings_low_est": 35.85,
-      "earnings_avg_est": 38.29128,
-      "_ticker_obj": "yfinance.Ticker object <MU>"
-    },
-    "tech": {
-      "latest_price": 928.76,
-      "sma_20": 972.2843444824218,
-      "sma_50": 979.5823767089844,
-      "sma_200": 737.6967347717285,
-      "rsi_14": 31.292567888253743,
-      "rsi_status": "BEARISH",
-      "macd_data": {
-        "macd": -31.63977157721945,
-        "signal": -23.591769980473806,
-        "histogram": -8.048001596745642,
-        "crossover": "BEARISH"
-      },
-      "cross_status": "GOLDEN_CROSS",
-      "fifty_two_week_pos_pct": 69.32424410364874,
-      "high_52": 1254.6095437059498,
-      "low_52": 192.3715183189107,
-      "returns": {
-        "1m": -12.785310740939515,
-        "3m": 6.20197549248076,
-        "6m": 79.19394352697842,
-        "1y": 319.00535651986195
-      },
-      "technical_score": 32.2,
-      "signals": [
-        "Price is 5.2% below 50-day SMA (Bearish)",
-        "50-day SMA is above 200-day SMA (Golden Cross)",
-        "MACD histogram indicates negative bearish momentum"
-      ]
-    },
-    "sent": {
-      "combined_polarity": 0.142,
-      "sentiment_score": 55.7,
-      "label": "BULLISH",
-      "news_stats": {
-        "polarity": 0.20106060606060605,
-        "subjectivity": 0.4390909090909091,
-        "positive_count": 8,
-        "negative_count": 1,
-        "neutral_count": 6,
-        "total": 15
-      },
-      "reddit_stats": {
-        "polarity": 0.004444444444444448,
-        "subjectivity": 0.2088888888888889,
-        "positive_count": 1,
-        "negative_count": 2,
-        "neutral_count": 7,
-        "total": 10
-      },
-      "headline_count": 25,
-      "positive_highlights": [
-        "After Two Spectacular Micron Buy Ratings, I\u2019m Calling It Quits (Downgrade To Sell) (MU) - Seeking Alpha",
-        "Micron: I Was Bearish Before, But This Call May Be Even More Controversial (Upgrade) (MU) - Seeking Alpha",
-        "Micron Technology Stock: Is Now the Time for Investors to Take Profits or Buy More? - The Globe and Mail"
-      ],
-      "negative_highlights": [
-        "Another record quarter from MU, down 2%: why estimates are not expectations - Reddit",
-        "Micron will peak and leave all you retail with heavy bags - Reddit",
-        "Micron Suffers a 99.8% Snub From Its Union, Exposing AI's Human Fault Line - Benzinga"
-      ],
-      "recent_headlines": [
-        "Micron, Musk, and Memory. A Big Prediction Is Lifting the Stock. - Barron's",
-        "Micron Just Unveiled a New Bonus Plan. What That Means for MU Stock. - Barchart.com",
-        "SA analyst upgrades/downgrades: GOOG, MSFT, NBIS, MU - Seeking Alpha",
-        "Micron Just Revealed a New Business Strategy. That Change Makes It a Screaming Buy. - Yahoo Finance",
-        "Can Micron Stock Fall 30%? - Trefis"
-      ]
-    },
-    "qual": {
-      "priced_in": {
-        "valuation_tier": "Value / Low Expectation",
-        "priced_in_points": [
-          "Low P/E ratio suggests market is pricing in modest growth or cyclical headwinds.",
-          "Forward P/E is 64.1% lower than trailing P/E, pricing in robust earnings recovery/growth.",
-          "PEG ratio of 0.16 suggests stock may be undervalued relative to expected growth."
-        ]
-      },
-      "macro_policy": {
-        "macro_factors": [
-          "Operating in United States under Federal Reserve (FED) interest rate policy environment.",
-          "Consumer sentiment and discretionary spending impact demand during inflation/rate shifts."
-        ],
-        "policy_risks": [
-          "Antitrust oversight, data privacy laws, and international tariff trade policies affect cross-border supply chains."
-        ]
-      },
-      "moat": {
-        "moat_tier": "Wide Moat",
-        "moat_score": 100.0,
-        "reasons": [
-          "Strong Return on Equity (ROE: 88.3%), indicating high capital efficiency and competitive advantage.",
-          "High net profit margin (63.8%), demonstrating pricing power.",
-          "Mega-cap scale ($1.05T) provides massive distribution and cost advantages."
-        ]
-      },
-      "qualitative_score": 80.0
-    },
-    "sig": {
-      "composite_score": 80.2,
-      "signal": "BUY",
-      "confidence_pct": 65.6,
-      "pillar_scores": {
-        "fundamentals": 100.0,
-        "valuation": 95.0,
-        "technicals": 32.2,
-        "sentiment": 55.7,
-        "analyst": 100.0,
-        "macro_moat": 80.0
-      },
-      "key_positives": [
-        "Exceptional Return on Equity (88.3%)",
-        "High profit margin (63.8%)",
-        "Strong YoY revenue growth (379.3%)",
-        "Low debt-to-equity ratio (3.7)"
-      ],
-      "key_risks": [
-        "Price is 5.2% below 50-day SMA (Bearish)"
       ]
     }
   },
@@ -573,15 +575,15 @@
       "fifty_two_week_high": 408.61,
       "fifty_two_week_low": 266.5,
       "volume": 28434977,
-      "avg_volume": 25501676,
+      "avg_volume": 25549356,
       "pe_ratio": 16.085299,
       "forward_pe": 20.872942,
       "peg_ratio": 1.11,
       "price_to_sales": 8.793387,
       "price_to_book": 6.2987266,
-      "ev_to_ebitda": 21.776,
+      "ev_to_ebitda": 22.043,
       "market_cap": 3920672325632,
-      "enterprise_value": 3770804076544,
+      "enterprise_value": 3817033433088,
       "eps_trailing": 19.93,
       "eps_forward": 15.35864,
       "earnings_growth": 2.94,
@@ -625,24 +627,24 @@
       "latest_price": 320.58,
       "sma_20": 340.76999816894534,
       "sma_50": 341.8353955078125,
-      "sma_200": 340.90832778930667,
+      "sma_200": 340.9083283996582,
       "rsi_14": 24.55779322457373,
       "rsi_status": "OVERSOLD",
       "macd_data": {
-        "macd": -5.908762382488305,
-        "signal": -2.493082008553013,
-        "histogram": -3.415680373935292,
+        "macd": -5.908762383200326,
+        "signal": -2.493082009600081,
+        "histogram": -3.415680373600245,
         "crossover": "BEARISH"
       },
       "cross_status": "GOLDEN_CROSS",
-      "fifty_two_week_pos_pct": 38.491355732812,
+      "fifty_two_week_pos_pct": 38.49134258908296,
       "high_52": 408.10376741205215,
-      "low_52": 265.80869904433325,
+      "low_52": 265.80872945123696,
       "returns": {
         "1m": -5.96621278499565,
         "3m": -3.8584031919906003,
-        "6m": -8.276376042249867,
-        "1y": 20.16814810628844
+        "6m": -8.276368033290538,
+        "1y": 20.168134359782375
       },
       "technical_score": 47.7,
       "signals": [
@@ -653,38 +655,39 @@
       ]
     },
     "sent": {
-      "combined_polarity": 0.044,
-      "sentiment_score": 51.8,
+      "combined_polarity": 0.064,
+      "sentiment_score": 52.5,
       "label": "NEUTRAL",
       "news_stats": {
-        "polarity": 0.06268518518518519,
-        "subjectivity": 0.18814814814814815,
+        "polarity": 0.06935185185185185,
+        "subjectivity": 0.1814814814814815,
         "positive_count": 4,
-        "negative_count": 2,
-        "neutral_count": 9,
+        "negative_count": 1,
+        "neutral_count": 10,
         "total": 15
       },
       "reddit_stats": {
-        "polarity": 0.0,
-        "subjectivity": 0.0,
-        "positive_count": 0,
-        "negative_count": 0,
-        "neutral_count": 0
+        "polarity": 0.049999999999999996,
+        "subjectivity": 0.18166666666666664,
+        "positive_count": 3,
+        "negative_count": 1,
+        "neutral_count": 6,
+        "total": 10
       },
-      "headline_count": 15,
+      "headline_count": 25,
       "positive_highlights": [
         "Alphabet Stock: 3 Reasons Why GOOGL Is a Buy Ahead of Q3 Results - Barchart.com",
-        "Can Strong Search and Cloud Growth Drive GOOGL's Q3 Earnings? - TradingView",
-        "Here\u2019s How Much Traders See Google Parent Alphabet\u2019s Stock Moving After Earnings - Investopedia"
+        "GOOGL Gemini 4 Argon: Is Google Winning the AI Race? - Reddit",
+        "Can Strong Search and Cloud Growth Drive GOOGL's Q3 Earnings? - TradingView"
       ],
       "negative_highlights": [
-        "Alphabet & Microsoft Earnings Preview: AI Cloud Growth Takes Center Stage - TradingView",
-        "Down 7.6% in 4 Weeks, Here's Why You Should You Buy the Dip in Alphabet (GOOGL) - Yahoo Finance"
+        "Down 7.6% in 4 Weeks, Here's Why You Should You Buy the Dip in Alphabet (GOOGL) - Yahoo Finance",
+        "Alphabet Inc $GOOG: Lay out the bear case - why is it poor value for money? - Reddit"
       ],
       "recent_headlines": [
-        "Down 7.6% in 4 Weeks, Here's Why You Should You Buy the Dip in Alphabet (GOOGL) - Yahoo Finance",
+        "META_TITLE_QUOTE - Yahoo Finance",
+        "Alphabet Earnings To Accelerate The AI Bubble Burst (NASDAQ:GOOG) - Seeking Alpha",
         "Alphabet Stock: 3 Reasons Why GOOGL Is a Buy Ahead of Q3 Results - Barchart.com",
-        "Alphabet Earnings Dilemma: Organic Traffic Slowdown Meets Unstoppable CapEx (NASDAQ:GOOG) - Seeking Alpha",
         "Here\u2019s How Much Traders See Google Parent Alphabet\u2019s Stock Moving After Earnings - Investopedia",
         "Who Owns Waymo? Alphabet's Role in the Robotaxi Company - HowStuffWorks"
       ]
@@ -718,14 +721,14 @@
       "qualitative_score": 80.0
     },
     "sig": {
-      "composite_score": 74.9,
+      "composite_score": 75.0,
       "signal": "BUY",
-      "confidence_pct": 70.2,
+      "confidence_pct": 70.4,
       "pillar_scores": {
         "fundamentals": 100.0,
         "valuation": 60.0,
         "technicals": 47.7,
-        "sentiment": 51.8,
+        "sentiment": 52.5,
         "analyst": 100.0,
         "macro_moat": 80.0
       },
@@ -759,15 +762,15 @@
       "fifty_two_week_high": 498.83,
       "fifty_two_week_low": 297.38,
       "volume": 45019044,
-      "avg_volume": 36810682,
+      "avg_volume": 36941624,
       "pe_ratio": 447.7582,
       "forward_pe": 189.04938,
       "peg_ratio": 4.57,
       "price_to_sales": 15.550635,
       "price_to_book": 18.038782,
-      "ev_to_ebitda": 154.483,
+      "ev_to_ebitda": 160.848,
       "market_cap": 1610579312640,
-      "enterprise_value": 1519808020480,
+      "enterprise_value": 1582419804160,
       "eps_trailing": 0.91,
       "eps_forward": 2.15531,
       "earnings_growth": -0.436,
@@ -838,41 +841,42 @@
       ]
     },
     "sent": {
-      "combined_polarity": 0.063,
-      "sentiment_score": 52.5,
+      "combined_polarity": 0.076,
+      "sentiment_score": 53.1,
       "label": "NEUTRAL",
       "news_stats": {
-        "polarity": 0.09041666666666666,
-        "subjectivity": 0.3066666666666667,
+        "polarity": 0.09375,
+        "subjectivity": 0.28111111111111114,
         "positive_count": 6,
         "negative_count": 3,
         "neutral_count": 6,
         "total": 15
       },
       "reddit_stats": {
-        "polarity": 0.0,
-        "subjectivity": 0.0,
-        "positive_count": 0,
+        "polarity": 0.035666666666666666,
+        "subjectivity": 0.1835,
+        "positive_count": 3,
         "negative_count": 0,
-        "neutral_count": 0
+        "neutral_count": 7,
+        "total": 10
       },
-      "headline_count": 15,
+      "headline_count": 25,
       "positive_highlights": [
-        "Is Tesla, Inc. (TSLA) A Good Stock To Buy Now? - Yahoo Finance",
         "Tesla surges to its highest level in more than three months - Seeking Alpha",
+        "Tesla (TSLA) Declines More Than Market: Some Information for Investors - Yahoo Finance",
         "Tesla\u2019s Strong Quarter Has A Catch (NASDAQ:TSLA) - Seeking Alpha"
       ],
       "negative_highlights": [
-        "Investors Heavily Search Tesla, Inc. (TSLA): Here is What You Need to Know - Yahoo Finance Australia",
-        "Tesla: Too Big To Fail, Too Expensive To Justify - Reiterate Sell (NASDAQ:TSLA) - Seeking Alpha",
+        "TSLA Stock Is October\u2019s Mag 7 King \u2014 But 2 Motorcycle Stocks Race Past Tesla Even As Chinese EV Stocks See Red - Stocktwits",
+        "Investors Heavily Search Tesla, Inc. (TSLA): Here is What You Need to Know - Yahoo Finance Singapore",
         "Tesla Inc Stock (TSLA) Opened Up by 5.13% on Oct 26: Facts Behind the Movement - TradingKey"
       ],
       "recent_headlines": [
         "Tesla Inc Stock (TSLA) Opened Up by 3.03% on Oct 27: What Investors Need To Know - TradingKey",
+        "TSLA Stock Is October\u2019s Mag 7 King \u2014 But 2 Motorcycle Stocks Race Past Tesla Even As Chinese EV Stocks See Red - Stocktwits",
+        "Why Tesla (TSLA) stock is trading up today - Yahoo! Finance Canada",
         "Tesla\u2019s Strong Quarter Has A Catch (NASDAQ:TSLA) - Seeking Alpha",
-        "Investors Heavily Search Tesla, Inc. (TSLA): Here is What You Need to Know - Yahoo Finance Australia",
-        "One Catalyst Could Completely Change the Tesla Stock Story - 24/7 Wall St.",
-        "Tesla, Inc. $TSLA Stock Bought by Park Avenue Securities LLC - MarketBeat"
+        "One Catalyst Could Completely Change the Tesla Stock Story - 24/7 Wall St."
       ]
     },
     "qual": {
@@ -904,14 +908,14 @@
       "qualitative_score": 50.0
     },
     "sig": {
-      "composite_score": 50.6,
+      "composite_score": 50.7,
       "signal": "HOLD",
       "confidence_pct": 69.9,
       "pillar_scores": {
         "fundamentals": 51.0,
         "valuation": 11.0,
         "technicals": 75.0,
-        "sentiment": 52.5,
+        "sentiment": 53.1,
         "analyst": 77.0,
         "macro_moat": 50.0
       },
@@ -948,15 +952,15 @@
       "fifty_two_week_high": 1145.0,
       "fifty_two_week_low": 217.67,
       "volume": 8462247,
-      "avg_volume": 4613782,
+      "avg_volume": 4679444,
       "pe_ratio": 48.04676,
       "forward_pe": 11.627189,
       "peg_ratio": 0.37,
       "price_to_sales": 12.453006,
       "price_to_book": 69.89534,
-      "ev_to_ebitda": 32.919,
+      "ev_to_ebitda": 34.109,
       "market_cap": 151864410112,
-      "enterprise_value": 148200669184,
+      "enterprise_value": 153558548480,
       "eps_trailing": 13.9,
       "eps_forward": 57.43865,
       "earnings_growth": 1.488,
@@ -991,22 +995,22 @@
         "strongSell": 0
       },
       "next_earnings_date": "2026-10-27",
-      "earnings_high_est": 7.85,
-      "earnings_low_est": 7.29,
-      "earnings_avg_est": 7.43062,
+      "earnings_high_est": 10.24,
+      "earnings_low_est": 7.63,
+      "earnings_avg_est": 8.6069,
       "_ticker_obj": "yfinance.Ticker object <STX>"
     },
     "tech": {
       "latest_price": 667.85,
       "sma_20": 746.8175048828125,
       "sma_50": 809.6077160644531,
-      "sma_200": 686.2677159118653,
+      "sma_200": 686.2677166748047,
       "rsi_14": 29.84070517150309,
       "rsi_status": "OVERSOLD",
       "macd_data": {
-        "macd": -54.9036054166952,
-        "signal": -47.395266772150805,
-        "histogram": -7.508338644544395,
+        "macd": -54.903605416724076,
+        "signal": -47.395266772193125,
+        "histogram": -7.5083386445309515,
         "crossover": "BEARISH"
       },
       "cross_status": "GOLDEN_CROSS",
@@ -1028,39 +1032,40 @@
       ]
     },
     "sent": {
-      "combined_polarity": 0.048,
-      "sentiment_score": 51.9,
-      "label": "NEUTRAL",
+      "combined_polarity": 0.099,
+      "sentiment_score": 54.0,
+      "label": "BULLISH",
       "news_stats": {
-        "polarity": 0.06888888888888887,
-        "subjectivity": 0.25555555555555554,
-        "positive_count": 4,
+        "polarity": 0.12555555555555556,
+        "subjectivity": 0.2822222222222222,
+        "positive_count": 5,
         "negative_count": 1,
-        "neutral_count": 10,
+        "neutral_count": 9,
         "total": 15
       },
       "reddit_stats": {
-        "polarity": 0.0,
-        "subjectivity": 0.0,
-        "positive_count": 0,
+        "polarity": 0.03656565656565656,
+        "subjectivity": 0.12623737373737373,
+        "positive_count": 2,
         "negative_count": 0,
-        "neutral_count": 0
+        "neutral_count": 8,
+        "total": 10
       },
-      "headline_count": 15,
+      "headline_count": 25,
       "positive_highlights": [
+        "Seagate (STX) Stock Fair Value Edges Lower As Analysts Weigh HDD Supply And HAMR - Yahoo Finance Singapore",
         "Seagate Technology tumbles even as Q1 results, guidance top estimates (STX:NASDAQ) - Seeking Alpha",
-        "Seagate Technology (STX) Set to Report Q1 Earnings Amid Strong A - GuruFocus",
-        "Free cash flow reached $1.5 billion. Seagate's CEO says it was the company's highest ever. - Stock Titan"
+        "AI Driven Demand For Storage Is Still Strong for Seagate - Morningstar"
       ],
       "negative_highlights": [
         "Seagate Technology Holdings PLC Stock (STX) Moved Up by 4.38% on Oct 27: Facts Behind the Movement - TradingKey"
       ],
       "recent_headlines": [
         "Seagate Technology tumbles even as Q1 results, guidance top estimates (STX:NASDAQ) - Seeking Alpha",
-        "Seagate Last-Minute Q1 Earnings Alert: Options Traders Expect an 8.9% Move in STX Stock - TipRanks",
-        "Seagate Stock Tumbles Despite Beating Q1 Expectations: Details - Benzinga",
+        "Free cash flow reached $1.5 billion. Seagate's CEO says it was the company's highest ever. - Stock Titan",
+        "Seagate Technology Q1 Earnings Call Highlights - Yahoo Finance",
         "Seagate Technology shares fall 6% despite Q1 earnings beat and raised guidance - Investing.com",
-        "Seagate\u2019s booming business comes with an unexpected twist - TheStreet"
+        "A Look at Seagate Technology Holdings PLC (STX) After 3.7% Gain -- GF Value $201.74 vs Price $667.85 - GuruFocus"
       ]
     },
     "qual": {
@@ -1093,14 +1098,14 @@
       "qualitative_score": 80.0
     },
     "sig": {
-      "composite_score": 74.3,
+      "composite_score": 74.7,
       "signal": "BUY",
-      "confidence_pct": 70.0,
+      "confidence_pct": 70.4,
       "pillar_scores": {
         "fundamentals": 97.0,
         "valuation": 65.0,
         "technicals": 42.0,
-        "sentiment": 51.9,
+        "sentiment": 54.0,
         "analyst": 100.0,
         "macro_moat": 80.0
       },
