@@ -16,18 +16,18 @@
       "current_price": 321.89,
       "previous_close": 316.83,
       "fifty_two_week_high": 404.47,
-      "fifty_two_week_low": 268.43,
+      "fifty_two_week_low": 271.41,
       "volume": 29362508,
-      "avg_volume": 17140510,
-      "pe_ratio": 15.895803,
+      "avg_volume": 17092035,
+      "pe_ratio": 16.808878,
       "forward_pe": 21.193428,
       "peg_ratio": 1.11,
       "price_to_sales": 8.829321,
-      "price_to_book": 6.3244658,
+      "price_to_book": 9.3700695,
       "ev_to_ebitda": 22.135,
       "market_cap": 3936694042624,
       "enterprise_value": 3833054625792,
-      "eps_trailing": 20.25,
+      "eps_trailing": 19.15,
       "eps_forward": 15.1882,
       "earnings_growth": 2.94,
       "revenue_growth": 0.242,
@@ -70,13 +70,13 @@
       "latest_price": 321.89,
       "sma_20": 336.310498046875,
       "sma_50": 338.06419250488284,
-      "sma_200": 338.9426382446289,
+      "sma_200": 338.9426399230957,
       "rsi_14": 29.74787356439363,
       "rsi_status": "OVERSOLD",
       "macd_data": {
-        "macd": -6.063859905525078,
-        "signal": -3.304963615719413,
-        "histogram": -2.758896289805665,
+        "macd": -6.063859905875461,
+        "signal": -3.3049636162346427,
+        "histogram": -2.758896289640818,
         "crossover": "BEARISH"
       },
       "cross_status": "DEATH_CROSS",
@@ -98,42 +98,39 @@
       ]
     },
     "sent": {
-      "combined_polarity": -0.028,
-      "sentiment_score": 48.9,
+      "combined_polarity": -0.079,
+      "sentiment_score": 46.9,
       "label": "NEUTRAL",
       "news_stats": {
-        "polarity": -0.05666666666666667,
-        "subjectivity": 0.23333333333333334,
-        "positive_count": 2,
-        "negative_count": 3,
+        "polarity": -0.11222222222222222,
+        "subjectivity": 0.20666666666666664,
+        "positive_count": 1,
+        "negative_count": 4,
         "neutral_count": 10,
         "total": 15
       },
       "reddit_stats": {
-        "polarity": 0.038571428571428576,
-        "subjectivity": 0.09690476190476191,
-        "positive_count": 2,
+        "polarity": 0.0,
+        "subjectivity": 0.0,
+        "positive_count": 0,
         "negative_count": 0,
-        "neutral_count": 8,
-        "total": 10
+        "neutral_count": 0
       },
-      "headline_count": 25,
+      "headline_count": 15,
       "positive_highlights": [
-        "Google Cloud Revenue Just Grew 103%, so Why Is the Stock Falling? - The Motley Fool",
-        "A reflection of the world right now - Reddit",
-        "Here\u2019s How Much Google Parent Alphabet\u2019s Stock Is Seen Moving After Earnings - Investopedia"
+        "Google misses revenue expectations, Alphabet stock sinks in early after-hours trading - ABC News - Breaking News, Latest News and Videos"
       ],
       "negative_highlights": [
         "Alphabet stock sinks as search woes cause revenue miss, cash burn worsens - Reuters",
-        "Alphabet\u2019s stock sinks after shocking investors with top-and-bottom line miss - SiliconANGLE",
-        "Alphabet Stock Is Having a Terrible Run in 2026. How Q3 Earnings Could Turn the Tide for GOOG. - Barchart.com"
+        "Why Alphabet\u2019s stock could see its worst drop in years after the latest results - MarketWatch",
+        "Google is set for a $400 billion stock wipeout after disappointing earnings - Business Insider"
       ],
       "recent_headlines": [
-        "Google misses revenue expectations, Alphabet stock sinks in early after-hours trading - Yahoo Finance",
-        "Alphabet\u2019s stock sinks after shocking investors with top-and-bottom line miss - SiliconANGLE",
-        "Alphabet\u2019s Google Cloud revenue doubles to $31 billion as cash flow stays deep red - Fortune",
+        "Google stock gets shredded after earnings\u2014here's 2 reasons why investors hated the quarter - Yahoo Finance",
+        "Alphabet\u2019s Revenue Miss Reignites Fears Over AI Spending Binge - Bloomberg",
+        "Alphabet\u2019s Google Cloud Biz Did Its Job. Why the Stock Is Falling. - Barron's",
         "Alphabet's Post-Earnings Panic: This Market Has Lost Its Mind (NASDAQ:GOOG) - Seeking Alpha",
-        "Google Shares Fall 10% as Growth in Search Revenue Slows - WSJ"
+        "Shares in Google owner Alphabet plummet on profit miss, ad slowdown - Yahoo Finance"
       ]
     },
     "qual": {
@@ -165,14 +162,14 @@
       "qualitative_score": 80.0
     },
     "sig": {
-      "composite_score": 71.8,
+      "composite_score": 71.5,
       "signal": "BUY",
-      "confidence_pct": 64.8,
+      "confidence_pct": 64.4,
       "pillar_scores": {
         "fundamentals": 100.0,
         "valuation": 60.0,
         "technicals": 29.8,
-        "sentiment": 48.9,
+        "sentiment": 46.9,
         "analyst": 100.0,
         "macro_moat": 80.0
       },
@@ -207,7 +204,7 @@
       "fifty_two_week_high": 551.15,
       "fifty_two_week_low": 349.2,
       "volume": 25128542,
-      "avg_volume": 25622547,
+      "avg_volume": 25285259,
       "pe_ratio": 29.58273,
       "forward_pe": 22.415209,
       "peg_ratio": 1.73,
@@ -249,7 +246,7 @@
         "sell": 0,
         "strongSell": 0
       },
-      "next_earnings_date": "2026-10-28",
+      "next_earnings_date": "2027-01-27",
       "earnings_high_est": 4.97,
       "earnings_low_est": 4.65,
       "earnings_avg_est": 4.81705,
@@ -259,13 +256,13 @@
       "latest_price": 531.01,
       "sma_20": 529.8950042724609,
       "sma_50": 511.16060119628906,
-      "sma_200": 436.2146322631836,
+      "sma_200": 436.2146319580078,
       "rsi_14": 55.3218574104465,
       "rsi_status": "BULLISH",
       "macd_data": {
-        "macd": 6.2836742179839575,
-        "signal": 8.071447169653231,
-        "histogram": -1.7877729516692735,
+        "macd": 6.283674217983844,
+        "signal": 8.071447169653021,
+        "histogram": -1.7877729516691776,
         "crossover": "BEARISH"
       },
       "cross_status": "GOLDEN_CROSS",
@@ -286,42 +283,40 @@
       ]
     },
     "sent": {
-      "combined_polarity": 0.057,
-      "sentiment_score": 52.3,
+      "combined_polarity": 0.04,
+      "sentiment_score": 51.6,
       "label": "NEUTRAL",
       "news_stats": {
-        "polarity": 0.07700336700336699,
-        "subjectivity": 0.3778451178451178,
+        "polarity": 0.05720538720538721,
+        "subjectivity": 0.3592592592592592,
         "positive_count": 4,
         "negative_count": 2,
         "neutral_count": 9,
         "total": 15
       },
       "reddit_stats": {
-        "polarity": 0.01,
-        "subjectivity": 0.11499999999999999,
-        "positive_count": 3,
-        "negative_count": 1,
-        "neutral_count": 6,
-        "total": 10
+        "polarity": 0.0,
+        "subjectivity": 0.0,
+        "positive_count": 0,
+        "negative_count": 0,
+        "neutral_count": 0
       },
-      "headline_count": 25,
+      "headline_count": 15,
       "positive_highlights": [
         "Microsoft pops as Q1 results, guidance top estimates (MSFT:NASDAQ) - Seeking Alpha",
-        "Strong Azure Growth and Cash Flow Discipline Strengthen Microsoft Corporation (MSFT) - Yahoo Finance",
-        "Azure Growth and Enterprise AI Adoption Drive Microsoft Corp. (MSFT) Higher - Yahoo Finance"
+        "Azure Growth and Enterprise AI Adoption Drive Microsoft Corp. (MSFT) Higher - Yahoo Finance",
+        "MSFT Stock Gains 3% After-Hours As AI Demand Powers Q1 Cloud Revenue, Q2 Guidance Beat With Positive Cash Flows - TradingView"
       ],
       "negative_highlights": [
         "Microsoft: Be Careful Now (Rating Downgrade) (NASDAQ:MSFT) - Seeking Alpha",
-        "Microsoft Q1 Earnings: I Was Bullish, Now I'm Doubling Down (NASDAQ:MSFT) - Seeking Alpha",
-        "Seeing these 4 goats together in charge of the next Fallout game is a sight for sore eyes. (Fallout day video 2026) - Reddit"
+        "Microsoft Q1 Earnings: I Was Bullish, Now I'm Doubling Down (NASDAQ:MSFT) - Seeking Alpha"
       ],
       "recent_headlines": [
         "Microsoft's Stock May Fall Sharply Following Quarterly Results (NASDAQ:MSFT) - Seeking Alpha",
-        "Microsoft Q1 Earnings: I Was Bullish, Now I'm Doubling Down (NASDAQ:MSFT) - Seeking Alpha",
-        "Microsoft Stock Before Q1 Earnings: Buy Now or Wait for Results? - Yahoo Finance",
-        "MSFT Stock Gains 3% After-Hours As AI Demand Powers Q1 Cloud Revenue, Q2 Guidance Beat With Positive Cash Flows - TradingView",
-        "Microsoft pops as Q1 results, guidance top estimates (MSFT:NASDAQ) - Seeking Alpha"
+        "Microsoft Corporation (MSFT) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+        "Microsoft Corporation (MSFT) stock price, news, quote and history - Yahoo Finance UK",
+        "Microsoft pops as Q1 results, guidance top estimates (MSFT:NASDAQ) - Seeking Alpha",
+        "MSFT Stock Gains 3% After-Hours As AI Demand Powers Q1 Cloud Revenue, Q2 Guidance Beat With Positive Cash Flows - TradingView"
       ]
     },
     "qual": {
@@ -353,14 +348,14 @@
       "qualitative_score": 80.0
     },
     "sig": {
-      "composite_score": 75.2,
+      "composite_score": 75.1,
       "signal": "BUY",
-      "confidence_pct": 73.2,
+      "confidence_pct": 73.1,
       "pillar_scores": {
         "fundamentals": 100.0,
         "valuation": 55.0,
         "technicals": 60.8,
-        "sentiment": 52.3,
+        "sentiment": 51.6,
         "analyst": 95.0,
         "macro_moat": 80.0
       },
@@ -392,18 +387,18 @@
       "current_price": 324.89,
       "previous_close": 320.58,
       "fifty_two_week_high": 408.61,
-      "fifty_two_week_low": 267.67,
+      "fifty_two_week_low": 270.7,
       "volume": 54011739,
-      "avg_volume": 26024563,
-      "pe_ratio": 16.083664,
+      "avg_volume": 26001484,
+      "pe_ratio": 16.965536,
       "forward_pe": 21.39095,
       "peg_ratio": 1.13,
       "price_to_sales": 8.91161,
-      "price_to_book": 6.3834095,
+      "price_to_book": 9.457398,
       "ev_to_ebitda": 22.347,
       "market_cap": 3973383716864,
       "enterprise_value": 3869744824320,
-      "eps_trailing": 20.2,
+      "eps_trailing": 19.15,
       "eps_forward": 15.1882,
       "earnings_growth": 2.94,
       "revenue_growth": 0.242,
@@ -450,9 +445,9 @@
       "rsi_14": 30.788180425552383,
       "rsi_status": "BEARISH",
       "macd_data": {
-        "macd": -6.072906252300413,
-        "signal": -3.209046894849269,
-        "histogram": -2.863859357451144,
+        "macd": -6.072906252300356,
+        "signal": -3.2090468948491706,
+        "histogram": -2.8638593574511857,
         "crossover": "BEARISH"
       },
       "cross_status": "GOLDEN_CROSS",
@@ -473,39 +468,42 @@
       ]
     },
     "sent": {
-      "combined_polarity": 0.039,
-      "sentiment_score": 51.6,
+      "combined_polarity": -0.011,
+      "sentiment_score": 49.6,
       "label": "NEUTRAL",
       "news_stats": {
-        "polarity": 0.055757575757575756,
-        "subjectivity": 0.19333333333333333,
+        "polarity": -0.033131313131313136,
+        "subjectivity": 0.14166666666666666,
         "positive_count": 3,
-        "negative_count": 1,
-        "neutral_count": 11,
+        "negative_count": 2,
+        "neutral_count": 10,
         "total": 15
       },
       "reddit_stats": {
-        "polarity": 0.0,
-        "subjectivity": 0.0,
-        "positive_count": 0,
-        "negative_count": 0,
-        "neutral_count": 0
+        "polarity": 0.039999999999999994,
+        "subjectivity": 0.2908333333333334,
+        "positive_count": 3,
+        "negative_count": 2,
+        "neutral_count": 5,
+        "total": 10
       },
-      "headline_count": 15,
+      "headline_count": 25,
       "positive_highlights": [
-        "Google Cloud Revenue Just Grew 103%, so Why Is the Stock Falling? - The Motley Fool",
-        "Here\u2019s How Much Google Parent Alphabet\u2019s Stock Is Seen Moving After Earnings - Investopedia",
-        "Alphabet Inc. Q3 2026 Earnings: Live Updates of $GOOGL Earnings Call, Stock Forecast - Yahoo Finance"
+        "Google and AI - Why I think it's in a great danger of blowing it's own feet - Reddit",
+        "Why did GOOG stock fall so much? - Reddit",
+        "Here\u2019s How Much Google Parent Alphabet\u2019s Stock Is Seen Moving After Earnings - Investopedia"
       ],
       "negative_highlights": [
-        "Alphabet stock sinks as search woes cause revenue miss, cash burn worsens - Reuters"
+        "Alphabet stock sinks as search woes cause revenue miss, cash burn worsens - Reuters",
+        "GOOGL: Everyone Was Bullish Yesterday, Now Google Is Suddenly Dead? - Reddit",
+        "Alphabet Inc $GOOG: Lay out the bear case - why is it poor value for money? - Reddit"
       ],
       "recent_headlines": [
-        "Alphabet (NASDAQ:GOOGL) posts Q3 2026 sales in line with estimates but stock drops - Yahoo Finance",
+        "Google stock gets shredded after earnings\u2014here's 2 reasons why investors hated the quarter - Yahoo Finance",
         "Google Shares Fall 10% as Growth in Search Revenue Slows - WSJ",
         "Alphabet\u2019s Google Cloud revenue doubles to $31 billion as cash flow stays deep red - Fortune",
-        "Google misses Wall Street expectations, Alphabet stock sinks in early after-hours trading - The Killeen Daily Herald",
-        "Here\u2019s How Much Google Parent Alphabet\u2019s Stock Is Seen Moving After Earnings - Investopedia"
+        "Alphabet tumbles as earnings miss overshadows Google Cloud surge (GOOG:NASDAQ) - Seeking Alpha",
+        "Alphabet stock sinks as search woes cause revenue miss, cash burn worsens - Reuters"
       ]
     },
     "qual": {
@@ -537,14 +535,14 @@
       "qualitative_score": 80.0
     },
     "sig": {
-      "composite_score": 72.6,
+      "composite_score": 72.3,
       "signal": "BUY",
-      "confidence_pct": 66.1,
+      "confidence_pct": 65.8,
       "pillar_scores": {
         "fundamentals": 100.0,
         "valuation": 60.0,
         "technicals": 32.7,
-        "sentiment": 51.6,
+        "sentiment": 49.6,
         "analyst": 100.0,
         "macro_moat": 80.0
       },
@@ -578,17 +576,17 @@
       "fifty_two_week_high": 1255.0,
       "fifty_two_week_low": 192.59,
       "volume": 30135209,
-      "avg_volume": 29036630,
-      "pe_ratio": 12.49498,
-      "forward_pe": 4.7523413,
+      "avg_volume": 28398984,
+      "pe_ratio": 13.227902,
+      "forward_pe": 4.731517,
       "peg_ratio": 0.16,
       "price_to_sales": 8.352473,
       "price_to_book": 8.036207,
       "ev_to_ebitda": 9.869,
       "market_cap": 1112449220608,
       "enterprise_value": 1074194219008,
-      "eps_trailing": 78.69,
-      "eps_forward": 206.89381,
+      "eps_trailing": 74.33,
+      "eps_forward": 207.80438,
       "earnings_growth": 10.595,
       "revenue_growth": 3.793,
       "total_revenue": 133188001792,
@@ -630,19 +628,19 @@
       "latest_price": 983.23,
       "sma_20": 968.1987243652344,
       "sma_50": 980.434736328125,
-      "sma_200": 740.8847952270507,
+      "sma_200": 740.8847950744629,
       "rsi_14": 43.86537072695856,
       "rsi_status": "BEARISH",
       "macd_data": {
-        "macd": -24.597367645322947,
-        "signal": -23.79288948103259,
-        "histogram": -0.8044781642903587,
+        "macd": -24.597367645334657,
+        "signal": -23.79288948104972,
+        "histogram": -0.8044781642849372,
         "crossover": "BEARISH"
       },
       "cross_status": "GOLDEN_CROSS",
-      "fifty_two_week_pos_pct": 74.45209702537107,
+      "fifty_two_week_pos_pct": 74.45209668453833,
       "high_52": 1254.6095437059498,
-      "low_52": 192.3715041476699,
+      "low_52": 192.3715183189107,
       "returns": {
         "1m": -7.672939318716809,
         "3m": 19.483459401373725,
@@ -657,15 +655,15 @@
       ]
     },
     "sent": {
-      "combined_polarity": 0.104,
-      "sentiment_score": 54.2,
+      "combined_polarity": 0.102,
+      "sentiment_score": 54.1,
       "label": "BULLISH",
       "news_stats": {
-        "polarity": 0.1486988936988937,
-        "subjectivity": 0.35317700817700814,
-        "positive_count": 6,
+        "polarity": 0.1453872053872054,
+        "subjectivity": 0.24622895622895624,
+        "positive_count": 5,
         "negative_count": 1,
-        "neutral_count": 8,
+        "neutral_count": 9,
         "total": 15
       },
       "reddit_stats": {
@@ -677,9 +675,9 @@
       },
       "headline_count": 15,
       "positive_highlights": [
+        "Best Growth Stocks to Buy for October 29th - Yahoo Finance",
         "Not Nvidia. Not Micron. This Underappreciated AI Stock Could Be 2027's Biggest Winner. - The Motley Fool",
-        "AI Spending Is Nearing $1 Trillion Annually. These 2 Stocks Are Most at Risk If It Slows. - The Motley Fool",
-        "Micron: I Was Bearish Before, But This Call May Be Even More Controversial (Upgrade) (MU) - Seeking Alpha"
+        "Undercovered Dozen: Micron, I-80 Gold, Hercules Capital, And More - Seeking Alpha"
       ],
       "negative_highlights": [
         "Why Is Micron (NASDAQ:MU) Stock Surging Today? SK Hynix Signals AI Memory Shortage - Stocks Down Under"
@@ -689,7 +687,7 @@
         "Micron Stock Rises as Rival SK Hynix Fuels AI Frenzy With Two Bombshells - Barron's",
         "Micron Just Unveiled a New Bonus Plan. What That Means for MU Stock. - Barchart.com",
         "Prediction: This Artificial Intelligence (AI) Memory Stock Will Go Parabolic on Oct. 30 - The Motley Fool",
-        "Why Is Micron (NASDAQ:MU) Stock Surging Today? SK Hynix Signals AI Memory Shortage - Stocks Down Under"
+        "Memory chip stocks are back on the rise today: What's driving the upswing for Micron, Sandisk, and SK Hynix? - Fast Company"
       ]
     },
     "qual": {
@@ -697,7 +695,7 @@
         "valuation_tier": "Value / Low Expectation",
         "priced_in_points": [
           "Low P/E ratio suggests market is pricing in modest growth or cyclical headwinds.",
-          "Forward P/E is 62.0% lower than trailing P/E, pricing in robust earnings recovery/growth.",
+          "Forward P/E is 64.2% lower than trailing P/E, pricing in robust earnings recovery/growth.",
           "PEG ratio of 0.16 suggests stock may be undervalued relative to expected growth."
         ]
       },
@@ -729,7 +727,7 @@
         "fundamentals": 100.0,
         "valuation": 95.0,
         "technicals": 40.4,
-        "sentiment": 54.2,
+        "sentiment": 54.1,
         "analyst": 100.0,
         "macro_moat": 80.0
       },
@@ -741,196 +739,6 @@
       ],
       "key_risks": [
         "Standard market risk and volatility."
-      ]
-    }
-  },
-  "ORCL": {
-    "data": {
-      "symbol": "ORCL",
-      "company_name": "Oracle Corporation",
-      "exchange_info": {
-        "country": "United States",
-        "exchange": "NYSE/NASDAQ",
-        "central_bank": "Federal Reserve (FED)",
-        "currency_symbol": "$"
-      },
-      "currency": "USD",
-      "sector": "Technology",
-      "industry": "Software - Infrastructure",
-      "summary": "Oracle Corporation offers products and services that build, run and support enterprise information technology frameworks worldwide. Its Oracle cloud software as a service offering includes various cloud software applications, including Oracle Fusion cloud enterprise resource planning ERP, Oracle Fusion cloud enterprise performance management EPM, Oracle Fusion cloud supply chain and manufacturing management SCM, Oracle Fusion cloud human capital management HCM, and NetSuite applications suite, Oracle Health applications, as well as Oracle Fusion Sales, Service, and Marketing. The company also offers cloud-based industry solutions for various industries; Oracle cloud license and on-premise license; and Oracle license support services. In addition, it provides cloud and license business' infrastructure technologies, such as the Oracle Database and MySQL Database; Java, a software development language; and middleware, including development tools and others. The company's cloud and license business' infrastructure technologies also comprise cloud-based compute, storage, and networking capabilities; and Oracle autonomous database, as well as AI, Internet-of-Things, machine learning, digital assistant, and blockchain. Further, it provides hardware products and other hardware-related software offerings, including Oracle engineered systems, enterprise servers, storage solutions, industry-specific hardware, virtualization software, operating systems, management software, and related hardware support services, and consulting and advanced customer services. It markets and sells its cloud, license, hardware, support, and services offerings directly to businesses in various industries, government agencies, and educational institutions, as well as through indirect channels. Oracle Corporation has a strategic alliance with Metron, Inc. The company was founded in 1977 and is headquartered in Austin, Texas.",
-      "current_price": 144.54,
-      "previous_close": 130.53,
-      "fifty_two_week_high": 281.62,
-      "fifty_two_week_low": 114.5,
-      "volume": 81527008,
-      "avg_volume": 30356364,
-      "pe_ratio": 20.473087,
-      "forward_pe": 13.149958,
-      "peg_ratio": 0.73,
-      "price_to_sales": 6.10473,
-      "price_to_book": 7.0707364,
-      "ev_to_ebitda": 16.684,
-      "market_cap": 438173138944,
-      "enterprise_value": 574494801920,
-      "eps_trailing": 7.06,
-      "eps_forward": 10.99167,
-      "earnings_growth": 0.545,
-      "revenue_growth": 0.296,
-      "total_revenue": 71776002048,
-      "net_income": 18736001024,
-      "profit_margins": 0.2636,
-      "operating_margins": 0.35632,
-      "return_on_equity": 0.41192,
-      "return_on_assets": 0.06357,
-      "total_debt": 169142992896,
-      "total_cash": 37077000192,
-      "debt_to_equity": 251.716,
-      "current_ratio": 1.171,
-      "quick_ratio": 1.02,
-      "free_cash_flow": -45853626368,
-      "dividend_yield_pct": 1.53,
-      "payout_ratio": 0.31350002,
-      "target_low": 110.0,
-      "target_mean": 235.8034,
-      "target_high": 400.0,
-      "target_median": 225.0,
-      "recommendation_key": "buy",
-      "recommendation_mean": 1.5814,
-      "number_of_analysts": 41,
-      "implied_upside_pct": 63.140583921405856,
-      "rec_breakdown": {
-        "strongBuy": 7,
-        "buy": 28,
-        "hold": 7,
-        "sell": 1,
-        "strongSell": 0
-      },
-      "next_earnings_date": "2026-12-14",
-      "earnings_high_est": 2.04,
-      "earnings_low_est": 1.81,
-      "earnings_avg_est": 1.89333,
-      "_ticker_obj": "yfinance.Ticker object <ORCL>"
-    },
-    "tech": {
-      "latest_price": 144.54,
-      "sma_20": 135.0839687347412,
-      "sma_50": 141.72426345825195,
-      "sma_200": 156.52980838775636,
-      "rsi_14": 57.024787798469305,
-      "rsi_status": "BULLISH",
-      "macd_data": {
-        "macd": -2.7885940022960085,
-        "signal": -3.5190149918678895,
-        "histogram": 0.730420989571881,
-        "crossover": "BULLISH_CROSS"
-      },
-      "cross_status": "DEATH_CROSS",
-      "fifty_two_week_pos_pct": 18.59433666723814,
-      "high_52": 277.90172446090685,
-      "low_52": 114.07808001031839,
-      "returns": {
-        "1m": 5.662477010432632,
-        "3m": 11.707549602897327,
-        "6m": -9.796586666453367,
-        "1y": -46.794797169690504
-      },
-      "technical_score": 63.0,
-      "signals": [
-        "Price is 2.0% above 50-day SMA (Bullish)",
-        "50-day SMA is below 200-day SMA (Death Cross)",
-        "MACD histogram indicates positive bullish momentum"
-      ]
-    },
-    "sent": {
-      "combined_polarity": 0.054,
-      "sentiment_score": 52.2,
-      "label": "NEUTRAL",
-      "news_stats": {
-        "polarity": 0.05246913580246913,
-        "subjectivity": 0.2243827160493827,
-        "positive_count": 2,
-        "negative_count": 2,
-        "neutral_count": 11,
-        "total": 15
-      },
-      "reddit_stats": {
-        "polarity": 0.05694444444444444,
-        "subjectivity": 0.18138888888888888,
-        "positive_count": 3,
-        "negative_count": 1,
-        "neutral_count": 6,
-        "total": 10
-      },
-      "headline_count": 25,
-      "positive_highlights": [
-        "Oracle Forecasts $30B Cash Flow By FY29, Helping Calm AI Capex Concerns, Pushing ORCL Stock To Its Best Day In Five Months - Yahoo Finance",
-        "Oracle (ORCL) Stock Surges After Strong Revenue Forecast for FY2 - GuruFocus",
-        "Oracle's 60% crash: cheap value play or leveraged AI gamble? - Reddit"
-      ],
-      "negative_highlights": [
-        "Why Did Oracle (NYSE:ORCL) Stock Jump 5%? Nvidia, Google and OpenAI Fuel AI Rally - Stocks Down Under",
-        "$ORCL down 34% from September highs - Is this the dip to buy or a value trap? - Reddit",
-        "ORCL Stock Pops As Oracle Doubles Down On AI Cloud - Timothy Sykes"
-      ],
-      "recent_headlines": [
-        "Oracle jumps as company provides long-term guidance at analyst day (ORCL:NYSE) - Seeking Alpha",
-        "ORCL Stock Pops As Oracle Doubles Down On AI Cloud - Timothy Sykes",
-        "Oracle Investor Day 2026: Accelerating Value Creation - Oracle - Investor Relations",
-        "Oracle stock soars as it promises the AI spending will start paying for itself - Yahoo Finance",
-        "Oracle (ORCL) Stock Surges After Strong Revenue Forecast for FY2 - GuruFocus"
-      ]
-    },
-    "qual": {
-      "priced_in": {
-        "valuation_tier": "Fair Value Range",
-        "priced_in_points": [
-          "P/E ratio reflects balanced market expectations for mid-range growth.",
-          "Forward P/E is 35.8% lower than trailing P/E, pricing in robust earnings recovery/growth.",
-          "PEG ratio of 0.73 suggests stock may be undervalued relative to expected growth."
-        ]
-      },
-      "macro_policy": {
-        "macro_factors": [
-          "Operating in United States under Federal Reserve (FED) interest rate policy environment.",
-          "Consumer sentiment and discretionary spending impact demand during inflation/rate shifts."
-        ],
-        "policy_risks": [
-          "Antitrust oversight, data privacy laws, and international tariff trade policies affect cross-border supply chains."
-        ]
-      },
-      "moat": {
-        "moat_tier": "Wide Moat",
-        "moat_score": 100.0,
-        "reasons": [
-          "Strong Return on Equity (ROE: 41.2%), indicating high capital efficiency and competitive advantage.",
-          "High net profit margin (26.4%), demonstrating pricing power.",
-          "Mega-cap scale ($438.17B) provides massive distribution and cost advantages."
-        ]
-      },
-      "qualitative_score": 80.0
-    },
-    "sig": {
-      "composite_score": 75.3,
-      "signal": "BUY",
-      "confidence_pct": 77.5,
-      "pillar_scores": {
-        "fundamentals": 72.0,
-        "valuation": 85.0,
-        "technicals": 63.0,
-        "sentiment": 52.2,
-        "analyst": 100.0,
-        "macro_moat": 80.0
-      },
-      "key_positives": [
-        "Exceptional Return on Equity (41.2%)",
-        "High profit margin (26.4%)",
-        "Strong YoY revenue growth (29.6%)",
-        "Attractive Forward P/E (13.1x)"
-      ],
-      "key_risks": [
-        "Elevated debt-to-equity ratio (251.7)",
-        "Negative free cash flow generation",
-        "50-day SMA is below 200-day SMA (Death Cross)"
       ]
     }
   },
@@ -953,16 +761,16 @@
       "fifty_two_week_high": 192.966,
       "fifty_two_week_low": 81.24,
       "volume": 28212824,
-      "avg_volume": 15363323,
-      "pe_ratio": 93.83125,
+      "avg_volume": 14971373,
+      "pe_ratio": 108.0072,
       "forward_pe": 30.016037,
       "peg_ratio": 1.12,
       "price_to_sales": 10.53582,
-      "price_to_book": 12.401289,
+      "price_to_book": 12.127798,
       "ev_to_ebitda": 54.885,
       "market_cap": 155213709312,
       "enterprise_value": 159002705920,
-      "eps_trailing": 1.6,
+      "eps_trailing": 1.39,
       "eps_forward": 5.00166,
       "earnings_growth": -0.219,
       "revenue_growth": 0.24,
@@ -995,7 +803,7 @@
         "sell": 1,
         "strongSell": 1
       },
-      "next_earnings_date": "2026-10-28",
+      "next_earnings_date": "2027-01-27",
       "earnings_high_est": 1.32,
       "earnings_low_est": 1.03,
       "earnings_avg_est": 1.17012,
@@ -1032,12 +840,12 @@
       ]
     },
     "sent": {
-      "combined_polarity": -0.034,
-      "sentiment_score": 48.7,
+      "combined_polarity": -0.043,
+      "sentiment_score": 48.3,
       "label": "NEUTRAL",
       "news_stats": {
-        "polarity": -0.047962962962962964,
-        "subjectivity": 0.13685185185185186,
+        "polarity": -0.06185185185185185,
+        "subjectivity": 0.13962962962962963,
         "positive_count": 1,
         "negative_count": 3,
         "neutral_count": 11,
@@ -1055,16 +863,16 @@
         "ServiceNow (NYSE:NOW) Stock Tumbles After Q3 Earnings Miss and Soft Guidance - ChartMill"
       ],
       "negative_highlights": [
-        "A 79,078-unit stock grant at ServiceNow (NOW) vests through 2029, subject to Canney's continued service. - Stock Titan",
         "ServiceNow Inc Stock (NOW) Moved Down by 3.17% on Oct 28: Facts Behind the Movement - TradingKey",
-        "ServiceNow shares sink on earnings miss, weak Q4 revenue outlook - Yahoo Finance"
+        "ServiceNow shares sink on earnings miss, weak Q4 revenue outlook - Yahoo Finance",
+        "ServiceNow crashes on weak forecast: What Wall Street's saying (NOW:NYSE) - Seeking Alpha"
       ],
       "recent_headlines": [
-        "ServiceNow drops after Q3 results despite Control Tower strategy gaining momentum - Seeking Alpha",
         "ServiceNow Falls After Quarterly Sales Outlook Revives AI Fears - Bloomberg",
+        "ServiceNow drops after Q3 results despite Control Tower strategy gaining momentum - Seeking Alpha",
         "ServiceNow Q3 Earnings Loom: Hold or Fold NOW Stock Ahead of Results? - Yahoo Finance",
-        "ServiceNow shares sink on earnings miss, weak Q4 revenue outlook - Yahoo Finance",
-        "ServiceNow\u2019s stock slides as earnings miss overshadows a raised AI outlook - MarketWatch"
+        "Why Is ServiceNow Stock Sinking Thursday? - Benzinga",
+        "ServiceNow shares sink on earnings miss, weak Q4 revenue outlook - Yahoo Finance"
       ]
     },
     "qual": {
@@ -1072,7 +880,7 @@
         "valuation_tier": "High Growth Premium",
         "priced_in_points": [
           "High P/E ratio indicates market has priced in strong future earnings acceleration.",
-          "Forward P/E is 68.0% lower than trailing P/E, pricing in robust earnings recovery/growth."
+          "Forward P/E is 72.2% lower than trailing P/E, pricing in robust earnings recovery/growth."
         ]
       },
       "macro_policy": {
@@ -1094,14 +902,14 @@
       "qualitative_score": 59.0
     },
     "sig": {
-      "composite_score": 66.7,
+      "composite_score": 66.6,
       "signal": "BUY",
-      "confidence_pct": 71.5,
+      "confidence_pct": 71.4,
       "pillar_scores": {
         "fundamentals": 80.0,
         "valuation": 35.0,
         "technicals": 91.4,
-        "sentiment": 48.7,
+        "sentiment": 48.3,
         "analyst": 85.0,
         "macro_moat": 59.0
       },
@@ -1113,7 +921,195 @@
       ],
       "key_risks": [
         "Current ratio below 1.0 (0.70)",
-        "High P/E ratio (93.8x)"
+        "High P/E ratio (108.0x)"
+      ]
+    }
+  },
+  "ORCL": {
+    "data": {
+      "symbol": "ORCL",
+      "company_name": "Oracle Corporation",
+      "exchange_info": {
+        "country": "United States",
+        "exchange": "NYSE/NASDAQ",
+        "central_bank": "Federal Reserve (FED)",
+        "currency_symbol": "$"
+      },
+      "currency": "USD",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "summary": "Oracle Corporation offers products and services that build, run and support enterprise information technology frameworks worldwide. Its Oracle cloud software as a service offering includes various cloud software applications, including Oracle Fusion cloud enterprise resource planning ERP, Oracle Fusion cloud enterprise performance management EPM, Oracle Fusion cloud supply chain and manufacturing management SCM, Oracle Fusion cloud human capital management HCM, and NetSuite applications suite, Oracle Health applications, as well as Oracle Fusion Sales, Service, and Marketing. The company also offers cloud-based industry solutions for various industries; Oracle cloud license and on-premise license; and Oracle license support services. In addition, it provides cloud and license business' infrastructure technologies, such as the Oracle Database and MySQL Database; Java, a software development language; and middleware, including development tools and others. The company's cloud and license business' infrastructure technologies also comprise cloud-based compute, storage, and networking capabilities; and Oracle autonomous database, as well as AI, Internet-of-Things, machine learning, digital assistant, and blockchain. Further, it provides hardware products and other hardware-related software offerings, including Oracle engineered systems, enterprise servers, storage solutions, industry-specific hardware, virtualization software, operating systems, management software, and related hardware support services, and consulting and advanced customer services. It markets and sells its cloud, license, hardware, support, and services offerings directly to businesses in various industries, government agencies, and educational institutions, as well as through indirect channels. Oracle Corporation has a strategic alliance with Metron, Inc. The company was founded in 1977 and is headquartered in Austin, Texas.",
+      "current_price": 144.54,
+      "previous_close": 130.53,
+      "fifty_two_week_high": 269.76,
+      "fifty_two_week_low": 114.5,
+      "volume": 81527008,
+      "avg_volume": 30391904,
+      "pe_ratio": 22.65517,
+      "forward_pe": 13.16409,
+      "peg_ratio": 0.73,
+      "price_to_sales": 6.10473,
+      "price_to_book": 7.0707364,
+      "ev_to_ebitda": 16.684,
+      "market_cap": 438173138944,
+      "enterprise_value": 574494801920,
+      "eps_trailing": 6.38,
+      "eps_forward": 10.97987,
+      "earnings_growth": 0.545,
+      "revenue_growth": 0.296,
+      "total_revenue": 71776002048,
+      "net_income": 18736001024,
+      "profit_margins": 0.2636,
+      "operating_margins": 0.35632,
+      "return_on_equity": 0.41192,
+      "return_on_assets": 0.06357,
+      "total_debt": 169142992896,
+      "total_cash": 37077000192,
+      "debt_to_equity": 251.716,
+      "current_ratio": 1.171,
+      "quick_ratio": 1.02,
+      "free_cash_flow": -45853626368,
+      "dividend_yield_pct": 1.38,
+      "payout_ratio": 0.31350002,
+      "target_low": 110.0,
+      "target_mean": 235.8034,
+      "target_high": 400.0,
+      "target_median": 225.0,
+      "recommendation_key": "buy",
+      "recommendation_mean": 1.5814,
+      "number_of_analysts": 41,
+      "implied_upside_pct": 63.140583921405856,
+      "rec_breakdown": {
+        "strongBuy": 7,
+        "buy": 28,
+        "hold": 7,
+        "sell": 1,
+        "strongSell": 0
+      },
+      "next_earnings_date": "2026-12-14",
+      "earnings_high_est": 2.04,
+      "earnings_low_est": 1.81,
+      "earnings_avg_est": 1.89333,
+      "_ticker_obj": "yfinance.Ticker object <ORCL>"
+    },
+    "tech": {
+      "latest_price": 144.54,
+      "sma_20": 135.0839687347412,
+      "sma_50": 141.72426345825195,
+      "sma_200": 156.52980892181395,
+      "rsi_14": 57.024787798469305,
+      "rsi_status": "BULLISH",
+      "macd_data": {
+        "macd": -2.788594002303739,
+        "signal": -3.51901499187929,
+        "histogram": 0.7304209895755509,
+        "crossover": "BULLISH_CROSS"
+      },
+      "cross_status": "DEATH_CROSS",
+      "fifty_two_week_pos_pct": 18.594333123909912,
+      "high_52": 277.90175567907096,
+      "low_52": 114.07808001031839,
+      "returns": {
+        "1m": 5.662477010432632,
+        "3m": 11.707549602897327,
+        "6m": -9.796586666453367,
+        "1y": -46.794803146510446
+      },
+      "technical_score": 63.0,
+      "signals": [
+        "Price is 2.0% above 50-day SMA (Bullish)",
+        "50-day SMA is below 200-day SMA (Death Cross)",
+        "MACD histogram indicates positive bullish momentum"
+      ]
+    },
+    "sent": {
+      "combined_polarity": 0.087,
+      "sentiment_score": 53.5,
+      "label": "BULLISH",
+      "news_stats": {
+        "polarity": 0.1237037037037037,
+        "subjectivity": 0.27296296296296296,
+        "positive_count": 4,
+        "negative_count": 2,
+        "neutral_count": 9,
+        "total": 15
+      },
+      "reddit_stats": {
+        "polarity": 0.0,
+        "subjectivity": 0.0,
+        "positive_count": 0,
+        "negative_count": 0,
+        "neutral_count": 0
+      },
+      "headline_count": 15,
+      "positive_highlights": [
+        "Oracle Forecasts $30B Cash Flow By FY29, Helping Calm AI Capex Concerns, Pushing ORCL Stock To Its Best Day In Five Months - Yahoo Finance",
+        "Oracle Forecasts $30B Cash Flow By FY29, Helping Calm AI Capex Concerns, Pushing ORCL Stock To Its Best Day In Five Months - TradingView",
+        "Oracle (ORCL) Stock Surges 10% Amid Strong Revenue Forecast - GuruFocus"
+      ],
+      "negative_highlights": [
+        "Why Did Oracle (NYSE:ORCL) Stock Jump 5%? Nvidia, Google and OpenAI Fuel AI Rally - Stocks Down Under",
+        "ORCL Stock Pops As Oracle Doubles Down On AI Cloud - Timothy Sykes"
+      ],
+      "recent_headlines": [
+        "Oracle jumps as company provides long-term guidance at analyst day (ORCL:NYSE) - Seeking Alpha",
+        "ORCL Stock Pops As Oracle Doubles Down On AI Cloud - Timothy Sykes",
+        "Oracle Investor Day 2026: Accelerating Value Creation - Oracle - Investor Relations",
+        "Oracle stock pops 11% as long-term revenue forecast and clarity on financing ease debt concerns - CNBC",
+        "Oracle Forecasts $30B Cash Flow By FY29, Helping Calm AI Capex Concerns, Pushing ORCL Stock To Its Best Day In Five Months - Yahoo Finance"
+      ]
+    },
+    "qual": {
+      "priced_in": {
+        "valuation_tier": "Fair Value Range",
+        "priced_in_points": [
+          "P/E ratio reflects balanced market expectations for mid-range growth.",
+          "Forward P/E is 41.9% lower than trailing P/E, pricing in robust earnings recovery/growth.",
+          "PEG ratio of 0.73 suggests stock may be undervalued relative to expected growth."
+        ]
+      },
+      "macro_policy": {
+        "macro_factors": [
+          "Operating in United States under Federal Reserve (FED) interest rate policy environment.",
+          "Consumer sentiment and discretionary spending impact demand during inflation/rate shifts."
+        ],
+        "policy_risks": [
+          "Antitrust oversight, data privacy laws, and international tariff trade policies affect cross-border supply chains."
+        ]
+      },
+      "moat": {
+        "moat_tier": "Wide Moat",
+        "moat_score": 100.0,
+        "reasons": [
+          "Strong Return on Equity (ROE: 41.2%), indicating high capital efficiency and competitive advantage.",
+          "High net profit margin (26.4%), demonstrating pricing power.",
+          "Mega-cap scale ($438.17B) provides massive distribution and cost advantages."
+        ]
+      },
+      "qualitative_score": 80.0
+    },
+    "sig": {
+      "composite_score": 75.5,
+      "signal": "BUY",
+      "confidence_pct": 77.9,
+      "pillar_scores": {
+        "fundamentals": 72.0,
+        "valuation": 85.0,
+        "technicals": 63.0,
+        "sentiment": 53.5,
+        "analyst": 100.0,
+        "macro_moat": 80.0
+      },
+      "key_positives": [
+        "Exceptional Return on Equity (41.2%)",
+        "High profit margin (26.4%)",
+        "Strong YoY revenue growth (29.6%)",
+        "Attractive Forward P/E (13.2x)"
+      ],
+      "key_risks": [
+        "Elevated debt-to-equity ratio (251.7)",
+        "Negative free cash flow generation",
+        "50-day SMA is below 200-day SMA (Death Cross)"
       ]
     }
   }
