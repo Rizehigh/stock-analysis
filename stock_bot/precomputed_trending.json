@@ -20,7 +20,7 @@
       "volume": 33255690,
       "avg_volume": 6085082,
       "pe_ratio": 18.72041,
-      "forward_pe": 9.474507,
+      "forward_pe": 9.819024,
       "peg_ratio": 0.46,
       "price_to_sales": 5.7342753,
       "price_to_book": 4.932516,
@@ -28,7 +28,7 @@
       "market_cap": 17712488448,
       "enterprise_value": 14664895488,
       "eps_trailing": 4.9,
-      "eps_forward": 9.68177,
+      "eps_forward": 9.34207,
       "earnings_growth": 0.745,
       "revenue_growth": 0.53,
       "total_revenue": 3088880128,
@@ -45,25 +45,25 @@
       "free_cash_flow": 769023232,
       "dividend_yield_pct": 0.0,
       "payout_ratio": 0.0,
-      "target_low": 130.0,
-      "target_mean": 212.95152,
+      "target_low": 110.0,
+      "target_mean": 183.88,
       "target_high": 300.0,
-      "target_median": 205.0,
+      "target_median": 172.5,
       "recommendation_key": "buy",
-      "recommendation_mean": 1.94118,
-      "number_of_analysts": 33,
-      "implied_upside_pct": 132.150354300665,
+      "recommendation_mean": 2.14706,
+      "number_of_analysts": 30,
+      "implied_upside_pct": 100.45786547476287,
       "rec_breakdown": {
-        "strongBuy": 6,
-        "buy": 16,
-        "hold": 11,
+        "strongBuy": 5,
+        "buy": 13,
+        "hold": 15,
         "sell": 1,
         "strongSell": 0
       },
       "next_earnings_date": "2026-10-29",
-      "earnings_high_est": 2.66,
-      "earnings_low_est": 2.23,
-      "earnings_avg_est": 2.42247,
+      "earnings_high_est": 2.57,
+      "earnings_low_est": 2.25677,
+      "earnings_avg_est": 2.46669,
       "_ticker_obj": "yfinance.Ticker object <RDDT>"
     },
     "tech": {
@@ -98,8 +98,8 @@
       ]
     },
     "sent": {
-      "combined_polarity": -0.098,
-      "sentiment_score": 46.1,
+      "combined_polarity": -0.117,
+      "sentiment_score": 45.3,
       "label": "BEARISH",
       "news_stats": {
         "polarity": -0.16696969696969696,
@@ -110,18 +110,15 @@
         "total": 15
       },
       "reddit_stats": {
-        "polarity": 0.06375,
-        "subjectivity": 0.30625,
-        "positive_count": 3,
-        "negative_count": 1,
-        "neutral_count": 6,
-        "total": 10
+        "polarity": 0.0,
+        "subjectivity": 0.0,
+        "positive_count": 0,
+        "negative_count": 0,
+        "neutral_count": 0
       },
-      "headline_count": 25,
+      "headline_count": 15,
       "positive_highlights": [
-        "Welcome to Reddit - Reddit",
-        "/r/Memes the original since 2008 - Reddit",
-        "Biggest One Day Loss In My Life ... so far - Thanks $RDDT - Reddit"
+        "RDDT Stock Drops As Soft Q4 Revenue Guidance, Search Traffic Decline And Logged-In-Only Transition Weigh - Yahoo Finance"
       ],
       "negative_highlights": [
         "Reddit falls 29% to new 52-week low on weak Q4 guidance (RDDT:NYSE) - Seeking Alpha",
@@ -131,8 +128,8 @@
       "recent_headlines": [
         "Reddit Inc. (RDDT) Q3 Earnings and Revenues Beat Estimates - Yahoo Finance",
         "Reddit Inc. (RDDT) Q3 Earnings: Taking a Look at Key Metrics Versus Estimates - Yahoo Finance",
-        "Reddit shares sink on weak sales guidance and plans login requirement test as Google search traffic shrinks - CNBC",
         "Reddit shares plunge 26% despite earnings beat as user growth and outlook disappoint - Yahoo Finance",
+        "Reddit shares sink on weak sales guidance and plans login requirement test as Google search traffic shrinks - CNBC",
         "Reddit\u2019s Stock Sinks After Earnings. Here\u2019s Why. - Barron's"
       ]
     },
@@ -141,7 +138,7 @@
         "valuation_tier": "Fair Value Range",
         "priced_in_points": [
           "P/E ratio reflects balanced market expectations for mid-range growth.",
-          "Forward P/E is 49.4% lower than trailing P/E, pricing in robust earnings recovery/growth.",
+          "Forward P/E is 47.5% lower than trailing P/E, pricing in robust earnings recovery/growth.",
           "PEG ratio of 0.46 suggests stock may be undervalued relative to expected growth."
         ]
       },
@@ -165,14 +162,14 @@
       "qualitative_score": 71.0
     },
     "sig": {
-      "composite_score": 73.9,
+      "composite_score": 73.7,
       "signal": "BUY",
-      "confidence_pct": 62.3,
+      "confidence_pct": 62.2,
       "pillar_scores": {
         "fundamentals": 100.0,
         "valuation": 85.0,
         "technicals": 22.0,
-        "sentiment": 46.1,
+        "sentiment": 45.3,
         "analyst": 97.0,
         "macro_moat": 71.0
       },
@@ -185,6 +182,189 @@
       "key_risks": [
         "Price is 39.0% below 50-day SMA (Bearish)",
         "50-day SMA is below 200-day SMA (Death Cross)"
+      ]
+    }
+  },
+  "NVDA": {
+    "data": {
+      "symbol": "NVDA",
+      "company_name": "NVIDIA Corporation",
+      "exchange_info": {
+        "country": "United States",
+        "exchange": "NYSE/NASDAQ",
+        "central_bank": "Federal Reserve (FED)",
+        "currency_symbol": "$"
+      },
+      "currency": "USD",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "summary": "NVIDIA Corporation operates as a data center scale AI infrastructure company in the United States, Taiwan, China, Hong Kong, Europe, and internationally. It operates through Compute & Networking, and Graphics segments. The Compute & Networking segment provides data center accelerated computing and networking platforms and artificial intelligence solutions and software, and automotive platforms and autonomous and electric vehicle solutions, including software. The Graphics segment offers GeForce GPUs for gaming and PCs; Quadro/NVIDIA RTX GPUs for enterprise workstation graphics. The company's products are used in gaming, professional visualization, data center, and automotive markets. It sells its products to original equipment manufacturers, original device manufacturers, system integrators and distributors, independent software vendors, cloud service providers, add-in board manufacturers, distributors, automotive manufacturers and tier-1 automotive suppliers, and other ecosystem participants. It has a collaboration with Cisco to develop Ultra-Dense Small Form Factor Pluggable (USFP), a high-density optical module pluggable transceiver. It has a collaboration with ChipAgents to develop Build-A-Chip-Bench, a benchmark for AI agents carrying chip design tasks and The Company has a strategic alliance with MediaTek to build the next generations of AI computing platforms. NVIDIA Corporation was incorporated in 1993 and is headquartered in Santa Clara, California.",
+      "current_price": 204.64,
+      "previous_close": 213.66,
+      "fifty_two_week_high": 243.37,
+      "fifty_two_week_low": 164.27,
+      "volume": 165923799,
+      "avg_volume": 114133204,
+      "pe_ratio": 25.87105,
+      "forward_pe": 12.858633,
+      "peg_ratio": 0.25,
+      "price_to_sales": 16.310003,
+      "price_to_book": 21.57967,
+      "ev_to_ebitda": 24.387,
+      "market_cap": 4941441662976,
+      "enterprise_value": 4908214910976,
+      "eps_trailing": 7.91,
+      "eps_forward": 15.9146,
+      "earnings_growth": 1.278,
+      "revenue_growth": 1.059,
+      "total_revenue": 302970011648,
+      "net_income": 192880001024,
+      "profit_margins": 0.63663,
+      "operating_margins": 0.66236997,
+      "return_on_equity": 1.17211,
+      "return_on_assets": 0.53572,
+      "total_debt": 38860001280,
+      "total_cash": 62469001216,
+      "debt_to_equity": 16.971,
+      "current_ratio": 4.589,
+      "quick_ratio": 2.918,
+      "free_cash_flow": 41809874944,
+      "dividend_yield_pct": 49.0,
+      "payout_ratio": 0.0354,
+      "target_low": 180.0,
+      "target_mean": 328.95346,
+      "target_high": 515.0,
+      "target_median": 315.0,
+      "recommendation_key": "strong_buy",
+      "recommendation_mean": 1.29032,
+      "number_of_analysts": 58,
+      "implied_upside_pct": 60.74739053948398,
+      "rec_breakdown": {
+        "strongBuy": 10,
+        "buy": 49,
+        "hold": 2,
+        "sell": 1,
+        "strongSell": 0
+      },
+      "next_earnings_date": "2026-11-17",
+      "earnings_high_est": 2.7,
+      "earnings_low_est": 2.34,
+      "earnings_avg_est": 2.47325,
+      "_ticker_obj": "yfinance.Ticker object <NVDA>"
+    },
+    "tech": {
+      "latest_price": 204.64,
+      "sma_20": 221.45950164794922,
+      "sma_50": 221.68461669921874,
+      "sma_200": 204.09216926574706,
+      "rsi_14": 30.969086205497078,
+      "rsi_status": "BEARISH",
+      "macd_data": {
+        "macd": -3.643881581722752,
+        "signal": -2.161465629483803,
+        "histogram": -1.482415952238949,
+        "crossover": "BEARISH"
+      },
+      "cross_status": "GOLDEN_CROSS",
+      "fifty_two_week_pos_pct": 51.26746543504578,
+      "high_52": 243.3699951171875,
+      "low_52": 163.89537828689438,
+      "returns": {
+        "1m": -12.528316875646972,
+        "3m": -3.3363278176900657,
+        "6m": 3.339264227241334,
+        "1y": 1.3039003621814427
+      },
+      "technical_score": 28.5,
+      "signals": [
+        "Price is 7.7% below 50-day SMA (Bearish)",
+        "50-day SMA is above 200-day SMA (Golden Cross)",
+        "MACD histogram indicates negative bearish momentum"
+      ]
+    },
+    "sent": {
+      "combined_polarity": -0.066,
+      "sentiment_score": 47.4,
+      "label": "NEUTRAL",
+      "news_stats": {
+        "polarity": -0.09416666666666668,
+        "subjectivity": 0.15633333333333335,
+        "positive_count": 0,
+        "negative_count": 3,
+        "neutral_count": 12,
+        "total": 15
+      },
+      "reddit_stats": {
+        "polarity": 0.0,
+        "subjectivity": 0.0,
+        "positive_count": 0,
+        "negative_count": 0,
+        "neutral_count": 0
+      },
+      "headline_count": 15,
+      "positive_highlights": [],
+      "negative_highlights": [
+        "Nvidia Stock Has Dropped Nearly 6% in a Month; Now Jim Cramer Is Asking Why \u2018Anything Negative in Tech\u2019 Immediately Crushes NVDA - Yahoo Finance",
+        "Nvidia: Risk Building, Earnings Revisions Can Turn Negative (NASDAQ:NVDA) - Seeking Alpha",
+        "Nvidia: Brace For The Worst (NASDAQ:NVDA) - Seeking Alpha"
+      ],
+      "recent_headlines": [
+        "Nvidia Stock Has Dropped Nearly 6% in a Month; Now Jim Cramer Is Asking Why \u2018Anything Negative in Tech\u2019 Immediately Crushes NVDA - Yahoo Finance",
+        "NVIDIA Corporation $NVDA Stock: CoreCap Advisors LLC Increases Position - MarketBeat",
+        "Nvidia Shares Drop Amid Chip Selloff: What's Happening? - Benzinga",
+        "Nvidia: Brace For The Worst (NASDAQ:NVDA) - Seeking Alpha",
+        "NVIDIA Corporation (NVDA) is Attracting Investor Attention: Here is What You Should Know - Yahoo Finance"
+      ]
+    },
+    "qual": {
+      "priced_in": {
+        "valuation_tier": "Fair Value Range",
+        "priced_in_points": [
+          "P/E ratio reflects balanced market expectations for mid-range growth.",
+          "Forward P/E is 50.3% lower than trailing P/E, pricing in robust earnings recovery/growth.",
+          "PEG ratio of 0.25 suggests stock may be undervalued relative to expected growth."
+        ]
+      },
+      "macro_policy": {
+        "macro_factors": [
+          "Operating in United States under Federal Reserve (FED) interest rate policy environment.",
+          "Consumer sentiment and discretionary spending impact demand during inflation/rate shifts."
+        ],
+        "policy_risks": [
+          "Antitrust oversight, data privacy laws, and international tariff trade policies affect cross-border supply chains."
+        ]
+      },
+      "moat": {
+        "moat_tier": "Wide Moat",
+        "moat_score": 100.0,
+        "reasons": [
+          "Strong Return on Equity (ROE: 117.2%), indicating high capital efficiency and competitive advantage.",
+          "High net profit margin (63.7%), demonstrating pricing power.",
+          "Mega-cap scale ($4.94T) provides massive distribution and cost advantages."
+        ]
+      },
+      "qualitative_score": 80.0
+    },
+    "sig": {
+      "composite_score": 75.4,
+      "signal": "BUY",
+      "confidence_pct": 64.3,
+      "pillar_scores": {
+        "fundamentals": 100.0,
+        "valuation": 80.0,
+        "technicals": 28.5,
+        "sentiment": 47.4,
+        "analyst": 100.0,
+        "macro_moat": 80.0
+      },
+      "key_positives": [
+        "Exceptional Return on Equity (117.2%)",
+        "High profit margin (63.7%)",
+        "Strong YoY revenue growth (105.9%)",
+        "Low debt-to-equity ratio (17.0)"
+      ],
+      "key_risks": [
+        "Price is 7.7% below 50-day SMA (Bearish)"
       ]
     }
   },
@@ -235,16 +415,16 @@
       "dividend_yield_pct": 32.0,
       "payout_ratio": 0.044899996,
       "target_low": 340.0,
-      "target_mean": 403.86667,
+      "target_mean": 405.3125,
       "target_high": 460.0,
       "target_median": 410.0,
       "recommendation_key": "strong_buy",
-      "recommendation_mean": 1.4,
-      "number_of_analysts": 15,
-      "implied_upside_pct": 45.160905039177614,
+      "recommendation_mean": 1.38333,
+      "number_of_analysts": 16,
+      "implied_upside_pct": 45.68057652217668,
       "rec_breakdown": {
-        "strongBuy": 12,
-        "buy": 42,
+        "strongBuy": 11,
+        "buy": 43,
         "hold": 6,
         "sell": 0,
         "strongSell": 0
@@ -259,13 +439,13 @@
       "latest_price": 278.22,
       "sma_20": 330.57349853515626,
       "sma_50": 335.68581420898437,
-      "sma_200": 338.3882081604004,
+      "sma_200": 338.38820846557616,
       "rsi_14": 13.254396153397465,
       "rsi_status": "OVERSOLD",
       "macd_data": {
-        "macd": -11.962266051786344,
-        "signal": -5.987119777069751,
-        "histogram": -5.975146274716593,
+        "macd": -11.962266052073517,
+        "signal": -5.987119777492017,
+        "histogram": -5.975146274581499,
         "crossover": "BEARISH"
       },
       "cross_status": "DEATH_CROSS",
@@ -276,7 +456,7 @@
         "1m": -18.254739235885044,
         "3m": -25.829059766477435,
         "6m": -26.623076219751685,
-        "1y": -1.0196914804878165
+        "1y": -1.0197022267956712
       },
       "technical_score": 22.0,
       "signals": [
@@ -287,40 +467,39 @@
       ]
     },
     "sent": {
-      "combined_polarity": -0.165,
-      "sentiment_score": 43.4,
+      "combined_polarity": -0.125,
+      "sentiment_score": 45.0,
       "label": "BEARISH",
       "news_stats": {
-        "polarity": -0.17203703703703702,
-        "subjectivity": 0.2592592592592593,
+        "polarity": -0.17870370370370367,
+        "subjectivity": 0.3725925925925927,
         "positive_count": 3,
-        "negative_count": 5,
-        "neutral_count": 7,
+        "negative_count": 6,
+        "neutral_count": 6,
         "total": 15
       },
       "reddit_stats": {
-        "polarity": -0.15,
-        "subjectivity": 0.2833333333333333,
-        "positive_count": 2,
-        "negative_count": 3,
-        "neutral_count": 5,
-        "total": 10
+        "polarity": 0.0,
+        "subjectivity": 0.0,
+        "positive_count": 0,
+        "negative_count": 0,
+        "neutral_count": 0
       },
-      "headline_count": 25,
+      "headline_count": 15,
       "positive_highlights": [
-        "Alphabet: After A 12% Drop, The Parts Are Worth About $337 A Share - Seeking Alpha",
+        "Ahead of Earnings, Is Alphabet Stock a Buy, a Sell, or Fairly Valued? - Morningstar",
         "GOOG Stock Slides As Earnings Miss And Legal Risks Hit - StocksToTrade",
-        "Biggest One Day Loss In My Life ... so far - Thanks $RDDT - Reddit"
+        "Google stock faces historic post-earnings slide: Investors rattled by search fears, negative free cash flow - Fast Company"
       ],
       "negative_highlights": [
         "Alphabet stock sinks as search woes cause revenue miss, cash burn worsens - Reuters",
         "Alphabet Stock Down 12% As AI Hits Google's Core Search Business - State Street SPDR S&P 500 ETF Trust (A - Benzinga",
-        "The market is having a degoogle day: Alphabet loses $482 billion in market value, the biggest drop in its history - Reddit"
+        "Dear Market, You Got Alphabet Stock Wrong (NASDAQ:GOOG) - Seeking Alpha"
       ],
       "recent_headlines": [
-        "Alphabet shares record their worst day ever, shedding $500 billion in value - NBC News",
         "Shares of Google\u2019s parent company just had their worst day ever. Here\u2019s what it means - CNN",
-        "SA Asks: Is Alphabet's stock a buy after the sell-off? (Update) (GOOG:NASDAQ) - Seeking Alpha",
+        "Alphabet: The 30% Earnings Miss That Wasn't - Seeking Alpha",
+        "Alphabet shares record their worst day ever, shedding $500 billion in value - NBC News",
         "Google stock gets shredded after earnings\u2014here's 2 reasons why investors hated the quarter - Yahoo Finance",
         "Google Erases a Record $500 Billion as AI Eats Into Sales - Bloomberg.com"
       ]
@@ -355,14 +534,14 @@
       "qualitative_score": 80.0
     },
     "sig": {
-      "composite_score": 73.6,
+      "composite_score": 73.8,
       "signal": "BUY",
-      "confidence_pct": 61.9,
+      "confidence_pct": 62.2,
       "pillar_scores": {
         "fundamentals": 95.0,
         "valuation": 85.0,
         "technicals": 22.0,
-        "sentiment": 43.4,
+        "sentiment": 45.0,
         "analyst": 100.0,
         "macro_moat": 80.0
       },
@@ -376,194 +555,6 @@
         "Negative free cash flow generation",
         "Price is 17.1% below 50-day SMA (Bearish)",
         "50-day SMA is below 200-day SMA (Death Cross)"
-      ]
-    }
-  },
-  "NVDA": {
-    "data": {
-      "symbol": "NVDA",
-      "company_name": "NVIDIA Corporation",
-      "exchange_info": {
-        "country": "United States",
-        "exchange": "NYSE/NASDAQ",
-        "central_bank": "Federal Reserve (FED)",
-        "currency_symbol": "$"
-      },
-      "currency": "USD",
-      "sector": "Technology",
-      "industry": "Semiconductors",
-      "summary": "NVIDIA Corporation operates as a data center scale AI infrastructure company in the United States, Taiwan, China, Hong Kong, Europe, and internationally. It operates through Compute & Networking, and Graphics segments. The Compute & Networking segment provides data center accelerated computing and networking platforms and artificial intelligence solutions and software, and automotive platforms and autonomous and electric vehicle solutions, including software. The Graphics segment offers GeForce GPUs for gaming and PCs; Quadro/NVIDIA RTX GPUs for enterprise workstation graphics. The company's products are used in gaming, professional visualization, data center, and automotive markets. It sells its products to original equipment manufacturers, original device manufacturers, system integrators and distributors, independent software vendors, cloud service providers, add-in board manufacturers, distributors, automotive manufacturers and tier-1 automotive suppliers, and other ecosystem participants. It has a collaboration with Cisco to develop Ultra-Dense Small Form Factor Pluggable (USFP), a high-density optical module pluggable transceiver. It has a collaboration with ChipAgents to develop Build-A-Chip-Bench, a benchmark for AI agents carrying chip design tasks and The Company has a strategic alliance with MediaTek to build the next generations of AI computing platforms. NVIDIA Corporation was incorporated in 1993 and is headquartered in Santa Clara, California.",
-      "current_price": 204.64,
-      "previous_close": 213.66,
-      "fifty_two_week_high": 243.37,
-      "fifty_two_week_low": 164.27,
-      "volume": 165923799,
-      "avg_volume": 114133204,
-      "pe_ratio": 25.87105,
-      "forward_pe": 12.858633,
-      "peg_ratio": 0.26,
-      "price_to_sales": 16.310003,
-      "price_to_book": 21.57967,
-      "ev_to_ebitda": 24.387,
-      "market_cap": 4941441662976,
-      "enterprise_value": 4908214910976,
-      "eps_trailing": 7.91,
-      "eps_forward": 15.9146,
-      "earnings_growth": 1.278,
-      "revenue_growth": 1.059,
-      "total_revenue": 302970011648,
-      "net_income": 192880001024,
-      "profit_margins": 0.63663,
-      "operating_margins": 0.66236997,
-      "return_on_equity": 1.17211,
-      "return_on_assets": 0.53572,
-      "total_debt": 38860001280,
-      "total_cash": 62469001216,
-      "debt_to_equity": 16.971,
-      "current_ratio": 4.589,
-      "quick_ratio": 2.918,
-      "free_cash_flow": 41809874944,
-      "dividend_yield_pct": 49.0,
-      "payout_ratio": 0.0354,
-      "target_low": 180.0,
-      "target_mean": 328.95346,
-      "target_high": 515.0,
-      "target_median": 315.0,
-      "recommendation_key": "strong_buy",
-      "recommendation_mean": 1.29032,
-      "number_of_analysts": 58,
-      "implied_upside_pct": 60.74739053948398,
-      "rec_breakdown": {
-        "strongBuy": 10,
-        "buy": 49,
-        "hold": 2,
-        "sell": 1,
-        "strongSell": 0
-      },
-      "next_earnings_date": "2026-11-17",
-      "earnings_high_est": 2.7,
-      "earnings_low_est": 2.34,
-      "earnings_avg_est": 2.47325,
-      "_ticker_obj": "yfinance.Ticker object <NVDA>"
-    },
-    "tech": {
-      "latest_price": 204.64,
-      "sma_20": 221.45950164794922,
-      "sma_50": 221.68461669921874,
-      "sma_200": 204.09216934204102,
-      "rsi_14": 30.969086205497078,
-      "rsi_status": "BEARISH",
-      "macd_data": {
-        "macd": -3.6438815817175794,
-        "signal": -2.161465629476213,
-        "histogram": -1.4824159522413662,
-        "crossover": "BEARISH"
-      },
-      "cross_status": "GOLDEN_CROSS",
-      "fifty_two_week_pos_pct": 51.26746543504578,
-      "high_52": 243.3699951171875,
-      "low_52": 163.89537828689438,
-      "returns": {
-        "1m": -12.528316875646972,
-        "3m": -3.3363278176900657,
-        "6m": 3.339264227241334,
-        "1y": 1.303908014303845
-      },
-      "technical_score": 28.5,
-      "signals": [
-        "Price is 7.7% below 50-day SMA (Bearish)",
-        "50-day SMA is above 200-day SMA (Golden Cross)",
-        "MACD histogram indicates negative bearish momentum"
-      ]
-    },
-    "sent": {
-      "combined_polarity": -0.038,
-      "sentiment_score": 48.5,
-      "label": "NEUTRAL",
-      "news_stats": {
-        "polarity": -0.09416666666666668,
-        "subjectivity": 0.15633333333333335,
-        "positive_count": 0,
-        "negative_count": 3,
-        "neutral_count": 12,
-        "total": 15
-      },
-      "reddit_stats": {
-        "polarity": 0.0925,
-        "subjectivity": 0.2725,
-        "positive_count": 3,
-        "negative_count": 1,
-        "neutral_count": 6,
-        "total": 10
-      },
-      "headline_count": 25,
-      "positive_highlights": [
-        "The 'Magnificent 7' stocks are seeing stunning declines - Reddit",
-        "The bubble has popped and so many people are in denial. - Reddit",
-        "Three of the four biggest AI spenders now report negative free cash flow - Reddit"
-      ],
-      "negative_highlights": [
-        "Nvidia Stock Has Dropped Nearly 6% in a Month; Now Jim Cramer Is Asking Why \u2018Anything Negative in Tech\u2019 Immediately Crushes NVDA - Yahoo Finance",
-        "Nvidia: Risk Building, Earnings Revisions Can Turn Negative (NASDAQ:NVDA) - Seeking Alpha",
-        "Intel stock plunges 21% as chipmaker blames PC slowdown for weak guidance - Reddit"
-      ],
-      "recent_headlines": [
-        "Nvidia Stock Has Dropped Nearly 6% in a Month; Now Jim Cramer Is Asking Why \u2018Anything Negative in Tech\u2019 Immediately Crushes NVDA - Yahoo Finance",
-        "NVIDIA Corporation $NVDA Stock: CoreCap Advisors LLC Increases Position - MarketBeat",
-        "Nvidia Shares Drop Amid Chip Selloff: What's Happening? - Benzinga",
-        "NVIDIA Corporation (NVDA) stock price, news, quote and history - Yahoo Finance UK",
-        "Nvidia: Brace For The Worst (NASDAQ:NVDA) - Seeking Alpha"
-      ]
-    },
-    "qual": {
-      "priced_in": {
-        "valuation_tier": "Fair Value Range",
-        "priced_in_points": [
-          "P/E ratio reflects balanced market expectations for mid-range growth.",
-          "Forward P/E is 50.3% lower than trailing P/E, pricing in robust earnings recovery/growth.",
-          "PEG ratio of 0.26 suggests stock may be undervalued relative to expected growth."
-        ]
-      },
-      "macro_policy": {
-        "macro_factors": [
-          "Operating in United States under Federal Reserve (FED) interest rate policy environment.",
-          "Consumer sentiment and discretionary spending impact demand during inflation/rate shifts."
-        ],
-        "policy_risks": [
-          "Antitrust oversight, data privacy laws, and international tariff trade policies affect cross-border supply chains."
-        ]
-      },
-      "moat": {
-        "moat_tier": "Wide Moat",
-        "moat_score": 100.0,
-        "reasons": [
-          "Strong Return on Equity (ROE: 117.2%), indicating high capital efficiency and competitive advantage.",
-          "High net profit margin (63.7%), demonstrating pricing power.",
-          "Mega-cap scale ($4.94T) provides massive distribution and cost advantages."
-        ]
-      },
-      "qualitative_score": 80.0
-    },
-    "sig": {
-      "composite_score": 75.5,
-      "signal": "BUY",
-      "confidence_pct": 64.5,
-      "pillar_scores": {
-        "fundamentals": 100.0,
-        "valuation": 80.0,
-        "technicals": 28.5,
-        "sentiment": 48.5,
-        "analyst": 100.0,
-        "macro_moat": 80.0
-      },
-      "key_positives": [
-        "Exceptional Return on Equity (117.2%)",
-        "High profit margin (63.7%)",
-        "Strong YoY revenue growth (105.9%)",
-        "Low debt-to-equity ratio (17.0)"
-      ],
-      "key_risks": [
-        "Price is 7.7% below 50-day SMA (Bearish)"
       ]
     }
   },
@@ -588,7 +579,7 @@
       "volume": 450884426,
       "avg_volume": 107654975,
       "pe_ratio": null,
-      "forward_pe": 31.33637,
+      "forward_pe": 32.97348,
       "peg_ratio": 1.36,
       "price_to_sales": 5.8357444,
       "price_to_book": 3.0386765,
@@ -596,7 +587,7 @@
       "market_cap": 349514399744,
       "enterprise_value": 361956605952,
       "eps_trailing": -2.42,
-      "eps_forward": 2.09852,
+      "eps_forward": 1.99433,
       "earnings_growth": -0.333,
       "revenue_growth": 0.209,
       "total_revenue": 59891998720,
@@ -614,24 +605,24 @@
       "dividend_yield_pct": 0.0,
       "payout_ratio": 0.0,
       "target_low": 70.0,
-      "target_mean": 107.21429,
+      "target_mean": 101.02326,
       "target_high": 165.0,
-      "target_median": 100.0,
+      "target_median": 96.0,
       "recommendation_key": "hold",
-      "recommendation_mean": 2.60417,
-      "number_of_analysts": 42,
-      "implied_upside_pct": 63.038762165450116,
+      "recommendation_mean": 2.57143,
+      "number_of_analysts": 43,
+      "implied_upside_pct": 53.62417883211676,
       "rec_breakdown": {
         "strongBuy": 1,
-        "buy": 10,
+        "buy": 11,
         "hold": 36,
         "sell": 1,
         "strongSell": 0
       },
       "next_earnings_date": "2027-01-28",
-      "earnings_high_est": 0.25,
+      "earnings_high_est": 0.26,
       "earnings_low_est": 0.21,
-      "earnings_avg_est": 0.2431,
+      "earnings_avg_est": 0.24795,
       "_ticker_obj": "yfinance.Ticker object <INTC>"
     },
     "tech": {
@@ -666,42 +657,42 @@
       ]
     },
     "sent": {
-      "combined_polarity": -0.065,
-      "sentiment_score": 47.4,
+      "combined_polarity": -0.046,
+      "sentiment_score": 48.2,
       "label": "NEUTRAL",
       "news_stats": {
-        "polarity": -0.1046031746031746,
-        "subjectivity": 0.18619047619047618,
-        "positive_count": 1,
+        "polarity": -0.03861111111111112,
+        "subjectivity": 0.17996031746031746,
+        "positive_count": 2,
         "negative_count": 3,
-        "neutral_count": 11,
+        "neutral_count": 10,
         "total": 15
       },
       "reddit_stats": {
-        "polarity": 0.026944444444444448,
-        "subjectivity": 0.47638888888888886,
+        "polarity": -0.06405555555555553,
+        "subjectivity": 0.5630555555555555,
         "positive_count": 3,
-        "negative_count": 3,
-        "neutral_count": 4,
+        "negative_count": 4,
+        "neutral_count": 3,
         "total": 10
       },
       "headline_count": 25,
       "positive_highlights": [
         "The 'Magnificent 7' stocks are seeing stunning declines - Reddit",
         "Intel currently represents one of the best stock opportunities for 2025 - Reddit",
-        "INTC Stock Before Q3 Earnings: Is It a Smart Buy or Risky Move? - Yahoo Finance"
+        "Intel Q3: The Market Is Right (Rating Upgrade) (NASDAQ:INTC) - Seeking Alpha"
       ],
       "negative_highlights": [
+        "Intel: I'm Considering Doubling Down (Earnings Review) (NASDAQ:INTC) - Seeking Alpha",
         "Why is INTC (Intel) so down? Did I miss some news? - Reddit",
-        "Intel stock plunges 16% as chipmaker blames PC slowdown for weak guidance - Reddit",
-        "Intel plunges 29% on weak Q4 guidance (INTC:NASDAQ) - Seeking Alpha"
+        "Intel (NASDAQ:INTC) Stock Crashes 17% After Earnings as Weak Q4 Outlook Sparks Selloff - Stocks Down Under"
       ],
       "recent_headlines": [
+        "Intel Corporation (INTC) stock price, news, quote and history - Yahoo Finance UK",
+        "Intel Suffers Worst Stock Thrashing in Decades on Weak Forecast - Bloomberg.com",
         "SA Asks: Is Intel's stock a buy, hold, or sell after the monster sell-off? (INTC:NASDAQ) - Seeking Alpha",
-        "Intel Q3 Earnings Tomorrow: Options Traders Expect a 9.4% Move in INTC Stock - TipRanks",
-        "Intel Q3 earnings on deck: What to expect (INTC:NASDAQ) - Seeking Alpha",
-        "Intel Corporation (INTC) Stock Price, News, Quote & History - Yahoo! Finance Canada",
-        "Intel Suffers Worst Stock Thrashing in Decades on Weak Forecast - Bloomberg.com"
+        "Intel Corporation $INTC Stock: Avestar Capital LLC Reduces Position - MarketBeat",
+        "Intel (NASDAQ:INTC) Stock Crashes 17% After Earnings as Weak Q4 Outlook Sparks Selloff - Stocks Down Under"
       ]
     },
     "qual": {
@@ -732,14 +723,14 @@
       "qualitative_score": 41.0
     },
     "sig": {
-      "composite_score": 56.0,
+      "composite_score": 56.1,
       "signal": "HOLD",
-      "confidence_pct": 75.6,
+      "confidence_pct": 75.7,
       "pillar_scores": {
         "fundamentals": 63.0,
         "valuation": 50.0,
         "technicals": 42.0,
-        "sentiment": 47.4,
+        "sentiment": 48.2,
         "analyst": 85.0,
         "macro_moat": 41.0
       },
@@ -747,7 +738,7 @@
         "Strong YoY revenue growth (20.9%)",
         "Low debt-to-equity ratio (38.1)",
         "Positive free cash flow generation",
-        "Significant price target upside (+63.0%)"
+        "Significant price target upside (+53.6%)"
       ],
       "key_risks": [
         "Subpar Return on Equity (-9.6%)",
@@ -778,7 +769,7 @@
       "avg_volume": 21380817,
       "pe_ratio": 128.7755,
       "forward_pe": 31.736631,
-      "peg_ratio": 0.56,
+      "peg_ratio": 0.5,
       "price_to_sales": 19.950935,
       "price_to_book": 12.255103,
       "ev_to_ebitda": 85.258,
@@ -854,15 +845,15 @@
       ]
     },
     "sent": {
-      "combined_polarity": 0.212,
-      "sentiment_score": 58.5,
+      "combined_polarity": 0.106,
+      "sentiment_score": 54.2,
       "label": "BULLISH",
       "news_stats": {
-        "polarity": 0.2702116402116402,
-        "subjectivity": 0.5148677248677248,
-        "positive_count": 13,
+        "polarity": 0.11910052910052908,
+        "subjectivity": 0.23486772486772486,
+        "positive_count": 6,
         "negative_count": 0,
-        "neutral_count": 2,
+        "neutral_count": 9,
         "total": 15
       },
       "reddit_stats": {
@@ -876,8 +867,8 @@
       "headline_count": 25,
       "positive_highlights": [
         "Driver from Microsoft via Windows Updates: Advanced Micro Devices, Inc. - SCSIAdapter - 9.3.0.221 is still being pushed! - Reddit",
-        "Advanced Micro Devices, Inc. $AMD Shares Sold by Avestar Capital LLC - MarketBeat",
-        "Advanced Micro Devices Inc (AMD) Shares Surge 5.5% -- What GF Sc - GuruFocus"
+        "Advanced Micro Devices, Inc. $AMD Stock: Kurv Investment Management LLC Boosts Stake - MarketBeat",
+        "Driver from Microsoft via Windows Updates: Advanced Micro Devices, Inc. - SCSIAdapter - 9.3.0.221 Warning - Reddit"
       ],
       "negative_highlights": [
         "Windows Updated automatically updating AMD drivers is enough for me to go back to team Green - Reddit",
@@ -885,11 +876,11 @@
         "Intel stock plunges 16% as chipmaker blames PC slowdown for weak guidance - Reddit"
       ],
       "recent_headlines": [
-        "Advanced Micro Devices slides 13% as part of tech selloff (AMD:NASDAQ) - Seeking Alpha",
-        "Advanced Micro Devices, Inc. $AMD Stock: CFC Planning Co LLC Grows Position - MarketBeat",
-        "Investors Heavily Search Advanced Micro Devices, Inc. (AMD): Here is What You Need to Know - Yahoo Finance",
-        "American chip billionaire Lisa Su's AMD to invest $1 billion in Meta - Billionaires.Africa",
-        "Advanced Micro Devices, Inc. $AMD Stock: Kurv Investment Management LLC Boosts Stake - MarketBeat"
+        "AMD\u2019s stock slides after Intel earnings reveal two big issues - MarketWatch",
+        "Forget Anthropic's IPO, I'm Buying AMD (NASDAQ:AMD) - Seeking Alpha",
+        "Intel Drags Down CPU Rivals. Is it a Buying Opportunity for AMD and Arm? - The Motley Fool",
+        "Advanced Micro Devices, Inc. $AMD Stock: Kurv Investment Management LLC Boosts Stake - MarketBeat",
+        "AMD Stock Fell 11% in a Day Ahead of Its November 3 Report. Here\u2019s Why Intel\u2019s 78% Data Center Jump Matters More to AMD Than Its PC Warning - TIKR.com"
       ]
     },
     "qual": {
@@ -898,7 +889,7 @@
         "priced_in_points": [
           "High P/E ratio indicates market has priced in strong future earnings acceleration.",
           "Forward P/E is 75.4% lower than trailing P/E, pricing in robust earnings recovery/growth.",
-          "PEG ratio of 0.56 suggests stock may be undervalued relative to expected growth."
+          "PEG ratio of 0.50 suggests stock may be undervalued relative to expected growth."
         ]
       },
       "macro_policy": {
@@ -921,14 +912,14 @@
       "qualitative_score": 68.0
     },
     "sig": {
-      "composite_score": 68.0,
+      "composite_score": 67.4,
       "signal": "BUY",
-      "confidence_pct": 66.5,
+      "confidence_pct": 66.1,
       "pillar_scores": {
         "fundamentals": 93.0,
         "valuation": 50.0,
         "technicals": 28.1,
-        "sentiment": 58.5,
+        "sentiment": 54.2,
         "analyst": 100.0,
         "macro_moat": 68.0
       },
@@ -936,7 +927,7 @@
         "Strong YoY revenue growth (50.1%)",
         "Low debt-to-equity ratio (6.4)",
         "Positive free cash flow generation",
-        "Favorable PEG ratio (0.56x < 1.0)"
+        "Favorable PEG ratio (0.50x < 1.0)"
       ],
       "key_risks": [
         "High P/E ratio (128.8x)",
@@ -995,12 +986,12 @@
       "target_high": 500.0,
       "target_median": 400.0,
       "recommendation_key": "strong_buy",
-      "recommendation_mean": 1.36207,
+      "recommendation_mean": 1.34483,
       "number_of_analysts": 52,
       "implied_upside_pct": 45.2787557175529,
       "rec_breakdown": {
-        "strongBuy": 11,
-        "buy": 42,
+        "strongBuy": 10,
+        "buy": 43,
         "hold": 5,
         "sell": 0,
         "strongSell": 0
@@ -1015,19 +1006,19 @@
       "latest_price": 279.84,
       "sma_20": 333.9065002441406,
       "sma_50": 339.02782287597654,
-      "sma_200": 340.3424716186523,
+      "sma_200": 340.3424711608887,
       "rsi_14": 14.105599457465374,
       "rsi_status": "OVERSOLD",
       "macd_data": {
-        "macd": -12.232205696807569,
-        "signal": -6.00559789747494,
-        "histogram": -6.226607799332628,
+        "macd": -12.23220569681132,
+        "signal": -6.005597897480431,
+        "histogram": -6.226607799330889,
         "crossover": "BEARISH"
       },
       "cross_status": "DEATH_CROSS",
-      "fifty_two_week_pos_pct": 7.126527477899256,
+      "fifty_two_week_pos_pct": 7.126547576409436,
       "high_52": 408.10376741205215,
-      "low_52": 269.99784337488455,
+      "low_52": 269.997813487729,
       "returns": {
         "1m": -18.53275109170306,
         "3m": -25.852012220376263,
@@ -1043,42 +1034,37 @@
       ]
     },
     "sent": {
-      "combined_polarity": -0.194,
-      "sentiment_score": 42.2,
+      "combined_polarity": -0.163,
+      "sentiment_score": 43.5,
       "label": "BEARISH",
       "news_stats": {
-        "polarity": -0.21333333333333335,
-        "subjectivity": 0.25666666666666665,
-        "positive_count": 1,
+        "polarity": -0.23333333333333334,
+        "subjectivity": 0.30666666666666664,
+        "positive_count": 0,
         "negative_count": 5,
-        "neutral_count": 9,
+        "neutral_count": 10,
         "total": 15
       },
       "reddit_stats": {
-        "polarity": -0.14875,
-        "subjectivity": 0.2475,
-        "positive_count": 2,
-        "negative_count": 3,
-        "neutral_count": 5,
-        "total": 10
+        "polarity": 0.0,
+        "subjectivity": 0.0,
+        "positive_count": 0,
+        "negative_count": 0,
+        "neutral_count": 0
       },
-      "headline_count": 25,
-      "positive_highlights": [
-        "Alphabet: After A 12% Drop, The Parts Are Worth About $337 A Share - Seeking Alpha",
-        "GOOGL price on P/E multiple ranges over last 3-years. Fair entry or still stretched? - Reddit",
-        "Alphabet's free cash flow sinks further, Q3 capex expectations miss in worrying sign for AI trade - Reddit"
-      ],
+      "headline_count": 15,
+      "positive_highlights": [],
       "negative_highlights": [
         "Alphabet stock sinks as search woes cause revenue miss, cash burn worsens - Reuters",
-        "The market is having a degoogle day: Alphabet loses $482 billion in market value, the biggest drop in its history - Reddit",
-        "Alphabet tanks nearly 13% for worst day ever, losing $500 billion in value - Reddit"
+        "Dear Market, You Got Alphabet Stock Wrong (NASDAQ:GOOG) - Seeking Alpha",
+        "Google stock gets shredded after earnings\u2014here's 2 reasons why investors hated the quarter - Yahoo Finance"
       ],
       "recent_headlines": [
-        "Alphabet shares record their worst day ever, shedding $500 billion in value - NBC News",
         "Google Erases a Record $500 Billion as AI Eats Into Sales - Bloomberg.com",
         "Shares of Google\u2019s parent company just had their worst day ever. Here\u2019s what it means - CNN",
-        "Google stock gets shredded after earnings\u2014here's 2 reasons why investors hated the quarter - Yahoo Finance",
-        "SA Asks: Is Alphabet's stock a buy after the sell-off? (Update) (GOOG:NASDAQ) - Seeking Alpha"
+        "Alphabet: The 30% Earnings Miss That Wasn't - Seeking Alpha",
+        "Alphabet shares record their worst day ever, shedding $500 billion in value - NBC News",
+        "Google stock gets shredded after earnings\u2014here's 2 reasons why investors hated the quarter - Yahoo Finance"
       ]
     },
     "qual": {
@@ -1111,14 +1097,14 @@
       "qualitative_score": 80.0
     },
     "sig": {
-      "composite_score": 73.4,
+      "composite_score": 73.6,
       "signal": "BUY",
-      "confidence_pct": 61.6,
+      "confidence_pct": 61.9,
       "pillar_scores": {
         "fundamentals": 95.0,
         "valuation": 85.0,
         "technicals": 22.0,
-        "sentiment": 42.2,
+        "sentiment": 43.5,
         "analyst": 100.0,
         "macro_moat": 80.0
       },
