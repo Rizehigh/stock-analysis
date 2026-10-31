@@ -19,30 +19,30 @@
       "fifty_two_week_low": 89.28,
       "volume": 33255690,
       "avg_volume": 6451723,
-      "pe_ratio": 21.332558,
+      "pe_ratio": 18.72041,
       "forward_pe": 9.474507,
-      "peg_ratio": 0.65,
-      "price_to_sales": 6.3510575,
-      "price_to_book": 5.978233,
-      "ev_to_ebitda": 27.659,
+      "peg_ratio": 0.46,
+      "price_to_sales": 5.71357,
+      "price_to_book": 4.932516,
+      "ev_to_ebitda": 15.855,
       "market_cap": 17648533504,
-      "enterprise_value": 22169098240,
-      "eps_trailing": 4.3,
+      "enterprise_value": 14664895488,
+      "eps_trailing": 4.9,
       "eps_forward": 9.68177,
-      "earnings_growth": 1.778,
-      "revenue_growth": 0.611,
-      "total_revenue": 2778833920,
-      "net_income": 871094976,
-      "profit_margins": 0.31348,
-      "operating_margins": 0.28788,
-      "return_on_equity": 0.30712,
-      "return_on_assets": 0.15653,
-      "total_debt": 20867000,
-      "total_cash": 2786356992,
-      "debt_to_equity": 0.635,
-      "current_ratio": 10.486,
-      "quick_ratio": 10.175,
-      "free_cash_flow": 678068736,
+      "earnings_growth": 0.745,
+      "revenue_growth": 0.53,
+      "total_revenue": 3088880128,
+      "net_income": 991696000,
+      "profit_margins": 0.32105,
+      "operating_margins": 0.29229,
+      "return_on_equity": 0.32029998,
+      "return_on_assets": 0.16598,
+      "total_debt": 31409000,
+      "total_cash": 3033432064,
+      "debt_to_equity": 0.877,
+      "current_ratio": 10.796,
+      "quick_ratio": 10.536,
+      "free_cash_flow": 769023232,
       "dividend_yield_pct": 0.0,
       "payout_ratio": 0.0,
       "target_low": 130.0,
@@ -98,29 +98,29 @@
       ]
     },
     "sent": {
-      "combined_polarity": -0.051,
-      "sentiment_score": 48.0,
+      "combined_polarity": -0.072,
+      "sentiment_score": 47.1,
       "label": "NEUTRAL",
       "news_stats": {
-        "polarity": -0.1294949494949495,
-        "subjectivity": 0.3035353535353535,
+        "polarity": -0.12949494949494947,
+        "subjectivity": 0.37020202020202025,
         "positive_count": 3,
         "negative_count": 5,
         "neutral_count": 7,
         "total": 15
       },
       "reddit_stats": {
-        "polarity": 0.1325,
-        "subjectivity": 0.225,
+        "polarity": 0.06375,
+        "subjectivity": 0.30625,
         "positive_count": 3,
-        "negative_count": 0,
-        "neutral_count": 7,
+        "negative_count": 1,
+        "neutral_count": 6,
         "total": 10
       },
       "headline_count": 25,
       "positive_highlights": [
         "Welcome to Reddit - Reddit",
-        "Reddit Q3 Earnings Beat on Ad Growth and Strong Monetization - TradingView",
+        "Reddit Q3 Earnings Beat on Ad Growth and Strong Monetization - Yahoo Finance",
         "/r/Memes the original since 2008 - Reddit"
       ],
       "negative_highlights": [
@@ -130,10 +130,10 @@
       ],
       "recent_headlines": [
         "Reddit\u2019s Stock Sinks After Earnings. Here\u2019s Why. - Barron's",
-        "RDDT Stock Drops As Soft Q4 Revenue Guidance, Search Traffic Decline And Logged-In-Only Transition Weigh - Yahoo Finance",
         "Reddit Inc. (RDDT) Q3 Earnings and Revenues Beat Estimates - Yahoo Finance",
         "Reddit shares plunge 26% despite earnings beat as user growth and outlook disappoint - Yahoo Finance",
-        "Reddit shares sink on weak sales guidance and plans login requirement test as Google search traffic shrinks - CNBC"
+        "Reddit shares sink on weak sales guidance and plans login requirement test as Google search traffic shrinks - CNBC",
+        "Reddit falls 29% to new 52-week low on weak Q4 guidance (RDDT:NYSE) - Seeking Alpha"
       ]
     },
     "qual": {
@@ -141,8 +141,8 @@
         "valuation_tier": "Fair Value Range",
         "priced_in_points": [
           "P/E ratio reflects balanced market expectations for mid-range growth.",
-          "Forward P/E is 55.6% lower than trailing P/E, pricing in robust earnings recovery/growth.",
-          "PEG ratio of 0.65 suggests stock may be undervalued relative to expected growth."
+          "Forward P/E is 49.4% lower than trailing P/E, pricing in robust earnings recovery/growth.",
+          "PEG ratio of 0.46 suggests stock may be undervalued relative to expected growth."
         ]
       },
       "macro_policy": {
@@ -158,29 +158,29 @@
         "moat_tier": "Wide Moat",
         "moat_score": 85.0,
         "reasons": [
-          "Strong Return on Equity (ROE: 30.7%), indicating high capital efficiency and competitive advantage.",
-          "High net profit margin (31.3%), demonstrating pricing power."
+          "Strong Return on Equity (ROE: 32.0%), indicating high capital efficiency and competitive advantage.",
+          "High net profit margin (32.1%), demonstrating pricing power."
         ]
       },
       "qualitative_score": 71.0
     },
     "sig": {
-      "composite_score": 74.1,
+      "composite_score": 74.0,
       "signal": "BUY",
-      "confidence_pct": 62.6,
+      "confidence_pct": 62.5,
       "pillar_scores": {
         "fundamentals": 100.0,
         "valuation": 85.0,
         "technicals": 22.0,
-        "sentiment": 48.0,
+        "sentiment": 47.1,
         "analyst": 97.0,
         "macro_moat": 71.0
       },
       "key_positives": [
-        "Exceptional Return on Equity (30.7%)",
-        "High profit margin (31.3%)",
-        "Strong YoY revenue growth (61.1%)",
-        "Low debt-to-equity ratio (0.6)"
+        "Exceptional Return on Equity (32.0%)",
+        "High profit margin (32.1%)",
+        "Strong YoY revenue growth (53.0%)",
+        "Low debt-to-equity ratio (0.9)"
       ],
       "key_risks": [
         "Price is 39.0% below 50-day SMA (Bearish)",
@@ -211,27 +211,27 @@
       "pe_ratio": null,
       "forward_pe": 31.33637,
       "peg_ratio": 1.36,
-      "price_to_sales": 6.122626,
+      "price_to_sales": 5.8302546,
       "price_to_book": 2.8736234,
-      "ev_to_ebitda": 29.739,
+      "ev_to_ebitda": 18.837,
       "market_cap": 349185605632,
-      "enterprise_value": 500812087296,
-      "eps_trailing": -2.12,
+      "enterprise_value": 361956605952,
+      "eps_trailing": -2.42,
       "eps_forward": 2.09852,
-      "earnings_growth": null,
-      "revenue_growth": 0.254,
-      "total_revenue": 57031999488,
-      "net_income": -11288999936,
-      "profit_margins": -0.19794,
-      "operating_margins": 0.12189999,
-      "return_on_equity": -0.10715,
-      "return_on_assets": 0.0141199995,
-      "total_debt": 50537000960,
-      "total_cash": 29727000576,
-      "debt_to_equity": 48.997,
-      "current_ratio": 1.604,
-      "quick_ratio": 1.157,
-      "free_cash_flow": 4866375168,
+      "earnings_growth": -0.333,
+      "revenue_growth": 0.209,
+      "total_revenue": 59891998720,
+      "net_income": -12032000000,
+      "profit_margins": -0.20089,
+      "operating_margins": 0.156,
+      "return_on_equity": -0.0962,
+      "return_on_assets": 0.01783,
+      "total_debt": 50133999616,
+      "total_cash": 54004998144,
+      "debt_to_equity": 38.108,
+      "current_ratio": 2.208,
+      "quick_ratio": 1.554,
+      "free_cash_flow": 670374976,
       "dividend_yield_pct": 0.0,
       "payout_ratio": 0.0,
       "target_low": 70.0,
@@ -287,30 +287,30 @@
       ]
     },
     "sent": {
-      "combined_polarity": 0.011,
-      "sentiment_score": 50.4,
-      "label": "NEUTRAL",
+      "combined_polarity": -0.082,
+      "sentiment_score": 46.7,
+      "label": "BEARISH",
       "news_stats": {
-        "polarity": 0.0044444444444444505,
-        "subjectivity": 0.2319047619047619,
-        "positive_count": 3,
-        "negative_count": 2,
+        "polarity": -0.08555555555555555,
+        "subjectivity": 0.22190476190476188,
+        "positive_count": 2,
+        "negative_count": 3,
         "neutral_count": 10,
         "total": 15
       },
       "reddit_stats": {
-        "polarity": 0.026944444444444444,
-        "subjectivity": 0.4263888888888888,
-        "positive_count": 3,
-        "negative_count": 3,
+        "polarity": -0.07305555555555557,
+        "subjectivity": 0.4913888888888889,
+        "positive_count": 2,
+        "negative_count": 4,
         "neutral_count": 4,
         "total": 10
       },
       "headline_count": 25,
       "positive_highlights": [
         "The 'Magnificent 7' stocks are seeing stunning declines - Reddit",
-        "Intel: Wait For A Bottom Before Catching This Falling Knife (Rating Upgrade) (NASDAQ:INTC) - Seeking Alpha",
-        "Intel currently represents one of the best stock opportunities for 2025 - Reddit"
+        "Intel Q3: The Market Is Right (Rating Upgrade) (NASDAQ:INTC) - Seeking Alpha",
+        "INTC Stock Before Q3 Earnings: Is It a Smart Buy or Risky Move? - Yahoo Finance"
       ],
       "negative_highlights": [
         "Why is INTC (Intel) so down? Did I miss some news? - Reddit",
@@ -319,10 +319,10 @@
       ],
       "recent_headlines": [
         "SA Asks: Is Intel's stock a buy, hold, or sell after the monster sell-off? (INTC:NASDAQ) - Seeking Alpha",
-        "Intel Q3 Earnings Tomorrow: Options Traders Expect a 9.4% Move in INTC Stock - TipRanks",
-        "Intel Q3 earnings on deck: What to expect (INTC:NASDAQ) - Seeking Alpha",
-        "Intel Suffers Worst Stock Thrashing in Decades on Weak Forecast - Bloomberg.com",
-        "What Are Wall Street Analysts' Target Price for Intel Stock? - Yahoo Finance"
+        "What Are Wall Street Analysts' Target Price for Intel Stock? - Yahoo Finance",
+        "Intel Suffers Worst Stock Thrashing in Decades on Weak Forecast - Bloomberg",
+        "Intel: Don't Bet Your House On Recovery (Rating Upgrade) (NASDAQ:INTC) - Seeking Alpha",
+        "Intel Stock Crashes 23% Overnight and Gets Jim Cramer 'Furious': 'I Am Actually Disappointed' - Yahoo Finance"
       ]
     },
     "qual": {
@@ -345,224 +345,35 @@
         "moat_tier": "Weak / No Moat",
         "moat_score": 35.0,
         "reasons": [
-          "Low Return on Equity (ROE: -10.7%), indicating margin pressure or weak capital efficiency.",
-          "Thin net profit margin (-19.8%), making company vulnerable to cost inflation.",
+          "Low Return on Equity (ROE: -9.6%), indicating margin pressure or weak capital efficiency.",
+          "Thin net profit margin (-20.1%), making company vulnerable to cost inflation.",
           "Mega-cap scale ($349.19B) provides massive distribution and cost advantages."
         ]
       },
       "qualitative_score": 41.0
     },
     "sig": {
-      "composite_score": 56.5,
+      "composite_score": 55.9,
       "signal": "HOLD",
-      "confidence_pct": 75.8,
+      "confidence_pct": 75.5,
       "pillar_scores": {
         "fundamentals": 63.0,
         "valuation": 50.0,
         "technicals": 42.0,
-        "sentiment": 50.4,
+        "sentiment": 46.7,
         "analyst": 85.0,
         "macro_moat": 41.0
       },
       "key_positives": [
-        "Strong YoY revenue growth (25.4%)",
-        "Low debt-to-equity ratio (49.0)",
+        "Strong YoY revenue growth (20.9%)",
+        "Low debt-to-equity ratio (38.1)",
         "Positive free cash flow generation",
         "Significant price target upside (+63.0%)"
       ],
       "key_risks": [
-        "Subpar Return on Equity (-10.7%)",
-        "Thin profit margin (-19.8%)",
+        "Subpar Return on Equity (-9.6%)",
+        "Thin profit margin (-20.1%)",
         "Price is 35.0% below 50-day SMA (Bearish)"
-      ]
-    }
-  },
-  "GOOG": {
-    "data": {
-      "symbol": "GOOG",
-      "company_name": "Alphabet Inc.",
-      "exchange_info": {
-        "country": "United States",
-        "exchange": "NYSE/NASDAQ",
-        "central_bank": "Federal Reserve (FED)",
-        "currency_symbol": "$"
-      },
-      "currency": "USD",
-      "sector": "Communication Services",
-      "industry": "Internet Content & Information",
-      "summary": "Alphabet Inc. offers various products and platforms in the United States, Europe, the Middle East, Africa, the Asia-Pacific, Canada, and Latin America. It operates through Google Services, Google Cloud, and Other Bets segments. The Google Services segment provides products and services, including ads, Android, Chrome, devices, Gmail, Google Drive, Google Maps, Google Photos, Google Play, Search, and YouTube. It is also involved in the sale of apps and in-app purchases and digital content in Google Play and YouTube; and devices, as well as the provision of YouTube consumer subscription services, such as YouTube TV, YouTube Music and Premium, NFL Sunday Ticket, and Google One. The Google Cloud segment offers consumption-based fees and subscriptions for AI solutions, including AI infrastructure, Vertex AI platform, and Gemini enterprise. It also provides cybersecurity, and data and analytics services; Google Workspace that include cloud-based communication and collaboration tools for enterprises, such as Calendar, Gmail, Docs, Drive, and Meet; and other enterprise services. The Other Bets segment sells transportation and internet services. Alphabet Inc. was incorporated in 1998 and is headquartered in Mountain View, California.",
-      "current_price": 278.22,
-      "previous_close": 282.32,
-      "fifty_two_week_high": 404.47,
-      "fifty_two_week_low": 271.41,
-      "volume": 44858799,
-      "avg_volume": 18718618,
-      "pe_ratio": 14.52846,
-      "forward_pe": 18.378113,
-      "peg_ratio": 0.98,
-      "price_to_sales": 7.260563,
-      "price_to_book": 5.1862206,
-      "ev_to_ebitda": 17.923,
-      "market_cap": 3420436561920,
-      "enterprise_value": 3315278807040,
-      "eps_trailing": 19.15,
-      "eps_forward": 15.13866,
-      "earnings_growth": -0.26,
-      "revenue_growth": 0.247,
-      "total_revenue": 471097999360,
-      "net_income": 235310006272,
-      "profit_margins": 0.50031,
-      "operating_margins": 0.31805,
-      "return_on_equity": 0.44286,
-      "return_on_assets": 0.12743,
-      "total_debt": 141916995584,
-      "total_cash": 265098002432,
-      "debt_to_equity": 20.946,
-      "current_ratio": 2.786,
-      "quick_ratio": 2.512,
-      "free_cash_flow": 5517000192,
-      "dividend_yield_pct": 31.0,
-      "payout_ratio": 0.042600002,
-      "target_low": 340.0,
-      "target_mean": 403.86667,
-      "target_high": 460.0,
-      "target_median": 410.0,
-      "recommendation_key": "strong_buy",
-      "recommendation_mean": 1.4,
-      "number_of_analysts": 15,
-      "implied_upside_pct": 45.160905039177614,
-      "rec_breakdown": {
-        "strongBuy": 12,
-        "buy": 42,
-        "hold": 6,
-        "sell": 0,
-        "strongSell": 0
-      },
-      "next_earnings_date": "2026-10-28",
-      "earnings_high_est": 3.72,
-      "earnings_low_est": 2.89611,
-      "earnings_avg_est": 3.26374,
-      "_ticker_obj": "yfinance.Ticker object <GOOG>"
-    },
-    "tech": {
-      "latest_price": 278.22,
-      "sma_20": 330.57349853515626,
-      "sma_50": 335.68581420898437,
-      "sma_200": 338.3882080078125,
-      "rsi_14": 13.254396153397465,
-      "rsi_status": "OVERSOLD",
-      "macd_data": {
-        "macd": -11.96226605205618,
-        "signal": -5.987119777466542,
-        "histogram": -5.975146274589638,
-        "crossover": "BEARISH"
-      },
-      "cross_status": "DEATH_CROSS",
-      "fifty_two_week_pos_pct": 5.640567028423872,
-      "high_52": 403.9644697672297,
-      "low_52": 270.70331525699896,
-      "returns": {
-        "1m": -18.254739235885044,
-        "3m": -25.829059766477435,
-        "6m": -26.623076219751685,
-        "1y": -1.0196914804878165
-      },
-      "technical_score": 22.0,
-      "signals": [
-        "Price is 17.1% below 50-day SMA (Bearish)",
-        "50-day SMA is below 200-day SMA (Death Cross)",
-        "RSI is oversold at 13.3 (Potential Rebound)",
-        "MACD histogram indicates negative bearish momentum"
-      ]
-    },
-    "sent": {
-      "combined_polarity": -0.124,
-      "sentiment_score": 45.1,
-      "label": "BEARISH",
-      "news_stats": {
-        "polarity": -0.17648148148148143,
-        "subjectivity": 0.34703703703703703,
-        "positive_count": 3,
-        "negative_count": 6,
-        "neutral_count": 6,
-        "total": 15
-      },
-      "reddit_stats": {
-        "polarity": 0.0,
-        "subjectivity": 0.0,
-        "positive_count": 0,
-        "negative_count": 0,
-        "neutral_count": 0
-      },
-      "headline_count": 15,
-      "positive_highlights": [
-        "Google value plunges by $500bn as its own AI search hits ad sales - BBC",
-        "GOOG Stock Slides As Earnings Miss And Legal Risks Hit - StocksToTrade",
-        "Google stock faces historic post-earnings slide: Investors rattled by search fears, negative free cash flow - Fast Company"
-      ],
-      "negative_highlights": [
-        "Alphabet Stock Down 12% As AI Hits Google's Core Search Business - State Street SPDR S&P 500 ETF Trust (A - Benzinga",
-        "Google lost nearly half a trillion this week. Here's how Mike Khouw is trading it - CNBC",
-        "Markets spooked as Google reports $1 trillion+ AI bill, negative cash flow - Mashable"
-      ],
-      "recent_headlines": [
-        "Google Erases a Record $500 Billion as AI Eats Into Sales - Bloomberg.com",
-        "Alphabet shares record their worst day ever, shedding $500 billion in value - NBC News",
-        "Google stock gets shredded after earnings\u2014here's 2 reasons why investors hated the quarter - Yahoo Finance",
-        "SA Asks: Is Alphabet's stock a buy after the sell-off? (Update) (GOOG:NASDAQ) - Seeking Alpha",
-        "Alphabet Earnings: Why Google Stock Is Falling - Barron's"
-      ]
-    },
-    "qual": {
-      "priced_in": {
-        "valuation_tier": "Value / Low Expectation",
-        "priced_in_points": [
-          "Low P/E ratio suggests market is pricing in modest growth or cyclical headwinds.",
-          "Forward P/E is higher than trailing P/E, pricing in potential earnings contraction.",
-          "PEG ratio of 0.98 suggests stock may be undervalued relative to expected growth."
-        ]
-      },
-      "macro_policy": {
-        "macro_factors": [
-          "Operating in United States under Federal Reserve (FED) interest rate policy environment.",
-          "Performance closely aligned with overall United States economic trajectory."
-        ],
-        "policy_risks": [
-          "Standard corporate governance and trade policy conditions apply."
-        ]
-      },
-      "moat": {
-        "moat_tier": "Wide Moat",
-        "moat_score": 100.0,
-        "reasons": [
-          "Strong Return on Equity (ROE: 44.3%), indicating high capital efficiency and competitive advantage.",
-          "High net profit margin (50.0%), demonstrating pricing power.",
-          "Mega-cap scale ($3.42T) provides massive distribution and cost advantages."
-        ]
-      },
-      "qualitative_score": 80.0
-    },
-    "sig": {
-      "composite_score": 75.1,
-      "signal": "BUY",
-      "confidence_pct": 61.3,
-      "pillar_scores": {
-        "fundamentals": 100.0,
-        "valuation": 85.0,
-        "technicals": 22.0,
-        "sentiment": 45.1,
-        "analyst": 100.0,
-        "macro_moat": 80.0
-      },
-      "key_positives": [
-        "Exceptional Return on Equity (44.3%)",
-        "High profit margin (50.0%)",
-        "Strong YoY revenue growth (24.7%)",
-        "Low debt-to-equity ratio (20.9)"
-      ],
-      "key_risks": [
-        "Price is 17.1% below 50-day SMA (Bearish)",
-        "50-day SMA is below 200-day SMA (Death Cross)"
       ]
     }
   },
@@ -664,42 +475,40 @@
       ]
     },
     "sent": {
-      "combined_polarity": 0.191,
-      "sentiment_score": 57.6,
-      "label": "BULLISH",
+      "combined_polarity": 0.051,
+      "sentiment_score": 52.0,
+      "label": "NEUTRAL",
       "news_stats": {
-        "polarity": 0.2397346480679814,
-        "subjectivity": 0.46270161936828597,
-        "positive_count": 13,
-        "negative_count": 0,
-        "neutral_count": 2,
+        "polarity": 0.07296296296296295,
+        "subjectivity": 0.2525925925925926,
+        "positive_count": 4,
+        "negative_count": 2,
+        "neutral_count": 9,
         "total": 15
       },
       "reddit_stats": {
-        "polarity": 0.07583333333333334,
-        "subjectivity": 0.3691666666666667,
-        "positive_count": 3,
-        "negative_count": 3,
-        "neutral_count": 4,
-        "total": 10
+        "polarity": 0.0,
+        "subjectivity": 0.0,
+        "positive_count": 0,
+        "negative_count": 0,
+        "neutral_count": 0
       },
-      "headline_count": 25,
+      "headline_count": 15,
       "positive_highlights": [
-        "Driver from Microsoft via Windows Updates: Advanced Micro Devices, Inc. - SCSIAdapter - 9.3.0.221 is still being pushed! - Reddit",
-        "Advanced Micro Devices (AMD) Stock Forecast & Analyst Ratings - Moomoo",
-        "Advanced Micro Devices Stock Outlook: Is Wall Street Bullish or Bearish? - Yahoo Finance"
+        "AMD Reports on Nov. 3. Here's What You Should Do Before Then. - The Motley Fool",
+        "Advanced Micro Devices, Inc. $AMD Stock: CFC Planning Co LLC Grows Position - MarketBeat",
+        "Cathie Wood\u2019s Latest AMD Move Means Absolutely Nothing - 24/7 Wall St."
       ],
       "negative_highlights": [
-        "Windows Updated automatically updating AMD drivers is enough for me to go back to team Green - Reddit",
-        "Windows Update just suggested me 2.2.0.121 \"System\" software from AMD. Anyone else with this? Curious why it shows up with fully updated AM4 drivers. - Reddit",
-        "Intel stock plunges 16% as chipmaker blames PC slowdown for weak guidance - Reddit"
+        "Why Are Semiconductor Stocks Falling Today? Intel Crashes 28%, AMD and Nvidia Slide - Stocks Down Under",
+        "AMD Has Ripped 170% This Year: Is It Too Late to Buy? - Yahoo Finance"
       ],
       "recent_headlines": [
-        "Advanced Micro Devices slides 13% as part of tech selloff (AMD:NASDAQ) - Seeking Alpha",
-        "Advanced Micro Devices (NASDAQ:AMD) Stock Price Down 10.9% - What's Next? - MarketBeat",
-        "Advanced Micro Devices Inc (AMD) Shares Surge 5.5% -- What GF Sc - GuruFocus",
-        "Investors Heavily Search Advanced Micro Devices, Inc. (AMD): Here is What You Need to Know - Yahoo Finance",
-        "Advanced Micro Devices Inc Stock (AMD) Moved Down by 9.22% on Oct 30: What Investors Need To Know - TradingKey"
+        "AMD\u2019s stock slides after Intel earnings reveal two big issues - MarketWatch",
+        "Forget Anthropic's IPO, I'm Buying AMD (NASDAQ:AMD) - Seeking Alpha",
+        "AMD Reports on Nov. 3. Here's What You Should Do Before Then. - The Motley Fool",
+        "Cathie Wood\u2019s Latest AMD Move Means Absolutely Nothing - 24/7 Wall St.",
+        "Advanced Micro Devices, Inc. $AMD Stock: CFC Planning Co LLC Grows Position - MarketBeat"
       ]
     },
     "qual": {
@@ -731,14 +540,14 @@
       "qualitative_score": 68.0
     },
     "sig": {
-      "composite_score": 67.9,
+      "composite_score": 67.1,
       "signal": "BUY",
-      "confidence_pct": 66.4,
+      "confidence_pct": 65.9,
       "pillar_scores": {
         "fundamentals": 93.0,
         "valuation": 50.0,
         "technicals": 28.1,
-        "sentiment": 57.6,
+        "sentiment": 52.0,
         "analyst": 100.0,
         "macro_moat": 68.0
       },
@@ -751,6 +560,197 @@
       "key_risks": [
         "High P/E ratio (128.8x)",
         "Price is 7.9% below 50-day SMA (Bearish)"
+      ]
+    }
+  },
+  "GOOG": {
+    "data": {
+      "symbol": "GOOG",
+      "company_name": "Alphabet Inc.",
+      "exchange_info": {
+        "country": "United States",
+        "exchange": "NYSE/NASDAQ",
+        "central_bank": "Federal Reserve (FED)",
+        "currency_symbol": "$"
+      },
+      "currency": "USD",
+      "sector": "Communication Services",
+      "industry": "Internet Content & Information",
+      "summary": "Alphabet Inc. offers various products and platforms in the United States, Europe, the Middle East, Africa, the Asia-Pacific, Canada, and Latin America. It operates through Google Services, Google Cloud, and Other Bets segments. The Google Services segment provides products and services, including ads, Android, Chrome, devices, Gmail, Google Drive, Google Maps, Google Photos, Google Play, Search, and YouTube. It is also involved in the sale of apps and in-app purchases and digital content in Google Play and YouTube; and devices, as well as the provision of YouTube consumer subscription services, such as YouTube TV, YouTube Music and Premium, NFL Sunday Ticket, and Google One. The Google Cloud segment offers consumption-based fees and subscriptions for AI solutions, including AI infrastructure, Vertex AI platform, and Gemini enterprise. It also provides cybersecurity, and data and analytics services; Google Workspace that include cloud-based communication and collaboration tools for enterprises, such as Calendar, Gmail, Docs, Drive, and Meet; and other enterprise services. The Other Bets segment sells transportation and internet services. Alphabet Inc. was incorporated in 1998 and is headquartered in Mountain View, California.",
+      "current_price": 278.22,
+      "previous_close": 282.32,
+      "fifty_two_week_high": 404.47,
+      "fifty_two_week_low": 271.41,
+      "volume": 44858799,
+      "avg_volume": 18718618,
+      "pe_ratio": 14.52846,
+      "forward_pe": 18.378113,
+      "peg_ratio": 0.98,
+      "price_to_sales": 7.260563,
+      "price_to_book": 5.1862206,
+      "ev_to_ebitda": 17.916,
+      "market_cap": 3420436561920,
+      "enterprise_value": 3323692580864,
+      "eps_trailing": 19.15,
+      "eps_forward": 15.13866,
+      "earnings_growth": -0.253,
+      "revenue_growth": 0.247,
+      "total_revenue": 471097999360,
+      "net_income": 235693621248,
+      "profit_margins": 0.50031,
+      "operating_margins": 0.31805,
+      "return_on_equity": 0.44286,
+      "return_on_assets": 0.12743,
+      "total_debt": 150330998784,
+      "total_cash": 265098002432,
+      "debt_to_equity": 22.187,
+      "current_ratio": 2.786,
+      "quick_ratio": 2.512,
+      "free_cash_flow": -1162499968,
+      "dividend_yield_pct": 32.0,
+      "payout_ratio": 0.042600002,
+      "target_low": 340.0,
+      "target_mean": 403.86667,
+      "target_high": 460.0,
+      "target_median": 410.0,
+      "recommendation_key": "strong_buy",
+      "recommendation_mean": 1.4,
+      "number_of_analysts": 15,
+      "implied_upside_pct": 45.160905039177614,
+      "rec_breakdown": {
+        "strongBuy": 12,
+        "buy": 42,
+        "hold": 6,
+        "sell": 0,
+        "strongSell": 0
+      },
+      "next_earnings_date": "2026-10-28",
+      "earnings_high_est": 3.72,
+      "earnings_low_est": 2.89611,
+      "earnings_avg_est": 3.26374,
+      "_ticker_obj": "yfinance.Ticker object <GOOG>"
+    },
+    "tech": {
+      "latest_price": 278.22,
+      "sma_20": 330.57349853515626,
+      "sma_50": 335.68581420898437,
+      "sma_200": 338.3882080078125,
+      "rsi_14": 13.254396153397465,
+      "rsi_status": "OVERSOLD",
+      "macd_data": {
+        "macd": -11.962266052056293,
+        "signal": -5.98711977746671,
+        "histogram": -5.975146274589583,
+        "crossover": "BEARISH"
+      },
+      "cross_status": "DEATH_CROSS",
+      "fifty_two_week_pos_pct": 5.640567028423872,
+      "high_52": 403.9644697672297,
+      "low_52": 270.70331525699896,
+      "returns": {
+        "1m": -18.254739235885044,
+        "3m": -25.829059766477435,
+        "6m": -26.623076219751685,
+        "1y": -1.0197022267956712
+      },
+      "technical_score": 22.0,
+      "signals": [
+        "Price is 17.1% below 50-day SMA (Bearish)",
+        "50-day SMA is below 200-day SMA (Death Cross)",
+        "RSI is oversold at 13.3 (Potential Rebound)",
+        "MACD histogram indicates negative bearish momentum"
+      ]
+    },
+    "sent": {
+      "combined_polarity": -0.149,
+      "sentiment_score": 44.0,
+      "label": "BEARISH",
+      "news_stats": {
+        "polarity": -0.1498148148148148,
+        "subjectivity": 0.3137037037037037,
+        "positive_count": 3,
+        "negative_count": 5,
+        "neutral_count": 7,
+        "total": 15
+      },
+      "reddit_stats": {
+        "polarity": -0.14875,
+        "subjectivity": 0.2475,
+        "positive_count": 2,
+        "negative_count": 3,
+        "neutral_count": 5,
+        "total": 10
+      },
+      "headline_count": 25,
+      "positive_highlights": [
+        "Ahead of Earnings, Is Alphabet Stock a Buy, a Sell, or Fairly Valued? - Morningstar",
+        "GOOG Stock Slides As Earnings Miss And Legal Risks Hit - StocksToTrade",
+        "GOOGL price on P/E multiple ranges over last 3-years. Fair entry or still stretched? - Reddit"
+      ],
+      "negative_highlights": [
+        "Alphabet Stock Down 12% As AI Hits Google's Core Search Business - State Street SPDR S&P 500 ETF Trust (A - Benzinga",
+        "Google lost nearly half a trillion this week. Here's how Mike Khouw is trading it - CNBC",
+        "The market is having a degoogle day: Alphabet loses $482 billion in market value, the biggest drop in its history - Reddit"
+      ],
+      "recent_headlines": [
+        "Google Erases a Record $500 Billion as AI Eats Into Sales - Bloomberg",
+        "Alphabet shares record their worst day ever, shedding $500 billion in value - NBC News",
+        "Google stock gets shredded after earnings\u2014here's 2 reasons why investors hated the quarter - Yahoo Finance",
+        "Alphabet: Generational Buy Opportunity (NASDAQ:GOOG) - Seeking Alpha",
+        "Alphabet Earnings: Why Google Stock Is Falling - Barron's"
+      ]
+    },
+    "qual": {
+      "priced_in": {
+        "valuation_tier": "Value / Low Expectation",
+        "priced_in_points": [
+          "Low P/E ratio suggests market is pricing in modest growth or cyclical headwinds.",
+          "Forward P/E is higher than trailing P/E, pricing in potential earnings contraction.",
+          "PEG ratio of 0.98 suggests stock may be undervalued relative to expected growth."
+        ]
+      },
+      "macro_policy": {
+        "macro_factors": [
+          "Operating in United States under Federal Reserve (FED) interest rate policy environment.",
+          "Performance closely aligned with overall United States economic trajectory."
+        ],
+        "policy_risks": [
+          "Standard corporate governance and trade policy conditions apply."
+        ]
+      },
+      "moat": {
+        "moat_tier": "Wide Moat",
+        "moat_score": 100.0,
+        "reasons": [
+          "Strong Return on Equity (ROE: 44.3%), indicating high capital efficiency and competitive advantage.",
+          "High net profit margin (50.0%), demonstrating pricing power.",
+          "Mega-cap scale ($3.42T) provides massive distribution and cost advantages."
+        ]
+      },
+      "qualitative_score": 80.0
+    },
+    "sig": {
+      "composite_score": 73.7,
+      "signal": "BUY",
+      "confidence_pct": 62.0,
+      "pillar_scores": {
+        "fundamentals": 95.0,
+        "valuation": 85.0,
+        "technicals": 22.0,
+        "sentiment": 44.0,
+        "analyst": 100.0,
+        "macro_moat": 80.0
+      },
+      "key_positives": [
+        "Exceptional Return on Equity (44.3%)",
+        "High profit margin (50.0%)",
+        "Strong YoY revenue growth (24.7%)",
+        "Low debt-to-equity ratio (22.2)"
+      ],
+      "key_risks": [
+        "Negative free cash flow generation",
+        "Price is 17.1% below 50-day SMA (Bearish)",
+        "50-day SMA is below 200-day SMA (Death Cross)"
       ]
     }
   },
@@ -774,7 +774,7 @@
       "fifty_two_week_low": 164.27,
       "volume": 165923799,
       "avg_volume": 114530558,
-      "pe_ratio": 26.997362,
+      "pe_ratio": 25.87105,
       "forward_pe": 12.858633,
       "peg_ratio": 0.26,
       "price_to_sales": 16.310003,
@@ -782,7 +782,7 @@
       "ev_to_ebitda": 24.387,
       "market_cap": 4941441662976,
       "enterprise_value": 4908214910976,
-      "eps_trailing": 7.58,
+      "eps_trailing": 7.91,
       "eps_forward": 15.9146,
       "earnings_growth": 1.278,
       "revenue_growth": 1.059,
@@ -798,7 +798,7 @@
       "current_ratio": 4.589,
       "quick_ratio": 2.918,
       "free_cash_flow": 41809874944,
-      "dividend_yield_pct": 47.0,
+      "dividend_yield_pct": 49.0,
       "payout_ratio": 0.0354,
       "target_low": 180.0,
       "target_mean": 328.95346,
@@ -829,9 +829,9 @@
       "rsi_14": 30.969086205497078,
       "rsi_status": "BEARISH",
       "macd_data": {
-        "macd": -3.6438815818738988,
-        "signal": -2.161465629706022,
-        "histogram": -1.4824159521678766,
+        "macd": -3.6438815818691808,
+        "signal": -2.1614656296991264,
+        "histogram": -1.4824159521700544,
         "crossover": "BEARISH"
       },
       "cross_status": "GOLDEN_CROSS",
@@ -852,42 +852,42 @@
       ]
     },
     "sent": {
-      "combined_polarity": -0.042,
-      "sentiment_score": 48.3,
+      "combined_polarity": -0.025,
+      "sentiment_score": 49.0,
       "label": "NEUTRAL",
       "news_stats": {
-        "polarity": -0.08842592592592594,
-        "subjectivity": 0.19614814814814813,
+        "polarity": -0.05416666666666667,
+        "subjectivity": 0.13633333333333333,
         "positive_count": 1,
-        "negative_count": 4,
-        "neutral_count": 10,
+        "negative_count": 2,
+        "neutral_count": 12,
         "total": 15
       },
       "reddit_stats": {
-        "polarity": 0.0675,
-        "subjectivity": 0.2625,
-        "positive_count": 3,
+        "polarity": 0.0425,
+        "subjectivity": 0.2325,
+        "positive_count": 2,
         "negative_count": 1,
-        "neutral_count": 6,
+        "neutral_count": 7,
         "total": 10
       },
       "headline_count": 25,
       "positive_highlights": [
         "The 'Magnificent 7' stocks are seeing stunning declines - Reddit",
-        "Here is the actual meaningful part of Anthropic's S-1, >$850B of expenditure commitments, pages 170-171 - Reddit",
-        "NVIDIA Corp Stock (NVDA) Opened Down by 3.37% on Oct 30: A Full Analysis - TradingKey"
+        "Nvidia (NVDA) Surpasses Market Returns: Some Facts Worth Knowing - Yahoo Finance",
+        "Three of the four biggest AI spenders now report negative free cash flow - Reddit"
       ],
       "negative_highlights": [
         "Nvidia Stock Has Dropped Nearly 6% in a Month; Now Jim Cramer Is Asking Why \u2018Anything Negative in Tech\u2019 Immediately Crushes NVDA - Yahoo Finance",
-        "NVDA Stock Edges Down On DOJ Interest In $12.9 Billion Hugging Face Acquisition - TradingView",
-        "NVIDIA (NASDAQ:NVDA) Stock Price Down 4.2% - Here's Why - MarketBeat"
+        "Intel stock plunges 21% as chipmaker blames PC slowdown for weak guidance - Reddit",
+        "Nvidia: Brace For The Worst (NASDAQ:NVDA) - Seeking Alpha"
       ],
       "recent_headlines": [
         "Nvidia Stock Has Dropped Nearly 6% in a Month; Now Jim Cramer Is Asking Why \u2018Anything Negative in Tech\u2019 Immediately Crushes NVDA - Yahoo Finance",
-        "NVIDIA Corporation $NVDA Stock: Bath Savings Trust Co Increases Position - MarketBeat",
+        "NVIDIA Corporation $NVDA Stock: CoreCap Advisors LLC Increases Position - MarketBeat",
         "Nvidia Shares Drop Amid Chip Selloff: What's Happening? - Benzinga",
-        "NVIDIA Corporation (NVDA) Stock Price, News, Quote & History - Yahoo! Finance Canada",
-        "Nvidia: Time To Lock In The Profits (NASDAQ:NVDA) - Seeking Alpha"
+        "Nvidia: Time To Lock In The Profits (NASDAQ:NVDA) - Seeking Alpha",
+        "NVIDIA Corp (NVDA) Shares Fall 4.2% -- What GF Score of 96 Tells Investors - GuruFocus"
       ]
     },
     "qual": {
@@ -895,7 +895,7 @@
         "valuation_tier": "Fair Value Range",
         "priced_in_points": [
           "P/E ratio reflects balanced market expectations for mid-range growth.",
-          "Forward P/E is 52.4% lower than trailing P/E, pricing in robust earnings recovery/growth.",
+          "Forward P/E is 50.3% lower than trailing P/E, pricing in robust earnings recovery/growth.",
           "PEG ratio of 0.26 suggests stock may be undervalued relative to expected growth."
         ]
       },
@@ -920,14 +920,14 @@
       "qualitative_score": 80.0
     },
     "sig": {
-      "composite_score": 75.5,
+      "composite_score": 75.6,
       "signal": "BUY",
-      "confidence_pct": 64.5,
+      "confidence_pct": 64.6,
       "pillar_scores": {
         "fundamentals": 100.0,
         "valuation": 80.0,
         "technicals": 28.5,
-        "sentiment": 48.3,
+        "sentiment": 49.0,
         "analyst": 100.0,
         "macro_moat": 80.0
       },
@@ -967,25 +967,25 @@
       "peg_ratio": 0.98,
       "price_to_sales": 7.302839,
       "price_to_book": 5.2164187,
-      "ev_to_ebitda": 18.031,
+      "ev_to_ebitda": 18.023,
       "market_cap": 3440352690176,
-      "enterprise_value": 3335194935296,
+      "enterprise_value": 3343608971264,
       "eps_trailing": 19.15,
       "eps_forward": 15.13866,
-      "earnings_growth": -0.26,
+      "earnings_growth": -0.253,
       "revenue_growth": 0.247,
       "total_revenue": 471097999360,
-      "net_income": 235310006272,
+      "net_income": 235693621248,
       "profit_margins": 0.50031,
       "operating_margins": 0.31805,
       "return_on_equity": 0.44286,
       "return_on_assets": 0.12743,
-      "total_debt": 141916995584,
+      "total_debt": 150330998784,
       "total_cash": 265098002432,
-      "debt_to_equity": 20.946,
+      "debt_to_equity": 22.187,
       "current_ratio": 2.786,
       "quick_ratio": 2.512,
-      "free_cash_flow": 5517000192,
+      "free_cash_flow": -1162499968,
       "dividend_yield_pct": 31.0,
       "payout_ratio": 0.042600002,
       "target_low": 325.0,
@@ -1013,19 +1013,19 @@
       "latest_price": 279.84,
       "sma_20": 333.9065002441406,
       "sma_50": 339.02782287597654,
-      "sma_200": 340.3424711608887,
+      "sma_200": 340.34247146606447,
       "rsi_14": 14.105599457465374,
       "rsi_status": "OVERSOLD",
       "macd_data": {
-        "macd": -12.23220569681132,
-        "signal": -6.005597897480431,
-        "histogram": -6.226607799330889,
+        "macd": -12.232205697387599,
+        "signal": -6.005597898327964,
+        "histogram": -6.226607799059635,
         "crossover": "BEARISH"
       },
       "cross_status": "DEATH_CROSS",
-      "fifty_two_week_pos_pct": 7.126547576409436,
+      "fifty_two_week_pos_pct": 7.126527477899256,
       "high_52": 408.10376741205215,
-      "low_52": 269.997813487729,
+      "low_52": 269.99784337488455,
       "returns": {
         "1m": -18.53275109170306,
         "3m": -25.852012220376263,
@@ -1041,40 +1041,41 @@
       ]
     },
     "sent": {
-      "combined_polarity": -0.197,
-      "sentiment_score": 42.1,
+      "combined_polarity": -0.192,
+      "sentiment_score": 42.3,
       "label": "BEARISH",
       "news_stats": {
-        "polarity": -0.2577777777777778,
-        "subjectivity": 0.2777777777777778,
+        "polarity": -0.2111111111111111,
+        "subjectivity": 0.2011111111111111,
         "positive_count": 0,
-        "negative_count": 6,
-        "neutral_count": 9,
+        "negative_count": 5,
+        "neutral_count": 10,
         "total": 15
       },
       "reddit_stats": {
-        "polarity": -0.05500000000000001,
-        "subjectivity": 0.15333333333333335,
-        "positive_count": 1,
-        "negative_count": 2,
-        "neutral_count": 7,
+        "polarity": -0.14875,
+        "subjectivity": 0.2475,
+        "positive_count": 2,
+        "negative_count": 3,
+        "neutral_count": 5,
         "total": 10
       },
       "headline_count": 25,
       "positive_highlights": [
+        "GOOGL price on P/E multiple ranges over last 3-years. Fair entry or still stretched? - Reddit",
         "Alphabet's free cash flow sinks further, Q3 capex expectations miss in worrying sign for AI trade - Reddit"
       ],
       "negative_highlights": [
+        "Alphabet stock sinks as search woes cause revenue miss, cash burn worsens - Reuters",
         "Google lost nearly half a trillion this week. Here's how Mike Khouw is trading it - CNBC",
-        "GOOGL: Everyone Was Bullish Yesterday, Now Google Is Suddenly Dead? - Reddit",
-        "Markets spooked as Google reports $1 trillion+ AI bill, negative cash flow - Mashable"
+        "The market is having a degoogle day: Alphabet loses $482 billion in market value, the biggest drop in its history - Reddit"
       ],
       "recent_headlines": [
         "Alphabet shares record their worst day ever, shedding $500 billion in value - NBC News",
-        "Google Erases a Record $500 Billion as AI Eats Into Sales - Bloomberg.com",
+        "Google Erases a Record $500 Billion as AI Eats Into Sales - Bloomberg",
+        "Shares of Google\u2019s parent company just had their worst day ever. Here\u2019s what it means - CNN",
         "Google stock gets shredded after earnings\u2014here's 2 reasons why investors hated the quarter - Yahoo Finance",
-        "SA Asks: Is Alphabet's stock a buy after the sell-off? (Update) (GOOG:NASDAQ) - Seeking Alpha",
-        "Alphabet Earnings: Why Google Stock Is Falling - Barron's"
+        "Alphabet: Generational Buy Opportunity (NASDAQ:GOOG) - Seeking Alpha"
       ]
     },
     "qual": {
@@ -1107,14 +1108,14 @@
       "qualitative_score": 80.0
     },
     "sig": {
-      "composite_score": 74.6,
+      "composite_score": 73.4,
       "signal": "BUY",
-      "confidence_pct": 60.7,
+      "confidence_pct": 61.6,
       "pillar_scores": {
-        "fundamentals": 100.0,
+        "fundamentals": 95.0,
         "valuation": 85.0,
         "technicals": 22.0,
-        "sentiment": 42.1,
+        "sentiment": 42.3,
         "analyst": 100.0,
         "macro_moat": 80.0
       },
@@ -1122,9 +1123,10 @@
         "Exceptional Return on Equity (44.3%)",
         "High profit margin (50.0%)",
         "Strong YoY revenue growth (24.7%)",
-        "Low debt-to-equity ratio (20.9)"
+        "Low debt-to-equity ratio (22.2)"
       ],
       "key_risks": [
+        "Negative free cash flow generation",
         "Price is 17.5% below 50-day SMA (Bearish)",
         "50-day SMA is below 200-day SMA (Death Cross)"
       ]
