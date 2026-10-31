@@ -18,7 +18,7 @@
       "fifty_two_week_high": 263.5,
       "fifty_two_week_low": 89.28,
       "volume": 33255690,
-      "avg_volume": 6027648,
+      "avg_volume": 6451723,
       "pe_ratio": 21.332558,
       "forward_pe": 9.474507,
       "peg_ratio": 0.65,
@@ -98,27 +98,30 @@
       ]
     },
     "sent": {
-      "combined_polarity": -0.115,
-      "sentiment_score": 45.4,
-      "label": "BEARISH",
+      "combined_polarity": -0.051,
+      "sentiment_score": 48.0,
+      "label": "NEUTRAL",
       "news_stats": {
-        "polarity": -0.16363636363636364,
-        "subjectivity": 0.22898989898989897,
-        "positive_count": 1,
+        "polarity": -0.1294949494949495,
+        "subjectivity": 0.3035353535353535,
+        "positive_count": 3,
         "negative_count": 5,
-        "neutral_count": 9,
+        "neutral_count": 7,
         "total": 15
       },
       "reddit_stats": {
-        "polarity": 0.0,
-        "subjectivity": 0.0,
-        "positive_count": 0,
+        "polarity": 0.1325,
+        "subjectivity": 0.225,
+        "positive_count": 3,
         "negative_count": 0,
-        "neutral_count": 0
+        "neutral_count": 7,
+        "total": 10
       },
-      "headline_count": 15,
+      "headline_count": 25,
       "positive_highlights": [
-        "RDDT Stock Drops As Soft Q4 Revenue Guidance, Search Traffic Decline And Logged-In-Only Transition Weigh - Yahoo Finance"
+        "Welcome to Reddit - Reddit",
+        "Reddit Q3 Earnings Beat on Ad Growth and Strong Monetization - TradingView",
+        "/r/Memes the original since 2008 - Reddit"
       ],
       "negative_highlights": [
         "Reddit falls 29% to new 52-week low on weak Q4 guidance (RDDT:NYSE) - Seeking Alpha",
@@ -129,7 +132,7 @@
         "Reddit\u2019s Stock Sinks After Earnings. Here\u2019s Why. - Barron's",
         "RDDT Stock Drops As Soft Q4 Revenue Guidance, Search Traffic Decline And Logged-In-Only Transition Weigh - Yahoo Finance",
         "Reddit Inc. (RDDT) Q3 Earnings and Revenues Beat Estimates - Yahoo Finance",
-        "Reddit, Inc. (RDDT) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+        "Reddit shares plunge 26% despite earnings beat as user growth and outlook disappoint - Yahoo Finance",
         "Reddit shares sink on weak sales guidance and plans login requirement test as Google search traffic shrinks - CNBC"
       ]
     },
@@ -162,14 +165,14 @@
       "qualitative_score": 71.0
     },
     "sig": {
-      "composite_score": 73.8,
+      "composite_score": 74.1,
       "signal": "BUY",
-      "confidence_pct": 62.2,
+      "confidence_pct": 62.6,
       "pillar_scores": {
         "fundamentals": 100.0,
         "valuation": 85.0,
         "technicals": 22.0,
-        "sentiment": 45.4,
+        "sentiment": 48.0,
         "analyst": 97.0,
         "macro_moat": 71.0
       },
@@ -204,7 +207,7 @@
       "fifty_two_week_high": 142.35,
       "fifty_two_week_low": 32.89,
       "volume": 450884426,
-      "avg_volume": 102125550,
+      "avg_volume": 107676275,
       "pe_ratio": null,
       "forward_pe": 31.33637,
       "peg_ratio": 1.36,
@@ -231,25 +234,25 @@
       "free_cash_flow": 4866375168,
       "dividend_yield_pct": 0.0,
       "payout_ratio": 0.0,
-      "target_low": 80.0,
-      "target_mean": 117.71429,
-      "target_high": 200.0,
-      "target_median": 112.0,
-      "recommendation_key": "buy",
-      "recommendation_mean": 2.46809,
+      "target_low": 70.0,
+      "target_mean": 107.21429,
+      "target_high": 165.0,
+      "target_median": 100.0,
+      "recommendation_key": "hold",
+      "recommendation_mean": 2.60417,
       "number_of_analysts": 42,
-      "implied_upside_pct": 79.00591545012165,
+      "implied_upside_pct": 63.038762165450116,
       "rec_breakdown": {
         "strongBuy": 1,
-        "buy": 13,
-        "hold": 32,
+        "buy": 10,
+        "hold": 36,
         "sell": 1,
         "strongSell": 0
       },
       "next_earnings_date": "2027-01-28",
-      "earnings_high_est": 0.76,
-      "earnings_low_est": 0.32,
-      "earnings_avg_est": 0.44661,
+      "earnings_high_est": 0.25,
+      "earnings_low_est": 0.21,
+      "earnings_avg_est": 0.2431,
       "_ticker_obj": "yfinance.Ticker object <INTC>"
     },
     "tech": {
@@ -284,42 +287,42 @@
       ]
     },
     "sent": {
-      "combined_polarity": -0.029,
-      "sentiment_score": 48.8,
+      "combined_polarity": 0.011,
+      "sentiment_score": 50.4,
       "label": "NEUTRAL",
       "news_stats": {
-        "polarity": -0.0059259259259259196,
-        "subjectivity": 0.25116402116402115,
+        "polarity": 0.0044444444444444505,
+        "subjectivity": 0.2319047619047619,
         "positive_count": 3,
-        "negative_count": 3,
-        "neutral_count": 9,
+        "negative_count": 2,
+        "neutral_count": 10,
         "total": 15
       },
       "reddit_stats": {
-        "polarity": -0.08222222222222221,
-        "subjectivity": 0.4097222222222222,
-        "positive_count": 2,
-        "negative_count": 4,
+        "polarity": 0.026944444444444444,
+        "subjectivity": 0.4263888888888888,
+        "positive_count": 3,
+        "negative_count": 3,
         "neutral_count": 4,
         "total": 10
       },
       "headline_count": 25,
       "positive_highlights": [
+        "The 'Magnificent 7' stocks are seeing stunning declines - Reddit",
         "Intel: Wait For A Bottom Before Catching This Falling Knife (Rating Upgrade) (NASDAQ:INTC) - Seeking Alpha",
-        "Intel currently represents one of the best stock opportunities for 2025 - Reddit",
-        "Intel Q3: The Market Is Right (Rating Upgrade) (NASDAQ:INTC) - Seeking Alpha"
+        "Intel currently represents one of the best stock opportunities for 2025 - Reddit"
       ],
       "negative_highlights": [
-        "Intel: I'm Considering Doubling Down (Earnings Review) (NASDAQ:INTC) - Seeking Alpha",
         "Why is INTC (Intel) so down? Did I miss some news? - Reddit",
-        "Intel stock plunges 16% as chipmaker blames PC slowdown for weak guidance - Reddit"
+        "Intel stock plunges 16% as chipmaker blames PC slowdown for weak guidance - Reddit",
+        "Intel plunges 29% on weak Q4 guidance (INTC:NASDAQ) - Seeking Alpha"
       ],
       "recent_headlines": [
-        "Intel Corporation (INTC) stock price, news, quote and history - Yahoo Finance Singapore",
         "SA Asks: Is Intel's stock a buy, hold, or sell after the monster sell-off? (INTC:NASDAQ) - Seeking Alpha",
+        "Intel Q3 Earnings Tomorrow: Options Traders Expect a 9.4% Move in INTC Stock - TipRanks",
+        "Intel Q3 earnings on deck: What to expect (INTC:NASDAQ) - Seeking Alpha",
         "Intel Suffers Worst Stock Thrashing in Decades on Weak Forecast - Bloomberg.com",
-        "Why Intel (INTC) stock is trading lower today - TradingView",
-        "Intel plunges 29% on weak Q4 guidance (INTC:NASDAQ) - Seeking Alpha"
+        "What Are Wall Street Analysts' Target Price for Intel Stock? - Yahoo Finance"
       ]
     },
     "qual": {
@@ -350,14 +353,14 @@
       "qualitative_score": 41.0
     },
     "sig": {
-      "composite_score": 56.2,
+      "composite_score": 56.5,
       "signal": "HOLD",
-      "confidence_pct": 75.7,
+      "confidence_pct": 75.8,
       "pillar_scores": {
         "fundamentals": 63.0,
         "valuation": 50.0,
         "technicals": 42.0,
-        "sentiment": 48.8,
+        "sentiment": 50.4,
         "analyst": 85.0,
         "macro_moat": 41.0
       },
@@ -365,7 +368,7 @@
         "Strong YoY revenue growth (25.4%)",
         "Low debt-to-equity ratio (49.0)",
         "Positive free cash flow generation",
-        "Significant price target upside (+79.0%)"
+        "Significant price target upside (+63.0%)"
       ],
       "key_risks": [
         "Subpar Return on Equity (-10.7%)",
@@ -393,15 +396,15 @@
       "fifty_two_week_high": 404.47,
       "fifty_two_week_low": 271.41,
       "volume": 44858799,
-      "avg_volume": 18300042,
+      "avg_volume": 18718618,
       "pe_ratio": 14.52846,
       "forward_pe": 18.378113,
-      "peg_ratio": 0.99,
+      "peg_ratio": 0.98,
       "price_to_sales": 7.260563,
       "price_to_book": 5.1862206,
-      "ev_to_ebitda": 18.196,
+      "ev_to_ebitda": 17.923,
       "market_cap": 3420436561920,
-      "enterprise_value": 3365684117504,
+      "enterprise_value": 3315278807040,
       "eps_trailing": 19.15,
       "eps_forward": 15.13866,
       "earnings_growth": -0.26,
@@ -445,24 +448,24 @@
       "latest_price": 278.22,
       "sma_20": 330.57349853515626,
       "sma_50": 335.68581420898437,
-      "sma_200": 338.38820846557616,
+      "sma_200": 338.3882080078125,
       "rsi_14": 13.254396153397465,
       "rsi_status": "OVERSOLD",
       "macd_data": {
-        "macd": -11.962266052073517,
-        "signal": -5.987119777492017,
-        "histogram": -5.975146274581499,
+        "macd": -11.96226605205618,
+        "signal": -5.987119777466542,
+        "histogram": -5.975146274589638,
         "crossover": "BEARISH"
       },
       "cross_status": "DEATH_CROSS",
-      "fifty_two_week_pos_pct": 5.640545854110482,
+      "fifty_two_week_pos_pct": 5.640567028423872,
       "high_52": 403.9644697672297,
-      "low_52": 270.7033451608753,
+      "low_52": 270.70331525699896,
       "returns": {
         "1m": -18.254739235885044,
         "3m": -25.829059766477435,
         "6m": -26.623076219751685,
-        "1y": -1.0197022267956712
+        "1y": -1.0196914804878165
       },
       "technical_score": 22.0,
       "signals": [
@@ -477,7 +480,7 @@
       "sentiment_score": 45.1,
       "label": "BEARISH",
       "news_stats": {
-        "polarity": -0.1764814814814815,
+        "polarity": -0.17648148148148143,
         "subjectivity": 0.34703703703703703,
         "positive_count": 3,
         "negative_count": 6,
@@ -503,10 +506,10 @@
         "Markets spooked as Google reports $1 trillion+ AI bill, negative cash flow - Mashable"
       ],
       "recent_headlines": [
-        "Alphabet's Post-Earnings Panic: This Market Has Lost Its Mind (NASDAQ:GOOG) - Seeking Alpha",
         "Google Erases a Record $500 Billion as AI Eats Into Sales - Bloomberg.com",
-        "Google stock gets shredded after earnings\u2014here's 2 reasons why investors hated the quarter - Yahoo Finance",
         "Alphabet shares record their worst day ever, shedding $500 billion in value - NBC News",
+        "Google stock gets shredded after earnings\u2014here's 2 reasons why investors hated the quarter - Yahoo Finance",
+        "SA Asks: Is Alphabet's stock a buy after the sell-off? (Update) (GOOG:NASDAQ) - Seeking Alpha",
         "Alphabet Earnings: Why Google Stock Is Falling - Barron's"
       ]
     },
@@ -516,7 +519,7 @@
         "priced_in_points": [
           "Low P/E ratio suggests market is pricing in modest growth or cyclical headwinds.",
           "Forward P/E is higher than trailing P/E, pricing in potential earnings contraction.",
-          "PEG ratio of 0.99 suggests stock may be undervalued relative to expected growth."
+          "PEG ratio of 0.98 suggests stock may be undervalued relative to expected growth."
         ]
       },
       "macro_policy": {
@@ -582,15 +585,15 @@
       "fifty_two_week_high": 658.52,
       "fifty_two_week_low": 188.22,
       "volume": 39527010,
-      "avg_volume": 21173576,
+      "avg_volume": 21461353,
       "pe_ratio": 128.7755,
       "forward_pe": 31.736631,
       "peg_ratio": 0.56,
       "price_to_sales": 19.950935,
       "price_to_book": 12.255103,
-      "ev_to_ebitda": 95.778,
+      "ev_to_ebitda": 85.258,
       "market_cap": 824073388032,
-      "enterprise_value": 915831521280,
+      "enterprise_value": 815238414336,
       "eps_trailing": 3.92,
       "eps_forward": 15.90591,
       "earnings_growth": 1.595,
@@ -661,42 +664,42 @@
       ]
     },
     "sent": {
-      "combined_polarity": 0.042,
-      "sentiment_score": 51.7,
-      "label": "NEUTRAL",
+      "combined_polarity": 0.191,
+      "sentiment_score": 57.6,
+      "label": "BULLISH",
       "news_stats": {
-        "polarity": 0.07934744268077601,
-        "subjectivity": 0.3142504409171076,
-        "positive_count": 5,
-        "negative_count": 2,
-        "neutral_count": 8,
+        "polarity": 0.2397346480679814,
+        "subjectivity": 0.46270161936828597,
+        "positive_count": 13,
+        "negative_count": 0,
+        "neutral_count": 2,
         "total": 15
       },
       "reddit_stats": {
-        "polarity": -0.045,
-        "subjectivity": 0.28500000000000003,
-        "positive_count": 1,
+        "polarity": 0.07583333333333334,
+        "subjectivity": 0.3691666666666667,
+        "positive_count": 3,
         "negative_count": 3,
-        "neutral_count": 6,
+        "neutral_count": 4,
         "total": 10
       },
       "headline_count": 25,
       "positive_highlights": [
-        "AMD Reports on Nov. 3. Here's What You Should Do Before Then. - The Motley Fool",
-        "Driver from Microsoft via Windows Updates: Advanced Micro Devices, Inc. - SCSIAdapter - 9.3.0.221 Warning - Reddit",
-        "Advanced Micro Devices Stock Outlook: Is Wall Street Bullish or Bearish? - Barchart.com"
+        "Driver from Microsoft via Windows Updates: Advanced Micro Devices, Inc. - SCSIAdapter - 9.3.0.221 is still being pushed! - Reddit",
+        "Advanced Micro Devices (AMD) Stock Forecast & Analyst Ratings - Moomoo",
+        "Advanced Micro Devices Stock Outlook: Is Wall Street Bullish or Bearish? - Yahoo Finance"
       ],
       "negative_highlights": [
+        "Windows Updated automatically updating AMD drivers is enough for me to go back to team Green - Reddit",
         "Windows Update just suggested me 2.2.0.121 \"System\" software from AMD. Anyone else with this? Curious why it shows up with fully updated AM4 drivers. - Reddit",
-        "Why Are Semiconductor Stocks Falling Today? Intel Crashes 28%, AMD and Nvidia Slide - Stocks Down Under",
-        "AMD Has Ripped 170% This Year: Is It Too Late to Buy? - Yahoo Finance"
+        "Intel stock plunges 16% as chipmaker blames PC slowdown for weak guidance - Reddit"
       ],
       "recent_headlines": [
-        "AMD Has Ripped 170% This Year: Is It Too Late to Buy? - Yahoo Finance",
-        "AMD\u2019s stock slides after Intel earnings reveal two big issues - MarketWatch",
-        "Advanced Micro Devices Stock Outlook: Is Wall Street Bullish or Bearish? - Barchart.com",
-        "AMD Earnings Preview: The Bull Case Is Largely Priced In (NASDAQ:AMD) - Seeking Alpha",
-        "AMD Reports on Nov. 3. Here's What You Should Do Before Then. - The Motley Fool"
+        "Advanced Micro Devices slides 13% as part of tech selloff (AMD:NASDAQ) - Seeking Alpha",
+        "Advanced Micro Devices (NASDAQ:AMD) Stock Price Down 10.9% - What's Next? - MarketBeat",
+        "Advanced Micro Devices Inc (AMD) Shares Surge 5.5% -- What GF Sc - GuruFocus",
+        "Investors Heavily Search Advanced Micro Devices, Inc. (AMD): Here is What You Need to Know - Yahoo Finance",
+        "Advanced Micro Devices Inc Stock (AMD) Moved Down by 9.22% on Oct 30: What Investors Need To Know - TradingKey"
       ]
     },
     "qual": {
@@ -728,14 +731,14 @@
       "qualitative_score": 68.0
     },
     "sig": {
-      "composite_score": 67.0,
+      "composite_score": 67.9,
       "signal": "BUY",
-      "confidence_pct": 65.9,
+      "confidence_pct": 66.4,
       "pillar_scores": {
         "fundamentals": 93.0,
         "valuation": 50.0,
         "technicals": 28.1,
-        "sentiment": 51.7,
+        "sentiment": 57.6,
         "analyst": 100.0,
         "macro_moat": 68.0
       },
@@ -770,16 +773,16 @@
       "fifty_two_week_high": 243.37,
       "fifty_two_week_low": 164.27,
       "volume": 165923799,
-      "avg_volume": 113673356,
-      "pe_ratio": 25.87105,
+      "avg_volume": 114530558,
+      "pe_ratio": 26.997362,
       "forward_pe": 12.858633,
       "peg_ratio": 0.26,
       "price_to_sales": 16.310003,
       "price_to_book": 21.57967,
-      "ev_to_ebitda": 25.467,
+      "ev_to_ebitda": 24.387,
       "market_cap": 4941441662976,
-      "enterprise_value": 5125596774400,
-      "eps_trailing": 7.91,
+      "enterprise_value": 4908214910976,
+      "eps_trailing": 7.58,
       "eps_forward": 15.9146,
       "earnings_growth": 1.278,
       "revenue_growth": 1.059,
@@ -826,9 +829,9 @@
       "rsi_14": 30.969086205497078,
       "rsi_status": "BEARISH",
       "macd_data": {
-        "macd": -3.6438815817182046,
-        "signal": -2.1614656294771164,
-        "histogram": -1.4824159522410882,
+        "macd": -3.6438815818738988,
+        "signal": -2.161465629706022,
+        "histogram": -1.4824159521678766,
         "crossover": "BEARISH"
       },
       "cross_status": "GOLDEN_CROSS",
@@ -839,7 +842,7 @@
         "1m": -12.528316875646972,
         "3m": -3.3363278176900657,
         "6m": 3.339264227241334,
-        "1y": 1.3039003621814427
+        "1y": 1.303908014303845
       },
       "technical_score": 28.5,
       "signals": [
@@ -849,8 +852,8 @@
       ]
     },
     "sent": {
-      "combined_polarity": -0.062,
-      "sentiment_score": 47.5,
+      "combined_polarity": -0.042,
+      "sentiment_score": 48.3,
       "label": "NEUTRAL",
       "news_stats": {
         "polarity": -0.08842592592592594,
@@ -861,20 +864,23 @@
         "total": 15
       },
       "reddit_stats": {
-        "polarity": 0.0,
-        "subjectivity": 0.0,
-        "positive_count": 0,
-        "negative_count": 0,
-        "neutral_count": 0
+        "polarity": 0.0675,
+        "subjectivity": 0.2625,
+        "positive_count": 3,
+        "negative_count": 1,
+        "neutral_count": 6,
+        "total": 10
       },
-      "headline_count": 15,
+      "headline_count": 25,
       "positive_highlights": [
+        "The 'Magnificent 7' stocks are seeing stunning declines - Reddit",
+        "Here is the actual meaningful part of Anthropic's S-1, >$850B of expenditure commitments, pages 170-171 - Reddit",
         "NVIDIA Corp Stock (NVDA) Opened Down by 3.37% on Oct 30: A Full Analysis - TradingKey"
       ],
       "negative_highlights": [
         "Nvidia Stock Has Dropped Nearly 6% in a Month; Now Jim Cramer Is Asking Why \u2018Anything Negative in Tech\u2019 Immediately Crushes NVDA - Yahoo Finance",
-        "NVIDIA (NASDAQ:NVDA) Stock Price Down 4.2% - Here's Why - MarketBeat",
-        "NVDA Stock Edges Down On DOJ Interest In $12.9 Billion Hugging Face Acquisition - TradingView"
+        "NVDA Stock Edges Down On DOJ Interest In $12.9 Billion Hugging Face Acquisition - TradingView",
+        "NVIDIA (NASDAQ:NVDA) Stock Price Down 4.2% - Here's Why - MarketBeat"
       ],
       "recent_headlines": [
         "Nvidia Stock Has Dropped Nearly 6% in a Month; Now Jim Cramer Is Asking Why \u2018Anything Negative in Tech\u2019 Immediately Crushes NVDA - Yahoo Finance",
@@ -889,7 +895,7 @@
         "valuation_tier": "Fair Value Range",
         "priced_in_points": [
           "P/E ratio reflects balanced market expectations for mid-range growth.",
-          "Forward P/E is 50.3% lower than trailing P/E, pricing in robust earnings recovery/growth.",
+          "Forward P/E is 52.4% lower than trailing P/E, pricing in robust earnings recovery/growth.",
           "PEG ratio of 0.26 suggests stock may be undervalued relative to expected growth."
         ]
       },
@@ -914,14 +920,14 @@
       "qualitative_score": 80.0
     },
     "sig": {
-      "composite_score": 75.4,
+      "composite_score": 75.5,
       "signal": "BUY",
-      "confidence_pct": 64.3,
+      "confidence_pct": 64.5,
       "pillar_scores": {
         "fundamentals": 100.0,
         "valuation": 80.0,
         "technicals": 28.5,
-        "sentiment": 47.5,
+        "sentiment": 48.3,
         "analyst": 100.0,
         "macro_moat": 80.0
       },
@@ -955,15 +961,15 @@
       "fifty_two_week_high": 408.61,
       "fifty_two_week_low": 270.7,
       "volume": 65326584,
-      "avg_volume": 27744373,
+      "avg_volume": 28338464,
       "pe_ratio": 14.613055,
       "forward_pe": 18.485123,
-      "peg_ratio": 1.0,
+      "peg_ratio": 0.98,
       "price_to_sales": 7.302839,
       "price_to_book": 5.2164187,
-      "ev_to_ebitda": 18.295,
+      "ev_to_ebitda": 18.031,
       "market_cap": 3440352690176,
-      "enterprise_value": 3384125161472,
+      "enterprise_value": 3335194935296,
       "eps_trailing": 19.15,
       "eps_forward": 15.13866,
       "earnings_growth": -0.26,
@@ -983,13 +989,13 @@
       "dividend_yield_pct": 31.0,
       "payout_ratio": 0.042600002,
       "target_low": 325.0,
-      "target_mean": 408.08655,
+      "target_mean": 406.54807,
       "target_high": 500.0,
       "target_median": 400.0,
       "recommendation_key": "strong_buy",
       "recommendation_mean": 1.36207,
       "number_of_analysts": 52,
-      "implied_upside_pct": 45.8285270154374,
+      "implied_upside_pct": 45.2787557175529,
       "rec_breakdown": {
         "strongBuy": 11,
         "buy": 42,
@@ -1007,24 +1013,24 @@
       "latest_price": 279.84,
       "sma_20": 333.9065002441406,
       "sma_50": 339.02782287597654,
-      "sma_200": 340.34247177124024,
+      "sma_200": 340.3424711608887,
       "rsi_14": 14.105599457465374,
       "rsi_status": "OVERSOLD",
       "macd_data": {
-        "macd": -12.232205697376116,
-        "signal": -6.00559789831109,
-        "histogram": -6.226607799065026,
+        "macd": -12.23220569681132,
+        "signal": -6.005597897480431,
+        "histogram": -6.226607799330889,
         "crossover": "BEARISH"
       },
       "cross_status": "DEATH_CROSS",
-      "fifty_two_week_pos_pct": 7.126507379380376,
+      "fifty_two_week_pos_pct": 7.126547576409436,
       "high_52": 408.10376741205215,
-      "low_52": 269.9978732620401,
+      "low_52": 269.997813487729,
       "returns": {
         "1m": -18.53275109170306,
         "3m": -25.852012220376263,
         "6m": -26.89181096020443,
-        "1y": -0.22127949617269937
+        "1y": -0.2212903533289179
       },
       "technical_score": 22.0,
       "signals": [
@@ -1035,34 +1041,33 @@
       ]
     },
     "sent": {
-      "combined_polarity": -0.23,
-      "sentiment_score": 40.8,
+      "combined_polarity": -0.197,
+      "sentiment_score": 42.1,
       "label": "BEARISH",
       "news_stats": {
-        "polarity": -0.26814814814814814,
-        "subjectivity": 0.29703703703703704,
+        "polarity": -0.2577777777777778,
+        "subjectivity": 0.2777777777777778,
         "positive_count": 0,
-        "negative_count": 7,
-        "neutral_count": 8,
+        "negative_count": 6,
+        "neutral_count": 9,
         "total": 15
       },
       "reddit_stats": {
-        "polarity": -0.14136363636363636,
-        "subjectivity": 0.2987878787878788,
-        "positive_count": 2,
-        "negative_count": 3,
-        "neutral_count": 5,
+        "polarity": -0.05500000000000001,
+        "subjectivity": 0.15333333333333335,
+        "positive_count": 1,
+        "negative_count": 2,
+        "neutral_count": 7,
         "total": 10
       },
       "headline_count": 25,
       "positive_highlights": [
-        "Amazon, Alphabet, SpaceX and Meta are all to blame for the new tech stock rout - Reddit",
         "Alphabet's free cash flow sinks further, Q3 capex expectations miss in worrying sign for AI trade - Reddit"
       ],
       "negative_highlights": [
-        "Alphabet (NASDAQ:GOOGL) Stock Plunges After Q3 Earnings Despite 103% Google Cloud Growth - Stocks Down Under",
         "Google lost nearly half a trillion this week. Here's how Mike Khouw is trading it - CNBC",
-        "GOOGL: Everyone Was Bullish Yesterday, Now Google Is Suddenly Dead? - Reddit"
+        "GOOGL: Everyone Was Bullish Yesterday, Now Google Is Suddenly Dead? - Reddit",
+        "Markets spooked as Google reports $1 trillion+ AI bill, negative cash flow - Mashable"
       ],
       "recent_headlines": [
         "Alphabet shares record their worst day ever, shedding $500 billion in value - NBC News",
@@ -1077,7 +1082,8 @@
         "valuation_tier": "Value / Low Expectation",
         "priced_in_points": [
           "Low P/E ratio suggests market is pricing in modest growth or cyclical headwinds.",
-          "Forward P/E is higher than trailing P/E, pricing in potential earnings contraction."
+          "Forward P/E is higher than trailing P/E, pricing in potential earnings contraction.",
+          "PEG ratio of 0.98 suggests stock may be undervalued relative to expected growth."
         ]
       },
       "macro_policy": {
@@ -1101,14 +1107,14 @@
       "qualitative_score": 80.0
     },
     "sig": {
-      "composite_score": 71.4,
+      "composite_score": 74.6,
       "signal": "BUY",
-      "confidence_pct": 61.2,
+      "confidence_pct": 60.7,
       "pillar_scores": {
         "fundamentals": 100.0,
-        "valuation": 70.0,
+        "valuation": 85.0,
         "technicals": 22.0,
-        "sentiment": 40.8,
+        "sentiment": 42.1,
         "analyst": 100.0,
         "macro_moat": 80.0
       },
