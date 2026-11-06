@@ -18,8 +18,8 @@
       "fifty_two_week_high": 1255.0,
       "fifty_two_week_low": 192.59,
       "volume": 76138480,
-      "avg_volume": 26963532,
-      "pe_ratio": 10.699104,
+      "avg_volume": 27603476,
+      "pe_ratio": 8.830754,
       "forward_pe": 3.1593592,
       "peg_ratio": 0.16,
       "price_to_sales": 5.5759897,
@@ -27,7 +27,7 @@
       "ev_to_ebitda": 6.472,
       "market_cap": 742654935040,
       "enterprise_value": 704399867904,
-      "eps_trailing": 61.35,
+      "eps_trailing": 74.33,
       "eps_forward": 207.76048,
       "earnings_growth": 10.595,
       "revenue_growth": 3.793,
@@ -43,7 +43,7 @@
       "current_ratio": 3.314,
       "quick_ratio": 2.898,
       "free_cash_flow": 29140250624,
-      "dividend_yield_pct": 8.0,
+      "dividend_yield_pct": 9.0,
       "payout_ratio": 0.0070999996,
       "target_low": 361.0,
       "target_mean": 1561.9111,
@@ -70,13 +70,13 @@
       "latest_price": 656.39,
       "sma_20": 895.9331268310547,
       "sma_50": 966.4385473632813,
-      "sma_200": 755.0643145751953,
+      "sma_200": 755.0643141174316,
       "rsi_14": 31.654207512741465,
       "rsi_status": "BEARISH",
       "macd_data": {
-        "macd": -54.365317299709204,
-        "signal": -34.166146415569195,
-        "histogram": -20.19917088414001,
+        "macd": -54.36531729966123,
+        "signal": -34.166146415498766,
+        "histogram": -20.199170884162463,
         "crossover": "BEARISH"
       },
       "cross_status": "GOLDEN_CROSS",
@@ -97,29 +97,29 @@
       ]
     },
     "sent": {
-      "combined_polarity": 0.061,
-      "sentiment_score": 52.4,
+      "combined_polarity": 0.049,
+      "sentiment_score": 52.0,
       "label": "NEUTRAL",
       "news_stats": {
-        "polarity": 0.07796296296296297,
-        "subjectivity": 0.2798148148148148,
-        "positive_count": 4,
+        "polarity": 0.022870370370370378,
+        "subjectivity": 0.357962962962963,
+        "positive_count": 3,
         "negative_count": 5,
-        "neutral_count": 6,
+        "neutral_count": 7,
         "total": 15
       },
       "reddit_stats": {
-        "polarity": 0.020277777777777783,
-        "subjectivity": 0.1897222222222222,
-        "positive_count": 1,
-        "negative_count": 2,
+        "polarity": 0.11027777777777777,
+        "subjectivity": 0.16527777777777777,
+        "positive_count": 2,
+        "negative_count": 1,
         "neutral_count": 7,
         "total": 10
       },
       "headline_count": 25,
       "positive_highlights": [
-        "Prediction: This Could Be the Best AI Stock You\u2019re Not Talking About - 24/7 Wall St.",
         "Murica for a win - Reddit",
+        "Micron Stock Has Lost Over 40% Since Its June Record. I'd Still Buy It. - The Motley Fool",
         "Micron Stock Jumps 36% in Six Months: Is There More Upside Ahead? - Zacks Investment Research"
       ],
       "negative_highlights": [
@@ -130,9 +130,9 @@
       "recent_headlines": [
         "Micron: Buy The Panic Before The Market Wakes Up (NASDAQ:MU) - Seeking Alpha",
         "Micron Technology Shares Jump 4.11% After Hours Following Sharp Selloff - Micron Technology (NASDAQ:MU) - Benzinga",
-        "Micron Stock Gets Crushed by AI Selloff. Don\u2019t Ignore the $200 Billion Silver Lining. - Barron's",
-        "Micron Stock Plunges As Memory-Chip Shortages Cause Ripple Effects - Investor's Business Daily",
-        "Why Micron Stock Keeps Going Down - The Motley Fool"
+        "Why Micron Stock Is Falling Today - Yahoo Finance",
+        "Micron Stock Has Lost Over 40% Since Its June Record. I'd Still Buy It. - The Motley Fool",
+        "Micron Stock Plunges As Memory-Chip Shortages Cause Ripple Effects - Investor's Business Daily"
       ]
     },
     "qual": {
@@ -140,7 +140,7 @@
         "valuation_tier": "Value / Low Expectation",
         "priced_in_points": [
           "Low P/E ratio suggests market is pricing in modest growth or cyclical headwinds.",
-          "Forward P/E is 70.5% lower than trailing P/E, pricing in robust earnings recovery/growth.",
+          "Forward P/E is 64.2% lower than trailing P/E, pricing in robust earnings recovery/growth.",
           "PEG ratio of 0.16 suggests stock may be undervalued relative to expected growth."
         ]
       },
@@ -165,14 +165,14 @@
       "qualitative_score": 80.0
     },
     "sig": {
-      "composite_score": 78.6,
+      "composite_score": 78.5,
       "signal": "BUY",
-      "confidence_pct": 62.5,
+      "confidence_pct": 62.4,
       "pillar_scores": {
         "fundamentals": 100.0,
         "valuation": 95.0,
         "technicals": 25.0,
-        "sentiment": 52.4,
+        "sentiment": 52.0,
         "analyst": 100.0,
         "macro_moat": 80.0
       },
@@ -206,8 +206,8 @@
       "fifty_two_week_high": 243.37,
       "fifty_two_week_low": 164.27,
       "volume": 301617834,
-      "avg_volume": 113181323,
-      "pe_ratio": 25.29248,
+      "avg_volume": 116137859,
+      "pe_ratio": 22.958282,
       "forward_pe": 11.410906,
       "peg_ratio": 0.24,
       "price_to_sales": 14.473694,
@@ -215,7 +215,7 @@
       "ev_to_ebitda": 21.628,
       "market_cap": 4385095286784,
       "enterprise_value": 4352950927360,
-      "eps_trailing": 7.18,
+      "eps_trailing": 7.91,
       "eps_forward": 15.9146,
       "earnings_growth": 1.278,
       "revenue_growth": 1.059,
@@ -231,7 +231,7 @@
       "current_ratio": 4.589,
       "quick_ratio": 2.918,
       "free_cash_flow": 41809874944,
-      "dividend_yield_pct": 50.0,
+      "dividend_yield_pct": 55.00000000000001,
       "payout_ratio": 0.0354,
       "target_low": 180.0,
       "target_mean": 327.1431,
@@ -258,13 +258,13 @@
       "latest_price": 181.6,
       "sma_20": 213.6790023803711,
       "sma_50": 220.5949264526367,
-      "sma_200": 204.37979499816893,
+      "sma_200": 204.37979484558105,
       "rsi_14": 27.61799475065618,
       "rsi_status": "OVERSOLD",
       "macd_data": {
-        "macd": -7.211357163760226,
-        "signal": -4.227021761098246,
-        "histogram": -2.98433540266198,
+        "macd": -7.211357163642958,
+        "signal": -4.227021760925854,
+        "histogram": -2.9843354027171047,
         "crossover": "BEARISH"
       },
       "cross_status": "GOLDEN_CROSS",
@@ -286,15 +286,15 @@
       ]
     },
     "sent": {
-      "combined_polarity": 0.06,
-      "sentiment_score": 52.4,
-      "label": "NEUTRAL",
+      "combined_polarity": 0.083,
+      "sentiment_score": 53.3,
+      "label": "BULLISH",
       "news_stats": {
-        "polarity": 0.07074074074074074,
-        "subjectivity": 0.19148148148148147,
-        "positive_count": 3,
+        "polarity": 0.10407407407407408,
+        "subjectivity": 0.22481481481481483,
+        "positive_count": 4,
         "negative_count": 3,
-        "neutral_count": 9,
+        "neutral_count": 8,
         "total": 15
       },
       "reddit_stats": {
@@ -317,11 +317,11 @@
         "NVIDIA Corp Stock (NVDA) Opened Down by 4.09% on Nov 5: What Signal Does It Send? - TradingKey"
       ],
       "recent_headlines": [
-        "NVIDIA Corporation (NVDA) Stock Price, News, Quote & History - Yahoo! Finance Canada",
-        "NVIDIA drops 9%, now down for 2026 (NVDA:NASDAQ) - Seeking Alpha",
+        "Nvidia Stock Just Crashed 22%. Jim Cramer Says It\u2019s the Cheapest in a Decade - Yahoo Finance",
+        "NVDA Stock Quote Price and Forecast - CNN",
         "Nvidia Stock Is Now Cheaper Than a Toilet-Paper Company, Data Shows - Benzinga",
-        "NVDA vs AMD: which stock has the better bounce setup - Investing.com",
-        "Nvidia Stock Just Crashed 22%. Jim Cramer Says It\u2019s the Cheapest in a Decade - Yahoo Finance"
+        "NVIDIA drops 9%, now down for 2026 (NVDA:NASDAQ) - Seeking Alpha",
+        "NVDA vs AMD: which stock has the better bounce setup - Investing.com"
       ]
     },
     "qual": {
@@ -329,7 +329,7 @@
         "valuation_tier": "Fair Value Range",
         "priced_in_points": [
           "P/E ratio reflects balanced market expectations for mid-range growth.",
-          "Forward P/E is 54.9% lower than trailing P/E, pricing in robust earnings recovery/growth.",
+          "Forward P/E is 50.3% lower than trailing P/E, pricing in robust earnings recovery/growth.",
           "PEG ratio of 0.24 suggests stock may be undervalued relative to expected growth."
         ]
       },
@@ -354,14 +354,14 @@
       "qualitative_score": 80.0
     },
     "sig": {
-      "composite_score": 78.2,
+      "composite_score": 79.3,
       "signal": "BUY",
-      "confidence_pct": 69.6,
+      "confidence_pct": 69.5,
       "pillar_scores": {
         "fundamentals": 100.0,
-        "valuation": 80.0,
+        "valuation": 85.0,
         "technicals": 42.0,
-        "sentiment": 52.4,
+        "sentiment": 53.3,
         "analyst": 100.0,
         "macro_moat": 80.0
       },
@@ -395,17 +395,17 @@
       "fifty_two_week_high": 658.52,
       "fifty_two_week_low": 188.22,
       "volume": 70120811,
-      "avg_volume": 21318112,
-      "pe_ratio": 104.496124,
-      "forward_pe": 24.709553,
+      "avg_volume": 22033403,
+      "pe_ratio": 86.410255,
+      "forward_pe": 24.100134,
       "peg_ratio": 0.48,
       "price_to_sales": 14.597486,
       "price_to_book": 9.697609,
       "ev_to_ebitda": 58.933,
       "market_cap": 663251320832,
       "enterprise_value": 656686252032,
-      "eps_trailing": 3.87,
-      "eps_forward": 16.36614,
+      "eps_trailing": 4.68,
+      "eps_forward": 16.77999,
       "earnings_growth": 0.938,
       "revenue_growth": 0.447,
       "total_revenue": 45435998208,
@@ -474,41 +474,40 @@
       ]
     },
     "sent": {
-      "combined_polarity": 0.164,
-      "sentiment_score": 56.6,
+      "combined_polarity": 0.175,
+      "sentiment_score": 57.0,
       "label": "BULLISH",
       "news_stats": {
-        "polarity": 0.18562289562289563,
-        "subjectivity": 0.3575084175084175,
-        "positive_count": 9,
+        "polarity": 0.20267676767676765,
+        "subjectivity": 0.4935521885521885,
+        "positive_count": 10,
         "negative_count": 1,
-        "neutral_count": 5,
+        "neutral_count": 4,
         "total": 15
       },
       "reddit_stats": {
-        "polarity": 0.11333333333333333,
-        "subjectivity": 0.33166666666666667,
+        "polarity": 0.11000000000000001,
+        "subjectivity": 0.30500000000000005,
         "positive_count": 3,
-        "negative_count": 2,
-        "neutral_count": 5,
+        "negative_count": 1,
+        "neutral_count": 6,
         "total": 10
       },
       "headline_count": 25,
       "positive_highlights": [
         "Cathie Wood Just Sold AMD Stock and Bought This AI Chip Stock Instead - The Motley Fool",
-        "NVDA vs AMD: which stock has the better bounce setup - Investing.com",
-        "Here\u2019s why AMD\u2019s stock is rising \u2014 and sending a confident message about the AI trade - MarketWatch"
+        "AMD: Great Q3 Earnings, But 70% Downside Is Not Unrealistic (NASDAQ:AMD) - Seeking Alpha",
+        "NVDA vs AMD: which stock has the better bounce setup - Investing.com"
       ],
       "negative_highlights": [
-        "Windows Updated automatically updating AMD drivers is enough for me to go back to team Green - Reddit",
-        "AMD Tumbles 13%, NVIDIA Slides 7% as AI Regulation Fears Hit Chip Stocks; Intel Sinks 8% - 24/7 Wall St.",
-        "Windows Update just suggested me 2.2.0.121 \"System\" software from AMD. Anyone else with this? Curious why it shows up with fully updated AM4 drivers. - Reddit"
+        "Windows Update just suggested me 2.2.0.121 \"System\" software from AMD. Anyone else with this? Curious why it shows up with fully updated AM4 drivers. - Reddit",
+        "AMD Stock Is Still Too Expensive for Me to Buy - TipRanks"
       ],
       "recent_headlines": [
+        "AMD: Great Q3 Earnings, But 70% Downside Is Not Unrealistic (NASDAQ:AMD) - Seeking Alpha",
         "AMD's data center revenue nearly doubles in Q3 and CEO Su expects growth to accelerate - CNBC",
-        "AI Stocks Crater as Citi Research Flags New Data Center Risk - Advanced Micro Devices (NASDAQ:AMD), Micro - Benzinga",
         "Cathie Wood Just Sold AMD Stock and Bought This AI Chip Stock Instead - The Motley Fool",
-        "AMD: The Bigger Earnings Opportunity Starts In 2027 (NASDAQ:AMD) - Seeking Alpha",
+        "From Micron to AMD, AI Stocks Crater \u2014 And Citi Just Flagged an 'Exponential' New Threat to Data Centers - Benzinga",
         "NVDA vs AMD: which stock has the better bounce setup - Investing.com"
       ]
     },
@@ -517,7 +516,7 @@
         "valuation_tier": "High Growth Premium",
         "priced_in_points": [
           "High P/E ratio indicates market has priced in strong future earnings acceleration.",
-          "Forward P/E is 76.4% lower than trailing P/E, pricing in robust earnings recovery/growth.",
+          "Forward P/E is 72.1% lower than trailing P/E, pricing in robust earnings recovery/growth.",
           "PEG ratio of 0.48 suggests stock may be undervalued relative to expected growth."
         ]
       },
@@ -548,7 +547,7 @@
         "fundamentals": 93.0,
         "valuation": 55.0,
         "technicals": 25.0,
-        "sentiment": 56.6,
+        "sentiment": 57.0,
         "analyst": 100.0,
         "macro_moat": 68.0
       },
@@ -559,7 +558,7 @@
         "Favorable PEG ratio (0.48x < 1.0)"
       ],
       "key_risks": [
-        "High P/E ratio (104.5x)",
+        "High P/E ratio (86.4x)",
         "Price is 26.1% below 50-day SMA (Bearish)"
       ]
     }
@@ -583,17 +582,17 @@
       "fifty_two_week_high": 2354.39,
       "fifty_two_week_low": 183.0,
       "volume": 29899118,
-      "avg_volume": 10543751,
-      "pe_ratio": 8.291487,
-      "forward_pe": 2.8073325,
+      "avg_volume": 10714715,
+      "pe_ratio": 6.4452524,
+      "forward_pe": 2.7898943,
       "peg_ratio": null,
       "price_to_sales": 3.9607334,
       "price_to_book": 6.4037447,
       "ev_to_ebitda": 5.174,
       "market_cap": 114746408960,
       "enterprise_value": 109741416448,
-      "eps_trailing": 97.26,
-      "eps_forward": 287.25845,
+      "eps_trailing": 125.12,
+      "eps_forward": 289.05396,
       "earnings_growth": 69.133,
       "revenue_growth": 3.779,
       "total_revenue": 28970999808,
@@ -663,30 +662,29 @@
       ]
     },
     "sent": {
-      "combined_polarity": 0.1,
-      "sentiment_score": 54.0,
-      "label": "BULLISH",
+      "combined_polarity": 0.051,
+      "sentiment_score": 52.0,
+      "label": "NEUTRAL",
       "news_stats": {
-        "polarity": 0.07148148148148148,
-        "subjectivity": 0.36185185185185187,
+        "polarity": 0.07221741221741222,
+        "subjectivity": 0.3681938431938432,
         "positive_count": 4,
         "negative_count": 2,
         "neutral_count": 9,
         "total": 15
       },
       "reddit_stats": {
-        "polarity": 0.16708333333333333,
-        "subjectivity": 0.23208333333333334,
-        "positive_count": 4,
+        "polarity": 0.0,
+        "subjectivity": 0.0,
+        "positive_count": 0,
         "negative_count": 0,
-        "neutral_count": 6,
-        "total": 10
+        "neutral_count": 0
       },
-      "headline_count": 25,
+      "headline_count": 15,
       "positive_highlights": [
-        "Murica for a win - Reddit",
         "Sandisk Is Retiring Its Own Stock At A Discount - Upgrade To Buy (NASDAQ:SNDK) - Seeking Alpha",
-        "Sandisk: A PEG Of 0.12x Is Just Too Cheap (NASDAQ:SNDK) - Seeking Alpha"
+        "SNDK or NTAP: Which Is the Better Value Stock Right Now? - Yahoo Finance",
+        "Sandisk: This Is A Golden Opportunity (NASDAQ:SNDK) - Seeking Alpha"
       ],
       "negative_highlights": [
         "Bad memory: Some chip stocks are tumbling despite the broader post-election rally for tech. Here's why - Fast Company",
@@ -696,8 +694,8 @@
         "SanDisk Corp. (SNDK): Exiting the Memory Space After Momentum Reversal - Yahoo Finance",
         "Sandisk: A 35% Stock Decline, But RPO Tells A Different Story (Rating Upgrade) - Seeking Alpha",
         "What's Going On With Sandisk Stock Today? - Benzinga",
-        "Sandisk Is Retiring Its Own Stock At A Discount - Upgrade To Buy (NASDAQ:SNDK) - Seeking Alpha",
-        "Sandisk: The Reset Is Likely Close To A Bottom (NASDAQ:SNDK) - Seeking Alpha"
+        "Sandisk: The Reset Is Likely Close To A Bottom (NASDAQ:SNDK) - Seeking Alpha",
+        "Sandisk Is Retiring Its Own Stock At A Discount - Upgrade To Buy (NASDAQ:SNDK) - Seeking Alpha"
       ]
     },
     "qual": {
@@ -705,7 +703,7 @@
         "valuation_tier": "Value / Low Expectation",
         "priced_in_points": [
           "Low P/E ratio suggests market is pricing in modest growth or cyclical headwinds.",
-          "Forward P/E is 66.1% lower than trailing P/E, pricing in robust earnings recovery/growth."
+          "Forward P/E is 56.7% lower than trailing P/E, pricing in robust earnings recovery/growth."
         ]
       },
       "macro_policy": {
@@ -729,14 +727,14 @@
       "qualitative_score": 80.0
     },
     "sig": {
-      "composite_score": 78.4,
+      "composite_score": 78.1,
       "signal": "BUY",
-      "confidence_pct": 70.0,
+      "confidence_pct": 69.5,
       "pillar_scores": {
         "fundamentals": 100.0,
         "valuation": 80.0,
         "technicals": 42.0,
-        "sentiment": 54.0,
+        "sentiment": 52.0,
         "analyst": 100.0,
         "macro_moat": 80.0
       },
@@ -770,7 +768,7 @@
       "fifty_two_week_high": 302.0,
       "fifty_two_week_low": 28.12,
       "volume": 519607244,
-      "avg_volume": 75643896,
+      "avg_volume": 83019529,
       "pe_ratio": 15.392767,
       "forward_pe": null,
       "peg_ratio": null,
@@ -849,15 +847,15 @@
       ]
     },
     "sent": {
-      "combined_polarity": -0.005,
-      "sentiment_score": 49.8,
+      "combined_polarity": 0.037,
+      "sentiment_score": 51.5,
       "label": "NEUTRAL",
       "news_stats": {
-        "polarity": 0.011190476190476188,
-        "subjectivity": 0.1542063492063492,
-        "positive_count": 2,
+        "polarity": 0.07119047619047619,
+        "subjectivity": 0.24420634920634926,
+        "positive_count": 5,
         "negative_count": 2,
-        "neutral_count": 11,
+        "neutral_count": 8,
         "total": 15
       },
       "reddit_stats": {
@@ -871,8 +869,8 @@
       "headline_count": 25,
       "positive_highlights": [
         "Why don't people just invest in 3x ETFs like SOXL if they're sure so the market will always go up in the end? - Reddit",
-        "Why Direxion Daily Semiconductor Bull 3X ETF Just Crashed - The Motley Fool",
-        "Why Direxion Daily Semiconductor Bull 3X ETF Crashed Today - The Motley Fool"
+        "Why Direxion Daily Semiconductor Bull 3X ETF Crashed Today - The Motley Fool",
+        "Why Direxion Daily Semiconductor Bull 3X ETF Just Crashed - The Motley Fool"
       ],
       "negative_highlights": [
         "Dip Buyers in Leveraged Tech ETFs Are Getting Crushed - Yahoo Finance",
@@ -884,7 +882,7 @@
         "Why is Direxion Daily Semiconductor Bull 3X Shares plummeting today? - Investing.com",
         "Why Direxion Daily Semiconductor Bull 3X ETF Crashed Today - The Motley Fool",
         "Why Direxion Daily Semiconductor Bull 3X ETF Crashed Today - Yahoo Finance",
-        "Why is Direxion Daily Semiconductor Bull 3X Shares plunging today? - Investing.com"
+        "SOXL: Why Now's The Time To Get Long Semiconductors Into Year-End (Rating Upgrade) - Seeking Alpha"
       ]
     },
     "qual": {
@@ -913,14 +911,14 @@
       "qualitative_score": 50.0
     },
     "sig": {
-      "composite_score": 44.2,
+      "composite_score": 44.5,
       "signal": "HOLD",
-      "confidence_pct": 69.3,
+      "confidence_pct": 69.2,
       "pillar_scores": {
         "fundamentals": 50.0,
         "valuation": 55.0,
         "technicals": 5.0,
-        "sentiment": 49.8,
+        "sentiment": 51.5,
         "analyst": 50.0,
         "macro_moat": 50.0
       },
@@ -952,7 +950,7 @@
       "fifty_two_week_high": 718.47,
       "fifty_two_week_low": 578.46,
       "volume": 18781929,
-      "avg_volume": 7169070,
+      "avg_volume": 7391262,
       "pe_ratio": 23.27845,
       "forward_pe": null,
       "peg_ratio": null,
@@ -1004,13 +1002,13 @@
       "latest_price": 673.97,
       "sma_20": 703.697998046875,
       "sma_50": 703.9385559082032,
-      "sma_200": 668.4858999633789,
+      "sma_200": 668.4859014892578,
       "rsi_14": 35.516662167815255,
       "rsi_status": "BEARISH",
       "macd_data": {
-        "macd": -4.021919015597064,
-        "signal": -1.4731524868530677,
-        "histogram": -2.548766528743996,
+        "macd": -4.021919026787145,
+        "signal": -1.4731525033024686,
+        "histogram": -2.5487665234846766,
         "crossover": "BEARISH"
       },
       "cross_status": "GOLDEN_CROSS",
@@ -1031,40 +1029,42 @@
       ]
     },
     "sent": {
-      "combined_polarity": 0.275,
-      "sentiment_score": 61.0,
-      "label": "VERY BULLISH",
+      "combined_polarity": 0.208,
+      "sentiment_score": 58.3,
+      "label": "BULLISH",
       "news_stats": {
-        "polarity": 0.35031746031746025,
-        "subjectivity": 0.48587301587301585,
-        "positive_count": 10,
-        "negative_count": 0,
+        "polarity": 0.3128571428571429,
+        "subjectivity": 0.5595238095238096,
+        "positive_count": 9,
+        "negative_count": 1,
         "neutral_count": 5,
         "total": 15
       },
       "reddit_stats": {
-        "polarity": 0.1,
-        "subjectivity": 0.21000000000000002,
+        "polarity": -0.0375,
+        "subjectivity": 0.4,
         "positive_count": 3,
-        "negative_count": 1,
-        "neutral_count": 6,
+        "negative_count": 3,
+        "neutral_count": 4,
         "total": 10
       },
       "headline_count": 25,
       "positive_highlights": [
-        "Should You Forget VOO and Buy This Magnificent ETF Instead? - The Motley Fool",
-        "If You'd Invested $5,000 in VOO 15 Years Ago, Here's What You'd Have Today - The Motley Fool",
-        "2 Vanguard ETFs to Buy Now and Hold Through 2030 - The Motley Fool"
+        "3 Best Vanguard ETFs with 30%+ Upside to Outperform VOO - TipRanks",
+        "Should You Forget VOO and Buy This Magnificent ETF Instead? - Yahoo Finance",
+        "Is the Vanguard S&P 500 ETF Still a Buy for Long-Term Investors? Here's My Honest Take. - Yahoo Finance"
       ],
       "negative_highlights": [
-        "Small celebration for myself - Reddit"
+        "Small celebration for myself - Reddit",
+        "Boo Hoo. I bought VOO. I put my toe in at the wrong time. - Reddit",
+        "Brutal day for VST - is it a buy here? - Reddit"
       ],
       "recent_headlines": [
-        "Vanguard S&P 500 ETF (VOO) stock price, news, quote and history - Yahoo Finance UK",
-        "Waiting for a Stock Market Crash Before You Invest? Here's What the Data Says It Can Cost You. - The Motley Fool",
-        "Is the Vanguard S&P 500 ETF Still a Buy for Long-Term Investors? Here's My Honest Take. - Yahoo Finance",
-        "If You'd Invested $5,000 in VOO 15 Years Ago, Here's What You'd Have Today - The Motley Fool",
-        "If the S&P 500 Falls 20%, Here's the 1 ETF I'd Buy Hand Over Fist - Yahoo Finance"
+        "If You'd Invested $5,000 in VOO 15 Years Ago, Here's What You'd Have Today - Yahoo Finance",
+        "Warren Buffett Loves This Low-Cost ETF. History Says It Could Turn $200 per Month Into $1 Million. - The Motley Fool",
+        "3 Best Vanguard ETFs with 30%+ Upside to Outperform VOO - TipRanks",
+        "Warren Buffett's Retirement Strategy Has a Catch: VOO Alone May Not Be Enough in 2026 - Benzinga",
+        "AI Selloff Deepens as Chip ETFs Suffer Worst Day Since 2020 - ETF.com"
       ]
     },
     "qual": {
@@ -1093,14 +1093,14 @@
       "qualitative_score": 50.0
     },
     "sig": {
-      "composite_score": 50.2,
+      "composite_score": 49.8,
       "signal": "HOLD",
-      "confidence_pct": 80.0,
+      "confidence_pct": 80.7,
       "pillar_scores": {
         "fundamentals": 50.0,
         "valuation": 55.0,
         "technicals": 33.6,
-        "sentiment": 61.0,
+        "sentiment": 58.3,
         "analyst": 50.0,
         "macro_moat": 50.0
       },
