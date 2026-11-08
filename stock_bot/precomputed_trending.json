@@ -70,13 +70,13 @@
       "latest_price": 186.64,
       "sma_20": 211.54700241088867,
       "sma_50": 219.77322296142577,
-      "sma_200": 204.3909524536133,
+      "sma_200": 204.39095260620118,
       "rsi_14": 29.632104907003026,
       "rsi_status": "OVERSOLD",
       "macd_data": {
-        "macd": -8.228028657598685,
-        "signal": -5.027223140622793,
-        "histogram": -3.200805516975892,
+        "macd": -8.228028657706943,
+        "signal": -5.0272231407819135,
+        "histogram": -3.20080551692503,
         "crossover": "BEARISH"
       },
       "cross_status": "GOLDEN_CROSS",
@@ -87,7 +87,7 @@
         "1m": -18.597347787122864,
         "3m": -14.092485623832541,
         "6m": -14.752728993283792,
-        "1y": -0.5648829220999851
+        "1y": -0.564891005515189
       },
       "technical_score": 42.0,
       "signals": [
@@ -98,30 +98,30 @@
       ]
     },
     "sent": {
-      "combined_polarity": 0.048,
-      "sentiment_score": 51.9,
+      "combined_polarity": 0.051,
+      "sentiment_score": 52.0,
       "label": "NEUTRAL",
       "news_stats": {
-        "polarity": 0.06407407407407406,
-        "subjectivity": 0.1648148148148148,
-        "positive_count": 3,
-        "negative_count": 3,
-        "neutral_count": 9,
+        "polarity": 0.04111111111111111,
+        "subjectivity": 0.11222222222222222,
+        "positive_count": 2,
+        "negative_count": 2,
+        "neutral_count": 11,
         "total": 15
       },
       "reddit_stats": {
-        "polarity": 0.01111111111111111,
-        "subjectivity": 0.3188888888888889,
-        "positive_count": 1,
+        "polarity": 0.0736111111111111,
+        "subjectivity": 0.2788888888888889,
+        "positive_count": 2,
         "negative_count": 3,
-        "neutral_count": 6,
+        "neutral_count": 5,
         "total": 10
       },
       "headline_count": 25,
       "positive_highlights": [
         "Dow soars 1,500 points for best day since April 2025 on clear-cut Democratic win, falling oil. - Reddit",
-        "NVDA vs AMD: which stock has the better bounce setup - Investing.com",
-        "Nvidia (NVDA) Falls More Steeply Than Broader Market: What Investors Need to Know - Yahoo Finance"
+        "OK, I accept that the AI bubble has burst! - Reddit",
+        "NVDA vs AMD: which stock has the better bounce setup - Investing.com"
       ],
       "negative_highlights": [
         "NVIDIA Corp Stock (NVDA) Closed Down by 3.12% on Nov 4: What Investors Need To Know - TradingKey",
@@ -129,11 +129,11 @@
         "Microsoft Corp. is winding down an arrangement to rent AI computing from Oracle. - Reddit"
       ],
       "recent_headlines": [
-        "NVIDIA sparks valuation debate after selloff (NVDA:NASDAQ) - Seeking Alpha",
         "Nvidia Stock Just Crashed 22%. Jim Cramer Says It\u2019s the Cheapest in a Decade - Yahoo Finance",
+        "Nvidia: Competitive Moat Widening; Buy (NASDAQ:NVDA) - Seeking Alpha",
         "NVDA vs AMD: which stock has the better bounce setup - Investing.com",
         "Nvidia Stock Is Now Cheaper Than a Toilet-Paper Company, Data Shows - Benzinga",
-        "NVIDIA Corp Stock (NVDA) Opened Up by 6.71% on Nov 6: What Investors Need To Know - TradingKey"
+        "NVIDIA Corporation $NVDA Stock: Sloy Dahl & Holst LLC Reduces Position - MarketBeat"
       ]
     },
     "qual": {
@@ -168,12 +168,12 @@
     "sig": {
       "composite_score": 79.1,
       "signal": "BUY",
-      "confidence_pct": 69.2,
+      "confidence_pct": 69.3,
       "pillar_scores": {
         "fundamentals": 100.0,
         "valuation": 85.0,
         "technicals": 42.0,
-        "sentiment": 51.9,
+        "sentiment": 52.0,
         "analyst": 100.0,
         "macro_moat": 80.0
       },
@@ -259,24 +259,24 @@
       "latest_price": 690.0,
       "sma_20": 878.9912200927735,
       "sma_50": 961.53369140625,
-      "sma_200": 756.5278639221192,
+      "sma_200": 756.5278677368165,
       "rsi_14": 32.49486120071306,
       "rsi_status": "BEARISH",
       "macd_data": {
-        "macd": -63.18840762936702,
-        "signal": -39.97059862296443,
-        "histogram": -23.21780900640259,
+        "macd": -63.1884076555491,
+        "signal": -39.97059866144211,
+        "histogram": -23.21780899410699,
         "crossover": "BEARISH"
       },
       "cross_status": "GOLDEN_CROSS",
-      "fifty_two_week_pos_pct": 46.84717335666716,
+      "fifty_two_week_pos_pct": 46.84717193845109,
       "high_52": 1254.6095437059498,
-      "low_52": 192.3715041476699,
+      "low_52": 192.37153249015145,
       "returns": {
         "1m": -32.934056710758895,
         "3m": -20.542005945770303,
         "6m": -13.21656179305888,
-        "1y": 190.34281826279482
+        "1y": 190.342836904824
       },
       "technical_score": 25.0,
       "signals": [
@@ -286,42 +286,42 @@
       ]
     },
     "sent": {
-      "combined_polarity": 0.013,
-      "sentiment_score": 50.5,
-      "label": "NEUTRAL",
+      "combined_polarity": 0.104,
+      "sentiment_score": 54.2,
+      "label": "BULLISH",
       "news_stats": {
-        "polarity": 0.02313492063492064,
-        "subjectivity": 0.3850793650793651,
-        "positive_count": 5,
-        "negative_count": 4,
+        "polarity": 0.12218253968253968,
+        "subjectivity": 0.4441269841269841,
+        "positive_count": 6,
+        "negative_count": 3,
         "neutral_count": 6,
         "total": 15
       },
       "reddit_stats": {
-        "polarity": -0.009722222222222222,
-        "subjectivity": 0.06972222222222221,
-        "positive_count": 0,
-        "negative_count": 1,
+        "polarity": 0.0625,
+        "subjectivity": 0.09,
+        "positive_count": 1,
+        "negative_count": 0,
         "neutral_count": 9,
         "total": 10
       },
       "headline_count": 25,
       "positive_highlights": [
-        "Micron Stock Looks Cheap Despite 220% Rally. Is More Upside Coming? - TradingView",
-        "2 Reasons Micron Stock Could Be a Buy Right Now (and 1 Reason for Caution) - The Motley Fool",
-        "Micron\u2019s stock is dirt cheap \u2014 and that\u2019s igniting a fierce online debate - MarketWatch"
+        "Micron's 17% stock plunge reveals a surprising valuation - GuruFocus",
+        "OK, I accept that the AI bubble has burst! - Reddit",
+        "Micron Stock Looks Cheap Despite 220% Rally. Is More Upside Coming? - TradingView"
       ],
       "negative_highlights": [
         "Micron Technology Shares Jump 4.11% After Hours Following Sharp Selloff - Micron Technology (NASDAQ:MU) - Benzinga",
-        "Been watching MU pretty closely these past couple weeks and honestly it\u2019s hard to ignore what\u2019s going on here. - Reddit",
-        "Bad memory: Some chip stocks are tumbling despite the broader post-election rally for tech. Here's why - Fast Company"
+        "Bad memory: Some chip stocks are tumbling despite the broader post-election rally for tech. Here's why - Fast Company",
+        "Why Micron\u2019s Stock Valuation Now Looks Ridiculous - Barron's"
       ],
       "recent_headlines": [
         "Micron: Buy The Panic Before The Market Wakes Up (NASDAQ:MU) - Seeking Alpha",
-        "Here's What a $10,000 Investment in Micron Stock Could Be Worth in 2028 (Hint: Big Gains Ahead) - Yahoo Finance",
         "Why Micron\u2019s Stock Valuation Now Looks Ridiculous - Barron's",
         "2 Reasons Micron Stock Could Be a Buy Right Now (and 1 Reason for Caution) - The Motley Fool",
-        "Micron\u2019s stock is dirt cheap \u2014 and that\u2019s igniting a fierce online debate - MarketWatch"
+        "Micron\u2019s stock is dirt cheap \u2014 and that\u2019s igniting a fierce online debate - MarketWatch",
+        "Micron Technology Shares Jump 4.11% After Hours Following Sharp Selloff - Micron Technology (NASDAQ:MU) - Benzinga"
       ]
     },
     "qual": {
@@ -354,14 +354,14 @@
       "qualitative_score": 80.0
     },
     "sig": {
-      "composite_score": 78.3,
+      "composite_score": 78.9,
       "signal": "BUY",
-      "confidence_pct": 62.1,
+      "confidence_pct": 62.8,
       "pillar_scores": {
         "fundamentals": 100.0,
         "valuation": 95.0,
         "technicals": 25.0,
-        "sentiment": 50.5,
+        "sentiment": 54.2,
         "analyst": 100.0,
         "macro_moat": 80.0
       },
@@ -400,7 +400,7 @@
       "forward_pe": null,
       "peg_ratio": null,
       "price_to_sales": null,
-      "price_to_book": 1.7295204,
+      "price_to_book": null,
       "ev_to_ebitda": null,
       "market_cap": null,
       "enterprise_value": null,
@@ -447,13 +447,13 @@
       "latest_price": 675.99,
       "sma_20": 701.7179962158203,
       "sma_50": 703.3197106933594,
-      "sma_200": 668.7252130126953,
+      "sma_200": 668.7252154541015,
       "rsi_14": 34.85443982758956,
       "rsi_status": "BEARISH",
       "macd_data": {
-        "macd": -5.4486018316029,
-        "signal": -2.268242359134776,
-        "histogram": -3.1803594724681243,
+        "macd": -5.448601841953291,
+        "signal": -2.2682423743502858,
+        "histogram": -3.1803594676030054,
         "crossover": "BEARISH"
       },
       "cross_status": "GOLDEN_CROSS",
@@ -464,7 +464,7 @@
         "1m": -5.533898652764058,
         "3m": -4.332430593975889,
         "6m": 0.02675250608310531,
-        "1y": 10.84259857236145
+        "1y": 10.842609665469173
       },
       "technical_score": 34.2,
       "signals": [
@@ -474,40 +474,40 @@
       ]
     },
     "sent": {
-      "combined_polarity": 0.191,
-      "sentiment_score": 57.6,
+      "combined_polarity": 0.22,
+      "sentiment_score": 58.8,
       "label": "BULLISH",
       "news_stats": {
-        "polarity": 0.18664109347442678,
-        "subjectivity": 0.26981393298059964,
+        "polarity": 0.20664109347442677,
+        "subjectivity": 0.323147266313933,
         "positive_count": 8,
         "negative_count": 1,
         "neutral_count": 6,
         "total": 15
       },
       "reddit_stats": {
-        "polarity": 0.2,
-        "subjectivity": 0.1,
-        "positive_count": 3,
+        "polarity": 0.2512121212121212,
+        "subjectivity": 0.15515151515151518,
+        "positive_count": 4,
         "negative_count": 0,
-        "neutral_count": 7,
+        "neutral_count": 6,
         "total": 10
       },
       "headline_count": 25,
       "positive_highlights": [
         "Best trading year of my life - Reddit",
         "s&p 500 has lost over $500 billion in Market cap (is it a good time to buy) - Reddit",
-        "If You'd Invested $5,000 in VOO 15 Years Ago, Here's What You'd Have Today - The Motley Fool"
+        "Want to Become a Stock Market Millionaire? $250 a Month in This ETF Could Get You There. - The Motley Fool"
       ],
       "negative_highlights": [
         "VOO Is Down 6% From Its High. Over the Past Year It's Up 10%. Which Number Should Investors Focus On? - Yahoo Finance"
       ],
       "recent_headlines": [
-        "Vanguard S&P 500 ETF (VOO) stock price, news, quote and history - Yahoo Finance UK",
-        "How the Largest Stock ETFs Performed - Morningstar",
-        "VOO Is Down 6% From Its High. Over the Past Year It's Up 10%. Which Number Should Investors Focus On? - The Motley Fool",
+        "Want to Become a Stock Market Millionaire? $250 a Month in This ETF Could Get You There. - The Motley Fool",
+        "Is the Vanguard S&P 500 ETF Still a Buy for Long-Term Investors? Here's My Honest Take. - Yahoo Finance",
+        "Want to Become a Stock Market Millionaire? $250 a Month in This ETF Could Get You There. - The Globe and Mail",
         "Vanguard S&P 500 ETF (VOO) stock price forecast: outlook through 2036 - Beinsure",
-        "Is the Vanguard S&P 500 ETF Still a Buy for Long-Term Investors? Here's My Honest Take. - Yahoo Finance"
+        "If the S&P 500 Falls 20%, Here's the 1 ETF I'd Buy Hand Over Fist - Yahoo Finance"
       ]
     },
     "qual": {
@@ -536,14 +536,14 @@
       "qualitative_score": 50.0
     },
     "sig": {
-      "composite_score": 49.8,
+      "composite_score": 49.9,
       "signal": "HOLD",
-      "confidence_pct": 81.1,
+      "confidence_pct": 80.8,
       "pillar_scores": {
         "fundamentals": 50.0,
         "valuation": 55.0,
         "technicals": 34.2,
-        "sentiment": 57.6,
+        "sentiment": 58.8,
         "analyst": 50.0,
         "macro_moat": 50.0
       },
@@ -626,13 +626,13 @@
       "latest_price": 135.08,
       "sma_20": 131.87850074768068,
       "sma_50": 129.83672775268553,
-      "sma_200": 139.11777080535887,
+      "sma_200": 139.117770652771,
       "rsi_14": 69.67648934371363,
       "rsi_status": "BULLISH",
       "macd_data": {
-        "macd": 1.9192184086253974,
-        "signal": 1.4556030469856212,
-        "histogram": 0.46361536163977624,
+        "macd": 1.919218408627387,
+        "signal": 1.4556030469885037,
+        "histogram": 0.46361536163888317,
         "crossover": "BULLISH"
       },
       "cross_status": "DEATH_CROSS",
@@ -643,7 +643,7 @@
         "1m": 6.446019208638809,
         "3m": -0.9621757660700503,
         "6m": -3.5312347030267643,
-        "1y": 2.181527225851987
+        "1y": 2.1815154315091734
       },
       "technical_score": 66.1,
       "signals": [
@@ -653,8 +653,8 @@
       ]
     },
     "sent": {
-      "combined_polarity": -0.009,
-      "sentiment_score": 49.6,
+      "combined_polarity": 0.001,
+      "sentiment_score": 50.0,
       "label": "NEUTRAL",
       "news_stats": {
         "polarity": 0.03333333333333333,
@@ -665,18 +665,18 @@
         "total": 15
       },
       "reddit_stats": {
-        "polarity": -0.10869696969696971,
-        "subjectivity": 0.3994545454545454,
-        "positive_count": 2,
+        "polarity": -0.07369696969696968,
+        "subjectivity": 0.4544545454545455,
+        "positive_count": 3,
         "negative_count": 3,
-        "neutral_count": 5,
+        "neutral_count": 4,
         "total": 10
       },
       "headline_count": 25,
       "positive_highlights": [
         "DTE Energy continues a cash-dividend history of more than 100 years. - Stock Titan",
-        "DTE Energy Costs really high? - Reddit",
-        "Consumers Energy, DTE sue to block Michigan's new voter-approved 'Money out of politics' campaign law - Reddit"
+        "Full Ported Calls, Lost 2/3 of my NW - Reddit",
+        "DTE Energy Costs really high? - Reddit"
       ],
       "negative_highlights": [
         "Is DTE really that bad? - Reddit",
@@ -684,11 +684,11 @@
         "Hate DTE? Time to organize. - Reddit"
       ],
       "recent_headlines": [
-        "DTE Energy Q3 Earnings Call Highlights - Yahoo Finance",
+        "DTE Energy Company (DTE) Stock forecasts - Yahoo Finance UK",
         "DTE Energy to sell DTE Vantage in ~$3B deal (DTE:NYSE) - Seeking Alpha",
-        "DTE Energy Board of Directors declares quarterly dividend - Quantisnow",
-        "DTE Energy Co. stock underperforms Thursday when compared to competitors - MarketWatch",
-        "DTE Energy (NYSE:DTE) - Stock Analysis - Simply Wall St"
+        "DTE Energy (NYSE:DTE) - Stock Analysis - Simply Wall St",
+        "DTE Energy Board of Directors declares quarterly dividend - TradingView",
+        "DTE Energy (DTE) Prepares to Report Q3 Earnings Amid Dividend Su - GuruFocus"
       ]
     },
     "qual": {
@@ -725,7 +725,7 @@
         "fundamentals": 27.0,
         "valuation": 65.0,
         "technicals": 66.1,
-        "sentiment": 49.6,
+        "sentiment": 50.0,
         "analyst": 77.0,
         "macro_moat": 50.0
       },
@@ -740,194 +740,6 @@
         "Current ratio below 1.0 (0.62)",
         "Negative free cash flow generation",
         "50-day SMA is below 200-day SMA (Death Cross)"
-      ]
-    }
-  },
-  "NBIS": {
-    "data": {
-      "symbol": "NBIS",
-      "company_name": "Nebius Group N.V.",
-      "exchange_info": {
-        "country": "United States",
-        "exchange": "NYSE/NASDAQ",
-        "central_bank": "Federal Reserve (FED)",
-        "currency_symbol": "$"
-      },
-      "currency": "USD",
-      "sector": "Communication Services",
-      "industry": "Internet Content & Information",
-      "summary": "Nebius Group N.V., a technology company, engages in building full-stack infrastructure to service the global AI industry in the United States, the United Kingdom, and internationally. It offers Nebius builds full-stack infrastructure for AI, including large-scale GPU clusters, cloud platforms, and tools and services for developers. The company also provides TripleTen, an edtech platform for re-skilling individuals for careers in technolgy; and Avride, which develops autonomous driving technology for self-driving cars and delivery robotics. It has a strategic alliance with NVIDIA Corporation to support the expansion of the company's AI cloud infrastructure. The company was formerly known as Yandex N.V. and changed its name to Nebius Group N.V. in August 2024. Nebius Group N.V. was founded in 1989 and is based in Schiphol, the Netherlands.",
-      "current_price": 129.49,
-      "previous_close": 120.37,
-      "fifty_two_week_high": 299.86,
-      "fifty_two_week_low": 73.52,
-      "volume": 24468851,
-      "avg_volume": 20721262,
-      "pe_ratio": 101.16407,
-      "forward_pe": -35.99114,
-      "peg_ratio": 0.29,
-      "price_to_sales": 24.261883,
-      "price_to_book": 3.432745,
-      "ev_to_ebitda": 145.92,
-      "market_cap": 32877279232,
-      "enterprise_value": 37647257600,
-      "eps_trailing": 1.28,
-      "eps_forward": -3.59783,
-      "earnings_growth": null,
-      "revenue_growth": 4.54,
-      "total_revenue": 1355100032,
-      "net_income": 42400000,
-      "profit_margins": 0.03129,
-      "operating_margins": -0.00223,
-      "return_on_equity": 0.00601,
-      "return_on_assets": -0.01918,
-      "total_debt": 10195300352,
-      "total_cash": 8042100224,
-      "debt_to_equity": 98.596,
-      "current_ratio": 4.03,
-      "quick_ratio": 3.605,
-      "free_cash_flow": -9614650368,
-      "dividend_yield_pct": 0.0,
-      "payout_ratio": 0.0,
-      "target_low": 84.0,
-      "target_mean": 281.0,
-      "target_high": 410.0,
-      "target_median": 302.0,
-      "recommendation_key": "none",
-      "recommendation_mean": null,
-      "number_of_analysts": 20,
-      "implied_upside_pct": 117.00517414472158,
-      "rec_breakdown": {
-        "strongBuy": 2,
-        "buy": 13,
-        "hold": 6,
-        "sell": 1,
-        "strongSell": 0
-      },
-      "next_earnings_date": "2026-11-12",
-      "earnings_high_est": 0.31,
-      "earnings_low_est": -1.07,
-      "earnings_avg_est": -0.605,
-      "_ticker_obj": "yfinance.Ticker object <NBIS>"
-    },
-    "tech": {
-      "latest_price": 129.49,
-      "sma_20": 165.23000144958496,
-      "sma_50": 201.70030075073242,
-      "sma_200": 178.37605052947998,
-      "rsi_14": 35.47651224243519,
-      "rsi_status": "BEARISH",
-      "macd_data": {
-        "macd": -20.626369398547865,
-        "signal": -17.568207687170776,
-        "histogram": -3.058161711377089,
-        "crossover": "BEARISH"
-      },
-      "cross_status": "GOLDEN_CROSS",
-      "fifty_two_week_pos_pct": 24.72828759791869,
-      "high_52": 299.8599853515625,
-      "low_52": 73.5199966430664,
-      "returns": {
-        "1m": -41.42579467594106,
-        "3m": -32.98659480250398,
-        "6m": -30.419131782310128,
-        "1y": 16.364127804152197
-      },
-      "technical_score": 25.0,
-      "signals": [
-        "Price is 35.8% below 50-day SMA (Bearish)",
-        "50-day SMA is above 200-day SMA (Golden Cross)",
-        "MACD histogram indicates negative bearish momentum"
-      ]
-    },
-    "sent": {
-      "combined_polarity": 0.09,
-      "sentiment_score": 53.6,
-      "label": "BULLISH",
-      "news_stats": {
-        "polarity": 0.0644436427769761,
-        "subjectivity": 0.2281513548180215,
-        "positive_count": 5,
-        "negative_count": 1,
-        "neutral_count": 9,
-        "total": 15
-      },
-      "reddit_stats": {
-        "polarity": 0.150508658008658,
-        "subjectivity": 0.3714177489177489,
-        "positive_count": 5,
-        "negative_count": 1,
-        "neutral_count": 4,
-        "total": 10
-      },
-      "headline_count": 25,
-      "positive_highlights": [
-        "is NBIS a good buy now ? - Reddit",
-        "Nebius: The Selloff Is Testing More Than Its Valuation - Seeking Alpha",
-        "Nebius Group N.V. (NBIS) Faces Dilution Concerns Despite Strong AI Demand - Yahoo Finance"
-      ],
-      "negative_highlights": [
-        "What is everyone invested in other than NBIS? - Reddit",
-        "Nebius Group (NBIS) Loses 45.2% in 4 Weeks, Here's Why a Trend Reversal May be Around the Corner - Yahoo Finance"
-      ],
-      "recent_headlines": [
-        "Nebius: Not All Neo-Clouds Are Created Equal - Seeking Alpha",
-        "Nebius: 53% Down, 20% Short, And Ready To Explode (NASDAQ:NBIS) - Seeking Alpha",
-        "Nebius: The Selloff Is Testing More Than Its Valuation - Seeking Alpha",
-        "Nebius Group retreats 15% as tech stocks fall (NBIS:NASDAQ) - Seeking Alpha",
-        "Nebius Group (NBIS) Expected to Beat Earnings Estimates: Can the Stock Move Higher? - Yahoo Finance"
-      ]
-    },
-    "qual": {
-      "priced_in": {
-        "valuation_tier": "High Growth Premium",
-        "priced_in_points": [
-          "High P/E ratio indicates market has priced in strong future earnings acceleration.",
-          "Forward P/E is 135.6% lower than trailing P/E, pricing in robust earnings recovery/growth.",
-          "PEG ratio of 0.29 suggests stock may be undervalued relative to expected growth."
-        ]
-      },
-      "macro_policy": {
-        "macro_factors": [
-          "Operating in United States under Federal Reserve (FED) interest rate policy environment.",
-          "Performance closely aligned with overall United States economic trajectory."
-        ],
-        "policy_risks": [
-          "Standard corporate governance and trade policy conditions apply."
-        ]
-      },
-      "moat": {
-        "moat_tier": "Weak / No Moat",
-        "moat_score": 35.0,
-        "reasons": [
-          "Low Return on Equity (ROE: 0.6%), indicating margin pressure or weak capital efficiency."
-        ]
-      },
-      "qualitative_score": 41.0
-    },
-    "sig": {
-      "composite_score": 53.4,
-      "signal": "HOLD",
-      "confidence_pct": 73.4,
-      "pillar_scores": {
-        "fundamentals": 47.0,
-        "valuation": 65.0,
-        "technicals": 25.0,
-        "sentiment": 53.6,
-        "analyst": 85.0,
-        "macro_moat": 41.0
-      },
-      "key_positives": [
-        "Strong YoY revenue growth (454.0%)",
-        "Attractive Forward P/E (-36.0x)",
-        "Favorable PEG ratio (0.29x < 1.0)",
-        "Significant price target upside (+117.0%)"
-      ],
-      "key_risks": [
-        "Subpar Return on Equity (0.6%)",
-        "Negative free cash flow generation",
-        "High P/E ratio (101.2x)",
-        "Price is 35.8% below 50-day SMA (Bearish)"
       ]
     }
   },
@@ -1002,13 +814,13 @@
       "latest_price": 530.61,
       "sma_20": 531.4075012207031,
       "sma_50": 516.64580078125,
-      "sma_200": 438.8461834716797,
+      "sma_200": 438.8461839294434,
       "rsi_14": 48.84034635403999,
       "rsi_status": "NEUTRAL",
       "macd_data": {
-        "macd": 4.383007356300482,
-        "signal": 4.974342955778261,
-        "histogram": -0.5913355994777794,
+        "macd": 4.383007356562985,
+        "signal": 4.974342956164449,
+        "histogram": -0.5913355996014644,
         "crossover": "BEARISH"
       },
       "cross_status": "GOLDEN_CROSS",
@@ -1019,7 +831,7 @@
         "1m": -0.8335371564783367,
         "3m": 5.517733225244648,
         "6m": 29.103934474384417,
-        "1y": 7.679981589088114
+        "1y": 7.679974920336341
       },
       "technical_score": 54.1,
       "signals": [
@@ -1029,23 +841,23 @@
       ]
     },
     "sent": {
-      "combined_polarity": 0.07,
-      "sentiment_score": 52.8,
-      "label": "NEUTRAL",
+      "combined_polarity": 0.09,
+      "sentiment_score": 53.6,
+      "label": "BULLISH",
       "news_stats": {
-        "polarity": 0.06356902356902357,
-        "subjectivity": 0.2958249158249158,
+        "polarity": 0.05728619528619528,
+        "subjectivity": 0.2835218855218855,
         "positive_count": 5,
         "negative_count": 2,
         "neutral_count": 8,
         "total": 15
       },
       "reddit_stats": {
-        "polarity": 0.08593795093795091,
-        "subjectivity": 0.3142460317460317,
+        "polarity": 0.1659379509379509,
+        "subjectivity": 0.22424603174603175,
         "positive_count": 4,
-        "negative_count": 2,
-        "neutral_count": 4,
+        "negative_count": 1,
+        "neutral_count": 5,
         "total": 10
       },
       "headline_count": 25,
@@ -1055,14 +867,14 @@
         "Microsoft: The Easy Gains Are Already Over (Downgrade) (NASDAQ:MSFT) - Seeking Alpha"
       ],
       "negative_highlights": [
-        "Microsoft Corp Stock (MSFT) Moved Down by 3.11% on Nov 5: What Signal Does It Send? - TradingKey",
         "Microsoft Is Winding Down Oracle Deal to Rent AI Cloud Capacity - Reddit",
+        "Microsoft Corp Stock (MSFT) Moved Down by 3.11% on Nov 5: What Signal Does It Send? - TradingKey",
         "Microsoft: Wall Street Is Looking At The Wrong Numbers (NASDAQ:MSFT) - Seeking Alpha"
       ],
       "recent_headlines": [
+        "MSFT Stock Quote Price and Forecast - CNN",
         "Microsoft Corporation (MSFT) Outperforms with Record Quarter Driven by Azure Demand Surge - Yahoo Finance",
         "Microsoft: The Selloff Proved Why It's Different - Seeking Alpha",
-        "What's Going on With Microsoft Stock on Wednesday? - Benzinga",
         "Microsoft Corp Stock (MSFT) Opened Up by 5.61% on Nov 4: What Signal Does It Send? - TradingKey",
         "Microsoft Corporation (MSFT) Delivered Strong Fiscal Fourth-Quarter Results: Mott Capital\u2019s Take - Yahoo Finance"
       ]
@@ -1096,14 +908,14 @@
       "qualitative_score": 80.0
     },
     "sig": {
-      "composite_score": 74.3,
+      "composite_score": 74.4,
       "signal": "BUY",
-      "confidence_pct": 72.2,
+      "confidence_pct": 72.4,
       "pillar_scores": {
         "fundamentals": 100.0,
         "valuation": 55.0,
         "technicals": 54.1,
-        "sentiment": 52.8,
+        "sentiment": 53.6,
         "analyst": 95.0,
         "macro_moat": 80.0
       },
@@ -1115,6 +927,194 @@
       ],
       "key_risks": [
         "Standard market risk and volatility."
+      ]
+    }
+  },
+  "NBIS": {
+    "data": {
+      "symbol": "NBIS",
+      "company_name": "Nebius Group N.V.",
+      "exchange_info": {
+        "country": "United States",
+        "exchange": "NYSE/NASDAQ",
+        "central_bank": "Federal Reserve (FED)",
+        "currency_symbol": "$"
+      },
+      "currency": "USD",
+      "sector": "Communication Services",
+      "industry": "Internet Content & Information",
+      "summary": "Nebius Group N.V., a technology company, engages in building full-stack infrastructure to service the global AI industry in the United States, the United Kingdom, and internationally. It offers Nebius builds full-stack infrastructure for AI, including large-scale GPU clusters, cloud platforms, and tools and services for developers. The company also provides TripleTen, an edtech platform for re-skilling individuals for careers in technolgy; and Avride, which develops autonomous driving technology for self-driving cars and delivery robotics. It has a strategic alliance with NVIDIA Corporation to support the expansion of the company's AI cloud infrastructure. The company was formerly known as Yandex N.V. and changed its name to Nebius Group N.V. in August 2024. Nebius Group N.V. was founded in 1989 and is based in Schiphol, the Netherlands.",
+      "current_price": 129.49,
+      "previous_close": 120.37,
+      "fifty_two_week_high": 299.86,
+      "fifty_two_week_low": 73.52,
+      "volume": 24468851,
+      "avg_volume": 20721262,
+      "pe_ratio": 101.16407,
+      "forward_pe": -35.99114,
+      "peg_ratio": 0.29,
+      "price_to_sales": 25.977814,
+      "price_to_book": 3.432745,
+      "ev_to_ebitda": 145.92,
+      "market_cap": 35202535424,
+      "enterprise_value": 37647257600,
+      "eps_trailing": 1.28,
+      "eps_forward": -3.59783,
+      "earnings_growth": null,
+      "revenue_growth": 4.54,
+      "total_revenue": 1355100032,
+      "net_income": 42400000,
+      "profit_margins": 0.03129,
+      "operating_margins": -0.00223,
+      "return_on_equity": 0.00601,
+      "return_on_assets": -0.01918,
+      "total_debt": 10195300352,
+      "total_cash": 8042100224,
+      "debt_to_equity": 98.596,
+      "current_ratio": 4.03,
+      "quick_ratio": 3.605,
+      "free_cash_flow": -9614650368,
+      "dividend_yield_pct": 0.0,
+      "payout_ratio": 0.0,
+      "target_low": 84.0,
+      "target_mean": 281.0,
+      "target_high": 410.0,
+      "target_median": 302.0,
+      "recommendation_key": "none",
+      "recommendation_mean": null,
+      "number_of_analysts": 20,
+      "implied_upside_pct": 117.00517414472158,
+      "rec_breakdown": {
+        "strongBuy": 2,
+        "buy": 13,
+        "hold": 6,
+        "sell": 1,
+        "strongSell": 0
+      },
+      "next_earnings_date": "2026-11-12",
+      "earnings_high_est": 0.31,
+      "earnings_low_est": -1.07,
+      "earnings_avg_est": -0.605,
+      "_ticker_obj": "yfinance.Ticker object <NBIS>"
+    },
+    "tech": {
+      "latest_price": 129.49,
+      "sma_20": 165.23000144958496,
+      "sma_50": 201.70030075073242,
+      "sma_200": 178.37605052947998,
+      "rsi_14": 35.47651224243519,
+      "rsi_status": "BEARISH",
+      "macd_data": {
+        "macd": -20.626369398547865,
+        "signal": -17.568207687170776,
+        "histogram": -3.058161711377089,
+        "crossover": "BEARISH"
+      },
+      "cross_status": "GOLDEN_CROSS",
+      "fifty_two_week_pos_pct": 24.72828759791869,
+      "high_52": 299.8599853515625,
+      "low_52": 73.5199966430664,
+      "returns": {
+        "1m": -41.42579467594106,
+        "3m": -32.98659480250398,
+        "6m": -30.419131782310128,
+        "1y": 16.364127804152197
+      },
+      "technical_score": 25.0,
+      "signals": [
+        "Price is 35.8% below 50-day SMA (Bearish)",
+        "50-day SMA is above 200-day SMA (Golden Cross)",
+        "MACD histogram indicates negative bearish momentum"
+      ]
+    },
+    "sent": {
+      "combined_polarity": 0.108,
+      "sentiment_score": 54.3,
+      "label": "BULLISH",
+      "news_stats": {
+        "polarity": 0.08979717813051145,
+        "subjectivity": 0.255626102292769,
+        "positive_count": 6,
+        "negative_count": 1,
+        "neutral_count": 8,
+        "total": 15
+      },
+      "reddit_stats": {
+        "polarity": 0.150508658008658,
+        "subjectivity": 0.3714177489177489,
+        "positive_count": 5,
+        "negative_count": 1,
+        "neutral_count": 4,
+        "total": 10
+      },
+      "headline_count": 25,
+      "positive_highlights": [
+        "Is it still a good time to buy NBIS? - Reddit",
+        "Prediction: Nebius Stock Will Surge 95% in a Year, According to Wall Street. Should You Buy It Before Nov. 12? - The Motley Fool",
+        "Nebius: The Selloff Is Testing More Than Its Valuation - Seeking Alpha"
+      ],
+      "negative_highlights": [
+        "What is everyone invested in other than NBIS? - Reddit",
+        "Nebius Group (NBIS) Loses 45.2% in 4 Weeks, Here's Why a Trend Reversal May be Around the Corner - Yahoo Finance"
+      ],
+      "recent_headlines": [
+        "Nebius: Not All Neo-Clouds Are Created Equal - Seeking Alpha",
+        "Why Is Nebius Stock Surging on Friday? - Benzinga",
+        "Nebius Group (NBIS) Loses 45.2% in 4 Weeks, Here's Why a Trend Reversal May be Around the Corner - Yahoo Finance",
+        "Prediction: Nebius Stock Will Surge 95% in a Year, According to Wall Street. Should You Buy It Before Nov. 12? - The Motley Fool",
+        "Why is Nebius stock tumbling today? - Investing.com"
+      ]
+    },
+    "qual": {
+      "priced_in": {
+        "valuation_tier": "High Growth Premium",
+        "priced_in_points": [
+          "High P/E ratio indicates market has priced in strong future earnings acceleration.",
+          "Forward P/E is 135.6% lower than trailing P/E, pricing in robust earnings recovery/growth.",
+          "PEG ratio of 0.29 suggests stock may be undervalued relative to expected growth."
+        ]
+      },
+      "macro_policy": {
+        "macro_factors": [
+          "Operating in United States under Federal Reserve (FED) interest rate policy environment.",
+          "Performance closely aligned with overall United States economic trajectory."
+        ],
+        "policy_risks": [
+          "Standard corporate governance and trade policy conditions apply."
+        ]
+      },
+      "moat": {
+        "moat_tier": "Weak / No Moat",
+        "moat_score": 35.0,
+        "reasons": [
+          "Low Return on Equity (ROE: 0.6%), indicating margin pressure or weak capital efficiency."
+        ]
+      },
+      "qualitative_score": 41.0
+    },
+    "sig": {
+      "composite_score": 53.5,
+      "signal": "HOLD",
+      "confidence_pct": 73.4,
+      "pillar_scores": {
+        "fundamentals": 47.0,
+        "valuation": 65.0,
+        "technicals": 25.0,
+        "sentiment": 54.3,
+        "analyst": 85.0,
+        "macro_moat": 41.0
+      },
+      "key_positives": [
+        "Strong YoY revenue growth (454.0%)",
+        "Attractive Forward P/E (-36.0x)",
+        "Favorable PEG ratio (0.29x < 1.0)",
+        "Significant price target upside (+117.0%)"
+      ],
+      "key_risks": [
+        "Subpar Return on Equity (0.6%)",
+        "Negative free cash flow generation",
+        "High P/E ratio (101.2x)",
+        "Price is 35.8% below 50-day SMA (Bearish)"
       ]
     }
   }
