@@ -17,17 +17,17 @@
       "previous_close": 178.67,
       "fifty_two_week_high": 243.37,
       "fifty_two_week_low": 164.27,
-      "volume": 424954776,
-      "avg_volume": 122712573,
-      "pe_ratio": 21.351454,
+      "volume": 427096957,
+      "avg_volume": 127443187,
+      "pe_ratio": 22.578876,
       "forward_pe": 10.6033,
-      "peg_ratio": 0.23,
+      "peg_ratio": 0.22,
       "price_to_sales": 13.460694,
       "price_to_book": 17.809765,
-      "ev_to_ebitda": 21.277,
+      "ev_to_ebitda": 20.106,
       "market_cap": 4078186790912,
-      "enterprise_value": 4282337984512,
-      "eps_trailing": 7.91,
+      "enterprise_value": 4046640119808,
+      "eps_trailing": 7.48,
       "eps_forward": 15.92806,
       "earnings_growth": 1.278,
       "revenue_growth": 1.059,
@@ -98,38 +98,38 @@
       ]
     },
     "sent": {
-      "combined_polarity": 0.016,
-      "sentiment_score": 50.6,
+      "combined_polarity": -0.023,
+      "sentiment_score": 49.1,
       "label": "NEUTRAL",
       "news_stats": {
-        "polarity": 0.02240740740740741,
-        "subjectivity": 0.1575925925925926,
-        "positive_count": 1,
-        "negative_count": 1,
-        "neutral_count": 13,
+        "polarity": -0.02861111111111111,
+        "subjectivity": 0.20888888888888887,
+        "positive_count": 0,
+        "negative_count": 3,
+        "neutral_count": 12,
         "total": 15
       },
       "reddit_stats": {
-        "polarity": 0.0,
-        "subjectivity": 0.11499999999999999,
+        "polarity": -0.01,
+        "subjectivity": 0.125,
         "positive_count": 0,
-        "negative_count": 0,
-        "neutral_count": 10,
+        "negative_count": 1,
+        "neutral_count": 9,
         "total": 10
       },
       "headline_count": 25,
-      "positive_highlights": [
-        "Nvidia: TPUs, Trainiums, And Jalapenos Scare Me More Than China (Rating Downgrade) (NVDA) - Seeking Alpha"
-      ],
+      "positive_highlights": [],
       "negative_highlights": [
-        "Why Nvidia Stock Was Down Today - Yahoo Finance"
+        "Nvidia CEO's affair with alleged spy aided $7.5 billion in China chip shipments, Information reports - Reddit",
+        "NVIDIA Shares Rise 1% After Hours After Sharp Sell-Off and Leadership Probe - NVIDIA (NASDAQ:NVDA) - Benzinga",
+        "Nvidia Is Now Down for the Year After a Sharp Selloff. You Can Buy NVDA Stock Gradually, but Don\u2019t Rush In. - Barchart.com"
       ],
       "recent_headlines": [
         "Nvidia in focus as Citi, Wells Fargo cut price targets ahead of earnings (NVDA:NASDAQ) - Seeking Alpha",
         "NVIDIA Corporation $NVDA Stock: Assenagon Asset Management S.A. Decreases Position - MarketBeat",
-        "NVIDIA Corporation (NVDA) stock price, news, quote and history - Yahoo Finance UK",
+        "NVIDIA Shares Rise 1% After Hours After Sharp Sell-Off and Leadership Probe - NVIDIA (NASDAQ:NVDA) - Benzinga",
         "NVDA is \u2018silly cheap,\u2019 now is \u2018the opportunity of an absolute lifetime\u2019 \u2013 analysts (NVDA:NASDAQ) - Seeking Alpha",
-        "Nvidia stock falls after investigation into CEO, bucking market rally - CNN"
+        "NVDA Stock Quote Price and Forecast - CNN"
       ]
     },
     "qual": {
@@ -137,8 +137,8 @@
         "valuation_tier": "Fair Value Range",
         "priced_in_points": [
           "P/E ratio reflects balanced market expectations for mid-range growth.",
-          "Forward P/E is 50.3% lower than trailing P/E, pricing in robust earnings recovery/growth.",
-          "PEG ratio of 0.23 suggests stock may be undervalued relative to expected growth."
+          "Forward P/E is 53.0% lower than trailing P/E, pricing in robust earnings recovery/growth.",
+          "PEG ratio of 0.22 suggests stock may be undervalued relative to expected growth."
         ]
       },
       "macro_policy": {
@@ -162,14 +162,14 @@
       "qualitative_score": 80.0
     },
     "sig": {
-      "composite_score": 78.9,
+      "composite_score": 78.7,
       "signal": "BUY",
-      "confidence_pct": 68.9,
+      "confidence_pct": 68.6,
       "pillar_scores": {
         "fundamentals": 100.0,
         "valuation": 85.0,
         "technicals": 42.0,
-        "sentiment": 50.6,
+        "sentiment": 49.1,
         "analyst": 100.0,
         "macro_moat": 80.0
       },
@@ -202,16 +202,16 @@
       "previous_close": 48.98,
       "fifty_two_week_high": 138.25,
       "fifty_two_week_low": 40.58,
-      "volume": 75255443,
-      "avg_volume": 41657606,
+      "volume": 87321581,
+      "avg_volume": 41663454,
       "pe_ratio": null,
       "forward_pe": -24.00658,
       "peg_ratio": null,
       "price_to_sales": 3.5410247,
       "price_to_book": 5.3443737,
-      "ev_to_ebitda": 19.29,
+      "ev_to_ebitda": 19.253,
       "market_cap": 26876377088,
-      "enterprise_value": 73088262144,
+      "enterprise_value": 72950382592,
       "eps_trailing": -3.69,
       "eps_forward": -2.02986,
       "earnings_growth": null,
@@ -282,15 +282,15 @@
       ]
     },
     "sent": {
-      "combined_polarity": 0.115,
-      "sentiment_score": 54.6,
-      "label": "BULLISH",
+      "combined_polarity": 0.074,
+      "sentiment_score": 53.0,
+      "label": "NEUTRAL",
       "news_stats": {
-        "polarity": 0.09444444444444443,
-        "subjectivity": 0.22666666666666668,
-        "positive_count": 5,
-        "negative_count": 1,
-        "neutral_count": 9,
+        "polarity": 0.035555555555555556,
+        "subjectivity": 0.17396825396825397,
+        "positive_count": 3,
+        "negative_count": 0,
+        "neutral_count": 12,
         "total": 15
       },
       "reddit_stats": {
@@ -304,19 +304,18 @@
       "headline_count": 25,
       "positive_highlights": [
         "OK, I accept that the AI bubble has burst! - Reddit",
-        "CoreWeave pops as Q3 results, guidance top estimates (CRWV:NASDAQ) - Seeking Alpha",
-        "Coreweave Bond Yields Top 16% - Reddit"
+        "Coreweave Bond Yields Top 16% - Reddit",
+        "Is CoreWeave\u2019s business model economically sustainable? - Reddit"
       ],
       "negative_highlights": [
-        "CRWV: CoreWeave Inc. filed SEC Form 8-K: Results of Operations and... - Quantisnow",
         "CoreWeave at ~$90: does the debt destroy the equity, or is the market underpricing compute scarcity? - Reddit"
       ],
       "recent_headlines": [
         "CoreWeave stock pops as Q3 revenue beats estimates, company raises full-year outlook - Yahoo Finance",
         "CoreWeave beats on revenue and lifts guidance, easing AI slowdown concerns - CNBC",
         "CoreWeave Reports Strong Third Quarter 2026 Results - Quantisnow",
-        "CoreWeave pops as Q3 results, guidance top estimates (CRWV:NASDAQ) - Seeking Alpha",
-        "Earnings Flash (CRWV) CoreWeave, Inc. Reports Q3 Revenue $3.66B, vs. FactSet Est of $3.54B - marketscreener.com"
+        "CoreWeave: Won't Keep Post-Earnings Pop For Long (NASDAQ:CRWV) - Seeking Alpha",
+        "Earnings call transcript: CoreWeave tops Q3 2026 forecast and shares rise 5.7% - Investing.com"
       ]
     },
     "qual": {
@@ -346,14 +345,14 @@
       "qualitative_score": 32.0
     },
     "sig": {
-      "composite_score": 43.1,
+      "composite_score": 42.9,
       "signal": "SELL",
-      "confidence_pct": 54.9,
+      "confidence_pct": 55.0,
       "pillar_scores": {
         "fundamentals": 12.0,
         "valuation": 65.0,
         "technicals": 5.0,
-        "sentiment": 54.6,
+        "sentiment": 53.0,
         "analyst": 100.0,
         "macro_moat": 32.0
       },
@@ -389,17 +388,17 @@
       "previous_close": 508.58,
       "fifty_two_week_high": 658.52,
       "fifty_two_week_low": 188.22,
-      "volume": 46821450,
-      "avg_volume": 22834273,
-      "pe_ratio": 110.087616,
+      "volume": 46958570,
+      "avg_volume": 23208836,
+      "pe_ratio": 108.6941,
       "forward_pe": 29.125237,
-      "peg_ratio": 0.4,
+      "peg_ratio": 0.46,
       "price_to_sales": 18.597355,
       "price_to_book": 12.35486,
-      "ev_to_ebitda": 74.266,
+      "ev_to_ebitda": 75.242,
       "market_cap": 844989399040,
-      "enterprise_value": 827550597120,
-      "eps_trailing": 4.68,
+      "enterprise_value": 838424330240,
+      "eps_trailing": 4.74,
       "eps_forward": 17.68947,
       "earnings_growth": 0.938,
       "revenue_growth": 0.447,
@@ -422,7 +421,7 @@
       "target_high": 1250.0,
       "target_median": 650.0,
       "recommendation_key": "strong_buy",
-      "recommendation_mean": 1.37736,
+      "recommendation_mean": 1.39623,
       "number_of_analysts": 48,
       "implied_upside_pct": 27.615438364938548,
       "rec_breakdown": {
@@ -469,42 +468,42 @@
       ]
     },
     "sent": {
-      "combined_polarity": 0.176,
-      "sentiment_score": 57.1,
+      "combined_polarity": 0.148,
+      "sentiment_score": 55.9,
       "label": "BULLISH",
       "news_stats": {
-        "polarity": 0.21333333333333335,
-        "subjectivity": 0.3955555555555555,
-        "positive_count": 9,
+        "polarity": 0.15281746031746032,
+        "subjectivity": 0.25865079365079363,
+        "positive_count": 6,
         "negative_count": 2,
-        "neutral_count": 4,
+        "neutral_count": 7,
         "total": 15
       },
       "reddit_stats": {
-        "polarity": 0.09000000000000001,
-        "subjectivity": 0.33916666666666667,
-        "positive_count": 3,
-        "negative_count": 2,
+        "polarity": 0.13666666666666666,
+        "subjectivity": 0.3725,
+        "positive_count": 4,
+        "negative_count": 1,
         "neutral_count": 5,
         "total": 10
       },
       "headline_count": 25,
       "positive_highlights": [
-        "AMD Gains 25% Against NVDA in 2 Days: Chip Analyst Says Lisa Su Is \u2018at Her Best\u2019 - Benzinga",
-        "Top Stock Picks for Week of November 9, 2026 - Yahoo Finance",
-        "Advanced Micro Devices, Inc. (AMD) Stock Price, News, Quote & History - Yahoo! Finance Canada"
+        "AMD Gains 25% Against NVDA in 2 Days: Chip Analyst Says Lisa Su Is \u2018at Her Best\u2019 - Yahoo Finance",
+        "AMD Stock Clocks Best Day In 6 Months \u2014 But Michael Burry Won\u2019t Touch The Nvidia Headline Trade - Stocktwits",
+        "Driver from Microsoft via Windows Updates: Advanced Micro Devices, Inc. - SCSIAdapter - 9.3.0.221 is still being pushed! - Reddit"
       ],
       "negative_highlights": [
-        "Windows Updated automatically updating AMD drivers is enough for me to go back to team Green - Reddit",
         "AMD Stock Reverses Morning Gains, Slowly Recovers After Google AI Deal - Benzinga",
-        "Isnt AMD valuation ridiculous? - Reddit"
+        "Isnt AMD valuation ridiculous? - Reddit",
+        "AMD: Alphabet Just Announced A $1 Trillion Game Changer (NASDAQ:AMD) - Seeking Alpha"
       ],
       "recent_headlines": [
         "AMD Stock Reverses Morning Gains, Slowly Recovers After Google AI Deal - Benzinga",
-        "Advanced Micro Devices soars 13% on Google Cloud deal, tech rally (AMD:NASDAQ) - Seeking Alpha",
-        "Advanced Micro Devices, Inc. $AMD Stock Purchased by Retirement Systems of Alabama - MarketBeat",
-        "Advanced Micro Devices, Inc. (AMD) Stock Price, News, Quote & History - Yahoo! Finance Canada",
-        "Advanced Micro Devices Inc Stock (AMD) Moved Up by 5.58% on Nov 10: Facts Behind the Movement - TradingKey"
+        "AMD: Alphabet Just Announced A $1 Trillion Game Changer (NASDAQ:AMD) - Seeking Alpha",
+        "AMD Gains 25% Against NVDA in 2 Days: Chip Analyst Says Lisa Su Is \u2018at Her Best\u2019 - Yahoo Finance",
+        "AMD Stock Could Jump 34%. No, It's Got Nothing to Do With the Nvidia Turmoil. -- Barrons.com - Moomoo",
+        "Are AMD and Broadcom the real winners of the Nvidia spy scandal? - MarketWatch"
       ]
     },
     "qual": {
@@ -512,8 +511,8 @@
         "valuation_tier": "High Growth Premium",
         "priced_in_points": [
           "High P/E ratio indicates market has priced in strong future earnings acceleration.",
-          "Forward P/E is 73.5% lower than trailing P/E, pricing in robust earnings recovery/growth.",
-          "PEG ratio of 0.40 suggests stock may be undervalued relative to expected growth."
+          "Forward P/E is 73.2% lower than trailing P/E, pricing in robust earnings recovery/growth.",
+          "PEG ratio of 0.46 suggests stock may be undervalued relative to expected growth."
         ]
       },
       "macro_policy": {
@@ -536,14 +535,14 @@
       "qualitative_score": 68.0
     },
     "sig": {
-      "composite_score": 69.0,
+      "composite_score": 68.8,
       "signal": "BUY",
-      "confidence_pct": 68.6,
+      "confidence_pct": 68.5,
       "pillar_scores": {
         "fundamentals": 93.0,
         "valuation": 50.0,
         "technicals": 35.9,
-        "sentiment": 57.1,
+        "sentiment": 55.9,
         "analyst": 100.0,
         "macro_moat": 68.0
       },
@@ -551,10 +550,10 @@
         "Strong YoY revenue growth (44.7%)",
         "Low debt-to-equity ratio (13.5)",
         "Positive free cash flow generation",
-        "Favorable PEG ratio (0.40x < 1.0)"
+        "Favorable PEG ratio (0.46x < 1.0)"
       ],
       "key_risks": [
-        "High P/E ratio (110.1x)",
+        "High P/E ratio (108.7x)",
         "Price is 6.1% below 50-day SMA (Bearish)"
       ]
     }
@@ -577,16 +576,16 @@
       "previous_close": 545.18,
       "fifty_two_week_high": 559.15,
       "fifty_two_week_low": 349.2,
-      "volume": 26673591,
-      "avg_volume": 23068268,
+      "volume": 26910016,
+      "avg_volume": 23127893,
       "pe_ratio": 27.826721,
       "forward_pe": 22.035328,
-      "peg_ratio": 1.57,
+      "peg_ratio": 1.61,
       "price_to_sales": 11.428509,
       "price_to_book": 8.415968,
-      "ev_to_ebitda": 20.02,
+      "ev_to_ebitda": 19.587,
       "market_cap": 3959349575680,
-      "enterprise_value": 4118034776064,
+      "enterprise_value": 4028771860480,
       "eps_trailing": 19.16,
       "eps_forward": 24.19569,
       "earnings_growth": 0.323,
@@ -657,15 +656,15 @@
       ]
     },
     "sent": {
-      "combined_polarity": -0.011,
-      "sentiment_score": 49.6,
+      "combined_polarity": -0.044,
+      "sentiment_score": 48.3,
       "label": "NEUTRAL",
       "news_stats": {
-        "polarity": -0.00023809523809524465,
-        "subjectivity": 0.21184523809523811,
-        "positive_count": 2,
+        "polarity": -0.04690476190476191,
+        "subjectivity": 0.1718452380952381,
+        "positive_count": 1,
         "negative_count": 2,
-        "neutral_count": 11,
+        "neutral_count": 12,
         "total": 15
       },
       "reddit_stats": {
@@ -678,13 +677,13 @@
       },
       "headline_count": 25,
       "positive_highlights": [
-        "Is Microsoft Corporation (MSFT) A Good Stock To Buy Now? - Yahoo Finance",
         "MSFT seems like a good buy right now? - Reddit",
-        "Microsoft is NOT a bargain right now - Reddit"
+        "Microsoft is NOT a bargain right now - Reddit",
+        "Is Microsoft Corporation (MSFT) One of the Most Promising Future Stocks to Buy Right Now? - Yahoo Finance"
       ],
       "negative_highlights": [
-        "Microsoft Is Winding Down Oracle Deal to Rent AI Cloud Capacity - Reddit",
         "Microsoft is winding down Oracle deal to rent AI cloud capacity, Bloomberg News reports - Reddit",
+        "Microsoft Is Winding Down Oracle Deal to Rent AI Cloud Capacity - Reddit",
         "Microsoft Corp Stock (MSFT) Moved Up by 3.24% on Nov 9: Facts Behind the Movement - TradingKey"
       ],
       "recent_headlines": [
@@ -724,14 +723,14 @@
       "qualitative_score": 80.0
     },
     "sig": {
-      "composite_score": 73.9,
+      "composite_score": 73.7,
       "signal": "BUY",
-      "confidence_pct": 71.6,
+      "confidence_pct": 71.3,
       "pillar_scores": {
         "fundamentals": 100.0,
         "valuation": 55.0,
         "technicals": 54.5,
-        "sentiment": 49.6,
+        "sentiment": 48.3,
         "analyst": 95.0,
         "macro_moat": 80.0
       },
@@ -764,17 +763,17 @@
       "previous_close": 733.15,
       "fifty_two_week_high": 1255.0,
       "fifty_two_week_low": 192.59,
-      "volume": 28101496,
-      "avg_volume": 27846740,
-      "pe_ratio": 9.7552805,
+      "volume": 28264244,
+      "avg_volume": 27856041,
+      "pe_ratio": 9.8640995,
       "forward_pe": 3.4901247,
       "peg_ratio": 0.16,
       "price_to_sales": 6.159761,
       "price_to_book": 5.9265223,
-      "ev_to_ebitda": 7.27,
+      "ev_to_ebitda": 7.186,
       "market_cap": 820406255616,
-      "enterprise_value": 791247912960,
-      "eps_trailing": 74.33,
+      "enterprise_value": 782151254016,
+      "eps_trailing": 73.51,
       "eps_forward": 207.76048,
       "earnings_growth": 10.595,
       "revenue_growth": 3.793,
@@ -844,15 +843,15 @@
       ]
     },
     "sent": {
-      "combined_polarity": 0.081,
-      "sentiment_score": 53.3,
+      "combined_polarity": 0.091,
+      "sentiment_score": 53.6,
       "label": "BULLISH",
       "news_stats": {
-        "polarity": 0.034629629629629635,
-        "subjectivity": 0.1303703703703704,
+        "polarity": 0.04814814814814815,
+        "subjectivity": 0.11296296296296296,
         "positive_count": 3,
-        "negative_count": 2,
-        "neutral_count": 10,
+        "negative_count": 1,
+        "neutral_count": 11,
         "total": 15
       },
       "reddit_stats": {
@@ -867,19 +866,19 @@
       "positive_highlights": [
         "META, AMZN, GOOG and NOW are currently great buying opportunities - Reddit",
         "OK, I accept that the AI bubble has burst! - Reddit",
-        "Nvidia, Alphabet, and Micron Just Agreed to Buy $26 Billion of Stock in One of Their Biggest Customers - The Motley Fool"
+        "Is Micron Technology, Inc. (MU) the Stock with the Best Earnings Growth for the Next 3 Years? - Yahoo Finance"
       ],
       "negative_highlights": [
         "Been watching MU pretty closely these past couple weeks and honestly it\u2019s hard to ignore what\u2019s going on here. - Reddit",
-        "Micron: Down 42% From Its Peak, But I\u2019m Still Not Buying (NASDAQ:MU) - Seeking Alpha",
-        "Give me the stocks you\u2019re bag holding (down 5 to 50%) that you still believe in and don\u2019t regret (yet\u2026) - Reddit"
+        "Give me the stocks you\u2019re bag holding (down 5 to 50%) that you still believe in and don\u2019t regret (yet\u2026) - Reddit",
+        "Micron Technology Inc Stock (MU) Moved Down by 3.61% on Nov 10: Facts Behind the Movement - TradingKey"
       ],
       "recent_headlines": [
         "Micron: The $300 Nightmare And The $1,500 Opportunity (NASDAQ:MU) - Seeking Alpha",
-        "Micron Stock Drops Again. The Case for It Soaring 148%. - Barron's",
-        "Nvidia, Alphabet, and Micron Just Agreed to Buy $26 Billion of Stock in One of Their Biggest Customers - The Motley Fool",
-        "Micron Rises 6% as Bulls Tout Its Bargain Valuation and Buyback Firepower; Seagate and Western Digital Jump 11% - 24/7 Wall St.",
-        "Bank of America Removes Micron Technology (MU) from US 1 List Am - GuruFocus"
+        "Micron Technology, Inc. (MU) Is a Trending Stock: Facts to Know Before Betting on It - Yahoo Finance",
+        "Micron: Why I Added $5,000 Worth Of Shares During The Selloff (Rating Downgrade) - Seeking Alpha",
+        "MU Stock Quote Price and Forecast - CNN",
+        "Micron Technology Inc Stock (MU) Moved Down by 3.61% on Nov 10: Facts Behind the Movement - TradingKey"
       ]
     },
     "qual": {
@@ -887,7 +886,7 @@
         "valuation_tier": "Value / Low Expectation",
         "priced_in_points": [
           "Low P/E ratio suggests market is pricing in modest growth or cyclical headwinds.",
-          "Forward P/E is 64.2% lower than trailing P/E, pricing in robust earnings recovery/growth.",
+          "Forward P/E is 64.6% lower than trailing P/E, pricing in robust earnings recovery/growth.",
           "PEG ratio of 0.16 suggests stock may be undervalued relative to expected growth."
         ]
       },
@@ -912,14 +911,14 @@
       "qualitative_score": 80.0
     },
     "sig": {
-      "composite_score": 78.7,
+      "composite_score": 78.8,
       "signal": "BUY",
-      "confidence_pct": 62.6,
+      "confidence_pct": 62.7,
       "pillar_scores": {
         "fundamentals": 100.0,
         "valuation": 95.0,
         "technicals": 25.0,
-        "sentiment": 53.3,
+        "sentiment": 53.6,
         "analyst": 100.0,
         "macro_moat": 80.0
       },
@@ -934,10 +933,10 @@
       ]
     }
   },
-  "ASTS": {
+  "NBIS": {
     "data": {
-      "symbol": "ASTS",
-      "company_name": "AST SpaceMobile, Inc.",
+      "symbol": "NBIS",
+      "company_name": "Nebius Group N.V.",
       "exchange_info": {
         "country": "United States",
         "exchange": "NYSE/NASDAQ",
@@ -945,179 +944,181 @@
         "currency_symbol": "$"
       },
       "currency": "USD",
-      "sector": "Technology",
-      "industry": "Communication Equipment",
-      "summary": "AST SpaceMobile, Inc., together with its subsidiaries, designs and develops the constellation of BlueBird satellites in the United States. The company provides a cellular broadband network in space to be accessible directly by smartphones for commercial use and other applications, as well as for government use. Its SpaceMobile service provides cellular broadband services to end-users who are out of terrestrial cellular coverage. The company was founded in 2017 and is headquartered in Midland, Texas.",
-      "current_price": 33.69,
-      "previous_close": 36.89,
-      "fifty_two_week_high": 133.86,
-      "fifty_two_week_low": 27.58,
-      "volume": 25562707,
-      "avg_volume": 13684090,
-      "pe_ratio": null,
-      "forward_pe": -21.578724,
-      "peg_ratio": null,
-      "price_to_sales": 91.76269,
-      "price_to_book": 5.8652506,
-      "ev_to_ebitda": -26.6,
-      "market_cap": 13111052288,
-      "enterprise_value": 12846353408,
-      "eps_trailing": -2.13,
-      "eps_forward": -1.56126,
+      "sector": "Communication Services",
+      "industry": "Internet Content & Information",
+      "summary": "Nebius Group N.V., a technology company, engages in building full-stack infrastructure to service the global AI industry in the United States, the United Kingdom, and internationally. It offers Nebius builds full-stack infrastructure for AI, including large-scale GPU clusters, cloud platforms, and tools and services for developers. The company also provides TripleTen, an edtech platform for re-skilling individuals for careers in technolgy; and Avride, which develops autonomous driving technology for self-driving cars and delivery robotics. It has a strategic alliance with NVIDIA Corporation to support the expansion of the company's AI cloud infrastructure. The company was formerly known as Yandex N.V. and changed its name to Nebius Group N.V. in August 2024. Nebius Group N.V. was founded in 1989 and is based in Schiphol, the Netherlands.",
+      "current_price": 134.0,
+      "previous_close": 141.45,
+      "fifty_two_week_high": 299.86,
+      "fifty_two_week_low": 73.52,
+      "volume": 20405866,
+      "avg_volume": 20767739,
+      "pe_ratio": 104.6875,
+      "forward_pe": -38.527447,
+      "peg_ratio": 0.32,
+      "price_to_sales": 26.882591,
+      "price_to_book": 3.5523038,
+      "ev_to_ebitda": 150.711,
+      "market_cap": 36428599296,
+      "enterprise_value": 38883442688,
+      "eps_trailing": 1.28,
+      "eps_forward": -3.47804,
       "earnings_growth": null,
-      "revenue_growth": 1.871,
-      "total_revenue": 142880000,
-      "net_income": -628267008,
-      "profit_margins": 0.0,
-      "operating_margins": -3.98521,
-      "return_on_equity": -0.43232,
-      "return_on_assets": -0.07537,
-      "total_debt": 4118731008,
-      "total_cash": 2798910976,
-      "debt_to_equity": 190.454,
-      "current_ratio": 13.651,
-      "quick_ratio": 12.88,
-      "free_cash_flow": -2026723584,
+      "revenue_growth": 4.54,
+      "total_revenue": 1355100032,
+      "net_income": 42400000,
+      "profit_margins": 0.03129,
+      "operating_margins": -0.00223,
+      "return_on_equity": 0.00601,
+      "return_on_assets": -0.01918,
+      "total_debt": 10195300352,
+      "total_cash": 8042100224,
+      "debt_to_equity": 98.596,
+      "current_ratio": 4.03,
+      "quick_ratio": 3.605,
+      "free_cash_flow": -9614650368,
       "dividend_yield_pct": 0.0,
-      "payout_ratio": null,
-      "target_low": 42.5,
-      "target_mean": 74.68333,
-      "target_high": 108.0,
-      "target_median": 78.0,
-      "recommendation_key": "hold",
-      "recommendation_mean": 2.53846,
-      "number_of_analysts": 12,
-      "implied_upside_pct": 121.67803502523005,
+      "payout_ratio": 0.0,
+      "target_low": 84.0,
+      "target_mean": 278.05,
+      "target_high": 410.0,
+      "target_median": 287.5,
+      "recommendation_key": "buy",
+      "recommendation_mean": 1.81818,
+      "number_of_analysts": 20,
+      "implied_upside_pct": 107.50000000000001,
       "rec_breakdown": {
-        "strongBuy": 1,
-        "buy": 4,
+        "strongBuy": 2,
+        "buy": 13,
         "hold": 6,
         "sell": 1,
-        "strongSell": 1
+        "strongSell": 0
       },
-      "next_earnings_date": "2026-11-09",
-      "earnings_high_est": -0.21,
-      "earnings_low_est": -0.54,
-      "earnings_avg_est": -0.39351,
-      "_ticker_obj": "yfinance.Ticker object <ASTS>"
+      "next_earnings_date": "2026-11-12",
+      "earnings_high_est": 0.31,
+      "earnings_low_est": -1.07,
+      "earnings_avg_est": -0.6284,
+      "_ticker_obj": "yfinance.Ticker object <NBIS>"
     },
     "tech": {
-      "latest_price": 33.69,
-      "sma_20": 38.98400020599365,
-      "sma_50": 51.23420021057129,
-      "sma_200": 74.8699249458313,
-      "rsi_14": 38.559182349681734,
+      "latest_price": 134.0,
+      "sma_20": 158.1565013885498,
+      "sma_50": 198.89930068969727,
+      "sma_200": 178.82350051879882,
+      "rsi_14": 38.13853251802809,
       "rsi_status": "BEARISH",
       "macd_data": {
-        "macd": -5.095014558073359,
-        "signal": -5.1026203456455415,
-        "histogram": 0.007605787572182443,
-        "crossover": "BULLISH_CROSS"
+        "macd": -19.73552568271407,
+        "signal": -18.37810751406226,
+        "histogram": -1.357418168651808,
+        "crossover": "BEARISH"
       },
-      "cross_status": "DEATH_CROSS",
-      "fifty_two_week_pos_pct": 5.74896503276151,
-      "high_52": 133.86000061035156,
-      "low_52": 27.579999923706055,
+      "cross_status": "GOLDEN_CROSS",
+      "fifty_two_week_pos_pct": 26.720865235539954,
+      "high_52": 299.8599853515625,
+      "low_52": 73.5199966430664,
       "returns": {
-        "1m": -28.418143029794518,
-        "3m": -52.89429309101329,
-        "6m": -54.96591217823148,
-        "1y": -50.37560715439202
+        "1m": -35.221889391556715,
+        "3m": -47.45922069968705,
+        "6m": -35.350027868068125,
+        "1y": 31.08980473467291
       },
       "technical_score": 25.0,
       "signals": [
-        "Price is 34.2% below 50-day SMA (Bearish)",
-        "50-day SMA is below 200-day SMA (Death Cross)",
-        "MACD histogram indicates positive bullish momentum"
+        "Price is 32.6% below 50-day SMA (Bearish)",
+        "50-day SMA is above 200-day SMA (Golden Cross)",
+        "MACD histogram indicates negative bearish momentum"
       ]
     },
     "sent": {
-      "combined_polarity": 0.064,
-      "sentiment_score": 52.6,
+      "combined_polarity": 0.044,
+      "sentiment_score": 51.8,
       "label": "NEUTRAL",
       "news_stats": {
-        "polarity": 0.07917508417508418,
-        "subjectivity": 0.2094107744107744,
-        "positive_count": 5,
-        "negative_count": 1,
-        "neutral_count": 9,
+        "polarity": -0.0070370370370370396,
+        "subjectivity": 0.1548148148148148,
+        "positive_count": 2,
+        "negative_count": 3,
+        "neutral_count": 10,
         "total": 15
       },
       "reddit_stats": {
-        "polarity": 0.028636363636363633,
-        "subjectivity": 0.26462121212121215,
-        "positive_count": 2,
-        "negative_count": 2,
-        "neutral_count": 6,
+        "polarity": 0.1643181818181818,
+        "subjectivity": 0.3952272727272727,
+        "positive_count": 4,
+        "negative_count": 1,
+        "neutral_count": 5,
         "total": 10
       },
       "headline_count": 25,
       "positive_highlights": [
-        "AST SpaceMobile Q3: Too Many Execution Risks - Seeking Alpha",
-        "AST SpaceMobile Is Gunning for Space, and a New Space Force Win Could Be the Fuel ASTS Stock Needs - Barchart.com",
-        "AST SpaceMobile to Build Own 20-Ton Rocket to Deploy BlueBird Satellites in Low Earth Orbit Using Miranda Engines from Firefly Aerospace - Reddit"
+        "When is the best time to buy NBIS after the Q2 earnings surge? - Reddit",
+        "Nebius: The Selloff Is Testing More Than Its Valuation - Seeking Alpha",
+        "NBIS FULL PORT - SUGGESTIONS - Reddit"
       ],
       "negative_highlights": [
-        "Did a deeper dive into technology behind AST: How it works, AST vs. SpaceX vs. GlobalStar vs. Lynk. Feedback appreciated! - Reddit",
-        "AST SPACEMOBILE TO OFFER $1B OF CONV SR NOTES DUE '34 - Reddit",
-        "AST SpaceMobile falls 9% amid revenue miss, heavy capex plans (ASTS:NASDAQ) - Seeking Alpha"
+        "What is everyone invested in other than NBIS? - Reddit",
+        "Nebius Group (NASDAQ:NBIS) Stock Price Down 5.3% - Here's What Happened - MarketBeat",
+        "Nebius: AI Panic Round Trip Gift (NASDAQ:NBIS) - Seeking Alpha"
       ],
       "recent_headlines": [
-        "AST SpaceMobile, Inc. (ASTS) Stock Price, News, Quote & History - Yahoo! Finance Canada",
-        "AST SpaceMobile falls 9% amid revenue miss, heavy capex plans (ASTS:NASDAQ) - Seeking Alpha",
-        "AST SpaceMobile Is Now Down 55% in 2026: Is ASTS Stock Hopeless or Ready for a Rebound? - 24/7 Wall St.",
-        "What's Going On With AST SpaceMobile Shares Tuesday? - Benzinga",
-        "AST SpaceMobile Inc Stock (ASTS) Moved Down by 8.63% on Nov 10: A Full Analysis - TradingKey"
+        "Ahead of Nebius Earnings, Here's What Barchart Data Says Comes Next for NBIS Stock - Barchart.com",
+        "Nebius: The First Domino In The AI Collapse (NASDAQ:NBIS) - Seeking Alpha",
+        "Cloudflare Jumps 11%, Nebius Surges 9% as AI Cloud Stocks Defy NVIDIA's Slide; CoreWeave Rallies 6% on Wayve Deal - 24/7 Wall St.",
+        "Jensen Huang\u2019s Scandal Could Hit CoreWeave, Nebius Where It Hurts - NVIDIA (NASDAQ:NVDA), Nebius Group (N - Benzinga",
+        "Nebius Group Reports Q3 Earnings This Week \u2013 Who Owns NBIS Stock? - TipRanks"
       ]
     },
     "qual": {
       "priced_in": {
-        "valuation_tier": "Moderate",
+        "valuation_tier": "High Growth Premium",
         "priced_in_points": [
-          "Market pricing reflects baseline sector performance."
+          "High P/E ratio indicates market has priced in strong future earnings acceleration.",
+          "Forward P/E is 136.8% lower than trailing P/E, pricing in robust earnings recovery/growth.",
+          "PEG ratio of 0.32 suggests stock may be undervalued relative to expected growth."
         ]
       },
       "macro_policy": {
         "macro_factors": [
           "Operating in United States under Federal Reserve (FED) interest rate policy environment.",
-          "Consumer sentiment and discretionary spending impact demand during inflation/rate shifts."
+          "Performance closely aligned with overall United States economic trajectory."
         ],
         "policy_risks": [
-          "Antitrust oversight, data privacy laws, and international tariff trade policies affect cross-border supply chains."
+          "Standard corporate governance and trade policy conditions apply."
         ]
       },
       "moat": {
         "moat_tier": "Weak / No Moat",
-        "moat_score": 20.0,
+        "moat_score": 35.0,
         "reasons": [
-          "Low Return on Equity (ROE: -43.2%), indicating margin pressure or weak capital efficiency.",
-          "Thin net profit margin (0.0%), making company vulnerable to cost inflation."
+          "Low Return on Equity (ROE: 0.6%), indicating margin pressure or weak capital efficiency."
         ]
       },
-      "qualitative_score": 32.0
+      "qualitative_score": 41.0
     },
     "sig": {
-      "composite_score": 45.3,
+      "composite_score": 54.9,
       "signal": "HOLD",
-      "confidence_pct": 70.4,
+      "confidence_pct": 69.0,
       "pillar_scores": {
-        "fundamentals": 25.0,
+        "fundamentals": 47.0,
         "valuation": 65.0,
         "technicals": 25.0,
-        "sentiment": 52.6,
-        "analyst": 75.0,
-        "macro_moat": 32.0
+        "sentiment": 51.8,
+        "analyst": 97.0,
+        "macro_moat": 41.0
       },
       "key_positives": [
-        "Strong YoY revenue growth (187.1%)",
-        "Attractive Forward P/E (-21.6x)",
-        "Significant price target upside (+121.7%)"
+        "Strong YoY revenue growth (454.0%)",
+        "Attractive Forward P/E (-38.5x)",
+        "Favorable PEG ratio (0.32x < 1.0)",
+        "Significant price target upside (+107.5%)"
       ],
       "key_risks": [
-        "Subpar Return on Equity (-43.2%)",
-        "Thin profit margin (0.0%)",
-        "Elevated debt-to-equity ratio (190.5)",
-        "Negative free cash flow generation"
+        "Subpar Return on Equity (0.6%)",
+        "Negative free cash flow generation",
+        "High P/E ratio (104.7x)",
+        "Price is 32.6% below 50-day SMA (Bearish)"
       ]
     }
   }
