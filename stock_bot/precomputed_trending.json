@@ -18,8 +18,8 @@
       "fifty_two_week_high": 243.37,
       "fifty_two_week_low": 148.8,
       "volume": 362490337,
-      "avg_volume": 145050752,
-      "pe_ratio": 21.012903,
+      "avg_volume": 146134656,
+      "pe_ratio": 20.587864,
       "forward_pe": 10.272057,
       "peg_ratio": 0.2,
       "price_to_sales": 12.979301,
@@ -27,7 +27,7 @@
       "ev_to_ebitda": 19.383,
       "market_cap": 3932339044352,
       "enterprise_value": 3901076013056,
-      "eps_trailing": 7.75,
+      "eps_trailing": 7.91,
       "eps_forward": 15.85369,
       "earnings_growth": 1.278,
       "revenue_growth": 1.059,
@@ -43,7 +43,7 @@
       "current_ratio": 4.589,
       "quick_ratio": 2.918,
       "free_cash_flow": 41809874944,
-      "dividend_yield_pct": 60.0,
+      "dividend_yield_pct": 61.0,
       "payout_ratio": 0.0354,
       "target_low": 174.0,
       "target_mean": 283.30756,
@@ -75,8 +75,8 @@
       "rsi_status": "OVERSOLD",
       "macd_data": {
         "macd": -14.224870624631734,
-        "signal": -10.100589223521013,
-        "histogram": -4.124281401110721,
+        "signal": -10.100589223521007,
+        "histogram": -4.124281401110727,
         "crossover": "BEARISH"
       },
       "cross_status": "GOLDEN_CROSS",
@@ -98,39 +98,35 @@
       ]
     },
     "sent": {
-      "combined_polarity": 0.012,
-      "sentiment_score": 50.5,
+      "combined_polarity": 0.014,
+      "sentiment_score": 50.6,
       "label": "NEUTRAL",
       "news_stats": {
-        "polarity": 0.006666666666666665,
-        "subjectivity": 0.07,
+        "polarity": 0.02,
+        "subjectivity": 0.03666666666666667,
         "positive_count": 1,
-        "negative_count": 1,
-        "neutral_count": 13,
+        "negative_count": 0,
+        "neutral_count": 14,
         "total": 15
       },
       "reddit_stats": {
-        "polarity": 0.025,
-        "subjectivity": 0.08166666666666667,
-        "positive_count": 1,
+        "polarity": 0.0,
+        "subjectivity": 0.0,
+        "positive_count": 0,
         "negative_count": 0,
-        "neutral_count": 9,
-        "total": 10
+        "neutral_count": 0
       },
-      "headline_count": 25,
+      "headline_count": 15,
       "positive_highlights": [
-        "Nvidia Has Been the Market\u2019s Golden Goose. Now It\u2019s in Crisis - Morningstar",
-        "Am I the only one who thinks there is more to the scandal story of Jensen Huang? - Reddit"
+        "Nvidia Has Been the Market\u2019s Golden Goose. Now It\u2019s in Crisis - Morningstar"
       ],
-      "negative_highlights": [
-        "Nvidia: I'm Buying Heavily Ahead Of Earnings (Rating Upgrade) (NASDAQ:NVDA) - Seeking Alpha"
-      ],
+      "negative_highlights": [],
       "recent_headlines": [
         "Equities close lower as Nvidia drop outweighs energy gains - Reuters",
         "Nvidia: A House Of Cards (Rating Downgrade) (NASDAQ:NVDA) - Seeking Alpha",
-        "NVIDIA Corporation $NVDA Stock Bought by TD Waterhouse Canada Inc. - MarketBeat",
         "Nvidia Bloodbath Over by November\u2019s End? Crypto Bettors Weigh NVDA Stock\u2019s Next Move as Jensen Huang Cont - Benzinga",
-        "Nvidia: Selloff Into Earnings Sets Up An Upside Guidance Surprise (NASDAQ:NVDA) - Seeking Alpha"
+        "Nvidia: Selloff Into Earnings Sets Up An Upside Guidance Surprise (NASDAQ:NVDA) - Seeking Alpha",
+        "Equities close lower as Nvidia drop outweighs energy gains - Virginia Business"
       ]
     },
     "qual": {
@@ -138,7 +134,7 @@
         "valuation_tier": "Fair Value Range",
         "priced_in_points": [
           "P/E ratio reflects balanced market expectations for mid-range growth.",
-          "Forward P/E is 51.1% lower than trailing P/E, pricing in robust earnings recovery/growth.",
+          "Forward P/E is 50.1% lower than trailing P/E, pricing in robust earnings recovery/growth.",
           "PEG ratio of 0.20 suggests stock may be undervalued relative to expected growth."
         ]
       },
@@ -170,7 +166,7 @@
         "fundamentals": 100.0,
         "valuation": 85.0,
         "technicals": 42.0,
-        "sentiment": 50.5,
+        "sentiment": 50.6,
         "analyst": 100.0,
         "macro_moat": 80.0
       },
@@ -204,7 +200,7 @@
       "fifty_two_week_high": 658.52,
       "fifty_two_week_low": 188.22,
       "volume": 48915652,
-      "avg_volume": 24674270,
+      "avg_volume": 24660270,
       "pe_ratio": 114.11539,
       "forward_pe": 30.188778,
       "peg_ratio": 0.53,
@@ -283,42 +279,41 @@
       ]
     },
     "sent": {
-      "combined_polarity": 0.072,
-      "sentiment_score": 52.9,
-      "label": "NEUTRAL",
+      "combined_polarity": 0.085,
+      "sentiment_score": 53.4,
+      "label": "BULLISH",
       "news_stats": {
-        "polarity": 0.09895061728395062,
-        "subjectivity": 0.22345679012345682,
-        "positive_count": 6,
+        "polarity": 0.09808641975308643,
+        "subjectivity": 0.2106172839506173,
+        "positive_count": 5,
         "negative_count": 1,
-        "neutral_count": 8,
+        "neutral_count": 9,
         "total": 15
       },
       "reddit_stats": {
-        "polarity": 0.010303030303030305,
-        "subjectivity": 0.3054545454545455,
-        "positive_count": 2,
-        "negative_count": 2,
+        "polarity": 0.0553030303030303,
+        "subjectivity": 0.24045454545454542,
+        "positive_count": 3,
+        "negative_count": 1,
         "neutral_count": 6,
         "total": 10
       },
       "headline_count": 25,
       "positive_highlights": [
-        "Why AMD Shares Are Surging and What a $10,000 Investment in the Stock Could Be Worth in 3 Years - The Motley Fool",
         "Driver from Microsoft via Windows Updates: Advanced Micro Devices, Inc. - SCSIAdapter - 9.3.0.221 Warning - Reddit",
-        "Why is Advanced Micro Devices stock sliding today? - Investing.com"
+        "Trending Industry Today: Advanced Micro Devices Leads Losses In CPU Concept Stocks - Moomoo",
+        "Advanced Micro Devices, Inc. $AMD Stock Position Boosted by Cornerstone Advisors LLC - MarketBeat"
       ],
       "negative_highlights": [
-        "Windows Update just suggested me 2.2.0.121 \"System\" software from AMD. Anyone else with this? Curious why it shows up with fully updated AM4 drivers. - Reddit",
         "AMD and other chip stocks slide as Wall Street rethinks the AI trade without Jensen Huang - MarketWatch",
         "Isnt AMD valuation ridiculous? - Reddit"
       ],
       "recent_headlines": [
-        "Why Advanced Micro Devices Stock Is Down Today - Yahoo Finance",
         "How to Play AMD Stock as Google Picks EPYC for Its Next-Gen TPUs - Barchart.com",
         "What's Going On With AMD Stock Today? - Benzinga",
+        "Why Advanced Micro Devices Stock Is Down Today - The Motley Fool",
         "AMD: The AI Trade Just Entered Another Phase (NASDAQ:AMD) - Seeking Alpha",
-        "Why AMD Shares Are Surging and What a $10,000 Investment in the Stock Could Be Worth in 3 Years - The Motley Fool"
+        "Trending Industry Today: Advanced Micro Devices Leads Losses In CPU Concept Stocks - Moomoo"
       ]
     },
     "qual": {
@@ -352,12 +347,12 @@
     "sig": {
       "composite_score": 72.7,
       "signal": "BUY",
-      "confidence_pct": 73.3,
+      "confidence_pct": 73.4,
       "pillar_scores": {
         "fundamentals": 93.0,
         "valuation": 50.0,
         "technicals": 64.5,
-        "sentiment": 52.9,
+        "sentiment": 53.4,
         "analyst": 100.0,
         "macro_moat": 68.0
       },
@@ -392,7 +387,7 @@
       "fifty_two_week_high": 559.15,
       "fifty_two_week_low": 349.2,
       "volume": 25458037,
-      "avg_volume": 23109820,
+      "avg_volume": 23217510,
       "pe_ratio": 27.34238,
       "forward_pe": 21.656946,
       "peg_ratio": 1.55,
@@ -444,13 +439,13 @@
       "latest_price": 523.88,
       "sma_20": 529.3859985351562,
       "sma_50": 518.9971997070312,
-      "sma_200": 440.4917384338379,
+      "sma_200": 440.49173828125,
       "rsi_14": 46.901658428595965,
       "rsi_status": "NEUTRAL",
       "macd_data": {
-        "macd": 2.025797418574939,
-        "signal": 3.85550360463032,
-        "histogram": -1.8297061860553812,
+        "macd": 2.0257974187555874,
+        "signal": 3.8555036048959774,
+        "histogram": -1.82970618614039,
         "crossover": "BEARISH"
       },
       "cross_status": "GOLDEN_CROSS",
@@ -471,42 +466,42 @@
       ]
     },
     "sent": {
-      "combined_polarity": 0.03,
-      "sentiment_score": 51.2,
+      "combined_polarity": 0.027,
+      "sentiment_score": 51.1,
       "label": "NEUTRAL",
       "news_stats": {
-        "polarity": 0.01285714285714286,
-        "subjectivity": 0.18535714285714286,
+        "polarity": 0.020735930735930736,
+        "subjectivity": 0.2271753246753247,
         "positive_count": 2,
-        "negative_count": 2,
-        "neutral_count": 11,
+        "negative_count": 1,
+        "neutral_count": 12,
         "total": 15
       },
       "reddit_stats": {
-        "polarity": 0.06914682539682539,
-        "subjectivity": 0.1544246031746032,
-        "positive_count": 3,
-        "negative_count": 1,
+        "polarity": 0.043174603174603164,
+        "subjectivity": 0.14623015873015874,
+        "positive_count": 2,
+        "negative_count": 2,
         "neutral_count": 6,
         "total": 10
       },
       "headline_count": 25,
       "positive_highlights": [
         "MSFT seems like a good buy right now? - Reddit",
-        "Anthropic\u2019s Office, Microsoft\u2019s Legacy, Filled Moats, And A Potent AI Threat (NASDAQ:MSFT) - Seeking Alpha",
+        "Microsoft Corporation (MSFT): One of the Best Falling Stocks Despite Getting Out of Oracle Data Center Deal - Yahoo Finance",
         "Is Microsoft Corporation (MSFT) the Most Profitable Software Stock to Buy Right Now? - Yahoo Finance"
       ],
       "negative_highlights": [
-        "AI Data Center Demand Revives Microsoft After Selling Pressure - FXEmpire",
         "Microsoft services are down - Reddit",
+        "We are all united today with MSFT down - Reddit",
         "Microsoft Corporation (MSFT) Surged 38% as Azure Accelerated, but One Investor Remains Skeptical: Here\u2019s Why - Yahoo Finance"
       ],
       "recent_headlines": [
+        "Microsoft Corporation (MSFT) stock price, news, quote and history - Yahoo Finance Singapore",
         "Microsoft Corporation (MSFT) is Attracting Investor Attention: Here is What You Should Know - Yahoo Finance",
-        "MSFT Stock Quote Price and Forecast - CNN",
-        "Microsoft Stock Under Fire After Worldwide Blackout - Schaeffer's Investment Research",
-        "Microsoft: No Outage In The Growth Story, Hiking My Target (NASDAQ:MSFT) - Seeking Alpha",
-        "Microsoft Corporation (MSFT) Surged 38% as Azure Accelerated, but One Investor Remains Skeptical: Here\u2019s Why - Yahoo Finance"
+        "Microsoft Corporation (MSFT) Surged 38% as Azure Accelerated, but One Investor Remains Skeptical: Here\u2019s Why - Yahoo Finance",
+        "Microsoft Corporation (MSFT) Is Pouring Billions Into AI: Could Massive Spending Weigh on Future Returns? - Yahoo Finance",
+        "Microsoft stock sinks as new AI rival targets $27 billion business - Yahoo Finance"
       ]
     },
     "qual": {
@@ -545,7 +540,7 @@
         "fundamentals": 100.0,
         "valuation": 55.0,
         "technicals": 51.4,
-        "sentiment": 51.2,
+        "sentiment": 51.1,
         "analyst": 100.0,
         "macro_moat": 80.0
       },
@@ -579,31 +574,31 @@
       "fifty_two_week_high": 299.86,
       "fifty_two_week_low": 73.52,
       "volume": 48214621,
-      "avg_volume": 20912704,
-      "pe_ratio": null,
+      "avg_volume": 21217646,
+      "pe_ratio": 90.53125,
       "forward_pe": -40.18992,
       "peg_ratio": 0.3,
-      "price_to_sales": 21.711845,
-      "price_to_book": 6.4363475,
-      "ev_to_ebitda": 145.017,
-      "market_cap": 29421721600,
-      "enterprise_value": 37414273024,
-      "eps_trailing": -0.26,
+      "price_to_sales": 15.499831,
+      "price_to_book": 2.761283,
+      "ev_to_ebitda": 82.114,
+      "market_cap": 33941528576,
+      "enterprise_value": 42493911040,
+      "eps_trailing": 1.28,
       "eps_forward": -2.88331,
       "earnings_growth": null,
-      "revenue_growth": 4.54,
-      "total_revenue": 1355100032,
-      "net_income": 42400000,
-      "profit_margins": 0.03129,
-      "operating_margins": -0.37436,
-      "return_on_equity": 0.00601,
-      "return_on_assets": -0.01918,
-      "total_debt": 10195300352,
-      "total_cash": 8042100224,
-      "debt_to_equity": 98.596,
-      "current_ratio": 4.03,
-      "quick_ratio": 3.605,
-      "free_cash_flow": -9614650368,
+      "revenue_growth": 5.713,
+      "total_revenue": 2189799936,
+      "net_income": 124500000,
+      "profit_margins": 0.05685,
+      "operating_margins": -0.22993,
+      "return_on_equity": 0.01455,
+      "return_on_assets": -0.01288,
+      "total_debt": 15959600128,
+      "total_cash": 7425600000,
+      "debt_to_equity": 129.761,
+      "current_ratio": 5.306,
+      "quick_ratio": 4.688,
+      "free_cash_flow": -20313100288,
       "dividend_yield_pct": 0.0,
       "payout_ratio": 0.0,
       "target_low": 84.0,
@@ -658,48 +653,50 @@
       ]
     },
     "sent": {
-      "combined_polarity": 0.026,
-      "sentiment_score": 51.0,
+      "combined_polarity": 0.037,
+      "sentiment_score": 51.5,
       "label": "NEUTRAL",
       "news_stats": {
-        "polarity": -0.003240740740740746,
-        "subjectivity": 0.2660185185185185,
-        "positive_count": 2,
-        "negative_count": 4,
+        "polarity": 0.018611111111111113,
+        "subjectivity": 0.2897222222222222,
+        "positive_count": 3,
+        "negative_count": 3,
         "neutral_count": 9,
         "total": 15
       },
       "reddit_stats": {
-        "polarity": 0.09300865800865801,
-        "subjectivity": 0.32891774891774894,
+        "polarity": 0.080508658008658,
+        "subjectivity": 0.366417748917749,
         "positive_count": 3,
-        "negative_count": 0,
-        "neutral_count": 7,
+        "negative_count": 1,
+        "neutral_count": 6,
         "total": 10
       },
       "headline_count": 25,
       "positive_highlights": [
-        "What's so good about NBIS? - Reddit",
-        "Nebius Revenue Jumped 571%, So Why Did the Stock Fall? - The Motley Fool",
-        "Am I missing something, or is nebius free money right now - Reddit"
+        "Is it still a good time to buy NBIS? - Reddit",
+        "Should You Buy Nebius Stock After Its Third-Quarter Sell-Off? - The Motley Fool",
+        "Nebius: 3 Overblown Fears Weighing Down the Stock - Zacks Investment Research"
       ],
       "negative_highlights": [
         "Nebius Earnings: Customers Prefund the Build of a Bill That Comes Due Later - Morningstar",
-        "Why Did Nebius (NASDAQ:NBIS) Stock Crash 17%? $45 Billion AI Spending Plan Sparks Selloff - Stocks Down Under",
+        "What is everyone invested in other than NBIS? - Reddit",
         "Nebius: Why I Doubled Down After Earnings (NASDAQ:NBIS) - Seeking Alpha"
       ],
       "recent_headlines": [
-        "Nebius Group (NBIS) Takes a Beating \u2014 This Tech Giant Is to Blame - Yahoo Finance",
+        "Nebius stock plunges again as Wall Street slashes targets - Yahoo Finance",
         "Nebius: Why I Doubled Down After Earnings (NASDAQ:NBIS) - Seeking Alpha",
         "Nebius falls 16% as company expects increased 2026 capex spend, issues weak outlook - CNBC",
-        "Nebius Earnings Topped Estimates. Why Shares Sold Off. - Investor's Business Daily",
-        "Nebius Stock Plummets After Earnings as CEO Warns of Revenue Delay - Barron's"
+        "Should You Buy Nebius Stock After Its Third-Quarter Sell-Off? - The Motley Fool",
+        "Nebius Earnings Topped Estimates. Why Shares Sold Off. - Investor's Business Daily"
       ]
     },
     "qual": {
       "priced_in": {
-        "valuation_tier": "Moderate",
+        "valuation_tier": "High Growth Premium",
         "priced_in_points": [
+          "High P/E ratio indicates market has priced in strong future earnings acceleration.",
+          "Forward P/E is 144.4% lower than trailing P/E, pricing in robust earnings recovery/growth.",
           "PEG ratio of 0.30 suggests stock may be undervalued relative to expected growth."
         ]
       },
@@ -716,32 +713,33 @@
         "moat_tier": "Weak / No Moat",
         "moat_score": 35.0,
         "reasons": [
-          "Low Return on Equity (ROE: 0.6%), indicating margin pressure or weak capital efficiency."
+          "Low Return on Equity (ROE: 1.5%), indicating margin pressure or weak capital efficiency."
         ]
       },
       "qualitative_score": 41.0
     },
     "sig": {
-      "composite_score": 57.8,
+      "composite_score": 54.9,
       "signal": "HOLD",
-      "confidence_pct": 64.8,
+      "confidence_pct": 69.0,
       "pillar_scores": {
         "fundamentals": 47.0,
-        "valuation": 80.0,
+        "valuation": 65.0,
         "technicals": 25.0,
-        "sentiment": 51.0,
+        "sentiment": 51.5,
         "analyst": 97.0,
         "macro_moat": 41.0
       },
       "key_positives": [
-        "Strong YoY revenue growth (454.0%)",
+        "Strong YoY revenue growth (571.3%)",
         "Attractive Forward P/E (-40.2x)",
         "Favorable PEG ratio (0.30x < 1.0)",
         "Significant price target upside (+122.0%)"
       ],
       "key_risks": [
-        "Subpar Return on Equity (0.6%)",
+        "Subpar Return on Equity (1.5%)",
         "Negative free cash flow generation",
+        "High P/E ratio (90.5x)",
         "Price is 40.5% below 50-day SMA (Bearish)"
       ]
     }
@@ -765,8 +763,8 @@
       "fifty_two_week_high": 1255.0,
       "fifty_two_week_low": 192.59,
       "volume": 27676082,
-      "avg_volume": 27692973,
-      "pe_ratio": 10.741237,
+      "avg_volume": 27690034,
+      "pe_ratio": 10.471007,
       "forward_pe": 3.7461889,
       "peg_ratio": 0.16,
       "price_to_sales": 6.6116915,
@@ -774,7 +772,7 @@
       "ev_to_ebitda": 7.739,
       "market_cap": 880597991424,
       "enterprise_value": 842342989824,
-      "eps_trailing": 72.46,
+      "eps_trailing": 74.33,
       "eps_forward": 207.76048,
       "earnings_growth": 10.595,
       "revenue_growth": 3.793,
@@ -817,19 +815,19 @@
       "latest_price": 778.31,
       "sma_20": 838.0,
       "sma_50": 943.6894079589844,
-      "sma_200": 765.4167288208008,
+      "sma_200": 765.4167320251465,
       "rsi_14": 40.40436207567214,
       "rsi_status": "BEARISH",
       "macd_data": {
-        "macd": -55.005294352913324,
-        "signal": -53.5922776961748,
-        "histogram": -1.4130166567385274,
+        "macd": -55.00529437070088,
+        "signal": -53.59227772232186,
+        "histogram": -1.4130166483790205,
         "crossover": "BEARISH"
       },
       "cross_status": "GOLDEN_CROSS",
-      "fifty_two_week_pos_pct": 55.160752489713715,
+      "fifty_two_week_pos_pct": 55.16075189151655,
       "high_52": 1254.6095437059498,
-      "low_52": 192.3715041476699,
+      "low_52": 192.3715183189107,
       "returns": {
         "1m": -11.43894494828257,
         "3m": -17.25493610500094,
@@ -844,42 +842,42 @@
       ]
     },
     "sent": {
-      "combined_polarity": 0.035,
-      "sentiment_score": 51.4,
-      "label": "NEUTRAL",
+      "combined_polarity": 0.111,
+      "sentiment_score": 54.4,
+      "label": "BULLISH",
       "news_stats": {
-        "polarity": 0.04359788359788361,
-        "subjectivity": 0.21156084656084656,
-        "positive_count": 3,
-        "negative_count": 3,
+        "polarity": 0.12211640211640211,
+        "subjectivity": 0.21193121693121694,
+        "positive_count": 4,
+        "negative_count": 2,
         "neutral_count": 9,
         "total": 15
       },
       "reddit_stats": {
-        "polarity": 0.013611111111111112,
-        "subjectivity": 0.24972222222222223,
-        "positive_count": 2,
+        "polarity": 0.08361111111111112,
+        "subjectivity": 0.3363888888888889,
+        "positive_count": 3,
         "negative_count": 2,
-        "neutral_count": 6,
+        "neutral_count": 5,
         "total": 10
       },
       "headline_count": 25,
       "positive_highlights": [
-        "Micron Technology vs. Qualcomm: Which Tech Stock Is the Better Buy for 2027? - The Globe and Mail",
-        "2 Chip Stocks to Buy Instead of Nvidia Right Now - The Motley Fool",
-        "Micron\u2019s stock is dirt cheap \u2014 and that\u2019s igniting a fierce online debate - Market Watch - Reddit"
+        "\u2018Even If the Pessimists Win,\u2019 Says Investor About Micron Stock - TipRanks",
+        "Micron Technology vs. Qualcomm: Which Tech Stock Is the Better Buy for 2027? - The Motley Fool",
+        "CoreWeave Says Its AI Demand Is 10 Times Its Capacity Through 2027. I Think Micron Stock Is Still Worth Buying. - The Motley Fool"
       ],
       "negative_highlights": [
         "Micron Is Down 20% in a Month. What Will It Take to Get MU Stock Back to $1,000? - 24/7 Wall St.",
-        "Micron Stock Is Down 40% From Its Peak After the Sell-Off. History Says This Is What Happens Next. - Yahoo Finance",
-        "Been watching MU pretty closely these past couple weeks and honestly it\u2019s hard to ignore what\u2019s going on here. - Reddit"
+        "Been watching MU pretty closely these past couple weeks and honestly it\u2019s hard to ignore what\u2019s going on here. - Reddit",
+        "Micron will peak and leave all you retail with heavy bags - Reddit"
       ],
       "recent_headlines": [
         "What Is Going on With Micron Stock on Friday? - Benzinga",
-        "Prediction: This Will Be Micron's Stock Price by the End of 2027 - Yahoo Finance",
         "What Micron Stock Needs to Mount a Serious Rally - Barron's",
+        "Micron Technology vs. Qualcomm: Which Tech Stock Is the Better Buy for 2027? - The Motley Fool",
         "Micron Is Down 20% in a Month. What Will It Take to Get MU Stock Back to $1,000? - 24/7 Wall St.",
-        "Analysts See Micron Stock Doubling as MU Trades at Just 3.8x Earnings - Barchart.com"
+        "Micron Technology climbs 13% as one-month slide reverses (MU:NASDAQ) - Seeking Alpha"
       ]
     },
     "qual": {
@@ -887,7 +885,7 @@
         "valuation_tier": "Value / Low Expectation",
         "priced_in_points": [
           "Low P/E ratio suggests market is pricing in modest growth or cyclical headwinds.",
-          "Forward P/E is 65.1% lower than trailing P/E, pricing in robust earnings recovery/growth.",
+          "Forward P/E is 64.2% lower than trailing P/E, pricing in robust earnings recovery/growth.",
           "PEG ratio of 0.16 suggests stock may be undervalued relative to expected growth."
         ]
       },
@@ -912,14 +910,14 @@
       "qualitative_score": 80.0
     },
     "sig": {
-      "composite_score": 78.5,
+      "composite_score": 78.9,
       "signal": "BUY",
-      "confidence_pct": 62.3,
+      "confidence_pct": 62.8,
       "pillar_scores": {
         "fundamentals": 100.0,
         "valuation": 95.0,
         "technicals": 25.0,
-        "sentiment": 51.4,
+        "sentiment": 54.4,
         "analyst": 100.0,
         "macro_moat": 80.0
       },
@@ -953,7 +951,7 @@
       "fifty_two_week_high": 155.75,
       "fifty_two_week_low": 119.68,
       "volume": 1064152,
-      "avg_volume": 1532764,
+      "avg_volume": 1543112,
       "pe_ratio": 21.29878,
       "forward_pe": 17.1936,
       "peg_ratio": 1.79,
@@ -978,7 +976,7 @@
       "current_ratio": 0.622,
       "quick_ratio": 0.281,
       "free_cash_flow": -2702000128,
-      "dividend_yield_pct": 3.35,
+      "dividend_yield_pct": 3.34,
       "payout_ratio": 0.7104,
       "target_low": 135.0,
       "target_mean": 148.39285,
@@ -1005,13 +1003,13 @@
       "latest_price": 139.72,
       "sma_20": 134.53850135803222,
       "sma_50": 130.26572982788085,
-      "sma_200": 139.2929747390747,
+      "sma_200": 139.29297481536867,
       "rsi_14": 71.1334407158692,
       "rsi_status": "OVERBOUGHT",
       "macd_data": {
-        "macd": 2.6646392584062255,
-        "signal": 2.1609625102595724,
-        "histogram": 0.5036767481466531,
+        "macd": 2.6646392584090677,
+        "signal": 2.16096251026377,
+        "histogram": 0.5036767481452977,
         "crossover": "BULLISH"
       },
       "cross_status": "DEATH_CROSS",
@@ -1033,14 +1031,14 @@
       ]
     },
     "sent": {
-      "combined_polarity": 0.038,
-      "sentiment_score": 51.5,
+      "combined_polarity": -0.028,
+      "sentiment_score": 48.9,
       "label": "NEUTRAL",
       "news_stats": {
-        "polarity": 0.10200000000000001,
-        "subjectivity": 0.09847619047619048,
-        "positive_count": 2,
-        "negative_count": 0,
+        "polarity": 0.007925925925925925,
+        "subjectivity": 0.05540740740740741,
+        "positive_count": 1,
+        "negative_count": 1,
         "neutral_count": 13,
         "total": 15
       },
@@ -1054,21 +1052,20 @@
       },
       "headline_count": 25,
       "positive_highlights": [
-        "The Best Utilities Stocks to Buy - Morningstar",
-        "These Nuclear Energy Stocks Are Top Of The Class For November 2026 - Yahoo Finance",
+        "DTE Energy announces strategic sale of its non-utility DTE Vantage business; reports third quarter accomplishments including advancing data center growth that delivers unprecedented customer affordability benefits and filing long-term generation plan - Yahoo Finance",
         "DTE Energy Costs really high? - Reddit"
       ],
       "negative_highlights": [
+        "DTE Energy (DTE) Down 4.1% Since Last Earnings Report: Can It Rebound? - Yahoo Finance",
         "Just want to keep DTE front and center - Reddit",
-        "Is DTE really that bad? - Reddit",
-        "[Serious] What alternatives do we have for DTE Energy? - Reddit"
+        "Is DTE really that bad? - Reddit"
       ],
       "recent_headlines": [
-        "These Nuclear Energy Stocks Are Top Of The Class For November 2026 - Yahoo Finance",
-        "DTE Energy Company (DTE) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+        "DTE Energy Company (DTE) stock price, news, quote and history - Yahoo Finance Australia",
+        "DTE Energy Company (DTE) Stock Forecasts - Yahoo Finance",
         "Can DTE Energy Stock Jump 40%? - Trefis",
-        "DTE Energy Company (DTE) stock price, news, quote and history - Yahoo Finance Singapore",
-        "Are Wall Street Analysts Predicting DTE Energy Stock Will Climb or Sink? - Barchart.com"
+        "Is DTE Energy Stock Underperforming the Dow? - Yahoo Finance",
+        "DTE Energy announces strategic sale of its non-utility DTE Vantage business; reports third quarter accomplishments including advancing data center growth that delivers unprecedented customer affordability benefits and filing long-term generation plan - Yahoo Finance"
       ]
     },
     "qual": {
@@ -1098,14 +1095,14 @@
       "qualitative_score": 50.0
     },
     "sig": {
-      "composite_score": 52.7,
+      "composite_score": 52.3,
       "signal": "HOLD",
-      "confidence_pct": 77.6,
+      "confidence_pct": 77.4,
       "pillar_scores": {
         "fundamentals": 27.0,
         "valuation": 65.0,
         "technicals": 57.9,
-        "sentiment": 51.5,
+        "sentiment": 48.9,
         "analyst": 77.0,
         "macro_moat": 50.0
       },
