@@ -74,9 +74,9 @@
       "rsi_14": 19.11679172787325,
       "rsi_status": "OVERSOLD",
       "macd_data": {
-        "macd": -14.224870624633837,
-        "signal": -10.100589223524157,
-        "histogram": -4.1242814011096804,
+        "macd": -14.224870624561703,
+        "signal": -10.100589223418023,
+        "histogram": -4.12428140114368,
         "crossover": "BEARISH"
       },
       "cross_status": "GOLDEN_CROSS",
@@ -98,35 +98,40 @@
       ]
     },
     "sent": {
-      "combined_polarity": 0.014,
-      "sentiment_score": 50.6,
+      "combined_polarity": 0.048,
+      "sentiment_score": 51.9,
       "label": "NEUTRAL",
       "news_stats": {
-        "polarity": 0.02,
-        "subjectivity": 0.03666666666666667,
-        "positive_count": 1,
+        "polarity": 0.060000000000000005,
+        "subjectivity": 0.13666666666666666,
+        "positive_count": 3,
         "negative_count": 0,
-        "neutral_count": 14,
+        "neutral_count": 12,
         "total": 15
       },
       "reddit_stats": {
-        "polarity": 0.0,
-        "subjectivity": 0.0,
-        "positive_count": 0,
-        "negative_count": 0,
-        "neutral_count": 0
+        "polarity": 0.01944444444444444,
+        "subjectivity": 0.15055555555555555,
+        "positive_count": 2,
+        "negative_count": 1,
+        "neutral_count": 7,
+        "total": 10
       },
-      "headline_count": 15,
+      "headline_count": 25,
       "positive_highlights": [
-        "Nvidia Has Been the Market\u2019s Golden Goose. Now It\u2019s in Crisis - Morningstar"
+        "Prominent NVIDIA investors call for board to contemplate Huang's return - Seeking Alpha",
+        "Nvidia Has Been the Market\u2019s Golden Goose. Now It\u2019s in Crisis - Morningstar",
+        "Am I the only one who thinks there is more to the scandal story of Jensen Huang? - Reddit"
       ],
-      "negative_highlights": [],
+      "negative_highlights": [
+        "Nvidia CEO Jensen Huang is stepping down as CEO - Reddit"
+      ],
       "recent_headlines": [
-        "Equities close lower as Nvidia drop outweighs energy gains - Reuters",
         "Nvidia: A House Of Cards (Rating Downgrade) (NASDAQ:NVDA) - Seeking Alpha",
-        "Nvidia: Selloff Into Earnings Sets Up An Upside Guidance Surprise (NASDAQ:NVDA) - Seeking Alpha",
-        "NVIDIA Corporation (NVDA) stock price, news, quote and history - Yahoo Finance UK",
-        "Equities close lower as Nvidia drop outweighs energy gains - Virginia Business"
+        "Equities close lower as Nvidia drop outweighs energy gains - Reuters",
+        "NVIDIA Corporation (NVDA) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+        "Equities close lower as Nvidia drop outweighs energy gains - Virginia Business",
+        "Nvidia Has Been the Market\u2019s Golden Goose. Now It\u2019s in Crisis - Morningstar"
       ]
     },
     "qual": {
@@ -159,14 +164,14 @@
       "qualitative_score": 80.0
     },
     "sig": {
-      "composite_score": 78.9,
+      "composite_score": 79.1,
       "signal": "BUY",
-      "confidence_pct": 68.9,
+      "confidence_pct": 69.2,
       "pillar_scores": {
         "fundamentals": 100.0,
         "valuation": 85.0,
         "technicals": 42.0,
-        "sentiment": 50.6,
+        "sentiment": 51.9,
         "analyst": 100.0,
         "macro_moat": 80.0
       },
@@ -279,40 +284,42 @@
       ]
     },
     "sent": {
-      "combined_polarity": 0.116,
-      "sentiment_score": 54.6,
+      "combined_polarity": 0.1,
+      "sentiment_score": 54.0,
       "label": "BULLISH",
       "news_stats": {
-        "polarity": 0.12475308641975306,
-        "subjectivity": 0.24228395061728397,
-        "positive_count": 6,
+        "polarity": 0.0980864197530864,
+        "subjectivity": 0.20228395061728396,
+        "positive_count": 5,
         "negative_count": 1,
-        "neutral_count": 8,
+        "neutral_count": 9,
         "total": 15
       },
       "reddit_stats": {
-        "polarity": 0.09613636363636363,
-        "subjectivity": 0.1621212121212121,
-        "positive_count": 4,
-        "negative_count": 0,
-        "neutral_count": 6,
+        "polarity": 0.10333333333333335,
+        "subjectivity": 0.2616666666666666,
+        "positive_count": 3,
+        "negative_count": 2,
+        "neutral_count": 5,
         "total": 10
       },
       "headline_count": 25,
       "positive_highlights": [
-        "Why Advanced Micro Devices Stock Surged This Week - The Globe and Mail",
-        "Driver from Microsoft via Windows Updates: Advanced Micro Devices, Inc. - SCSIAdapter - 9.3.0.221 Warning - Reddit",
-        "Advanced Micro Devices, Inc. $AMD Stock Position Boosted by Cornerstone Advisors LLC - MarketBeat"
+        "Driver from Microsoft via Windows Updates: Advanced Micro Devices, Inc. - SCSIAdapter - 9.3.0.221 is still being pushed! - Reddit",
+        "How do you remove the Advanced Micro Devices, Inc. \u2013 SCSIAdapter \u2013 9.3.0.221 - Reddit",
+        "Trending Industry Today: Advanced Micro Devices Leads Losses In CPU Concept Stocks - Moomoo"
       ],
       "negative_highlights": [
-        "AMD and other chip stocks slide as Wall Street rethinks the AI trade without Jensen Huang - MarketWatch"
+        "Windows Updated automatically updating AMD drivers is enough for me to go back to team Green - Reddit",
+        "AMD and other chip stocks slide as Wall Street rethinks the AI trade without Jensen Huang - MarketWatch",
+        "AMD is slept on, am I going crazy for having this much conviction? - Reddit"
       ],
       "recent_headlines": [
         "What's Going On With AMD Stock Today? - Benzinga",
         "How to Play AMD Stock as Google Picks EPYC for Its Next-Gen TPUs - Barchart.com",
         "Why Advanced Micro Devices Stock Is Down Today - The Motley Fool",
-        "Trending Industry Today: Advanced Micro Devices Leads Losses In CPU Concept Stocks - Moomoo",
-        "Advanced Micro Devices, Inc. $AMD Stock Position Boosted by Cornerstone Advisors LLC - MarketBeat"
+        "Advanced Micro Devices, Inc. $AMD Stock Position Boosted by Cornerstone Advisors LLC - MarketBeat",
+        "Trending Industry Today: Advanced Micro Devices Leads Losses In CPU Concept Stocks - Moomoo"
       ]
     },
     "qual": {
@@ -344,14 +351,14 @@
       "qualitative_score": 68.0
     },
     "sig": {
-      "composite_score": 72.9,
+      "composite_score": 72.8,
       "signal": "BUY",
-      "confidence_pct": 73.6,
+      "confidence_pct": 73.5,
       "pillar_scores": {
         "fundamentals": 93.0,
         "valuation": 50.0,
         "technicals": 64.5,
-        "sentiment": 54.6,
+        "sentiment": 54.0,
         "analyst": 100.0,
         "macro_moat": 68.0
       },
@@ -364,193 +371,6 @@
       "key_risks": [
         "High P/E ratio (114.1x)",
         "Price is 3.7% below 50-day SMA (Bearish)"
-      ]
-    }
-  },
-  "MSFT": {
-    "data": {
-      "symbol": "MSFT",
-      "company_name": "Microsoft Corporation",
-      "exchange_info": {
-        "country": "United States",
-        "exchange": "NYSE/NASDAQ",
-        "central_bank": "Federal Reserve (FED)",
-        "currency_symbol": "$"
-      },
-      "currency": "USD",
-      "sector": "Technology",
-      "industry": "Software - Infrastructure",
-      "summary": "Microsoft Corporation, a technology company, develops and supports a portfolio of technology solutions for individuals and businesses worldwide. Its products include operating systems, server applications, business solution applications, software development tools, desktop and server management tools, and video games; and devices, such as PCs, tablets, gaming and entertainment consoles, other intelligent devices, and related accessories. The company's Productivity and Business Processes segment offers Microsoft 365 Commercial, Enterprise Mobility + Security, Power BI, Exchange, SharePoint, Microsoft Teams, Microsoft 365 Security and Compliance, Microsoft 365 Copilot, and Windows Commercial on-premises and Office licensed on-premises. This segment also provides Microsoft 365 Consumer products and cloud services; LinkedIn, including talent solutions, marketing solutions, subscriptions, and sales solutions; Dynamics 365, a set of cloud-based applications; and on-premises ERP and CRM applications. Its Intelligent Cloud segment offers server products and cloud services; cloud and AI consumption-based services, GitHub cloud services, health and life sciences cloud services, as well as virtual desktop offerings, and other cloud services; SQL Server, Windows Server, Visual Studio, System Center, and related client access licenses; and enterprise support services, industry solutions, Microsoft partner network, and learning experience. The company's More Personal Computing segment provides Windows OEM licensing and devices comprising Surface and PC accessories; XBOX hardware, and XBOX first- and third-party content and services; XBOX Game Pass and other subscriptions; XBOX Cloud Gaming, advertising, and other cloud services; and search advertising consisting of Bing, Copilot, Microsoft News, Microsoft Edge, and third-party affiliates. It sells its products through partners and retail networks. The company was founded in 1975 and is headquartered in Redmond, Washington.",
-      "current_price": 523.88,
-      "previous_close": 523.0,
-      "fifty_two_week_high": 559.15,
-      "fifty_two_week_low": 349.2,
-      "volume": 25458037,
-      "avg_volume": 23217510,
-      "pe_ratio": 27.34238,
-      "forward_pe": 21.65179,
-      "peg_ratio": 1.55,
-      "price_to_sales": 11.2295885,
-      "price_to_book": 8.269483,
-      "ev_to_ebitda": 19.251,
-      "market_cap": 3890434801664,
-      "enterprise_value": 3959856824320,
-      "eps_trailing": 19.16,
-      "eps_forward": 24.19569,
-      "earnings_growth": 0.323,
-      "revenue_growth": 0.188,
-      "total_revenue": 346444988416,
-      "net_income": 142630993920,
-      "profit_margins": 0.41169998,
-      "operating_margins": 0.47104,
-      "return_on_equity": 0.34221,
-      "return_on_assets": 0.14408,
-      "total_debt": 133930999808,
-      "total_cash": 64509001728,
-      "debt_to_equity": 28.465,
-      "current_ratio": 1.225,
-      "quick_ratio": 1.068,
-      "free_cash_flow": 2994125056,
-      "dividend_yield_pct": 75.0,
-      "payout_ratio": 0.19,
-      "target_low": 440.0,
-      "target_mean": 636.12427,
-      "target_high": 870.0,
-      "target_median": 631.0,
-      "recommendation_key": "strong_buy",
-      "recommendation_mean": 1.37931,
-      "number_of_analysts": 54,
-      "implied_upside_pct": 21.42556883255708,
-      "rec_breakdown": {
-        "strongBuy": 12,
-        "buy": 41,
-        "hold": 5,
-        "sell": 0,
-        "strongSell": 0
-      },
-      "next_earnings_date": "2027-01-27",
-      "earnings_high_est": 4.97073,
-      "earnings_low_est": 4.82,
-      "earnings_avg_est": 4.85752,
-      "_ticker_obj": "yfinance.Ticker object <MSFT>"
-    },
-    "tech": {
-      "latest_price": 523.88,
-      "sma_20": 529.3859985351562,
-      "sma_50": 518.9971997070312,
-      "sma_200": 440.4917384338379,
-      "rsi_14": 46.901658428595965,
-      "rsi_status": "NEUTRAL",
-      "macd_data": {
-        "macd": 2.025797418574939,
-        "signal": 3.85550360463032,
-        "histogram": -1.8297061860553812,
-        "crossover": "BEARISH"
-      },
-      "cross_status": "GOLDEN_CROSS",
-      "fifty_two_week_pos_pct": 83.25308946991015,
-      "high_52": 559.1500244140625,
-      "low_52": 348.54386902384044,
-      "returns": {
-        "1m": -0.977221040026166,
-        "3m": 8.977057588311311,
-        "6m": 24.192043374938788,
-        "1y": 3.530193829102224
-      },
-      "technical_score": 51.4,
-      "signals": [
-        "Price is 0.9% above 50-day SMA (Bullish)",
-        "50-day SMA is above 200-day SMA (Golden Cross)",
-        "MACD histogram indicates negative bearish momentum"
-      ]
-    },
-    "sent": {
-      "combined_polarity": 0.059,
-      "sentiment_score": 52.4,
-      "label": "NEUTRAL",
-      "news_stats": {
-        "polarity": 0.08383116883116883,
-        "subjectivity": 0.29485389610389606,
-        "positive_count": 4,
-        "negative_count": 1,
-        "neutral_count": 10,
-        "total": 15
-      },
-      "reddit_stats": {
-        "polarity": 0.002619047619047604,
-        "subjectivity": 0.15011904761904762,
-        "positive_count": 1,
-        "negative_count": 3,
-        "neutral_count": 6,
-        "total": 10
-      },
-      "headline_count": 25,
-      "positive_highlights": [
-        "Is Microsoft Corporation (MSFT) A Good Stock To Buy Now? - Yahoo Finance",
-        "MSFT seems like a good buy right now? - Reddit",
-        "Microsoft Corporation (MSFT): One of the Best Falling Stocks Despite Getting Out of Oracle Data Center Deal - Yahoo Finance"
-      ],
-      "negative_highlights": [
-        "Microsoft services are down - Reddit",
-        "Microsoft is winding down Oracle deal to rent AI cloud capacity, Bloomberg News reports - Reddit",
-        "We are all united today with MSFT down - Reddit"
-      ],
-      "recent_headlines": [
-        "Microsoft Corporation (MSFT) is Attracting Investor Attention: Here is What You Should Know - Yahoo Finance",
-        "Microsoft Corporation (MSFT) Surged 38% as Azure Accelerated, but One Investor Remains Skeptical: Here\u2019s Why - Yahoo Finance",
-        "Microsoft Corporation (MSFT) Is Pouring Billions Into AI: Could Massive Spending Weigh on Future Returns? - Yahoo Finance",
-        "Microsoft stock sinks as new AI rival targets $27 billion business - Yahoo Finance",
-        "FY27 Q1 - Press Releases - Investor Relations - Microsoft"
-      ]
-    },
-    "qual": {
-      "priced_in": {
-        "valuation_tier": "Fair Value Range",
-        "priced_in_points": [
-          "P/E ratio reflects balanced market expectations for mid-range growth.",
-          "Forward P/E is 20.8% lower than trailing P/E, pricing in robust earnings recovery/growth."
-        ]
-      },
-      "macro_policy": {
-        "macro_factors": [
-          "Operating in United States under Federal Reserve (FED) interest rate policy environment.",
-          "Consumer sentiment and discretionary spending impact demand during inflation/rate shifts."
-        ],
-        "policy_risks": [
-          "Antitrust oversight, data privacy laws, and international tariff trade policies affect cross-border supply chains."
-        ]
-      },
-      "moat": {
-        "moat_tier": "Wide Moat",
-        "moat_score": 100.0,
-        "reasons": [
-          "Strong Return on Equity (ROE: 34.2%), indicating high capital efficiency and competitive advantage.",
-          "High net profit margin (41.2%), demonstrating pricing power.",
-          "Mega-cap scale ($3.89T) provides massive distribution and cost advantages."
-        ]
-      },
-      "qualitative_score": 80.0
-    },
-    "sig": {
-      "composite_score": 74.6,
-      "signal": "BUY",
-      "confidence_pct": 70.4,
-      "pillar_scores": {
-        "fundamentals": 100.0,
-        "valuation": 55.0,
-        "technicals": 51.4,
-        "sentiment": 52.4,
-        "analyst": 100.0,
-        "macro_moat": 80.0
-      },
-      "key_positives": [
-        "Exceptional Return on Equity (34.2%)",
-        "High profit margin (41.2%)",
-        "Strong YoY revenue growth (18.8%)",
-        "Low debt-to-equity ratio (28.5)"
-      ],
-      "key_risks": [
-        "Standard market risk and volatility."
       ]
     }
   },
@@ -651,12 +471,12 @@
       ]
     },
     "sent": {
-      "combined_polarity": 0.081,
-      "sentiment_score": 53.2,
-      "label": "BULLISH",
+      "combined_polarity": 0.041,
+      "sentiment_score": 51.6,
+      "label": "NEUTRAL",
       "news_stats": {
-        "polarity": 0.11797979797979798,
-        "subjectivity": 0.23808080808080806,
+        "polarity": 0.06101010101010101,
+        "subjectivity": 0.22781144781144783,
         "positive_count": 5,
         "negative_count": 1,
         "neutral_count": 9,
@@ -672,9 +492,9 @@
       },
       "headline_count": 25,
       "positive_highlights": [
-        "SpaceX Could Announce a Deal for Tesla as Soon as December. Here's What It Would Do to SpaceX Stock. - The Motley Fool",
-        "SpaceX vs. Tesla: Which Elon Musk Stock Has More Upside, According to Analysts? - TipRanks",
-        "Prediction: 2 Stocks That Will Be Worth More Than SpaceX 5 Years From Now - Yahoo Finance"
+        "Prediction: 2 Stocks That Will Be Worth More Than SpaceX 5 Years From Now - Yahoo Finance",
+        "Why is Elon/SpaceX even interested in becoming a telecom carrier? - Reddit",
+        "So when exactly are spacex IPO shares being allocated? - Reddit"
       ],
       "negative_highlights": [
         "SpaceX Flight 15 booster diverts to splashdown, missing planned double catch (SPCX:NASDAQ) - Seeking Alpha",
@@ -682,11 +502,11 @@
         "If you thought SpaceX stock was doing badly before, now it\u2019s really tanking \u2014 closing below $150 debut price - Reddit"
       ],
       "recent_headlines": [
-        "SpaceX\u2019s Starship Just Did Something for Only the 2nd Time. Saturday Could Be Even Bigger. - Yahoo Finance",
-        "SpaceX\u2019s Starship Launched Today. No Booster Catch Might Hurt the Stock. - Barron's",
-        "SpaceX Could Announce a Deal for Tesla as Soon as December. Here's What It Would Do to SpaceX Stock. - The Motley Fool",
+        "Elon Musk's Tesla and SpaceX Lost More Than $420 Billion in Combined Market Value in Two Days After Democrats Swept the Midterms, With Investors Fearing New Congressional Probes. Here's Why That Political Risk Matters for Shareholders - Yahoo Finance",
+        "SpaceX Catches Starship\u2019s Upper Stage in Historic First. What It Means for the Stock. - Barron's",
         "SpaceX, Tesla merger talks progress, Bloomberg News reports - Reuters",
-        "SpaceX Announces $74 Billion AI Data-Center Expansions In Texas, Arizona - Investor's Business Daily"
+        "SpaceX\u2019s Starship Just Did Something for Only the 2nd Time. Saturday Could Be Even Bigger. - The Motley Fool",
+        "SpaceX Flight 15 booster diverts to splashdown, missing planned double catch (SPCX:NASDAQ) - Seeking Alpha"
       ]
     },
     "qual": {
@@ -717,14 +537,14 @@
       "qualitative_score": 50.0
     },
     "sig": {
-      "composite_score": 57.6,
+      "composite_score": 57.4,
       "signal": "HOLD",
-      "confidence_pct": 65.2,
+      "confidence_pct": 65.1,
       "pillar_scores": {
         "fundamentals": 73.0,
         "valuation": 23.0,
         "technicals": 45.1,
-        "sentiment": 53.2,
+        "sentiment": 51.6,
         "analyst": 100.0,
         "macro_moat": 50.0
       },
@@ -742,10 +562,10 @@
       ]
     }
   },
-  "IT": {
+  "MU": {
     "data": {
-      "symbol": "IT",
-      "company_name": "Gartner, Inc.",
+      "symbol": "MU",
+      "company_name": "Micron Technology, Inc.",
       "exchange_info": {
         "country": "United States",
         "exchange": "NYSE/NASDAQ",
@@ -754,124 +574,128 @@
       },
       "currency": "USD",
       "sector": "Technology",
-      "industry": "Information Technology Services",
-      "summary": "Gartner, Inc. provides business and technology insights to support decision-making and performance on an organization's mission-critical priorities in the United States, Canada, Europe, the Middle East, Africa, and internationally. It operates through three segments: Insights, Conferences, and Consulting. The Insights segment delivers insights through subscription services, such as access to published content, data and benchmarks, and direct access to a network of business and technology experts. The Conferences segment enables executives and teams to learn, share, and network through its Symposium/Xpo series and peer-driven sessions, as well as through its conferences focused on specific business roles and topics. The Consulting segment provides technology-driven strategic initiatives, including custom analysis and on-the-ground support to senior executives. This segment also offers actionable solutions for IT-related priorities, including IT cost optimization, digital transformation, and IT sourcing optimization. The company was formerly known as Gartner Group, Inc. and changed its name to Gartner, Inc. in November 2001. Gartner, Inc. was founded in 1979 and is headquartered in Stamford, Connecticut.",
-      "current_price": 192.15,
-      "previous_close": 190.84,
-      "fifty_two_week_high": 256.9,
-      "fifty_two_week_low": 124.25,
-      "volume": 1017424,
-      "avg_volume": 1104273,
-      "pe_ratio": 13.764326,
-      "forward_pe": 11.559237,
-      "peg_ratio": 0.73,
-      "price_to_sales": 1.8808866,
-      "price_to_book": -352.5688,
-      "ev_to_ebitda": 9.713,
-      "market_cap": 12121081856,
-      "enterprise_value": 13801405440,
-      "eps_trailing": 13.96,
-      "eps_forward": 16.62307,
-      "earnings_growth": 6.128,
-      "revenue_growth": -0.013,
-      "total_revenue": 6444344832,
-      "net_income": 954412992,
-      "profit_margins": 0.1481,
-      "operating_margins": 0.20263,
-      "return_on_equity": 3.65755,
-      "return_on_assets": 0.11334,
-      "total_debt": 3313460992,
-      "total_cash": 1633137024,
-      "debt_to_equity": null,
-      "current_ratio": 0.912,
-      "quick_ratio": 0.774,
-      "free_cash_flow": 1067743104,
-      "dividend_yield_pct": 0.0,
-      "payout_ratio": 0.0,
-      "target_low": 170.0,
-      "target_mean": 201.46153,
-      "target_high": 231.0,
-      "target_median": 198.0,
-      "recommendation_key": "hold",
-      "recommendation_mean": 3.0,
-      "number_of_analysts": 13,
-      "implied_upside_pct": 4.845969294821756,
+      "industry": "Semiconductors",
+      "summary": "Micron Technology, Inc. engages in the provision of semiconductor memory and storage products in the United States, Taiwan, Mainland China, other Asia Pacific countries, Japan, Europe, and internationally. It operates through Cloud Memory Business Unit, Core Data Center Business Unit, Mobile and Client Business Unit, and Automotive and Embedded Business Unit segments. The company provides dynamic random access memory (DRAM) products, including High-Bandwidth Memory, doublie data rate, low-power DRAM, and graphics DRAM products; NAND products comprising solid state drives, managed NAND, and multi-chip packages; and NOR products. The company sells its products under the Micron brand name and private labels through its own direct sales force, sales or representative offices, as well as through distributors, retailers, and independent sales representatives. Micron Technology, Inc. was founded in 1978 and is headquartered in Boise, Idaho.",
+      "current_price": 778.31,
+      "previous_close": 798.44,
+      "fifty_two_week_high": 1255.0,
+      "fifty_two_week_low": 192.59,
+      "volume": 27676082,
+      "avg_volume": 27690034,
+      "pe_ratio": 10.471007,
+      "forward_pe": 3.7461889,
+      "peg_ratio": 0.16,
+      "price_to_sales": 6.6116915,
+      "price_to_book": 6.3613405,
+      "ev_to_ebitda": 7.739,
+      "market_cap": 880597991424,
+      "enterprise_value": 842342989824,
+      "eps_trailing": 74.33,
+      "eps_forward": 207.76048,
+      "earnings_growth": 10.595,
+      "revenue_growth": 3.793,
+      "total_revenue": 133188001792,
+      "net_income": 84968996864,
+      "profit_margins": 0.63796,
+      "operating_margins": 0.74586,
+      "return_on_equity": 0.8826,
+      "return_on_assets": 0.44557,
+      "total_debt": 5178999808,
+      "total_cash": 43434000384,
+      "debt_to_equity": 3.743,
+      "current_ratio": 3.314,
+      "quick_ratio": 2.898,
+      "free_cash_flow": 29140250624,
+      "dividend_yield_pct": 8.0,
+      "payout_ratio": 0.0070999996,
+      "target_low": 361.0,
+      "target_mean": 1561.9111,
+      "target_high": 3000.0,
+      "target_median": 1550.0,
+      "recommendation_key": "strong_buy",
+      "recommendation_mean": 1.34694,
+      "number_of_analysts": 45,
+      "implied_upside_pct": 100.67981909521914,
       "rec_breakdown": {
-        "strongBuy": 0,
-        "buy": 2,
-        "hold": 10,
-        "sell": 1,
-        "strongSell": 2
+        "strongBuy": 9,
+        "buy": 36,
+        "hold": 4,
+        "sell": 0,
+        "strongSell": 0
       },
-      "next_earnings_date": "2027-02-02",
-      "earnings_high_est": 4.20349,
-      "earnings_low_est": 3.52,
-      "earnings_avg_est": 3.8284,
-      "_ticker_obj": "yfinance.Ticker object <IT>"
+      "next_earnings_date": "2026-12-23",
+      "earnings_high_est": 40.47,
+      "earnings_low_est": 35.85,
+      "earnings_avg_est": 38.29128,
+      "_ticker_obj": "yfinance.Ticker object <MU>"
     },
     "tech": {
-      "latest_price": 192.15,
-      "sma_20": 211.36949996948243,
-      "sma_50": 197.04340057373048,
-      "sma_200": 167.77505008697509,
-      "rsi_14": 28.313246449232864,
-      "rsi_status": "OVERSOLD",
+      "latest_price": 778.31,
+      "sma_20": 838.0,
+      "sma_50": 943.6894079589844,
+      "sma_200": 765.4167321777344,
+      "rsi_14": 40.40436207567214,
+      "rsi_status": "BEARISH",
       "macd_data": {
-        "macd": -2.776483145283777,
-        "signal": 1.3159343454713506,
-        "histogram": -4.092417490755127,
+        "macd": -55.00529437071236,
+        "signal": -53.59227772233889,
+        "histogram": -1.4130166483734712,
         "crossover": "BEARISH"
       },
       "cross_status": "GOLDEN_CROSS",
-      "fifty_two_week_pos_pct": 51.18733744758926,
-      "high_52": 256.8999938964844,
-      "low_52": 124.25,
+      "fifty_two_week_pos_pct": 55.16075189151655,
+      "high_52": 1254.6095437059498,
+      "low_52": 192.3715183189107,
       "returns": {
-        "1m": -6.428052452485233,
-        "3m": 5.536327934469432,
-        "6m": 23.624788685935762,
-        "1y": -16.828982809474436
+        "1m": -11.43894494828257,
+        "3m": -17.25493610500094,
+        "6m": 14.234269892967543,
+        "1y": 215.6804050031254
       },
-      "technical_score": 53.3,
+      "technical_score": 25.0,
       "signals": [
-        "Price is 2.5% below 50-day SMA (Bearish)",
+        "Price is 17.5% below 50-day SMA (Bearish)",
         "50-day SMA is above 200-day SMA (Golden Cross)",
-        "RSI is oversold at 28.3 (Potential Rebound)",
         "MACD histogram indicates negative bearish momentum"
       ]
     },
     "sent": {
-      "combined_polarity": 0.1,
-      "sentiment_score": 54.0,
-      "label": "BULLISH",
+      "combined_polarity": 0.036,
+      "sentiment_score": 51.4,
+      "label": "NEUTRAL",
       "news_stats": {
-        "polarity": 0.14333333333333334,
-        "subjectivity": 0.27777777777777773,
-        "positive_count": 5,
-        "negative_count": 0,
+        "polarity": 0.03222222222222223,
+        "subjectivity": 0.16666666666666666,
+        "positive_count": 2,
+        "negative_count": 3,
         "neutral_count": 10,
         "total": 15
       },
       "reddit_stats": {
-        "polarity": 0.0,
-        "subjectivity": 0.0,
-        "positive_count": 0,
-        "negative_count": 0,
-        "neutral_count": 0
+        "polarity": 0.04361111111111111,
+        "subjectivity": 0.28638888888888886,
+        "positive_count": 2,
+        "negative_count": 2,
+        "neutral_count": 6,
+        "total": 10
       },
-      "headline_count": 15,
+      "headline_count": 25,
       "positive_highlights": [
-        "Why Gartner Inc. Stock Is Soaring Today - The Motley Fool",
-        "Gartner Inc. stock outperforms competitors on strong trading day - MarketWatch",
-        "Gartner: 3 Key Takeaways for Long-Term Investors - Yahoo Finance"
+        "Micron Technology vs. Qualcomm: Which Tech Stock Is the Better Buy for 2027? - The Motley Fool",
+        "Micron Technology (MU) Has More Than 75% Of 2027 Output Committed - Yahoo Finance",
+        "Micron\u2019s stock is dirt cheap \u2014 and that\u2019s igniting a fierce online debate - Market Watch - Reddit"
       ],
-      "negative_highlights": [],
+      "negative_highlights": [
+        "Micron Is Down 20% in a Month. What Will It Take to Get MU Stock Back to $1,000? - 24/7 Wall St.",
+        "Been watching MU pretty closely these past couple weeks and honestly it\u2019s hard to ignore what\u2019s going on here. - Reddit",
+        "Micron Technology Inc Stock (MU) Opened Down by 3.17% on Nov 12: What Investors Need To Know - TradingKey"
+      ],
       "recent_headlines": [
-        "Gartner Inc. stock underperforms Tuesday when compared to competitors - MarketWatch",
-        "Gartner Stock Rises 41% in Three Months: Here's What You Should Know - Yahoo Finance",
-        "Why Gartner Inc. Stock Is Soaring Today - The Motley Fool",
-        "IT - Gartner Inc Stock Price and Quote - Finviz",
-        "Gartner: 3 Key Takeaways for Long-Term Investors - Yahoo Finance"
+        "Where Will Micron Stock Be in 5 Years? - Yahoo Finance",
+        "What Micron Stock Needs to Mount a Serious Rally - Barron's",
+        "Micron Technology vs. Qualcomm: Which Tech Stock Is the Better Buy for 2027? - The Motley Fool",
+        "What Is Going on With Micron Stock on Friday? - Benzinga",
+        "Micron Is Down 20% in a Month. What Will It Take to Get MU Stock Back to $1,000? - 24/7 Wall St."
       ]
     },
     "qual": {
@@ -879,8 +703,8 @@
         "valuation_tier": "Value / Low Expectation",
         "priced_in_points": [
           "Low P/E ratio suggests market is pricing in modest growth or cyclical headwinds.",
-          "Forward P/E is 16.0% lower than trailing P/E, pricing in robust earnings recovery/growth.",
-          "PEG ratio of 0.73 suggests stock may be undervalued relative to expected growth."
+          "Forward P/E is 64.2% lower than trailing P/E, pricing in robust earnings recovery/growth.",
+          "PEG ratio of 0.16 suggests stock may be undervalued relative to expected growth."
         ]
       },
       "macro_policy": {
@@ -893,36 +717,224 @@
         ]
       },
       "moat": {
-        "moat_tier": "Narrow Moat",
-        "moat_score": 70.0,
+        "moat_tier": "Wide Moat",
+        "moat_score": 100.0,
         "reasons": [
-          "Strong Return on Equity (ROE: 365.8%), indicating high capital efficiency and competitive advantage."
+          "Strong Return on Equity (ROE: 88.3%), indicating high capital efficiency and competitive advantage.",
+          "High net profit margin (63.8%), demonstrating pricing power.",
+          "Mega-cap scale ($880.60B) provides massive distribution and cost advantages."
         ]
       },
-      "qualitative_score": 62.0
+      "qualitative_score": 80.0
     },
     "sig": {
-      "composite_score": 66.3,
+      "composite_score": 78.5,
       "signal": "BUY",
-      "confidence_pct": 76.4,
+      "confidence_pct": 62.3,
       "pillar_scores": {
-        "fundamentals": 63.0,
-        "valuation": 100.0,
-        "technicals": 53.3,
-        "sentiment": 54.0,
-        "analyst": 55.0,
-        "macro_moat": 62.0
+        "fundamentals": 100.0,
+        "valuation": 95.0,
+        "technicals": 25.0,
+        "sentiment": 51.4,
+        "analyst": 100.0,
+        "macro_moat": 80.0
       },
       "key_positives": [
-        "Exceptional Return on Equity (365.8%)",
-        "Positive free cash flow generation",
-        "Low P/E ratio (13.8x)",
-        "Attractive Forward P/E (11.6x)"
+        "Exceptional Return on Equity (88.3%)",
+        "High profit margin (63.8%)",
+        "Strong YoY revenue growth (379.3%)",
+        "Low debt-to-equity ratio (3.7)"
       ],
       "key_risks": [
-        "Declining YoY revenue (-1.3%)",
-        "Current ratio below 1.0 (0.91)",
-        "Price is 2.5% below 50-day SMA (Bearish)"
+        "Price is 17.5% below 50-day SMA (Bearish)"
+      ]
+    }
+  },
+  "MSTR": {
+    "data": {
+      "symbol": "MSTR",
+      "company_name": "Strategy Inc",
+      "exchange_info": {
+        "country": "United States",
+        "exchange": "NYSE/NASDAQ",
+        "central_bank": "Federal Reserve (FED)",
+        "currency_symbol": "$"
+      },
+      "currency": "USD",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "summary": "Strategy Inc, together with its subsidiaries, operates as a bitcoin treasury company in the United States, Europe, the Middle East, Africa, and internationally. It offers investors varying degrees of economic exposure to Bitcoin by offering a range of securities, including equity and fixed income instruments. The company also provides AI-powered enterprise analytics software, including Strategy One, which provides non-technical users with the ability to directly access novel and actionable insights for decision-making. In addition, the company provides Strategy Mosaic, a universal intelligence layer that offers enterprises with consistent definitions and governance across data sources, regardless of where that data resides or which tools access it. The company was formerly known as MicroStrategy Incorporated and changed its name to Strategy Inc in August 2025. The company was incorporated in 1989 and is headquartered in Tysons Corner, Virginia.",
+      "current_price": 111.62,
+      "previous_close": 114.41,
+      "fifty_two_week_high": 213.83,
+      "fifty_two_week_low": 81.81,
+      "volume": 17796164,
+      "avg_volume": 22657714,
+      "pe_ratio": null,
+      "forward_pe": 6.4744782,
+      "peg_ratio": 2.85,
+      "price_to_sales": 95.43187,
+      "price_to_book": 0.84957075,
+      "ev_to_ebitda": -11.215,
+      "market_cap": 47246696448,
+      "enterprise_value": 61069787136,
+      "eps_trailing": -52.33,
+      "eps_forward": 17.24,
+      "earnings_growth": 4.315,
+      "revenue_growth": -0.025,
+      "total_revenue": 495083008,
+      "net_income": -14893532160,
+      "profit_margins": 0.0,
+      "operating_margins": -11.00134,
+      "return_on_equity": -0.21587,
+      "return_on_assets": -0.04516,
+      "total_debt": 6776226816,
+      "total_cash": 5905912832,
+      "debt_to_equity": 9.893,
+      "current_ratio": 4.041,
+      "quick_ratio": 4.005,
+      "free_cash_flow": -3240532992,
+      "dividend_yield_pct": 0.0,
+      "payout_ratio": 0.0,
+      "target_low": 165.0,
+      "target_mean": 233.26666,
+      "target_high": 435.0,
+      "target_median": 215.0,
+      "recommendation_key": "strong_buy",
+      "recommendation_mean": 1.25,
+      "number_of_analysts": 15,
+      "implied_upside_pct": 108.9828525353879,
+      "rec_breakdown": {
+        "strongBuy": 2,
+        "buy": 13,
+        "hold": 1,
+        "sell": 0,
+        "strongSell": 0
+      },
+      "next_earnings_date": "2026-10-29",
+      "earnings_high_est": -0.94,
+      "earnings_low_est": -0.94,
+      "earnings_avg_est": -0.94,
+      "_ticker_obj": "yfinance.Ticker object <MSTR>"
+    },
+    "tech": {
+      "latest_price": 111.62,
+      "sma_20": 134.23699913024902,
+      "sma_50": 143.26439910888672,
+      "sma_200": 132.78349960327148,
+      "rsi_14": 28.473276440951096,
+      "rsi_status": "OVERSOLD",
+      "macd_data": {
+        "macd": -7.504601768597638,
+        "signal": -4.827146154405196,
+        "histogram": -2.677455614192442,
+        "crossover": "BEARISH"
+      },
+      "cross_status": "GOLDEN_CROSS",
+      "fifty_two_week_pos_pct": 22.57991325305884,
+      "high_52": 213.8300018310547,
+      "low_52": 81.80999755859375,
+      "returns": {
+        "1m": -18.424323243218044,
+        "3m": 20.644189418445013,
+        "6m": -33.01326488077577,
+        "1y": -44.120150187734666
+      },
+      "technical_score": 42.0,
+      "signals": [
+        "Price is 22.1% below 50-day SMA (Bearish)",
+        "50-day SMA is above 200-day SMA (Golden Cross)",
+        "RSI is oversold at 28.5 (Potential Rebound)",
+        "MACD histogram indicates negative bearish momentum"
+      ]
+    },
+    "sent": {
+      "combined_polarity": 0.096,
+      "sentiment_score": 53.8,
+      "label": "BULLISH",
+      "news_stats": {
+        "polarity": 0.09541666666666666,
+        "subjectivity": 0.24000000000000002,
+        "positive_count": 3,
+        "negative_count": 1,
+        "neutral_count": 11,
+        "total": 15
+      },
+      "reddit_stats": {
+        "polarity": 0.0975,
+        "subjectivity": 0.36083333333333334,
+        "positive_count": 4,
+        "negative_count": 1,
+        "neutral_count": 5,
+        "total": 10
+      },
+      "headline_count": 25,
+      "positive_highlights": [
+        "Is Strategy Inc (MSTR) A Good Stock To Buy Now? - Yahoo Finance",
+        "Here is Why Strategy (MSTR) is One of the Best NASDAQ Stocks with the Highest Upside Potential - Yahoo Finance",
+        "Why is $MSTR (Microstrategy) market cap more than 2x its asset value if it's an asset driven (Bitcoin) stock? - Reddit"
+      ],
+      "negative_highlights": [
+        "Investors Heavily Search Strategy Inc (MSTR): Here is What You Need to Know - Yahoo Finance",
+        "What is wrong with this stock - Reddit"
+      ],
+      "recent_headlines": [
+        "Why MSCI Removed MSTR From Its Indexes \u2013 And What It Means For Bitcoin Stocks - Yahoo Finance",
+        "What B. Riley and TD Cowen See in Strategy (MSTR) - Yahoo Finance",
+        "Does Strategy (MSTR) Stock Look Different After Trump Linked Accounts Surfaced? - Yahoo Finance",
+        "Investors Heavily Search Strategy Inc (MSTR): Here is What You Need to Know - Yahoo Finance",
+        "Is Strategy Inc (MSTR) A Good Stock To Buy Now? - Yahoo Finance"
+      ]
+    },
+    "qual": {
+      "priced_in": {
+        "valuation_tier": "Moderate",
+        "priced_in_points": [
+          "PEG ratio of 2.85 signals premium valuation relative to growth rate."
+        ]
+      },
+      "macro_policy": {
+        "macro_factors": [
+          "Operating in United States under Federal Reserve (FED) interest rate policy environment.",
+          "Consumer sentiment and discretionary spending impact demand during inflation/rate shifts."
+        ],
+        "policy_risks": [
+          "Antitrust oversight, data privacy laws, and international tariff trade policies affect cross-border supply chains."
+        ]
+      },
+      "moat": {
+        "moat_tier": "Weak / No Moat",
+        "moat_score": 20.0,
+        "reasons": [
+          "Low Return on Equity (ROE: -21.6%), indicating margin pressure or weak capital efficiency.",
+          "Thin net profit margin (0.0%), making company vulnerable to cost inflation."
+        ]
+      },
+      "qualitative_score": 32.0
+    },
+    "sig": {
+      "composite_score": 47.9,
+      "signal": "HOLD",
+      "confidence_pct": 63.5,
+      "pillar_scores": {
+        "fundamentals": 19.0,
+        "valuation": 53.0,
+        "technicals": 42.0,
+        "sentiment": 53.8,
+        "analyst": 100.0,
+        "macro_moat": 32.0
+      },
+      "key_positives": [
+        "Low debt-to-equity ratio (9.9)",
+        "Attractive Forward P/E (6.5x)",
+        "Significant price target upside (+109.0%)",
+        "Strong Wall Street analyst consensus (Strong Buy)"
+      ],
+      "key_risks": [
+        "Subpar Return on Equity (-21.6%)",
+        "Thin profit margin (0.0%)",
+        "Declining YoY revenue (-2.5%)",
+        "Negative free cash flow generation"
       ]
     }
   },
@@ -997,23 +1009,23 @@
       "latest_price": 19.32,
       "sma_20": 18.34807252883911,
       "sma_50": 17.96801338195801,
-      "sma_200": 18.47539626121521,
+      "sma_200": 18.47539625644684,
       "rsi_14": 71.93496333670271,
       "rsi_status": "OVERBOUGHT",
       "macd_data": {
-        "macd": 0.4487103314718617,
-        "signal": 0.3328660116107075,
-        "histogram": 0.11584431986115418,
+        "macd": 0.4487103327166615,
+        "signal": 0.33286601342938776,
+        "histogram": 0.11584431928727373,
         "crossover": "BULLISH"
       },
       "cross_status": "DEATH_CROSS",
-      "fifty_two_week_pos_pct": 63.551293243609386,
+      "fifty_two_week_pos_pct": 63.55129891419905,
       "high_52": 21.50078858186104,
-      "low_52": 15.517617227012684,
+      "low_52": 15.517616296167176,
       "returns": {
         "1m": 11.913676186704937,
         "3m": 2.367918956557591,
-        "6m": -2.9190187399443457,
+        "6m": -2.919009435481268,
         "1y": 11.758638053732007
       },
       "technical_score": 58.3,
@@ -1025,20 +1037,20 @@
       ]
     },
     "sent": {
-      "combined_polarity": 0.006,
-      "sentiment_score": 50.2,
+      "combined_polarity": 0.064,
+      "sentiment_score": 52.6,
       "label": "NEUTRAL",
       "news_stats": {
-        "polarity": 0.008518518518518512,
-        "subjectivity": 0.18973544973544973,
-        "positive_count": 1,
-        "negative_count": 2,
-        "neutral_count": 12,
+        "polarity": 0.09185185185185185,
+        "subjectivity": 0.24973544973544975,
+        "positive_count": 3,
+        "negative_count": 1,
+        "neutral_count": 11,
         "total": 15
       },
       "reddit_stats": {
         "polarity": 0.00041666666666666794,
-        "subjectivity": 0.1522222222222222,
+        "subjectivity": 0.1422222222222222,
         "positive_count": 1,
         "negative_count": 2,
         "neutral_count": 7,
@@ -1046,20 +1058,21 @@
       },
       "headline_count": 25,
       "positive_highlights": [
+        "Is Healthcare Realty Trust Incorporated (HR) A Good Stock To Buy Now? - Yahoo Finance",
         "Healthcare Realty Trust Inc (HR) (Q2 2026) Earnings Call Highlights: Raises Guidance on Strong ... - Yahoo Finance",
-        "How big is your company and how many HR Employees are there. [N/a] - Reddit"
+        "Healthcare Realty Stock: Turnaround Is Working, Stock Is Still Cheap (NYSE:HR) - Seeking Alpha"
       ],
       "negative_highlights": [
         "Second Quarter Results: 6 months into the /r/investing underrated stock survey and the average return was 72% (37% as a portfolio) - Reddit",
-        "Healthcare Realty Trust Incorporated (NYSE:HR) Stock Has Average Target Price of $21.36 According to Analysts - MarketBeat",
-        "Down 5.8% in 4 Weeks, Here's Why You Should You Buy the Dip in Healthcare Realty Trust (HR) - Yahoo Finance"
+        "Down 5.8% in 4 Weeks, Here's Why You Should You Buy the Dip in Healthcare Realty Trust (HR) - Yahoo Finance",
+        "Friendly reminder: Don\u2019t trust Glassdoor. I worked for this horrible, awful, toxic, abusive company and all of my negative, yet accurate, reviews were auto-rejected. Yet this, THIS, is okay. - Reddit"
       ],
       "recent_headlines": [
-        "Healthcare Realty Trust Inc's Dividend Analysis - Yahoo Finance",
         "Healthcare Realty Trust Incorpo (HR) Stock Forecasts - Yahoo Finance",
         "Compared to Estimates, Healthcare Realty Trust (HR) Q3 Earnings: A Look at Key Metrics - Yahoo Finance",
         "Healthcare Realty Trust Incorporated Q3 2026 Earnings Call Summary - Yahoo Finance",
-        "Healthcare Realty Trust Inc (HR) (Q3 2026) Earnings Call Highlights: Guidance Raised Again as ... - Yahoo Finance"
+        "Healthcare Realty Trust Inc (HR) (Q3 2026) Earnings Call Highlights: Guidance Raised Again as ... - Yahoo Finance",
+        "Down 5.8% in 4 Weeks, Here's Why You Should You Buy the Dip in Healthcare Realty Trust (HR) - Yahoo Finance"
       ]
     },
     "qual": {
@@ -1089,14 +1102,14 @@
       "qualitative_score": 32.0
     },
     "sig": {
-      "composite_score": 42.2,
+      "composite_score": 42.6,
       "signal": "SELL",
-      "confidence_pct": 66.2,
+      "confidence_pct": 66.0,
       "pillar_scores": {
         "fundamentals": 18.0,
         "valuation": 26.0,
         "technicals": 58.3,
-        "sentiment": 50.2,
+        "sentiment": 52.6,
         "analyst": 87.0,
         "macro_moat": 32.0
       },
