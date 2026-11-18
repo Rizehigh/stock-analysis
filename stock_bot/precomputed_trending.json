@@ -13,22 +13,22 @@
       "sector": "Technology",
       "industry": "Semiconductors",
       "summary": "NVIDIA Corporation operates as a data center scale AI infrastructure company in the United States, Taiwan, China, Hong Kong, Europe, and internationally. It operates through Compute & Networking, and Graphics segments. The Compute & Networking segment provides data center accelerated computing and networking platforms and artificial intelligence solutions and software, and automotive platforms and autonomous and electric vehicle solutions, including software. The Graphics segment offers GeForce GPUs for gaming and PCs; Quadro/NVIDIA RTX GPUs for enterprise workstation graphics. The company's products are used in gaming, professional visualization, data center, and automotive markets. It sells its products to original equipment manufacturers, original device manufacturers, system integrators and distributors, independent software vendors, cloud service providers, add-in board manufacturers, distributors, automotive manufacturers and tier-1 automotive suppliers, and other ecosystem participants. It has a collaboration with Cisco to develop Ultra-Dense Small Form Factor Pluggable (USFP), a high-density optical module pluggable transceiver. It has a collaboration with ChipAgents to develop Build-A-Chip-Bench, a benchmark for AI agents carrying chip design tasks and The Company has a strategic alliance with MediaTek to build the next generations of AI computing platforms. NVIDIA Corporation was incorporated in 1993 and is headquartered in Santa Clara, California.",
-      "current_price": 154.695,
+      "current_price": 150.96,
       "previous_close": 155.46,
       "fifty_two_week_high": 243.37,
       "fifty_two_week_low": 148.8,
-      "volume": 77140315,
+      "volume": 343007056,
       "avg_volume": 154534932,
-      "pe_ratio": 19.55689,
-      "forward_pe": 9.379673,
+      "pe_ratio": 19.084703,
+      "forward_pe": 9.0910845,
       "peg_ratio": 0.19,
-      "price_to_sales": 12.32934,
-      "price_to_book": 23.902195,
+      "price_to_sales": 12.031656,
+      "price_to_book": 23.325094,
       "ev_to_ebitda": 18.498,
-      "market_cap": 3735420141568,
+      "market_cap": 3645231071232,
       "enterprise_value": 3722976952320,
       "eps_trailing": 7.91,
-      "eps_forward": 16.49258,
+      "eps_forward": 16.60528,
       "earnings_growth": 1.278,
       "revenue_growth": 1.059,
       "total_revenue": 302970011648,
@@ -46,86 +46,100 @@
       "dividend_yield_pct": 64.0,
       "payout_ratio": 0.0354,
       "target_low": 130.0,
-      "target_mean": 265.23456,
-      "target_high": 515.0,
-      "target_median": 255.0,
+      "target_mean": 253.67091,
+      "target_high": 450.0,
+      "target_median": 245.0,
       "recommendation_key": "buy",
-      "recommendation_mean": 1.69355,
+      "recommendation_mean": 1.74603,
       "number_of_analysts": 55,
-      "implied_upside_pct": 71.4564530204596,
+      "implied_upside_pct": 68.0384936406995,
       "rec_breakdown": {
         "strongBuy": 11,
-        "buy": 36,
-        "hold": 14,
+        "buy": 35,
+        "hold": 15,
         "sell": 2,
         "strongSell": 0
       },
       "next_earnings_date": "2026-11-17",
-      "earnings_high_est": 3.117,
-      "earnings_low_est": 2.44049,
-      "earnings_avg_est": 2.7613,
+      "earnings_high_est": 3.13,
+      "earnings_low_est": 2.8,
+      "earnings_avg_est": 2.88399,
       "_ticker_obj": "yfinance.Ticker object <NVDA>"
     },
     "tech": {
-      "latest_price": 154.695,
-      "sma_20": 189.22600173950195,
-      "sma_50": 210.3776010131836,
-      "sma_200": 203.4727056121826,
-      "rsi_14": 16.488630121404483,
+      "latest_price": 150.96,
+      "sma_20": 189.04000244140624,
+      "sma_50": 210.3032012939453,
+      "sma_200": 203.45410568237304,
+      "rsi_14": 15.819883043659729,
       "rsi_status": "OVERSOLD",
       "macd_data": {
-        "macd": -16.64102613862346,
-        "signal": -13.051927783424965,
-        "histogram": -3.5890983551984945,
+        "macd": -16.937777176529607,
+        "signal": -13.11127801769028,
+        "histogram": -3.8264991588393276,
         "crossover": "BEARISH"
       },
       "cross_status": "GOLDEN_CROSS",
-      "fifty_two_week_pos_pct": 6.233475143112666,
+      "fifty_two_week_pos_pct": 2.284019381906862,
       "high_52": 243.3699951171875,
       "low_52": 148.8000030517578,
       "returns": {
-        "1m": -30.308150133229983,
-        "3m": -27.874397577375674,
-        "6m": -29.36604528669965,
-        "1y": -14.498449802913038
+        "1m": -31.99080994287079,
+        "3m": -29.615818599700262,
+        "6m": -31.071451543231376,
+        "1y": -18.871075534588822
       },
       "technical_score": 42.0,
       "signals": [
-        "Price is 26.5% below 50-day SMA (Bearish)",
+        "Price is 28.2% below 50-day SMA (Bearish)",
         "50-day SMA is above 200-day SMA (Golden Cross)",
-        "RSI is oversold at 16.5 (Potential Rebound)",
+        "RSI is oversold at 15.8 (Potential Rebound)",
         "MACD histogram indicates negative bearish momentum"
       ]
     },
     "sent": {
-      "combined_polarity": 0.0,
-      "sentiment_score": 50.0,
+      "combined_polarity": 0.053,
+      "sentiment_score": 52.1,
       "label": "NEUTRAL",
       "news_stats": {
-        "polarity": 0.0,
-        "subjectivity": 0.0,
-        "positive_count": 0,
-        "negative_count": 0,
-        "neutral_count": 0
+        "polarity": 0.06631313131313131,
+        "subjectivity": 0.32407407407407407,
+        "positive_count": 5,
+        "negative_count": 1,
+        "neutral_count": 9,
+        "total": 15
       },
       "reddit_stats": {
-        "polarity": 0.0,
-        "subjectivity": 0.0,
-        "positive_count": 0,
+        "polarity": 0.0225,
+        "subjectivity": 0.10500000000000001,
+        "positive_count": 2,
         "negative_count": 0,
-        "neutral_count": 0
+        "neutral_count": 8,
+        "total": 10
       },
-      "headline_count": 0,
-      "positive_highlights": [],
-      "negative_highlights": [],
-      "recent_headlines": []
+      "headline_count": 25,
+      "positive_highlights": [
+        "Options traders repositioned for an Nvidia recovery as volatility rose more than 50% - Seeking Alpha",
+        "Should investors buy the rare Nvidia stock correction before tomorrow\u2019s earnings? - Yahoo Finance",
+        "Nvidia: The Real Risk Goes Beyond Jensen Huang (NASDAQ:NVDA) - Seeking Alpha"
+      ],
+      "negative_highlights": [
+        "Nvidia Is Teaching The Market A Serious Lesson (NASDAQ:NVDA) - Seeking Alpha"
+      ],
+      "recent_headlines": [
+        "NVIDIA Corporation (NVDA) stock price, news, quote and history - Yahoo Finance Australia",
+        "NVDA Stock Quote Price and Forecast - CNN",
+        "NVIDIA Is Near Its 52-Week Low. Will NVDA Stock Hit $100 or $200 First? - 24/7 Wall St.",
+        "Nvidia's Q3 Earnings Say Buy The Stock, Not The Panic (Rating Upgrade) (NASDAQ:NVDA) - Seeking Alpha",
+        "NVIDIA Shares Jump 3.13% in Premarket Trading - NVIDIA (NASDAQ:NVDA) - Benzinga"
+      ]
     },
     "qual": {
       "priced_in": {
         "valuation_tier": "Fair Value Range",
         "priced_in_points": [
           "P/E ratio reflects balanced market expectations for mid-range growth.",
-          "Forward P/E is 52.0% lower than trailing P/E, pricing in robust earnings recovery/growth.",
+          "Forward P/E is 52.4% lower than trailing P/E, pricing in robust earnings recovery/growth.",
           "PEG ratio of 0.19 suggests stock may be undervalued relative to expected growth."
         ]
       },
@@ -144,20 +158,20 @@
         "reasons": [
           "Strong Return on Equity (ROE: 117.2%), indicating high capital efficiency and competitive advantage.",
           "High net profit margin (63.7%), demonstrating pricing power.",
-          "Mega-cap scale ($3.74T) provides massive distribution and cost advantages."
+          "Mega-cap scale ($3.65T) provides massive distribution and cost advantages."
         ]
       },
       "qualitative_score": 80.0
     },
     "sig": {
-      "composite_score": 78.8,
+      "composite_score": 79.1,
       "signal": "BUY",
-      "confidence_pct": 68.8,
+      "confidence_pct": 69.3,
       "pillar_scores": {
         "fundamentals": 100.0,
         "valuation": 85.0,
         "technicals": 42.0,
-        "sentiment": 50.0,
+        "sentiment": 52.1,
         "analyst": 100.0,
         "macro_moat": 80.0
       },
@@ -168,7 +182,7 @@
         "Low debt-to-equity ratio (17.0)"
       ],
       "key_risks": [
-        "Price is 26.5% below 50-day SMA (Bearish)"
+        "Price is 28.2% below 50-day SMA (Bearish)"
       ]
     }
   },
@@ -186,19 +200,19 @@
       "sector": "Technology",
       "industry": "Semiconductors",
       "summary": "Advanced Micro Devices, Inc. operates as a semiconductor company internationally. It operates in three segments: Data Center, Client and Gaming, and Embedded. The company offers artificial intelligence (AI) accelerators, microprocessors, and graphics processing units (GPUs) as standalone devices or as incorporated into accelerated processing units, chipsets, and data center and professional GPUs; and embedded processors and semi-custom system-on-chip (SoC) products, microprocessor and SoC development services and technology, data processing units, field programmable gate arrays (FPGA), system on modules, AI network interface cards, and adaptive SoC products. It provides processors under the AMD Ryzen, AMD Ryzen AI, AMD Ryzen PRO, AMD Ryzen Threadripper, AMD Ryzen Threadripper PRO, AMD Athlon, and AMD PRO A-Series brands; graphics under the AMD Radeon graphics and AMD Embedded Radeon graphics; professional graphics under the AMD Radeon Pro graphics brand; and AI and general-purpose compute infrastructure for hyperscale providers. The company offers data center graphics under the AMD Instinct accelerators and Radeon PRO V-series brands; server microprocessors under the AMD EPYC brand; low power solutions under the AMD Athlon, AMD Geode, AMD Ryzen, AMD EPYC, and AMD R-Series and G-Series brands; FPGA products under the Virtex-6, Virtex-7, Virtex UltraScale+, Kintex-7, Kintex UltraScale, Kintex UltraScale+, Artix-7, Artix UltraScale+, Spartan-6, and Spartan-7 brands; adaptive SOCs under the Zynq-7000, Zynq UltraScale+ MPSoC, Zynq UltraScale+ RFSoCs, Versal HBM, Versal Premium, Versal Prime, Versal AI Core, Versal AI Edge, Vitis, and Vivado brands; and compute and network acceleration board products under the Alveo and Pensando brands. It serves original equipment and design manufacturers, public cloud service providers, system integrators, distributors, and add-in-board manufacturers. The company was incorporated in 1969 and is headquartered in Santa Clara, California.",
-      "current_price": 507.025,
+      "current_price": 530.14,
       "previous_close": 503.41,
       "fifty_two_week_high": 658.52,
       "fifty_two_week_low": 188.22,
-      "volume": 5199064,
+      "volume": 33451755,
       "avg_volume": 25119125,
-      "pe_ratio": 108.33868,
-      "forward_pe": 28.745764,
+      "pe_ratio": 113.27779,
+      "forward_pe": 30.05627,
       "peg_ratio": 0.45,
-      "price_to_sales": 18.469048,
-      "price_to_book": 12.158581,
+      "price_to_sales": 19.311043,
+      "price_to_book": 12.712885,
       "ev_to_ebitda": 73.505,
-      "market_cap": 839159644160,
+      "market_cap": 877416480768,
       "enterprise_value": 819071352832,
       "eps_trailing": 4.68,
       "eps_forward": 17.63825,
@@ -225,7 +239,7 @@
       "recommendation_key": "strong_buy",
       "recommendation_mean": 1.35185,
       "number_of_analysts": 49,
-      "implied_upside_pct": 29.725922784872537,
+      "implied_upside_pct": 24.069653299128525,
       "rec_breakdown": {
         "strongBuy": 5,
         "buy": 42,
@@ -240,57 +254,72 @@
       "_ticker_obj": "yfinance.Ticker object <AMD>"
     },
     "tech": {
-      "latest_price": 507.025,
-      "sma_20": 513.4929992675782,
-      "sma_50": 554.7625988769531,
-      "sma_200": 427.0671499633789,
-      "rsi_14": 43.73783142788979,
-      "rsi_status": "BEARISH",
+      "latest_price": 530.14,
+      "sma_20": 514.6380004882812,
+      "sma_50": 555.2205993652344,
+      "sma_200": 427.18165008544923,
+      "rsi_14": 46.33846337317624,
+      "rsi_status": "NEUTRAL",
       "macd_data": {
-        "macd": -9.860162506399547,
-        "signal": -12.852981997630252,
-        "histogram": 2.992819491230705,
+        "macd": -8.033379904560547,
+        "signal": -12.487625442324129,
+        "histogram": 4.4542455377635815,
         "crossover": "BULLISH"
       },
       "cross_status": "GOLDEN_CROSS",
-      "fifty_two_week_pos_pct": 67.78757949543277,
+      "fifty_two_week_pos_pct": 72.70252720966755,
       "high_52": 658.52001953125,
       "low_52": 188.22000122070312,
       "returns": {
-        "1m": -8.267291417930068,
-        "3m": 7.136819862651866,
-        "6m": 12.774973671554712,
-        "1y": 120.16805540049104
+        "1m": -4.085246037772183,
+        "3m": 12.021130480718423,
+        "6m": 17.916324722130117,
+        "1y": 137.14604909992255
       },
-      "technical_score": 47.1,
+      "technical_score": 63.2,
       "signals": [
-        "Price is 8.6% below 50-day SMA (Bearish)",
+        "Price is 4.5% below 50-day SMA (Bearish)",
         "50-day SMA is above 200-day SMA (Golden Cross)",
         "MACD histogram indicates positive bullish momentum"
       ]
     },
     "sent": {
-      "combined_polarity": 0.0,
-      "sentiment_score": 50.0,
-      "label": "NEUTRAL",
+      "combined_polarity": 0.209,
+      "sentiment_score": 58.4,
+      "label": "BULLISH",
       "news_stats": {
-        "polarity": 0.0,
-        "subjectivity": 0.0,
-        "positive_count": 0,
+        "polarity": 0.2333333333333333,
+        "subjectivity": 0.31999999999999995,
+        "positive_count": 8,
         "negative_count": 0,
-        "neutral_count": 0
+        "neutral_count": 7,
+        "total": 15
       },
       "reddit_stats": {
-        "polarity": 0.0,
-        "subjectivity": 0.0,
-        "positive_count": 0,
-        "negative_count": 0,
-        "neutral_count": 0
+        "polarity": 0.15333333333333335,
+        "subjectivity": 0.3766666666666667,
+        "positive_count": 4,
+        "negative_count": 2,
+        "neutral_count": 4,
+        "total": 10
       },
-      "headline_count": 0,
-      "positive_highlights": [],
-      "negative_highlights": [],
-      "recent_headlines": []
+      "headline_count": 25,
+      "positive_highlights": [
+        "AMD Is Up 115% in a Year. One Investor\u2019s Math Says a Great 2027 Is Already in the Price - TIKR.com",
+        "Druckenmiller's Duquesne Gives Chip Stocks the Boot: Exits AMD, Sandisk and More - Benzinga",
+        "Driver from Microsoft via Windows Updates: Advanced Micro Devices, Inc. - SCSIAdapter - 9.3.0.221 is still being pushed! - Reddit"
+      ],
+      "negative_highlights": [
+        "Windows Updated automatically updating AMD drivers is enough for me to go back to team Green - Reddit",
+        "Windows Update just suggested me 2.2.0.121 \"System\" software from AMD. Anyone else with this? Curious why it shows up with fully updated AM4 drivers. - Reddit"
+      ],
+      "recent_headlines": [
+        "Why Is Advanced Micro Devices Stock Rising Today? - Yahoo Finance",
+        "Prediction: These Will Be Nvidia\u2019s and AMD\u2019s Stock Prices by the End of 2027 (Hint: Only 1 Is a Buy). - The Motley Fool",
+        "AMD Shares Climb as CEO Lisa Su Brushes Off Nvidia's Huang Turmoil, But the Real Opening Isn't Demand - Barchart.com",
+        "Broadcom Is Better Positioned Than AMD As Nvidia Struggles (NASDAQ:AMD) - Seeking Alpha",
+        "Why Is Everybody Paying A Premium For AMD Stock? - Trefis"
+      ]
     },
     "qual": {
       "priced_in": {
@@ -315,20 +344,20 @@
         "moat_score": 80.0,
         "reasons": [
           "High net profit margin (16.8%), demonstrating pricing power.",
-          "Mega-cap scale ($839.16B) provides massive distribution and cost advantages."
+          "Mega-cap scale ($877.42B) provides massive distribution and cost advantages."
         ]
       },
       "qualitative_score": 68.0
     },
     "sig": {
-      "composite_score": 69.6,
+      "composite_score": 73.3,
       "signal": "BUY",
-      "confidence_pct": 70.4,
+      "confidence_pct": 74.2,
       "pillar_scores": {
         "fundamentals": 93.0,
         "valuation": 50.0,
-        "technicals": 47.1,
-        "sentiment": 50.0,
+        "technicals": 63.2,
+        "sentiment": 58.4,
         "analyst": 100.0,
         "macro_moat": 68.0
       },
@@ -339,181 +368,8 @@
         "Favorable PEG ratio (0.45x < 1.0)"
       ],
       "key_risks": [
-        "High P/E ratio (108.3x)",
-        "Price is 8.6% below 50-day SMA (Bearish)"
-      ]
-    }
-  },
-  "SLS": {
-    "data": {
-      "symbol": "SLS",
-      "company_name": "SELLAS Life Sciences Group, Inc.",
-      "exchange_info": {
-        "country": "United States",
-        "exchange": "NYSE/NASDAQ",
-        "central_bank": "Federal Reserve (FED)",
-        "currency_symbol": "$"
-      },
-      "currency": "USD",
-      "sector": "Healthcare",
-      "industry": "Biotechnology",
-      "summary": "SELLAS Life Sciences Group, Inc., a late-stage clinical biopharmaceutical company, focuses on the development of novel therapeutics for various cancer indications in the United States. The company's lead product candidate is galinpepimut-S (GPS), a peptide immunotherapy directed against the Wilms tumor 1, antigen; and SLS009 (tambiciclib), a selective small molecule cyclin-dependent kinase 9, or CDK9, inhibitor. It has a strategic collaboration with Merck & Co., Inc. to evaluate GPS as it is administered in combination with PD1 blocker pembrolizumab in a Phase 1/2 clinical trial enrolling patients in up to five cancer indications, including hematologic malignancies and solid tumors; GenFleet Therapeutics (Shanghai), Inc. for the development and commercialization of GFH009; and Memorial Sloan Kettering Cancer Center for developing and commercializing MSK's WT1 peptide vaccine technology. SELLAS Life Sciences Group, Inc. is headquartered in New York, New York.",
-      "current_price": 18.77,
-      "previous_close": 19.15,
-      "fifty_two_week_high": 24.89,
-      "fifty_two_week_low": 1.39,
-      "volume": 7382584,
-      "avg_volume": 8773260,
-      "pe_ratio": null,
-      "forward_pe": -93.85,
-      "peg_ratio": null,
-      "price_to_sales": null,
-      "price_to_book": 28.96605,
-      "ev_to_ebitda": null,
-      "market_cap": 3826436352,
-      "enterprise_value": 3769790720,
-      "eps_trailing": -0.2,
-      "eps_forward": -0.2,
-      "earnings_growth": null,
-      "revenue_growth": null,
-      "total_revenue": null,
-      "net_income": -35761000,
-      "profit_margins": 0.0,
-      "operating_margins": 0.0,
-      "return_on_equity": -0.40308997,
-      "return_on_assets": -0.24232,
-      "total_debt": 599000,
-      "total_cash": 134711008,
-      "debt_to_equity": 0.454,
-      "current_ratio": 14.923,
-      "quick_ratio": 14.507,
-      "free_cash_flow": -14919625,
-      "dividend_yield_pct": 0.0,
-      "payout_ratio": 0.0,
-      "target_low": 30.0,
-      "target_mean": 32.5,
-      "target_high": 35.0,
-      "target_median": 32.5,
-      "recommendation_key": "strong_buy",
-      "recommendation_mean": 1.5,
-      "number_of_analysts": 2,
-      "implied_upside_pct": 73.14864144912094,
-      "rec_breakdown": {
-        "strongBuy": 1,
-        "buy": 1,
-        "hold": 0,
-        "sell": 0,
-        "strongSell": 0
-      },
-      "next_earnings_date": "2026-11-12",
-      "earnings_high_est": -0.05,
-      "earnings_low_est": -0.05,
-      "earnings_avg_est": -0.05,
-      "_ticker_obj": "yfinance.Ticker object <SLS>"
-    },
-    "tech": {
-      "latest_price": 18.77,
-      "sma_20": 10.306500053405761,
-      "sma_50": 11.103800010681152,
-      "sma_200": 8.950250010490418,
-      "rsi_14": 74.69879785052854,
-      "rsi_status": "OVERBOUGHT",
-      "macd_data": {
-        "macd": 0.6183268046824715,
-        "signal": -0.42936075895914627,
-        "histogram": 1.0476875636416176,
-        "crossover": "BULLISH"
-      },
-      "cross_status": "GOLDEN_CROSS",
-      "fifty_two_week_pos_pct": 73.95744874521642,
-      "high_52": 24.889999389648438,
-      "low_52": 1.3899999856948853,
-      "returns": {
-        "1m": 54.61284570987579,
-        "3m": 21.410090256699398,
-        "6m": 148.28042515961903,
-        "1y": 1080.5031198719855
-      },
-      "technical_score": 82.0,
-      "signals": [
-        "Price is 69.0% above 50-day SMA (Bullish)",
-        "50-day SMA is above 200-day SMA (Golden Cross)",
-        "RSI is overbought at 74.7 (Pullback Risk)",
-        "MACD histogram indicates positive bullish momentum"
-      ]
-    },
-    "sent": {
-      "combined_polarity": 0.0,
-      "sentiment_score": 50.0,
-      "label": "NEUTRAL",
-      "news_stats": {
-        "polarity": 0.0,
-        "subjectivity": 0.0,
-        "positive_count": 0,
-        "negative_count": 0,
-        "neutral_count": 0
-      },
-      "reddit_stats": {
-        "polarity": 0.0,
-        "subjectivity": 0.0,
-        "positive_count": 0,
-        "negative_count": 0,
-        "neutral_count": 0
-      },
-      "headline_count": 0,
-      "positive_highlights": [],
-      "negative_highlights": [],
-      "recent_headlines": []
-    },
-    "qual": {
-      "priced_in": {
-        "valuation_tier": "Moderate",
-        "priced_in_points": [
-          "Market pricing reflects baseline sector performance."
-        ]
-      },
-      "macro_policy": {
-        "macro_factors": [
-          "Operating in United States under Federal Reserve (FED) interest rate policy environment.",
-          "Defensive sector with stable demand relatively inelastic to interest rate cycles."
-        ],
-        "policy_risks": [
-          "Government drug pricing regulations, Medicare negotiations, and approval timelines."
-        ]
-      },
-      "moat": {
-        "moat_tier": "Weak / No Moat",
-        "moat_score": 20.0,
-        "reasons": [
-          "Low Return on Equity (ROE: -40.3%), indicating margin pressure or weak capital efficiency.",
-          "Thin net profit margin (0.0%), making company vulnerable to cost inflation."
-        ]
-      },
-      "qualitative_score": 32.0
-    },
-    "sig": {
-      "composite_score": 58.8,
-      "signal": "HOLD",
-      "confidence_pct": 63.7,
-      "pillar_scores": {
-        "fundamentals": 31.0,
-        "valuation": 65.0,
-        "technicals": 82.0,
-        "sentiment": 50.0,
-        "analyst": 100.0,
-        "macro_moat": 32.0
-      },
-      "key_positives": [
-        "Low debt-to-equity ratio (0.5)",
-        "Attractive Forward P/E (-93.8x)",
-        "Significant price target upside (+73.1%)",
-        "Strong Wall Street analyst consensus (Strong Buy)"
-      ],
-      "key_risks": [
-        "Subpar Return on Equity (-40.3%)",
-        "Thin profit margin (0.0%)",
-        "Negative free cash flow generation",
-        "RSI is overbought at 74.7 (Pullback Risk)"
+        "High P/E ratio (113.3x)",
+        "Price is 4.5% below 50-day SMA (Bearish)"
       ]
     }
   },
@@ -531,19 +387,19 @@
       "sector": "Technology",
       "industry": "Semiconductors",
       "summary": "Micron Technology, Inc. engages in the provision of semiconductor memory and storage products in the United States, Taiwan, Mainland China, other Asia Pacific countries, Japan, Europe, and internationally. It operates through Cloud Memory Business Unit, Core Data Center Business Unit, Mobile and Client Business Unit, and Automotive and Embedded Business Unit segments. The company provides dynamic random access memory (DRAM) products, including High-Bandwidth Memory, doublie data rate, low-power DRAM, and graphics DRAM products; NAND products comprising solid state drives, managed NAND, and multi-chip packages; and NOR products. The company sells its products under the Micron brand name and private labels through its own direct sales force, sales or representative offices, as well as through distributors, retailers, and independent sales representatives. Micron Technology, Inc. was founded in 1978 and is headquartered in Boise, Idaho.",
-      "current_price": 704.755,
+      "current_price": 705.27,
       "previous_close": 712.42,
       "fifty_two_week_high": 1255.0,
       "fifty_two_week_low": 192.59,
-      "volume": 5082069,
+      "volume": 26936272,
       "avg_volume": 27525153,
-      "pe_ratio": 9.481434,
-      "forward_pe": 3.3921514,
+      "pe_ratio": 9.488362,
+      "forward_pe": 3.3946302,
       "peg_ratio": 0.16,
-      "price_to_sales": 5.986847,
-      "price_to_book": 5.760155,
+      "price_to_sales": 5.991222,
+      "price_to_book": 5.7643647,
       "ev_to_ebitda": 7.054,
-      "market_cap": 797376184320,
+      "market_cap": 797958864896,
       "enterprise_value": 767793496064,
       "eps_trailing": 74.33,
       "eps_forward": 207.76048,
@@ -570,7 +426,7 @@
       "recommendation_key": "strong_buy",
       "recommendation_mean": 1.34694,
       "number_of_analysts": 45,
-      "implied_upside_pct": 121.62469226894453,
+      "implied_upside_pct": 121.46285819615184,
       "rec_breakdown": {
         "strongBuy": 9,
         "buy": 36,
@@ -585,57 +441,73 @@
       "_ticker_obj": "yfinance.Ticker object <MU>"
     },
     "tech": {
-      "latest_price": 704.755,
-      "sma_20": 809.077749633789,
-      "sma_50": 925.5304895019531,
-      "sma_200": 769.7417524719239,
-      "rsi_14": 30.823728642767122,
+      "latest_price": 705.27,
+      "sma_20": 809.1035003662109,
+      "sma_50": 925.5407897949219,
+      "sma_200": 769.7443276977539,
+      "rsi_14": 30.850278471915985,
       "rsi_status": "BEARISH",
       "macd_data": {
-        "macd": -59.84415716405988,
-        "signal": -56.1122256026394,
-        "histogram": -3.731931561420481,
+        "macd": -59.803073363940484,
+        "signal": -56.10400882927371,
+        "histogram": -3.6990645346667748,
         "crossover": "BEARISH"
       },
       "cross_status": "GOLDEN_CROSS",
-      "fifty_two_week_pos_pct": 48.236221710286245,
+      "fifty_two_week_pos_pct": 48.284704251940866,
       "high_52": 1254.6095437059498,
       "low_52": 192.3715041476699,
       "returns": {
-        "1m": -22.865475151622604,
-        "3m": -27.09138869721679,
-        "6m": -7.495818138892152,
-        "1y": 208.7769597905173
+        "1m": -22.809109066533583,
+        "3m": -27.03811070015265,
+        "6m": -7.428220670752916,
+        "1y": 212.53144019080003
       },
       "technical_score": 25.0,
       "signals": [
-        "Price is 23.9% below 50-day SMA (Bearish)",
+        "Price is 23.8% below 50-day SMA (Bearish)",
         "50-day SMA is above 200-day SMA (Golden Cross)",
         "MACD histogram indicates negative bearish momentum"
       ]
     },
     "sent": {
-      "combined_polarity": 0.0,
-      "sentiment_score": 50.0,
+      "combined_polarity": 0.03,
+      "sentiment_score": 51.2,
       "label": "NEUTRAL",
       "news_stats": {
-        "polarity": 0.0,
-        "subjectivity": 0.0,
-        "positive_count": 0,
-        "negative_count": 0,
-        "neutral_count": 0
+        "polarity": 0.023548581048581044,
+        "subjectivity": 0.27338504088504084,
+        "positive_count": 4,
+        "negative_count": 3,
+        "neutral_count": 8,
+        "total": 15
       },
       "reddit_stats": {
-        "polarity": 0.0,
-        "subjectivity": 0.0,
-        "positive_count": 0,
-        "negative_count": 0,
-        "neutral_count": 0
+        "polarity": 0.04361111111111112,
+        "subjectivity": 0.33638888888888885,
+        "positive_count": 2,
+        "negative_count": 2,
+        "neutral_count": 6,
+        "total": 10
       },
-      "headline_count": 0,
-      "positive_highlights": [],
-      "negative_highlights": [],
-      "recent_headlines": []
+      "headline_count": 25,
+      "positive_highlights": [
+        "Micron Stock: 3 Catalysts Set to Boost the Memory Chip Maker Beyond Nvidia Earnings - Barron's",
+        "Why MU is a huge buy - Reddit",
+        "Micron is still super undervalued or nah? - Reddit"
+      ],
+      "negative_highlights": [
+        "Been watching MU pretty closely these past couple weeks and honestly it\u2019s hard to ignore what\u2019s going on here. - Reddit",
+        "Micron, AMD and other AI stocks fall as the chip sector\u2019s selloff intensifies - MarketWatch",
+        "Micron Technology shares drop about 3.5% after $35.16B buyback expansion and weak technical trend - Traders Union"
+      ],
+      "recent_headlines": [
+        "How Much Upside Is Left In Micron Stock? - Yahoo Finance",
+        "Micron Stock Is Down 41%, but the $35 Billion Buyback Could Change the Game. Here's How. - Barchart.com",
+        "Micron Stock: 3 Catalysts Set to Boost the Memory Chip Maker Beyond Nvidia Earnings - Barron's",
+        "Micron Vs. SK hynix: Why I\u2019m Choosing Only One (NASDAQ:MU) - Seeking Alpha",
+        "Should You Buy Micron Stock At Under Ten Times Earnings? - Trefis"
+      ]
     },
     "qual": {
       "priced_in": {
@@ -661,20 +533,20 @@
         "reasons": [
           "Strong Return on Equity (ROE: 88.3%), indicating high capital efficiency and competitive advantage.",
           "High net profit margin (63.8%), demonstrating pricing power.",
-          "Mega-cap scale ($797.38B) provides massive distribution and cost advantages."
+          "Mega-cap scale ($797.96B) provides massive distribution and cost advantages."
         ]
       },
       "qualitative_score": 80.0
     },
     "sig": {
-      "composite_score": 78.2,
+      "composite_score": 78.4,
       "signal": "BUY",
-      "confidence_pct": 62.1,
+      "confidence_pct": 62.3,
       "pillar_scores": {
         "fundamentals": 100.0,
         "valuation": 95.0,
         "technicals": 25.0,
-        "sentiment": 50.0,
+        "sentiment": 51.2,
         "analyst": 100.0,
         "macro_moat": 80.0
       },
@@ -685,7 +557,382 @@
         "Low debt-to-equity ratio (3.7)"
       ],
       "key_risks": [
-        "Price is 23.9% below 50-day SMA (Bearish)"
+        "Price is 23.8% below 50-day SMA (Bearish)"
+      ]
+    }
+  },
+  "SPCX": {
+    "data": {
+      "symbol": "SPCX",
+      "company_name": "Space Exploration Technologies Corp.",
+      "exchange_info": {
+        "country": "United States",
+        "exchange": "NYSE/NASDAQ",
+        "central_bank": "Federal Reserve (FED)",
+        "currency_symbol": "$"
+      },
+      "currency": "USD",
+      "sector": "Industrials",
+      "industry": "Aerospace & Defense",
+      "summary": "Space Exploration Technologies Corp. provides satellite-based broadband services in the United States, Ireland, Canada, and internationally. It operates through three operating segments: Space, Connectivity, and AI. The Space segment designs, manufactures, and launches reusable rockets to provide access to space. It also provides launch services for the deployment of payloads to intended orbits for commercial and government customers utilizing Falcon 9 and Falcon Heavy; and engages in the launch and development for the development of spacecraft and the provision of launch and mission services for government agency space programs utilizing Falcon 9, Falcon Heavy, Starship, and Dragon. Its company's Connectivity segment operates broadband data and communications network by various Starlink satellites in low-earth orbit, delivering connectivity to various consumers, enterprise, and government customers. The company's AI segment operates a vertically integrated AI platform spanning a frontier LLM Grok; AI solutions for consumer and enterprise customers; X, a real-time information, entertainment, and free speech platform; and AI computational infrastructure. Space Exploration Technologies Corp. was incorporated in 2002 and is based in Starbase, Texas.",
+      "current_price": 143.5,
+      "previous_close": 141.7,
+      "fifty_two_week_high": 225.64,
+      "fifty_two_week_low": 104.83,
+      "volume": 85245028,
+      "avg_volume": 94869225,
+      "pe_ratio": 623.913,
+      "forward_pe": 52.327763,
+      "peg_ratio": null,
+      "price_to_sales": 60.820858,
+      "price_to_book": 11.023199,
+      "ev_to_ebitda": 161.746,
+      "market_cap": 1948882698240,
+      "enterprise_value": 1898245652480,
+      "eps_trailing": 0.23,
+      "eps_forward": 2.74233,
+      "earnings_growth": null,
+      "revenue_growth": 1.614,
+      "total_revenue": 32042999808,
+      "net_income": -3431000064,
+      "profit_margins": -0.08613,
+      "operating_margins": 0.01794,
+      "return_on_equity": null,
+      "return_on_assets": null,
+      "total_debt": 39217999872,
+      "total_cash": 89855000576,
+      "debt_to_equity": 22.186,
+      "current_ratio": 3.084,
+      "quick_ratio": 2.945,
+      "free_cash_flow": 15761999872,
+      "dividend_yield_pct": 0.0,
+      "payout_ratio": 0.0,
+      "target_low": 70.0,
+      "target_mean": 257.49515,
+      "target_high": 800.0,
+      "target_median": 250.0,
+      "recommendation_key": "buy",
+      "recommendation_mean": 1.7,
+      "number_of_analysts": 37,
+      "implied_upside_pct": 79.43912891986065,
+      "rec_breakdown": {
+        "strongBuy": 8,
+        "buy": 24,
+        "hold": 6,
+        "sell": 2,
+        "strongSell": 0
+      },
+      "next_earnings_date": "2026-10-20",
+      "earnings_high_est": 0.75029,
+      "earnings_low_est": 0.02,
+      "earnings_avg_est": 0.31884,
+      "_ticker_obj": "yfinance.Ticker object <SPCX>"
+    },
+    "tech": {
+      "latest_price": 143.5,
+      "sma_20": 140.4784999847412,
+      "sma_50": 148.37640060424803,
+      "sma_200": null,
+      "rsi_14": 49.70078295847792,
+      "rsi_status": "NEUTRAL",
+      "macd_data": {
+        "macd": -2.3097580091906025,
+        "signal": -3.0914738756389855,
+        "histogram": 0.781715866448383,
+        "crossover": "BULLISH"
+      },
+      "cross_status": "NEUTRAL",
+      "fifty_two_week_pos_pct": 32.008938788522094,
+      "high_52": 225.63999938964844,
+      "low_52": 104.83000183105469,
+      "returns": {
+        "1m": -9.924046074245197,
+        "3m": 4.767466394904196,
+        "6m": 0.0,
+        "1y": 0.0
+      },
+      "technical_score": 50.1,
+      "signals": [
+        "Price is 3.3% below 50-day SMA (Bearish)",
+        "MACD histogram indicates positive bullish momentum"
+      ]
+    },
+    "sent": {
+      "combined_polarity": 0.108,
+      "sentiment_score": 54.3,
+      "label": "BULLISH",
+      "news_stats": {
+        "polarity": 0.15814814814814815,
+        "subjectivity": 0.24962962962962962,
+        "positive_count": 6,
+        "negative_count": 2,
+        "neutral_count": 7,
+        "total": 15
+      },
+      "reddit_stats": {
+        "polarity": -0.010555555555555549,
+        "subjectivity": 0.24951388888888895,
+        "positive_count": 2,
+        "negative_count": 3,
+        "neutral_count": 5,
+        "total": 10
+      },
+      "headline_count": 25,
+      "positive_highlights": [
+        "SpaceX Is Now Nvidia's Biggest Stock Holding, Ahead of Intel. Here's What That Says About SpaceX. - The Motley Fool",
+        "Anthropic Will Pay SpaceX Up to $120.5 Billion for Compute Through 2029. That's More Than SpaceX Raised in the Biggest IPO in History. - Yahoo Finance",
+        "SpaceX Stock A Fan Favorite Among Analysts, Options Traders - Schaeffer's Investment Research"
+      ],
+      "negative_highlights": [
+        "Why SpaceX Stock Is Down After Its Historic Starship Catch - Barron's",
+        "SpaceX rises as Texas 'resuming' permits for data center, power plant: report (SPCX:NASDAQ) - Seeking Alpha",
+        "Why is SpaceX winding down the Falcon 9 program and getting nothing in return? - Reddit"
+      ],
+      "recent_headlines": [
+        "Dear SpaceX Stock Fans, Mark Your Calendars for November 19 - Barchart.com",
+        "Prediction: $200 a Month Invested in SpaceX Could Be Worth This Much by 2035 - Yahoo Finance",
+        "SpaceX Is Now Nvidia's Biggest Stock Holding, Ahead of Intel. Here's What That Says About SpaceX. - The Motley Fool",
+        "SpaceX, Rivals Win $985 Million In Launch Awards. Cathie Wood, David Tepper Shift Space Holdings. - Investor's Business Daily",
+        "Why SpaceX Stock Is Down After Its Historic Starship Catch - Barron's"
+      ]
+    },
+    "qual": {
+      "priced_in": {
+        "valuation_tier": "High Growth Premium",
+        "priced_in_points": [
+          "High P/E ratio indicates market has priced in strong future earnings acceleration.",
+          "Forward P/E is 91.6% lower than trailing P/E, pricing in robust earnings recovery/growth."
+        ]
+      },
+      "macro_policy": {
+        "macro_factors": [
+          "Operating in United States under Federal Reserve (FED) interest rate policy environment.",
+          "Performance closely aligned with overall United States economic trajectory."
+        ],
+        "policy_risks": [
+          "Standard corporate governance and trade policy conditions apply."
+        ]
+      },
+      "moat": {
+        "moat_tier": "Narrow Moat",
+        "moat_score": 50.0,
+        "reasons": [
+          "Thin net profit margin (-8.6%), making company vulnerable to cost inflation.",
+          "Mega-cap scale ($1.95T) provides massive distribution and cost advantages."
+        ]
+      },
+      "qualitative_score": 50.0
+    },
+    "sig": {
+      "composite_score": 58.5,
+      "signal": "HOLD",
+      "confidence_pct": 65.6,
+      "pillar_scores": {
+        "fundamentals": 73.0,
+        "valuation": 23.0,
+        "technicals": 50.1,
+        "sentiment": 54.3,
+        "analyst": 100.0,
+        "macro_moat": 50.0
+      },
+      "key_positives": [
+        "Strong YoY revenue growth (161.4%)",
+        "Low debt-to-equity ratio (22.2)",
+        "Positive free cash flow generation",
+        "Significant price target upside (+79.4%)"
+      ],
+      "key_risks": [
+        "Thin profit margin (-8.6%)",
+        "High P/E ratio (623.9x)",
+        "Elevated Forward P/E (52.3x)",
+        "Price is 3.3% below 50-day SMA (Bearish)"
+      ]
+    }
+  },
+  "AMZN": {
+    "data": {
+      "symbol": "AMZN",
+      "company_name": "Amazon.com, Inc.",
+      "exchange_info": {
+        "country": "United States",
+        "exchange": "NYSE/NASDAQ",
+        "central_bank": "Federal Reserve (FED)",
+        "currency_symbol": "$"
+      },
+      "currency": "USD",
+      "sector": "Consumer Cyclical",
+      "industry": "Internet Retail",
+      "summary": "Amazon.com, Inc. engages in the retail sale of consumer products, advertising, and subscriptions service through online and physical stores in North America and internationally. The company operates through three segments: North America, International, and Amazon Web Services (AWS). It also manufactures and sells electronic devices, including Kindle, fire tablets, fire TVs, echo, ring, blink, and eero; and develops and produces media content. In addition, the company offers programs that enable sellers to sell their products in its stores; and programs that allow authors, independent publishers, musicians, filmmakers, Twitch streamers, skill and app developers, and others to publish and sell content. Further, it provides compute, storage, Artificial intelligence, database, analytics, machine learning, and other services, as well as advertising services through programs, such as sponsored ads, display, and video advertising. Additionally, the company offers Amazon Prime, a membership program. The company's products offered through its stores include merchandise and content purchased for resale and products offered by third-party sellers. It serves consumers, sellers, developers, enterprises, content creators, advertisers, and employees. The company was incorporated in 1994 and is headquartered in Seattle, Washington.",
+      "current_price": 267.74,
+      "previous_close": 257.89,
+      "fifty_two_week_high": 287.2,
+      "fifty_two_week_low": 196.0,
+      "volume": 40845576,
+      "avg_volume": 39450731,
+      "pe_ratio": 21.6443,
+      "forward_pe": 24.504671,
+      "peg_ratio": 1.2,
+      "price_to_sales": 3.630436,
+      "price_to_book": 4.7173033,
+      "ev_to_ebitda": 16.216,
+      "market_cap": 2895109423104,
+      "enterprise_value": 2979215179776,
+      "eps_trailing": 12.37,
+      "eps_forward": 10.92608,
+      "earnings_growth": -0.031,
+      "revenue_growth": 0.121,
+      "total_revenue": 797455024128,
+      "net_income": 134779002880,
+      "profit_margins": 0.16900998,
+      "operating_margins": 0.13087,
+      "return_on_equity": 0.27416,
+      "return_on_assets": 0.06618,
+      "total_debt": 304840998912,
+      "total_cash": 114226003968,
+      "debt_to_equity": 49.681,
+      "current_ratio": 0.989,
+      "quick_ratio": 0.793,
+      "free_cash_flow": -34731749376,
+      "dividend_yield_pct": 0.0,
+      "payout_ratio": 0.0,
+      "target_low": 230.0,
+      "target_mean": 326.09033,
+      "target_high": 405.0,
+      "target_median": 328.0,
+      "recommendation_key": "strong_buy",
+      "recommendation_mean": 1.32258,
+      "number_of_analysts": 60,
+      "implied_upside_pct": 21.7936542914768,
+      "rec_breakdown": {
+        "strongBuy": 14,
+        "buy": 45,
+        "hold": 3,
+        "sell": 0,
+        "strongSell": 0
+      },
+      "next_earnings_date": "2026-10-29",
+      "earnings_high_est": 2.8,
+      "earnings_low_est": 2.36,
+      "earnings_avg_est": 2.49111,
+      "_ticker_obj": "yfinance.Ticker object <AMZN>"
+    },
+    "tech": {
+      "latest_price": 267.74,
+      "sma_20": 257.1310005187988,
+      "sma_50": 255.12160034179686,
+      "sma_200": 244.90800010681153,
+      "rsi_14": 66.38840122596613,
+      "rsi_status": "BULLISH",
+      "macd_data": {
+        "macd": 2.811384035576282,
+        "signal": 2.245712557971215,
+        "histogram": 0.5656714776050666,
+        "crossover": "BULLISH"
+      },
+      "cross_status": "GOLDEN_CROSS",
+      "fifty_two_week_pos_pct": 78.66227017288608,
+      "high_52": 287.20001220703125,
+      "low_52": 196.0,
+      "returns": {
+        "1m": 2.046729802473801,
+        "3m": 3.5224045722441755,
+        "6m": -0.26819320494487764,
+        "1y": 20.229914708652984
+      },
+      "technical_score": 82.4,
+      "signals": [
+        "Price is 4.9% above 50-day SMA (Bullish)",
+        "50-day SMA is above 200-day SMA (Golden Cross)",
+        "MACD histogram indicates positive bullish momentum"
+      ]
+    },
+    "sent": {
+      "combined_polarity": 0.1,
+      "sentiment_score": 54.0,
+      "label": "BULLISH",
+      "news_stats": {
+        "polarity": 0.015648148148148144,
+        "subjectivity": 0.1751851851851852,
+        "positive_count": 4,
+        "negative_count": 2,
+        "neutral_count": 9,
+        "total": 15
+      },
+      "reddit_stats": {
+        "polarity": 0.29833333333333334,
+        "subjectivity": 0.33,
+        "positive_count": 6,
+        "negative_count": 0,
+        "neutral_count": 4,
+        "total": 10
+      },
+      "headline_count": 25,
+      "positive_highlights": [
+        "GOOGL vs AMZN: Best pick for a 5-7 year horizon? - Reddit",
+        "How many of you selling!? - Reddit",
+        "Here\u2019s Why Amazon.com Is One of the Best Blue Chip Stocks to Buy and Hold for 3 Years - Yahoo Finance"
+      ],
+      "negative_highlights": [
+        "Amazon.com Inc Stock (AMZN) Moved Down by 3.16% on Nov 16: Drivers Behind the Movement - TradingKey",
+        "Amazon.com Inc Stock (AMZN) Moved Up by 3.28% on Nov 18: Drivers Behind the Movement - TradingKey"
+      ],
+      "recent_headlines": [
+        "Here\u2019s Why Amazon.com Is One of the Best Blue Chip Stocks to Buy and Hold for 3 Years - Yahoo Finance",
+        "Amazon Stock Moves Higher: What's Going On? - Benzinga",
+        "Amazon: Snatch Up This Growth Stock Bargain Now (NASDAQ:AMZN) - Seeking Alpha",
+        "59 Analysts Rate Amazon a Buy. Here\u2019s Where the Stock Could Go - 24/7 Wall St.",
+        "Why is Amazon stock climbing today? - Investing.com"
+      ]
+    },
+    "qual": {
+      "priced_in": {
+        "valuation_tier": "Fair Value Range",
+        "priced_in_points": [
+          "P/E ratio reflects balanced market expectations for mid-range growth.",
+          "Forward P/E is higher than trailing P/E, pricing in potential earnings contraction."
+        ]
+      },
+      "macro_policy": {
+        "macro_factors": [
+          "Operating in United States under Federal Reserve (FED) interest rate policy environment.",
+          "Consumer sentiment and discretionary spending impact demand during inflation/rate shifts."
+        ],
+        "policy_risks": [
+          "Antitrust oversight, data privacy laws, and international tariff trade policies affect cross-border supply chains."
+        ]
+      },
+      "moat": {
+        "moat_tier": "Wide Moat",
+        "moat_score": 100.0,
+        "reasons": [
+          "Strong Return on Equity (ROE: 27.4%), indicating high capital efficiency and competitive advantage.",
+          "High net profit margin (16.9%), demonstrating pricing power.",
+          "Mega-cap scale ($2.90T) provides massive distribution and cost advantages."
+        ]
+      },
+      "qualitative_score": 80.0
+    },
+    "sig": {
+      "composite_score": 72.5,
+      "signal": "BUY",
+      "confidence_pct": 77.6,
+      "pillar_scores": {
+        "fundamentals": 68.0,
+        "valuation": 60.0,
+        "technicals": 82.4,
+        "sentiment": 54.0,
+        "analyst": 100.0,
+        "macro_moat": 80.0
+      },
+      "key_positives": [
+        "Exceptional Return on Equity (27.4%)",
+        "Low debt-to-equity ratio (49.7)",
+        "Significant price target upside (+21.8%)",
+        "Strong Wall Street analyst consensus (Strong Buy)"
+      ],
+      "key_risks": [
+        "Current ratio below 1.0 (0.99)",
+        "Negative free cash flow generation"
       ]
     }
   },
@@ -703,19 +950,19 @@
       "sector": "Communication Services",
       "industry": "Internet Content & Information",
       "summary": "Nebius Group N.V., a technology company, engages in building full-stack infrastructure to service the global AI industry in the United States, the United Kingdom, and internationally. It offers Nebius builds full-stack infrastructure for AI, including large-scale GPU clusters, cloud platforms, and tools and services for developers. The company also provides TripleTen, an edtech platform for re-skilling individuals for careers in technolgy; and Avride, which develops autonomous driving technology for self-driving cars and delivery robotics. It has a strategic alliance with NVIDIA Corporation to support the expansion of the company's AI cloud infrastructure. The company was formerly known as Yandex N.V. and changed its name to Nebius Group N.V. in August 2024. Nebius Group N.V. was founded in 1989 and is based in Schiphol, the Netherlands.",
-      "current_price": 104.595,
+      "current_price": 106.96,
       "previous_close": 106.035,
       "fifty_two_week_high": 299.86,
       "fifty_two_week_low": 73.52,
-      "volume": 7470857,
+      "volume": 25988040,
       "avg_volume": 21506245,
       "pe_ratio": null,
-      "forward_pe": -34.35946,
+      "forward_pe": -35.13636,
       "peg_ratio": 0.25,
-      "price_to_sales": 13.990376,
-      "price_to_book": 2.492375,
+      "price_to_sales": 14.306713,
+      "price_to_book": 2.54873,
       "ev_to_ebitda": 64.923,
-      "market_cap": 30636126208,
+      "market_cap": 31328839680,
       "enterprise_value": 39745810432,
       "eps_trailing": -0.26,
       "eps_forward": -3.04414,
@@ -742,72 +989,87 @@
       "recommendation_key": "buy",
       "recommendation_mean": 1.81818,
       "number_of_analysts": 20,
-      "implied_upside_pct": 124.198097423395,
+      "implied_upside_pct": 119.24083769633509,
       "rec_breakdown": {
-        "strongBuy": 2,
+        "strongBuy": 3,
         "buy": 13,
-        "hold": 6,
+        "hold": 5,
         "sell": 1,
         "strongSell": 0
       },
       "next_earnings_date": "2027-02-11",
       "earnings_high_est": -0.12,
       "earnings_low_est": -1.43,
-      "earnings_avg_est": -0.8725,
+      "earnings_avg_est": -0.8425,
       "_ticker_obj": "yfinance.Ticker object <NBIS>"
     },
     "tech": {
-      "latest_price": 104.595,
-      "sma_20": 141.34575080871582,
-      "sma_50": 186.7404005432129,
-      "sma_200": 179.62562545776368,
-      "rsi_14": 30.337666223090665,
+      "latest_price": 106.96,
+      "sma_20": 141.46575088500975,
+      "sma_50": 186.78840057373046,
+      "sma_200": 179.63762546539306,
+      "rsi_14": 30.976477296948033,
       "rsi_status": "BEARISH",
       "macd_data": {
-        "macd": -21.77878634928514,
-        "signal": -19.760040232723302,
-        "histogram": -2.0187461165618394,
+        "macd": -21.587333254591044,
+        "signal": -19.721749637266765,
+        "histogram": -1.8655836173242797,
         "crossover": "BEARISH"
       },
       "cross_status": "GOLDEN_CROSS",
-      "fifty_two_week_pos_pct": 13.72934740089396,
+      "fifty_two_week_pos_pct": 14.774235674280723,
       "high_52": 299.8599853515625,
       "low_52": 73.5199966430664,
       "returns": {
-        "1m": -39.03654745299098,
-        "3m": -52.26806111927216,
-        "6m": -52.44168440718635,
-        "1y": 15.52352434542803
+        "1m": -37.658101396547785,
+        "3m": -51.18879312890052,
+        "6m": -51.36634221705294,
+        "1y": 12.50657446443968
       },
       "technical_score": 25.0,
       "signals": [
-        "Price is 44.0% below 50-day SMA (Bearish)",
+        "Price is 42.7% below 50-day SMA (Bearish)",
         "50-day SMA is above 200-day SMA (Golden Cross)",
         "MACD histogram indicates negative bearish momentum"
       ]
     },
     "sent": {
-      "combined_polarity": 0.0,
-      "sentiment_score": 50.0,
+      "combined_polarity": 0.067,
+      "sentiment_score": 52.7,
       "label": "NEUTRAL",
       "news_stats": {
-        "polarity": 0.0,
-        "subjectivity": 0.0,
-        "positive_count": 0,
-        "negative_count": 0,
-        "neutral_count": 0
+        "polarity": 0.03138888888888889,
+        "subjectivity": 0.30722222222222223,
+        "positive_count": 3,
+        "negative_count": 1,
+        "neutral_count": 11,
+        "total": 15
       },
       "reddit_stats": {
-        "polarity": 0.0,
-        "subjectivity": 0.0,
-        "positive_count": 0,
-        "negative_count": 0,
-        "neutral_count": 0
+        "polarity": 0.150508658008658,
+        "subjectivity": 0.38891774891774894,
+        "positive_count": 4,
+        "negative_count": 1,
+        "neutral_count": 5,
+        "total": 10
       },
-      "headline_count": 0,
-      "positive_highlights": [],
-      "negative_highlights": [],
-      "recent_headlines": []
+      "headline_count": 25,
+      "positive_highlights": [
+        "Is it still a good time to buy NBIS? - Reddit",
+        "What's so good about NBIS? - Reddit",
+        "Nebius Shares Jump After Hours as Nvidia\u2019s Strong Quarterly Numbers Lift AI Infrastructure Stocks - TradingView"
+      ],
+      "negative_highlights": [
+        "What is everyone invested in other than NBIS? - Reddit",
+        "CoreWeave and Nebius: 2 AI Neocloud Stocks Due for a Rebound - Yahoo Finance"
+      ],
+      "recent_headlines": [
+        "CoreWeave and Nebius: 2 AI Neocloud Stocks Due for a Rebound - Yahoo Finance",
+        "Nebius: A $45 Billion AI Reckoning Is Coming - Seeking Alpha",
+        "Why Are Neocloud Stocks CoreWeave and Nebius Rising in Premarket Today, November 18? - TipRanks",
+        "Nebius Group Heads These 3 AI Stocks To Watch - Yahoo Finance",
+        "Nebius Shares Rise 4% After Key Trading Signal - Benzinga"
+      ]
     },
     "qual": {
       "priced_in": {
@@ -835,198 +1097,27 @@
       "qualitative_score": 41.0
     },
     "sig": {
-      "composite_score": 57.6,
+      "composite_score": 58.1,
       "signal": "HOLD",
-      "confidence_pct": 64.8,
+      "confidence_pct": 64.9,
       "pillar_scores": {
         "fundamentals": 47.0,
         "valuation": 80.0,
         "technicals": 25.0,
-        "sentiment": 50.0,
+        "sentiment": 52.7,
         "analyst": 97.0,
         "macro_moat": 41.0
       },
       "key_positives": [
         "Strong YoY revenue growth (571.3%)",
-        "Attractive Forward P/E (-34.4x)",
+        "Attractive Forward P/E (-35.1x)",
         "Favorable PEG ratio (0.25x < 1.0)",
-        "Significant price target upside (+124.2%)"
+        "Significant price target upside (+119.2%)"
       ],
       "key_risks": [
         "Subpar Return on Equity (1.5%)",
         "Negative free cash flow generation",
-        "Price is 44.0% below 50-day SMA (Bearish)"
-      ]
-    }
-  },
-  "ET": {
-    "data": {
-      "symbol": "ET",
-      "company_name": "Energy Transfer LP",
-      "exchange_info": {
-        "country": "United States",
-        "exchange": "NYSE/NASDAQ",
-        "central_bank": "Federal Reserve (FED)",
-        "currency_symbol": "$"
-      },
-      "currency": "USD",
-      "sector": "Energy",
-      "industry": "Oil & Gas Midstream",
-      "summary": "Energy Transfer LP, together with its subsidiaries, provides energy-related services in the United States. It operates through Intrastate Transportation and Storage; Interstate Transportation and Storage; Midstream; Natural Gas Liquid (NGL) and Refined Products Transportation and Services; Crude Oil Transportation and Services; Investment in Sunoco LP; Investment in USA Compression Partners, LP (USAC); and All Other segments. The company owns and operates natural gas transportation pipelines and storage facilities; and approximately 12,200 miles of intrastate natural gas transportation pipelines and 20,090 miles of interstate natural gas pipelines. It also sells natural gas to electric utilities, independent power plants, local distribution and other marketing companies, and industrial end-users. In addition, the company owns and operates natural gas gathering pipelines, processing plants, and treating and conditioning facilities; and natural gas gathering, compression, treating, dehydration and processing, oil pipeline facilities. Further, it owns 5,700 miles of NGL pipelines; NGL fractionation and storage facilities; and other NGL storage assets and terminals. Additionally, the company provides crude oil transportation, terminalling, trucking, acquisition, and marketing activities; owns and operates approximately 18,000 miles of crude oil trunk and gathering pipelines; and sells and distributes motor fuels and other petroleum products under the Sunoco and EcoMaxx brands. It also offers natural gas compression; wholesale power trading; and carbon dioxide and hydrogen sulfide removal services, as well as management of coal and natural resources properties; sells standing timber; leases coal-related infrastructure facilities; and collects oil and gas royalties. The company was formerly known as Energy Transfer Equity, L.P. and changed its name to Energy Transfer LP in October 2018. Energy Transfer LP was founded in 1996 and is headquartered in Dallas, Texas.",
-      "current_price": 19.15,
-      "previous_close": 19.11,
-      "fifty_two_week_high": 21.84,
-      "fifty_two_week_low": 16.18,
-      "volume": 1305796,
-      "avg_volume": 8736701,
-      "pe_ratio": 12.682119,
-      "forward_pe": 10.819209,
-      "peg_ratio": 0.54,
-      "price_to_sales": 0.52965945,
-      "price_to_book": 2.0633552,
-      "ev_to_ebitda": 8.569,
-      "market_cap": 65957429248,
-      "enterprise_value": 153731874816,
-      "eps_trailing": 1.51,
-      "eps_forward": 1.77,
-      "earnings_growth": 0.181,
-      "revenue_growth": 0.859,
-      "total_revenue": 124528001024,
-      "net_income": 5229000192,
-      "profit_margins": 0.04394,
-      "operating_margins": 0.0939,
-      "return_on_equity": 0.15574001,
-      "return_on_assets": 0.05244,
-      "total_debt": 70712000512,
-      "total_cash": 926000000,
-      "debt_to_equity": 141.659,
-      "current_ratio": 1.157,
-      "quick_ratio": 0.885,
-      "free_cash_flow": 3029750016,
-      "dividend_yield_pct": 7.15,
-      "payout_ratio": 0.8907,
-      "target_low": 22.0,
-      "target_mean": 24.65652,
-      "target_high": 28.0,
-      "target_median": 25.0,
-      "recommendation_key": "strong_buy",
-      "recommendation_mean": 1.47826,
-      "number_of_analysts": 23,
-      "implied_upside_pct": 28.754673629242834,
-      "rec_breakdown": {
-        "strongBuy": 5,
-        "buy": 15,
-        "hold": 3,
-        "sell": 0,
-        "strongSell": 0
-      },
-      "next_earnings_date": "2026-11-03",
-      "earnings_high_est": 0.47,
-      "earnings_low_est": 0.12792,
-      "earnings_avg_est": 0.36198,
-      "_ticker_obj": "yfinance.Ticker object <ET>"
-    },
-    "tech": {
-      "latest_price": 19.15,
-      "sma_20": 19.61607208251953,
-      "sma_50": 19.948186836242677,
-      "sma_200": 19.126328048706053,
-      "rsi_14": 24.512902093141577,
-      "rsi_status": "OVERSOLD",
-      "macd_data": {
-        "macd": -0.2303824813281281,
-        "signal": -0.2074320796175312,
-        "histogram": -0.022950401710596896,
-        "crossover": "BEARISH"
-      },
-      "cross_status": "GOLDEN_CROSS",
-      "fifty_two_week_pos_pct": 63.889791279405216,
-      "high_52": 21.449634892150804,
-      "low_52": 15.081256049634582,
-      "returns": {
-        "1m": -3.13703887150929,
-        "3m": -7.982472878511682,
-        "6m": -0.9264924453370238,
-        "1y": 21.06760384457582
-      },
-      "technical_score": 56.0,
-      "signals": [
-        "Price is 4.0% below 50-day SMA (Bearish)",
-        "50-day SMA is above 200-day SMA (Golden Cross)",
-        "RSI is oversold at 24.5 (Potential Rebound)",
-        "MACD histogram indicates negative bearish momentum"
-      ]
-    },
-    "sent": {
-      "combined_polarity": 0.0,
-      "sentiment_score": 50.0,
-      "label": "NEUTRAL",
-      "news_stats": {
-        "polarity": 0.0,
-        "subjectivity": 0.0,
-        "positive_count": 0,
-        "negative_count": 0,
-        "neutral_count": 0
-      },
-      "reddit_stats": {
-        "polarity": 0.0,
-        "subjectivity": 0.0,
-        "positive_count": 0,
-        "negative_count": 0,
-        "neutral_count": 0
-      },
-      "headline_count": 0,
-      "positive_highlights": [],
-      "negative_highlights": [],
-      "recent_headlines": []
-    },
-    "qual": {
-      "priced_in": {
-        "valuation_tier": "Value / Low Expectation",
-        "priced_in_points": [
-          "Low P/E ratio suggests market is pricing in modest growth or cyclical headwinds.",
-          "Forward P/E is 14.7% lower than trailing P/E, pricing in robust earnings recovery/growth.",
-          "PEG ratio of 0.54 suggests stock may be undervalued relative to expected growth."
-        ]
-      },
-      "macro_policy": {
-        "macro_factors": [
-          "Operating in United States under Federal Reserve (FED) interest rate policy environment.",
-          "Highly commodity price sensitive (oil, copper, iron ore) and global economic expansion cycles."
-        ],
-        "policy_risks": [
-          "Environmental emissions regulations, ESG mandates, and resource taxation policies."
-        ]
-      },
-      "moat": {
-        "moat_tier": "Narrow Moat",
-        "moat_score": 50.0,
-        "reasons": [
-          "Standard market positioning within industry."
-        ]
-      },
-      "qualitative_score": 50.0
-    },
-    "sig": {
-      "composite_score": 75.9,
-      "signal": "BUY",
-      "confidence_pct": 69.8,
-      "pillar_scores": {
-        "fundamentals": 80.0,
-        "valuation": 100.0,
-        "technicals": 56.0,
-        "sentiment": 50.0,
-        "analyst": 100.0,
-        "macro_moat": 50.0
-      },
-      "key_positives": [
-        "Solid Return on Equity (15.6%)",
-        "Strong YoY revenue growth (85.9%)",
-        "Positive free cash flow generation",
-        "Low P/E ratio (12.7x)"
-      ],
-      "key_risks": [
-        "Price is 4.0% below 50-day SMA (Bearish)"
+        "Price is 42.7% below 50-day SMA (Bearish)"
       ]
     }
   }
