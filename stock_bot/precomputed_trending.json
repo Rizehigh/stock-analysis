@@ -74,9 +74,9 @@
       "rsi_14": 13.747035703402076,
       "rsi_status": "OVERSOLD",
       "macd_data": {
-        "macd": -19.828226889286526,
-        "signal": -15.198019916919675,
-        "histogram": -4.630206972366851,
+        "macd": -19.828226889336605,
+        "signal": -15.198019916993314,
+        "histogram": -4.6302069723432915,
         "crossover": "BEARISH"
       },
       "cross_status": "GOLDEN_CROSS",
@@ -98,15 +98,15 @@
       ]
     },
     "sent": {
-      "combined_polarity": 0.02,
-      "sentiment_score": 50.8,
+      "combined_polarity": 0.009,
+      "sentiment_score": 50.4,
       "label": "NEUTRAL",
       "news_stats": {
-        "polarity": 0.020370370370370372,
-        "subjectivity": 0.3381481481481482,
-        "positive_count": 5,
-        "negative_count": 3,
-        "neutral_count": 7,
+        "polarity": 0.004814814814814813,
+        "subjectivity": 0.24814814814814812,
+        "positive_count": 4,
+        "negative_count": 2,
+        "neutral_count": 9,
         "total": 15
       },
       "reddit_stats": {
@@ -121,19 +121,19 @@
       "positive_highlights": [
         "NVDA Stock Sees Biggest Fall In 22 Months, But Top Analyst Says Nvidia\u2019s AI Boom Isn\u2019t Over Yet \u2014 Here Are 5 Reasons Why - Yahoo Finance",
         "Nvidia: The CEO Is Gone, The Earnings Engine Isn't (Strong Buy) (Rating Upgrade) - Seeking Alpha",
-        "QUICK SPARK: Nvidia Stock Is Bleeding Like It's 2008 - Benzinga"
+        "$NVDA crushing earnings and still crashing makes absolutely no sense to me. What exactly does the market want from $NVDA? - Reddit"
       ],
       "negative_highlights": [
         "NVIDIA Is Down 37% in a Month. Can NVDA Stock Get Back to $200? - 24/7 Wall St.",
-        "EXCLUSIVE: Nvidia's accounting is a focus of US SEC investigation, sources say - Reuters",
-        "Nvidia's accounting is a focus of US SEC investigation, sources say - Reddit"
+        "Nvidia's accounting is a focus of US SEC investigation, sources say - Reddit",
+        "Nvidia: The Worst Is Yet To Come (NASDAQ:NVDA) - Seeking Alpha"
       ],
       "recent_headlines": [
-        "NVIDIA Corporation (NVDA) stock price, news, quote and history - Yahoo Finance Australia",
-        "Nvidia: This Has Gone Too Far - Seeking Alpha",
         "NVIDIA Corporation (NVDA) stock price, news, quote and history - Yahoo Finance UK",
-        "NVIDIA Is Down 37% in a Month. Can NVDA Stock Get Back to $200? - 24/7 Wall St.",
-        "EXCLUSIVE: Nvidia's accounting is a focus of US SEC investigation, sources say - Reuters"
+        "NVIDIA Corporation (NVDA) stock price, news, quote and history - Yahoo Finance Australia",
+        "Nvidia Stock Has Suffered $2.75 Trillion Wipeout as Charts Point to a Drop to $100 - Benzinga",
+        "Nvidia: This Has Gone Too Far - Seeking Alpha",
+        "NVIDIA Is Down 37% in a Month. Can NVDA Stock Get Back to $200? - 24/7 Wall St."
       ]
     },
     "qual": {
@@ -166,14 +166,14 @@
       "qualitative_score": 80.0
     },
     "sig": {
-      "composite_score": 80.5,
+      "composite_score": 80.4,
       "signal": "BUY",
-      "confidence_pct": 68.4,
+      "confidence_pct": 68.3,
       "pillar_scores": {
         "fundamentals": 100.0,
         "valuation": 95.0,
         "technicals": 42.0,
-        "sentiment": 50.8,
+        "sentiment": 50.4,
         "analyst": 97.0,
         "macro_moat": 80.0
       },
@@ -185,6 +185,185 @@
       ],
       "key_risks": [
         "Price is 39.4% below 50-day SMA (Bearish)"
+      ]
+    }
+  },
+  "VOO": {
+    "data": {
+      "symbol": "VOO",
+      "company_name": "Vanguard S&P 500 ETF",
+      "exchange_info": {
+        "country": "United States",
+        "exchange": "NYSE/NASDAQ",
+        "central_bank": "Federal Reserve (FED)",
+        "currency_symbol": "$"
+      },
+      "currency": "USD",
+      "sector": "N/A",
+      "industry": "N/A",
+      "summary": "The fund manager employs an indexing investment approach designed to track the performance of the Standard & Poor's 500 Index, a widely recognized benchmark of U.S. stock market performance that is dominated by the stocks of large U.S. companies. The advisor attempts to replicate the target index by investing all, or substantially all, of its assets in the stocks that make up the index, holding each stock in approximately the same proportion as its weighting in the index. The fund is non-diversified.",
+      "current_price": 635.54,
+      "previous_close": 658.01,
+      "fifty_two_week_high": 718.47,
+      "fifty_two_week_low": 578.46,
+      "volume": 31649485,
+      "avg_volume": 8108429,
+      "pe_ratio": 21.470316,
+      "forward_pe": null,
+      "peg_ratio": null,
+      "price_to_sales": null,
+      "price_to_book": 1.6260291,
+      "ev_to_ebitda": null,
+      "market_cap": null,
+      "enterprise_value": null,
+      "eps_trailing": null,
+      "eps_forward": null,
+      "earnings_growth": null,
+      "revenue_growth": null,
+      "total_revenue": null,
+      "net_income": null,
+      "profit_margins": null,
+      "operating_margins": null,
+      "return_on_equity": null,
+      "return_on_assets": null,
+      "total_debt": null,
+      "total_cash": null,
+      "debt_to_equity": null,
+      "current_ratio": null,
+      "quick_ratio": null,
+      "free_cash_flow": null,
+      "dividend_yield_pct": 1.07,
+      "payout_ratio": null,
+      "target_low": null,
+      "target_mean": null,
+      "target_high": null,
+      "target_median": null,
+      "recommendation_key": "N/A",
+      "recommendation_mean": null,
+      "number_of_analysts": 0,
+      "implied_upside_pct": null,
+      "rec_breakdown": {
+        "strongBuy": 0,
+        "buy": 0,
+        "hold": 0,
+        "sell": 0,
+        "strongSell": 0
+      },
+      "next_earnings_date": "Unknown",
+      "earnings_high_est": null,
+      "earnings_low_est": null,
+      "earnings_avg_est": null,
+      "_ticker_obj": "yfinance.Ticker object <VOO>"
+    },
+    "tech": {
+      "latest_price": 635.54,
+      "sma_20": 687.4984985351563,
+      "sma_50": 698.6549584960937,
+      "sma_200": 671.1723672485351,
+      "rsi_14": 29.522760902746228,
+      "rsi_status": "OVERSOLD",
+      "macd_data": {
+        "macd": -11.557980653286563,
+        "signal": -6.676226795206901,
+        "histogram": -4.881753858079662,
+        "crossover": "BEARISH"
+      },
+      "cross_status": "GOLDEN_CROSS",
+      "fifty_two_week_pos_pct": 42.075423101368536,
+      "high_52": 718.469970703125,
+      "low_52": 575.3010860201117,
+      "returns": {
+        "1m": -9.02402238077994,
+        "3m": -9.494880044738496,
+        "6m": -7.3883480673263335,
+        "1y": 6.094934637526106
+      },
+      "technical_score": 43.4,
+      "signals": [
+        "Price is 9.0% below 50-day SMA (Bearish)",
+        "50-day SMA is above 200-day SMA (Golden Cross)",
+        "RSI is oversold at 29.5 (Potential Rebound)",
+        "MACD histogram indicates negative bearish momentum"
+      ]
+    },
+    "sent": {
+      "combined_polarity": 0.273,
+      "sentiment_score": 60.9,
+      "label": "VERY BULLISH",
+      "news_stats": {
+        "polarity": 0.3432738095238095,
+        "subjectivity": 0.44271825396825404,
+        "positive_count": 11,
+        "negative_count": 0,
+        "neutral_count": 4,
+        "total": 15
+      },
+      "reddit_stats": {
+        "polarity": 0.11000000000000001,
+        "subjectivity": 0.045,
+        "positive_count": 2,
+        "negative_count": 0,
+        "neutral_count": 8,
+        "total": 10
+      },
+      "headline_count": 25,
+      "positive_highlights": [
+        "Tech Stocks Are Stumbling. History Says This ETF Is the Best to Buy on the Dip. - Yahoo Finance",
+        "Best ETF\u2019s to pair with VOO - Reddit",
+        "Report: Goldman Sachs Predicts the S&P 500 Will Gain 26% in 12 Months - The Motley Fool"
+      ],
+      "negative_highlights": [],
+      "recent_headlines": [
+        "If the S&P 500 Drops by 20%, I'm Buying These 3 ETFs Without Hesitation - Yahoo Finance",
+        "If I Could Tell All S&P 500 Investors Just 1 Thing Right Now, It's This - The Motley Fool",
+        "A 66-Year-Old With $600,000 in VOO Owns Nvidia Without Ever Buying a Share. SCHD Owns None. - 24/7 Wall St.",
+        "Vanguard's VOO vs. Schwab's SCHD: How Much You Need Invested to Earn $1,000 a Month in Retirement - FinanceBuzz",
+        "Stocks Erase 2026 Gains as AI Selloff Deepens - ETF.com"
+      ]
+    },
+    "qual": {
+      "priced_in": {
+        "valuation_tier": "Fair Value Range",
+        "priced_in_points": [
+          "P/E ratio reflects balanced market expectations for mid-range growth."
+        ]
+      },
+      "macro_policy": {
+        "macro_factors": [
+          "Operating in United States under Federal Reserve (FED) interest rate policy environment.",
+          "Performance closely aligned with overall United States economic trajectory."
+        ],
+        "policy_risks": [
+          "Standard corporate governance and trade policy conditions apply."
+        ]
+      },
+      "moat": {
+        "moat_tier": "Narrow Moat",
+        "moat_score": 50.0,
+        "reasons": [
+          "Standard market positioning within industry."
+        ]
+      },
+      "qualitative_score": 50.0
+    },
+    "sig": {
+      "composite_score": 51.6,
+      "signal": "HOLD",
+      "confidence_pct": 83.6,
+      "pillar_scores": {
+        "fundamentals": 50.0,
+        "valuation": 55.0,
+        "technicals": 43.4,
+        "sentiment": 60.9,
+        "analyst": 50.0,
+        "macro_moat": 50.0
+      },
+      "key_positives": [
+        "50-day SMA is above 200-day SMA (Golden Cross)",
+        "RSI is oversold at 29.5 (Potential Rebound)"
+      ],
+      "key_risks": [
+        "Price is 9.0% below 50-day SMA (Bearish)"
       ]
     }
   },
@@ -286,23 +465,23 @@
       ]
     },
     "sent": {
-      "combined_polarity": 0.174,
-      "sentiment_score": 57.0,
+      "combined_polarity": 0.162,
+      "sentiment_score": 56.5,
       "label": "BULLISH",
       "news_stats": {
-        "polarity": 0.19,
-        "subjectivity": 0.35333333333333333,
-        "positive_count": 7,
+        "polarity": 0.18981481481481483,
+        "subjectivity": 0.3812962962962963,
+        "positive_count": 8,
         "negative_count": 0,
-        "neutral_count": 8,
+        "neutral_count": 7,
         "total": 15
       },
       "reddit_stats": {
-        "polarity": 0.13833333333333334,
-        "subjectivity": 0.39666666666666667,
-        "positive_count": 4,
+        "polarity": 0.09833333333333334,
+        "subjectivity": 0.33666666666666667,
+        "positive_count": 3,
         "negative_count": 3,
-        "neutral_count": 3,
+        "neutral_count": 4,
         "total": 10
       },
       "headline_count": 25,
@@ -313,8 +492,8 @@
       ],
       "negative_highlights": [
         "Windows Updated automatically updating AMD drivers is enough for me to go back to team Green - Reddit",
-        "Windows Update just suggested me 2.2.0.121 \"System\" software from AMD. Anyone else with this? Curious why it shows up with fully updated AM4 drivers. - Reddit",
-        "AMD Japan says \u201cAMD loves gamers,\u201d gamers respond with a Community Note about data center priorities - Reddit"
+        "AMD Japan says \u201cAMD loves gamers,\u201d gamers respond with a Community Note about data center priorities - Reddit",
+        "Windows Update just suggested me 2.2.0.121 \"System\" software from AMD. Anyone else with this? Curious why it shows up with fully updated AM4 drivers. - Reddit"
       ],
       "recent_headlines": [
         "AMD Shares Slump After Shortseller Raises China Concerns - Bloomberg.com",
@@ -353,14 +532,14 @@
       "qualitative_score": 68.0
     },
     "sig": {
-      "composite_score": 69.1,
+      "composite_score": 69.0,
       "signal": "BUY",
       "confidence_pct": 67.5,
       "pillar_scores": {
         "fundamentals": 93.0,
         "valuation": 55.0,
         "technicals": 30.0,
-        "sentiment": 57.0,
+        "sentiment": 56.5,
         "analyst": 100.0,
         "macro_moat": 68.0
       },
@@ -373,185 +552,6 @@
       "key_risks": [
         "High P/E ratio (90.7x)",
         "Price is 23.3% below 50-day SMA (Bearish)"
-      ]
-    }
-  },
-  "VOO": {
-    "data": {
-      "symbol": "VOO",
-      "company_name": "Vanguard S&P 500 ETF",
-      "exchange_info": {
-        "country": "United States",
-        "exchange": "NYSE/NASDAQ",
-        "central_bank": "Federal Reserve (FED)",
-        "currency_symbol": "$"
-      },
-      "currency": "USD",
-      "sector": "N/A",
-      "industry": "N/A",
-      "summary": "The fund manager employs an indexing investment approach designed to track the performance of the Standard & Poor's 500 Index, a widely recognized benchmark of U.S. stock market performance that is dominated by the stocks of large U.S. companies. The advisor attempts to replicate the target index by investing all, or substantially all, of its assets in the stocks that make up the index, holding each stock in approximately the same proportion as its weighting in the index. The fund is non-diversified.",
-      "current_price": 635.54,
-      "previous_close": 658.01,
-      "fifty_two_week_high": 718.47,
-      "fifty_two_week_low": 578.46,
-      "volume": 31649485,
-      "avg_volume": 8108429,
-      "pe_ratio": 21.470316,
-      "forward_pe": null,
-      "peg_ratio": null,
-      "price_to_sales": null,
-      "price_to_book": null,
-      "ev_to_ebitda": null,
-      "market_cap": null,
-      "enterprise_value": null,
-      "eps_trailing": null,
-      "eps_forward": null,
-      "earnings_growth": null,
-      "revenue_growth": null,
-      "total_revenue": null,
-      "net_income": null,
-      "profit_margins": null,
-      "operating_margins": null,
-      "return_on_equity": null,
-      "return_on_assets": null,
-      "total_debt": null,
-      "total_cash": null,
-      "debt_to_equity": null,
-      "current_ratio": null,
-      "quick_ratio": null,
-      "free_cash_flow": null,
-      "dividend_yield_pct": 1.07,
-      "payout_ratio": null,
-      "target_low": null,
-      "target_mean": null,
-      "target_high": null,
-      "target_median": null,
-      "recommendation_key": "N/A",
-      "recommendation_mean": null,
-      "number_of_analysts": 0,
-      "implied_upside_pct": null,
-      "rec_breakdown": {
-        "strongBuy": 0,
-        "buy": 0,
-        "hold": 0,
-        "sell": 0,
-        "strongSell": 0
-      },
-      "next_earnings_date": "Unknown",
-      "earnings_high_est": null,
-      "earnings_low_est": null,
-      "earnings_avg_est": null,
-      "_ticker_obj": "yfinance.Ticker object <VOO>"
-    },
-    "tech": {
-      "latest_price": 635.54,
-      "sma_20": 687.4984985351563,
-      "sma_50": 698.6549584960937,
-      "sma_200": 671.1723669433594,
-      "rsi_14": 29.522760902746228,
-      "rsi_status": "OVERSOLD",
-      "macd_data": {
-        "macd": -11.557980653267691,
-        "signal": -6.676226795179092,
-        "histogram": -4.881753858088599,
-        "crossover": "BEARISH"
-      },
-      "cross_status": "GOLDEN_CROSS",
-      "fifty_two_week_pos_pct": 42.075423101368536,
-      "high_52": 718.469970703125,
-      "low_52": 575.3010860201117,
-      "returns": {
-        "1m": -9.02402238077994,
-        "3m": -9.494880044738496,
-        "6m": -7.3883480673263335,
-        "1y": 6.094934637526106
-      },
-      "technical_score": 43.4,
-      "signals": [
-        "Price is 9.0% below 50-day SMA (Bearish)",
-        "50-day SMA is above 200-day SMA (Golden Cross)",
-        "RSI is oversold at 29.5 (Potential Rebound)",
-        "MACD histogram indicates negative bearish momentum"
-      ]
-    },
-    "sent": {
-      "combined_polarity": 0.233,
-      "sentiment_score": 59.3,
-      "label": "BULLISH",
-      "news_stats": {
-        "polarity": 0.3282738095238095,
-        "subjectivity": 0.4871626984126985,
-        "positive_count": 11,
-        "negative_count": 0,
-        "neutral_count": 4,
-        "total": 15
-      },
-      "reddit_stats": {
-        "polarity": 0.01,
-        "subjectivity": 0.015000000000000003,
-        "positive_count": 1,
-        "negative_count": 0,
-        "neutral_count": 9,
-        "total": 10
-      },
-      "headline_count": 25,
-      "positive_highlights": [
-        "Tech Stocks Are Stumbling. History Says This ETF Is the Best to Buy on the Dip. - The Motley Fool",
-        "If the S&P 500 Drops by 20%, I'm Buying These 3 ETFs Without Hesitation - The Motley Fool",
-        "Report: Goldman Sachs Predicts the S&P 500 Will Gain 26% in 12 Months - The Motley Fool"
-      ],
-      "negative_highlights": [],
-      "recent_headlines": [
-        "If the S&P 500 Drops by 20%, I'm Buying These 3 ETFs Without Hesitation - Yahoo Finance",
-        "If I Could Tell All S&P 500 Investors Just 1 Thing Right Now, It's This - The Motley Fool",
-        "A 66-Year-Old With $600,000 in VOO Owns Nvidia Without Ever Buying a Share. SCHD Owns None. - 24/7 Wall St.",
-        "VOO vs. DRAM: AI Chip Bet or Broad Market \u2014 Which ETF Wins? - TipRanks",
-        "Stocks Erase 2026 Gains as AI Selloff Deepens - ETF.com"
-      ]
-    },
-    "qual": {
-      "priced_in": {
-        "valuation_tier": "Fair Value Range",
-        "priced_in_points": [
-          "P/E ratio reflects balanced market expectations for mid-range growth."
-        ]
-      },
-      "macro_policy": {
-        "macro_factors": [
-          "Operating in United States under Federal Reserve (FED) interest rate policy environment.",
-          "Performance closely aligned with overall United States economic trajectory."
-        ],
-        "policy_risks": [
-          "Standard corporate governance and trade policy conditions apply."
-        ]
-      },
-      "moat": {
-        "moat_tier": "Narrow Moat",
-        "moat_score": 50.0,
-        "reasons": [
-          "Standard market positioning within industry."
-        ]
-      },
-      "qualitative_score": 50.0
-    },
-    "sig": {
-      "composite_score": 51.4,
-      "signal": "HOLD",
-      "confidence_pct": 84.1,
-      "pillar_scores": {
-        "fundamentals": 50.0,
-        "valuation": 55.0,
-        "technicals": 43.4,
-        "sentiment": 59.3,
-        "analyst": 50.0,
-        "macro_moat": 50.0
-      },
-      "key_positives": [
-        "50-day SMA is above 200-day SMA (Golden Cross)",
-        "RSI is oversold at 29.5 (Potential Rebound)"
-      ],
-      "key_risks": [
-        "Price is 9.0% below 50-day SMA (Bearish)"
       ]
     }
   },
@@ -626,13 +626,13 @@
       "latest_price": 594.51,
       "sma_20": 786.6490020751953,
       "sma_50": 912.1925354003906,
-      "sma_200": 772.3604133605957,
+      "sma_200": 772.3604135131836,
       "rsi_14": 30.338812410335777,
       "rsi_status": "BEARISH",
       "macd_data": {
-        "macd": -69.2101379278215,
-        "signal": -59.537034002838304,
-        "histogram": -9.673103924983202,
+        "macd": -69.2101379278331,
+        "signal": -59.53703400285529,
+        "histogram": -9.67310392497781,
         "crossover": "BEARISH"
       },
       "cross_status": "GOLDEN_CROSS",
@@ -653,20 +653,20 @@
       ]
     },
     "sent": {
-      "combined_polarity": 0.016,
-      "sentiment_score": 50.6,
+      "combined_polarity": -0.007,
+      "sentiment_score": 49.7,
       "label": "NEUTRAL",
       "news_stats": {
-        "polarity": -0.012638888888888889,
-        "subjectivity": 0.20847222222222223,
-        "positive_count": 2,
-        "negative_count": 3,
+        "polarity": -0.04597222222222222,
+        "subjectivity": 0.16180555555555554,
+        "positive_count": 1,
+        "negative_count": 4,
         "neutral_count": 10,
         "total": 15
       },
       "reddit_stats": {
         "polarity": 0.08361111111111111,
-        "subjectivity": 0.3319444444444445,
+        "subjectivity": 0.33194444444444443,
         "positive_count": 3,
         "negative_count": 2,
         "neutral_count": 5,
@@ -675,20 +675,20 @@
       "headline_count": 25,
       "positive_highlights": [
         "Why MU is a huge buy - Reddit",
-        "Micron Keeps Falling as Memory Stocks Get Agonizingly Cheap - Barron's",
-        "Micron's revenue rose 346% last year while its cost of revenue rose 10%. Is there a precedent for a manufacturer holding a margin like this? - Reddit"
+        "Micron's revenue rose 346% last year while its cost of revenue rose 10%. Is there a precedent for a manufacturer holding a margin like this? - Reddit",
+        "Micron is still super undervalued or nah? - Reddit"
       ],
       "negative_highlights": [
         "Micron Is Down 32% in a Month. Can MU Stock Get Back to $1,000? - 24/7 Wall St.",
         "Been watching MU pretty closely these past couple weeks and honestly it\u2019s hard to ignore what\u2019s going on here. - Reddit",
-        "Micron leads semiconductor and AI stocks down as SOX plunges 7% - Seeking Alpha"
+        "Micron (MU) Stock Sinks As Market Gains: Here's Why - Yahoo Finance"
       ],
       "recent_headlines": [
-        "Micron Keeps Falling as Memory Stocks Get Agonizingly Cheap - Barron's",
-        "Micron Is Surfing the AI Upcycle, but We See a Peak On the Horizon - Morningstar",
+        "Micron: A 40% Drop With A $150B Backlog (Rating Upgrade) (NASDAQ:MU) - Seeking Alpha",
+        "Micron vs. NVIDIA: Which Semiconductor Stock Has the Edge? - Zacks Investment Research",
+        "MU Stock Quote Price and Forecast - CNN",
         "Why Micron Stock Is Falling Today? - Benzinga",
-        "I Picked the Wrong Week to Buy the Dip, and Other Observations From a Miserable Few Days in the Market - 24/7 Wall St.",
-        "Micron Technology (MU) Stock Price Quote & News - Moomoo"
+        "Micron Technology (MU) Keeps DRAM Price Fixing Lawsuit Alive After Judge Rejection - Yahoo Finance"
       ]
     },
     "qual": {
@@ -721,14 +721,14 @@
       "qualitative_score": 80.0
     },
     "sig": {
-      "composite_score": 78.3,
+      "composite_score": 78.2,
       "signal": "BUY",
-      "confidence_pct": 62.2,
+      "confidence_pct": 62.0,
       "pillar_scores": {
         "fundamentals": 100.0,
         "valuation": 95.0,
         "technicals": 25.0,
-        "sentiment": 50.6,
+        "sentiment": 49.7,
         "analyst": 100.0,
         "macro_moat": 80.0
       },
@@ -839,8 +839,8 @@
       ]
     },
     "sent": {
-      "combined_polarity": 0.041,
-      "sentiment_score": 51.6,
+      "combined_polarity": 0.066,
+      "sentiment_score": 52.6,
       "label": "NEUTRAL",
       "news_stats": {
         "polarity": 0.025008417508417504,
@@ -851,28 +851,28 @@
         "total": 15
       },
       "reddit_stats": {
-        "polarity": 0.07708333333333332,
-        "subjectivity": 0.22208333333333333,
-        "positive_count": 3,
+        "polarity": 0.16178571428571428,
+        "subjectivity": 0.2509523809523809,
+        "positive_count": 4,
         "negative_count": 0,
-        "neutral_count": 7,
+        "neutral_count": 6,
         "total": 10
       },
       "headline_count": 25,
       "positive_highlights": [
-        "Analyst Says Sandisk Corp. (SNDK) Offers More Than 100% Upside. Should You Buy? - Yahoo Finance",
-        "$SNDK went from $200 \u2192 $2,000 in under 2 years. I missed it. How do people actually build this kind of conviction? - Reddit",
-        "Bought SanDisk (SNDK) at $2,330. Did I mess up buying the top or is this just a healthy pullback? - Reddit"
+        "After Blowout Earnings, Why SNDK Sandisk is the best Momentum Play right now - Reddit",
+        "Is SNDK cheap? Forward P/E under 10 - Reddit",
+        "$SNDK went from $200 \u2192 $2,000 in under 2 years. I missed it. How do people actually build this kind of conviction? - Reddit"
       ],
       "negative_highlights": [
         "SanDisk Corporation Stock (SNDK) Moved Down by 3.30% on Nov 18: What Signal Does It Send? - TradingKey"
       ],
       "recent_headlines": [
         "Why Sandisk Stock Is Falling Today? - Benzinga",
-        "Sandisk Corporation (SNDK) Stock Forecasts - Yahoo Finance",
         "Sandisk Corporation completes 8-for-1 stock split and increases authorized shares - Investing.com",
+        "Sandisk Corporation (SNDK) Stock Forecasts - Yahoo Finance",
         "SanDisk Stock Has Pulled Back. Here\u2019s Where Shares Could Be Headed Next - 24/7 Wall St.",
-        "Sandisk Corporation Stock 12\u2011Month Price Target Raised to $2,186.25, Implies 2216% Upside - TradingView"
+        "New Buy Rating for SanDisk Corp (SNDK), the Technology Giant - The Globe and Mail"
       ]
     },
     "qual": {
@@ -903,14 +903,14 @@
       "qualitative_score": 71.0
     },
     "sig": {
-      "composite_score": 75.3,
+      "composite_score": 75.5,
       "signal": "BUY",
-      "confidence_pct": 65.7,
+      "confidence_pct": 65.9,
       "pillar_scores": {
         "fundamentals": 100.0,
         "valuation": 80.0,
         "technicals": 30.0,
-        "sentiment": 51.6,
+        "sentiment": 52.6,
         "analyst": 100.0,
         "macro_moat": 71.0
       },
@@ -996,13 +996,13 @@
       "latest_price": 68.62,
       "sma_20": 70.2125,
       "sma_50": 68.08769882202148,
-      "sma_200": 72.92393077850342,
+      "sma_200": 72.92393054962159,
       "rsi_14": 46.70276362910015,
       "rsi_status": "NEUTRAL",
       "macd_data": {
-        "macd": 0.7973289300237667,
-        "signal": 1.0538835640855186,
-        "histogram": -0.25655463406175194,
+        "macd": 0.7973289300232125,
+        "signal": 1.0538835640847164,
+        "histogram": -0.2565546340615039,
         "crossover": "BEARISH"
       },
       "cross_status": "DEATH_CROSS",
@@ -1013,7 +1013,7 @@
         "1m": -1.3797094075761018,
         "3m": 0.37490529338155554,
         "6m": -7.877371956545598,
-        "1y": 8.348447394720537
+        "1y": 8.348434342491306
       },
       "technical_score": 31.2,
       "signals": [
@@ -1023,20 +1023,20 @@
       ]
     },
     "sent": {
-      "combined_polarity": 0.113,
-      "sentiment_score": 54.5,
+      "combined_polarity": 0.114,
+      "sentiment_score": 54.6,
       "label": "BULLISH",
       "news_stats": {
-        "polarity": 0.1236644219977553,
-        "subjectivity": 0.4375982042648709,
+        "polarity": 0.12517957351290682,
+        "subjectivity": 0.44783389450056105,
         "positive_count": 12,
         "negative_count": 1,
         "neutral_count": 2,
         "total": 15
       },
       "reddit_stats": {
-        "polarity": 0.08681818181818182,
-        "subjectivity": 0.23272727272727273,
+        "polarity": 0.08727272727272725,
+        "subjectivity": 0.2825757575757576,
         "positive_count": 5,
         "negative_count": 0,
         "neutral_count": 5,
@@ -1056,7 +1056,7 @@
         "Anthropic IPO Live Updates: Company Value Surges in Stock Market Debut - The New York Times",
         "Anthropic Debuts on Wall Street as a $2 Trillion Company - The New York Times",
         "The Biggest Video Game Ever - The New York Times",
-        "Anthropic\u2019s Public Debut Sets Up \u2018Experiment\u2019 in Corporate Power - The New York Times"
+        "The New York Times Adds 420,000 Digital Subscribers - The New York Times"
       ]
     },
     "qual": {
@@ -1094,7 +1094,7 @@
         "fundamentals": 93.0,
         "valuation": 43.0,
         "technicals": 31.2,
-        "sentiment": 54.5,
+        "sentiment": 54.6,
         "analyst": 87.0,
         "macro_moat": 62.0
       },
